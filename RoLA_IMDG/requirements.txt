@@ -1,0 +1,9 @@
+torch>=2.4.0
+mlx>=0.17.1
+mlx-lm>=0.17.1
+transformers>=4.44.2
+huggingface-hub>=0.24.6
+datasets>=2.21.0
+PyPDF2>=3.0.1
+ipykernel>=6.29.5
+ipywidgets>=8.1.5
