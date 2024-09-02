@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY20240915091200",
+  "shipperReference": "LG20240915-002",
+  "voyageDetails": {
+    "vesselName": "MAGNOLIA STAR",
+    "voyageNumber": "2024045W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "INCHEON, KOREA",
+    "portOfLoading": "INCHEON, KOREA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "AMSTERDAM, NETHERLANDS",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEAWAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "LG ELECTRONICS INC.",
+      "address": "LG TWIN TOWERS, 128 YEOUI-DAERO, YEONGDEUNGPO-GU, SEOUL",
+      "country": "KOREA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "PHILIPS CONSUMER ELECTRONICS B.V.",
+      "address": "HIGH TECH CAMPUS 52, 5656 AG EINDHOVEN",
+      "country": "NETHERLANDS",
+      "email": "logistics@philips.com",
+      "telephone": "+31 40 27 82 758"
+    },
+    "notifyParty": {
+      "name": "PHILIPS CONSUMER ELECTRONICS B.V.",
+      "address": "HIGH TECH CAMPUS 52, 5656 AG EINDHOVEN",
+      "country": "NETHERLANDS",
+      "email": "logistics@philips.com",
+      "telephone": "+31 40 27 82 758"
+    }
+  },
+  "shippingTerm": "CY / Door",
+  "hsCode": "852872",
+  "commodityDescription": "LCD TV SETS",
+  "containers": [
+    {
+      "containerNumber": "TEMU1234567",
+      "sealNumber": "LG98765",
+      "marksAndNumbers": "PHILIPS TV",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD TV SETS 55 INCH, MODEL XYZ123",
+      "grossWeight": 15000.000,
+      "unitOfgrossWeight": "KGS",
+      "measurement": 80.000,
+      "unitofMeasurement": "CBM"
+    },
+    {
+      "containerNumber": "TEMU7654321",
+      "sealNumber": "LG98766",
+      "marksAndNumbers": "PHILIPS TV",
+      "numberOfPackages": 400,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD TV SETS 65 INCH, MODEL XYZ456",
+      "grossWeight": 16000.000,
+      "unitOfgrossWeight": "KGS",
+      "measurement": 85.000,
+      "unitofMeasurement": "CBM"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 900,
+    "unitOfMeasurement": "CARTONS",
+    "totalGrossWeight": 31000.000,
+    "unitOfgrossWeight": "KGS",
+    "totalMeasurement": 165.000,
+    "unitofMeasurement": "CBM"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-PHIL-2024-001",
+    "hsCode": "852872",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC78901234567"
+    },
+    "certificateDetails": "CE-2024-987654",
+    "originalBLDistribution": {
+      "name": "LG ELECTRONICS LOGISTICS BV",
+      "address": "KRIJGSMAN 1, 1186 DM AMSTELVEEN, NETHERLANDS",
+      "telephone": "+31 20 456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "LG ELECTRONICS INC.",
+      "address": "LG TWIN TOWERS, 128 YEOUI-DAERO, YEONGDEUNGPO-GU, SEOUL, KOREA",
+      "telephone": "+82 2 3777 1114",
+      "fax": "+82 2 3777 5555"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "HANDLE WITH CARE, FRAGILE ELECTRONICS"
+  }
+}

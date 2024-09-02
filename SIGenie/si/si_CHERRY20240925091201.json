@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY20240920091201",
+  "shipperReference": "SS20240920-003",
+  "voyageDetails": {
+    "vesselName": "CHERRY BLOSSOM",
+    "voyageNumber": "2024052E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ULSAN, KOREA",
+    "portOfLoading": "ULSAN, KOREA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ULSAN, KOREA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "129, SAMSUNG-RO, YEONGTONG-GU, SUWON-SI, GYEONGGI-DO",
+      "country": "KOREA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "SAMSUNG ELECTRONICS GmbH",
+      "address": "AM KRONBERGER HANG 6, 65824 SCHWALBACH AM TAUNUS",
+      "country": "GERMANY",
+      "email": "logistics.de@samsung.com",
+      "telephone": "+49 6196 66 1000"
+    },
+    "notifyParty": {
+      "name": "SAMSUNG ELECTRONICS GmbH",
+      "address": "AM KRONBERGER HANG 6, 65824 SCHWALBACH AM TAUNUS",
+      "country": "GERMANY",
+      "email": "logistics.de@samsung.com",
+      "telephone": "+49 6196 66 1000"
+    }
+  },
+  "shippingTerm": "CY / Door",
+  "hsCode": "847130",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "SAMU9876543",
+      "sealNumber": "SS12345",
+      "marksAndNumbers": "SAMSUNG LAPTOPS",
+      "numberOfPackages": 2000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS, MODEL GALAXY BOOK PRO",
+      "grossWeight": 18000.000,
+      "unitOfgrossWeight": "KGS",
+      "measurement": 70.000,
+      "unitofMeasurement": "CBM"
+    },
+    {
+      "containerNumber": "SAMU3456789",
+      "sealNumber": "SS12346",
+      "marksAndNumbers": "SAMSUNG LAPTOPS",
+      "numberOfPackages": 1800,
+      "packageType": "CARTONS",
+      "cargoDescription": "LAPTOP COMPUTERS, MODEL GALAXY BOOK PRO 360",
+      "grossWeight": 17000.000,
+      "unitOfgrossWeight": "KGS",
+      "measurement": 68.000,
+      "unitofMeasurement": "CBM"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 3800,
+    "unitOfMeasurement": "CARTONS",
+    "totalGrossWeight": 35000.000,
+    "unitOfgrossWeight": "KGS",
+    "totalMeasurement": 138.000,
+    "unitofMeasurement": "CBM"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-SAM-DE-2024-002",
+    "hsCode": "847130",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC45678901234"
+    },
+    "certificateDetails": "CE-2024-123456",
+    "originalBLDistribution": {
+      "name": "SAMSUNG ELECTRONICS GmbH",
+      "address": "AM KRONBERGER HANG 6, 65824 SCHWALBACH AM TAUNUS, GERMANY",
+      "telephone": "+49 6196 66 1000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "address": "129, SAMSUNG-RO, YEONGTONG-GU, SUWON-SI, GYEONGGI-DO, KOREA",
+      "telephone": "+82 31 200 1114",
+      "fax": "+82 31 200 1530"
+    },
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "KEEP DRY AND HANDLE WITH CARE"
+  }
+}
