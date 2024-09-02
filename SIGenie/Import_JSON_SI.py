@@ -21,7 +21,7 @@ collection = db[COLLECTION_NAME]
 # Streamlit 페이지 설정
 st.set_page_config(layout="wide")
 
-# CSS를 사용하여 Freesan 폰트 적용
+# CSS를 사용하여 폰트 적용
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
