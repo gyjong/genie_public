@@ -1,9 +1,8 @@
 {
     "bookingReference": "CHERRY20240911091199",
-    "shipperReference": "HG20240911-001",
     "voyageDetails": {
       "vesselName": "ARONIA 5",
-      "voyageNumber": "2024038E",
+      "voyageNumber": "2024038",
       "bound": "E"
     },
     "routeDetails": {
@@ -18,8 +17,8 @@
       "freightPayableAt": "BUSAN, KOREA"
     },
     "documentationDetails": {
-      "blType": "ORIGINAL",
-      "numberOfOriginalBLs": 3,
+      "blType": "SURRENDER",
+      "numberOfOriginalBLs": 0,
       "numberOfCopies": 0
     },
     "partyDetails": {
@@ -56,9 +55,7 @@
         "packageType": "BAGS",
         "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 25 KG BAGS, PALLETIZED",
         "grossWeight": 20063.000,
-        "unitOfgrossWeight": "KGS",
-        "measurement": 25.000,
-        "unitofMeasurement": "CBM"
+        "measurement": 25.000
       },
       {
         "containerNumber": "CRLU2122194",
@@ -68,9 +65,7 @@
         "packageType": "BAGS",
         "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 500KGS ANTI-STATIC BAGS",
         "grossWeight": 20063.000,
-        "unitOfgrossWeight": "KGS",
-        "measurement": 25.000,
-        "unitofMeasurement": "CBM"
+        "measurement": 25.000
       },
       {
         "containerNumber": "CRLU2918995",
@@ -80,19 +75,15 @@
         "packageType": "BAGS",
         "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 1000KGS ANTI-STATIC BAGS",
         "grossWeight": 20063.000,
-        "unitOfgrossWeight": "KGS",
-        "measurement": 25.000,
-        "unitofMeasurement": "CBM"
+        "measurement": 25.000
       }
     ],
     "totalShipment": {
       "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
       "totalPackages": 860,
-      "unitOfMeasurement": "BAGS",
+      "packageType": "BAGS",
       "totalGrossWeight": 60189.000,
-      "unitOfgrossWeight": "KGS",
-      "totalMeasurement": 75.000,
-      "unitofMeasurement": "CBM"
+      "totalMeasurement": 75.000
     },
     "additionalInformation": {
       "purchaseOrderNumber": "136492ICP-1",
@@ -114,6 +105,6 @@
         "fax": "81-3-6000-0001"
       },
       "onboardDate": "SEPT. 13. 2024",
-      "additionalRemarks": "ATTACHED RIDER"
+      "additionalRemarks": "14 Days Free Time at Destination\nATTACHED RIDER"
     }
   }

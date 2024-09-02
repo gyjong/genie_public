@@ -1,0 +1,38 @@
+{
+    "bookingReference": "CHERRY20240911091203",
+    "customerName": "LX PANTOS LOGISTICS (QINGDAO)",
+    "shipperName": "LX PANTOS LOGISTICS (QINGDAO)",
+    "invoiceReceiver": "LX PANTOS LOGISTICS CO.,LTD.",
+    "voyageDetails": {
+      "vesselName": "ARONIA 4",
+      "voyageNumber": "2024039E"
+    },
+    "cargoDetails": {
+      "hsCode": "89039990",
+      "chapterDescription": "OTHER",
+      "commodity": "LIFEBOAT WITH ENGINE AND LIFE RESCUE BOAT WITH ENGINE"
+    },
+    "containerDetails": {
+      "size": "40 FLAT RACK CONTAINER",
+      "type": "FLAT RACK",
+      "quantity": 2
+    },
+    "routeDetails": {
+      "placeOfReceipt": "SHANGHAI, CHINA",
+      "portOfLoading": "SHANGHAI, CHINA",
+      "portOfDischarge": "BUSAN, KOREA",
+      "placeOfDelivery": "BUSAN, KOREA"
+    },
+    "scheduleDetails": {
+      "estimatedArrivalAtLoadingPort": "2024-09-26 17:00",
+      "estimatedDepartureFromLoadingPort": "2024-09-27 20:00",
+      "bookingCloseTime": "2024-09-22 17:00",
+      "documentCloseTime": "2024-09-23 17:00",
+      "cargoCloseTime": "2024-09-24 17:00",
+      "estimatedArrivalAtDischargePort": "2024-09-29 09:00",
+      "emptyContainerPickupDate": "2024-09-20"
+    },
+    "emptyContainerPickupLocation": "SHANGHAI, CHINA",
+    "shippingTerm": "CY/DOOR",
+    "remarks": "FLAT RACK, DIMENSION(LxWxH;mm): 11,200x2,100x2561, VALUE: USD150,000"
+  }

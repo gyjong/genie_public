@@ -1,0 +1,38 @@
+{
+    "bookingReference": "CHERRY20240911091204",
+    "customerName": "CH GOLBAL LOGISTICS CO., LTD",
+    "shipperName": "SEAH CHANGWON INTEGRATED SPECIAL ST",
+    "invoiceReceiver": "CH GOLBAL LOGISTICS CO., LTD",
+    "voyageDetails": {
+      "vesselName": "ARONIA 4",
+      "voyageNumber": "2024039W"
+    },
+    "cargoDetails": {
+      "hsCode": "72221119",
+      "chapterDescription": "OTHER BARS AND RODS OF STAINLESS STEEL; ANGLES, SHAPES AND SECTIONS OF STAINLESS STEEL",
+      "commodity": "STAINLESS STEEL ROUND BAR"
+    },
+    "containerDetails": {
+      "size": "20 OPEN TOP CONTAINER",
+      "type": "OPEN TOP",
+      "quantity": 1
+    },
+    "routeDetails": {
+      "placeOfReceipt": "BUSAN, KOREA",
+      "portOfLoading": "BUSAN, KOREA",
+      "portOfDischarge": "TAIZHOU, CHINA",
+      "placeOfDelivery": "TAIZHOU, CHINA"
+    },
+    "scheduleDetails": {
+      "estimatedArrivalAtLoadingPort": "2024-09-26 17:00",
+      "estimatedDepartureFromLoadingPort": "2024-09-27 20:00",
+      "bookingCloseTime": "2024-09-22 17:00",
+      "documentCloseTime": "2024-09-23 17:00",
+      "cargoCloseTime": "2024-09-24 17:00",
+      "estimatedArrivalAtDischargePort": "2024-09-29 09:00",
+      "emptyContainerPickupDate": "2024-09-20"
+    },
+    "emptyContainerPickupLocation": "BUSAN, KOREA",
+    "shippingTerm": "CY/CY",
+    "remarks": "OPEN TOP CONTAINER OVER-HEIGHT: 561mm , B/L: SURRENDER"
+  }

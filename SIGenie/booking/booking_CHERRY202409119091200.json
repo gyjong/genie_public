@@ -1,0 +1,38 @@
+{
+    "bookingReference": "CHERRY202409119091200",
+    "customerName": "RAMESE LOGISTICS CO., LTD",
+    "shipperName": "RAMESE LOGISTICS CO., LTD",
+    "invoiceReceiver": "RAMESE LOGISTICS CO., LTD",
+    "voyageDetails": {
+      "vesselName": "ARONIA 1",
+      "voyageNumber": "2024039E"
+    },
+    "cargoDetails": {
+      "hsCode": "392051",
+      "chapterDescription": "OTHER PLATES, SHEETS, FILM, FOILAND STRIP, OF PLASTICS, NON-CELLULAR AND NOT REINFORCED, LAMINATED, SUPPORTED ORSIMILARLY COMBINED WITH OTHER MATERIALS",
+      "commodity": "LX HI-MACS ACRYLIC SOLID SURFACE SHEET"
+    },
+    "containerDetails": {
+      "size": "20 GENERAL CONTAINER",
+      "type": "DRY",
+      "quantity": 5
+    },
+    "routeDetails": {
+      "placeOfReceipt": "UIWANG, KOREA",
+      "portOfLoading": "BUSAN, KOREA",
+      "portOfDischarge": "NEW YORK, USA",
+      "placeOfDelivery": "NEW YORK, USA"
+    },
+    "scheduleDetails": {
+      "estimatedArrivalAtLoadingPort": "2024-09-26 17:00",
+      "estimatedDepartureFromLoadingPort": "2024-09-27 20:00",
+      "bookingCloseTime": "2024-09-22 17:00",
+      "shippingInstructionCloseTime": "2024-09-23 17:00",
+      "cargoCloseTime": "2024-09-24 17:00",
+      "estimatedArrivalAtDischargePort": "2024-10-23 09:00",
+      "emptyContainerPickupDate": "2024-09-20"
+    },
+    "emptyContainerPickupLocation": "UIWANG, KOREA",
+    "shippingTerm": "CY/CY",
+    "remarks": ""
+  }
