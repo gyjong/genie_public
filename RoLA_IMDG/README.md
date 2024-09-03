@@ -1,4 +1,4 @@
-# CHERRY Compliance Fine-tuning
+# IMDG code Fine-tuning
 
 This project demonstrates how to fine-tune the Google Gemma model for a specific compliance task using MLX. The fine-tuning process is tailored for the CHERRY Shipping Company's compliance requirements.
 
