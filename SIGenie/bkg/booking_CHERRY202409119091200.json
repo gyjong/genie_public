@@ -26,11 +26,7 @@
     "scheduleDetails": {
       "estimatedArrivalAtLoadingPort": "2024-09-26 17:00",
       "estimatedDepartureFromLoadingPort": "2024-09-27 20:00",
-      "bookingCloseTime": "2024-09-22 17:00",
-      "shippingInstructionCloseTime": "2024-09-23 17:00",
-      "cargoCloseTime": "2024-09-24 17:00",
-      "estimatedArrivalAtDischargePort": "2024-10-23 09:00",
-      "emptyContainerPickupDate": "2024-09-20"
+      "estimatedArrivalAtDischargePort": "2024-10-23 09:00"
     },
     "emptyContainerPickupLocation": "UIWANG, KOREA",
     "shippingTerm": "CY/CY",

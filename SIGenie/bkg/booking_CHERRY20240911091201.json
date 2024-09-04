@@ -26,11 +26,7 @@
     "scheduleDetails": {
       "estimatedArrivalAtLoadingPort": "2024-10-03 17:00",
       "estimatedDepartureFromLoadingPort": "2024-10-04 12:00",
-      "bookingCloseTime": "2024-09-29 17:00",
-      "documentCloseTime": "2024-09-30 17:00",
-      "cargoCloseTime": "2024-10-01 17:00",
-      "estimatedArrivalAtDischargePort": "2024-10-05 09:00",
-      "emptyContainerPickupDate": "2024-09-25"
+      "estimatedArrivalAtDischargePort": "2024-10-05 09:00"
     },
     "emptyContainerPickupLocation": "BUSAN, KOREA",
     "transportationTerm": "CY/CY",

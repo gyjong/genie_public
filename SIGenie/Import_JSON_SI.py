@@ -11,7 +11,7 @@ load_dotenv()
 # MongoDB 연결 설정
 MONGO_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("MONGODB_DB_NAME")
-COLLECTION_NAME = os.getenv("MONGODB_COLLECTION_NAME")
+COLLECTION_NAME = "si"
 
 # MongoDB 클라이언트 생성
 client = MongoClient(MONGO_URI)
