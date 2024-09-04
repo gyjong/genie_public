@@ -1,0 +1,120 @@
+{
+    "bookingReference": "CHERRY202409119091200",
+    "voyageDetails": {
+      "vesselName": "ARONIA 1",
+      "voyageNumber": "2024039",
+      "bound": "E"
+    },
+    "routeDetails": {
+      "placeOfReceipt": "UIWANG, KOREA",
+      "portOfLoading": "BUSAN, KOREA",
+      "portOfDischarge": "NEW YORK, NY, U.S.A",
+      "placeOfDelivery": "NEW YORK, NY, U.S.A",
+      "finalDestination": ""
+    },
+    "paymentDetails": {
+      "freightPaymentTerms": "Prepaid",
+      "freightPayableAt": "BUSAN, KOREA"
+    },
+    "documentationDetails": {
+      "blType": "ORIGINAL",
+      "numberOfOriginalBLs": 3,
+      "numberOfCopies": 0
+    },
+    "partyDetails": {
+      "shipper": {
+        "name": "RAMESE LOGISTICS CO., LTD",
+        "address": "ROOM 805, 10TH FL., A-DONG, GANGSEO HANGANG XI TOWER, 401, YANGCHEON-RO, GANGSEO-GU, SEOUL 07528, KOREA",
+        "telephone": "02-311-1113",
+        "fax": "02-311-1115"
+      },
+      "consignee": {
+        "name": "PACIFIC TRANSIT LOGISTICS INC.",
+        "address": "130-26 45TH AVENUE, SUIT 300-F FLUSHING, NY 11354",
+        "telephone": "500-800-2000",
+        "fax": "500-800-2001",
+        "email": "IMPORT@PTLI.COM",
+        "contactPerson": "ANOLD LEE"
+      },
+      "notifyParty": {
+        "sameAsConsignee": true
+      }
+    },
+    "shippingTerm": "CY / CY",
+    "hsCode": "392051",
+    "commodityDescription": "LX HI-MACS ACRYLIC SOLID SURFACE SHEET",
+    "containers": [
+      {
+        "containerNumber": "CRLU2026038",
+        "sealNumber": "170768",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 31,
+        "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+        "grossWeight": 19121.000,
+        "measurement": 20.618
+      },
+      {
+        "containerNumber": "CRLU2030543",
+        "sealNumber": "170658",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 36,
+        "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+        "grossWeight": 18643.000,
+        "measurement": 20.071
+      },
+      {
+        "containerNumber": "CRLU2712351",
+        "sealNumber": "170990",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 34,
+        "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+        "grossWeight": 19194.000,
+        "measurement": 19.449
+      },
+      {
+        "containerNumber": "CRLU2148985",
+        "sealNumber": "170759",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 32,
+        "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+        "grossWeight": 17673.000,
+        "measurement": 19.040
+      },
+      {
+        "containerNumber": "CRLU2164841",
+        "sealNumber": "170635",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 32,
+        "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+        "grossWeight": 17531.000,
+        "measurement": 18.747
+      }
+    ],
+    "totalShipment": {
+      "totalContainers": "5 X 20DRY CONTAINERS",
+      "totalPackages": 165,
+      "totalGrossWeight": 91162.000,
+      "totalMeasurement": 97.925
+    },
+    "additionalInformation": {
+      "invoiceNumber": "3669224-06",
+      "documentNumber": "20001639821",
+      "lcDetails": {
+        "lcNumber": "00001010339242"
+      },
+      "certificateDetails": ["4112724080177X", "4112724080178X"],
+      "originalBLDistribution": {
+        "name": "RAMESE LOGISTICS CO., LTD",
+        "address": "ROOM 805, 10TH FL., A-DONG, GANGSEO HANGANG XI TOWER, 401, YANGCHEON-RO, GANGSEO-GU, SEOUL 07528, KOREA",
+        "telephone": "02-311-1113",
+        "fax": "02-311-1115"
+      },
+      "originalInvoiceDistribution": {
+        "name": "RAMESE LOGISTICS CO., LTD",
+        "address": "ROOM 805, 10TH FL., A-DONG, GANGSEO HANGANG XI TOWER, 401, YANGCHEON-RO, GANGSEO-GU, SEOUL 07528, KOREA",
+        "telephone": "02-311-1113",
+        "fax": "02-311-1115"
+      },
+      "onboardDate": "SEPT. 27. 2024"
+    }
+  }
