@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202409121012300",
+  "voyageDetails": {
+    "vesselName": "MSC MARIA",
+    "voyageNumber": "2024040",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LONG BEACH, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LONG BEACH, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA IMPORT & EXPORT CO., LTD",
+      "address": "2013 HUAYUAN ROAD, SHIMING DISTRICT, NINGBO, 315040, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "consignee": {
+      "name": "AMERICAN GLOBAL LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "IMPORT@AGL.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "5678 OCEAN AVENUE, SANTA MONICA, CA 90405",
+      "telephone": "1-310-555-9876",
+      "fax": "1-310-555-9877",
+      "email": "INFO@SUNRISETRADE.COM"
+    }
+  },
+  "shippingTerm": "CFR LONG BEACH",
+  "hsCode": "620920",
+  "commodityDescription": "LADIES' COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU7799654",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS ASSORTED COLORS AND SIZES",
+      "grossWeight": 12500.0,
+      "measurement": 25.505
+    },
+    {
+      "containerNumber": "TCLU7799655",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "SUNRISE124",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS ASSORTED COLORS AND SIZES",
+      "grossWeight": 12450.0,
+      "measurement": 25.125
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT CONTAINER",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24950.0,
+    "totalMeasurement": 50.63
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CI20240912001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X",
+      "4112724080180X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA IMPORT & EXPORT CO., LTD",
+      "address": "2013 HUAYUAN ROAD, SHIMING DISTRICT, NINGBO, 315040, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMERICAN GLOBAL LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "IMPORT@AGL.COM"
+    },
+    "onboardDate": "SEPT. 28. 2024"
+  }
+}

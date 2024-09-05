@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "EVER GIVEN 02",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "email": "info@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EURO STEEL IMPORTS BV",
+      "address": "KAMPSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856789012",
+      "president": "MR. HANS VAN DER LINDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "EURO STEEL IMPORTS BV",
+      "address": "KAMPSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856789012",
+      "president": "MR. HANS VAN DER LINDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "72071100",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS STEEL PLATES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 200,
+    "packageType": "BUNDLES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "01234567890"
+    },
+    "certificateDetails": "12345678901234",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 ABC STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 987 6543",
+      "fax": "+31 10 987 6544"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

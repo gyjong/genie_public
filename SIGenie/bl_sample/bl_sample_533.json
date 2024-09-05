@@ -1,0 +1,99 @@
+{
+  "bookingReference": "GRAPE20241012153211",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2435S",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "GOUDHAANSTRAAT 123, 3011 GE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "consignee": {
+      "name": "PACIFIC IMPORTERS INC.",
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213",
+      "email": "INFO@PACIFICIMPORTERS.COM",
+      "contactPerson": "JANE SMITH"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY TRADING CO.",
+      "address": "5678 MAIN ST, SAN FRANCISCO, CA 94103",
+      "telephone": "+1 415 555 2323",
+      "fax": "+1 415 555 2324",
+      "email": "NOTIFICATIONS@BLUESTKYTRADING.COM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES WITH SIDE CARS - 500CC ENGINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MTR123",
+      "numberOfPackages": 2,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 2 MOTORCYCLES WITH SIDE CARS",
+      "grossWeight": 1150.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "MTR456",
+      "numberOfPackages": 2,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 2 MOTORCYCLES WITH SIDE CARS",
+      "grossWeight": 1180.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT HC CONTAINERS",
+    "totalPackages": 4,
+    "totalGrossWeight": 2330.0,
+    "totalMeasurement": 30.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-001",
+    "documentNumber": "20241012002",
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "EU-CERTIFICATE-OF-ORIGIN-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "PACIFIC IMPORTERS INC.",
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "GOUDHAANSTRAAT 123, 3011 GE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "onboardDate": "OCT. 15. 2024"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "bookingReference": "APPLE20241026134512",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "101 ORCHARD ROAD, #25-01, SINGAPORE 238840",
+      "telephone": "+65-6737-8888",
+      "fax": "+65-6737-9999"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "HERMANN-STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "FREIGHT FORWARDERS LTD.",
+      "address": "25 MARKET STREET, LONDON EC1A 4PQ, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH 123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 2500.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 15.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, #25-01, SINGAPORE 238840",
+      "telephone": "+65-6737-8888",
+      "fax": "+65-6737-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "HERMANN-STRASSE 12, 60311 FRANKFURT, GERMANY"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Insurance covered by shipper."
+  }
+}

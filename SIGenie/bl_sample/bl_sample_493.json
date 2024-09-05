@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915143212",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2423E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 1234, HONGQI ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
+    },
+    "consignee": {
+      "name": "EUROTRADING GMBH",
+      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTRADING.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "EUROTRADING GMBH",
+      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTRADING.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "390720",
+  "commodityDescription": "POLYETHYLENE RESIN (HDPE)",
+  "containers": [
+    {
+      "containerNumber": "GRSU9578632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "GRSU9678451",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ETG124",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "GRSU9789263",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ETG125",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "39072090",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "SCHIPHOL AIRPORT, AMSTERDAM",
+      "telephone": "+31 20 506 6000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTRADING GMBH",
+      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

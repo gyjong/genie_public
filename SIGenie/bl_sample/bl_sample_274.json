@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410178314500",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2440W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN EVERTRUST IMPORT & EXPORT CO., LTD",
+      "address": "NO.18, JIANGNAN ROAD, JIANGNAN DISTRICT, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 757 8278 6666",
+      "fax": "+86 757 8278 6667"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "WATERLOO 360, 3062 MB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 790 0500",
+      "fax": "+31 10 790 0501",
+      "email": "info@globallogisticsbv.nl",
+      "contactPerson": "MARIJKE VAN DER HEIJDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "BLUE SKY TRADING BV",
+      "address": " victoriaplein 15, 3012 HH ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 6 1234 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8479899090",
+  "commodityDescription": "METAL WORKING MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EB123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEAR BOX ASSEMBLIES",
+      "grossWeight": 6500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CGLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "EB987",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HYDRAULIC PUMPS",
+      "grossWeight": 7200.0,
+      "measurement": 14.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 25,
+    "totalGrossWeight": 13700.0,
+    "totalMeasurement": 26.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20231017-001",
+    "documentNumber": "20231017-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20231017-001"
+    ],
+    "originalBLDistribution": {
+      "name": "ZHONGSHAN EVERTRUST IMPORT & EXPORT CO., LTD",
+      "address": "NO.18, JIANGNAN ROAD, JIANGNAN DISTRICT, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 757 8278 6666",
+      "fax": "+86 757 8278 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHONGSHAN EVERTRUST IMPORT & EXPORT CO., LTD",
+      "address": "NO.18, JIANGNAN ROAD, JIANGNAN DISTRICT, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 757 8278 6666",
+      "fax": "+86 757 8278 6667"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

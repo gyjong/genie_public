@@ -1,0 +1,100 @@
+{
+  "bookingReference": "ORANGE20240915154103",
+  "voyageDetails": {
+    "vesselName": "MSC ANTWERP",
+    "voyageNumber": "2429E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Anson Centre, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 211 58590"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 211 58590"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "TCLU4653789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ACME123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN 1000 DRUMS OF ETHYL ACETATE",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EUROCHEM1",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN 500 DRUMS OF ETHYL ACETATE",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345PO",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "COO-1234567890",
+    "originalBLDistribution": {
+      "name": "HSBC BANK",
+      "address": "123 Main Street, Singapore 012345",
+      "telephone": "+65 6222 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM GMBH",
+      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
+      "telephone": "+49 211 58590",
+      "fax": "+49 211 58591"
+    },
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

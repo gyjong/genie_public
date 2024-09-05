@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "MSC BEATRICE",
+    "voyageNumber": "2426E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFRESH BV",
+      "address": "ZUIDERHOEK 15, 3115 GR SCHIEDAM, NETHERLANDS",
+      "telephone": "+31 15 262 5555",
+      "email": "INFO@EUROFRESH.NL"
+    },
+    "consignee": {
+      "name": "FRUITASIA PTE LTD",
+      "address": "51 Anson Road #06-01 Anson Centre, SINGAPORE 079903",
+      "taxId": "200211234Z",
+      "president": "MR. LIM CHENG WEE",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "notifyParty": {
+      "name": "FRUITASIA LOGISTICS PTE LTD",
+      "address": "123 Tampines Central 1 #03-12 Tampines Hub, SINGAPORE 528533",
+      "telephone": "+65 6789 0000",
+      "fax": "+65 6789 1111"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "0805909000",
+  "commodityDescription": "APPLES, GOLDEN DELICIOUS, FRESH",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FRUITASIA/2345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "1000 CARTONS GOLDEN DELICIOUS APPLES, FRESH, COUNT AND WEIGHT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTO-SANITARY CERTIFICATE NO. 1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "10 Anson Road #09-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6222 9999",
+      "fax": "+65 6222 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "10 Anson Road #09-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6222 9999",
+      "fax": "+65 6222 8888"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
+  }
+}

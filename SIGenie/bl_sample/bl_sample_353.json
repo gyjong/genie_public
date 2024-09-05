@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912143256",
+  "voyageDetails": {
+    "vesselName": "CAPELLA 08",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8800",
+      "fax": "+65 6221 8899"
+    },
+    "notifyParty": {
+      "name": "JOHN SMITH",
+      "address": "123 MAIN STREET, ANYTOWN, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87089900",
+  "commodityDescription": "USED TRUCK TYRES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS123",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 USED TRUCK TYRES",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GFS456",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 USED TRUCK TYRES",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 66.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000302040571"
+    },
+    "certificateDetails": [
+      "1000030080231X",
+      "1000030080232X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8800",
+      "fax": "+65 6221 8899"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

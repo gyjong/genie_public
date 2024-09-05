@@ -1,0 +1,109 @@
+{
+  "bookingReference": "GRAPE20240918113422",
+  "voyageDetails": {
+    "vesselName": "MSC IRINA",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI XINGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 501, BUILDING 3, NO. 1888, SHENNAN ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)"
+    },
+    "consignee": {
+      "name": "VAN DER MEIJEN TRADING BV",
+      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@VANDERMEIJEN.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "VAN DER MEIJEN TRADING BV",
+      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@VANDERMEIJEN.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "390730",
+  "commodityDescription": "POLYPROPYLENE RESIN (PPR)",
+  "containers": [
+    {
+      "containerNumber": "TCLU7786215",
+      "sealNumber": "123456",
+      "marksAndNumbers": "VMT20240918",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU4452893",
+      "sealNumber": "789012",
+      "marksAndNumbers": "VMT20240918",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9915467",
+      "sealNumber": "345678",
+      "marksAndNumbers": "VMT20240918",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20240915",
+    "hsCode": "3907300000",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC20240918123456"
+    },
+    "certificateDetails": "CN20240918123456",
+    "originalBLDistribution": {
+      "name": "VAN DER MEIJEN TRADING BV",
+      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI XINGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 501, BUILDING 3, NO. 1888, SHENNAN ROAD, SHANGHAI, 200000",
+      "telephone": "+86 21 6326 5890"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+  }
+}

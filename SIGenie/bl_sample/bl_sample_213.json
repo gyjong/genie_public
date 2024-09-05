@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015103002",
+  "voyageDetails": {
+    "vesselName": "MAERSK EUREKA",
+    "voyageNumber": "224W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "VAN DER WAALSWEG 15, 3011 BH ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS",
+      "address": "SPUISTRAAT 123, 3012 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU5432167",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 1200.5,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1200.5,
+    "totalMeasurement": 2.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "234567890123",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "VAN DER WAALSWEG 15, 3011 BH ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

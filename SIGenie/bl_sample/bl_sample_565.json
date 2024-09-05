@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410181032100",
+  "voyageDetails": {
+    "vesselName": "MSC CATALINA",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ANTWERP, BELGIUM",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "PHOENIX, AZ, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "VAN DER HORST IMPORT EXPORT BV",
+      "address": "BEEMSTERSTRAAT 123, 1013 KG AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 622 3456",
+      "fax": "+31 20 622 3457"
+    },
+    "consignee": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "12345 SUNRISE BLVD, LOS ANGELES, CA 90011",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213",
+      "email": "IMPORT@SUNRISELOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE WAREHOUSE",
+      "address": "12345 GOLDEN GATE AVE, PHOENIX, AZ 85001",
+      "telephone": "+1 602 555 1313",
+      "fax": "+1 602 555 1314",
+      "contactPerson": "JANE DOE"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES, 125CC",
+  "containers": [
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 20.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-1234567890",
+      " fumigation certificate - 1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "12345 SUNRISE BLVD, LOS ANGELES, CA 90011",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "VAN DER HORST IMPORT EXPORT BV",
+      "address": "BEEMSTERSTRAAT 123, 1013 KG AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 622 3456",
+      "fax": "+31 20 622 3457"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

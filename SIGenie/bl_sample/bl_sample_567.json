@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026153047",
+  "voyageDetails": {
+    "vesselName": "MSC ZOE",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "onBehalfOf": null,
+      "address": "225 ZHONGSHAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6329-8888",
+      "fax": "+86-21-6329-9999"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "C. VAN DER HOEVENSTRAAT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "DELTA LOGISTICS BV",
+      "address": "WATERFRONT 2, 3063 NN ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  MACHINERY PARTS AS DESCRIBED.",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS TEMPERATURE CONTROLLED"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "12345678901234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "C. VAN DER HOEVENSTRAAT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-444-5555",
+      "fax": "+31-10-444-6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "225 ZHONGSHAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6329-8888",
+      "fax": "+86-21-6329-9999"
+    },
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "SHIPMENT OF MACHINERY PARTS, VALUE: USD25,000"
+  }
+}

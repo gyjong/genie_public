@@ -1,0 +1,90 @@
+{
+  "bookingReference": "ORANGE20241026123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM RHONE",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI KAIYU IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1001, NO.1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-5678",
+      "fax": "+86-21-6327-5679"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "EINSTRASSE 1, 60325 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EM123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED BETWEEN +5\u00b0C AND +25\u00b0C."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000234567890"
+    },
+    "certificateDetails": [
+      "CN20241026001",
+      "CN20241026002"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI KAIYU IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO.1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-5678",
+      "fax": "+86-21-6327-5679"
+    },
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "Cargo insured for USD 100,000."
+  }
+}

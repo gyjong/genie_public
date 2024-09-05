@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915103256",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA IRON & STEEL CO., LTD.",
+      "address": "NO. 188, FUXING ROAD, SHANGHAI, 200021",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
+    },
+    "consignee": {
+      "name": "GERMAN STEEL IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 5, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@GERMANSTEELIMPORTS.DE",
+      "telephone": "+49 69 798254"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "SCHILLINGSTRASSE 25, 60486 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@ABCLOGISTICS.DE",
+      "telephone": "+49 69 247312"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "720837",
+  "commodityDescription": "CARBON STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "CS-123",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON STEEL PLATES, 20MT, 500 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "COSU2345678",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "CS-456",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON STEEL PLATES, 20MT, 500 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "9876543",
+      "marksAndNumbers": "CS-789",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CARBON STEEL PLATES, 20MT, 500 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BUNDLES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-123456-2024",
+    "hsCode": "720837",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC-1234567890"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "SCHILLINGSTRASSE 25, 60486 FRANKFURT AM MAIN",
+      "telephone": "+49 69 247312"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA IRON & STEEL CO., LTD.",
+      "address": "NO. 188, FUXING ROAD, SHANGHAI, 200021",
+      "telephone": "+86 21 63278901",
+      "fax": "+86 21 63278902"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  }
+}

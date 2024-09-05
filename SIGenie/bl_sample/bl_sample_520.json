@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241005114532",
+  "voyageDetails": {
+    "vesselName": "MSC DANAE",
+    "voyageNumber": "2442E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN SUNRISE ELECTRONICS CO., LTD",
+      "address": "NO.12, XINGYE ROAD, XIAOLAN TOWN, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "+86 760 2223 1234",
+      "email": "sales@sunriseelectronics.cn"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT BV",
+      "address": "MARKENPLEIN 13, 3011 CC ROTTERDAM, NETHERLANDS",
+      "taxId": "NL812345678B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT BV",
+      "address": "MARKENPLEIN 13, 3011 CC ROTTERDAM, NETHERLANDS",
+      "taxId": "NL812345678B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85414010",
+  "commodityDescription": "POWER ADAPTOR",
+  "containers": [
+    {
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER ADAPTOR",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING LTD",
+      "address": "123 MAIN STREET, LONDON, UK, EC1A 1BB",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING LTD",
+      "address": "123 MAIN STREET, LONDON, UK, EC1A 1BB",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "CARGO READY FOR SHIPMENT"
+  }
+}

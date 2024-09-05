@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE202410181020300",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2439E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Anson Road, #08-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "consignee": {
+      "name": "EUROFREIGHT GMBH",
+      "address": "Rotterdamseweg 123, 3015 GD Rotterdam, Netherlands",
+      "telephone": "+31 10 478 9000",
+      "fax": "+31 10 478 9001",
+      "email": "info@eurofreight.nl",
+      "contactPerson": "ANNA VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES, 125 CC ENGINE CAPACITY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "AS123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES (250CC)",
+      "grossWeight": 4500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES (250CC)",
+      "grossWeight": 4600.0,
+      "measurement": 14.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 9100.0,
+    "totalMeasurement": 29.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROFREIGHT GMBH",
+      "address": "Rotterdamseweg 123, 3015 GD Rotterdam, Netherlands",
+      "telephone": "+31 10 478 9000",
+      "fax": "+31 10 478 9001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Anson Road, #08-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

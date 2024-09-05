@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241012105100",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2024342",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH SHIPPING PTE LTD",
+      "address": "123 Marina Boulevard, #36-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 Harbor Freeway, Los Angeles, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@WCLI.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GOLDEN GATE FREIGHT FORWARDERS",
+      "address": "5678 Mission Street, San Francisco, CA 94105",
+      "telephone": "+1 415 555 3333",
+      "fax": "+1 415 555 3334"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "GOCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZSPL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SYSTEM",
+      "grossWeight": 7500.0,
+      "measurement": 15.6
+    },
+    {
+      "containerNumber": "GOCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZSPL789",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MIXING MACHINE",
+      "grossWeight": 4500.0,
+      "measurement": 10.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 15,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241012-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH SHIPPING PTE LTD",
+      "address": "123 Marina Boulevard, #36-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
+      "telephone": "+65 6888 1111",
+      "fax": "+6888 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 Harbor Freeway, Los Angeles, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "onboardDate": "OCT. 20. 2024"
+  }
+}

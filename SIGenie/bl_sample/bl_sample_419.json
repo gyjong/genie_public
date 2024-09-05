@@ -1,0 +1,101 @@
+{
+  "bookingReference": "STARFRUIT20241026134512",
+  "voyageDetails": {
+    "vesselName": "EVER GIVEN",
+    "voyageNumber": "2024103",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "200 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GROUP",
+      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS INDICATED. SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 6500.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS INDICATED. SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 6500.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 13000.0,
+    "totalMeasurement": 40.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CO-123456789",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "200 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213"
+    },
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT PACKING"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "SUNFLOWER20241018142511",
+  "voyageDetails": {
+    "vesselName": "EVER GIVEN",
+    "voyageNumber": "2024101",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN SUN TRADING PTE LTD",
+      "address": "20 Anson Road, #11-01, Anson Centre, Singapore 079909",
+      "telephone": "+65-6221-8555",
+      "fax": "+65-6221-8666"
+    },
+    "consignee": {
+      "name": "EURO SUN IMPORTS BV",
+      "address": "Erasmuslaan 12, 3011 AS Rotterdam, Netherlands",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "notifyParty": {
+      "name": "GOLDEN SUN TRADING PTE LTD",
+      "address": "20 Anson Road, #11-01, Anson Centre, Singapore 079909",
+      "telephone": "+65-6221-8555",
+      "fax": "+65-6221-8666"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241018",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE ENGINE PARTS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO2024101801",
+    "salesOrderNumber": "SO2024101802",
+    "lcDetails": {
+      "lcNumber": "LC20241018001"
+    },
+    "certificateDetails": "CO-231018001",
+    "originalBLDistribution": {
+      "name": "EURO SUN IMPORTS BV",
+      "address": "Erasmuslaan 12, 3011 AS Rotterdam, Netherlands",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN SUN TRADING PTE LTD",
+      "address": "20 Anson Road, #11-01, Anson Centre, Singapore 079909",
+      "telephone": "+65-6221-8555",
+      "fax": "+65-6221-8666"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "GOODS IN EXCELLENT CONDITION"
+  }
+}

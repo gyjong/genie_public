@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410178563100",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA 2",
+    "voyageNumber": "2024362",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
+      "address": "ROOM 501, NO. 88 HUAIZHONG ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6352-8901",
+      "fax": "+86-21-6352-8902"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90068",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "INFO@WCI.COM",
+      "contactPerson": "MARIA GONZALEZ"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1010 MARKET STREET, SUITE 400, SAN FRANCISCO, CA 94103",
+      "telephone": "+1-415-555-2323",
+      "fax": "+1-415-555-2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' WOOL COATS",
+  "containers": [
+    {
+      "containerNumber": "TCLU7863125",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MLO123",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' WOOL COATS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7863126",
+      "sealNumber": "123457",
+      "marksAndNumbers": "MLO124",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' WOOL COATS",
+      "grossWeight": 12400.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 24900.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X",
+      "4112724080180X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1010 MARKET STREET, SUITE 400, SAN FRANCISCO, CA 94103",
+      "telephone": "+1-415-555-2323",
+      "fax": "+1-415-555-2324"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90068",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

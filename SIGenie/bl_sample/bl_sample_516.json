@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241017142502",
+  "voyageDetails": {
+    "vesselName": "EVERGREEN SKY",
+    "voyageNumber": "2436W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #10-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
+      "telephone": "+41 44 212 3456",
+      "fax": "+41 44 212 7890"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE GMBH",
+      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
+      "telephone": "+41 44 212 3456",
+      "fax": "+41 44 212 7890"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 500 BOXES ELECTRONIC COMPONENTS - CAPACITORS. NET WEIGHT: 1250 KGS.",
+      "grossWeight": 1350.0,
+      "measurement": 10.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1350.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "SGS20241017",
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
+      "telephone": "+41 44 212 3456",
+      "fax": "+41 44 212 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #10-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "CARGO STOWED ON DECK."
+  }
+}

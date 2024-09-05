@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20241015143012",
+  "voyageDetails": {
+    "vesselName": "SILVER WAVE",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SEAFOOD PTE LTD",
+      "onBehalfOf": "",
+      "address": "20 Anson Road #11-01 Anson Centre, Singapore 079912",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "consignee": {
+      "name": "FRUIT IMPORT GMBH",
+      "address": "Kaiserstra\u00dfe 10, 60311 Frankfurt am Main, Germany",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "FRUIT LOGISTICS BV",
+      "address": "Oosterdoksstraat 10, 1011 DK Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "030199",
+  "commodityDescription": "FROZEN FISH - GROUPER",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SEAFOOD-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. FROZEN FISH - GROUPER. PACKED IN CARTONS. ",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'RF) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20RF",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "MSCU9876543",
+    "temperature": "-18.0\u00baC",
+    "minTemperature": "-20.0\u00b0C",
+    "maxTemperature": "-16.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "80%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000202040112"
+    },
+    "certificateDetails": [
+      "HACCP-1234567890",
+      "FDA-9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "SEAFOOD PTE LTD",
+      "address": "20 Anson Road #11-01 Anson Centre, Singapore 079912",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FRUIT IMPORT GMBH",
+      "address": "Kaiserstra\u00dfe 10, 60311 Frankfurt am Main, Germany"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Frozen Fish, Temperature: -18\u00b0C, Value: EUR50,000"
+  }
+}

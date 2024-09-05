@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "MSC ARIANE",
+    "voyageNumber": "2435SA",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE BANK AG",
+      "address": "FRANKFURTER STRASSE 24, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 910 30000",
+      "email": "INFO@DB.COM"
+    },
+    "consignee": {
+      "name": "SINGAPORE OIL TRADING PTE LTD",
+      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
+      "taxId": "200103124K",
+      "president": "MR. LEE KIM CHONG",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE OIL TRADING PTE LTD",
+      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
+      "taxId": "200103124K",
+      "president": "MR. LEE KIM CHONG",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "27101910",
+  "commodityDescription": "CRUDE PETROLEUM OIL",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1,
+      "packageType": "BULK",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: 1000 MT CRUDE PETROLEUM OIL",
+      "grossWeight": 1000000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "BULK",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 1000000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CO-234567890",
+    "originalBLDistribution": {
+      "name": "SINGAPORE OIL TRADING PTE LTD",
+      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE OIL TRADING PTE LTD",
+      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

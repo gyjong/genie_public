@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20241018123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TIBERIUS",
+    "voyageNumber": "2436W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. John Doe)"
+    },
+    "consignee": {
+      "name": "EURO CHEM GMBH",
+      "address": "Hauptstrasse 12, 60325 Frankfurt am Main, Germany",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 69 79876543"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "Hanauer Landstrasse 123, 60314 Frankfurt am Main, Germany",
+      "country": "GERMANY",
+      "email": "info@abclogistics.de",
+      "telephone": "+49 69 12345678"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "SEGU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
+      "grossWeight": 200000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SEGU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF-456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
+      "grossWeight": 200000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SEGU7778889",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GHI-789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
+      "grossWeight": 200000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 600000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "COC-1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Airport Road, Frankfurt, Germany",
+      "telephone": "+49 69 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
+      "telephone": "+65 65123456",
+      "fax": "+65 65123457"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "FREIGHT PAYABLE AT DESTINATION"
+  }
+}

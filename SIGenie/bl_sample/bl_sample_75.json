@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912103012",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2437ES",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROASIA TRADING BV",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 8500",
+      "email": "INFO@EUROASIATRADING.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "200112345Z",
+      "president": "MR. LEE CHONG WEN",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
+    },
+    "notifyParty": {
+      "name": "EUROASIA TRADING BV",
+      "address": "KEIZERSGRACHT 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 8500",
+      "email": "INFO@EUROASIATRADING.NL"
+    }
+  },
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "84713090",
+  "commodityDescription": "DIGITAL PRINTING PRESSES",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE DIGITAL PRINTING PRESSES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "CRATES",
+    "containerType": "40'HQ",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HQ Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "10 Anson Road, #02-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "10 Anson Road, #02-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

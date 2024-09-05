@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912121506",
+  "voyageDetails": {
+    "vesselName": "MSC CASSANDRA",
+    "voyageNumber": "2435E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFLOW LTD",
+      "address": "25 Prinsestraat, 3011 AX Rotterdam, Netherlands",
+      "telephone": "+31 10 477 1234",
+      "email": "info@euroflow.nl"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "taxId": "200212345H",
+      "president": "Mr. Lee Wei",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "notifyParty": {
+      "name": "EUROFLOW ASIA",
+      "address": "10 Marina Boulevard #42-01 Marina Bay Financial Centre Singapore 018983",
+      "telephone": "+65 6532 8901",
+      "fax": "+65 6532 8902"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: CFR SINGAPORE MACHINERY PARTS FOR PACKAGING",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456"
+    },
+    "certificateDetails": "20241001-12345",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 North Bridge Road #08-01 Peninsula Square Singapore 179094",
+      "telephone": "+65 6337 1234",
+      "fax": "+65 6337 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 North Bridge Road #08-01 Peninsula Square Singapore 179094",
+      "telephone": "+65 6337 1234",
+      "fax": "+65 6337 5678"
+    },
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PEACH20240912113017",
+  "voyageDetails": {
+    "vesselName": "MAERSK ESSEN 08",
+    "voyageNumber": "2024342",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG SHANGYU IMPORT & EXPORT CO.,LTD",
+      "address": "NO.338, SHANGYU STREET, SHANGYU DISTRICT, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 575 8289 6789",
+      "email": "sales@shangyuie.com"
+    },
+    "consignee": {
+      "name": "WEST COAST METAL INC.",
+      "address": "1234 OCEAN AVENUE, LOS ANGELES, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "notifyParty": {
+      "name": "WEST COAST METAL INC.",
+      "address": "1234 OCEAN AVENUE, LOS ANGELES, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "7326909090",
+  "commodityDescription": "IRON AND STEEL BARS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 25,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA IRON AND STEEL BARS",
+      "grossWeight": 24500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 25,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE SHIPPING LTD",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 1234",
+      "fax": "+1 415 555 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE SHIPPING LTD",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 1234",
+      "fax": "+1 415 555 1235"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": ""
+  }
+}

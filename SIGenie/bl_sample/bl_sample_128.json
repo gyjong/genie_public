@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20241003102305",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2441W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "Kaiserstrasse 56, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 7909900",
+      "fax": "+49 69 7909901"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "Friedrichstrasse 123, 10117 Berlin, Germany",
+      "telephone": "+49 30 2000100",
+      "fax": "+49 30 2000101"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 8,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 9000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 63.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-123456",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "Kaiserstrasse 56, 60311 Frankfurt am Main, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "Kaiserstrasse 56, 60311 Frankfurt am Main, Germany"
+    },
+    "onboardDate": "OCT. 10. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

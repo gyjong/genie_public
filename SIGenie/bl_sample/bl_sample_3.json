@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912111543",
+  "voyageDetails": {
+    "vesselName": "MSC SIENA",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "20 Anson Road, #11-01 Anson Centre, Singapore 079909",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6227 1234",
+      "email": "sales@asiatrade.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstrasse 12, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de, orders@eurotech.de",
+      "telephone": "+49 40 3010 2000"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA N.A.",
+      "address": "Neuer Jungfernstieg 20, 20354 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "hamburg.operations@bofa.com",
+      "telephone": "+49 40 3333 1111"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854370",
+  "commodityDescription": "DIGITAL CAMERA LENSES AND ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-2024-09-12",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERA LENSES AND ACCESSORIES",
+      "grossWeight": 2500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ET-2024-09-12",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERA LENSES AND ACCESSORIES",
+      "grossWeight": 2500.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 31.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "20240912-COO-1234"
+    ],
+    "originalBLDistribution": {
+      "name": "HSBC BANK SINGAPORE LTD.",
+      "address": "10 Marina Boulevard, Marina Bay Financial Centre Tower 2, Singapore 018983",
+      "telephone": "+65 6570 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "20 Anson Road, #11-01 Anson Centre, Singapore 079909",
+      "telephone": "+65 6227 1234"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD100,000"
+  }
+}

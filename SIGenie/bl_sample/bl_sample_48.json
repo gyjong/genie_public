@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240920114512",
+  "voyageDetails": {
+    "vesselName": "COSCO SHIPPING LEO",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI JINYU TRADING CO., LTD.",
+      "address": "ROOM 1001, NO. 188, SHANGHAI ROAD, SHANGHAI, 200020",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "BEUKELSTRAAT 25, 3070 VORselaar",
+      "country": "BELGIUM",
+      "email": "INFO@EUROCHEM.BE",
+      "telephone": "+32 14 69 50 50"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "BEUKELSTRAAT 25, 3070 VORselaar",
+      "country": "BELGIUM",
+      "email": "INFO@EUROCHEM.BE",
+      "telephone": "+32 14 69 50 50"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "MSCU3568721",
+      "sealNumber": "123456",
+      "marksAndNumbers": "123-ABC",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ-123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "290331",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333790"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7000 0000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7000 0000",
+      "fax": "+44 20 7000 0001"
+    },
+    "onboardDate": "SEPT. 22. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nALL FREIGHT PREPAID\nSHIPPER'S DECLARATION\n"
+  }
+}

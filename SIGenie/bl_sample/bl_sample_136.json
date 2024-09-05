@@ -1,0 +1,97 @@
+{
+  "bookingReference": "GRAPE20240912112518",
+  "voyageDetails": {
+    "vesselName": "MSC IRINA",
+    "voyageNumber": "2428W",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROCHEM BV",
+      "address": "MARKTRECHT 13, 3021 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5200",
+      "email": "INFO@EUROCHEM.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC CHEMICALS PTE LTD",
+      "address": "10 Anson Road #26-01 International Plaza, SINGAPORE 079903",
+      "taxId": "199801938D",
+      "president": "MR. LIM CHENG KUAN",
+      "telephone": "+65 6226 3600",
+      "fax": "+65 6226 3666"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC CHEMICALS PTE LTD",
+      "address": "10 Anson Road #26-01 International Plaza, SINGAPORE 079903",
+      "taxId": "199801938D",
+      "president": "MR. LIM CHENG KUAN",
+      "telephone": "+65 6226 3600",
+      "fax": "+65 6226 3666"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "28112200",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION 50%",
+  "containers": [
+    {
+      "containerNumber": "TCLU7360258",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SODIUM HYDROXIDE SOLUTION 50% FOR INDUSTRIAL USE. HAZARDOUS MATERIAL. IMDG CODE: 1824.",
+      "grossWeight": 22000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "DRUMS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 25.5
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "222 Anson Road #07-01 Anson Centre, SINGAPORE 079912",
+      "telephone": "+65 6590 7777",
+      "fax": "+65 6590 7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "222 Anson Road #07-01 Anson Centre, SINGAPORE 079912",
+      "telephone": "+65 6590 7777",
+      "fax": "+65 6590 7778"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO SHOULD BE STOWED AWAY FROM FOODSTUFFS. HAZARDOUS MATERIAL. IMDG CODE: 1824."
+  }
+}

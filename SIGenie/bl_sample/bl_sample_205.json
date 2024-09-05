@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "MSC ELSA",
+    "voyageNumber": "224EWL",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "FLOWER POWER LTD",
+      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@flowerpower.nl"
+    },
+    "consignee": {
+      "name": "ASIA GREEN IMPORTERS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345Z",
+      "president": "Mr. Lee Wei",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
+    },
+    "notifyParty": {
+      "name": "FLOWER POWER LTD",
+      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@flowerpower.nl"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "0602100000",
+  "commodityDescription": "TULIPS, FRESH",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FP20241001",
+      "numberOfPackages": 1000,
+      "packageType": "BUNCHES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH TULIPS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BUNCHES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241001123"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 20241001001",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "1001 Marina Boulevard #16-01, Marina Bay Financial Centre Tower 3, Singapore 018983",
+      "telephone": "+65 6399 2200",
+      "fax": "+65 6399 2299"
+    },
+    "originalInvoiceDistribution": {
+      "name": "FLOWER POWER LTD",
+      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@flowerpower.nl"
+    },
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "None"
+  }
+}

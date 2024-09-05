@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241018103015",
+  "voyageDetails": {
+    "vesselName": "EVER GLORY",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1001, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6278-9876",
+      "fax": "+86-21-6278-9875"
+    },
+    "consignee": {
+      "name": "DEUTSCHE LOGISTIK GMBH",
+      "address": "FRANKFURTER STRASSE 55, 60311 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "KELLERSTRASSE 2, 60329 FRANKFURT AM MAIN, GERMANY"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854230",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "CN20241018001",
+      "CN20241018002"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6278-9876",
+      "fax": "+86-21-6278-9875"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEUTSCHE LOGISTIK GMBH",
+      "address": "FRANKFURTER STRASSE 55, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-1234567",
+      "fax": "+49-69-1234568"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Value: EUR 50,000"
+  }
+}

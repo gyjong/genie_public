@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015104502",
+  "voyageDetails": {
+    "vesselName": "SEA HAWK",
+    "voyageNumber": "2024100",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "EURO IMPORTERS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7989-0123",
+      "fax": "+49-69-7989-0456"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "HAMBURGER ALLEE 25, 20457 HAMBURG, GERMANY",
+      "telephone": "+49-40-3567-0123",
+      "fax": "+49-40-3567-0456"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8479.89",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY, WET, FILLED WITH ACID, ELECTRIC STORAGE"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "9087654321",
+    "salesOrderNumber": "2098765432",
+    "lcDetails": {
+      "lcNumber": "00002010339243"
+    },
+    "certificateDetails": "41127240801891",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTERS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7989-0123",
+      "fax": "+49-69-7989-0456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "DG, Class: 9, UN No: 3264"
+  }
+}

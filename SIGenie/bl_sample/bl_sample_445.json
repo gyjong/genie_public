@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015143201",
+  "voyageDetails": {
+    "vesselName": "EVER PEARL",
+    "voyageNumber": "2024105",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": "CHICAGO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "onBehalfOf": "",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90210, USA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LLC",
+      "address": "4321 WILLOW STREET, CHICAGO, IL 60601, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90210, USA",
+      "telephone": "310-555-1212",
+      "fax": "310-555-1213"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD100,000"
+  }
+}

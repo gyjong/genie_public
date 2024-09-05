@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015123456",
+  "voyageDetails": {
+    "vesselName": "COSCO PACIFIC",
+    "voyageNumber": "224W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Original Bill of Lading",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "123 CHANGSHU ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6328-5678",
+      "fax": "+86-21-6328-5679"
+    },
+    "consignee": {
+      "name": "DUTCH IMPORTERS BV",
+      "address": "152 ANNA VAN BURENSTRAAT, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "notifyParty": {
+      "name": "DUTCH CUSTOMS BROKER",
+      "address": "125 MAASLANDSTRAAT, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8471.30",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU5782315",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "EM-123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 30.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU5782315",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8471.30",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries contained within motors"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-123456789",
+    "salesOrderNumber": "SO-987654321",
+    "lcDetails": {
+      "lcNumber": "LC20241015001"
+    },
+    "certificateDetails": "20241015002",
+    "originalBLDistribution": {
+      "name": "DUTCH IMPORTERS BV",
+      "address": "152 ANNA VAN BURENSTRAAT, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "123 CHANGSHU ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6328-5678",
+      "fax": "+86-21-6328-5679"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Batteries contained within electric motors"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410121051300",
+  "voyageDetails": {
+    "vesselName": "MSC REBECCA",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA EXPORT TRADING CO.",
+      "address": "258 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-63289876",
+      "fax": "+86-21-63289877"
+    },
+    "consignee": {
+      "name": "EUROLOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-66778899",
+      "fax": "+49-69-66778800",
+      "email": "INFO@EUROLOGISTICS.DE",
+      "contactPerson": "ANNA MEYER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ABC IMPORTS GMBH",
+      "address": "SCHLOSSSTRASSE 10, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-55556677",
+      "fax": "+49-69-55556688"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "90328100",
+  "commodityDescription": "OPTICAL INSTRUMENTS AND DEVICES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9987654",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LASER RANGEFINDERS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 40,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL MICROSCOPES",
+      "grossWeight": 9500.0,
+      "measurement": 22.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 90,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 47.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CE20241012-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241012-001",
+      " fumigation-20241012-001"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC BANK, FRANKFURT",
+      "address": "G\u00d6THEPLATZ 1, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-55556699",
+      "fax": "+49-69-55556600"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROLOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-66778899",
+      "fax": "+49-69-66778800"
+    },
+    "onboardDate": "OCT. 20. 2024"
+  }
+}

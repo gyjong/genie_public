@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912102511",
+  "voyageDetails": {
+    "vesselName": "MAERSK NINGBO",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 1
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 SKYLINE TOWER, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EUROFREIGHT BV",
+      "address": "2545 AM DEN HAAG, NETHERLANDS",
+      "telephone": "+31 70 345 6789",
+      "fax": "+31 70 345 6790"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS - PRINTED CIRCUIT BOARDS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3576890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - PRINTED CIRCUIT BOARDS (H.S. CODE: 85444210)",
+      "grossWeight": 2000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - PRINTED CIRCUIT BOARDS (H.S. CODE: 85444210)",
+      "grossWeight": 2000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 6058,
+    "width": 2438,
+    "height": 2591,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000321045678"
+    },
+    "certificateDetails": [
+      "1000030080141X",
+      "1000030080142X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "1234 SKYLINE TOWER, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFREIGHT BV",
+      "address": "2545 AM DEN HAAG, NETHERLANDS",
+      "telephone": "+31 70 345 6789",
+      "fax": "+31 70 345 6790"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "VALUE: USD50,000"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241026143215",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2441W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1108, NO. 888, SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)",
+      "telephone": "+86 21 6327 8910",
+      "email": "SALES@SUNRISEIMPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE, INFO@EUROTECH.DE",
+      "telephone": "+49 40 3333 4444"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE, INFO@EUROTECH.DE",
+      "telephone": "+49 40 3333 4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM200)",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM200)",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241026001"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 20095 HAMBURG",
+      "telephone": "+49 40 3333 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 20095 HAMBURG",
+      "telephone": "+49 40 3333 4444"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: EUR 50,000"
+  }
+}

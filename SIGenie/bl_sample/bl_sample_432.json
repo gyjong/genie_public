@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015123456",
+  "voyageDetails": {
+    "vesselName": "MSC CASSANDRA",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT EXPORT CO., LTD.",
+      "address": "123 CHANGNING ROAD, SHANGHAI 200041, CHINA",
+      "telephone": "+86-21-6234-5678",
+      "fax": "+86-21-6234-5679"
+    },
+    "consignee": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-678-9012",
+      "fax": "+31-20-678-9013"
+    },
+    "notifyParty": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-678-9012",
+      "fax": "+31-20-678-9013"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 5 CRATES OF MOTORCYCLES. MARKED AS 'FRAGILE'",
+      "grossWeight": 1800.0,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1800.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN CN1234567890",
+    "originalBLDistribution": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-678-9012",
+      "fax": "+31-20-678-9013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT EXPORT CO., LTD.",
+      "address": "123 CHANGNING ROAD, SHANGHAI 200041, CHINA",
+      "telephone": "+86-21-6234-5678",
+      "fax": "+86-21-6234-5679"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241026143211",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "20241012",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "333 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WETERINGSELAAN 10, 1016 DE AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "XYZ987",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 8000.0,
+      "measurement": 16.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 110,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 15500.0,
+    "totalMeasurement": 31.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-411-1111",
+      "fax": "+31-10-411-2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "333 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "ORANGE20240912121507",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA 18",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "POSTFACH 100123, 20000 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 87654321"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA",
+      "telephone": "+86 21 56789012",
+      "fax": "+86 21 34567890"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "CMAU5587236",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 15,
+      "cargoDescription": "SPARE PARTS FOR TEXTILE MACHINERY",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 45.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133X",
+      "1000020070134Y"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "POSTFACH 100123, 20000 HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA",
+      "telephone": "+86 21 56789012",
+      "fax": "+86 21 34567890"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED IN EXPORT STANDARD PACKING"
+  }
+}

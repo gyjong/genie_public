@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202409201357100",
+  "voyageDetails": {
+    "vesselName": "MSC ARES",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA OCEAN SHIPPING CO. LTD",
+      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
+      "telephone": "86-10-88888888",
+      "fax": "86-10-88888889"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "IMPORT@WCI.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ABC LOGISTICS INC.",
+      "address": "456 OAK AVENUE, LOS ANGELES, CA 90016",
+      "telephone": "1-310-555-1313",
+      "fax": "1-310-555-1314"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S T-SHIRTS - 100% COTTON",
+  "containers": [
+    {
+      "containerNumber": "COSU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "T-SHIRT LOT 1",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - 100% COTTON",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "COSU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "T-SHIRT LOT 2",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - 100% COTTON",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 51.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "4567890-01",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA OCEAN SHIPPING CO. LTD",
+      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
+      "telephone": "86-10-88888888",
+      "fax": "86-10-88888889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA OCEAN SHIPPING CO. LTD",
+      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
+      "telephone": "86-10-88888888",
+      "fax": "86-10-88888889"
+    },
+    "onboardDate": "SEPT. 29. 2024"
+  }
+}

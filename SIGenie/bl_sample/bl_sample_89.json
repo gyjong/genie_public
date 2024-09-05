@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912143256",
+  "voyageDetails": {
+    "vesselName": "MAERSK INDIANA",
+    "voyageNumber": "224W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Pieter de Hoochweg 12, 3072 BM Rotterdam, Netherlands",
+      "telephone": "+31 10 462 8500",
+      "fax": "+31 10 462 8599"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Coolsingel 108, 3012 AG Rotterdam, Netherlands",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84138100",
+  "commodityDescription": "PUMPS FOR LIQUIDS - CENTRIFUGAL PUMPS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 CENTRIFUGAL PUMPS, MODEL CP-2000, PACKED IN WOODEN CRATES",
+      "grossWeight": 2500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 CENTRIFUGAL PUMPS, MODEL CP-2000, PACKED IN WOODEN CRATES",
+      "grossWeight": 2500.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 31.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin",
+      "Inspection Certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Pieter de Hoochweg 12, 3072 BM Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD & COUNT"
+  }
+}

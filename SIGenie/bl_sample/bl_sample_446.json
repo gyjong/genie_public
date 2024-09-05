@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202410161245300",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2436E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
+    },
+    "consignee": {
+      "name": "EUROSTAR LOGISTICS BV",
+      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
+      "telephone": "+31 10 217 8000",
+      "fax": "+31 10 217 8001",
+      "email": "info@eurostarlogistics.nl",
+      "contactPerson": "PETER VAN DER WIEL"
+    },
+    "notifyParty": {
+      "name": "EUROSTAR LOGISTICS BV",
+      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
+      "telephone": "+31 10 217 8000",
+      "fax": "+31 10 217 8001",
+      "email": "info@eurostarlogistics.nl",
+      "contactPerson": "PETER VAN DER WIEL"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8708991000",
+  "commodityDescription": "MOTORCYCLE PARTS - BRAKE SYSTEMS AND COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MS-2023-102",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: BRAKE PADS, ROTORS, CALIPERS AND HOSES",
+      "grossWeight": 7500.0,
+      "measurement": 15.2
+    },
+    {
+      "containerNumber": "APMU1122334",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "MS-2023-103",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MASTER CYLINDERS, BRAKE FLUID RESERVOIRS AND ASSOCIATED HARDWARE",
+      "grossWeight": 6800.0,
+      "measurement": 14.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 95,
+    "totalGrossWeight": 14300.0,
+    "totalMeasurement": 29.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "APT-20241016-001",
+    "documentNumber": "202410160002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-1234567",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROSTAR LOGISTICS BV",
+      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
+      "telephone": "+31 10 217 8000",
+      "fax": "+31 10 217 8001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

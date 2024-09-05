@@ -1,0 +1,95 @@
+{
+  "bookingReference": "GRAPE20240915123502",
+  "voyageDetails": {
+    "vesselName": "EVER GIVEN",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 ROBINSON ROAD #12-01, SINGAPORE 068902",
+      "telephone": "+65 6536 8877",
+      "email": "INFO@APTRADING.SG"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "VISSERSTRAAT 12, 3011 BA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL853675212B01",
+      "president": "MRS. ANNA VAN DER HEIJDEN",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "VISSERSTRAAT 12, 3011 BA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5680",
+      "fax": "+31 10 414 5681"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85044010",
+  "commodityDescription": "ELECTRIC TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET2024-09-15",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. TRANSFORMERS AS PER PACKING LIST.",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "CRATES",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' Dry Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN: CN20240915",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "2500 SINGAPORE POST CENTRE, SINGAPORE 915142",
+      "telephone": "+65 6333 3333",
+      "fax": "+65 6333 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "2500 SINGAPORE POST CENTRE, SINGAPORE 915142",
+      "telephone": "+65 6333 3333",
+      "fax": "+65 6333 3334"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

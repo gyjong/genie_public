@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2431W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6222 1234",
+      "email": "sales@asiapacifictrading.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Gro\u00dfe Elbstra\u00dfe 145, 22767 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de, orders@eurotech.de",
+      "telephone": "+49 40 3119 2000"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "Gro\u00dfe Elbstra\u00dfe 145, 22767 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de, orders@eurotech.de",
+      "telephone": "+49 40 3119 2000"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "846630",
+  "commodityDescription": "POWER TRANSMISSION GEARS AND GEARBOXES FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-2024-09-15",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSMISSION GEARS AND GEARBOXES FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ETG-2024-09-15",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSMISSION GEARS AND GEARBOXES FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00002345678912"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Harbor Drive, Singapore 018912",
+      "telephone": "+65 6234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Harbor Drive, Singapore 018912",
+      "telephone": "+65 6234 5678"
+    },
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "VALUE: USD 150,000"
+  }
+}

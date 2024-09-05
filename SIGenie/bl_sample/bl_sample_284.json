@@ -1,0 +1,111 @@
+{
+  "bookingReference": "APPLE20241026101542",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2445W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "UNIT 1502, TOWER C, SHANGHAI IFC, 8 CENtral, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 70 356 1234"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 70 356 1234"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20050.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU1111222",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20050.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU3333444",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20050.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60150.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "23456789012345678901",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK W1A 1AA",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
+      "country": "NETHERLANDS",
+      "telephone": "+31 70 356 1234",
+      "fax": "+31 70 356 1235"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nSHIPMENT SUBJECT TO SGS INSPECTION"
+  }
+}

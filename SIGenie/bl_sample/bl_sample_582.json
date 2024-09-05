@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912102315",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "10 Anson Road, #27-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Westblaak 137, 3012 KN Rotterdam, Netherlands",
+      "telephone": "+31 10 414 2000",
+      "fax": "+31 10 414 2001"
+    },
+    "notifyParty": {
+      "name": "JOHN DOE",
+      "address": "123 Main Street, Anytown, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES, 125CC",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSSP123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES, 125CC, MODEL: GS125",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSSP456",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES, 125CC, MODEL: GS125",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "SGS202409121"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Westblaak 137, 3012 KN Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "10 Anson Road, #27-01 International Plaza, Singapore 079903"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": ""
+  }
+}

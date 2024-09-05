@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026143012",
+  "voyageDetails": {
+    "vesselName": "COSCO YING",
+    "voyageNumber": "222433",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO.",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "consignee": {
+      "name": "AMSTERDAM IMPORTS BV",
+      "address": "KLOVENIERDE 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2000",
+      "fax": "+31-10-414-2001"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER BENelux",
+      "address": "DE KOEWIJNERSSTRAAT 12, 3012 AG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-3000",
+      "fax": "+31-10-246-3001"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MOTORCYCLE 123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "2 MOTORCYCLES, MODEL: RX-250, COLOR: RED",
+      "grossWeight": 550.0,
+      "measurement": 10.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "totalGrossWeight": 550.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231026001",
+    "salesOrderNumber": "20231026002",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CN20231026003",
+    "originalBLDistribution": {
+      "name": "AMSTERDAM IMPORTS BV",
+      "address": "KLOVENIERDE 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2000",
+      "fax": "+31-10-414-2001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI TRADING CO.",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "onboardDate": "NOV. 02. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241026143511",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "2443E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "233 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRIEDRICHSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WALTER-G-MEYER-STRASSE 15, 60594 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "EUROTECH 1/3",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 8500.0,
+      "measurement": 18.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "EUROTECH 2/3",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 9000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 35,
+    "packageType": "BOXES AND CRATES",
+    "containerType": "20FT",
+    "totalGrossWeight": 17500.0,
+    "totalMeasurement": 38.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "233 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FRIEDRICHSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-7981-2345",
+      "fax": "+49-69-7981-2346"
+    },
+    "onboardDate": "NOV. 02. 2024",
+    "additionalRemarks": "Machinery parts packed in sturdy boxes and crates. Consignee responsible for unloading."
+  }
+}

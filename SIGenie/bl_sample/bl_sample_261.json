@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20241015142511",
+  "voyageDetails": {
+    "vesselName": "CMA CGM RHONE",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "ROOM 1003, BUILDING A, NO.1588 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6329-8600",
+      "fax": "+86-21-6329-8601"
+    },
+    "consignee": {
+      "name": "EUROFRESH BV",
+      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS",
+      "companyNumber": "52714967"
+    },
+    "notifyParty": {
+      "name": "EUROFRESH LOGISTICS",
+      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "080290",
+  "commodityDescription": "GRAPES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROFRESH GRAPE MARK",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. GRAPES. ",
+      "grossWeight": 22000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE CONTROLLED"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40HQ",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024101512345"
+    },
+    "certificateDetails": [
+      "PHYTO-20241015-001",
+      "COO-20241015-002"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1003, BUILDING A, NO.1588 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6329-8600",
+      "fax": "+86-21-6329-8601"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFRESH BV",
+      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GRAPES SHIPPED AT 10 DEGREES CELSIUS"
+  }
+}

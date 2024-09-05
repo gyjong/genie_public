@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PEACH20240912142345",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "24235",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 PASIR PANJANG ROAD, #05-01, SINGAPORE 118523"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 79998888",
+      "fax": "+49 69 79998889"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 79998888",
+      "fax": "+49 69 79998889"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR FOOD PROCESSING - INDUSTRIAL MIXER",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. INDUSTRIAL MIXER PARTS AS DETAILED ON PACKING LIST.",
+      "grossWeight": 4500.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "UTLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ETG124",
+      "numberOfPackages": 5,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. INDUSTRIAL MIXER PARTS AS DETAILED ON PACKING LIST.",
+      "grossWeight": 2500.0,
+      "measurement": 12.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20FTDRY",
+    "totalGrossWeight": 7000.0,
+    "totalMeasurement": 32.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 PASIR PANJANG ROAD, #05-01, SINGAPORE 118523"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S DECLARATION: THIS SHIPMENT DOES NOT CONTAIN ANY DANGEROUS GOODS."
+  }
+}

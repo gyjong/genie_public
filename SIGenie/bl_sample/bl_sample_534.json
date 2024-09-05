@@ -1,0 +1,108 @@
+{
+  "bookingReference": "APPLE20241016143205",
+  "voyageDetails": {
+    "vesselName": "EVER GIANT",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 1888, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "FRANKFURTER STRASSE 23, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "THE SQUAREL, FRANKFURTER STRASSE 45, 60311 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, AND SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
+    },
+    {
+      "containerNumber": "UTLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, AND SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "FRANKFURTER STRASSE 23, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7980-1234",
+      "fax": "+49-69-7980-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 1888, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD100,000"
+  }
+}

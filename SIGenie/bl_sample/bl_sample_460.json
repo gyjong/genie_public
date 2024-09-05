@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410021027300",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "1234 ZHUJIANG ROAD, HANGZHOU, ZHEJIANG, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "consignee": {
+      "name": "EUROTRADE IMPORTS BV",
+      "address": "DE POTEN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2468541",
+      "fax": "+31-10-2468542",
+      "email": "INFO@EUROTRADE.NL",
+      "contactPerson": "JAN VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE LOGISTICS",
+      "address": "DE POTEN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2468541",
+      "fax": "+31-10-2468542"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU9567321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EUT123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9567322",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "EUT124",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT ROLLERS",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' CONTAINER",
+    "totalPackages": 35,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 47.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CGT20241002-01",
+    "documentNumber": "20241002001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241002001"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE IMPORTS BV",
+      "address": "DE POTEN 12, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2468541",
+      "fax": "+31-10-2468542"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "1234 ZHUJIANG ROAD, HANGZHOU, ZHEJIANG, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
+    },
+    "onboardDate": "OCT. 10. 2024"
+  }
+}

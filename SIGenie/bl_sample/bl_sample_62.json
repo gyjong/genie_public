@@ -1,0 +1,90 @@
+{
+  "bookingReference": "APPLE20241015102531",
+  "voyageDetails": {
+    "vesselName": "EVER GRETA",
+    "voyageNumber": "2024105",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": "CHICAGO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": null,
+      "address": "258 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1000 BROADWAY, NEW YORK, NY 10003, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "852580",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, MARK & NUMBER SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINER TEMPERATURE: +15\u00b0C TO +25\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40HQ",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "CN20241015001",
+      "CN20241015002"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "258 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Cargo Value: USD 50,000"
+  }
+}

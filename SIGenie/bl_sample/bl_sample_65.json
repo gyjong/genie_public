@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "COSCO SINGAPORE",
+    "voyageNumber": "240922",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN XINGHUANG TRADING CO., LTD.",
+      "address": "NO. 333, JINGHUI ROAD, GUANGZHOU, 510000",
+      "country": "CHINA",
+      "additionalInfo": "(TIANHE DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "POSTBUS 1234, 3000 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 444 5555"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS",
+      "address": "STATIONSPLEIN 1, 3013 AK ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCLOGISTICS.NL",
+      "telephone": "+31 10 222 3333"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "SEGU6678452",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG DRUMS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU7788990",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 500,
+      "packageType": "IBC",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 1000KG IBC",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS & IBCs",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456ABC",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, ROTTERDAM, 3000 AA",
+      "telephone": "+31 10 555 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHONGSHAN XINGHUANG TRADING CO., LTD.",
+      "address": "NO. 333, JINGHUI ROAD, GUANGZHOU, 510000",
+      "telephone": "+86 20 123 4567"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

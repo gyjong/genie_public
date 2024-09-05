@@ -1,0 +1,90 @@
+{
+  "bookingReference": "APPLE20241015103045",
+  "voyageDetails": {
+    "vesselName": "EVERGREEN SKY",
+    "voyageNumber": "2024103",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6321-8888",
+      "fax": "+86-21-6321-9999"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444200",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-123456",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
+      "address": "123 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6321-8888",
+      "fax": "+86-21-6321-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Container Secured with Tamper-Evident Seals"
+  }
+}

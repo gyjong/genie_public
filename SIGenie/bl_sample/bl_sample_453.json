@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915113456",
+  "voyageDetails": {
+    "vesselName": "EVER GOLDEN",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG LONGHUI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 388, CHENGXING ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 322000)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 54, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADING.DE",
+      "telephone": "+49 69 798675"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "SCHLESISCHE STR. 23, 40235 D\u00dcSSELDORF, GERMANY",
+      "country": "GERMANY",
+      "email": "NOTIFICATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 211 301456"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "848330",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "LH123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (50 BOXES)",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "LH456",
+      "numberOfPackages": 30,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (30 CRATES)",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "COSU3334445",
+      "sealNumber": "345678",
+      "marksAndNumbers": "LH789",
+      "numberOfPackages": 20,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (20 PALLETS)",
+      "grossWeight": 6000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES, CRATES & PALLETS",
+    "totalGrossWeight": 26000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "84833090",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "ABC SHIPPING CO. LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 54, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 798675",
+      "fax": "+49 69 798676"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "FREIGHT PREPAID TO ROTTERDAM. 10 DAYS FREE TIME AT DESTINATION. CONSIGNEE TO ARRANGE CUSTOMS CLEARANCE AND INLAND TRANSPORTATION."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912102345",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2436E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE METALLE GMBH",
+      "address": "Kaiserstrasse 12, 20095 Hamburg, Germany",
+      "telephone": "+49 40 3010 2000",
+      "email": "info@deutschemetalle.de"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345Z",
+      "president": "MR. LIM CHONG HUI",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345Z",
+      "president": "MR. LIM CHONG HUI",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "7202111000",
+  "commodityDescription": "ALUMINIUM FLAT BAR",
+  "containers": [
+    {
+      "containerNumber": "APMU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE ALUMINIUM FLAT BAR",
+      "grossWeight": 15000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "000123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SINGAPORE GLOBAL LOGISTICS",
+      "address": "1 Marina Boulevard #38-01, Singapore 018989",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE GLOBAL LOGISTICS",
+      "address": "1 Marina Boulevard #38-01, Singapore 018989",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

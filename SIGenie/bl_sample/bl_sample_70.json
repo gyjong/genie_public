@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410191153200",
+  "voyageDetails": {
+    "vesselName": "MSC BEATRICE",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "235 CHANGJIANG ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-63278901",
+      "fax": "+86-21-63278902"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "IMPORT@WESTCOAST.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ABC BANK",
+      "address": "100 WALL STREET, NEW YORK, NY 10005",
+      "telephone": "+1-212-555-5555",
+      "fax": "+1-212-555-5556"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "NETWORK ROUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9675123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NETWORK ROUTERS - MADE IN CHINA",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NETWORK ROUTERS - MODEL RX-5000",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NETWORK ROUTERS - MADE IN CHINA",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NETWORK ROUTERS - MODEL RX-5000",
+      "grossWeight": 12000.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 50.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "1234567-09",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "235 CHANGJIANG ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-63278901",
+      "fax": "+86-21-63278902"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

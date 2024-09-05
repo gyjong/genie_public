@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "COSMOS 02",
+    "voyageNumber": "2024041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "225 BANK STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTERS PTE LTD",
+      "address": "101 Anson Road, #20-01, International Plaza, Singapore 079900",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "notifyParty": {
+      "name": "SEA FREIGHT LOGISTICS",
+      "address": "123 Marina Boulevard, #15-01, Marina Bay Financial Centre, Singapore 018985",
+      "telephone": "+65 6888 9999",
+      "fax": "+65 6888 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87119000",
+  "commodityDescription": "MOTORCYCLES, 125CC ENGINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7865432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MTC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "MTC456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9998887",
+      "sealNumber": "5432109",
+      "marksAndNumbers": "MTC789",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20FR) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "CRATES",
+    "containerType": "20FR",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "CO-123456",
+      " fumigation Certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS PTE LTD",
+      "address": "101 Anson Road, #20-01, International Plaza, Singapore 079900"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "225 BANK STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "ALL CARGO PACKED AND SECURED AS PER INDUSTRY STANDARDS."
+  }
+}

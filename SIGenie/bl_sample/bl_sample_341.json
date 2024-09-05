@@ -1,0 +1,109 @@
+{
+  "bookingReference": "APPLE20240918143512",
+  "voyageDetails": {
+    "vesselName": "MAERSK ARIZONA",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "238 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(OFFICE BUILDING)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "BEVERWIJKSTRAAT 5, 3011 AC ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 414 5678"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "BEVERWIJKSTRAAT 5, 3011 AC ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 414 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "CMAU5678912",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYL ACETATE IN 200 DRUMS X 100KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYL ACETATE IN 200 DRUMS X 100KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYL ACETATE IN 200 DRUMS X 100KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "291521",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "COC20240918001",
+    "originalBLDistribution": {
+      "name": "ABC LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "BEVERWIJKSTRAAT 5, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nSubject to Buyer's Credit Approval"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bookingReference": "APPLE20241015143022",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
+      "onBehalfOf": "NINGBO DONGFANG IMPORT & EXPORT CO., LTD.",
+      "address": "UNIT 1608, 16/F, SHANGHAI GATEWAY PLAZA, NO. 1128, YINCHENG ROAD, SHANGHAI, 200127, CHINA",
+      "telephone": "+86-21-6161-9090",
+      "fax": "+86-21-6161-9191"
+    },
+    "consignee": {
+      "name": "EURO GLOBAL LOGISTICS BV",
+      "address": "ZUIDHOEK 101, 3072 MA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "34287612"
+    },
+    "notifyParty": {
+      "name": "BRIGHT STAR SHIPPING BV",
+      "address": "VAN DER ZIJDENSTRAAT 22, 3013 AL ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOX 1-10",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. CONTAINER IS PROPERTY OF HMM."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000202033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "NINGBO DONGFANG IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 333, ZHONGSHAN ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "+86-574-8730-6666",
+      "fax": "+86-574-8730-5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "555 FIFTH AVE, NEW YORK, NY 10017, USA",
+      "telephone": "212-555-1212",
+      "fax": "212-555-1313"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Non-Reefer Container, Item: MACHINERY PARTS FOR TEXTILE INDUSTRY, Value: USD25,000"
+  }
+}

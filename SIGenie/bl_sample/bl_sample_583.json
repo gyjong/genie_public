@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20241012121210",
+  "voyageDetails": {
+    "vesselName": "COSCO PACIFIC",
+    "voyageNumber": "2024101",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
+      "address": "No. 11, Lianhua Road, Guzhen Town, Zhongshan City, Guangdong Province, China",
+      "telephone": "+86 760 22223333",
+      "fax": "+86 760 22224444"
+    },
+    "consignee": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1313",
+      "email": "info@sunriselogistics.com",
+      "contactPerson": "JANE SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ABC TRADING COMPANY",
+      "address": "456 Elm Street, Los Angeles, CA 90001"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN FURNITURE - SOFAS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 25 SOFAS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 25 SOFAS",
+      "grossWeight": 12500.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 62.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "SUNRISE20241012",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X",
+      "4112724080180X"
+    ],
+    "originalBLDistribution": {
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
+      "address": "No. 11, Lianhua Road, Guzhen Town, Zhongshan City, Guangdong Province, China",
+      "telephone": "+86 760 22223333",
+      "fax": "+86 760 22224444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1313"
+    },
+    "onboardDate": "OCT. 20. 2024"
+  }
+}

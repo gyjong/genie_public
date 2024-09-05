@@ -1,0 +1,109 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "MSC ELSA",
+    "voyageNumber": "2024041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "100 Anson Road #12-01, International Plaza, SINGAPORE 079900"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 75652100",
+      "fax": "+49 69 75652199"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 75652100",
+      "fax": "+49 69 75652199"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERAS WITH ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "SUDU7895432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "GT-789",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 45.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133X",
+      "1000020070134X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "100 Anson Road #12-01, International Plaza, SINGAPORE 079900"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 75652100",
+      "fax": "+49 69 75652199"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO STOWED IN DRY CONTAINERS"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE202410179143200",
+  "voyageDetails": {
+    "vesselName": "MSC SHANGHAI",
+    "voyageNumber": "2024342",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADE IMPORT EXPORT CO. LTD",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-88776655",
+      "fax": "+86-574-88776688"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "DE KOOPVAART 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3478",
+      "email": "INFO@EUROIMPORTS.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "STATIONSPLEIN 25, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-4567",
+      "fax": "+31-10-203-4589"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPARE PARTS FOR LOOM MACHINES",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "XYZ987",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONTROL UNITS FOR WEAVING MACHINES",
+      "grossWeight": 9000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 21500.0,
+    "totalMeasurement": 47.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241017-001"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "DE KOOPVAART 12, 3011 AA ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA TRADE IMPORT EXPORT CO. LTD",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA 315000"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

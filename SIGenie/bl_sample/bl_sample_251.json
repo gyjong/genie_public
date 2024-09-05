@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241015124532",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "568 SHEN NAN ROAD, SHANGHAI 200011, CHINA",
+      "telephone": "+86-21-6335-8888",
+      "fax": "+86-21-6335-9999"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS PLUS GMBH",
+      "address": "HANSA RING 15, 20457 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847130",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7865123",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINS PRECISION COMPONENTS. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "40HC",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "568 SHEN NAN ROAD, SHANGHAI 200011, CHINA",
+      "telephone": "+86-21-6335-8888",
+      "fax": "+86-21-6335-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Machinery parts for assembly line. Value: EUR 50,000"
+  }
+}

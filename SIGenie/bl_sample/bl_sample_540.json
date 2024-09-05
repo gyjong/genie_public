@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410161037210",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2442E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
+      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "West Coast Logistics Inc.",
+      "address": "123 Main Street, Los Angeles, CA 90012, U.S.A",
+      "telephone": "+1-213-555-1234",
+      "fax": "+1-213-555-1235",
+      "email": "info@westcoastlogistics.com",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "Zenith International Trading",
+      "address": "456 Elm Street, Los Angeles, CA 90013, U.S.A",
+      "telephone": "+1-310-555-5678",
+      "fax": "+1-310-555-5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "610910",
+  "commodityDescription": "Men's T-Shirts - Cotton Blend",
+  "containers": [
+    {
+      "containerNumber": "CMAU8876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "T-SHIRT123",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - COTTON BLEND",
+      "grossWeight": 9500.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "T-SHIRT456",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - COTTON BLEND",
+      "grossWeight": 9400.0,
+      "measurement": 18.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 18900.0,
+    "totalMeasurement": 36.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
+      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
+      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202410121354200",
+  "voyageDetails": {
+    "vesselName": "MSC ELARA",
+    "voyageNumber": "2443E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "235 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "INFO@SUNRISEIMPORT.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "INFO@SUNRISEIMPORT.COM",
+      "contactPerson": "JOHN SMITH"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "MOBILE PHONE ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: MOBILE PHONE CASES",
+      "grossWeight": 2500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: MOBILE PHONE CHARGERS",
+      "grossWeight": 3000.0,
+      "measurement": 12.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 5500.0,
+    "totalMeasurement": 22.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241012001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

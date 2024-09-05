@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912142512",
+  "voyageDetails": {
+    "vesselName": "MSC CATALINA",
+    "voyageNumber": "2423E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "100 ORCHARD ROAD, #01-01, SINGAPORE 238840",
+      "taxId": "123456789A",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "200 TEMASEC BOULEVARD, #05-01, SINGAPORE 038987",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. STATED TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20240912123456"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "315 ALEXANDRA ROAD, SINGAPORE 159949",
+      "telephone": "+65 6375 6666",
+      "fax": "+65 6278 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "315 ALEXANDRA ROAD, SINGAPORE 159949",
+      "telephone": "+65 6375 6666",
+      "fax": "+65 6278 6666"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

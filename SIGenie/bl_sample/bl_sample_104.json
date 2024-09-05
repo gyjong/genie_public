@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410161432100",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA DRAGON IMPORTS & EXPORTS LTD.",
+      "address": "1234 HUA SHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "5432 SUNRISE BLVD., SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1-323-456-7890",
+      "fax": "+1-323-456-7891",
+      "email": "IMPORT@GOLDENSUNT.COM",
+      "contactPerson": "MARIA GONZALES"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-987-6543",
+      "fax": "+1-213-987-6544"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "621120",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU5678912",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS-2024-10",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS & SIZES",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GS-2024-10",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS & SIZES",
+      "grossWeight": 7450.0,
+      "measurement": 15.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 14950.0,
+    "totalMeasurement": 30.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN SUN TRADING INC.",
+      "address": "5432 SUNRISE BLVD., SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1-323-456-7890",
+      "fax": "+1-323-456-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA DRAGON IMPORTS & EXPORTS LTD.",
+      "address": "1234 HUA SHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

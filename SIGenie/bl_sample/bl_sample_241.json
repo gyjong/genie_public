@@ -1,0 +1,95 @@
+{
+  "bookingReference": "GRAPE20240912101502",
+  "voyageDetails": {
+    "vesselName": "CELESTIAL HOPE 05",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE, SINGAPORE",
+    "portOfLoading": "SINGAPORE, SINGAPORE",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "101 UPPER CROSS STREET, #05-01, SINGAPORE 058357",
+      "telephone": "+65 6336 7890",
+      "email": "sales@sunrisetrading.sg"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
+      "taxId": "98-76543210",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS LLC",
+      "address": "5678 MARKET ST, SAN FRANCISCO, CA 94107, USA",
+      "telephone": "+1 415 555 3434",
+      "fax": "+1 415 555 3435"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "73269098",
+  "commodityDescription": "STEEL PIPES & TUBES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA STEEL PIPES & TUBES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CLEAN ON BOARD"
+  }
+}

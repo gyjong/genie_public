@@ -1,0 +1,97 @@
+{
+  "bookingReference": "BLUEBERRY20241026143051",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "TRANSFERABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YINGZHI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1702, NO.188, HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8666",
+      "fax": "+86-21-6327-8667"
+    },
+    "consignee": {
+      "name": "EUROTECH BV",
+      "address": "ZUIDHOEK 33, 3141 DA MAASSLUIS, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) BV",
+      "address": "DE RUN 250, 3161 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "SEGU9965721",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "YZ231026",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINING SPARE PARTS FOR INDUSTRIAL MACHINERY"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI YINGZHI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1702, NO.188, HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8666",
+      "fax": "+86-21-6327-8667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH BV",
+      "address": "ZUIDHOEK 33, 3141 DA MAASSLUIS, NETHERLANDS",
+      "telephone": "+31-10-463-7777",
+      "fax": "+31-10-463-7778"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Machinery parts for industrial use. Value: EUR50,000"
+  }
+}

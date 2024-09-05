@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240912101504",
+  "voyageDetails": {
+    "vesselName": "EVER GIVEN 06",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 1
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6738 1234",
+      "fax": "+65 6738 5678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT EXPORT",
+      "address": "456 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2147 8901",
+      "fax": "+60 3 2147 8902"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "SUDU8654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. PACKED IN WOODEN CRATES. SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 8500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GL456",
+      "numberOfPackages": 8,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. PACKED IN CARTON BOXES. SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 7000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 15500.0,
+    "totalMeasurement": 45.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "123ABC456DEF789GHI"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6738 1234",
+      "fax": "+65 6738 5678"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION."
+  }
+}

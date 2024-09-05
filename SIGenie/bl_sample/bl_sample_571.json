@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410171245300",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
+      "address": "2345 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
+      "telephone": "+86-21-63285678",
+      "fax": "+86-21-63285679"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-75935600",
+      "fax": "+49-69-75935601",
+      "email": "IMPORT@EUROTRADE.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER SERVICES GMBH",
+      "address": "HAMBURGER ALLE 25, 20097 HAMBURG, GERMANY",
+      "telephone": "+49-40-30698765",
+      "fax": "+49-40-30698764"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING LINE",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "P123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLY",
+      "grossWeight": 7500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "P456",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SECTIONS",
+      "grossWeight": 6800.0,
+      "measurement": 11.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 14300.0,
+    "totalMeasurement": 23.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
+    "lcDetails": {
+      "lcNumber": "LC20241017-ABC123"
+    },
+    "certificateDetails": [
+      "CN20241017-123",
+      "CN20241017-456"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-75935600",
+      "fax": "+49-69-75935601"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
+      "address": "2345 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
+      "telephone": "+86-21-63285678",
+      "fax": "+86-21-63285679"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

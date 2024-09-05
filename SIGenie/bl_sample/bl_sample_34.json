@@ -1,0 +1,106 @@
+{
+  "bookingReference": "PINEAPPLE20240915101532",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2428W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Business Registration No. 200512345Z)",
+      "telephone": "+65 6221 1234",
+      "email": "sales@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 15, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3333 1234"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA, N.A.",
+      "address": "100 Federal Street, Boston, MA 02110, USA",
+      "country": "UNITED STATES",
+      "email": "lettersofcredit@bankofamerica.com",
+      "telephone": "+1 617 634 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84139100",
+  "commodityDescription": "MACHINERY FOR INDUSTRIAL USE - HYDRAULIC PRESSES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "TEN (10) HYDRAULIC PRESSES, MODEL HP-200, WEIGHT: 1500KG EACH",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "TEN (10) HYDRAULIC PRESSES, MODEL HP-200, WEIGHT: 1500KG EACH",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) 40FT CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "C1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 15, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3333 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BANK OF AMERICA, N.A.",
+      "address": "100 Federal Street, Boston, MA 02110, USA",
+      "telephone": "+1 617 634 1234"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Insurance: USD 500,000"
+  }
+}

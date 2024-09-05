@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE202410177321000",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2445E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Amstelveenseweg 500, 1081 KL Amsterdam, NETHERLANDS",
+      "telephone": "+31 20 777 1111",
+      "fax": "+31 20 777 2222"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1313",
+      "email": "info@wci.com",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7865321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12200.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24700.0,
+    "totalMeasurement": 40.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-12345678",
+      " fumigation certificate-12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Amstelveenseweg 500, 1081 KL Amsterdam, NETHERLANDS",
+      "telephone": "+31 20 777 1111",
+      "fax": "+31 20 777 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1313"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

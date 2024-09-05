@@ -1,0 +1,84 @@
+{
+  "bookingReference": "APPLE20241015132502",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA",
+    "voyageNumber": "2024091",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road #28-01, International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8888",
+      "fax": "+65-6221-9999"
+    },
+    "consignee": {
+      "name": "EURO TRADING BV",
+      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
+      "telephone": "+31-10-477-1234",
+      "fax": "+31-10-477-5678"
+    },
+    "notifyParty": {
+      "name": "EURO TRADING BV",
+      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
+      "telephone": "+31-10-477-1234",
+      "fax": "+31-10-477-5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.5
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC001234567"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {},
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADING BV",
+      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
+      "telephone": "+31-10-477-1234",
+      "fax": "+31-10-477-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GOODS PACKED IN SEA Worthy CONDITION"
+  }
+}

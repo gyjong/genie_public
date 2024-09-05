@@ -1,0 +1,95 @@
+{
+  "bookingReference": "PEACH20240912124512",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "email": "info@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "DE KOEIJEN 12, 3012 BL ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789B01",
+      "president": "MR. JAN VAN DER LINDEN",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6780"
+    },
+    "notifyParty": {
+      "name": "EUROTECH WAREHOUSING",
+      "address": "DE KOEIJEN 12, 3012 BL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6780"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, NETHERLANDS TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 LOGISTICS WAY, SINGAPORE 543210",
+      "telephone": "+65 6789 0124",
+      "fax": "+65 6789 0125"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 LOGISTICS WAY, SINGAPORE 543210",
+      "telephone": "+65 6789 0124",
+      "fax": "+65 6789 0125"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT MUST BE DELIVERED TO EUROTECH WAREHOUSING"
+  }
+}

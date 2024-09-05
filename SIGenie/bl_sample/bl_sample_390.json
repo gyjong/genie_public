@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20241026123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2445W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #25-01, International Plaza, Singapore 079900",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. David Lee)"
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
+      "country": "BELGIUM",
+      "email": "info@eurochem.be",
+      "telephone": "+32 3 216 54 32"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
+      "country": "BELGIUM",
+      "email": "logistics@eurochem.be",
+      "telephone": "+32 3 216 54 32"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "29032200",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EC789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60300.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29032200",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO. LTD.",
+      "address": "123 Main Street, Singapore 123456",
+      "telephone": "+65 6789 0123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM GMBH",
+      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
+      "telephone": "+32 3 216 54 32",
+      "fax": "+32 3 216 54 33"
+    },
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "MSC SIMONE 02",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "NINGBO KINGSTAR IMPORT & EXPORT CO., LTD",
+      "address": "23F, HONGKONG PLAZA, NO. 188, SHENZHOU ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8756 2130",
+      "email": "SALES@KINGSTAR.CN"
+    },
+    "consignee": {
+      "name": "EUROMETAL GMBH",
+      "address": "ZUIDERHAVEN 123, 3071 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. HANS VAN DER LEEUW",
+      "telephone": "+31 10 205 8888",
+      "fax": "+31 10 205 8889"
+    },
+    "notifyParty": {
+      "name": "EUROMETAL GMBH",
+      "address": "ZUIDERHAVEN 123, 3071 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. HANS VAN DER LEEUW",
+      "telephone": "+31 10 205 8888",
+      "fax": "+31 10 205 8889"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "7202119000",
+  "commodityDescription": "ALUMINIUM ALLOY PLATES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KINGSTAR2345",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ALUMINIUM ALLOY PLATES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "PALLETS",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "012345678901"
+    },
+    "certificateDetails": "12345678901234",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "39020 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 205 1234",
+      "fax": "+31 10 205 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "39020 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 205 1234",
+      "fax": "+31 10 205 5678"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
+  }
+}

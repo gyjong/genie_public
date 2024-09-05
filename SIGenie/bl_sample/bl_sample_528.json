@@ -1,0 +1,109 @@
+{
+  "bookingReference": "APPLE20241015102542",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2430E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DAJIANG IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 388, JINGDE ROAD, SHANGHAI, 200051",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROTECH TRADING BV",
+      "address": "WEENA 307, 3012CM ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 10 204 5678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "ZUIDHOF 2, 3012BM ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@EUROTECHLOGISTICS.NL",
+      "telephone": "+31 10 485 7654"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "ELECTRIC GENERATOR SETS (DIESEL)",
+  "containers": [
+    {
+      "containerNumber": "GRSU9386754",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-2024-10-15",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-12345",
+      "grossWeight": 3500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "GRSU8754321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ETG-2024-10-15",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-67890",
+      "grossWeight": 3500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ETG-2024-10-15",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-34567",
+      "grossWeight": 3500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNIT",
+    "totalGrossWeight": 10500.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "8479899090",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CO, COO",
+    "originalBLDistribution": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "ZUIDHOF 2, 3012BM ROTTERDAM",
+      "telephone": "+31 10 485 7654"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI DAJIANG IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 388, JINGDE ROAD, SHANGHAI, 200051",
+      "telephone": "+86 21 5555 1234"
+    },
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

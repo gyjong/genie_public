@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20241025123456",
+  "voyageDetails": {
+    "vesselName": "MSC SOFIA",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SEA LION SHIPPING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 5500"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 5500"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "282735",
+  "commodityDescription": "POLYETHYLENE RESIN (PE)",
+  "containers": [
+    {
+      "containerNumber": "CMAU9673421",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SL123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU5872310",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SL456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SL789",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "28273590",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE",
+    "originalBLDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
+      "telephone": "+31 10 412 5500"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEA LION SHIPPING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6224 5678",
+      "fax": "+65 6224 5679"
+    },
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

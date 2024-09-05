@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410161234567",
+  "voyageDetails": {
+    "vesselName": "MSC BEATRICE",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "2345 LONGHUA ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1-213-555-9876",
+      "fax": "+1-213-555-4321",
+      "email": "INFO@SUNRISEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-6789"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "METAL WORKING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "TCLU6753214",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: LATHE MACHINE PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MILLING MACHINE PARTS",
+      "grossWeight": 7000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 15,
+    "totalGrossWeight": 19500.0,
+    "totalMeasurement": 40.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241016001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1-213-555-9876",
+      "fax": "+1-213-555-4321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "2345 LONGHUA ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

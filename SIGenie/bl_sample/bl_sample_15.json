@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026143256",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2024381",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #26-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "95030010",
+  "commodityDescription": "TOYS - EDUCATIONAL BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3785214",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GS123456",
+      "numberOfPackages": 500,
+      "cargoDescription": "EDUCATIONAL BUILDING BLOCKS - Assorted Colors and Shapes",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "GS987654",
+      "numberOfPackages": 500,
+      "cargoDescription": "EDUCATIONAL BUILDING BLOCKS - Assorted Colors and Shapes",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 56.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO12345678",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #26-01 International Plaza, Singapore 079903"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "GOODS PACKED IN STRONG CARTONS. SHIPPED ON BOARD ON OCTOBER 31, 2024"
+  }
+}

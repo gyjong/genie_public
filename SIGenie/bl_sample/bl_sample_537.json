@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APRICOT20241015143022",
+  "voyageDetails": {
+    "vesselName": "MSC MIA",
+    "voyageNumber": "2428E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "123 Cecil Street, #10-01, Singapore 069535",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Keizersgracht 123, 1016 EA Amsterdam, Netherlands",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Prinsestraat 234, 2511 CP The Hague, Netherlands",
+      "telephone": "+31-70-345-6789",
+      "fax": "+31-70-345-6790"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8708.99",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLT-123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MOTORCYCLE PARTS AS PER PACKING LIST.",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 35.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-10-15-001",
+    "salesOrderNumber": "SO-2024-10-15-002",
+    "lcDetails": {
+      "lcNumber": "LC20241015003"
+    },
+    "certificateDetails": "20241015-004",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Keizersgracht 123, 1016 EA Amsterdam, Netherlands",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Prinsestraat 234, 2511 CP The Hague, Netherlands",
+      "telephone": "+31-70-345-6789",
+      "fax": "+31-70-345-6790"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

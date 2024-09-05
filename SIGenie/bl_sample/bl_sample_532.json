@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIANA",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "NO. 1234, YINGAO ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@SGT.COM.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "EINERSTRASSE 10, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 40 12345678"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "EINERSTRASSE 10, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE, LOGISTICS@EUROTECH.DE",
+      "telephone": "+49 40 12345678"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL ROBOTIC ARMS AND ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "ROBOTIC ARMS, MODEL RA-2000, WITH ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "ROBOTIC ARM CONTROL UNITS AND SPARE PARTS",
+      "grossWeight": 6250.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 18750.0,
+    "totalMeasurement": 40.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "EINERSTRASSE 1, 20457 HAMBURG",
+      "telephone": "+49 40 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "EINERSTRASSE 1, 20457 HAMBURG",
+      "telephone": "+49 40 12345678"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "Value: EUR 50,000"
+  }
+}

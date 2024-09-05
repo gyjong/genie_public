@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20241015133512",
+  "voyageDetails": {
+    "vesselName": "EVER GLORY",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG YONGQI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 588, QINGHE ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "telephone": "+86 579 8765 4321",
+      "email": "sales@yongqi.com"
+    },
+    "consignee": {
+      "name": "WEST COAST TRADING INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "WEST COAST LOGISTICS LLC",
+      "address": "456 OAK STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 310 555 2323",
+      "fax": "+1 310 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84137020",
+  "commodityDescription": "PUMPS FOR LIQUIDS, OTHER THAN CENTRIFUGAL PUMPS",
+  "containers": [
+    {
+      "containerNumber": "GLDU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: CIF, LOS ANGELES, USA PUMPS FOR LIQUIDS, OTHER THAN CENTRIFUGAL PUMPS",
+      "grossWeight": 4500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 DRY X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CASES",
+    "containerType": "40 DRY X1",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "CHINA GLOBAL SHIPPING CO., LTD",
+      "address": "ROOM NO.1001, SHANGHAI BANDO IVY VALLEY, 166, SHANGHAI-ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "86-21-700-4000",
+      "fax": "86-21-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL SHIPPING CO., LTD",
+      "address": "ROOM NO.1001, SHANGHAI BANDO IVY VALLEY, 166, SHANGHAI-ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "86-21-700-4000",
+      "fax": "86-21-700-4001"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

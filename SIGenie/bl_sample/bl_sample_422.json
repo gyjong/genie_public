@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20241018143200",
+  "voyageDetails": {
+    "vesselName": "MSC PARIS",
+    "voyageNumber": "2431W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EVERGREEN SHIPPING CO. LTD",
+      "address": "23F, EVERGREEN BUILDING, NO. 10, SHANGHAI ROAD, TAIPEI 10548, TAIWAN",
+      "telephone": "+886-2-2526-8888",
+      "fax": "+886-2-2526-8899"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "213-555-1212",
+      "fax": "213-555-1213",
+      "email": "INFO@WESTCOASTLOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORTERS INC.",
+      "address": "6789 ABC BOULEVARD, LOS ANGELES, CA 90020",
+      "telephone": "310-555-5678",
+      "fax": "310-555-5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, SIZE L, COLOR RED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, SIZE M, COLOR BLUE",
+      "grossWeight": 11500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "1234567890",
+    "documentNumber": "20241018001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241018001"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "213-555-1212",
+      "fax": "213-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORTERS INC.",
+      "address": "6789 ABC BOULEVARD, LOS ANGELES, CA 90020",
+      "telephone": "310-555-5678",
+      "fax": "310-555-5679"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

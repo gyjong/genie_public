@@ -1,0 +1,95 @@
+{
+  "bookingReference": "BLUEBERRY20241015143022",
+  "voyageDetails": {
+    "vesselName": "MAERSK ESSEX",
+    "voyageNumber": "2437EW",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": null,
+      "address": "123 ORCHARD ROAD, SINGAPORE 238866",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "AM STADTHAUS 1, 60313 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "APTC-231015",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241015-001",
+      " fumigation certificate - 20241015-002"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238866",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance policy:  2024-10-20-INS-001"
+  }
+}

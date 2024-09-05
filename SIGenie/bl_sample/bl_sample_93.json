@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241012809200",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2024048",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
+      "address": "ROOM 1002, NO. 333 XINZHU ROAD, SHANGHAI 200120, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "PACIFIC COAST LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
+      "telephone": "+1-562-555-1212",
+      "fax": "+1-562-555-5656",
+      "email": "IMPORT@PCLI.COM",
+      "contactPerson": "JANE SMITH"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORTERS LTD",
+      "address": "456 BROADWAY, NEW YORK, NY 10003",
+      "telephone": "+1-212-555-2345",
+      "fax": "+1-212-555-5678",
+      "sameAsConsignee": false
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "SUDU4567890",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 14000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 26000.0,
+    "totalMeasurement": 53.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "1234567-09",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177Y",
+      "4112724080178Z"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC BANK",
+      "address": "123 BANK STREET, LOS ANGELES, CA 90012",
+      "telephone": "+1-213-555-1234",
+      "fax": "+1-213-555-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
+      "address": "ROOM 1002, NO. 333 XINZHU ROAD, SHANGHAI 200120, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "OCT. 29. 2024"
+  }
+}

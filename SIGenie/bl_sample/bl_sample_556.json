@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241016143012",
+  "voyageDetails": {
+    "vesselName": "MAERSK MAERSK",
+    "voyageNumber": "2410W112",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "onBehalfOf": "",
+      "address": "2345 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "SPUISTRAT 123, 3013 AL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "STATIONSPLEIN 4, 3013 AL ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOXES 1-10",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE CARGO"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BOXES",
+    "containerType": "40HQ",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN-20241016"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "SPUISTRAT 123, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-8765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "2345 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
+    },
+    "onboardDate": "OCT. 22. 2024",
+    "additionalRemarks": "Value: USD 50,000"
+  }
+}

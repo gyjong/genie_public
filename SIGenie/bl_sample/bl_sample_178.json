@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240920142345",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)"
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Frankfurter Stra\u00dfe 12, 60329 Frankfurt am Main, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 69 7999999"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "Frankfurter Stra\u00dfe 12, 60329 Frankfurt am Main, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 69 7999999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "POLYETHYLENE TEREPHTHALATE (PET) RESIN",
+  "containers": [
+    {
+      "containerNumber": "CMAU9678543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 20MT PET RESIN IN 1000 BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 20MT PET RESIN IN 1000 BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 1234567890",
+    "originalBLDistribution": {
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6222 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM GMBH",
+      "address": "Frankfurter Stra\u00dfe 12, 60329 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 7999999",
+      "fax": "+49 69 7999998"
+    },
+    "onboardDate": "SEPT. 22. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN DRY AND CLEAN CONTAINERS. \nFREIGHT PREPAID TO DESTINATION."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241016112504",
+  "voyageDetails": {
+    "vesselName": "MSC SOFIA",
+    "voyageNumber": "2423W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE, SINGAPORE",
+    "portOfLoading": "SINGAPORE, SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE, SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Oosterdokskade 10, 1011 AX Amsterdam, Netherlands",
+      "telephone": "+31 20 620 1234",
+      "fax": "+31 20 620 5678"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "GLDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APSL123",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 ELECTRIC MOTORS, MODEL: EM-250, WEIGHT: 20KG EACH",
+      "grossWeight": 1000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APSL456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 ELECTRIC MOTORS, MODEL: EM-250, WEIGHT: 20KG EACH",
+      "grossWeight": 1000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 2000.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COC20241016"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Oosterdokskade 10, 1011 AX Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903"
+    },
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20241026143211",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2443E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI ZHENXI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1608, NO. 1555, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "consignee": {
+      "name": "EUROTRADE BV",
+      "address": "DIJKSTRA LAAN 25, 3061 HC ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "CARGO HANDLING SERVICES BV",
+      "address": "HAVENLAAN 10, 3191 AL ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZX-123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "2 MOTORCYCLES - MODEL ZX-250",
+      "grossWeight": 650.0,
+      "measurement": 10.5,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ZX-456",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "2 MOTORCYCLES - MODEL ZX-300",
+      "grossWeight": 700.0,
+      "measurement": 11.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "UNITS",
+    "containerType": "20GP",
+    "totalGrossWeight": 1350.0,
+    "totalMeasurement": 21.5
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE BV",
+      "address": "DIJKSTRA LAAN 25, 3061 HC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI ZHENXI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1608, NO. 1555, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "onboardDate": "NOV. 05. 2024",
+    "additionalRemarks": "All motorcycles are brand new."
+  }
+}

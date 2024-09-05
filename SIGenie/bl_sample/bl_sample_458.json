@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241015134522",
+  "voyageDetails": {
+    "vesselName": "MSC MIRIAM",
+    "voyageNumber": "2439E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "ZUIDERLAAN 50, 3071 GP ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-8975",
+      "fax": "+31-10-246-8976"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "301 ORCHARD ROAD, #15-01, SINGAPORE 238862",
+      "telephone": "+65-6737-5678",
+      "fax": "+65-6737-5679"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "ZUIDERLAAN 50, 3071 GP ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-8975",
+      "fax": "+31-10-246-8976"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8471.30",
+  "commodityDescription": "AUTOMATIC GEARBOXES",
+  "containers": [
+    {
+      "containerNumber": "TRHU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET20241015",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FIVE (5) CRATES OF AUTO GEARBOXES",
+      "grossWeight": 5678.9,
+      "measurement": 15.25
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ET20241015",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FIVE (5) CRATES OF AUTO GEARBOXES",
+      "grossWeight": 5678.9,
+      "measurement": 15.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 20' CONTAINER",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "totalGrossWeight": 11357.8,
+    "totalMeasurement": 30.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241015",
+    "salesOrderNumber": "SO20241015",
+    "lcDetails": {
+      "lcNumber": "LC20241015001"
+    },
+    "certificateDetails": "20241015-CERT-001",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "301 ORCHARD ROAD, #15-01, SINGAPORE 238862",
+      "telephone": "+65-6737-5678",
+      "fax": "+65-6737-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORTS LTD.",
+      "address": "ZUIDERLAAN 50, 3071 GP ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-246-8975",
+      "fax": "+31-10-246-8976"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

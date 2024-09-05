@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912102512",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA 05",
+    "voyageNumber": "2024045",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": "SAN FRANCISCO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENEARTH LOGISTICS (NINGBO) CO., LTD.",
+      "address": "12TH FLOOR, GREENLAND BUILDING, 333 HENGYANG ROAD,NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "WESTCOAST IMPORTERS INC.",
+      "address": "555 MARKET STREET, SUITE 300, LOS ANGELES, CA 90013, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "GREENEARTH LOGISTICS (USA) INC.",
+      "address": "101 PARK AVE, NEW YORK, NY 10017, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
+  "containers": [
+    {
+      "containerNumber": "MSCU3765928",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GE20240912",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "GE20240912",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
+      "grossWeight": 22000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000321045678"
+    },
+    "certificateDetails": [
+      "1000032012345X",
+      "1000032012346Y"
+    ],
+    "originalBLDistribution": {
+      "name": "GREENEARTH LOGISTICS (USA) INC.",
+      "address": "101 PARK AVE, NEW YORK, NY 10017, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WESTCOAST IMPORTERS INC.",
+      "address": "555 MARKET STREET, SUITE 300, LOS ANGELES, CA 90013, USA"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "INSURANCE: USD500,000"
+  }
+}

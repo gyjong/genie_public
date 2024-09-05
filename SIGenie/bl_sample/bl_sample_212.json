@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240920142512",
+  "voyageDetails": {
+    "vesselName": "COSCO PACIFIC",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "235 Nanjing Road, Shanghai, China",
+      "telephone": "+86 21 6327 8899",
+      "email": "info@shanghaitrading.cn"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 Main Street, Los Angeles, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "Mr. John Smith",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS",
+      "address": "555 California Street, San Francisco, CA 94104, USA",
+      "telephone": "+1 415 555 2222",
+      "fax": "+1 415 555 2223"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTER HARDWARE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA COMPUTER HARDWARE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "1000 Market Street, San Francisco, CA 94103, USA",
+      "telephone": "+1 415 555 3333",
+      "fax": "+1 415 555 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "1000 Market Street, San Francisco, CA 94103, USA",
+      "telephone": "+1 415 555 3333",
+      "fax": "+1 415 555 3334"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CLEAN ON BOARD"
+  }
+}

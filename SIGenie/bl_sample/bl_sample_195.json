@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240912101504",
+  "voyageDetails": {
+    "vesselName": "COSMOS 06",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "BUSAN, KOREA",
+    "portOfLoading": "BUSAN, KOREA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "BUSAN, KOREA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "KOREA PANTOS LOGISTICS CO., LTD.",
+      "address": "15TH FL. HANA BANK BLDG. 23-3 YOIDO-DONG,YOUNGDUNGPO-KU SEOUL, KOREA"
+    },
+    "consignee": {
+      "name": "PANTOS GLOBAL LOGISTICS INC.",
+      "address": "12345 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
+    },
+    "notifyParty": {
+      "name": "PANTOS USA INC.",
+      "address": "67890 SUNSET BLVD, LOS ANGELES, CA 90002, USA",
+      "telephone": "1-310-555-2323",
+      "fax": "1-310-555-2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85423100",
+  "commodityDescription": "ELECTRONIC COMPONENTS - INTEGRATED CIRCUITS",
+  "containers": [
+    {
+      "containerNumber": "CGLU8745692",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "KPL20240912",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS - INTEGRATED CIRCUITS",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU2357810",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "KPL20240912",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS - INTEGRATED CIRCUITS",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40HQ) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40HQ",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033741"
+    },
+    "certificateDetails": [
+      "1000020070133X"
+    ],
+    "originalBLDistribution": {
+      "name": "KOREA PANTOS LOGISTICS CO., LTD.",
+      "address": "15TH FL. HANA BANK BLDG. 23-3 YOIDO-DONG,YOUNGDUNGPO-KU SEOUL, KOREA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PANTOS GLOBAL LOGISTICS INC.",
+      "address": "12345 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

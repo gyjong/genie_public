@@ -1,0 +1,87 @@
+{
+  "bookingReference": "APRICOT20241026143211",
+  "voyageDetails": {
+    "vesselName": "EVERGREEN WAVE",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1002, NO. 288, YANJI ROAD, SHANGHAI 200020, CHINA",
+      "telephone": "+86-21-6335-8899",
+      "fax": "+86-21-6335-8888"
+    },
+    "consignee": {
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURG STREET 123, 20099 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "FRANKFURTER STRASSE 100, 60311 FRANKFURT AM MAIN, GERMANY"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "CONTAINING 50 BOXES OF ELECTRIC MOTORS. COC PROVIDED."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 15.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000567890123"
+    },
+    "certificateDetails": [
+      "456789012345X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1002, NO. 288, YANJI ROAD, SHANGHAI 200020, CHINA",
+      "telephone": "+86-21-6335-8899",
+      "fax": "+86-21-6335-8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURG STREET 123, 20099 HAMBURG, GERMANY"
+    },
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "Value: EUR 15,000"
+  }
+}

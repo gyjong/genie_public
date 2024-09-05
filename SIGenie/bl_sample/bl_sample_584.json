@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410161155200",
+  "voyageDetails": {
+    "vesselName": "MSC IRINA",
+    "voyageNumber": "2024108",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE TRADING COMPANY PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "consignee": {
+      "name": "EUROLOGISTICS BV",
+      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6780",
+      "email": "info@eurologistics.nl",
+      "contactPerson": "Pieter Van Der Meer"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GREENWAY SHIPPING",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5670"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870870",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "MSCU6857312",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MOTORCYCLE1",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL XR250",
+      "grossWeight": 1800.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "MOTORCYCLE2",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL XR250",
+      "grossWeight": 1850.0,
+      "measurement": 16.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40'HQ CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 3650.0,
+    "totalMeasurement": 31.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC00012345678"
+    },
+    "certificateDetails": [
+      "4112724080179X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROLOGISTICS BV",
+      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE TRADING COMPANY PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

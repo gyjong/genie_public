@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240915143211",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Business Park)",
+      "telephone": "+65 6222 3333",
+      "email": "shipping@asiapacifictrading.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstadt, Brooktorstra\u00dfe 1-3, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "logistics@eurotech.de",
+      "telephone": "+49 40 3119 1200"
+    },
+    "notifyParty": {
+      "name": "ABC BANK",
+      "address": "Neuer Jungfernstieg 18, 20354 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "trade.finance@abc-bank.de",
+      "telephone": "+49 40 3333 4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84833090",
+  "commodityDescription": "DIGITAL PRINTING PRESSES WITH ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABCD123",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "ONE (1) UNIT DIGITAL PRINTING PRESS WITH ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 45.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EFGH456",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "ONE (1) UNIT DIGITAL PRINTING PRESS WITH ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 45.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 91.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "12345678901234567890",
+      "98765432109876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "Singapore Changi Airport, Singapore 819643",
+      "telephone": "+65 6595 6000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "Singapore Changi Airport, Singapore 819643",
+      "telephone": "+65 6595 6000"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Value: USD 500,000\nPacked in accordance with best practices."
+  }
+}

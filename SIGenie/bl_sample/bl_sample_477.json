@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015103045",
+  "voyageDetails": {
+    "vesselName": "MSC SHANGRI-LA",
+    "voyageNumber": "2443E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE GMBH",
+      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8541.40",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 BOXES TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8541.40",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY MARKING - UN 3334"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241015",
+    "salesOrderNumber": "SO20241015-001",
+    "lcDetails": {
+      "lcNumber": "LC20241015-001"
+    },
+    "certificateDetails": " fumigation certificate available",
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "CARGO TO BE DELIVERED TO FRANKFURT, GERMANY"
+  }
+}

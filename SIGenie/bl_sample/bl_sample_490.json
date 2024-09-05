@@ -1,0 +1,99 @@
+{
+  "bookingReference": "GRAPE202409121123400",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "2024045",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 3333",
+      "fax": "+65 6222 4444"
+    },
+    "consignee": {
+      "name": "EUROLOGISTICS BV",
+      "address": "Westerhaven 10, 3016 BJ Rotterdam, Netherlands",
+      "telephone": "+31 10 201 5000",
+      "fax": "+31 10 201 5001",
+      "email": "info@eurologistics.nl",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL FORWARDING SOLUTIONS",
+      "address": "123 Prinsestraat, 1012 AB Amsterdam, Netherlands",
+      "telephone": "+31 20 626 1000",
+      "fax": "+31 20 626 1111"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRONIC COMPONENTS - PRINTED CIRCUIT BOARDS",
+  "containers": [
+    {
+      "containerNumber": "SUDU3879125",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 150,
+      "cargoDescription": "150 BOXES ELECTRONIC COMPONENTS",
+      "grossWeight": 5000.0,
+      "measurement": 15.25
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 BOXES ELECTRONIC COMPONENTS",
+      "grossWeight": 3000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 27.75
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20231026-001",
+    "documentNumber": "20231026-BL001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROLOGISTICS BV",
+      "address": "Westerhaven 10, 3016 BJ Rotterdam, Netherlands",
+      "telephone": "+31 10 201 5000",
+      "fax": "+31 10 201 5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 3333",
+      "fax": "+65 6222 4444"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

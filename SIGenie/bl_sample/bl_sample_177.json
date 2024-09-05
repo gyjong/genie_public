@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240912104521",
+  "voyageDetails": {
+    "vesselName": "COSMOS 07",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA SHIPPING CO., LTD.",
+      "address": "123 HONGQI ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "EUROLOGISTICS BV",
+      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 5000",
+      "fax": "+31 10 201 5001"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE FREIGHT FORWARDERS",
+      "address": "456 AMSTERDAMSEWEG, 1051 NJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 666 1111",
+      "fax": "+31 20 666 1112"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "CMAU7512384",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1287659",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 8,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133Y"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROLOGISTICS BV",
+      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE FREIGHT FORWARDERS",
+      "address": "456 AMSTERDAMSEWEG, 1051 NJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 666 1111",
+      "fax": "+31 20 666 1112"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+  }
+}

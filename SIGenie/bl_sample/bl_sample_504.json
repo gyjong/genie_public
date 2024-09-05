@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2024257",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)"
+    },
+    "consignee": {
+      "name": "EURO CHEM GMBH",
+      "address": "Industriestra\u00dfe 10, 47877 Willich, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 2154 888888"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "456 King Street, London, WC2E 8JN, UK",
+      "country": "UNITED KINGDOM",
+      "email": "operations@globallogistics.co.uk",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "280700",
+  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "281510",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "1010 Main Street, Anytown, USA 12345",
+      "telephone": "+1 555 555 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO CHEM GMBH",
+      "address": "Industriestra\u00dfe 10, 47877 Willich, GERMANY",
+      "telephone": "+49 2154 888888",
+      "fax": "+49 2154 888889"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nAll Cargo Subject to Inspection"
+  }
+}

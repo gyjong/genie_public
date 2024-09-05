@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIANA",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 333, CHANGSHU ROAD, SHANGHAI, 200021",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5876 1234",
+      "email": "SHIPPING@SHANGHAICORP.COM"
+    },
+    "consignee": {
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "INDUSTRIESTRASSE 10, 60325 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEMASCHINEN.DE",
+      "telephone": "+49 69 7567 8901"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "NOTIFICATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 69 2978 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "845960",
+  "commodityDescription": "MACHINE TOOLS FOR METALWORKING, LATHE TYPE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) METAL LATHE MACHINE",
+      "grossWeight": 7500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) METAL LATHE MACHINE",
+      "grossWeight": 7500.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT FORWARDING",
+      "address": "FRANKFURTER STRASSE 15, 60311 FRANKFURT AM MAIN",
+      "telephone": "+49 69 2978 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT & EXPORT",
+      "address": "INDUSTRIESTRASSE 10, 60325 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7567 8901"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "METAL LATHE MACHINES PACKED IN WOODEN CRATES\n SHIPMENT IS COVERED BY CARGO INSURANCE"
+  }
+}

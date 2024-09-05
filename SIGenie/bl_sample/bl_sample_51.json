@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APRICOT20240918111522",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 ROBINSON ROAD, #08-01 ROBINSON TOWER, SINGAPORE 068902",
+      "country": "SINGAPORE",
+      "additionalInfo": "(CENTRAL BUSINESS DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 79376400"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 79376400"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1122334",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT123456",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 AIRPORT ROAD, SINGAPORE 819662",
+      "telephone": "+65 6223 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 ROBINSON ROAD, #08-01 ROBINSON TOWER, SINGAPORE 068902",
+      "telephone": "+65 6536 1234",
+      "fax": "+65 6536 5678"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT."
+  }
+}

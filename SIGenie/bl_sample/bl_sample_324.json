@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410151452300",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2024356",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD",
+      "address": "258 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86 21 6327 5890",
+      "fax": "+86 21 6327 5891"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING BV",
+      "address": "PO BOX 1234, 3000 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "ANNA VAN DER LEEUW"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "EURO LOGISTICS BV",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "871140",
+  "commodityDescription": "MOTORCYCLES, 125 CC",
+  "containers": [
+    {
+      "containerNumber": "TCLU7543219",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MTC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL RX-125",
+      "grossWeight": 5500.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "MTC456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL RX-125",
+      "grossWeight": 5450.0,
+      "measurement": 18.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 10950.0,
+    "totalMeasurement": 36.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00002345678901"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD",
+      "address": "258 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86 21 6327 5890",
+      "fax": "+86 21 6327 5891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING BV",
+      "address": "PO BOX 1234, 3000 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

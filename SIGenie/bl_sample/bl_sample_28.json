@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241015101503",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2436E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "25 MARIJN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS PTE LTD.",
+      "address": "10 Anson Road, #20-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85414000",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "SUDU7891234",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "GT5678",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO123456"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "25 MARIJN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "EVER AURORA 02",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8900",
+      "email": "info@globaltrading.sg"
+    },
+    "consignee": {
+      "name": "EURO METALS BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "taxId": "NL854372161B01",
+      "president": "Mr. Pieter van der Meer",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679"
+    },
+    "notifyParty": {
+      "name": "EURO METALS BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "taxId": "NL854372161B01",
+      "president": "Mr. Pieter van der Meer",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "7202111000",
+  "commodityDescription": "ALUMINIUM FLAT BAR",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ALUMINIUM FLAT BAR",
+      "grossWeight": 18500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 18500.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "01234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}
