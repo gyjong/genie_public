@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015143522",
+  "voyageDetails": {
+    "vesselName": "CMA CGM SAPPHIRE",
+    "voyageNumber": "2447W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1010 Marina Boulevard, #23-01 Marina Bay Financial Centre Tower 2, Singapore 018967",
+      "telephone": "+65-6876-5432",
+      "fax": "+65-6876-5431"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-1235"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-1235"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU6789456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETM231015",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS, MODEL: EM-2023",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU6789456",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "None"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ETM-PO231015",
+    "salesOrderNumber": "20231015-001",
+    "lcDetails": {
+      "lcNumber": "LC231015-001"
+    },
+    "certificateDetails": "SGS-231015-001",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1010 Marina Boulevard, #23-01 Marina Bay Financial Centre Tower 2, Singapore 018967",
+      "telephone": "+65-6876-5432",
+      "fax": "+65-6876-5431"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "None"
+  }
+}

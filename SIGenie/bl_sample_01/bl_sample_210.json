@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240920142511",
+  "voyageDetails": {
+    "vesselName": "MSC SOFIA 03",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SHANGHAI, CHINA",
+    "placeOfDelivery": "SHANGHAI, CHINA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "STATIONSPLEIN 12, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 477 8952",
+      "email": "INFO@EUROTECHIMPORTS.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO., LTD",
+      "address": "SUITE 1208, HONGKONG TOWER, 19 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "taxId": "91320100765109788X",
+      "president": "MR. LI WEI",
+      "telephone": "+86 21 6327 8912",
+      "fax": "+86 21 6327 8913"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO., LTD",
+      "address": "SUITE 1208, HONGKONG TOWER, 19 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "taxId": "91320100765109788X",
+      "president": "MR. LI WEI",
+      "telephone": "+86 21 6327 8912",
+      "fax": "+86 21 6327 8913"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERAS",
+  "containers": [
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SHANGHAI, CHINA DIGITAL CAMERAS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING LTD",
+      "address": "2345 OCEAN DRIVE, MIAMI, FLORIDA, USA, 33139",
+      "telephone": "+1 305 555 1212",
+      "fax": "+1 305 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING LTD",
+      "address": "2345 OCEAN DRIVE, MIAMI, FLORIDA, USA, 33139",
+      "telephone": "+1 305 555 1212",
+      "fax": "+1 305 555 1213"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CONTAINERS SEALED AND SECURED FOR SHIPMENT"
+  }
+}

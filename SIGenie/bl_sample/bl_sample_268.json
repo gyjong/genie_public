@@ -1,99 +1,96 @@
 {
-  "bookingReference": "APPLE202410177453200",
+  "bookingReference": "PEACH20241015113002",
   "voyageDetails": {
-    "vesselName": "MSC AURORA",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024101",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LONG BEACH, CA, U.S.A",
-    "placeOfDelivery": "LONG BEACH, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA"
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LONG BEACH, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL TRADING CO., LTD",
-      "address": "UNIT 1203, NO. 888 JIANGSU ROAD, SHANGHAI 200062, CHINA",
-      "telephone": "+86-21-6326-7890",
-      "fax": "+86-21-6326-7891"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 OCEAN GATEWAY, LONG BEACH, CA 90802",
-      "telephone": "+1-562-555-1212",
-      "fax": "+1-562-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
     },
     "notifyParty": {
-      "name": "GREENLAND SHIPPING AGENCY LLC",
-      "address": "1001 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "+1-562-555-3434",
-      "fax": "+1-562-555-3435"
+      "name": "EURO LOGISTICS GMBH",
+      "address": "HAMBURGER ALLEE 25, 20097 HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "621120",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
       "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M, L, XL",
-      "grossWeight": 9500.0,
-      "measurement": 25.8
-    },
-    {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE S, M, L",
-      "grossWeight": 9600.0,
-      "measurement": 26.2
+      "marksAndNumbers": "MTR-001",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - MODEL: SPEEDSTAR 250CC",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 19100.0,
-    "totalMeasurement": 52.0
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU9876543",
+    "unClass": "N/A",
+    "unCode": "N/A",
+    "hsCode": "8703.23",
+    "flashPoint": "N/A",
+    "additionalInfo": "N/A"
   },
   "additionalInformation": {
-    "invoiceNumber": "CGT20241017-001",
-    "documentNumber": "20241017001",
+    "purchaseOrderNumber": "PO-123456",
+    "salesOrderNumber": "SO-789012",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC001234567"
     },
-    "certificateDetails": [
-      "CO-1234567890",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "234567890123456",
     "originalBLDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 OCEAN GATEWAY, LONG BEACH, CA 90802",
-      "telephone": "+1-562-555-1212",
-      "fax": "+1-562-555-1213"
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA GLOBAL TRADING CO., LTD",
-      "address": "UNIT 1203, NO. 888 JIANGSU ROAD, SHANGHAI 200062, CHINA",
-      "telephone": "+86-21-6326-7890",
-      "fax": "+86-21-6326-7891"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT READY FOR LOADING"
   }
 }

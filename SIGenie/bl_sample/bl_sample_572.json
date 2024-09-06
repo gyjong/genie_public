@@ -1,95 +1,100 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA 01",
-    "voyageNumber": "2024041",
-    "bound": "E"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2423E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER BL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 1
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Golden Dragon Manufacturing Co., Ltd.",
-      "address": "No. 123, Changsheng Road, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8888 9999",
-      "email": "sales@goldendragon.cn"
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "BEUKELSSTRAAT 10, 3044 AA ROTTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "Pacific Steel Imports Inc.",
-      "address": "1234 Main Street, Los Angeles, CA 90001, USA",
-      "taxId": "12-3456789",
-      "president": "John Smith",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "NORTH AMERICAN LOGISTICS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
     "notifyParty": {
-      "name": "Golden Dragon Logistics",
-      "address": "123 Golden Dragon Plaza, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8888 7777",
-      "fax": "+86 574 8888 6666"
+      "name": "GLOBAL SHIPPING CO.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "72163190",
-  "commodityDescription": "STEEL BARS, HOT ROLLED",
+  "shippingTerm": "CIF",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "GRSU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GD-123",
-      "numberOfPackages": 100,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. STEEL BARS, HOT ROLLED.",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "M123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL XR250",
+      "grossWeight": 1500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "GRSU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "M456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL XR250",
+      "grossWeight": 1500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40' DRY) CONTAINER",
-    "totalPackages": 100,
-    "packageType": "BUNDLES",
-    "containerType": "40 DRY",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 50.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40 DRY container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC20240912123"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "COC-202409121234",
+    "certificateDetails": [
+      "CO23456789",
+      "FDA12345678"
+    ],
     "originalBLDistribution": {
-      "name": "Pacific Shipping Agency",
-      "address": "1234 Ocean Drive, Los Angeles, CA 90002, USA",
-      "telephone": "+1 310 555 5678",
-      "fax": "+1 310 555 5679"
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "BEUKELSSTRAAT 10, 3044 AA ROTTERDAM, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "Golden Dragon Logistics",
-      "address": "123 Golden Dragon Plaza, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8888 7777",
-      "fax": "+86 574 8888 6666"
+      "name": "NORTH AMERICAN LOGISTICS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN STEEL BUNDLES AND SECURED FOR SAFE TRANSPORTATION"
+    "additionalRemarks": "SHIPMENT IS SUBJECT TO INSPECTION BY US CUSTOMS."
   }
 }

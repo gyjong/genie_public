@@ -1,100 +1,87 @@
 {
-  "bookingReference": "APPLE202409121045100",
+  "bookingReference": "APPLE20241015143012",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO., LTD",
-      "address": "UNIT 502, 5TH FLOOR, BUILDING A, NO. 1888 HENGYANG ROAD, SHANGHAI 200031, CHINA",
-      "telephone": "021-6432-1112",
-      "fax": "021-6432-1113"
+      "name": "CHINA GLOBAL TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LONG BEACH, CA 90808",
-      "telephone": "562-555-1212",
-      "fax": "562-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "LISA JOHNSON"
+      "name": "EURO TRADE IMPORT BV",
+      "address": "NIEUWemarkT 123, 3011 WC ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL FREIGHT SOLUTIONS",
-      "address": "1000 OCEAN AVE, SANTA MONICA, CA 90401",
-      "telephone": "310-555-2323",
-      "fax": "310-555-2324"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "ZUIDHAVEN 25, 3191 XK ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "611030",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "TECU8659728",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-123",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M",
-      "grossWeight": 8500.0,
-      "measurement": 15.25
-    },
-    {
-      "containerNumber": "TECU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "SUNRISE-456",
-      "numberOfPackages": 600,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE L",
-      "grossWeight": 9200.0,
-      "measurement": 16.1
+      "marksAndNumbers": "MTR-123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 650.0,
+      "measurement": 10.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 1100,
-    "totalGrossWeight": 17700.0,
-    "totalMeasurement": 31.35
+    "totalContainers": "ONE (20GP X1) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20GP",
+    "totalGrossWeight": 650.0,
+    "totalMeasurement": 10.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "invoiceNumber": "INV20240912001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "12345678901234"
     },
-    "certificateDetails": [
-      "4112724080179X",
-      "4112724080180X"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING CO., LTD",
-      "address": "UNIT 502, 5TH FLOOR, BUILDING A, NO. 1888 HENGYANG ROAD, SHANGHAI 200031, CHINA",
-      "telephone": "021-6432-1112",
-      "fax": "021-6432-1113"
+      "name": "EURO TRADE IMPORT BV",
+      "address": "NIEUWemarkT 123, 3011 WC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-9876"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO., LTD",
-      "address": "UNIT 502, 5TH FLOOR, BUILDING A, NO. 1888 HENGYANG ROAD, SHANGHAI 200031, CHINA",
-      "telephone": "021-6432-1112",
-      "fax": "021-6432-1113"
+      "name": "CHINA GLOBAL TRADING CO. LTD.",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
-    "onboardDate": "SEPT. 29. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Motorcycles for retail sale, Value: USD15,000"
   }
 }

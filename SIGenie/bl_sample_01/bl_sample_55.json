@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912102531",
+  "voyageDetails": {
+    "vesselName": "MAERSK ESSEX",
+    "voyageNumber": "2024041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": "CHICAGO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "AMERICAN FREIGHT SOLUTIONS LLC",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "1-212-555-1212",
+      "fax": "1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE SHIPPING CO.",
+      "address": "789 FIFTH AVENUE, NEW YORK, NY 10022, USA",
+      "telephone": "1-212-555-2323",
+      "fax": "1-212-555-2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTER HARDWARE - PROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GL123",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
+      "grossWeight": 2500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "COSU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GL456",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
+      "grossWeight": 2500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "MSCU3334445",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GL789",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
+      "grossWeight": 2500.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 37.5
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMERICAN FREIGHT SOLUTIONS LLC",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "1-212-555-1212",
+      "fax": "1-212-555-1213"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED IN SEA-WORTHY CONDITION."
+  }
+}

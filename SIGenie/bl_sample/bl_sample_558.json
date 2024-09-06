@@ -1,98 +1,96 @@
 {
-  "bookingReference": "PINEAPPLE20240912123456",
+  "bookingReference": "APRICOT20241015142502",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "20241003",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+      "name": "CHINA GLOBAL TRADING CO. LTD.",
+      "address": "NO. 188, SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8765-4321",
+      "fax": "+86-574-8765-4322"
     },
     "consignee": {
-      "name": "EURO SHIPPING LTD",
-      "address": "Westblaak 70, 3012 KM Rotterdam, Netherlands",
-      "telephone": "+31 10 414 5678",
-      "fax": "+31 10 414 5679"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS BV",
-      "address": "C. van Houtenlaan 36, 3062 SR Rotterdam, Netherlands",
-      "telephone": "+31 10 205 8967",
-      "fax": "+31 10 205 8968"
+      "name": "BANK OF AMERICA",
+      "address": "101 SOUTH BROADWAY, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1-213-628-1000",
+      "fax": "+1-213-628-1001"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87089900",
-  "commodityDescription": "MOTORCYCLES AND SCOOTERS",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "8541.40",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "GRSU1234567",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "MTR123",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 MOTORCYCLES - BRAND: SPEEDSTER, MODEL: SX250",
-      "grossWeight": 4500.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  ELECTRONIC COMPONENTS AS PER INVOICE.",
+      "grossWeight": 12000.0,
       "measurement": 25.0
-    },
-    {
-      "containerNumber": "GRSU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "MTR789",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 SCOOTERS - BRAND: ZOOM, MODEL: ZS150",
-      "grossWeight": 3000.0,
-      "measurement": 22.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'GP) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "packageType": "UNITS",
-    "containerType": "20GP",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 47.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "CMAU8765432",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8541.40",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries contained in cartons. Packing group II"
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "salesOrderNumber": "SO98765432",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CO123456",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "CN20241015001",
     "originalBLDistribution": {
-      "name": "ABC LOGISTICS BV",
-      "address": "C. van Houtenlaan 36, 3062 SR Rotterdam, Netherlands"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO SHIPPING LTD",
-      "address": "Westblaak 70, 3012 KM Rotterdam, Netherlands"
+      "name": "CHINA GLOBAL TRADING CO. LTD.",
+      "address": "NO. 188, SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8765-4321",
+      "fax": "+86-574-8765-4322"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT."
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Batteries packed according to IATA regulations"
   }
 }

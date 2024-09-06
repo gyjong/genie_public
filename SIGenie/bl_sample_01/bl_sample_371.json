@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241015123456",
+  "voyageDetails": {
+    "vesselName": "MSC IRENE",
+    "voyageNumber": "224W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #18-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "consignee": {
+      "name": "EUROTECH LTD.",
+      "address": "Nieuwe Haven 250, 3011 GW Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "notifyParty": {
+      "name": "EUROBANK N.V.",
+      "address": "Weena 350, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "DIGITAL CAMERAS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES OF DIGITAL CAMERAS - MODEL: DC-1000",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "20241015001",
+    "originalBLDistribution": {
+      "name": "EUROBANK N.V.",
+      "address": "Weena 350, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH LTD.",
+      "address": "Nieuwe Haven 250, 3011 GW Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
+  }
+}

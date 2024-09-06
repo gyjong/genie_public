@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241026143211",
+  "bookingReference": "APPLE20240912111215",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "20241012",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,78 +23,87 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "onBehalfOf": "",
-      "address": "333 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 333, HUANGLI ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTECH GMBH",
+      "address": "BERLINER TOR 10, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 793950"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WETERINGSELAAN 10, 1016 DE AMSTERDAM, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "BERLINER TOR 10, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 793950"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "854231",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "ABC123",
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-12345",
       "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 7500.0,
-      "measurement": 15.0,
-      "additionalInfo": ""
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES (MODEL XYZ-123)  Gross Weight: 1000kg",
+      "grossWeight": 1000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "123456789",
-      "marksAndNumbers": "XYZ987",
-      "numberOfPackages": 60,
+      "containerNumber": "MSCU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-67890",
+      "numberOfPackages": 30,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 8000.0,
-      "measurement": 16.0,
-      "additionalInfo": ""
+      "cargoDescription": "30 BOXES DIGITAL CAMERA LENSES (MODEL XYZ-456) Gross Weight: 600kg",
+      "grossWeight": 600.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "ONEU5566778",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ET-13579",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "20 BOXES DIGITAL CAMERA LENSES (MODEL XYZ-789) Gross Weight: 400kg",
+      "grossWeight": 400.0,
+      "measurement": 8.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 110,
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 100,
     "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 15500.0,
-    "totalMeasurement": 31.0
+    "totalGrossWeight": 2000.0,
+    "totalMeasurement": 33.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "12345ET-PO2024",
+    "hsCode": "8542319090",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890123"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "CN202409121234567890",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-411-1111",
-      "fax": "+31-10-411-2222"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN",
+      "telephone": "+49 69 793951"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "333 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "EUROTECH GMBH",
+      "address": "BERLINER TOR 10, 60311 FRANKFURT AM MAIN",
+      "telephone": "+49 69 793950"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "Value: USD150,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Insurance: 1.1% of Invoice Value"
   }
 }

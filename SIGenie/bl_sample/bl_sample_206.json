@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241026134521",
+  "bookingReference": "APPLE20241015113022",
   "voyageDetails": {
-    "vesselName": "MSC SHANGHAI 07",
-    "voyageNumber": "2024342",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024377",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
@@ -23,83 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "123 Cecil Street, #10-01, Singapore 049712",
-      "telephone": "+65 6536 7890",
-      "email": "info@asiatrading.com.sg"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "120 ROBINSON ROAD #15-01, SINGAPORE 068913",
+      "telephone": "+65 6222 5555",
+      "email": "sales@asiatrading.sg"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Hanauer Landstra\u00dfe 123, 60314 Frankfurt, Germany",
-      "taxId": "DE123456789",
-      "president": "Ms. Anna Schmidt",
-      "telephone": "+49 69 1234 5678",
-      "fax": "+49 69 1234 5679"
+      "name": "EURO METALS GMBH",
+      "address": "HANDELSSTRASSE 25, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MRS. ANNA SCHMIDT",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Postfach 10 02 01, 60002 Frankfurt, Germany",
-      "telephone": "+49 69 5005 1234",
-      "fax": "+49 69 5005 5678"
+      "name": "EURO METALS GMBH",
+      "address": "HANDELSSTRASSE 25, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE1234567890",
+      "president": "MRS. ANNA SCHMIDT",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
+  "hsCode": "7202119000",
+  "commodityDescription": "ALUMINIUM BARS, 99.9% PURE",
   "containers": [
     {
-      "containerNumber": "CMAU5398765",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER PACKING LIST",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, GERMANY ELECTRONIC CIRCUIT BOARDS",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "AS PER PACKING LIST",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, GERMANY ELECTRONIC CIRCUIT BOARDS",
-      "grossWeight": 7500.0,
-      "measurement": 14.5
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM ALUMINIUM BARS, 99.9% PURE",
+      "grossWeight": 24500.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 DRY) CONTAINERS",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 15500.0,
-    "totalMeasurement": 29.5
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
     "width": "In-Gauge",
     "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20 DRY Container"
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "CO, FORM A",
+    "certificateDetails": "12345678901234567890",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Postfach 10 02 01, 60002 Frankfurt, Germany",
-      "telephone": "+49 69 5005 1234",
-      "fax": "+49 69 5005 5678"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "123 Cecil Street, #10-01, Singapore 049712",
-      "telephone": "+65 6536 7890",
-      "email": "info@asiatrading.com.sg"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 31. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN ACCORDANCE WITH THE SHIPPER'S INSTRUCTIONS."
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "GOODS SOLD TO EURO METALS GMBH"
   }
 }

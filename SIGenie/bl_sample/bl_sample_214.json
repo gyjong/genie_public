@@ -1,98 +1,96 @@
 {
-  "bookingReference": "PEACH20240912134521",
+  "bookingReference": "APPLE20241026143002",
   "voyageDetails": {
-    "vesselName": "COSMOS 05",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER BL",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 1
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL LOGISTICS PTE LTD",
-      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "258 YANAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-1234",
+      "fax": "+86-21-6327-5678"
     },
     "consignee": {
-      "name": "EURO FREIGHT BV",
-      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands",
-      "telephone": "+31 10 203 4567",
-      "fax": "+31 10 203 4568"
+      "name": "EURO IMPORT GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3010-2345",
+      "fax": "+49-40-3010-6789"
     },
     "notifyParty": {
-      "name": "GREENWAY SHIPPING",
-      "address": "2nd Floor, Harbour House,  123 Harbour Road,  London E14 9GE, UK",
-      "telephone": "+44 20 7987 6543",
-      "fax": "+44 20 7987 6544"
+      "name": "EURO IMPORT GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3010-2345",
+      "fax": "+49-40-3010-6789"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87089990",
-  "commodityDescription": "MOTORCYCLES, COMPLETE AND ASSEMBLED",
+  "hsCode": "8471.30",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "GL123",
-      "numberOfPackages": 5,
-      "cargoDescription": "MOTORCYCLES - 5 UNITS",
-      "grossWeight": 1500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GL456",
-      "numberOfPackages": 5,
-      "cargoDescription": "MOTORCYCLES - 5 UNITS",
-      "grossWeight": 1500.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12500.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "UNITS",
-    "containerType": "20FT",
-    "totalGrossWeight": 3000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "CMAU9876543",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8471.30",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY, WET, NON-SPILLABLE"
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "0000321045678"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "1000032070131X",
-      "1000032070132X"
-    ],
+    "certificateDetails": "20241026-ABC123",
     "originalBLDistribution": {
-      "name": "EURO FREIGHT BV",
-      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands"
+      "name": "EURO IMPORT GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3010-2345",
+      "fax": "+49-40-3010-6789"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS PTE LTD",
-      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903"
+      "name": "EURO IMPORT GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3010-2345",
+      "fax": "+49-40-3010-6789"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "BATTERY, WET, NON-SPILLABLE, CLASS 9"
   }
 }

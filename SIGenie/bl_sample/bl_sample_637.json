@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912121502",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS CO.,LTD.",
+      "address": "12TH FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, PUDONG, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "WEST COAST SHIPPING INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS CO.,LTD.",
+      "address": "12TH FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, PUDONG, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
+  "containers": [
+    {
+      "containerNumber": "CMAU8877662",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133Y",
+      "1000020070134Z"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST SHIPPING INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS CO.,LTD.",
+      "address": "12TH FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, PUDONG, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CARGO PACKED IN 200 CARTONS"
+  }
+}

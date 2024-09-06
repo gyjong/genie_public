@@ -1,16 +1,16 @@
 {
-  "bookingReference": "APPLE20240915143212",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2423E",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2430W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
@@ -23,88 +23,85 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "NO. 1234, HONGQI ROAD, SHANGHAI, 200001",
+      "name": "ZHEJIANG YONGHUA TRADING CO., LTD.",
+      "address": "NO. 288, FENGXIAN ROAD, YONGKANG, ZHEJIANG, 322200",
       "country": "CHINA",
-      "additionalInfo": "(Pudong New Area)"
+      "additionalInfo": "(YONGKANG ECONOMIC DEVELOPMENT ZONE)",
+      "telephone": "+86 579 8662 1234",
+      "email": "sales@yonginhua.com"
     },
     "consignee": {
-      "name": "EUROTRADING GMBH",
-      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTRADING.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 23, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 759 1234"
     },
     "notifyParty": {
-      "name": "EUROTRADING GMBH",
-      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTRADING.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 23, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 759 1234"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "390720",
-  "commodityDescription": "POLYETHYLENE RESIN (HDPE)",
+  "shippingTerm": "CFR",
+  "hsCode": "841280",
+  "commodityDescription": "STEEL MILL ROLLS FOR HOT ROLLING",
   "containers": [
     {
-      "containerNumber": "GRSU9578632",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG123",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
+      "marksAndNumbers": "YH20240912",
+      "numberOfPackages": 10,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL MILL ROLLS FOR HOT ROLLING (DIAMETER 350MM)",
       "grossWeight": 25000.0,
-      "measurement": 20.0
+      "measurement": 30.0
     },
     {
-      "containerNumber": "GRSU9678451",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ETG124",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "YH20240912",
+      "numberOfPackages": 10,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL MILL ROLLS FOR HOT ROLLING (DIAMETER 350MM)",
       "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "GRSU9789263",
-      "sealNumber": "345678",
-      "marksAndNumbers": "ETG125",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (HDPE) 25MT",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 50000.0,
     "totalMeasurement": 60.0
   },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "39072090",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00002123456789"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "SCHIPHOL AIRPORT, AMSTERDAM",
-      "telephone": "+31 20 506 6000"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADING GMBH",
-      "address": "SCHOUTENSTRAAT 32, 3012 AM ROTTERDAM",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 3457"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD80,000"
   }
 }

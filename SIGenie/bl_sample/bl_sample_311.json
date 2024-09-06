@@ -1,107 +1,96 @@
 {
-  "bookingReference": "APPLE20240912111523",
+  "bookingReference": "APPLE20241015143002",
   "voyageDetails": {
-    "vesselName": "COSCO SPAIN",
-    "voyageNumber": "2024041",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024101",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA SUNRISE TRADING CO., LTD.",
-      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, 200001",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong New Area)",
-      "telephone": "+86 21 5555 6789",
-      "email": "SALES@SUNRISETRADE.COM"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "country": "USA",
-      "email": "INFO@WESTCOASTIMPORTS.COM",
-      "telephone": "+1 213 555 1212"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1500 Wilshire Boulevard, Suite 500, Los Angeles, CA 90017, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "456 PACIFIC AVENUE, SAN FRANCISCO, CA 94102",
-      "country": "USA",
-      "email": "OPERATIONS@GOLDENGATELOGISTICS.COM",
-      "telephone": "+1 415 555 3434"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1010 Wilshire Boulevard, Suite 300, Los Angeles, CA 90017, USA",
+      "telephone": "+1-213-555-2323",
+      "fax": "+1-213-555-2324"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY FOR MANUFACTURING SEMICONDUCTORS",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SEMICON1",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SEMICONDUCTOR MANUFACTURING EQUIPMENT, SHIPPED IN WOODEN BOXES",
-      "grossWeight": 15000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "SEMICON2",
-      "numberOfPackages": 5,
-      "packageType": "CRATES",
-      "cargoDescription": "SPARE PARTS FOR SEMICONDUCTOR EQUIPMENT, SHIPPED IN METAL CRATES",
-      "grossWeight": 7500.0,
-      "measurement": 10.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "totalGrossWeight": 22500.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries are packed according to IATA regulations"
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "9876543",
+    "salesOrderNumber": "2345678",
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "0000123456789"
     },
-    "certificateDetails": [
-      "COO1234567890",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "456 PACIFIC AVENUE, SAN FRANCISCO, CA 94102",
-      "telephone": "+1 415 555 3434"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1500 Wilshire Boulevard, Suite 500, Los Angeles, CA 90017, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "telephone": "+1 213 555 1212"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "SHIPS SIDE BY SIDE\nFRAGILE HANDLING REQUIRED"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
   }
 }

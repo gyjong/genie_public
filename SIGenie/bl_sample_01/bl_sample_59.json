@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20241026143255",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2429W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 414 7500"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 414 7500"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290339",
+  "commodityDescription": "POLYETHYLENE GLYCOL (PEG)",
+  "containers": [
+    {
+      "containerNumber": "SEGU7265873",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU8415629",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU9623451",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "29033990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DBS BANK LTD",
+      "address": "Marina Bay Financial Centre Tower 3, 12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6220 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
+      "telephone": "+31 10 414 7500",
+      "fax": "+31 10 414 7501"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nCARGO SHOULD BE DISCHARGED AT THE ROTTERDAM PORT ONLY\nALL COSTS AND EXPENSES AFTER DISCHARGE AT ROTTERDAM ARE FOR CONSIGNEE'S ACCOUNT."
+  }
+}

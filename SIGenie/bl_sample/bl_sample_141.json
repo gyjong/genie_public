@@ -1,96 +1,95 @@
 {
-  "bookingReference": "APPLE20241015143002",
+  "bookingReference": "APPLE20240912102532",
   "voyageDetails": {
-    "vesselName": "CAPRICORN",
-    "voyageNumber": "2024100",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024041",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GREEN LEAF TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238867",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "ABC GLOBAL TRADING GmbH",
+      "address": "Kurf\u00fcrstendamm 65, 10707 Berlin, GERMANY",
+      "telephone": "+49 30 2266 7890",
+      "email": "info@abcglobaltrading.de"
     },
     "consignee": {
-      "name": "FLOWER POWER LTD.",
-      "address": "DE KOEPLAAN 150, 3061 CH ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-4567890",
-      "fax": "+31-10-4567891"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 Anson Road, #20-01, International Plaza, Singapore 079903",
+      "taxId": "201212345A",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
     },
     "notifyParty": {
-      "name": "GREEN LEAF TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238867",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "100 Cecil Street, #10-01, The Cecil, Singapore 069532",
+      "telephone": "+65 6333 5555",
+      "fax": "+65 6333 6666"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "0602.10",
-  "commodityDescription": "ORCHID PLANTS",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "GRSU9987654",
       "sealNumber": "123456",
-      "marksAndNumbers": "GLT-20241015",
-      "numberOfPackages": 100,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "100 BOXES ORCHID PLANTS, SHIPPED IN GOOD CONDITION",
-      "grossWeight": 1200.0,
-      "measurement": 15.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40' HQ) CONTAINER ONLY",
-    "totalPackages": 100,
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "BOXES",
-    "totalGrossWeight": 1200.0,
-    "totalMeasurement": 15.0
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC00012345"
+      "lcNumber": "012345678901234567"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 20241015-001",
+    "certificateDetails": "CO-1234567890",
     "originalBLDistribution": {
-      "name": "FLOWER POWER LTD.",
-      "address": "DE KOEPLAAN 150, 3061 CH ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-4567890",
-      "fax": "+31-10-4567891"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "12 Marina Boulevard, #36-01, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6337 5555",
+      "fax": "+65 6337 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "GREEN LEAF TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238867",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "12 Marina Boulevard, #36-01, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6337 5555",
+      "fax": "+65 6337 6666"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S SEAL AND MARKINGS ARE REQUIRED"
   }
 }

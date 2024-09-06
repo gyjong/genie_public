@@ -1,0 +1,100 @@
+{
+  "bookingReference": "ORANGE20240918104523",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 235, XINZHONG ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING BV",
+      "address": "ALEXANDERstraat 123, 3011 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 10 478 2345"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING BV",
+      "address": "ALEXANDERstraat 123, 3011 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 10 478 2345"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU6789123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "BOXES",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 35.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20240918",
+    "hsCode": "8544429090",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS",
+      "address": "2345 AMSTERDAM STREET, ROTTERDAM, 3011 AB",
+      "telephone": "+31 10 2345 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING BV",
+      "address": "ALEXANDERstraat 123, 3011 AA ROTTERDAM",
+      "telephone": "+31 10 478 2345",
+      "fax": "+31 10 478 2346"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

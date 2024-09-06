@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241026103215",
+  "bookingReference": "APPLE20241026153241",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2443E",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024312",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,84 +17,94 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #28-01, International Plaza, SINGAPORE 079900",
       "country": "SINGAPORE",
-      "additionalInfo": ""
+      "additionalInfo": "(Central Business District)"
     },
     "consignee": {
       "name": "EUROCHEM BV",
-      "address": "Westblaak 65, 3012 KL ROTTERDAM, NETHERLANDS",
+      "address": "Prinsestraat 45, 3011 HL ROTTERDAM, NETHERLANDS",
       "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 411 5555"
+      "email": "INFO@EUROCHEM.NL, ORDERS@EUROCHEM.NL",
+      "telephone": "+31 10 414 5678"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 65, 3012 KL ROTTERDAM, NETHERLANDS",
+      "name": "FIRST BANK N.V.",
+      "address": "Coolsingel 108, 3011 AG Rotterdam, Netherlands",
       "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 411 5555"
+      "email": "TRADEFINANCE@FIRSTBANK.NL",
+      "telephone": "+31 10 248 6000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29032200",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "SUDU1234567",
+      "containerNumber": "MSCU3579862",
       "sealNumber": "123456",
-      "marksAndNumbers": "123/ABC",
+      "marksAndNumbers": "EA2310",
       "numberOfPackages": 1000,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "SUDU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "456/DEF",
+      "containerNumber": "MSCU8865421",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EA2310",
       "numberOfPackages": 1000,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EA2310",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 2000,
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
     "packageType": "DRUMS",
-    "totalGrossWeight": 40000.0,
-    "totalMeasurement": 40.0
+    "totalGrossWeight": 60300.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO",
-    "hsCode": "29032200",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "290331",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "123456789012"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": "234567890123456789",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Airport Road, SINGAPORE 456789",
-      "telephone": "+65 6789 0123"
+      "name": "FIRST BANK N.V.",
+      "address": "Coolsingel 108, 3011 AG Rotterdam, Netherlands",
+      "telephone": "+31 10 248 6000"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6789 1234",
-      "fax": "+65 6789 4321"
+      "name": "EUROCHEM BV",
+      "address": "Prinsestraat 45, 3011 HL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nCargo stowed on deck"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nGOODS ARE HAZARDOUS"
   }
 }

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241018123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2439N",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADE CO., LTD.",
+      "address": "NO. 588, HUANSHENG ROAD, JIANGNING DISTRICT, NINGBO, 315012",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROIMPORTS.DE",
+      "telephone": "+49 69 79834567"
+    },
+    "notifyParty": {
+      "name": "DPD GROUP GMBH",
+      "address": "MARIENSTRASSE 5, 60313 FRANKFURT",
+      "country": "GERMANY",
+      "email": "NOTIFICATIONS@DPD.DE",
+      "telephone": "+49 69 2477470"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "392062",
+  "commodityDescription": "POLYETHYLENE TEREPHTHALATE (PET) RESIN",
+  "containers": [
+    {
+      "containerNumber": "SEGU3298765",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "CI-123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "CI-456",
+      "numberOfPackages": 800,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN, 25KG BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 18.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1800,
+    "packageType": "BAGS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 38.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "390720",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 50, 60323 FRANKFURT AM MAIN",
+      "telephone": "+49 69 79834567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA TRADE CO., LTD.",
+      "address": "NO. 588, HUANSHENG ROAD, JIANGNING DISTRICT, NINGBO, 315012",
+      "telephone": "+86 574 86789012",
+      "fax": "+86 574 86789013"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

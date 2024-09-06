@@ -1,0 +1,95 @@
+{
+  "bookingReference": "ORANGE20240912132517",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024342",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DHL GLOBAL FORWARDING NETHERLANDS BV",
+      "address": "WESTERING 10, 3016 CK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 2000",
+      "email": "info@dhl.nl"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "taxId": "200212345G",
+      "president": "MR. TAN AH CHENG",
+      "telephone": "+65 6221 2345",
+      "fax": "+65 6221 5678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "101 Jalan Toa Payoh, Singapore 319752",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE MACHINERY PARTS FOR PACKAGING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "101 Jalan Toa Payoh, Singapore 319752",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "101 Jalan Toa Payoh, Singapore 319752",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

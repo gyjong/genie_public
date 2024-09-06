@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026133015",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "244W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": null,
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
+    },
+    "consignee": {
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Speicherstra\u00dfe 10, 20095 Hamburg, Germany",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Im Zollhafen 1, 20355 Hamburg, Germany"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "87119000",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "FCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC-2024-10",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 950.0,
+      "measurement": 15.5,
+      "additionalInfo": null
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "CRATES",
+    "containerType": "20GP",
+    "totalGrossWeight": 950.0,
+    "totalMeasurement": 15.5
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Speicherstra\u00dfe 10, 20095 Hamburg, Germany",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Motorcycles for private use. Insurance provided by shipper."
+  }
+}

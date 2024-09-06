@@ -1,99 +1,96 @@
 {
-  "bookingReference": "APPLE20240915123456",
+  "bookingReference": "APPLE20241018142510",
   "voyageDetails": {
-    "vesselName": "COSCO SINGAPORE",
-    "voyageNumber": "240922",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024100",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN XINGHUANG TRADING CO., LTD.",
-      "address": "NO. 333, JINGHUI ROAD, GUANGZHOU, 510000",
-      "country": "CHINA",
-      "additionalInfo": "(TIANHE DISTRICT)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "POSTBUS 1234, 3000 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 444 5555"
+      "name": "EURO TRADING GMBH",
+      "address": "POSTFACH 100, 3000 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS",
-      "address": "STATIONSPLEIN 1, 3013 AK ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@ABCLOGISTICS.NL",
-      "telephone": "+31 10 222 3333"
+      "name": "EURO BANK N.V.",
+      "address": "DAMSTRAAT 25, 1012 Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "SEGU6678452",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "XYZ123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG DRUMS",
-      "grossWeight": 22000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "SEGU7788990",
-      "sealNumber": "7890123",
-      "marksAndNumbers": "ABC456",
-      "numberOfPackages": 500,
-      "packageType": "IBC",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 1000KG IBC",
-      "grossWeight": 15000.0,
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 12000.0,
       "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS & IBCs",
-    "totalGrossWeight": 37000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 20.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8479.89",
+    "flashPoint": "N/A",
+    "additionalInfo": "MISCELLANEOUS DANGEROUS GOODS"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "123456ABC",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
     "lcDetails": {
-      "lcNumber": "00001234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "CERT1234567",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 MAIN STREET, ROTTERDAM, 3000 AA",
-      "telephone": "+31 10 555 6666"
+      "name": "EURO BANK N.V.",
+      "address": "DAMSTRAAT 25, 1012 Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "ZHONGSHAN XINGHUANG TRADING CO., LTD.",
-      "address": "NO. 333, JINGHUI ROAD, GUANGZHOU, 510000",
-      "telephone": "+86 20 123 4567"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING"
   }
 }

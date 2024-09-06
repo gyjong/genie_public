@@ -1,19 +1,19 @@
 {
-  "bookingReference": "ORANGE20240918151245",
+  "bookingReference": "STARFRUIT20241016103012",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2434E",
-    "bound": "W"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024102A",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,88 +23,86 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #15-01, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(International Plaza)"
+      "name": "SHANGHAI ZHENHUI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "SHANGHAI ZHENHUI TRADING CO. LTD",
+      "address": "20F, NO. 1188, SHANGHAI XINHU ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6387-1234",
+      "fax": "+86-21-6387-5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 123, 3012 KM Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochembv.nl",
-      "telephone": "+31 10 412 3456"
+      "name": "DEUTSCHE LOGISTIK GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "Speditionstrasse 10, 20097 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "operations@globallogistics.de",
-      "telephone": "+49 40 321 4567"
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "FRANKFURTER RING 19, 60487 FRANKFURT AM MAIN, GERMANY"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "29033100",
-  "commodityDescription": "POLYETHYLENE RESIN (PE)",
+  "shippingTerm": "CIF",
+  "hsCode": "940160",
+  "commodityDescription": "WOODEN CHAIRS",
   "containers": [
     {
-      "containerNumber": "TCLU5678901",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ZH20241016",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "FUMIGATION CERTIFIED"
     },
     {
-      "containerNumber": "TCLU6789012",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "987654",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "ZH20241016",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "FUMIGATION CERTIFIED"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "123456PO",
-    "hsCode": "39011000",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010333789"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "CN20241016001",
+      "CN20241016002"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING CO. LTD.",
-      "address": "123 Marina Bay Road, #20-01 Marina Bay Financial Centre, Singapore 018986",
-      "telephone": "+65 6536 1234"
+      "name": "DEUTSCHE BANK AG",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-79421-0",
+      "fax": "+49-69-79421-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 123, 3012 KM Rotterdam, Netherlands",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 3457"
+      "name": "SHANGHAI ZHENHUI IMPORT & EXPORT CO., LTD.",
+      "address": "20F, NO. 1188, SHANGHAI XINHU ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6387-1234",
+      "fax": "+86-21-6387-5678"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Value: USD 50,000"
   }
 }

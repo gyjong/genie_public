@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015143057",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "224W18",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany",
+      "telephone": "+49 69 7574 3000",
+      "fax": "+49 69 7574 3001"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8543.70",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH-123",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER INVOICE NO. 20241015-001.",
+      "grossWeight": 4500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8543.70",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Lithium-ion batteries contained in electronic components."
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241015-001",
+    "salesOrderNumber": "SO-20241015-002",
+    "lcDetails": {
+      "lcNumber": "LC-20241015-003"
+    },
+    "certificateDetails": "20241015-CERT-001",
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany",
+      "telephone": "+49 69 7574 3000",
+      "fax": "+49 69 7574 3001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN ACCORDANCE WITH IATA DANGEROUS GOODS REGULATIONS."
+  }
+}

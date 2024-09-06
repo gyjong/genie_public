@@ -1,100 +1,100 @@
 {
-  "bookingReference": "APPLE202409121047300",
+  "bookingReference": "APPLE202410151114300",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2430E",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2437E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 2,
-    "numberOfCopies": 0
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD",
-      "address": "ROOM 1201, NO. 888, XINLONG ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "+86-21-6326-8975",
-      "fax": "+86-21-6326-8976"
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "235 HUAYANG ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-7569",
+      "fax": "+86-21-6328-7570"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90045",
-      "telephone": "310-555-1212",
-      "fax": "310-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JANE SMITH"
+      "name": "EURO IMPORTS BV",
+      "address": "VEERSTRAAT 12, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2500",
+      "fax": "+31-10-414-2501",
+      "email": "INFO@EUROIMPORTS.NL",
+      "contactPerson": "MARCEL VAN DER LINDEN"
     },
     "notifyParty": {
       "sameAsConsignee": false,
-      "name": "BLUE SKY IMPORTERS INC.",
-      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90028",
-      "telephone": "310-555-9876",
-      "fax": "310-555-9877"
+      "name": "SUNRISE LOGISTICS BV",
+      "address": "SINGEL 355, 1012 WK AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "871130",
-  "commodityDescription": "MOTORCYCLES, 125CC",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC POWER DISTRIBUTION SWITCHGEAR",
   "containers": [
     {
-      "containerNumber": "CMAU9367481",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "MS123",
+      "marksAndNumbers": "SW123",
       "numberOfPackages": 10,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 9500.0,
-      "measurement": 25.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC POWER DISTRIBUTION SWITCHGEAR",
+      "grossWeight": 8500.0,
+      "measurement": 15.2
     },
     {
-      "containerNumber": "CMAU5789320",
-      "sealNumber": "789012",
-      "marksAndNumbers": "MS456",
-      "numberOfPackages": 10,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 9600.0,
-      "measurement": 24.5
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SW456",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC POWER DISTRIBUTION SWITCHGEAR",
+      "grossWeight": 9200.0,
+      "measurement": 16.8
     }
   ],
   "totalShipment": {
     "totalContainers": "2 X 40FT CONTAINERS",
-    "totalPackages": 20,
-    "totalGrossWeight": 19100.0,
-    "totalMeasurement": 49.5
+    "totalPackages": 25,
+    "totalGrossWeight": 17700.0,
+    "totalMeasurement": 32.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20231025-001",
-    "documentNumber": "20001639822",
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20241015-002",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112724080179X",
-      "4112724080180X"
+      "CN20241015001",
+      "CN20241015002"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD",
-      "address": "ROOM 1201, NO. 888, XINLONG ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "+86-21-6326-8975",
-      "fax": "+86-21-6326-8976"
+      "name": "EURO IMPORTS BV",
+      "address": "VEERSTRAAT 12, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2500",
+      "fax": "+31-10-414-2501"
     },
     "originalInvoiceDistribution": {
-      "name": "BLUE SKY IMPORTERS INC.",
-      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90028",
-      "telephone": "310-555-9876",
-      "fax": "310-555-9877"
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "235 HUAYANG ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-7569",
+      "fax": "+86-21-6328-7570"
     },
-    "onboardDate": "SEPT. 29. 2024"
+    "onboardDate": "OCT. 20. 2024"
   }
 }

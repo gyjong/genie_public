@@ -1,110 +1,106 @@
 {
-  "bookingReference": "APPLE20240918123456",
+  "bookingReference": "APPLE20240912101245",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2428E",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2435W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Marina Bay Financial Centre, Tower 3, #32-01, SINGAPORE 018981",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Mr. Lee)"
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "NO. 123, SHENNAN ROAD, SHANGHAI, 200021, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)",
+      "telephone": "+86 21 6321 1234",
+      "email": "EXPORT@SGT.COM.CN"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Handelsstrasse 10, 60327 Frankfurt, GERMANY",
+      "name": "AUTOTECHNIK GMBH",
+      "address": "EINERSTRASSE 56, 60325 FRANKFURT AM MAIN, GERMANY",
       "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 69 7564876"
+      "email": "INFO@AUTOTECHNIK.DE",
+      "telephone": "+49 69 7576 3456"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "Im Zollhafen 12, 20355 Hamburg, GERMANY",
+      "name": "GERMAN FREIGHT FORWARDERS GMBH",
+      "address": "FRANKFURTER STRASSE 23, 60313 FRANKFURT, GERMANY",
       "country": "GERMANY",
-      "email": "info@globallogistics.de",
-      "telephone": "+49 40 31198200"
+      "email": "OPERATIONS@GFF.DE",
+      "telephone": "+49 69 2345 6789"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "290323",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS INCLUDING ENGINES, TRANSMISSION AND WHEELS",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EG123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20MT ETHYLENE GLYCOL, 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "AT1234",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS INCLUDING ENGINES, TRANSMISSION AND WHEELS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU8765432",
+      "containerNumber": "TCLU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "EG456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20MT ETHYLENE GLYCOL, 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EG789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20MT ETHYLENE GLYCOL, 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "AT5678",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS INCLUDING ENGINES, TRANSMISSION AND WHEELS",
+      "grossWeight": 8000.0,
+      "measurement": 18.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 20500.0,
+    "totalMeasurement": 43.7
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO",
-    "hsCode": "29032300",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "COC Issued by Singapore Chemical Association",
+    "certificateDetails": [
+      "CN23456789012"
+    ],
     "originalBLDistribution": {
-      "name": "HSBC BANK SINGAPORE",
-      "address": "1 Raffles Place, Singapore 048616",
-      "telephone": "+65 6329 3333"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60313 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "Handelsstrasse 10, 60327 Frankfurt, GERMANY",
-      "telephone": "+49 69 7564876",
-      "fax": "+49 69 7564877"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60313 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "Shipment subject to inspection by SGS at destination.\n"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: EUR 50,000"
   }
 }

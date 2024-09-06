@@ -1,111 +1,106 @@
 {
-  "bookingReference": "APPLE20240915143212",
+  "bookingReference": "APPLE20241018142356",
   "voyageDetails": {
-    "vesselName": "CMA CGM AQUILA",
-    "voyageNumber": "2439W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024312",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 1234, HONGQI ROAD, SHANGHAI, 200001",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong District)"
+      "name": "DELTA LOGISTICS B.V.",
+      "address": "WESTPOORT 132, 3191 LJ ROTTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEPLAAN 1, 3061 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "18 ROBINSON ROAD, #14-00, ROBINSON 77, SINGAPORE 048544",
+      "telephone": "+65 6532 1234",
+      "fax": "+65 6532 5678"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEPLAAN 1, 3061 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "DELTA LOGISTICS B.V.",
+      "address": "WESTPOORT 132, 3191 LJ ROTTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "290331",
-  "commodityDescription": "POLYETHYLENE GLYCOL (PEG) 6000",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL GEARBOXES",
   "containers": [
     {
-      "containerNumber": "SEGU9176342",
+      "containerNumber": "MSCU3475621",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC-123",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 6000, 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "DL123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 GEARBOXES (MODEL: GBX-200) WEIGHT: 2500 KGS EACH",
+      "grossWeight": 12500.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "SEGU9625417",
+      "containerNumber": "MSCU8754321",
       "sealNumber": "654321",
-      "marksAndNumbers": "EC-124",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 6000, 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "DL456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 GEARBOXES (MODEL: GBX-200) WEIGHT: 2500 KGS EACH",
+      "grossWeight": 12500.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "SEGU6783210",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "987654",
-      "marksAndNumbers": "EC-125",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 6000, 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "DL789",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 GEARBOXES (MODEL: GBX-200) WEIGHT: 2500 KGS EACH",
+      "grossWeight": 12500.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 105.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO-2023",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN-2023123456",
+    "certificateDetails": [
+      "COO-NL-20241018-001"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS CO., LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA",
-      "telephone": "+86 21 5555 6666"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "18 ROBINSON ROAD, #14-00, ROBINSON 77, SINGAPORE 048544",
+      "telephone": "+65 6532 1234",
+      "fax": "+65 6532 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEPLAAN 1, 3061 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 3457"
+      "name": "DELTA LOGISTICS B.V.",
+      "address": "WESTPOORT 132, 3191 LJ ROTTERDAM, NETHERLANDS"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "GOODS ARE PACKED ON PALLETS."
   }
 }

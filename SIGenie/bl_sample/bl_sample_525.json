@@ -1,96 +1,108 @@
 {
-  "bookingReference": "APPLE20241015103002",
+  "bookingReference": "GRAPE20241018142501",
   "voyageDetails": {
-    "vesselName": "CAPE HOPE",
-    "voyageNumber": "2024055",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #12-01, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "SHANGHAI YONGJI CO., LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 1288 SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
     "consignee": {
-      "name": "EUROASIA IMPORTERS BV",
-      "address": "Coolsingel 100, 3011 AD Rotterdam, Netherlands",
-      "telephone": "+31-10-202-1010",
-      "fax": "+31-10-202-1011"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "POSTFACH 1001, 20001 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "EUROASIA LOGISTICS BV",
-      "address": "Pieter de Hoochweg 10, 3011 AC Rotterdam, Netherlands",
-      "telephone": "+31-10-203-1010",
-      "fax": "+31-10-203-1011"
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "KEIZERSTRAT 123, 3000 ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8703.23",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "854440",
+  "commodityDescription": "ELECTRICAL GENERATORS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EMX-123",
+      "containerNumber": "TCLU3805716",
+      "sealNumber": "987654",
+      "marksAndNumbers": "YJ123",
       "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "MOTORCYCLES - MODEL MX-200",
-      "grossWeight": 1800.0,
-      "measurement": 25.0
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL GENERATORS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "COC: THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MAERSK."
+    },
+    {
+      "containerNumber": "TCLU3805717",
+      "sealNumber": "345678",
+      "marksAndNumbers": "YJ123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL GENERATORS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "COC: THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "UNITS",
-    "totalGrossWeight": 1800.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20GP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
   },
-  "dangerousGoods": {
+  "reeferSettings": {
     "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-20241015-001",
-    "salesOrderNumber": "SO-20241015-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890123"
     },
-    "certificateDetails": "C-1234567890",
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROASIA IMPORTERS BV",
-      "address": "Coolsingel 100, 3011 AD Rotterdam, Netherlands",
-      "telephone": "+31-10-202-1010",
-      "fax": "+31-10-202-1011"
+      "name": "SHANGHAI YONGJI CO., LTD.",
+      "address": "NO. 1288 SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #12-01, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "POSTFACH 1001, 20001 HAMBURG, GERMANY",
+      "telephone": "+49-40-36789012",
+      "fax": "+49-40-36789013"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "onboardDate": "OCT. 22. 2024",
+    "additionalRemarks": "Value: USD50,000"
   }
 }

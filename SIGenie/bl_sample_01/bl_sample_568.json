@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241015143211",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2426E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE DHL GMBH",
+      "onBehalfOf": null,
+      "address": "STRASSENBAHNSTRASSE 5, 53113 BONN, GERMANY",
+      "telephone": "+49 228 555 5555",
+      "fax": "+49 228 555 5556"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
+      "companyNumber": "200207873K"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE CARGO, HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation-9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902",
+      "telephone": "+65 6227 6666",
+      "fax": "+65 6227 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING SINGAPORE",
+      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902",
+      "telephone": "+65 6227 6666",
+      "fax": "+65 6227 6667"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "MACHINERY PARTS FOR ASSEMBLY LINE, VALUE: USD100,000"
+  }
+}

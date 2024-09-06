@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202410161123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "No. 123, Huayuan Road, Hangzhou, Zhejiang 310000, CHINA",
+      "telephone": "+86-571-8789-1234",
+      "fax": "+86-571-8789-5678"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015, U.S.A",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "import@westcoastlogistics.com",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ABC IMPORTERS LTD",
+      "address": "456 Elm Street, San Francisco, CA 94103, U.S.A",
+      "telephone": "+1-415-555-2323",
+      "fax": "+1-415-555-2324"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE MANUFACTURING",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: GEARBOX COMPONENTS",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 30,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: ENGINE BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 80,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 45.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "123456-20241016",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "No. 123, Huayuan Road, Hangzhou, Zhejiang 310000, CHINA",
+      "telephone": "+86-571-8789-1234",
+      "fax": "+86-571-8789-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015, U.S.A",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "import@westcoastlogistics.com"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

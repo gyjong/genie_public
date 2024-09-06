@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APPLE20241015143201",
+  "bookingReference": "APPLE202410182103400",
   "voyageDetails": {
-    "vesselName": "EVER PEARL",
-    "voyageNumber": "2024105",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024341",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "onBehalfOf": "",
-      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
+      "address": "ROOM 1201, NO. 188, HENGDAO ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "86-759-85756789",
+      "fax": "86-759-85756787"
     },
     "consignee": {
       "name": "WEST COAST IMPORTERS INC.",
-      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90210, USA",
-      "companyNumber": "123456789"
+      "address": "1234 OCEAN AVE, SUITE 200, SANTA MONICA, CA 90401",
+      "telephone": "1-310-555-1212",
+      "fax": "1-310-555-1213",
+      "email": "ORDERS@WCI.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LLC",
-      "address": "4321 WILLOW STREET, CHICAGO, IL 60601, USA"
+      "sameAsConsignee": true
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "87119090",
+  "commodityDescription": "MOTORCYCLES WITH ENGINE CAPACITY OF 50CC OR MORE",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 4500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 4600.0,
+      "measurement": 26.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20DR",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 9100.0,
+    "totalMeasurement": 51.0
   },
   "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "LC0001234567"
     },
     "certificateDetails": [
-      "4112720070177X"
+      "CC1234567890",
+      "CO2345678901"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "address": "1234 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
+      "address": "ROOM 1201, NO. 188, HENGDAO ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "86-759-85756789",
+      "fax": "86-759-85756787"
     },
     "originalInvoiceDistribution": {
       "name": "WEST COAST IMPORTERS INC.",
-      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90210, USA",
-      "telephone": "310-555-1212",
-      "fax": "310-555-1213"
+      "address": "1234 OCEAN AVE, SUITE 200, SANTA MONICA, CA 90401",
+      "telephone": "1-310-555-1212",
+      "fax": "1-310-555-1213"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

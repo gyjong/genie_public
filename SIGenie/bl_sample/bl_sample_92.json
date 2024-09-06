@@ -1,96 +1,90 @@
 {
-  "bookingReference": "APPLE20241015143502",
+  "bookingReference": "APPLE20241015133022",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2428E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024101",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Original",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "101 UPPER CROSS STREET, #05-01, SINGAPORE 058357",
-      "telephone": "+65-6221-5555",
-      "fax": "+65-6221-6666"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "101 Ubi Avenue 4, #05-01, Ubi Techpark, Singapore 408806",
+      "telephone": "+65 6744 1234",
+      "fax": "+65 6744 5678"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "HANSASTRASSE 10, 60314 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "EUROFRESH BV",
+      "address": "Westblaak 131, 3012 KM Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "HANSASTRASSE 10, 60314 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1234 Business Park, Amsterdam, Netherlands"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8703.23",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "080290",
+  "commodityDescription": "GRAPES",
   "containers": [
     {
-      "containerNumber": "SEGU3476582",
-      "sealNumber": "123456",
-      "marksAndNumbers": "MTR-123",
-      "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & SEAL SAID TO CONTAIN: FIVE (5) MOTORCYCLES - MODEL RX250",
-      "grossWeight": 1250.0,
-      "measurement": 15.5
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "FRUIT123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT. SAID TO CONTAIN GRAPES.",
+      "grossWeight": 20000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "UNITS",
-    "totalGrossWeight": 1250.0,
-    "totalMeasurement": 15.5
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "SEGU3476582",
-    "unClass": "9",
-    "unCode": "3334",
-    "hsCode": "8703.23",
-    "flashPoint": "N/A",
-    "additionalInfo": "LITHIUM ION BATTERIES - PROPERLY PACKAGED AND LABELED"
-  },
+  "reeferSettings": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890123"
     },
-    "certificateDetails": "CN20241015001",
+    "certificateDetails": [
+      "PHYTO-123456",
+      " fumigation-789012"
+    ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "HANSASTRASSE 10, 60314 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 Ubi Avenue 4, #05-01, Ubi Techpark, Singapore 408806",
+      "telephone": "+65 6744 1234",
+      "fax": "+65 6744 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "101 UPPER CROSS STREET, #05-01, SINGAPORE 058357",
-      "telephone": "+65-6221-5555",
-      "fax": "+65-6221-6666"
+      "name": "EUROFRESH BV",
+      "address": "Westblaak 131, 3012 KM Rotterdam, Netherlands",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "LITHIUM ION BATTERIES ARE PACKAGED AND LABELED IN ACCORDANCE WITH IMDG CODE"
+    "additionalRemarks": ""
   }
 }

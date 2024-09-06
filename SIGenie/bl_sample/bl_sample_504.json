@@ -1,110 +1,96 @@
 {
-  "bookingReference": "APPLE20240915123456",
+  "bookingReference": "APPLE20241026143025",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024257",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "20241001",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(International Plaza)"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 238, HONGQI ROAD, YIWU, ZHEJIANG, CHINA 322000",
+      "telephone": "+86-579-8623-4567",
+      "fax": "+86-579-8623-4568"
     },
     "consignee": {
-      "name": "EURO CHEM GMBH",
-      "address": "Industriestra\u00dfe 10, 47877 Willich, GERMANY",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 2154 888888"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "456 King Street, London, WC2E 8JN, UK",
-      "country": "UNITED KINGDOM",
-      "email": "operations@globallogistics.co.uk",
-      "telephone": "+44 20 7123 4567"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 238, HONGQI ROAD, YIWU, ZHEJIANG, CHINA 322000",
+      "telephone": "+86-579-8623-4567",
+      "fax": "+86-579-8623-4568"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "280700",
-  "commodityDescription": "SODIUM HYDROXIDE SOLUTION",
+  "hsCode": "4418.70",
+  "commodityDescription": "WOODEN KITCHEN CABINETS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "789012",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SODIUM HYDROXIDE SOLUTION 50% 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 10 CARTONS WOODEN KITCHEN CABINETS",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
   },
   "additionalInformation": {
     "purchaseOrderNumber": "1234567890",
-    "hsCode": "281510",
-    "freeTimeAtDestination": "10 DAYS",
+    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": "12345678901234567890",
+    "certificateDetails": null,
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "1010 Main Street, Anytown, USA 12345",
-      "telephone": "+1 555 555 5555"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 238, HONGQI ROAD, YIWU, ZHEJIANG, CHINA 322000",
+      "telephone": "+86-579-8623-4567",
+      "fax": "+86-579-8623-4568"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO CHEM GMBH",
-      "address": "Industriestra\u00dfe 10, 47877 Willich, GERMANY",
-      "telephone": "+49 2154 888888",
-      "fax": "+49 2154 888889"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination\nAll Cargo Subject to Inspection"
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "SHIPMENT MADE ON BOARD ON THE 29TH OF OCTOBER 2024"
   }
 }

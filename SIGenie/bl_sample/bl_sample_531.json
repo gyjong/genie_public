@@ -1,20 +1,20 @@
 {
-  "bookingReference": "MANGO20241002134521",
+  "bookingReference": "APPLE20241015113022",
   "voyageDetails": {
-    "vesselName": "MSC ANGELINA",
-    "voyageNumber": "2440E",
-    "bound": "E"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024092",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,67 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL IMPORTS LTD",
-      "address": "123 Main Street, Amsterdam, Netherlands",
-      "telephone": "+31 20 123 4567",
-      "email": "info@globalimports.nl"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1203, NO. 388, YUAN SHEN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-7654",
+      "fax": "+86-21-6288-7655"
     },
     "consignee": {
-      "name": "ASIA TRADING CO. PTE LTD",
-      "address": "10 Marina Boulevard, #38-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
-      "taxId": "199801234Z",
-      "president": "MR. LEE CHONG",
-      "telephone": "+65 6888 9999",
-      "fax": "+65 6888 9998"
+      "name": "EUROSTAR TRADING BV",
+      "address": "WESTLANDGABEL 51, 3015 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "ASIA TRADING CO. PTE LTD",
-      "address": "10 Marina Boulevard, #38-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
-      "taxId": "199801234Z",
-      "president": "MR. LEE CHONG",
-      "telephone": "+65 6888 9999",
-      "fax": "+65 6888 9998"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84138100",
-  "commodityDescription": "PUMPS FOR LIQUIDS",
+  "shippingTerm": "CIF",
+  "hsCode": "854440",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 5,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE PUMPS FOR LIQUIDS",
-      "grossWeight": 5000.0,
-      "measurement": 15.0
+      "containerNumber": "TCLU9678321",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE2345",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "BOXES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 5000.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "0000222244445"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "4112720070177X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Logistics Lane, Singapore 123456",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1203, NO. 388, YUAN SHEN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-7654",
+      "fax": "+86-21-6288-7655"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Logistics Lane, Singapore 123456",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "EUROSTAR TRADING BV",
+      "address": "WESTLANDGABEL 51, 3015 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-212-3456",
+      "fax": "+31-10-212-3457"
     },
-    "onboardDate": "OCT. 10. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

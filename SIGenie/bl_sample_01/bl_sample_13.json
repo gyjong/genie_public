@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202410151045300",
+  "voyageDetails": {
+    "vesselName": "MSC SHIRLEY",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE, SINGAPORE",
+    "portOfLoading": "SINGAPORE, SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SEA DRAGON LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #20-02 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "consignee": {
+      "name": "EUROSTAR IMPORTS GMBH",
+      "address": "Hanauer Landstra\u00dfe 120, 60314 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432",
+      "email": "imports@eurostar.de",
+      "contactPerson": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "Industriestra\u00dfe 10, 60598 Frankfurt, Germany",
+      "telephone": "+49 69 78901234",
+      "fax": "+49 69 78905678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "73269090",
+  "commodityDescription": "STAINLESS STEEL PIPES AND TUBES",
+  "containers": [
+    {
+      "containerNumber": "CMAU7892345",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SEA-DRAGON-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STAINLESS STEEL PIPES - 2 INCH DIAMETER",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SEA-DRAGON-456",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STAINLESS STEEL TUBES - 1.5 INCH DIAMETER",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 180,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "SD20241015001",
+    "documentNumber": "20241015002",
+    "lcDetails": {
+      "lcNumber": "LC20241015003"
+    },
+    "certificateDetails": [
+      "COC-20241015-001",
+      " fumigation certificate - 20241015-002"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROSTAR IMPORTS GMBH",
+      "address": "Hanauer Landstra\u00dfe 120, 60314 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEA DRAGON LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #20-02 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20240912101507",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2435E",
-    "bound": "E"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024041",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFLOW LTD",
-      "address": "KEIZERSTRIJT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "info@euroflow.nl"
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "22ND FLOOR, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #22-05 International Plaza, Singapore 079903",
-      "taxId": "200212345H",
-      "president": "MR. TAN AH KEE",
-      "telephone": "+65 6221 8899",
-      "fax": "+65 6221 8800"
+      "name": "WEST COAST IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "001 213 555 1212",
+      "fax": "001 213 555 1213"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #22-05 International Plaza, Singapore 079903",
-      "taxId": "200212345H",
-      "president": "MR. TAN AH KEE",
-      "telephone": "+65 6221 8899",
-      "fax": "+65 6221 8800"
+      "name": "WEST COAST IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "001 213 555 1212",
+      "fax": "001 213 555 1213"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84833000",
-  "commodityDescription": "MACHINERY PARTS",
+  "hsCode": "85437000",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE MACHINERY PARTS",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
+      "containerNumber": "SEGU7638215",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU7729104",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "XYZ987",
+      "numberOfPackages": 80,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 9000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 8000.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 180,
+    "packageType": "PACKAGES",
+    "containerType": "20FTX2",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 45.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033741"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "1000020070133X",
+      "1000020070134X"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING SERVICES PTE LTD",
-      "address": "1 Marina Boulevard #42-01, Singapore 018989",
-      "telephone": "+65 6338 1234",
-      "fax": "+65 6338 5678"
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "22ND FLOOR, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, CHINA"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SERVICES PTE LTD",
-      "address": "1 Marina Boulevard #42-01, Singapore 018989",
-      "telephone": "+65 6338 1234",
-      "fax": "+65 6338 5678"
+      "name": "WEST COAST IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "001 213 555 1212",
+      "fax": "001 213 555 1213"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "additionalRemarks": "None"
   }
 }

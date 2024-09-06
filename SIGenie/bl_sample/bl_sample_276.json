@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APRICOT20241015134521",
+  "bookingReference": "APPLE20241026143215",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2448W",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "202410A",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Master Bill of Lading",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI FUJIA IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1302, NO. 688, ZHONGSHAN ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-63298765",
-      "fax": "+86-21-63298764"
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EUROTECH BV",
-      "address": "STATIONSPLEIN 10, 3013 AK ROTTERDAM, NETHERLANDS",
-      "companyNumber": "62537892"
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "DE KOEKENBERG 12, 3011 AJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL",
-      "address": "CENTRUMZUID 1, 1075 LV AMSTERDAM, NETHERLANDS"
+      "name": "EUROTECH LOGISTICS",
+      "address": "DE KOEKENBERG 12, 3011 AJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7892",
+      "fax": "+31-10-456-7893"
     }
   },
-  "shippingTerm": "FOB",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "8543.70",
+  "commodityDescription": "DIGITAL CAMERAS",
   "containers": [
     {
-      "containerNumber": "TCLU3576218",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET231015",
+      "marksAndNumbers": "ET-123",
       "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF ELECTRONIC COMPONENTS",
-      "grossWeight": 1250.0,
-      "measurement": 5.5,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 50 CARTONS OF DIGITAL CAMERAS. GROSS WEIGHT: 1200 KGS. ",
+      "grossWeight": 1200.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT) CONTAINER",
+    "totalContainers": "ONE (20' DRY) CONTAINER",
     "totalPackages": 50,
     "packageType": "CARTONS",
-    "containerType": "20FT",
-    "totalGrossWeight": 1250.0,
-    "totalMeasurement": 5.5
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 15.0
   },
-  "reeferSettings": {
+  "dangerousGoods": {
     "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC0000123456"
+      "lcNumber": "LC0012345678"
     },
-    "certificateDetails": [
-      "CN234567890"
-    ],
+    "certificateDetails": "20241026-001",
     "originalBLDistribution": {
-      "name": "SHANGHAI FUJIA IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1302, NO. 688, ZHONGSHAN ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-63298765",
-      "fax": "+86-21-63298764"
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "DE KOEKENBERG 12, 3011 AJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH BV",
-      "address": "STATIONSPLEIN 10, 3013 AK ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-4445555",
-      "fax": "+31-10-4445554"
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "OCT. 18. 2024",
-    "additionalRemarks": "Value: EUR 15,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "NONE"
   }
 }

@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20241026115236",
+  "bookingReference": "APPLE20241015142305",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2443W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "20241002",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Original Bill of Lading",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI EVERBRIGHT IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1001, NO. 1588 SHANGHAI ROAD, SHANGHAI, 200080",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong District)"
+      "name": "CHINA IMPORT & EXPORT CO., LTD.",
+      "address": "123 CHANG'AN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "SINGEL 435, 1012 WP AMSTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 20 624 1234"
+      "name": "WEST COAST TRADING INC.",
+      "address": "1500 OCEAN AVE, SANTA MONICA, CA 90401, USA",
+      "telephone": "+1-310-555-9876",
+      "fax": "+1-310-555-5432"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "SINGEL 435, 1012 WP AMSTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 20 624 1234"
+      "name": "WEST COAST TRADING INC.",
+      "address": "1500 OCEAN AVE, SANTA MONICA, CA 90401, USA",
+      "telephone": "+1-310-555-9876",
+      "fax": "+1-310-555-5432"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "SEGU3757412",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180KG PER DRUM",
-      "grossWeight": 36000.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "SEGU4567890",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180KG PER DRUM",
-      "grossWeight": 36000.0,
-      "measurement": 28.0
+      "containerNumber": "GOCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 100 BOXES OF ELECTRONIC COMPONENTS. GROSS WEIGHT 4,500 KGS",
+      "grossWeight": 4500,
+      "measurement": 15.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 400,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 72000.0,
-    "totalMeasurement": 56.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 4500,
+    "totalMeasurement": 15.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "EC20241026-001",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20241026001",
+    "certificateDetails": " fumigation certificate number: FCN123456789",
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "100 QUEEN STREET, LONDON EC4R 1BX, UNITED KINGDOM",
-      "telephone": "+44 20 7992 2000"
+      "name": "WEST COAST TRADING INC.",
+      "address": "1500 OCEAN AVE, SANTA MONICA, CA 90401, USA",
+      "telephone": "+1-310-555-9876",
+      "fax": "+1-310-555-5432"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "SINGEL 435, 1012 WP AMSTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 20 624 1234"
+      "name": "CHINA IMPORT & EXPORT CO., LTD.",
+      "address": "123 CHANG'AN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO STOWED ON DECK"
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "SHIPMENT IS IN GOOD ORDER AND CONDITION"
   }
 }

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20241005113245",
+  "voyageDetails": {
+    "vesselName": "MSC AURORA",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "250 ORCHARD ROAD #05-12, SINGAPORE 238885",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6737 8910",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "SALES@EUROTECHGMBH.DE",
+      "telephone": "+49 40 36137400"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "SALES@EUROTECHGMBH.DE",
+      "telephone": "+49 40 36137400"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "853669",
+  "commodityDescription": "ELECTRONIC COMPONENTS FOR TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS FOR TELECOMMUNICATION EQUIPMENT (W.2400MM H.2400MM)",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ETG456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS FOR TELECOMMUNICATION EQUIPMENT (W.2400MM H.2400MM)",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 56.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "Value: EUR50,000"
+  }
+}

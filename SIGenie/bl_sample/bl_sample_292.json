@@ -1,110 +1,100 @@
 {
-  "bookingReference": "APPLE20240912112345",
+  "bookingReference": "PEACH202410191042300",
   "voyageDetails": {
-    "vesselName": "MAERSK EDISON",
+    "vesselName": "APL MERLION",
     "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #22-01 International Plaza, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "5F, NO.2288, HONGQIAO RD, SHANGHAI 200336, CHINA",
+      "telephone": "021-6666-1111",
+      "fax": "021-6666-2222"
     },
     "consignee": {
-      "name": "EURO CHEM GMBH",
-      "address": "Frankfurter Strasse 123, 60329 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "INFO@EUROCHEM.DE",
-      "telephone": "+49 69 79876543"
+      "name": "EUROLOGISTICS BV",
+      "address": "RIJKSWATERSTAAT 100, 3011 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "31-10-243-5678",
+      "fax": "31-10-243-5679",
+      "email": "IMPORT@EUROLOGISTICS.NL",
+      "contactPerson": "JAN VAN DER MARK"
     },
     "notifyParty": {
-      "name": "EURO CHEM GMBH",
-      "address": "Frankfurter Strasse 123, 60329 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "INFO@EUROCHEM.DE",
-      "telephone": "+49 69 79876543"
+      "sameAsConsignee": false,
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "ALEXANDERSTRAAT 23, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "31-10-444-5555",
+      "fax": "31-10-444-5556"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "280700",
-  "commodityDescription": "SODIUM CARBONATE (SODA ASH)",
+  "shippingTerm": "CIF",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
   "containers": [
     {
-      "containerNumber": "MSCU3512389",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC2024-123",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25MT 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "CHAIR-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "CMAU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "EC2024-456",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25MT 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU1112223",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EC2024-789",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25MT 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "CHAIR-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 50.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "280700",
-    "freeTimeAtDestination": "7 DAYS",
+    "invoiceNumber": "20241019-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00001010339243"
     },
-    "certificateDetails": "COC20240912",
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, SINGAPORE",
-      "telephone": "+65 67890123"
+      "name": "EUROLOGISTICS BV",
+      "address": "RIJKSWATERSTAAT 100, 3011 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "31-10-243-5678",
+      "fax": "31-10-243-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #22-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 65432100",
-      "fax": "+65 65432101"
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "5F, NO.2288, HONGQIAO RD, SHANGHAI 200336, CHINA",
+      "telephone": "021-6666-1111",
+      "fax": "021-6666-2222"
     },
-    "onboardDate": "SEPT. 14. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nGOODS ARE PACKED IN ACCORDANCE WITH IMDG CODE"
+    "onboardDate": "OCT. 26. 2024"
   }
 }

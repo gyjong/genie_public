@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240915142531",
+  "bookingReference": "APPLE20240912102345",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2433E",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "FRANKFURT, GERMANY",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
@@ -19,62 +19,62 @@
   "documentationDetails": {
     "blType": "COPY",
     "numberOfOriginalBLs": 0,
-    "numberOfCopies": 2
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IRON & STEEL CO., LTD.",
-      "address": "NO. 238, XINZHUANG ROAD, SHANGHAI, 200060",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong New Area)",
-      "telephone": "+86 21 5879 1234",
-      "email": "SALES@SHANGHAISTEEL.COM"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6221 8888",
+      "email": "info@asiapacifictrading.com"
     },
     "consignee": {
-      "name": "DEUTSCHE METALL GMBH",
-      "address": "INDUSTRIEPARK 12, 60385 FRANKFURT AM MAIN",
+      "name": "EUROTECH GMBH",
+      "address": "Hanauer Landstra\u00dfe 123, 60314 Frankfurt am Main, Germany",
       "country": "GERMANY",
-      "email": "INFO@DEUTSCHEMETALL.DE, ORDERS@DEUTSCHEMETALL.DE",
-      "telephone": "+49 69 7986 1234"
+      "email": "logistics@eurotech.de",
+      "telephone": "+49 69 7908 0"
     },
     "notifyParty": {
-      "name": "ABC BANK FRANKFURT",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN",
+      "name": "EUROTECH GMBH",
+      "address": "Hanauer Landstra\u00dfe 123, 60314 Frankfurt am Main, Germany",
       "country": "GERMANY",
-      "email": "LETTERSOFCREDIT@ABCBANK.DE",
-      "telephone": "+49 69 2712 3456"
+      "email": "logistics@eurotech.de",
+      "telephone": "+49 69 7908 0"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "720890",
-  "commodityDescription": "STEEL BILLETS - SIZE: 120MM X 150MM",
+  "shippingTerm": "CFR",
+  "hsCode": "842139",
+  "commodityDescription": "MEDICAL IMAGING EQUIPMENT - X-RAY MACHINE",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "GOCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SB123",
-      "numberOfPackages": 500,
-      "packageType": "BUNDLES",
-      "cargoDescription": "STEEL BILLETS - SIZE: 120MM X 150MM, WEIGHT: 25 TON PER BUNDLE",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ET2024-1",
+      "numberOfPackages": 1,
+      "packageType": "CRATE",
+      "cargoDescription": "MEDICAL IMAGING EQUIPMENT - X-RAY MACHINE (W.2500MM H.2200MM D.1500MM)",
+      "grossWeight": 3500.0,
+      "measurement": 12.5
     },
     {
-      "containerNumber": "TCLU7890123",
+      "containerNumber": "GOCU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "SB124",
-      "numberOfPackages": 500,
-      "packageType": "BUNDLES",
-      "cargoDescription": "STEEL BILLETS - SIZE: 120MM X 150MM, WEIGHT: 25 TON PER BUNDLE",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ET2024-2",
+      "numberOfPackages": 1,
+      "packageType": "CRATE",
+      "cargoDescription": "MEDICAL IMAGING EQUIPMENT - ACCESSORIES FOR X-RAY MACHINE (W.1200MM H.800MM D.600MM)",
+      "grossWeight": 500.0,
+      "measurement": 3.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 1000,
-    "totalGrossWeight": 50000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 15.5
   },
   "outOfGaugeDimensions": {
     "length": 0,
@@ -85,23 +85,23 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00002345678901"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "CE123456",
+      "FDA789012"
     ],
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "FRANKFURTER STRASSE 20, 60311 FRANKFURT AM MAIN",
-      "telephone": "+49 69 2712 3456"
+      "name": "DHL EXPRESS",
+      "address": "123 Changi Road, Singapore 419712",
+      "telephone": "+65 6226 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "FRANKFURTER STRASSE 20, 60311 FRANKFURT AM MAIN",
-      "telephone": "+49 69 2712 3456"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6221 8888"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "VALUE: USD250,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "FRAGILE, HANDLE WITH CARE"
   }
 }

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "PEACH20240915143256",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2437EW",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING SOLUTIONS PTE LTD",
+      "address": "123 Anson Road, #05-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. John Lee)",
+      "telephone": "+65 6222 3333",
+      "email": "john.lee@gts.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 12, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3598 7600"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 12, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3598 7600"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84213910",
+  "commodityDescription": "PARTS FOR INDUSTRIAL MACHINERY, INCLUDING GEARBOXES AND HYDRAULIC PUMPS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOXES AND HYDRAULIC PUMPS FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 15000.0,
+      "measurement": 20.5
+    },
+    {
+      "containerNumber": "UTLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS456",
+      "numberOfPackages": 8,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS FOR INDUSTRIAL MACHINERY (INCLUDING SHAFTS AND BEARINGS)",
+      "grossWeight": 12000.0,
+      "measurement": 18.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 38.7
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "234567890123"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "210 Changi South Street 1, Singapore 486027",
+      "telephone": "+65 6377 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "210 Changi South Street 1, Singapore 486027",
+      "telephone": "+65 6377 2222"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "GOODS PACKED AND SECURED FOR SAFE TRANSIT"
+  }
+}

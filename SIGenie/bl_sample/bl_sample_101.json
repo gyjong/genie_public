@@ -1,89 +1,94 @@
 {
-  "bookingReference": "APPLE20241015143022",
+  "bookingReference": "APPLE20241026143501",
   "voyageDetails": {
-    "vesselName": "CAPRICORNUS",
-    "voyageNumber": "202410B",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2444W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
-      "telephone": "+65-6737-8899",
-      "fax": "+65-6737-8888"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "22ND FLOOR, SHANGHAI TOWER, NO. 501 PU DONG AVE, SHANGHAI 200120, CHINA",
+      "telephone": "+86-21-6339-8888",
+      "fax": "+86-21-6339-9999"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "KOLLENSTRASSE 25, 4021 BASEL, SWITZERLAND",
-      "telephone": "+41-61-691-2345",
-      "fax": "+41-61-691-2346"
+      "name": "EURO imporT & DISTRIBUTORS B.V.",
+      "address": "DIJKZICHT 12, 3011 AC ROTTERDAM, NETHERLANDS",
+      "companyNumber": "67890123"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
-      "telephone": "+65-6737-8899",
-      "fax": "+65-6737-8888"
+      "name": "TRANSGLOBAL LOGISTICS",
+      "address": "WEIDENSTRASSE 12, 60325 FRANKFURT, GERMANY"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8544.42",
-  "commodityDescription": "COMPUTER HARDWARE",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "APTC-20241015",
+      "containerNumber": "SUDU7845621",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
       "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "50 CARTONS OF COMPUTER HARDWARE (MOTHERBOARDS)",
-      "grossWeight": 1200.0,
-      "measurement": 15.0
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MACHINERY PARTS AS DESCRIBED BELOW.",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
     "totalPackages": 50,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 1200.0,
-    "totalMeasurement": 15.0
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {},
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO12345",
-    "salesOrderNumber": "SO67890",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "KOLLENSTRASSE 25, 4021 BASEL, SWITZERLAND",
-      "telephone": "+41-61-691-2345",
-      "fax": "+41-61-691-2346"
+      "name": "EURO imporT & DISTRIBUTORS B.V.",
+      "address": "DIJKZICHT 12, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-8900",
+      "fax": "+31-10-204-8901"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
-      "telephone": "+65-6737-8899",
-      "fax": "+65-6737-8888"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "22ND FLOOR, SHANGHAI TOWER, NO. 501 PU DONG AVE, SHANGHAI 200120, CHINA",
+      "telephone": "+86-21-6339-8888",
+      "fax": "+86-21-6339-9999"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "onboardDate": "NOV. 05. 2024",
+    "additionalRemarks": "Packed in sturdy wooden crates. Value: USD25,000"
   }
 }

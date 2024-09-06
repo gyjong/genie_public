@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APPLE20241026143256",
+  "bookingReference": "APPLE20241015143022",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024381",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2442W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "SINGAPORE, SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Master Bill of Lading",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADERS PTE LTD",
+      "address": "123 Cecil Street, #15-01, Singapore 069518",
+      "telephone": "+65-6536-9876",
+      "fax": "+65-6536-9875"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #26-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6227 8888",
-      "fax": "+65 6227 9999"
+      "name": "EUROTRADE BV",
+      "address": "Pieter Maaslaan 123, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROBANK N.V.",
+      "address": "Coolsingel 108, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31-10-789-0123",
+      "fax": "+31-10-789-0124"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "95030010",
-  "commodityDescription": "TOYS - EDUCATIONAL BUILDING BLOCKS",
+  "shippingTerm": "CFR",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLE PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU3785214",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "GS123456",
-      "numberOfPackages": 500,
-      "cargoDescription": "EDUCATIONAL BUILDING BLOCKS - Assorted Colors and Shapes",
-      "grossWeight": 12000.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "GS987654",
-      "numberOfPackages": 500,
-      "cargoDescription": "EDUCATIONAL BUILDING BLOCKS - Assorted Colors and Shapes",
-      "grossWeight": 12000.0,
-      "measurement": 28.0
+      "containerNumber": "GMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET20231015",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS AS PER PACKING LIST",
+      "grossWeight": 12500.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 1000,
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "CARTONS",
-    "containerType": "20FT",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 56.0
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 35.0
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CO12345678",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "20231015001",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #26-01 International Plaza, Singapore 079903"
+      "name": "ASIA PACIFIC TRADERS PTE LTD",
+      "address": "123 Cecil Street, #15-01, Singapore 069518",
+      "telephone": "+65-6536-9876",
+      "fax": "+65-6536-9875"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "BEURSKWAS 16, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROTRADE BV",
+      "address": "Pieter Maaslaan 123, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
-    "onboardDate": "OCT. 31. 2024",
-    "additionalRemarks": "GOODS PACKED IN STRONG CARTONS. SHIPPED ON BOARD ON OCTOBER 31, 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
   }
 }

@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APPLE202410121055300",
+  "bookingReference": "APPLE20241025143012",
   "voyageDetails": {
-    "vesselName": "MSC ANNA",
-    "voyageNumber": "2427E",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "244W2E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
-      "address": "2388 NANJING ROAD WEST, SHANGHAI, 200001, CHINA",
-      "telephone": "86-21-6278-1234",
-      "fax": "86-21-6278-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 MAIN STREET, LOS ANGELES, CA 90001",
-      "telephone": "1-555-555-1212",
-      "fax": "1-555-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 666 7777",
+      "fax": "+31 20 666 7778"
     },
     "notifyParty": {
-      "sameAsConsignee": true
+      "name": "EUROTECH LOGISTICS",
+      "address": "Industrieweg 20, 3125 EA Vlaardingen, Netherlands",
+      "telephone": "+31 15 750 1234",
+      "fax": "+31 15 750 1235"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "870899",
-  "commodityDescription": "MOTORCYCLES, 125CC - 250CC ENGINE CAPACITY",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42.00",
+  "commodityDescription": "ELECTRONIC COMPONENTS - RESISTORS",
   "containers": [
     {
-      "containerNumber": "TCLU8765432",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "MG123",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
-      "grossWeight": 1800.0,
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - RESISTORS AS PER INVOICE",
+      "grossWeight": 1200.0,
       "measurement": 10.5
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "MG456",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
-      "grossWeight": 1850.0,
-      "measurement": 10.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 10,
-    "totalGrossWeight": 3650.0,
-    "totalMeasurement": 20.7
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "20241012-001",
-    "documentNumber": "20241012-002",
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COC-20241012-001",
-      " fumigation certificate"
-    ],
+    "certificateDetails": " fumigation certificate",
     "originalBLDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
-      "address": "2388 NANJING ROAD WEST, SHANGHAI, 200001, CHINA",
-      "telephone": "86-21-6278-1234",
-      "fax": "86-21-6278-5678"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 666 7777",
+      "fax": "+31 20 666 7778"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 MAIN STREET, LOS ANGELES, CA 90001",
-      "telephone": "1-555-555-1212",
-      "fax": "1-555-555-1213"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "FUMIGATED"
   }
 }

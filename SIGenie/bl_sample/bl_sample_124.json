@@ -1,101 +1,95 @@
 {
-  "bookingReference": "APPLE202410121530421",
+  "bookingReference": "MANGO20240912133015",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "2024045",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2433E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Sunshine Trading Co., Ltd",
-      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8989",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "West Coast Imports Inc.",
-      "address": "123 Main Street, Los Angeles, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "info@westimports.com",
-      "contactPerson": "Sarah Jones"
+      "name": "EURO IMPORTS BV",
+      "address": "Europaplein 10, 3075 AA Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "Seaway Logistics",
-      "address": "456 Harbor Drive, Long Beach, CA 90802",
-      "telephone": "+1-562-555-5678",
-      "fax": "+1-562-555-5679",
-      "email": "notifications@seawaylogistics.com"
+      "name": "EURO LOGISTICS BV",
+      "address": "Koningshaven 123, 3015 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
     }
   },
-  "shippingTerm": "CIF LOS ANGELES",
-  "hsCode": "611030",
-  "commodityDescription": "Men's Woven Cotton Shirts",
+  "shippingTerm": "CFR",
+  "hsCode": "85423100",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "CMAU7895632",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUN2310",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON SHIRTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU8765432",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SUN2311",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON SHIRTS",
-      "grossWeight": 12400.0,
-      "measurement": 24.5
+      "containerNumber": "TCLU8679542",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 9500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 24900.0,
-    "totalMeasurement": 49.5
+    "totalContainers": "ONE (40 HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "40 HQ",
+    "totalGrossWeight": 9500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 HQ Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "20231012001",
-    "documentNumber": "20231012002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "000234567890"
     },
-    "certificateDetails": [
-      "C-231012-001",
-      "C-231012-002"
-    ],
+    "certificateDetails": "SGS-2024-12345",
     "originalBLDistribution": {
-      "name": "Zhejiang Sunshine Trading Co., Ltd",
-      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "DBS BANK LTD",
+      "address": "Marina Bay Financial Centre Tower 3, 12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6220 2020",
+      "fax": "+65 6227 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "Zhejiang Sunshine Trading Co., Ltd",
-      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8989",
+      "email": "info@asiatrading.com.sg"
     },
-    "onboardDate": "OCT. 22. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED IN PROPER ORDER"
   }
 }

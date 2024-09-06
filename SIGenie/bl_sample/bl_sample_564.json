@@ -1,96 +1,100 @@
 {
-  "bookingReference": "APPLE20241016102502",
+  "bookingReference": "APPLE20240918123456",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024055",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024291",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #28-01, International Plaza, SINGAPORE 079900",
-      "telephone": "+65-6227-5555",
-      "fax": "+65-6227-5556"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 588, HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "EUROSTAR IMPORTS BV",
-      "address": "Weesperstraat 100, 1018 VN Amsterdam, NETHERLANDS",
-      "telephone": "+31-20-666-7777",
-      "fax": "+31-20-666-7778"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 790960"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #28-01, International Plaza, SINGAPORE 079900",
-      "telephone": "+65-6227-5555",
-      "fax": "+65-6227-5556"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 790960"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8542.39",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE (EA)",
   "containers": [
     {
-      "containerNumber": "TCLU5673210",
+      "containerNumber": "CMAU9672315",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, MARKED & NUMBERED AS SHOWN. SAID TO CONTAIN: ELECTRONIC COMPONENTS.",
-      "grossWeight": 1200.5,
-      "measurement": 1.567
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE (EA) 20 MT 200 DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE (EA) 20 MT 200 DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 1200.5,
-    "totalMeasurement": 1.567
-  },
-  "dangerousGoods": {
-    "containerNumber": "TCLU5673210",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8542.39",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "Batteries are packed in accordance with IATA regulations."
+    "totalContainers": "TWO (20'DV) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "29152100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "20241016001",
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "EUROSTAR IMPORTS BV",
-      "address": "Weesperstraat 100, 1018 VN Amsterdam, NETHERLANDS",
-      "telephone": "+31-20-666-7777",
-      "fax": "+31-20-666-7778"
+      "name": "ABC FREIGHT FORWARDERS LTD.",
+      "address": "123 MAIN STREET, LONDON, EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #28-01, International Plaza, SINGAPORE 079900",
-      "telephone": "+65-6227-5555",
-      "fax": "+65-6227-5556"
+      "name": "ABC FREIGHT FORWARDERS LTD.",
+      "address": "123 MAIN STREET, LONDON, EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Batteries are packed in accordance with IATA regulations."
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO STOWED ON DECK"
   }
 }

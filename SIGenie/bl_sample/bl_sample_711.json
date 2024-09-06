@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240915152345",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2437EW",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "AMSTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #28-01, International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Ms. Lina Wong)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Weesperstraat 79, 1018 VN Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 20 624 5555"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Frankfurter Strasse 32, 60329 Frankfurt am Main, Germany",
+      "country": "GERMANY",
+      "email": "operations@globallogistics.de",
+      "telephone": "+49 69 7936480"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "290331",
+  "commodityDescription": "POLYETHYLENE TEREPHTHALATE (PET)",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "PET123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) 20MT BAGS",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "PET456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) 20MT BAGS",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 41000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "290331",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "SGS123456789",
+    "originalBLDistribution": {
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "123 Main Street, Singapore 123456",
+      "telephone": "+65 67890123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "Weesperstraat 79, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 5555",
+      "fax": "+31 20 624 5556"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nCargo loaded in sound condition\nCarrier responsible for discharging cargo at destination."
+  }
+}

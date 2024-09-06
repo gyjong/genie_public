@@ -1,95 +1,96 @@
 {
-  "bookingReference": "GRAPE20240912101505",
+  "bookingReference": "APPLE20241015114502",
   "voyageDetails": {
-    "vesselName": "MSC ELARA",
-    "voyageNumber": "2431W",
-    "bound": "E"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "222410",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "HAMBURG, GERMANY",
-    "portOfLoading": "HAMBURG, GERMANY",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DEUTSCHE METALL GMBH",
-      "address": "WALTER-RATZ-STRASSE 12, 20357 HAMBURG, GERMANY",
-      "telephone": "+49 40 3612345",
-      "email": "INFO@DEUTSCHEMETALL.DE"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "taxId": "200112345H",
-      "president": "MR. TAN AH CHONG",
-      "telephone": "+65 6222 5555",
-      "fax": "+65 6222 6666"
+      "name": "EUROASIA IMPORT EXPORT BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
     },
     "notifyParty": {
-      "name": "SINGAPORE BANK CORPORATION",
-      "address": "12 Marina View, #01-01 Asia Square Tower 1, Singapore 018961",
-      "telephone": "+65 6533 8888",
-      "fax": "+65 6533 9999"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "7202111000",
-  "commodityDescription": "STEEL BILLETS",
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE STEEL BILLETS",
-      "grossWeight": 25000.0,
-      "measurement": 35.0
+      "containerNumber": "MSCU6789123",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ST-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 10 CARTONS OF TELECOMMUNICATION EQUIPMENT.",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 200,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 35.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 10.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241015-001",
+    "salesOrderNumber": "SO-20241015-002",
     "lcDetails": {
-      "lcNumber": "01234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": "20241015-CERT-001",
     "originalBLDistribution": {
-      "name": "SINGAPORE BANK CORPORATION",
-      "address": "12 Marina View, #01-01 Asia Square Tower 1, Singapore 018961",
-      "telephone": "+65 6533 8888",
-      "fax": "+65 6533 9999"
+      "name": "EUROASIA IMPORT EXPORT BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "DEUTSCHE METALL GMBH",
-      "address": "WALTER-RATZ-STRASSE 12, 20357 HAMBURG, GERMANY",
-      "telephone": "+49 40 3612345",
-      "email": "INFO@DEUTSCHEMETALL.DE"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT PACKING."
   }
 }

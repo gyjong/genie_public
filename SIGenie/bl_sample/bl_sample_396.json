@@ -1,96 +1,105 @@
 {
-  "bookingReference": "STARFRUIT20241015134521",
+  "bookingReference": "GRAPE20240925143012",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "20241007",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2434E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 BISHAN STREET 22, #05-01, SINGAPORE 573923",
-      "telephone": "+65-6255-1234",
-      "fax": "+65-6255-5678"
+      "name": "SHANGHAI IRON & STEEL CO. LTD",
+      "address": "235 HUAYUAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6337 5689",
+      "email": "SALES@SIS.COM.CN"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTERS BV",
-      "address": "PIETERMAAIJSENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-476-3500",
-      "fax": "+31-10-476-3501"
+      "name": "WEST COAST METAL IMPORTERS INC.",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS",
-      "address": "KANTSTRAAT 5, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-201-8900",
-      "fax": "+31-10-201-8901"
+      "name": "WEST COAST LOGISTICS LLC",
+      "address": "9876 SUNSET BLVD, LOS ANGELES, CA 90028, USA",
+      "telephone": "+1 310 555 9876",
+      "fax": "+1 310 555 9877"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8541.40",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "72083700",
+  "commodityDescription": "HOT ROLLED STEEL COILS",
   "containers": [
     {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 500,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR LOS ANGELES, USA HOT ROLLED STEEL COILS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
       "containerNumber": "MSCU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ET-123",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 5000,
-      "measurement": 20
+      "sealNumber": "87654321",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 500,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR LOS ANGELES, USA HOT ROLLED STEEL COILS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 5000,
-    "totalMeasurement": 20
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "COILS",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
   },
-  "dangerousGoods": {
-    "containerNumber": "MSCU1234567",
-    "unClass": "9",
-    "unCode": "3077",
-    "hsCode": "8541.40",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "BATTERY MARKINGS: UN3077"
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC20241015001"
+      "lcNumber": "0000123456"
     },
-    "certificateDetails": "20241015-001",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROTECH IMPORTERS BV",
-      "address": "PIETERMAAIJSENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-476-3500",
-      "fax": "+31-10-476-3501"
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 0000",
+      "fax": "+1 310 555 0001"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 BISHAN STREET 22, #05-01, SINGAPORE 573923",
-      "telephone": "+65-6255-1234",
-      "fax": "+65-6255-5678"
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 0000",
+      "fax": "+1 310 555 0001"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "BATTERY SHIPMENT"
+    "onboardDate": "OCT. 10. 2024",
+    "additionalRemarks": "GOODS ARE PACKED AND PROTECTED FOR SAFE CARRIAGE."
   }
 }

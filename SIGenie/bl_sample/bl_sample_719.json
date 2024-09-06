@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912102345",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "123 Anson Road, #18-01, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Kattenburgerstraat 5, 1018 NA Amsterdam, Netherlands",
+      "telephone": "+31 20 666 1234",
+      "fax": "+31 20 666 5678"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Prins Hendrikkade 104, 1011 AT Amsterdam, Netherlands",
+      "telephone": "+31 20 777 8901",
+      "fax": "+31 20 777 8902"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "MSCU3876549",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, MODEL XR250, PACKED IN WOODEN CRATES",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, MODEL XR250, PACKED IN WOODEN CRATES",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Kattenburgerstraat 5, 1018 NA Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Kattenburgerstraat 5, 1018 NA Amsterdam, Netherlands"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": " SHIPMENT IN GOOD ORDER AND CONDITION"
+  }
+}

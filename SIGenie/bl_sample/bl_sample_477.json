@@ -1,96 +1,98 @@
 {
-  "bookingReference": "APPLE20241015103045",
+  "bookingReference": "APPLE202410171432100",
   "voyageDetails": {
-    "vesselName": "MSC SHANGRI-LA",
-    "voyageNumber": "2443E",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024043",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "Original",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65 6225 8888",
-      "fax": "+65 6225 9999"
+      "name": "SUNRISE INTERNATIONAL TRADING CO. LTD",
+      "address": "22ND FLOOR, SKYLINE TOWER, NO. 588, XINZHU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
-      "telephone": "+49 69 1234567",
-      "fax": "+49 69 1234568"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "IMPORT@WCL.COM",
+      "contactPerson": "DAVID BROWN"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
-      "telephone": "+49 69 1234567",
-      "fax": "+49 69 1234568"
+      "name": "SUNRISE INTERNATIONAL TRADING CO. LTD",
+      "address": "22ND FLOOR, SKYLINE TOWER, NO. 588, XINZHU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8541.40",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' COTTON JACKETS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMLU7348962",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 BOXES TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON JACKETS",
+      "grossWeight": 9500.0,
+      "measurement": 16.5
+    },
+    {
+      "containerNumber": "CMLU7384129",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 180,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON JACKETS",
+      "grossWeight": 10500.0,
+      "measurement": 18.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "TCLU1234567",
-    "unClass": "9",
-    "unCode": "3334",
-    "hsCode": "8541.40",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY MARKING - UN 3334"
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 330,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 34.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241015",
-    "salesOrderNumber": "SO20241015-001",
+    "invoiceNumber": "INV20241017-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC20241015-001"
+      "lcNumber": "00001010339243"
     },
-    "certificateDetails": " fumigation certificate available",
+    "certificateDetails": [
+      "4112724080179X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "Kaiserstrasse 10, 60311 Frankfurt, Germany",
-      "telephone": "+49 69 1234567",
-      "fax": "+49 69 1234568"
+      "name": "SUNRISE INTERNATIONAL TRADING CO. LTD",
+      "address": "22ND FLOOR, SKYLINE TOWER, NO. 588, XINZHU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65 6225 8888",
-      "fax": "+65 6225 9999"
+      "name": "SUNRISE INTERNATIONAL TRADING CO. LTD",
+      "address": "22ND FLOOR, SKYLINE TOWER, NO. 588, XINZHU ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "CARGO TO BE DELIVERED TO FRANKFURT, GERMANY"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

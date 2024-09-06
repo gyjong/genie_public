@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA 01",
+    "voyageNumber": "2024041",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zhejiang Golden Dragon Manufacturing Co., Ltd.",
+      "address": "No. 123, Changsheng Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999",
+      "email": "sales@goldendragon.cn"
+    },
+    "consignee": {
+      "name": "Pacific Steel Imports Inc.",
+      "address": "1234 Main Street, Los Angeles, CA 90001, USA",
+      "taxId": "12-3456789",
+      "president": "John Smith",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "Golden Dragon Logistics",
+      "address": "123 Golden Dragon Plaza, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 7777",
+      "fax": "+86 574 8888 6666"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72163190",
+  "commodityDescription": "STEEL BARS, HOT ROLLED",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GD-123",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. STEEL BARS, HOT ROLLED.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER",
+    "totalPackages": 100,
+    "packageType": "BUNDLES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20240912123"
+    },
+    "certificateDetails": "COC-202409121234",
+    "originalBLDistribution": {
+      "name": "Pacific Shipping Agency",
+      "address": "1234 Ocean Drive, Los Angeles, CA 90002, USA",
+      "telephone": "+1 310 555 5678",
+      "fax": "+1 310 555 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Golden Dragon Logistics",
+      "address": "123 Golden Dragon Plaza, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 7777",
+      "fax": "+86 574 8888 6666"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STEEL BUNDLES AND SECURED FOR SAFE TRANSPORTATION"
+  }
+}

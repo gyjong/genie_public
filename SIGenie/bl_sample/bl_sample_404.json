@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APPLE20240912101504",
+  "bookingReference": "APPLE20241015112501",
   "voyageDetails": {
-    "vesselName": "MSC IRIS",
-    "voyageNumber": "2224097",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2445W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "KLOPPENBURGSTRAAT 23, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "GREEN TECH CO., LTD.",
+      "address": "123 SHANGHAI ROAD, HANGZHOU, 310000, CHINA",
+      "telephone": "+86-571-8888-9999",
+      "fax": "+86-571-8888-8888"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5566",
-      "fax": "+65 6221 5577"
+      "name": "EURO TECH IMPORTS BV",
+      "address": "101 COEUR STREET, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
     },
     "notifyParty": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "KLOPPENBURGSTRAAT 23, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "GREEN TECH CO., LTD.",
+      "address": "123 SHANGHAI ROAD, HANGZHOU, 310000, CHINA",
+      "telephone": "+86-571-8888-9999",
+      "fax": "+86-571-8888-8888"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
+  "hsCode": "8544.42",
+  "commodityDescription": "COMPUTER HARDWARE",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "GLDU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GSB123",
-      "numberOfPackages": 5,
-      "cargoDescription": "THREE (3) MOTORCYCLES WITH SIDE CARS, BRAND: HARLEY DAVIDSON",
-      "grossWeight": 1800.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "GSB456",
-      "numberOfPackages": 5,
-      "cargoDescription": "THREE (3) MOTORCYCLES WITH SIDE CARS, BRAND: HARLEY DAVIDSON",
-      "grossWeight": 1800.0,
-      "measurement": 35.0
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER KEYBOARDS",
+      "grossWeight": 1500.0,
+      "measurement": 10.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 3600.0,
-    "totalMeasurement": 70.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 10.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CERT123456",
-      "CERT789012"
-    ],
+    "certificateDetails": "CN20241015001",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
+      "name": "EURO TECH IMPORTS BV",
+      "address": "101 COEUR STREET, 3011 Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "KLOPPENBURGSTRAAT 23, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "GREEN TECH CO., LTD.",
+      "address": "123 SHANGHAI ROAD, HANGZHOU, 310000, CHINA",
+      "telephone": "+86-571-8888-9999",
+      "fax": "+86-571-8888-8888"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CARGO PACKED IN CRATES AND SECURED FOR TRANSPORT."
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
   }
 }

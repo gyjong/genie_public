@@ -1,87 +1,90 @@
 {
-  "bookingReference": "APRICOT20241026143211",
+  "bookingReference": "STARFRUIT20241026101503",
   "voyageDetails": {
-    "vesselName": "EVERGREEN WAVE",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
+      "name": "SUNRISE TRADING PTE LTD",
       "onBehalfOf": "",
-      "address": "ROOM 1002, NO. 288, YANJI ROAD, SHANGHAI 200020, CHINA",
-      "telephone": "+86-21-6335-8899",
-      "fax": "+86-21-6335-8888"
+      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
+      "telephone": "+65 6221 5566",
+      "fax": "+65 6221 5588"
     },
     "consignee": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "HAMBURG STREET 123, 20099 HAMBURG, GERMANY",
+      "name": "GERMAN IMPORTERS GMBH",
+      "address": "Kaiserstrasse 15, 60311 Frankfurt am Main, Germany",
       "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL GMBH",
-      "address": "FRANKFURTER STRASSE 100, 60311 FRANKFURT AM MAIN, GERMANY"
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Kurf\u00fcrstendamm 65, 10707 Berlin, Germany"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC CONTAINERS",
   "containers": [
     {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "XYZ123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 7500.0,
-      "measurement": 15.0,
-      "additionalInfo": "CONTAINING 50 BOXES OF ELECTRIC MOTORS. COC PROVIDED."
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: PLASTIC CONTAINERS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
   "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000567890123"
+      "lcNumber": "LC20241026123"
     },
     "certificateDetails": [
-      "456789012345X"
+      "SGS20241026001",
+      "COO20241026002"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1002, NO. 288, YANJI ROAD, SHANGHAI 200020, CHINA",
-      "telephone": "+86-21-6335-8899",
-      "fax": "+86-21-6335-8888"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
+      "telephone": "+65 6221 5566",
+      "fax": "+65 6221 5588"
     },
     "originalInvoiceDistribution": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "HAMBURG STREET 123, 20099 HAMBURG, GERMANY"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
+      "telephone": "+65 6221 5566",
+      "fax": "+65 6221 5588"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": "Value: EUR 15,000"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Cargo subject to inspection upon arrival."
   }
 }

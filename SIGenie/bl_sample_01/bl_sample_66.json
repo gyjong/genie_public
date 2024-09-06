@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015143502",
+  "voyageDetails": {
+    "vesselName": "MARINA STAR",
+    "voyageNumber": "20241003",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "Poststra\u00dfe 12, 20354 Hamburg, Germany",
+      "telephone": "+49-40-3745-6789",
+      "fax": "+49-40-3745-9876"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS GMBH",
+      "address": "Speicherstra\u00dfe 5, 20095 Hamburg, Germany",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-9012"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF ELECTRONIC COMPONENTS. NET WEIGHT: 500 KGS.",
+      "grossWeight": 550.0,
+      "measurement": 5.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 550.0,
+    "totalMeasurement": 5.6
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "SGS-20241015-001",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT EXPORT GMBH",
+      "address": "Poststra\u00dfe 12, 20354 Hamburg, Germany",
+      "telephone": "+49-40-3745-6789",
+      "fax": "+49-40-3745-9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT CARTONS."
+  }
+}

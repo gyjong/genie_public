@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "EVER PEARL",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IRON & STEEL CO., LTD",
+      "address": "238 NANJING ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6326 8745",
+      "email": "sales@shanghaiiron.com"
+    },
+    "consignee": {
+      "name": "EURO STEEL DISTRIBUTORS BV",
+      "address": "WEENA 250, 3012 CN ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855972416B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 204 8500",
+      "fax": "+31 10 204 8599"
+    },
+    "notifyParty": {
+      "name": "EURO STEEL DISTRIBUTORS BV",
+      "address": "WEENA 250, 3012 CN ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855972416B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 204 8500",
+      "fax": "+31 10 204 8599"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "72083700",
+  "commodityDescription": "HOT ROLLED STEEL COILS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9865312",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN CIF ROTTERDAM HOT ROLLED STEEL COILS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9865313",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN CIF ROTTERDAM HOT ROLLED STEEL COILS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "COILS",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' Dry Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "01234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 8500",
+      "fax": "+31 10 204 8599"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 8500",
+      "fax": "+31 10 204 8599"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

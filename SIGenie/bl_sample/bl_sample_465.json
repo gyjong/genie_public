@@ -1,96 +1,110 @@
 {
-  "bookingReference": "GRAPE20241026143511",
+  "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "MSC ELENA",
-    "voyageNumber": "2443E",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2435E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE ENTERPRISES PTE LTD",
-      "address": "10 Anson Road #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Singel 235, 1012VK Amsterdam, Netherlands",
-      "companyNumber": "812345678"
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 77, 3012 BK Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 414 6500"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "255 Lombard Street, London EC3V 9DU, United Kingdom"
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 77, 3012 BK Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 414 6500"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
   "containers": [
     {
-      "containerNumber": "TCLU7894563",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: MACHINERY PARTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "Fragile goods. Handle with care."
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT IN 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT IN 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT IN 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "14 DAYS",
     "lcDetails": {
-      "lcNumber": "123456789012"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": [
-      "456789012345X"
-    ],
+    "certificateDetails": "20231026-001",
     "originalBLDistribution": {
-      "name": "SUNRISE ENTERPRISES PTE LTD",
-      "address": "10 Anson Road #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 Changi Road, Singapore 419747",
+      "telephone": "+65 6592 6200"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE ENTERPRISES PTE LTD",
-      "address": "10 Anson Road #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6224 5678",
+      "fax": "+65 6224 5679"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "Machinery parts for assembly line. Value: USD 50,000"
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "14 Days Free Time at Destination\nGOODS ARE HAZARDOUS"
   }
 }

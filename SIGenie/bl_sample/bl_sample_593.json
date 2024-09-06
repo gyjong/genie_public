@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015133022",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024091",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #20-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8800"
+    },
+    "consignee": {
+      "name": "EURO SEA IMPORTS BV",
+      "address": "Havenlaan 86, 3000 Leuven, Belgium",
+      "telephone": "+32 16 38 12 34",
+      "fax": "+32 16 38 12 35"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Willemstraat 12, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 411 88 88",
+      "fax": "+31 10 411 88 89"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU7773456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SEALED & SAID TO CONTAIN: 100 CARTONS OF TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 7500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU7773456",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY CONTAINED - PROPER SHIPPING NAME: LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "20241015001",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #20-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8800"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO SEA IMPORTS BV",
+      "address": "Havenlaan 86, 3000 Leuven, Belgium",
+      "telephone": "+32 16 38 12 34",
+      "fax": "+32 16 38 12 35"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "BATTERY CONTAINED - PROPER SHIPPING NAME: LITHIUM ION BATTERIES CONTAINED IN EQUIPMENT"
+  }
+}

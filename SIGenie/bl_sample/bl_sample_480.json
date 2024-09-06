@@ -1,98 +1,95 @@
 {
-  "bookingReference": "APPLE20240912134512",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MAERSK LISBON",
-    "voyageNumber": "2024040",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2431E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "KUALA LUMPUR"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+      "name": "DEUTSCHE BANK AG AMSTERDAM BRANCH",
+      "address": "WILLEMSTRAAT 12, 1016 JT AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 555 1234",
+      "email": "info@deutschebank.nl"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
-      "telephone": "+49 30 2061 2345",
-      "fax": "+49 30 2061 2346"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "200212345A",
+      "president": "MR. LEE CHONG WAI",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS GMBH",
-      "address": "Hanauer Landstra\u00dfe 126, 60314 Frankfurt am Main, Germany",
-      "telephone": "+49 69 7938 1234",
-      "fax": "+49 69 7938 1235"
+      "name": "GLOBAL LOGISTICS SDN BHD",
+      "address": "Level 20, Menara TM, Jalan Pantai Baharu, Kuala Lumpur 59200, Malaysia",
+      "telephone": "+60 3 2283 5555",
+      "fax": "+60 3 2283 6666"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "84798990",
-  "commodityDescription": "INDUSTRIAL HYDRAULIC PUMPS",
+  "shippingTerm": "CIF",
+  "hsCode": "84186900",
+  "commodityDescription": "MACHINERY PARTS FOR MANUFACTURING",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 INDUSTRIAL HYDRAULIC PUMPS, MODEL XYZ-1000",
-      "grossWeight": 1200.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 INDUSTRIAL HYDRAULIC PUMPS, MODEL XYZ-1000",
-      "grossWeight": 1200.0,
-      "measurement": 15.0
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR MANUFACTURING",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 2400.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "000222333444"
     },
-    "certificateDetails": [
-      "CE Certificate",
-      "ISO 9001 Certification"
-    ],
+    "certificateDetails": "20231027-00123",
     "originalBLDistribution": {
-      "name": "EURO LOGISTICS GMBH",
-      "address": "Hanauer Landstra\u00dfe 126, 60314 Frankfurt am Main, Germany"
+      "name": "WORLDWIDE SHIPPING CO LTD",
+      "address": "100 Marina Parade #05-01 Marina Bay Sands, Singapore 018906",
+      "telephone": "+65 6333 5555",
+      "fax": "+65 6333 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+      "name": "WORLDWIDE SHIPPING CO LTD",
+      "address": "100 Marina Parade #05-01 Marina Bay Sands, Singapore 018906",
+      "telephone": "+65 6333 5555",
+      "fax": "+65 6333 6666"
     },
     "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPMENT CONTAINS SPARE PARTS"
+    "additionalRemarks": "NONE"
   }
 }

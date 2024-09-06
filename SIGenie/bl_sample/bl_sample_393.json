@@ -1,97 +1,109 @@
 {
-  "bookingReference": "APPLE20240912134512",
+  "bookingReference": "APPLE20241018141245",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2430E",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2434W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "HOLIDAY B.V.",
-      "address": "DEIJLSTRAAT 12, 3011 GR ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 472 6587",
-      "email": "INFO@HOLIDAYBV.NL"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "23F, SHANGHAI WORLD FINANCIAL CENTER, NO.100, CENTURY AVE., SHANGHAI, 200120",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "taxId": "200912345J",
-      "president": "MR. CHEN LI",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROCHEM BV",
+      "address": "AARDEHAVEN 16, 3061 Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 413 6000"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "taxId": "200912345J",
-      "president": "MR. CHEN LI",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROCHEM BV",
+      "address": "AARDEHAVEN 16, 3061 Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 413 6000"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85423910",
-  "commodityDescription": "VIDEO GAME CONSOLES",
+  "shippingTerm": "CFR",
+  "hsCode": "29032200",
+  "commodityDescription": "POLYETHYLENE TEREPHTHALATE (PET) RESIN",
   "containers": [
     {
-      "containerNumber": "TCLU9672514",
-      "sealNumber": "765432",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE VIDEO GAME CONSOLES",
-      "grossWeight": 12000.0,
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC231018",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN 20MT 50KG BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SUDU6543210",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC231018",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN 20MT 50KG BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC231018",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN 20MT 50KG BAGS",
+      "grossWeight": 20000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "39072090",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": "12345678901234567890",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "25 Changi South Street 1, Singapore 486042",
-      "telephone": "+65 6399 9999",
-      "fax": "+65 6399 9998"
+      "name": "EUROCHEM BV",
+      "address": "AARDEHAVEN 16, 3061 Rotterdam, Netherlands",
+      "telephone": "+31 10 413 6000"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "25 Changi South Street 1, Singapore 486042",
-      "telephone": "+65 6399 9999",
-      "fax": "+65 6399 9998"
+      "name": "EUROCHEM BV",
+      "address": "AARDEHAVEN 16, 3061 Rotterdam, Netherlands",
+      "telephone": "+31 10 413 6000"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
   }
 }

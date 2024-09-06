@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410191445300",
+  "voyageDetails": {
+    "vesselName": "MSC VALENTINA",
+    "voyageNumber": "2430E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8756 2112",
+      "fax": "+86 574 8756 2113"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 1235",
+      "email": "IMPORT@WESTCOASTIMPORTS.COM",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105",
+      "telephone": "+1 415 555 5678",
+      "fax": "+1 415 555 5679",
+      "email": "NOTIFICATIONS@GOLDENGATELOGISTICS.COM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "SEGU3876123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CGT123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "SEGU7895432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CGT456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12700.0,
+      "measurement": 23.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 25200.0,
+    "totalMeasurement": 45.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CGT20241019001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8756 2112",
+      "fax": "+86 574 8756 2113"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO. LTD",
+      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8756 2112",
+      "fax": "+86 574 8756 2113"
+    },
+    "onboardDate": "OCT. 29. 2024"
+  }
+}

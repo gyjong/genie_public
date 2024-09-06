@@ -1,96 +1,108 @@
 {
-  "bookingReference": "APPLE20241026143502",
+  "bookingReference": "APPLE20241026143511",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA",
-    "voyageNumber": "2024451",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2447E",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING LTD.",
-      "address": "10 Anson Road, #22-01, International Plaza, SINGAPORE 079903",
-      "telephone": "+65-6222-5555",
-      "fax": "+65-6222-6666"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 123, 3012 AX Rotterdam, Netherlands",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "EUROTECH GMBH",
+      "address": "Messeallee 1, 20354 Hamburg, Germany",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "EUROBANK N.V.",
-      "address": "Coolsingel 108, 3011 AD Rotterdam, Netherlands",
-      "telephone": "+31-10-777-8888",
-      "fax": "+31-10-777-9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Flughafenstrasse 50, 22335 Hamburg, Germany"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8711.90",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU7896543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "M-123",
-      "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN 5 MOTORCYCLES",
-      "grossWeight": 1500.0,
-      "measurement": 20.0
+      "containerNumber": "SEGU7865432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 2500.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
+    },
+    {
+      "containerNumber": "SEGU87654321",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 40,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 2200.0,
+      "measurement": 14.0,
+      "additionalInfo": "THIS WAY UP"
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "UNITS",
-    "totalGrossWeight": 1500.0,
-    "totalMeasurement": 20.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 90,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 4700.0,
+    "totalMeasurement": 29.0
   },
-  "dangerousGoods": {
-    "containerNumber": "CMAU7896543",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC20241026001"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN NO. CO20241026001",
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 123, 3012 AX Rotterdam, Netherlands",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "EUROTECH GMBH",
+      "address": "Messeallee 1, 20354 Hamburg, Germany",
+      "telephone": "+49-40-3119-1000",
+      "fax": "+49-40-3119-1001"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING LTD.",
-      "address": "10 Anson Road, #22-01, International Plaza, SINGAPORE 079903",
-      "telephone": "+65-6222-5555",
-      "fax": "+65-6222-6666"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "NOV. 05. 2024",
+    "additionalRemarks": "Insurance: USD 500,000. Consignee to pay import duties"
   }
 }

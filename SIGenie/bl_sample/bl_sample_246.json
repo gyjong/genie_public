@@ -1,20 +1,20 @@
 {
-  "bookingReference": "GRAPE20240912132511",
+  "bookingReference": "APPLE20241017143025",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "24045",
-    "bound": "E"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024102",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "SINGAPORE"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,73 +23,72 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "DUTCH FRESH PRODUCE BV",
-      "address": "KONINGIN WILHELMINA PLEIN 1, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 7500",
-      "email": "INFO@DUTCHFRESHPRODUCE.NL"
+      "name": "SHANGHAI HUAYUAN TRADING CO., LTD.",
+      "onBehalfOf": null,
+      "address": "UNIT 1008, BUILDING 1, NO. 2888, HONGQIAO ROAD, SHANGHAI 200336, CHINA",
+      "telephone": "+86-21-6238-8567",
+      "fax": "+86-21-6238-8568"
     },
     "consignee": {
-      "name": "FRUITASIA PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "taxId": "199805273K",
-      "president": "MR. TAN AH KEE",
-      "telephone": "+65 6221 5555",
-      "fax": "+65 6221 6666"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURGER STRASSE 15, 20095 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "FRUITASIA LOGISTICS",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5555",
-      "fax": "+65 6221 6666"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "555 WATERLOO ROAD, LONDON SE1 8LX, UNITED KINGDOM"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "08093000",
-  "commodityDescription": "FRESH GRAPES - RED GLOBE VARIETY",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU3970527",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "1234567",
-      "marksAndNumbers": "FRUITASIA GRAPE SHIPMENT",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE FRESH GRAPES - RED GLOBE VARIETY",
-      "grossWeight": 18000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 25,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile Goods, Handle with Care"
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 18000.0,
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 25,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
     "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000252541567"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NUMBER: 1234567890",
+    "certificateDetails": [
+      "4112720070179X"
+    ],
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "DBS Asia Central, 6 Shenton Way, Singapore 068809",
-      "telephone": "+65 6224 8888",
-      "fax": "+65 6224 8899"
+      "name": "SHANGHAI HUAYUAN TRADING CO., LTD.",
+      "address": "UNIT 1008, BUILDING 1, NO. 2888, HONGQIAO ROAD, SHANGHAI 200336, CHINA",
+      "telephone": "+86-21-6238-8567",
+      "fax": "+86-21-6238-8568"
     },
     "originalInvoiceDistribution": {
-      "name": "FRUITASIA PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5555",
-      "fax": "+65 6221 6666"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURGER STRASSE 15, 20095 HAMBURG, GERMANY"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 23. 2024",
+    "additionalRemarks": "Insurance Policy No.: 123456789"
   }
 }

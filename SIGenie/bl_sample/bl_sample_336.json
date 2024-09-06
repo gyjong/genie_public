@@ -1,89 +1,98 @@
 {
-  "bookingReference": "APRICOT20241015143201",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2435W",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903"
     },
     "consignee": {
       "name": "EURO IMPORTS BV",
-      "address": "DE KOPPERSLOOT 15, 3011 GD ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "address": "Stationsweg 101, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WATERLOO STREET 10, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "EURO LOGISTICS BV",
+      "address": "Coolsingel 123, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
+  "shippingTerm": "CFR",
   "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "commodityDescription": "DIGITAL CAMERAS WITH ACCESSORIES",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "GT-123",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 2500.0,
-      "measurement": 10.0,
-      "additionalInfo": ""
+      "cargoDescription": "50 BOXES DIGITAL CAMERAS (MODEL DC-5000) WITH CHARGERS AND CABLES",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 BOXES DIGITAL CAMERAS (MODEL DC-5000) WITH CHARGERS AND CABLES",
+      "grossWeight": 2000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 100,
     "packageType": "BOXES",
     "containerType": "20GP",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 10.0
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 30.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COO-123456"
+      "COO-123456",
+      " fumigation certificate-789012"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "EURO IMPORTS BV",
+      "address": "Stationsweg 101, 3013 AL Rotterdam, Netherlands"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "DE KOPPERSLOOT 15, 3011 GD ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-4567890",
-      "fax": "+31-10-4567891"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance: USD 100,000"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": " SHIPMENT IS SUBJECT TO CUSTOMS INSPECTION"
   }
 }

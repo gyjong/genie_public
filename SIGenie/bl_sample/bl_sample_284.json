@@ -1,111 +1,108 @@
 {
-  "bookingReference": "APPLE20241026101542",
+  "bookingReference": "APPLE20241015102511",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2445W",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024103",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
-      "address": "UNIT 1502, TOWER C, SHANGHAI IFC, 8 CENtral, SHANGHAI, 200001",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong New Area)"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "onBehalfOf": null,
+      "address": "1234 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 70 356 1234"
+      "name": "EURO imporT & EXPORT BV",
+      "address": "DE KOEPLAAN 23, 3063 AG ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 70 356 1234"
+      "name": "LOGISTICS SOLUTIONS NL",
+      "address": "ZUIDERHOEK 12, 2132 HM HOLLAND, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "FCA NINGBO",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "SEGU9987654",
       "sealNumber": "123456",
-      "marksAndNumbers": "EG123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 28.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 8500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
     },
     {
-      "containerNumber": "TCLU1111222",
+      "containerNumber": "SEGU9987655",
       "sealNumber": "654321",
-      "marksAndNumbers": "EG456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "TCLU3333444",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EG789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 28.0
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 9200.0,
+      "measurement": 28.0,
+      "additionalInfo": "THIS WAY UP"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60150.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 35,
+    "packageType": "BOXES & CRATES",
+    "containerType": "20GP",
+    "totalGrossWeight": 17700.0,
+    "totalMeasurement": 53.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "12345678901234567890"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": "23456789012345678901",
+    "certificateDetails": [
+      "1234567890",
+      "9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "123 MAIN STREET, LONDON, UK W1A 1AA",
-      "telephone": "+44 20 7123 4567"
+      "name": "EURO imporT & EXPORT BV",
+      "address": "DE KOEPLAAN 23, 3063 AG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "RIJNSBURGELAAN 135, 2595 BG THE HAGUE",
-      "country": "NETHERLANDS",
-      "telephone": "+31 70 356 1234",
-      "fax": "+31 70 356 1235"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "1234 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination\nSHIPMENT SUBJECT TO SGS INSPECTION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Machinery parts for assembly, Value: EUR 50,000"
   }
 }

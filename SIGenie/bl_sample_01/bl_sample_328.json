@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241025153218",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2445W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
+    },
+    "consignee": {
+      "name": "EUROTRADING GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL",
+      "address": "SPINNERSTRASSE 15, 60314 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADING GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-1234-5678",
+      "fax": "+49-69-1234-9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

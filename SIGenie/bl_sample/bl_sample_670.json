@@ -1,0 +1,95 @@
+{
+  "bookingReference": "GRAPE20240920134512",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024112",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG ZHONGJIANG IMPORT & EXPORT CO., LTD",
+      "address": "NO. 333, HUAYUAN ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 579 8656 7890",
+      "email": "sales@zhongjiang.com"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVENUE, SUITE 200, SANTA MONICA, CA 90401, USA",
+      "taxId": "9876543210",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "notifyParty": {
+      "name": "WEST COAST LOGISTICS LLC",
+      "address": "4567 BEACH BLVD, LONG BEACH, CA 90802, USA",
+      "telephone": "+1 562 555 2323",
+      "fax": "+1 562 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85044080",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "40'HQ",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HQ Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "012345678901"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 5555",
+      "fax": "+1 212 555 5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 5555",
+      "fax": "+1 212 555 5556"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER DECLARES THE GOODS ARE NOT SUBJECT TO ANY US SANCTIONS"
+  }
+}

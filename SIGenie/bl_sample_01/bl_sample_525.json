@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015103002",
+  "voyageDetails": {
+    "vesselName": "CAPE HOPE",
+    "voyageNumber": "2024055",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "consignee": {
+      "name": "EUROASIA IMPORTERS BV",
+      "address": "Coolsingel 100, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31-10-202-1010",
+      "fax": "+31-10-202-1011"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS BV",
+      "address": "Pieter de Hoochweg 10, 3011 AC Rotterdam, Netherlands",
+      "telephone": "+31-10-203-1010",
+      "fax": "+31-10-203-1011"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EMX-123",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "MOTORCYCLES - MODEL MX-200",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "totalGrossWeight": 1800.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241015-001",
+    "salesOrderNumber": "SO-20241015-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C-1234567890",
+    "originalBLDistribution": {
+      "name": "EUROASIA IMPORTERS BV",
+      "address": "Coolsingel 100, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31-10-202-1010",
+      "fax": "+31-10-202-1011"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

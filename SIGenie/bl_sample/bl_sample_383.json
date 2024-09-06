@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE202410191445300",
+  "bookingReference": "APPLE20241015103045",
   "voyageDetails": {
-    "vesselName": "MSC VALENTINA",
-    "voyageNumber": "2430E",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024090",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
-      "telephone": "+86 574 8756 2112",
-      "fax": "+86 574 8756 2113"
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1 213 555 1234",
-      "fax": "+1 213 555 1235",
-      "email": "IMPORT@WESTCOASTIMPORTS.COM",
-      "contactPerson": "MARIA GARCIA"
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 OCEAN AVENUE, LOS ANGELES, CA 90001, USA",
+      "telephone": "1-310-555-9876",
+      "fax": "1-310-555-1234"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE LOGISTICS",
-      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105",
-      "telephone": "+1 415 555 5678",
-      "fax": "+1 415 555 5679",
-      "email": "NOTIFICATIONS@GOLDENGATELOGISTICS.COM"
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "611030",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "SEGU3876123",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "CGT123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
-      "grossWeight": 12500.0,
-      "measurement": 22.5
-    },
-    {
-      "containerNumber": "SEGU7895432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "CGT456",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
-      "grossWeight": 12700.0,
-      "measurement": 23.0
+      "marksAndNumbers": "GS123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRONIC COMPONENTS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 25200.0,
-    "totalMeasurement": 45.5
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY PACKAGED ACCORDING TO IATA REGULATIONS"
   },
   "additionalInformation": {
-    "invoiceNumber": "CGT20241019001",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
-    ],
+    "certificateDetails": "CN20241015001",
     "originalBLDistribution": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
-      "telephone": "+86 574 8756 2112",
-      "fax": "+86 574 8756 2113"
+      "name": "GOLDEN STAR IMPORTS INC.",
+      "address": "456 OCEAN AVENUE, LOS ANGELES, CA 90001, USA",
+      "telephone": "1-310-555-9876",
+      "fax": "1-310-555-1234"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "ROOM 1202, NO. 1888, ZHONGXING ROAD, NINGBO, CHINA 315000",
-      "telephone": "+86 574 8756 2112",
-      "fax": "+86 574 8756 2113"
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
-    "onboardDate": "OCT. 29. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
   }
 }

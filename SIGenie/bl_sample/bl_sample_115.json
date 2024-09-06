@@ -1,99 +1,95 @@
 {
-  "bookingReference": "APPLE202409121015000",
+  "bookingReference": "APRICOT20241025143017",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2436E",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024412",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA SUNRISE TRADING CO. LTD",
-      "address": "ROOM 1502, NO. 888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86 21 6327 8956",
-      "fax": "+86 21 6327 8957"
+      "name": "ZHEJIANG GOLDEN STAR IMPORT & EXPORT CO., LTD.",
+      "address": "NO.388, HUAYUAN ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 579 8658 2371",
+      "email": "sales@goldstar.cn"
     },
     "consignee": {
-      "name": "SUNSET LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213",
-      "email": "IMPORT@SUNSETLOGISTICS.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "WEST COAST IMPORTS LLC",
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90210, USA",
+      "taxId": "98-76543210",
+      "president": "JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "BLUE SKY IMPORTERS",
-      "address": "456 OCEAN AVE, SANTA MONICA, CA 90401",
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "5678 SUNSET BLVD, LOS ANGELES, CA 90028, USA",
       "telephone": "+1 310 555 2323",
       "fax": "+1 310 555 2324"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "610910",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "hsCode": "8541401000",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "SUDU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE2024",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
-      "grossWeight": 10000.0,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
       "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SUNRISE2024",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
-      "grossWeight": 9800.0,
-      "measurement": 24.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 19800.0,
-    "totalMeasurement": 49.5
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "20240912-001",
-    "documentNumber": "20240912-BL001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0300301045678"
     },
-    "certificateDetails": [
-      "COO-20240912-001"
-    ],
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "SUNSET LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "GREEN SEA LOGISTICS",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA SUNRISE TRADING CO. LTD",
-      "address": "ROOM 1502, NO. 888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86 21 6327 8956",
-      "fax": "+86 21 6327 8957"
+      "name": "GREEN SEA LOGISTICS",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1234",
+      "fax": "+1 212 555 1235"
     },
-    "onboardDate": "SEPT. 29. 2024"
+    "onboardDate": "OCT. 30. 2024",
+    "additionalRemarks": ""
   }
 }

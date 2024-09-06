@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20240912143215",
+  "voyageDetails": {
+    "vesselName": "CMA CGM LIBRA",
+    "voyageNumber": "2024040",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "De Koog 10, 3011 ZH Rotterdam, Netherlands",
+      "telephone": "+31 10 477 2222",
+      "fax": "+31 10 477 2223"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "MSCU3856721",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUN123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUN456",
+      "numberOfPackages": 5,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 6000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133Y",
+      "1000020070134Z"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "De Koog 10, 3011 ZH Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

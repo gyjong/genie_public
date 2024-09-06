@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241018104522",
+  "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2437W",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2435M",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,94 +17,94 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #05-01, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(International Plaza)"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 888, HUAYUAN ROAD, SHANGHAI, 200080",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
     },
     "consignee": {
       "name": "EUROCHEM BV",
-      "address": "Willem van Houtenstraat 16, 3062 KR Rotterdam, Netherlands",
+      "address": "DIJKSTRA STREET 123, 3011 Amsterdam, NETHERLANDS",
       "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 477 2200"
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 20 624 5678"
     },
     "notifyParty": {
       "name": "EUROCHEM BV",
-      "address": "Willem van Houtenstraat 16, 3062 KR Rotterdam, Netherlands",
+      "address": "DIJKSTRA STREET 123, 3011 Amsterdam, NETHERLANDS",
       "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 477 2200"
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 20 624 5678"
     }
   },
   "shippingTerm": "CFR",
   "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
   "containers": [
     {
-      "containerNumber": "GLDU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 200,
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: 200 DRUMS OF ETHYLENE GLYCOL. NET WEIGHT 20 MT.",
-      "grossWeight": 20500.0,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
       "measurement": 25.0
     },
     {
-      "containerNumber": "GLDU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 200,
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 800,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: 200 DRUMS OF ETHYLENE GLYCOL. NET WEIGHT 20 MT.",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 16MT 200KG DRUMS",
+      "grossWeight": 16000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "GLDU8765432",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC789",
-      "numberOfPackages": 200,
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 500,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: 200 DRUMS OF ETHYLENE GLYCOL. NET WEIGHT 20 MT.",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 10MT 200KG DRUMS",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
     "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
+    "totalPackages": 2300,
     "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 75.0
+    "totalGrossWeight": 46000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
+    "purchaseOrderNumber": "PO1234567890",
     "hsCode": "2903310000",
     "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "CIQ Certificate",
     "originalBLDistribution": {
-      "name": "SINGAPORE LOGISTICS CO. LTD.",
-      "address": "123 Tampines Road, #02-01, Singapore 528535",
-      "telephone": "+65 6789 0123"
+      "name": "BANK OF CHINA, SHANGHAI BRANCH",
+      "address": "NO. 1, NANJING ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 6327 1111"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE LOGISTICS CO. LTD.",
-      "address": "123 Tampines Road, #02-01, Singapore 528535",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "EUROCHEM BV",
+      "address": "DIJKSTRA STREET 123, 3011 Amsterdam, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "fax": "+31 20 624 5679"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination\nCARGO REQUIRES TEMPERATURE CONTROL"
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nGOODS SOLD FOB NINGBO"
   }
 }

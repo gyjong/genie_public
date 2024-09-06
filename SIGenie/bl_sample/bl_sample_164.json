@@ -1,107 +1,108 @@
 {
-  "bookingReference": "APPLE20240912101201",
+  "bookingReference": "APPLE20241016143021",
   "voyageDetails": {
-    "vesselName": "MAERSK ESSEN",
-    "voyageNumber": "2245E",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2444E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Business District)",
-      "telephone": "+65 6222 1111",
-      "email": "sales@asiatrading.sg"
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #12-05, International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
     },
     "consignee": {
-      "name": "GERMAN AUTOMOTIVE GMBH",
-      "address": "Handelsstra\u00dfe 10, 20097 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "info@germana.de, logistics@germana.de",
-      "telephone": "+49 40 3333 4444"
+      "name": "EUROFRESH BV",
+      "address": "Havenstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "27384956"
     },
     "notifyParty": {
-      "name": "GERMAN AUTOMOTIVE GMBH",
-      "address": "Handelsstra\u00dfe 10, 20097 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "info@germana.de, logistics@germana.de",
-      "telephone": "+49 40 3333 4444"
+      "name": "DIAL SHIPPING & LOGISTICS",
+      "address": "Weesperstraat 10, 1018 AD Amsterdam, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "870870",
-  "commodityDescription": "MOTORCYCLE PARTS: ENGINE BLOCKS, CYLINDER HEADS, CRANKCASES",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH GRAPES",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "TCLU9977432",
       "sealNumber": "123456",
-      "marksAndNumbers": "GERMANAUTO-1",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 50 BOXES CONTAINING MOTORCYCLE ENGINE PARTS AS PER PACKING LIST",
-      "grossWeight": 15000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE GRAPE 2024",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH GRAPES",
+      "grossWeight": 18000.0,
+      "measurement": 20.0,
+      "additionalInfo": "KEEP DRY & REFRIGERATED"
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "TCLU9977433",
       "sealNumber": "789012",
-      "marksAndNumbers": "GERMANAUTO-2",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 50 BOXES CONTAINING MOTORCYCLE ENGINE PARTS AS PER PACKING LIST",
-      "grossWeight": 15000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE GRAPE 2024",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH GRAPES",
+      "grossWeight": 18000.0,
+      "measurement": 20.0,
+      "additionalInfo": "KEEP DRY & REFRIGERATED"
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 30000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 40.0
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overWidth": null,
-    "overHeight": null
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "+2.0\u00baC",
+    "minTemperature": "+0.0\u00b0C",
+    "maxTemperature": "+4.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "80%"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC000123456789"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CO-1234567890",
-      " fumigation certificate"
+      "PHYTO-12345",
+      "HEALTH-67890"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "4001 North Point Parkway, Suite 300, Alpharetta, GA 30022, USA",
-      "telephone": "+1 678 265 1000"
+      "name": "EUROFRESH BV",
+      "address": "Havenstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-202-2222",
+      "fax": "+31-10-202-2223"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "4001 North Point Parkway, Suite 300, Alpharetta, GA 30022, USA",
-      "telephone": "+1 678 265 1000"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #12-05, International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING - FRAGILE CARGO"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Cargo to be delivered to EUROFRESH BV warehouse in Rotterdam."
   }
 }

@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "PEACH20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC BEATRICE",
-    "voyageNumber": "2432E",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024123",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,73 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "HOLIDAY FOODS INTERNATIONAL BV",
-      "address": "AMSTELVEENSEWEG 222, 1181 ZX AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 485 3210",
-      "email": "INFO@HOLIDAYFOODS.NL"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Marina Bay Drive, Singapore 018988",
+      "telephone": "+65 6888 1234",
+      "email": "shipping@asiatrade.com.sg"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road #32-01 International Plaza, SINGAPORE 079903",
-      "taxId": "200101234A",
-      "president": "MR. CHEN WEI",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "EURO METALS BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
     },
     "notifyParty": {
-      "name": "HOLIDAY FOODS INTERNATIONAL BV",
-      "address": "AMSTELVEENSEWEG 222, 1181 ZX AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 485 3210",
-      "email": "INFO@HOLIDAYFOODS.NL"
+      "name": "EURO METALS BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
     }
   },
-  "shippingTerm": "CIF SINGAPORE",
-  "hsCode": "16023100",
-  "commodityDescription": "INSTANT COFFEE POWDER",
+  "shippingTerm": "CIF",
+  "hsCode": "7202119090",
+  "commodityDescription": "STEEL PLATES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "HOLIDAY COFFEE 2024-09",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, CIF SINGAPORE INSTANT COFFEE POWDER",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PLATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS STEEL PLATES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "BAGS",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (40 HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "PLATES",
+    "containerType": "40 HQ",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
     "width": "In-Gauge",
     "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "additionalInfo": "In-gauge in HQ Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "0300301045678"
     },
-    "certificateDetails": "SGS202409121015",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "HOLIDAY FOODS INTERNATIONAL BV",
-      "address": "AMSTELVEENSEWEG 222, 1181 ZX AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 485 3210",
-      "fax": "+31 20 485 3211"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "100 Business Park Drive, #01-01, Singapore 638035",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "HOLIDAY FOODS INTERNATIONAL BV",
-      "address": "AMSTELVEENSEWEG 222, 1181 ZX AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 485 3210",
-      "fax": "+31 20 485 3211"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "100 Business Park Drive, #01-01, Singapore 638035",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CLEAN ON BOARD"
   }
 }

@@ -1,107 +1,107 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240912142536",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2438W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "SURRENDER",
-    "numberOfOriginalBLs": 1,
-    "numberOfCopies": 2
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI MECHTRONICS CO., LTD.",
-      "address": "NO. 1888, SHANGHAI ROAD, PUHUI DISTRICT, SHANGHAI, 200333",
-      "country": "CHINA",
-      "additionalInfo": "(NEAR SHANGHAI SCIENCE & TECHNOLOGY PARK)",
-      "telephone": "+86 21 5555 1234",
-      "email": "EXPORT@SHANGHAIMECH.COM"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #10-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)",
+      "telephone": "+65 6222 8888",
+      "email": "sales@asiatrade.sg"
     },
     "consignee": {
-      "name": "AMERICAN PRECISION INC.",
-      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015, USA",
-      "country": "USA",
-      "email": "ORDERS@AMERICANPRECISION.COM",
-      "telephone": "+1 213 555 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Kaiserstrasse 15, 60311 Frankfurt, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 69 7566 8880"
     },
     "notifyParty": {
-      "name": "GLOBAL FREIGHT FORWARDERS",
-      "address": "1500 OCEAN AVENUE, SANTA MONICA, CA 90401, USA",
-      "country": "USA",
-      "email": "TRACKING@GLOBALFREIGHT.COM",
-      "telephone": "+1 310 555 8901"
+      "name": "GERMAN BANK AG",
+      "address": "Taunusanlage 12, 60329 Frankfurt, Germany",
+      "country": "GERMANY",
+      "email": "import@germanbank.de",
+      "telephone": "+49 69 2444 5555"
     }
   },
-  "shippingTerm": "CIF LOS ANGELES",
-  "hsCode": "846630",
-  "commodityDescription": "CNC MACHINE TOOLS INCLUDING MILLING MACHINES AND LATHE MACHINES",
+  "shippingTerm": "CFR",
+  "hsCode": "842123",
+  "commodityDescription": "DIGITAL PRINTING PRESSES WITH ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "SUDU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "APM-123",
-      "numberOfPackages": 5,
+      "marksAndNumbers": "EUROTECH 1",
+      "numberOfPackages": 10,
       "packageType": "CASES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CNC MILLING MACHINE WITH ACCESSORIES AND SPARE PARTS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) DIGITAL PRINTING PRESS WITH ACCESSORIES",
       "grossWeight": 15000.0,
-      "measurement": 25.5
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "SUDU4321657",
       "sealNumber": "654321",
-      "marksAndNumbers": "APM-456",
-      "numberOfPackages": 3,
+      "marksAndNumbers": "EUROTECH 2",
+      "numberOfPackages": 5,
       "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CNC LATHE MACHINE WITH ACCESSORIES AND SPARE PARTS",
-      "grossWeight": 10000.0,
-      "measurement": 18.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS FOR DIGITAL PRINTING PRESS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
     "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 8,
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 44.0
+    "totalPackages": 15,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 45.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overWidth": null,
-    "overHeight": null
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00002020334237"
+      "lcNumber": "LC00012345678"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "COC20240912001",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING SERVICES LTD.",
-      "address": "555 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "+1 212 555 1234"
+      "name": "DHL EXPRESS",
+      "address": "Singapore Changi Airport, Singapore 819643",
+      "telephone": "+65 6595 6595"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SERVICES LTD.",
-      "address": "555 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "+1 212 555 1234"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #10-01, Singapore 079903",
+      "telephone": "+65 6222 8888"
     },
     "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "ALL PACKAGES PROPERLY SECURED AND MARKED FOR SAFE HANDLING\nINSURANCE: USD 300,000"
+    "additionalRemarks": "Value: USD150,000"
   }
 }

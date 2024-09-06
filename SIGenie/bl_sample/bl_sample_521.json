@@ -1,107 +1,90 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "GRAPE20241025143211",
   "voyageDetails": {
-    "vesselName": "CMA CGM VERMONT",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "202410A",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFRESH LOGISTICS BV",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "23 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6325-8765",
+      "fax": "+86-21-6325-8764"
     },
     "consignee": {
-      "name": "AMERICAN COLD CHAIN LLC",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADE SOLUTIONS",
-      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2324"
+      "name": "GLOBAL LOGISTICS LLC",
+      "address": "456 OAK AVE, NEW YORK, NY 10017, USA"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "07011000",
-  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY",
+  "shippingTerm": "CFR",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "MSCU7895632",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AP123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
-      "grossWeight": 25000.0,
-      "measurement": 33.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "654321",
-      "marksAndNumbers": "AP456",
-      "numberOfPackages": 1000,
-      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
-      "grossWeight": 25000.0,
-      "measurement": 33.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "876543",
-      "marksAndNumbers": "AP789",
-      "numberOfPackages": 1000,
-      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
-      "grossWeight": 25000.0,
-      "measurement": 33.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 5 MOTORCYCLES. BRAND: SUNRISE. MODEL: SR200",
+      "grossWeight": 1500.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (40FR) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "CARTONS",
-    "containerType": "40FR",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 99.0
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 20.0
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000234567890"
     },
     "certificateDetails": [
-      "PHYTO-123456",
-      "HEALTH-789012"
+      "CN1234567890",
+      "US9876543210"
     ],
     "originalBLDistribution": {
-      "name": "AMERICAN COLD CHAIN LLC",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "23 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6325-8765",
+      "fax": "+86-21-6325-8764"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH LOGISTICS BV",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "23 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6325-8765",
+      "fax": "+86-21-6325-8764"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 0-2\u00b0C"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Motorcycles for recreational use. Value: USD30,000"
   }
 }

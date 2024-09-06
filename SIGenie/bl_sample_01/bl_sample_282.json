@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912134501",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "24204",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG, GERMANY",
+    "portOfLoading": "HAMBURG, GERMANY",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GERMAN AUTOMOTIVE SOLUTIONS GMBH",
+      "address": "INDUSTRIESTRASSE 12, 20354 HAMBURG, GERMANY"
+    },
+    "consignee": {
+      "name": "AMERICAN AUTO PARTS INC.",
+      "address": "155 BROADWAY, NEW YORK, NY 10038, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "GERMAN LOGISTICS LTD.",
+      "address": "FRANKFURTER STRASSE 5, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87089990",
+  "commodityDescription": "AUTOMOBILE PARTS - ENGINE BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7895632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GAS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "ENGINE BLOCKS, MADE IN GERMANY",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OIL789",
+      "numberOfPackages": 50,
+      "cargoDescription": "ENGINE BLOCKS, MADE IN GERMANY",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 80.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Cert123456",
+      "Cert789012"
+    ],
+    "originalBLDistribution": {
+      "name": "AMERICAN AUTO PARTS INC.",
+      "address": "155 BROADWAY, NEW YORK, NY 10038, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GERMAN AUTOMOTIVE SOLUTIONS GMBH",
+      "address": "INDUSTRIESTRASSE 12, 20354 HAMBURG, GERMANY"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

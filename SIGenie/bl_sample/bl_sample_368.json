@@ -1,90 +1,96 @@
 {
-  "bookingReference": "APPLE20241015134521",
+  "bookingReference": "APPLE20241017142803",
   "voyageDetails": {
-    "vesselName": "MSC KATHARINE",
-    "voyageNumber": "2443W",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2439W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "NEW YORK, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA FARMS BV",
-      "onBehalfOf": null,
-      "address": "DE KLOPPEN 10, 3316 GG Dordrecht, Netherlands",
-      "telephone": "+31 78 619 2200",
-      "fax": "+31 78 619 2299"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "333 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "consignee": {
-      "name": "FRESH PRODUCE INC.",
-      "address": "123 GREENWICH STREET, NEW YORK, NY 10006, USA",
-      "companyNumber": "12345678"
+      "name": "GOLDEN GATE TRADING INC.",
+      "address": "1234 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1313"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LLC",
-      "address": "555 BROADWAY, NEW YORK, NY 10012, USA"
+      "name": "BANK OF AMERICA",
+      "address": "101 CALIFORNIA STREET, SAN FRANCISCO, CA 94104, USA",
+      "telephone": "+1-415-555-2222",
+      "fax": "+1-415-555-3333"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "070110",
-  "commodityDescription": "APPLES - GOLDEN DELICIOUS",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "8543.70",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "SUDU3579862",
       "sealNumber": "123456",
-      "marksAndNumbers": "DELTA 2310",
-      "numberOfPackages": 1000,
+      "marksAndNumbers": "GG12345",
+      "numberOfPackages": 100,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GOLDEN DELICIOUS APPLES",
-      "grossWeight": 22000.0,
-      "measurement": 30.0,
-      "additionalInfo": "TEMPERATURE CONTROLLED: +2\u00b0C TO +4\u00b0C"
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40FT DRY) CONTAINER ONLY",
-    "totalPackages": 1000,
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
     "packageType": "CARTONS",
-    "containerType": "40DRY",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {},
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345678",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC000123456"
     },
-    "certificateDetails": [
-      "PHYTO-00123456",
-      "FSA-78901234"
-    ],
+    "certificateDetails": "20241017-001",
     "originalBLDistribution": {
-      "name": "DELTA FARMS BV",
-      "address": "DE KLOPPEN 10, 3316 GG Dordrecht, Netherlands",
-      "telephone": "+31 78 619 2200",
-      "fax": "+31 78 619 2299"
+      "name": "GOLDEN GATE TRADING INC.",
+      "address": "1234 MARKET STREET, SAN FRANCISCO, CA 94102, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1313"
     },
     "originalInvoiceDistribution": {
-      "name": "DELTA FARMS BV",
-      "address": "DE KLOPPEN 10, 3316 GG Dordrecht, Netherlands",
-      "telephone": "+31 78 619 2200",
-      "fax": "+31 78 619 2299"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "333 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Apples packed in cartons, temperature controlled during transport."
+    "additionalRemarks": "GOODS PACKED IN PROPER CONDITION FOR SEA TRANSPORT"
   }
 }

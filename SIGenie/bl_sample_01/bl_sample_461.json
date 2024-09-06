@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202409121015300",
+  "voyageDetails": {
+    "vesselName": "MSC ARIANA",
+    "voyageNumber": "2434E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "EUROIMPORTS BV",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2222-1234",
+      "fax": "+31-10-2222-5678",
+      "email": "INFO@EUROIMPORTS.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "456 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-3333-1234",
+      "fax": "+31-10-3333-5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE L",
+      "grossWeight": 12500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CGT-20240912-001",
+    "documentNumber": "20240912-0001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN202409121234",
+      "CN202409125678"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROIMPORTS BV",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2222-1234",
+      "fax": "+31-10-2222-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "SEPT. 18. 2024"
+  }
+}

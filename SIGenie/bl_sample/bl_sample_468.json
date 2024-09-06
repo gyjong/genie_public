@@ -1,15 +1,15 @@
 {
-  "bookingReference": "GRAPE20241018124521",
+  "bookingReference": "APPLE20240928113000",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2443W",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "223E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,94 +17,84 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN YIHUI IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 23, SHUANGQIAO ROAD, XIAOLONG STREET, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(ZIP CODE: 528402)"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEZIENENBURG 12, 3044 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 10 426 3500"
+      "name": "EUROTRADE BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678",
+      "email": "info@eurotrade.nl",
+      "contactPerson": "Jan Van der Meer"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEZIENENBURG 12, 3044 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 10 426 3500"
+      "sameAsConsignee": false,
+      "name": "GLOBAL SHIPPING SERVICES BV",
+      "address": "Stationsweg 123, 1011 BC Amsterdam, Netherlands",
+      "telephone": "+31 20 777 8888",
+      "fax": "+31 20 777 9999",
+      "email": "info@globalshipping.nl"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29034100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES, 125CC",
   "containers": [
     {
-      "containerNumber": "CAIU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EC2345",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "containerNumber": "MSCU3876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MTR123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES (250CC)",
+      "grossWeight": 5500.0,
+      "measurement": 16.5
     },
     {
-      "containerNumber": "CAIU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "EC7890",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CAIU9876543",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC1234",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "MTR456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES (125CC)",
+      "grossWeight": 5000.0,
+      "measurement": 15.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 10500.0,
+    "totalMeasurement": 32.3
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "29034100",
-    "freeTimeAtDestination": "7 DAYS",
+    "invoiceNumber": "APL20240928113000",
+    "documentNumber": "20240928113000",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC20240928113000"
     },
-    "certificateDetails": "CN1234567890",
+    "certificateDetails": [
+      "COO20240928113000"
+    ],
     "originalBLDistribution": {
-      "name": "ABC Logistics",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 123 4567"
+      "name": "EUROTRADE BV",
+      "address": "Weesperstraat 70, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "XYZ Trading",
-      "address": "456 Oak Avenue, Amsterdam, Netherlands",
-      "telephone": "+31 20 789 0123",
-      "fax": "+31 20 789 0124"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     },
-    "onboardDate": "OCT. 18. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nShipments subject to inspection."
+    "onboardDate": "SEPT. 28. 2024"
   }
 }

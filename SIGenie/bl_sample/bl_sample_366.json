@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240912101506",
+  "bookingReference": "APPLE20241015143211",
   "voyageDetails": {
-    "vesselName": "MSC ELISE 06",
-    "voyageNumber": "2024042",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024102",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -23,85 +23,86 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "NINGBO EVERBRIGHT IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 301, NO.288, XINGYE ROAD, HAISHU DISTRICT, NINGBO, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "email": "sales@everbright-nb.com"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "EUROTRADE BV",
-      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL811234567B01",
-      "president": "MR. PETER VAN DER LINDE",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "name": "EURO TRADING BV",
+      "address": "KEIZERSGRACHT 215, 1016DW AMSTERDAM, NETHERLANDS",
+      "companyNumber": "33234567"
     },
     "notifyParty": {
-      "name": "EUROTRADE BV",
-      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL811234567B01",
-      "president": "MR. PETER VAN DER LINDE",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "KLOOSTERZEEWEG 33, 3011 AA ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84833000",
-  "commodityDescription": "GEARBOXES FOR WIND TURBINES",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "TCLU1500123",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EB1234 AS PER PACKING LIST",
-      "numberOfPackages": 2,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS GEARBOXES FOR WIND TURBINES",
-      "grossWeight": 12000.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU3789512",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINING 5 PALLETS OF ELECTRIC MOTORS"
     },
     {
-      "containerNumber": "TCLU1500124",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EB1234 AS PER PACKING LIST",
-      "numberOfPackages": 2,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS GEARBOXES FOR WIND TURBINES",
-      "grossWeight": 12000.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINING 5 PALLETS OF ELECTRIC MOTORS"
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 DRY) CONTAINERS",
-    "totalPackages": 4,
-    "packageType": "CRATES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 40.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN1234567890",
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
     "originalBLDistribution": {
-      "name": "BANK OF CHINA",
-      "address": "NINGBO BRANCH, NO.123 HUANSHENG ROAD, NINGBO, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "fax": "+86 574 8765 4322"
+      "name": "EURO TRADING BV",
+      "address": "KEIZERSGRACHT 215, 1016DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-8765432"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADE BV",
-      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD250,000"
   }
 }

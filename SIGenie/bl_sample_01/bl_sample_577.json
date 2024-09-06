@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APRICOT20240915143256",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2430E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ANTWERP, BELGIUM",
+    "placeOfDelivery": "ANTWERP, BELGIUM",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH INTERNATIONAL TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Raffles Place)",
+      "telephone": "+65 6226 8888",
+      "email": "sales@zenithtrading.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH NV",
+      "address": "2000 Antwerp, Koningin Astridlaan 12, Belgium",
+      "country": "BELGIUM",
+      "email": "info@eurotech.be",
+      "telephone": "+32 3 213 4567"
+    },
+    "notifyParty": {
+      "name": "ZENITH INTERNATIONAL TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "email": "logistics@zenithtrading.sg",
+      "telephone": "+65 6226 8888"
+    }
+  },
+  "shippingTerm": "CIF ANTWERP",
+  "hsCode": "84798990",
+  "commodityDescription": "DIGITAL PRINTING PRESSES WITH ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZEN123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) DIGITAL PRINTING PRESS, MODEL: DPX-5000, SERIAL NO. DPX5000-23456789, GROSS WEIGHT: 12,000 KGS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "UTLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZEN456",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "FIVE (5) BOXES CONTAINING PRINTING ACCESSORIES FOR DPX-5000 PRESS",
+      "grossWeight": 1000.0,
+      "measurement": 5.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 20' CONTAINERS",
+    "totalPackages": 6,
+    "totalGrossWeight": 13000.0,
+    "totalMeasurement": 35.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin",
+      "Phytosanitary Certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH INTERNATIONAL TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6226 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH NV",
+      "address": "2000 Antwerp, Koningin Astridlaan 12, Belgium",
+      "telephone": "+32 3 213 4567"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "GOODS SHIPPED IN GOOD ORDER AND CONDITION."
+  }
+}

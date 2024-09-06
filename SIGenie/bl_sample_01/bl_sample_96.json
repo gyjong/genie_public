@@ -1,0 +1,96 @@
+{
+  "bookingReference": "GRAPE20241015132512",
+  "voyageDetails": {
+    "vesselName": "CAPE RADIANCE",
+    "voyageNumber": "2024092",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Master",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-6536-8210",
+      "fax": "+65-6536-8211"
+    },
+    "consignee": {
+      "name": "EUROLINE GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3780-1234",
+      "fax": "+49-40-3780-4321"
+    },
+    "notifyParty": {
+      "name": "EUROLINE GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3780-1234",
+      "fax": "+49-40-3780-4321"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
+  "containers": [
+    {
+      "containerNumber": "TCLU5478291",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASPC123456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES OF DIGITAL CAMERA LENSES, AS PER INVOICE AND PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241012",
+    "salesOrderNumber": "SO20241015",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO-1234567890",
+    "originalBLDistribution": {
+      "name": "EUROLINE GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3780-1234",
+      "fax": "+49-40-3780-4321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "telephone": "+65-6536-8210",
+      "fax": "+65-6536-8211"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

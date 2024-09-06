@@ -1,89 +1,106 @@
 {
-  "bookingReference": "APPLE20241015134522",
+  "bookingReference": "APPLE20240912101503",
   "voyageDetails": {
-    "vesselName": "CMA CGM AQUILA",
-    "voyageNumber": "243W",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
-      "telephone": "+65-6733-1234",
-      "fax": "+65-6733-5678"
+      "name": "CHINA SHIPPING LINES CO., LTD.",
+      "address": "NO.199, SHANGHAI ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "SCHILLERSTRASSE 15, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-7901-2345",
-      "fax": "+49-69-7901-6789"
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "1-555-555-1212",
+      "fax": "1-555-555-1213"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
-      "telephone": "+65-6733-1234",
-      "fax": "+65-6733-5678"
+      "name": "ABC LOGISTICS LTD.",
+      "address": "456 OAK STREET, NEW YORK, NY 10001, USA",
+      "telephone": "1-212-555-1234",
+      "fax": "1-212-555-1235"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8479.89",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
   "containers": [
     {
-      "containerNumber": "CMAU7672315",
-      "sealNumber": "123456",
-      "marksAndNumbers": "APTC-123",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 ELECTRIC MOTORS",
-      "grossWeight": 5450.0,
-      "measurement": 15.75
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 2,
+      "cargoDescription": "MOTORCYCLES WITH SIDE CARS (MODEL: RX-200)",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 2,
+      "cargoDescription": "MOTORCYCLES WITH SIDE CARS (MODEL: RX-200)",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "43219876",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 2,
+      "cargoDescription": "MOTORCYCLES WITH SIDE CARS (MODEL: RX-200)",
+      "grossWeight": 1200.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "CRATES",
-    "totalGrossWeight": 5450.0,
-    "totalMeasurement": 15.75
+    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
+    "totalPackages": 6,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 75.0
   },
-  "dangerousGoods": {},
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241015",
-    "salesOrderNumber": "SO20241015-001",
     "lcDetails": {
-      "lcNumber": "LC00012345678"
+      "lcNumber": "LC0012345678"
     },
-    "certificateDetails": "CO221015-001",
+    "certificateDetails": [
+      "CERT12345678"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "SCHILLERSTRASSE 15, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-7901-2345",
-      "fax": "+49-69-7901-6789"
+      "name": "GLOBAL IMPORT & EXPORT INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
-      "telephone": "+65-6733-1234",
-      "fax": "+65-6733-5678"
+      "name": "ABC LOGISTICS LTD.",
+      "address": "456 OAK STREET, NEW YORK, NY 10001, USA"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS SHIPPED IN GOOD ORDER AND CONDITION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENTS ARE PACKAGED IN INDIVIDUAL CRATES."
   }
 }

@@ -1,110 +1,101 @@
 {
-  "bookingReference": "APPLE20241026123456",
+  "bookingReference": "APPLE20241015102501",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2442W",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024092",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "JIANGSU XINYA IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 588, CHENGXING ROAD, JIANGSU PROVINCE, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(215000)"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "ROOM 1203, NO. 555 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6327-1234",
+      "fax": "+86-21-6327-5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEZUIDENHOUTSEWEG 12A, 2595 AR THE HAGUE, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 70 360 5555"
+      "name": "EUROTECH BV",
+      "address": "WATERLOOSTRAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEZUIDENHOUTSEWEG 12A, 2595 AR THE HAGUE, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 70 360 5555"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "KEIZERSTRAT 23, 3012 BC ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "290331",
-  "commodityDescription": "POLYETHYLENE GLYCOL (PEG 4000)",
+  "hsCode": "854442",
+  "commodityDescription": "COMPUTER MONITORS",
   "containers": [
     {
-      "containerNumber": "TCLU7372816",
+      "containerNumber": "GESU9976543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC2345",
-      "numberOfPackages": 600,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT POLYETHYLENE GLYCOL (PEG 4000) 25 KG DRUMS ON 20 PALLETS",
-      "grossWeight": 20050.0,
-      "measurement": 20.0
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF COMPUTER MONITORS. MADE IN CHINA.",
+      "grossWeight": 7500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER NEEDS TO BE SEALED AFTER LOADING"
     },
     {
-      "containerNumber": "TCLU8634192",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC1234",
-      "numberOfPackages": 600,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT POLYETHYLENE GLYCOL (PEG 4000) 25 KG DRUMS ON 20 PALLETS",
-      "grossWeight": 20050.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU9102345",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC5678",
-      "numberOfPackages": 600,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT POLYETHYLENE GLYCOL (PEG 4000) 25 KG DRUMS ON 20 PALLETS",
-      "grossWeight": 20050.0,
-      "measurement": 20.0
+      "containerNumber": "GESU9976544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF COMPUTER MONITORS. MADE IN CHINA.",
+      "grossWeight": 7500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER NEEDS TO BE SEALED AFTER LOADING"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1800,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60150.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20GP) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 50.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "290331",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": "CN2345678901234",
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "CHINA SHIPPING (EUROPE) LTD.",
-      "address": "33-35 HIGH STREET, LONDON WC1E 7QA, UNITED KINGDOM",
-      "telephone": "+44 20 7636 6366"
+      "name": "EUROTECH BV",
+      "address": "WATERLOOSTRAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-87654321"
     },
     "originalInvoiceDistribution": {
-      "name": "JIANGSU XINYA IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 588, CHENGXING ROAD, JIANGSU PROVINCE, CHINA",
-      "telephone": "+86 512 6789 1234",
-      "fax": "+86 512 6789 5678"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1203, NO. 555 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6327-1234",
+      "fax": "+86-21-6327-5678"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\nCARGO SHIPPED IN GOOD ORDER AND CONDITION."
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Shipper to provide packing list and commercial invoice for customs clearance."
   }
 }

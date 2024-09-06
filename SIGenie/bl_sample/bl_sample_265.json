@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240912112345",
+  "bookingReference": "APPLE20240915142237",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2437E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "SHANGHAI, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -23,85 +23,85 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONG SHAN IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 123, HUAYUAN ROAD, NANCHENG DISTRICT, NANCHANG, JIANGXI, 330000",
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "UNIT 1203, NO. 888, SHANGHAI ROAD, SHANGHAI, 200080",
       "country": "CHINA",
-      "additionalInfo": "(HONGGU BUILDING)",
-      "telephone": "+86 791 8888 9999",
-      "email": "SALES@ZHONGSHAN.COM"
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 6666",
+      "email": "SALES@SHANGHAITRADING.COM"
     },
     "consignee": {
       "name": "EUROTECH GMBH",
-      "address": "GEYERSTRASSE 12, 20355 HAMBURG",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
       "country": "GERMANY",
-      "email": "INFO@EUROTECH.DE",
-      "telephone": "+49 40 367890"
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 12345678"
     },
     "notifyParty": {
       "name": "EUROTECH GMBH",
-      "address": "GEYERSTRASSE 12, 20355 HAMBURG",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
       "country": "GERMANY",
-      "email": "INFO@EUROTECH.DE",
-      "telephone": "+49 40 367890"
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 12345678"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY FOR FOOD PROCESSING, INCLUDING MIXERS, CONVEYORS AND PACKAGING EQUIPMENT",
+  "shippingTerm": "CIF",
+  "hsCode": "853669",
+  "commodityDescription": "ELECTRICAL SWITCHGEAR PANELS AND COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "GLDU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZS123",
-      "numberOfPackages": 15,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINERY INCLUDING MIXERS, CONVEYORS AND PACKAGING EQUIPMENT (W.2400MM H.2200MM)",
-      "grossWeight": 12500.0,
+      "marksAndNumbers": "ETG-2024-09-15",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL SWITCHGEAR PANELS AND COMPONENTS (W.2400MM H.2200MM)",
+      "grossWeight": 12000.0,
       "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU7890123",
+      "containerNumber": "GLDU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "ZS456",
+      "marksAndNumbers": "ETG-2024-09-15",
       "numberOfPackages": 10,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINERY INCLUDING MIXERS, CONVEYORS AND PACKAGING EQUIPMENT (W.2400MM H.2200MM)",
-      "grossWeight": 8500.0,
-      "measurement": 20.0
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL SWITCHGEAR PANELS AND COMPONENTS (W.2400MM H.2200MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
     "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "totalGrossWeight": 21000.0,
-    "totalMeasurement": 45.0
+    "totalPackages": 20,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00002345678901"
+      "lcNumber": "LC123456789012"
     },
     "certificateDetails": [
-      "411252403580Y",
-      "411252403581Z"
+      "CN1234567890",
+      "CN9876543210"
     ],
     "originalBLDistribution": {
-      "name": "GERMAN FREIGHT FORWARDERS LTD.",
-      "address": "HAMBURGER STRASSE 5, 20355 HAMBURG, GERMANY",
-      "telephone": "+49 40 5555 6666"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
+      "telephone": "+49 40 12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "GERMAN FREIGHT FORWARDERS LTD.",
-      "address": "HAMBURGER STRASSE 5, 20355 HAMBURG, GERMANY",
-      "telephone": "+49 40 5555 6666"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
+      "telephone": "+49 40 12345678"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD80,000\nATTACHED PACKING LIST"
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "Value: EUR 50,000\nPACKING LIST ATTACHED"
   }
 }

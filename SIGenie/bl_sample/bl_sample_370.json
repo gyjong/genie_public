@@ -1,110 +1,100 @@
 {
-  "bookingReference": "APPLE20240918143245",
+  "bookingReference": "APPLE20240912101504",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "24042",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact Person: Mr. John Tan)"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 5000"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "456 OCEAN AVE, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS BV",
-      "address": "Stationsplein 45, 3013 AK Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@abclogistics.nl",
-      "telephone": "+31 10 204 3000"
+      "name": "BLUE SKY IMPORTS LLC.",
+      "address": "789 MARKET ST, SAN FRANCISCO, CA 94103, USA",
+      "telephone": "+1 415 555 2323",
+      "fax": "+1 415 555 2324"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "290339",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CFR",
+  "hsCode": "95030090",
+  "commodityDescription": "TOYS - PLUSH BEARS",
   "containers": [
     {
-      "containerNumber": "TCLU6742317",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 PCS PLUSH BEARS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU8723456",
-      "sealNumber": "789012",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 PCS PLUSH BEARS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO",
-    "hsCode": "29033990",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000321045678"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY SINGAPORE CHAMBER OF COMMERCE",
+    "certificateDetails": [
+      "1000020070133X",
+      "1000020070134X"
+    ],
     "originalBLDistribution": {
-      "name": "ABC BANK",
-      "address": "12 Raffles Place, Singapore 048616",
-      "telephone": "+65 6536 3333"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6227 8888",
-      "fax": "+65 6227 9999"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "456 OCEAN AVE, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
-    "onboardDate": "SEPT. 19. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO PACKED IN 50 PCS PER CARTON"
   }
 }

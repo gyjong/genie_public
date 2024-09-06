@@ -1,0 +1,90 @@
+{
+  "bookingReference": "APPLE20241017132545",
+  "voyageDetails": {
+    "vesselName": "MSC ELSA",
+    "voyageNumber": "2433E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "SUNRISE INDUSTRIES PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "consignee": {
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Hoogoorddreef 15, 3062 BE Rotterdam, Netherlands",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Weesperplein 3, 1018 ZA Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH OR DRIED APPLES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "FRUIT123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH APPLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Temperature to be maintained at 2\u00b0C."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40FT DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40DR",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE NUMBER: 1234567890",
+      "CERTIFICATE OF ORIGIN NUMBER: 9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE INDUSTRIES PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Apples to be delivered in good condition."
+  }
+}

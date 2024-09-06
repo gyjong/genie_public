@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20241015143021",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2435B",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024342",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE TRADING CO.",
-      "address": "123 Anson Road, #15-01, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "email": "info@singaporetrading.com"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "358 HUAYUAN ROAD,NINGBO, CHINA"
     },
     "consignee": {
-      "name": "EURO STEEL GMBH",
-      "address": "Hafenstrasse 10, 20457 Hamburg, Germany",
-      "taxId": "DE123456789",
-      "president": "Mr. Peter Schmidt",
-      "telephone": "+49 40 3567 8901",
-      "fax": "+49 40 3567 8902"
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
     },
     "notifyParty": {
-      "name": "EURO STEEL GMBH",
-      "address": "Hafenstrasse 10, 20457 Hamburg, Germany",
-      "taxId": "DE123456789",
-      "president": "Mr. Peter Schmidt",
-      "telephone": "+49 40 3567 8901",
-      "fax": "+49 40 3567 8902"
+      "name": "ABC BANK",
+      "address": "100 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "1-212-555-1313",
+      "fax": "1-212-555-1314"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "72089010",
-  "commodityDescription": "STEEL PLATES",
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTERS AND PERIPHERALS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "GECN1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, STATED TO CONTAIN: 200 BUNDLES STEEL PLATES",
-      "grossWeight": 25000.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTERS AND PERIPHERALS (H.1500)",
+      "grossWeight": 12000.0,
       "measurement": 30.0
+    },
+    {
+      "containerNumber": "GECN8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 150,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTERS AND PERIPHERALS (H.1500)",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
-    "totalPackages": 200,
-    "packageType": "BUNDLES",
-    "containerType": "40'HC",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 65.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40'HC Container"
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "001234567890"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "CN1234567890",
+      "US9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, Singapore 819823",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "358 HUAYUAN ROAD,NINGBO, CHINA"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, Singapore 819823",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS IN SOUND ORDER AND CONDITION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "VALUE: USD500,000"
   }
 }

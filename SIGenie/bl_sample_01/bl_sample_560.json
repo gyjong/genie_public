@@ -1,0 +1,97 @@
+{
+  "bookingReference": "GRAPE20240912113012",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2424E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "email": "info@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EURO STEEL GMBH",
+      "address": "DAMSTRAAT 123, 3011 XE ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321678",
+      "president": "MR. HANS VAN DER LINDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "EURO STEEL GMBH",
+      "address": "DAMSTRAAT 123, 3011 XE ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321678",
+      "president": "MR. HANS VAN DER LINDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72072090",
+  "commodityDescription": "STEEL BILLETS",
+  "containers": [
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, SEAL & SOTW SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS STEEL BILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC001234567"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 1011",
+      "fax": "+65 6789 1012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 1011",
+      "fax": "+65 6789 1012"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS IN SOUND ORDER AND CONDITION"
+  }
+}

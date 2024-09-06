@@ -1,94 +1,100 @@
 {
-  "bookingReference": "ORANGE20241015103045",
+  "bookingReference": "APPLE20240918134522",
   "voyageDetails": {
-    "vesselName": "COSMOS 5",
-    "voyageNumber": "2024092",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2435E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "258 NANJING ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-1234",
-      "fax": "+86-21-6327-5678"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. Lee)"
     },
     "consignee": {
-      "name": "EUROTRADE BV",
-      "address": "WEGELAAN 10, 3011 AM ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROCHEM BV",
+      "address": "De Rotterdam, 307, 3011 GM ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 456 7890"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WATERLOOPLEIN 20, 1011 NZ AMSTERDAM, NETHERLANDS"
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "123 Spui Straat, 1012 WX Amsterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@worldwidelogistics.nl",
+      "telephone": "+31 20 555 6666"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "280700",
+  "commodityDescription": "UREA, GRANULAR",
   "containers": [
     {
-      "containerNumber": "FCLU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 2,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 1250.0,
-      "measurement": 8.0,
-      "additionalInfo": "CONTAINER IS TEMPERATURE CONTROLLED"
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC-2024-09-18",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: UREA, GRANULAR, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC-2024-09-18",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: UREA, GRANULAR, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HC) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "CRATES",
-    "containerType": "40HC",
-    "totalGrossWeight": 1250.0,
-    "totalMeasurement": 8.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "+15.0\u00baC",
-    "minTemperature": "+10.0\u00b0C",
-    "maxTemperature": "+20.0\u00b0C",
-    "ventilation": "Open",
-    "humidity": "60% ~ 70%"
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO20240918-123",
+    "hsCode": "310210",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890123"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN NO. 12345678",
     "originalBLDistribution": {
-      "name": "EUROTRADE BV",
-      "address": "WEGELAAN 10, 3011 AM ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-200-1234",
-      "fax": "+31-10-200-5678"
+      "name": "EUROBANK NETHERLANDS",
+      "address": "Gustav Mahlerlaan 10, 1081 LR Amsterdam, Netherlands",
+      "telephone": "+31 20 555 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WATERLOOPLEIN 20, 1011 NZ AMSTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 5678"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Motorcycles packed in wooden crates. Value: EUR 25,000"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nCargo insured for full value"
   }
 }

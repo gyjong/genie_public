@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20240918123456",
+  "bookingReference": "STARFISH20240912134502",
   "voyageDetails": {
-    "vesselName": "MSC MIRANDA",
-    "voyageNumber": "2425E",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,77 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "country": "SINGAPORE",
-      "additionalInfo": "(SUITE 1501)"
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Anson Road, #05-01, Singapore 079903",
+      "telephone": "+65 6222 5555",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "HOOFDDORP, NEDERLAND",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 23 555 1234"
+      "name": "EUROTRADE BV",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter van Dijk",
+      "telephone": "+31 10 222 1111",
+      "fax": "+31 10 222 1112"
     },
     "notifyParty": {
-      "name": "ABC BANK N.V.",
-      "address": "NIEUWEZIJDS, AMSTERDAM, NEDERLANDS",
-      "country": "NETHERLANDS",
-      "email": "TRADEFINANCE@ABCBANK.NL",
-      "telephone": "+31 20 666 7777"
+      "name": "EUROBANK N.V.",
+      "address": "Coolsingel 10, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "hsCode": "85437010",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "COSU1112223",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 2000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 40000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY X1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "001234567890"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 12345678",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "ABC BANK N.V.",
-      "address": "NIEUWEZIJDS, AMSTERDAM, NEDERLANDS",
-      "telephone": "+31 20 666 7777"
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 Main Street, Anytown, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65 6789 0123"
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 Main Street, Anytown, USA",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "ALL FREIGHT COLLECT AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

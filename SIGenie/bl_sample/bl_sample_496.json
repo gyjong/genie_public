@@ -1,100 +1,95 @@
 {
-  "bookingReference": "APPLE202410181113400",
+  "bookingReference": "APPLE20240912101508",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2442E",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
-      "address": "3288 HONGQIAO ROAD, SHANGHAI, 200336, CHINA",
-      "telephone": "+86-21-62751234",
-      "fax": "+86-21-62751235"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "101 UPPER CROSS STREET, #05-01 PEOPLE'S PARK CENTRE, SINGAPORE 058357",
+      "telephone": "+65 6323 5678",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "GOLDEN GATE LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-323-555-1212",
-      "fax": "+1-323-555-1213",
-      "email": "IMPORT@GGL.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "WEGGENSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321679B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "SUNRISE TRADING GROUP",
-      "address": "1000 BROADWAY, NEW YORK, NY 10003",
-      "telephone": "+1-212-555-2323",
-      "fax": "+1-212-555-2324"
+      "name": "EUROTECH LOGISTICS BV",
+      "address": "WEGGENSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7892",
+      "fax": "+31 10 456 7893"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "610910",
-  "commodityDescription": "MEN'S T-SHIRTS, COTTON, Assorted Colors and Sizes",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING LINES",
   "containers": [
     {
-      "containerNumber": "CMAU9573612",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "CMAU6728495",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 550,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS",
-      "grossWeight": 12500.0,
-      "measurement": 26.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS MACHINERY PARTS FOR PACKAGING LINES",
+      "grossWeight": 8500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 1050,
-    "totalGrossWeight": 24500.0,
-    "totalMeasurement": 51.5
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241018-001",
-    "documentNumber": "20241018002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": [
-      "CN1234567890",
-      "CN9876543210"
-    ],
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
-      "address": "3288 HONGQIAO ROAD, SHANGHAI, 200336, CHINA",
-      "telephone": "+86-21-62751234",
-      "fax": "+86-21-62751235"
+      "name": "DHL EXPRESS",
+      "address": "1001 N. KINGS HIGHWAY, CHEROKEE, OK 74935, USA",
+      "telephone": "+1 918 456 7890",
+      "fax": "+1 918 456 7891"
     },
     "originalInvoiceDistribution": {
-      "name": "GOLDEN GATE LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-323-555-1212",
-      "fax": "+1-323-555-1213"
+      "name": "DHL EXPRESS",
+      "address": "1001 N. KINGS HIGHWAY, CHEROKEE, OK 74935, USA",
+      "telephone": "+1 918 456 7890",
+      "fax": "+1 918 456 7891"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

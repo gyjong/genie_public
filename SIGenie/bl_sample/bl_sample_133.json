@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE202409121010200",
   "voyageDetails": {
-    "vesselName": "MSC SIMONE 02",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024041",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "NINGBO KINGSTAR IMPORT & EXPORT CO., LTD",
-      "address": "23F, HONGKONG PLAZA, NO. 188, SHENZHOU ROAD, NINGBO, CHINA",
-      "telephone": "+86 574 8756 2130",
-      "email": "SALES@KINGSTAR.CN"
+      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
+      "address": "ROOM 502, NO. 188, SHANGHAI ROAD,NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     },
     "consignee": {
-      "name": "EUROMETAL GMBH",
-      "address": "ZUIDERHAVEN 123, 3071 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL851234567B01",
-      "president": "MR. HANS VAN DER LEEUW",
-      "telephone": "+31 10 205 8888",
-      "fax": "+31 10 205 8889"
+      "name": "GOLDEN GATE LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90001",
+      "telephone": "213-555-1212",
+      "fax": "213-555-1213",
+      "email": "IMPORT@GGL.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "EUROMETAL GMBH",
-      "address": "ZUIDERHAVEN 123, 3071 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL851234567B01",
-      "president": "MR. HANS VAN DER LEEUW",
-      "telephone": "+31 10 205 8888",
-      "fax": "+31 10 205 8889"
+      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
+      "address": "ROOM 502, NO. 188, SHANGHAI ROAD,NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "7202119000",
-  "commodityDescription": "ALUMINIUM ALLOY PLATES",
+  "hsCode": "620462",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "KINGSTAR2345",
-      "numberOfPackages": 100,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ALUMINIUM ALLOY PLATES",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12600.0,
+      "measurement": 27.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "PALLETS",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 25100.0,
+    "totalMeasurement": 55.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20240912-001",
+    "documentNumber": "20240912-002",
     "lcDetails": {
-      "lcNumber": "012345678901"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "12345678901234",
+    "certificateDetails": [
+      "COO-20240912-001",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "39020 ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 205 1234",
-      "fax": "+31 10 205 5678"
+      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
+      "address": "ROOM 502, NO. 188, SHANGHAI ROAD,NINGBO, ZHEJIANG, 315000, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "39020 ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 205 1234",
-      "fax": "+31 10 205 5678"
+      "name": "GOLDEN GATE LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90001",
+      "telephone": "213-555-1212",
+      "fax": "213-555-1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 29. 2024"
   }
 }

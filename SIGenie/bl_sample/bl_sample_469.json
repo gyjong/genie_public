@@ -1,107 +1,108 @@
 {
-  "bookingReference": "APPLE20240918124521",
+  "bookingReference": "GRAPE20241015143211",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2432E",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2442W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact Person: Ms. Li Mei)",
-      "telephone": "+65 6221 5555",
-      "email": "sales@asiatrading.com.sg"
+      "name": "SHANGHAI SHENYUAN IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1001, NO.1888, CHANGNING ROAD, SHANGHAI, CHINA 200051",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
-      "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 30 2000 1234"
+      "name": "GERMAN IMPORTERS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
-      "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 30 2000 1234"
+      "name": "FREIGHT FORWARDERS GMBH",
+      "address": "HAMBURGER STRASSE 20, 20095 HAMBURG, GERMANY"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "842131",
-  "commodityDescription": "MACHINERY FOR THE PRODUCTION OF TEXTILE FABRICS",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
   "containers": [
     {
-      "containerNumber": "GAMI5678901",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "ETG-1234",
-      "numberOfPackages": 10,
+      "containerNumber": "FCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 15,
       "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE FABRIC PRODUCTION MACHINERY (W.2400MM H.2200MM)",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING.",
+      "grossWeight": 8500.0,
+      "measurement": 25.5,
+      "additionalInfo": "COC PROVIDED. CONTAINER IS OWNED BY CARRIER."
     },
     {
-      "containerNumber": "GAMI9876543",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "ETG-5678",
-      "numberOfPackages": 8,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE FABRIC PRODUCTION MACHINERY (W.2400MM H.2200MM)",
-      "grossWeight": 10000.0,
-      "measurement": 22.0
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING.",
+      "grossWeight": 6000.0,
+      "measurement": 18.2,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "totalGrossWeight": 22500.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 27,
+    "packageType": "CRATES & BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 14500.0,
+    "totalMeasurement": 43.7
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00001234567890"
+      "lcNumber": "123456789012"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "CN20241015001",
+      "CN20241015002"
     ],
     "originalBLDistribution": {
-      "name": "HSBC BANK SINGAPORE LTD",
-      "address": "1 North Canal Road, Singapore 048828",
-      "telephone": "+65 6388 8888"
+      "name": "GERMAN IMPORTERS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
     },
     "originalInvoiceDistribution": {
-      "name": "HSBC BANK SINGAPORE LTD",
-      "address": "1 North Canal Road, Singapore 048828",
-      "telephone": "+65 6388 8888"
+      "name": "SHANGHAI SHENYUAN IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO.1888, CHANGNING ROAD, SHANGHAI, CHINA 200051",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "VALUE: USD150,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD50,000"
   }
 }

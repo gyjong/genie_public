@@ -1,110 +1,110 @@
 {
-  "bookingReference": "APPLE20241026123456",
+  "bookingReference": "APPLE20240915115532",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "24321W",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #18-01, Singapore 079903",
+      "name": "SEA STAR TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
       "country": "SINGAPORE",
-      "additionalInfo": "( Anson Centre)"
+      "additionalInfo": "(Company Registration No: 201234567)"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Kaiserstrasse 12, 60311 Frankfurt, Germany",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 69 793740"
+      "name": "EUROCHEM BV",
+      "address": "Pieter Ghijsenweg 2, 3072 MM Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 462 8000"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Frankfurter Stra\u00dfe 15, 60596 Frankfurt, Germany",
-      "country": "GERMANY",
-      "email": "info@dhl.com",
-      "telephone": "+49 69 793740"
+      "name": "EUROCHEM BV",
+      "address": "Pieter Ghijsenweg 2, 3072 MM Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "purchasing@eurochem.nl",
+      "telephone": "+31 10 462 8000"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL MONOBUTYL ETHER (EGBE)",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
+      "containerNumber": "TCLU9127543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EGBE-123",
+      "numberOfPackages": 200,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS, PALLETIZED",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS, PALLETIZED",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL MONOBUTYL ETHER (EGBE) 20 MT IN 200 DRUMS OF 100 KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
     },
     {
       "containerNumber": "TCLU9876543",
-      "sealNumber": "234567",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 1000,
+      "sealNumber": "8765432",
+      "marksAndNumbers": "EGBE-456",
+      "numberOfPackages": 200,
       "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS, PALLETIZED",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL MONOBUTYL ETHER (EGBE) 20 MT IN 200 DRUMS OF 100 KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "4321098",
+      "marksAndNumbers": "EGBE-789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL MONOBUTYL ETHER (EGBE) 20 MT IN 200 DRUMS OF 100 KG NET EACH",
+      "grossWeight": 20500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
     "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
+    "totalPackages": 600,
     "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO-1",
-    "hsCode": "290331",
-    "freeTimeAtDestination": "14 DAYS",
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "000023456789"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "SGS-20240915-123",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Frankfurter Stra\u00dfe 15, 60596 Frankfurt, Germany",
-      "telephone": "+49 69 793740"
+      "name": "SEA STAR TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6224 6888"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #18-01, Singapore 079903",
-      "telephone": "+65 6222 3333",
-      "fax": "+65 6222 4444"
+      "name": "EUROCHEM BV",
+      "address": "Pieter Ghijsenweg 2, 3072 MM Rotterdam, Netherlands",
+      "telephone": "+31 10 462 8000",
+      "fax": "+31 10 462 8001"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "14 Days Free Time at Destination\nATTACHED RIDER"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nALL FREIGHT PREPAID EXCEPT FOR DESTINATION CHARGES\nGOODS ARE PACKED IN ACCORDANCE WITH THE REQUIREMENTS OF THE IMDG CODE"
   }
 }

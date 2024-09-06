@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241016143052",
+  "voyageDetails": {
+    "vesselName": "MARINA STAR",
+    "voyageNumber": "2024092",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "INDUSTRIESTRASSE 10, 60314 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "KUEHNE+NAGEL GMBH",
+      "address": "WALDKIRCHER STRASSE 5, 60594 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CAIU8876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL COMPONENTS",
+      "grossWeight": 7500.0,
+      "measurement": 20.0,
+      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "23456789012345",
+      "98765432109876"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "INDUSTRIESTRASSE 10, 60314 FRANKFURT, GERMANY",
+      "telephone": "+49-69-12345678",
+      "fax": "+49-69-12345679"
+    },
+    "onboardDate": "OCT. 22. 2024",
+    "additionalRemarks": "Shipment of electrical components for industrial use. Value: EUR 25,000"
+  }
+}

@@ -1,84 +1,107 @@
 {
-  "bookingReference": "APPLE20241015132502",
+  "bookingReference": "APPLE20240912143511",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA",
-    "voyageNumber": "2024091",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2423E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road #28-01, International Plaza, SINGAPORE 079903",
-      "telephone": "+65-6221-8888",
-      "fax": "+65-6221-9999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8900",
+      "email": "info@asiapacifictrading.com.sg"
     },
     "consignee": {
-      "name": "EURO TRADING BV",
-      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
-      "telephone": "+31-10-477-1234",
-      "fax": "+31-10-477-5678"
+      "name": "EURO STEEL BV",
+      "address": "Oude Maasweg 15, 3191 DZ Rotterdam, Netherlands",
+      "taxId": "NL856789012",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 486 7500",
+      "fax": "+31 10 486 7501"
     },
     "notifyParty": {
-      "name": "EURO TRADING BV",
-      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
-      "telephone": "+31-10-477-1234",
-      "fax": "+31-10-477-5678"
+      "name": "EURO STEEL BV",
+      "address": "Oude Maasweg 15, 3191 DZ Rotterdam, Netherlands",
+      "taxId": "NL856789012",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 486 7500",
+      "fax": "+31 10 486 7501"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8479.89",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "7207110000",
+  "commodityDescription": "STEEL BARS",
   "containers": [
     {
-      "containerNumber": "CMAU8876543",
+      "containerNumber": "CMAU9785631",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CIF ROTTERDAM STEEL BARS",
+      "grossWeight": 18500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9785632",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CIF ROTTERDAM STEEL BARS",
+      "grossWeight": 18500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.5
+    "totalContainers": "TWO (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 50.0
   },
-  "dangerousGoods": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC001234567"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "4112724080189",
-    "originalBLDistribution": {},
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Road, Singapore 819823",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
     "originalInvoiceDistribution": {
-      "name": "EURO TRADING BV",
-      "address": "Pieter de Hoochweg 2, 3072 CA Rotterdam, Netherlands",
-      "telephone": "+31-10-477-1234",
-      "fax": "+31-10-477-5678"
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Road, Singapore 819823",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS PACKED IN SEA Worthy CONDITION"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

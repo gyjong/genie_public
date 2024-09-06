@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE202410168452100",
+  "bookingReference": "APPLE202410161015200",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2447E",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2428E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -23,79 +23,74 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
-      "address": "ROOM 202, 2ND FLOOR, NO.1888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-6336-8877",
-      "fax": "+86-21-6336-8899"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 5556"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "INFO@WCIIMPORTERS.COM",
-      "contactPerson": "MARIA SANCHEZ"
+      "name": "EUROFREIGHT BV",
+      "address": "Koninginneweg 101, 3015 NL Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001",
+      "email": "info@eurofreight.nl",
+      "contactPerson": "JAN VAN DER MARK"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GREEN LOGISTICS INC.",
-      "address": "456 OAK STREET, SAN FRANCISCO, CA 94102",
-      "telephone": "+1-415-555-2323",
-      "fax": "+1-415-555-2324"
+      "sameAsConsignee": true
     }
   },
-  "shippingTerm": "CIF LOS ANGELES",
-  "hsCode": "8542390000",
-  "commodityDescription": "POWER ADAPTERS AND USB CHARGERS",
+  "shippingTerm": "CIF",
+  "hsCode": "8543709000",
+  "commodityDescription": "NETWORKING EQUIPMENT - ROUTERS AND SWITCHES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "CMAU5678901",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-LA123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: POWER ADAPTERS AND USB CHARGERS",
-      "grossWeight": 15000.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ROUTERS AND SWITCHES",
+      "grossWeight": 12500.0,
       "measurement": 25.0
     },
     {
       "containerNumber": "CMAU1234567",
-      "sealNumber": "765432",
-      "marksAndNumbers": "SUNRISE-LA456",
-      "numberOfPackages": 800,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: POWER ADAPTERS AND USB CHARGERS",
-      "grossWeight": 12000.0,
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 40,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ROUTERS AND SWITCHES",
+      "grossWeight": 11000.0,
       "measurement": 22.5
     }
   ],
   "totalShipment": {
     "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 1800,
-    "totalGrossWeight": 27000.0,
+    "totalPackages": 90,
+    "totalGrossWeight": 23500.0,
     "totalMeasurement": 47.5
   },
   "additionalInformation": {
     "invoiceNumber": "INV20241016-001",
     "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC000123456789"
+      "lcNumber": "LC20241016001"
     },
     "certificateDetails": [
       "4112724080177X",
-      "4112724080178X",
-      "4112724080179X"
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
-      "address": "ROOM 202, 2ND FLOOR, NO.1888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-6336-8877",
-      "fax": "+86-21-6336-8899"
+      "name": "EUROFREIGHT BV",
+      "address": "Koninginneweg 101, 3015 NL Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 5556"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "OCT. 28. 2024"
   }
 }

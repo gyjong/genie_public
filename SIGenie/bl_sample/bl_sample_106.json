@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20240920143212",
+  "bookingReference": "APPLE20241026113002",
   "voyageDetails": {
-    "vesselName": "COSCO INDIA",
-    "voyageNumber": "2437W",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2224091",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Seaway Bill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "JIANGSU EVERGREEN IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 288, HONGWU ROAD, JIANGSU, CHINA",
-      "country": "CHINA",
-      "additionalInfo": ""
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "ZEEHAVEN 95, 3195 ND ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 436 8900"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Hoofdweg 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "ZEEHAVEN 95, 3195 ND ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 436 8900"
+      "name": "EUROTECH LOGISTICS",
+      "address": "Stationsweg 56, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31-10-876-5432",
+      "fax": "+31-10-876-1234"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "DIGITAL CAMERAS",
   "containers": [
     {
-      "containerNumber": "MSCU3567890",
-      "sealNumber": "123456789",
-      "marksAndNumbers": "EG-001",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT IN 200 KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "EG-002",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT IN 200 KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DIGITAL CAMERA SHIPMENT",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERAS, MODEL DC-2000",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV) CONTAINERS ONLY",
-    "totalPackages": 2000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 40000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3077",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Battery Packaging as per IATA regulations"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "EC20240920-001",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20240920001",
+    "certificateDetails": "CERTIFICATE OF ORIGIN: Issued by Singapore Chamber of Commerce",
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "103-105 SOUTHAMPTON ROW, LONDON WC1B 4JN, UNITED KINGDOM",
-      "telephone": "+44 20 7992 2222"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Hoofdweg 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
     },
     "originalInvoiceDistribution": {
-      "name": "JIANGSU EVERGREEN IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 288, HONGWU ROAD, JIANGSU, CHINA",
-      "telephone": "+86 519 8888 9999",
-      "fax": "+86 519 8888 9998"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Batteries are packed in accordance with IATA regulations."
   }
 }

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410178514100",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2424E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD",
+      "address": "UNIT 203, 2/F, BUILDING 1, NO. 5888, HENGYU ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "IMPORT@WCL.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "BLUE SKY IMPORTERS LLC",
+      "address": "45678 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "telephone": "+1-310-555-8989"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
+      "grossWeight": 12000.0,
+      "measurement": 15.678
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: CONVEYOR BELTS & MOTORS",
+      "grossWeight": 8500.0,
+      "measurement": 12.345
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 20500.0,
+    "totalMeasurement": 28.023
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD",
+      "address": "UNIT 203, 2/F, BUILDING 1, NO. 5888, HENGYU ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO. LTD",
+      "address": "UNIT 203, 2/F, BUILDING 1, NO. 5888, HENGYU ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

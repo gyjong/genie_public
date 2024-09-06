@@ -1,102 +1,97 @@
 {
-  "bookingReference": "APPLE202410039151400",
+  "bookingReference": "ORANGE20240915134512",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2436E",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA, U.S.A"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHANGJIagang SUNRISE GLOBAL CO., LTD",
-      "address": "NO. 1288, SHENZHOU ROAD, ZHANGJIAGANG FREE TRADE ZONE, JIANGSU, CHINA",
-      "telephone": "+86-512-56789012",
-      "fax": "+86-512-56789013"
+      "name": "SUNRISE GLOBAL LOGISTICS CO., LTD.",
+      "address": "UNIT 508, 5TH FLOOR, INTERNATIONAL TRADE CENTER BUILDING, NO. 333 HUAYUAN ROAD, NINGBO, CHINA"
     },
     "consignee": {
       "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "IMPORT@WCI.COM",
-      "contactPerson": "JOHN SMITH"
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022, USA",
+      "telephone": "1-555-555-1212",
+      "fax": "1-555-555-1213"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS INC.",
-      "address": "4567 MAIN ST, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-5656",
-      "fax": "+1-213-555-5657",
-      "email": "NOTIFY@ABCL.COM"
+      "name": "SUNRISE GLOBAL LOGISTICS CO., LTD.",
+      "address": "UNIT 508, 5TH FLOOR, INTERNATIONAL TRADE CENTER BUILDING, NO. 333 HUAYUAN ROAD, NINGBO, CHINA",
+      "telephone": "86-574-87654321",
+      "fax": "86-574-87654322"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "940160",
-  "commodityDescription": "WOODEN CHAIRS WITH METAL FRAME",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR INDUSTRIAL USE",
   "containers": [
     {
       "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
       "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS WITH METAL FRAME",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR INDUSTRIAL USE (H.S. CODE: 84798990)",
       "grossWeight": 12000.0,
-      "measurement": 28.0
+      "measurement": 25.0
     },
     {
       "containerNumber": "CMAU1112223",
       "sealNumber": "654321",
       "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN CHAIRS WITH METAL FRAME",
-      "grossWeight": 12200.0,
-      "measurement": 27.5
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR INDUSTRIAL USE (H.S. CODE: 84798990)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 200,
-    "totalGrossWeight": 24200.0,
-    "totalMeasurement": 55.5
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20GP",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241003-001",
-    "documentNumber": "20241003-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000301043738"
     },
     "certificateDetails": [
-      "CO-1234567890",
-      " fumigation certificate"
+      "1000030080131X"
     ],
     "originalBLDistribution": {
-      "name": "ZHANGJIagang SUNRISE GLOBAL CO., LTD",
-      "address": "NO. 1288, SHENZHOU ROAD, ZHANGJIAGANG FREE TRADE ZONE, JIANGSU, CHINA",
-      "telephone": "+86-512-56789012",
-      "fax": "+86-512-56789013"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "IMPORT@WCI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "SUNRISE GLOBAL LOGISTICS CO., LTD.",
+      "address": "UNIT 508, 5TH FLOOR, INTERNATIONAL TRADE CENTER BUILDING, NO. 333 HUAYUAN ROAD, NINGBO, CHINA"
     },
-    "onboardDate": "OCT. 15. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS IN GOOD ORDER AND CONDITION"
   }
 }

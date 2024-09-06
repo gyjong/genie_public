@@ -1,0 +1,99 @@
+{
+  "bookingReference": "ORANGE202410178153400",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": "LOS ANGELES, CA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHANGJIagang GLOBAL TRADING CO., LTD",
+      "address": "NO. 588, SHENJIANG ROAD, JIANGSU PROVINCE, CHINA",
+      "telephone": "+86-512-56897421",
+      "fax": "+86-512-56897423"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORT & EXPORT INC.",
+      "address": "12345 SUNRISE BLVD, SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "ORDERS@WCIE.COM",
+      "contactPerson": "MICHAEL BROWN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "STAR LOGISTICS INC.",
+      "address": "123 MAIN ST, SUITE 100, LONG BEACH, CA 90802",
+      "telephone": "+1-562-555-5678",
+      "fax": "+1-562-555-5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "620342",
+  "commodityDescription": "LADIES' 100% COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9687351",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZG-123",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZG-456",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 10100.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20100.0,
+    "totalMeasurement": 50.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20231017-001",
+    "documentNumber": "20231017002",
+    "lcDetails": {
+      "lcNumber": "LC20231017-003"
+    },
+    "certificateDetails": [
+      "COO-20231017-004"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST IMPORT & EXPORT INC.",
+      "address": "12345 SUNRISE BLVD, SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHANGJIagang GLOBAL TRADING CO., LTD",
+      "address": "NO. 588, SHENJIANG ROAD, JIANGSU PROVINCE, CHINA",
+      "telephone": "+86-512-56897421",
+      "fax": "+86-512-56897423"
+    },
+    "onboardDate": "OCT. 27. 2023"
+  }
+}

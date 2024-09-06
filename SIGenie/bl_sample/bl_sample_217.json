@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241018143501",
+  "bookingReference": "APPLE20241026143210",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2425W",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "22241002",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,45 +23,45 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068913",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "SHANGHAI YINGZHI TRADING CO., LTD.",
+      "onBehalfOf": "NINGBO HONGYI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 3888, SHENNAN ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
     },
     "consignee": {
       "name": "EUROTECH GMBH",
-      "address": "BERLINER STRASSE 56, 20357 HAMBURG, GERMANY",
-      "companyNumber": "HRB 123456"
+      "address": "K\u00d6LNSTRASSE 15, 40231 D\u00dcSSELDORF, GERMANY",
+      "companyNumber": "HRB 23456"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL GMBH",
-      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT, GERMANY"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "AM WEHRE 17, 40231 D\u00dcSSELDORF, GERMANY"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "85423910",
-  "commodityDescription": "ELECTRONIC COMPONENTS - INTEGRATED CIRCUITS",
+  "shippingTerm": "CIF",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "GRAU8765432",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ET-123",
-      "numberOfPackages": 500,
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 500 BOXES OF ELECTRONIC COMPONENTS - INTEGRATED CIRCUITS",
-      "grossWeight": 5600.0,
-      "measurement": 18.5,
-      "additionalInfo": "TEMPERATURE SENSITIVE - STORE BELOW 25 DEGREES CELSIUS"
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
     "totalContainers": "ONE (20FT) CONTAINER ONLY",
-    "totalPackages": 500,
+    "totalPackages": 50,
     "packageType": "BOXES",
     "containerType": "20FT",
-    "totalGrossWeight": 5600.0,
-    "totalMeasurement": 18.5
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
   "reeferSettings": {
     "containerNumber": "",
@@ -73,23 +73,24 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000123456789"
+      "lcNumber": "1234567890123"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068913",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "NINGBO HONGYI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 3333, SHENNAN ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "BERLINER STRASSE 56, 20357 HAMBURG, GERMANY"
+      "name": "SHANGHAI YINGZHI TRADING CO., LTD.",
+      "address": "ROOM 1001, NO. 3888, SHENNAN ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Insurance Coverage: USD 100,000. Shipment Value: USD 50,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Container Secured with Locks. Value: EUR 50,000"
   }
 }

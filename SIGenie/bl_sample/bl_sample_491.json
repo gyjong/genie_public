@@ -1,104 +1,99 @@
 {
-  "bookingReference": "ORANGE20240918123456",
+  "bookingReference": "APPLE20241026142301",
   "voyageDetails": {
-    "vesselName": "MSC IRENE",
-    "voyageNumber": "2431E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2445W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "Master Bill of Lading",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 UPPER CROSS STREET, #05-01, SINGAPORE 058364",
-      "country": "SINGAPORE",
-      "additionalInfo": "(CHINA SQUARE CENTRAL)",
-      "telephone": "+65 6222 1234",
-      "email": "SALES@ASIAPACIFICTRADING.COM"
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "address": "233 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "consignee": {
       "name": "EUROTECH GMBH",
-      "address": "KOLONIENSTRASSE 65, 20357 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECHGMBH.DE",
-      "telephone": "+49 40 399900"
+      "address": "FRANKFURTER STRASSE 25, 60323 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7938-5000",
+      "fax": "+49-69-7938-5001"
     },
     "notifyParty": {
       "name": "EUROTECH GMBH",
-      "address": "KOLONIENSTRASSE 65, 20357 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECHGMBH.DE",
-      "telephone": "+49 40 399900"
+      "address": "FRANKFURTER STRASSE 25, 60323 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7938-5000",
+      "fax": "+49-69-7938-5001"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR AUTOMOTIVE INDUSTRY",
+  "shippingTerm": "CIF",
+  "hsCode": "8471.60",
+  "commodityDescription": "DIGITAL CAMERAS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CGSU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET230918",
-      "numberOfPackages": 15,
+      "marksAndNumbers": "ET-1234",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMOTIVE MACHINE PARTS",
-      "grossWeight": 18500.0,
-      "measurement": 25.8
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  DIGITAL CAMERAS",
+      "grossWeight": 1200.5,
+      "measurement": 1.5
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ET230918",
-      "numberOfPackages": 15,
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ET-5678",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMOTIVE MACHINE PARTS",
-      "grossWeight": 18500.0,
-      "measurement": 25.8
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 1250.0,
+      "measurement": 1.6
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 30,
-    "totalGrossWeight": 37000.0,
-    "totalMeasurement": 51.6
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 2450.5,
+    "totalMeasurement": 3.1
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
-  },
+  "dangerousGoods": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO987654",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": [],
+    "certificateDetails": "CN2024102601",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "25000 AIRPORT ROAD, SINGAPORE 819813",
-      "telephone": "+65 6222 2222"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60323 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7938-5000",
+      "fax": "+49-69-7938-5001"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "25000 AIRPORT ROAD, SINGAPORE 819813",
-      "telephone": "+65 6222 2222"
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "address": "233 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "Value: USD 50,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "GOODS IN GOOD ORDER AND CONDITION"
   }
 }

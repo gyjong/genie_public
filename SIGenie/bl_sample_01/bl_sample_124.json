@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202410121530421",
+  "voyageDetails": {
+    "vesselName": "EVER GLORY",
+    "voyageNumber": "2024045",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zhejiang Sunshine Trading Co., Ltd",
+      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "West Coast Imports Inc.",
+      "address": "123 Main Street, Los Angeles, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "info@westimports.com",
+      "contactPerson": "Sarah Jones"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "Seaway Logistics",
+      "address": "456 Harbor Drive, Long Beach, CA 90802",
+      "telephone": "+1-562-555-5678",
+      "fax": "+1-562-555-5679",
+      "email": "notifications@seawaylogistics.com"
+    }
+  },
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "611030",
+  "commodityDescription": "Men's Woven Cotton Shirts",
+  "containers": [
+    {
+      "containerNumber": "CMAU7895632",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUN2310",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SUN2311",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON SHIRTS",
+      "grossWeight": 12400.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24900.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20231012001",
+    "documentNumber": "20231012002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "C-231012-001",
+      "C-231012-002"
+    ],
+    "originalBLDistribution": {
+      "name": "Zhejiang Sunshine Trading Co., Ltd",
+      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zhejiang Sunshine Trading Co., Ltd",
+      "address": "No. 55, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, China 315040",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "OCT. 22. 2024"
+  }
+}

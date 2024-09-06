@@ -1,97 +1,109 @@
 {
-  "bookingReference": "APPLE20240925134512",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2435E",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2445W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
     "portOfDischarge": "SINGAPORE",
     "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA TRADING CO.",
-      "address": "DE BRIJNSTRAAT 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 412 5678",
-      "email": "INFO@DELTATRADING.NL"
+      "name": "Zhejiang Daxing Trading Co., Ltd.",
+      "address": "No. 288, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, 315040, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "taxId": "201212345G",
-      "president": "MR. TAN CHONG LIANG",
-      "telephone": "+65 6222 5555",
-      "fax": "+65 6222 5556"
+      "name": "EuroChem Agro BV",
+      "address": "Weena 10, 3012 CB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochema.nl",
+      "telephone": "+31 10 414 5000"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "taxId": "201212345G",
-      "president": "MR. TAN CHONG LIANG",
-      "telephone": "+65 6222 5555",
-      "fax": "+65 6222 5556"
+      "name": "Zhejiang Daxing Trading Co., Ltd.",
+      "address": "No. 288, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, 315040, China",
+      "country": "CHINA",
+      "email": "sales@zjdaxing.com",
+      "telephone": "+86 574 8888 9999"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84137010",
-  "commodityDescription": "PUMPS FOR LIQUIDS",
+  "hsCode": "31021000",
+  "commodityDescription": "POTASSIUM CHLORIDE (MURIATE OF POTASH)",
   "containers": [
     {
-      "containerNumber": "MSCU7865321",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 20,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE PUMPS FOR LIQUIDS",
-      "grossWeight": 12500.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ZDX231026",
+      "numberOfPackages": 2000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM CHLORIDE (MURIATE OF POTASH) 20MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZDX231026",
+      "numberOfPackages": 2000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM CHLORIDE (MURIATE OF POTASH) 20MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ZDX231026",
+      "numberOfPackages": 2000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTASSIUM CHLORIDE (MURIATE OF POTASH) 20MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 28.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 20,
-    "packageType": "BOXES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 30.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 6000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 84.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO231026-001",
+    "hsCode": "31021000",
+    "freeTimeAtDestination": "14 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "20240925001",
+    "certificateDetails": "Certificate of Origin",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, Singapore 819821",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "Zhejiang Daxing Trading Co., Ltd.",
+      "address": "No. 288, Huanglong Road, Yinzhou District, Ningbo, Zhejiang, 315040, China",
+      "telephone": "+86 574 8888 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, Singapore 819821",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "EuroChem Agro BV",
+      "address": "Weena 10, 3012 CB Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000"
     },
-    "onboardDate": "OCT. 05. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "14 Days Free Time at Destination\nCargo is packed in new, clean and dry bags."
   }
 }

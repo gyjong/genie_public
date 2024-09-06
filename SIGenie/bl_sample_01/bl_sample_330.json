@@ -1,0 +1,89 @@
+{
+  "bookingReference": "PINEAPPLE20241018143511",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "onBehalfOf": "",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
+    },
+    "consignee": {
+      "name": "EURO FRESH IMPORTS GMBH",
+      "address": "Frankfurter Strasse 123, 60329 Frankfurt am Main, Germany",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Hafenstrasse 5, 20359 Hamburg, Germany"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "080510",
+  "commodityDescription": "FRESH MANGOES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH MANGOES",
+      "grossWeight": 20000.0,
+      "measurement": 20.0,
+      "additionalInfo": "FROZEN MANGOES"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Shipment of fresh mangoes, packed in cartons. Value: USD 50,000"
+  }
+}

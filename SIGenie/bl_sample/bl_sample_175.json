@@ -1,88 +1,96 @@
 {
-  "bookingReference": "GRAPE20241018113022",
+  "bookingReference": "APPLE20241017143205",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024103",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2431W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "onBehalfOf": null,
-      "address": "1234 SUNRISE STREET, SHANGHAI, CHINA",
-      "telephone": "+86-21-5555-1212",
-      "fax": "+86-21-5555-1213"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EUROIMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 10, 60314 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "BEUKELAAN 22, 3062 GA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "250 FRANKFURTER ALLEE, 60329 FRANKFURT, GERMANY"
+      "name": "EUROTECH LOGISTICS",
+      "address": "BEUKELAAN 22, 3062 GA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7892",
+      "fax": "+31-10-456-7893"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "SUNRISE-2024",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "2 MOTORCYCLES, MODEL: SKYFIRE 250CC",
-      "grossWeight": 500.0,
-      "measurement": 10.0,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "containerNumber": "SEGU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 1200.5,
+      "measurement": 1.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 500.0,
-    "totalMeasurement": 10.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1200.5,
+    "totalMeasurement": 1.8
   },
-  "reeferSettings": {},
+  "dangerousGoods": {
+    "containerNumber": "SEGU7896543",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY MARKINGS - CLASS 9"
+  },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC000123456789"
+      "lcNumber": "LC20241017001"
     },
-    "certificateDetails": [
-      "CN-2024-10-001",
-      "EU-2024-10-002"
-    ],
+    "certificateDetails": "20241017-CE-001",
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "1234 SUNRISE STREET, SHANGHAI, CHINA",
-      "telephone": "+86-21-5555-1212",
-      "fax": "+86-21-5555-1213"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "BEUKELAAN 22, 3062 GA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROIMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 10, 60314 FRANKFURT, GERMANY"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Insurance: USD 100,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "BATTERY SHIPMENT - PROPER HANDLING REQUIRED"
   }
 }

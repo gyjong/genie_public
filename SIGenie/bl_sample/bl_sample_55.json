@@ -1,106 +1,100 @@
 {
-  "bookingReference": "APPLE20240912102531",
+  "bookingReference": "APPLE20241017567234",
   "voyageDetails": {
-    "vesselName": "MAERSK ESSEX",
-    "voyageNumber": "2024041",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "328 JINGHUA ROAD, HANGZHOU, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
     },
     "consignee": {
-      "name": "AMERICAN FREIGHT SOLUTIONS LLC",
-      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "1-212-555-1212",
-      "fax": "1-212-555-1213"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1234",
+      "fax": "+1-213-555-1235",
+      "email": "IMPORT@WCL.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "WORLDWIDE SHIPPING CO.",
-      "address": "789 FIFTH AVENUE, NEW YORK, NY 10022, USA",
-      "telephone": "1-212-555-2323",
-      "fax": "1-212-555-2324"
+      "sameAsConsignee": false,
+      "name": "GOLDEN GATE IMPORTS",
+      "address": "555 OCEAN BOULEVARD, SAN FRANCISCO, CA 94108, USA",
+      "telephone": "+1-415-555-5678",
+      "fax": "+1-415-555-5679",
+      "email": "NOTIFICATIONS@GOLDENGATEIMPORTS.COM"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "COMPUTER HARDWARE - PROCESSORS",
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S T-SHIRTS, 100% COTTON",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "SEGU2036471",
       "sealNumber": "123456",
-      "marksAndNumbers": "GL123",
-      "numberOfPackages": 100,
-      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
-      "grossWeight": 2500.0,
-      "measurement": 12.5
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS, 100% COTTON",
+      "grossWeight": 10500.0,
+      "measurement": 25.35
     },
     {
-      "containerNumber": "COSU1112223",
+      "containerNumber": "SEGU2069823",
       "sealNumber": "789012",
-      "marksAndNumbers": "GL456",
-      "numberOfPackages": 100,
-      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
-      "grossWeight": 2500.0,
-      "measurement": 12.5
-    },
-    {
-      "containerNumber": "MSCU3334445",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GL789",
-      "numberOfPackages": 100,
-      "cargoDescription": "100 PCS COMPUTER PROCESSORS, MODEL X7500",
-      "grossWeight": 2500.0,
-      "measurement": 12.5
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS, 100% COTTON",
+      "grossWeight": 10400.0,
+      "measurement": 25.1
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20FT DRY) CONTAINERS ONLY",
-    "totalPackages": 300,
-    "packageType": "CARTONS",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 37.5
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 20900.0,
+    "totalMeasurement": 50.45
   },
   "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": [],
+    "certificateDetails": [
+      "CC20241017A"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+      "name": "SUNRISE INTERNATIONAL TRADING CO.",
+      "address": "328 JINGHUA ROAD, HANGZHOU, CHINA 310000",
+      "telephone": "+86-571-87654321",
+      "fax": "+86-571-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN FREIGHT SOLUTIONS LLC",
-      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "1-212-555-1212",
-      "fax": "1-212-555-1213"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1234",
+      "fax": "+1-213-555-1235"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN SEA-WORTHY CONDITION."
+    "onboardDate": "OCT. 25. 2024"
   }
 }

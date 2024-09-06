@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241015143547",
+  "bookingReference": "APPLE20240912102345",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
-    "voyageNumber": "2445W",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": "LOS ANGELES, USA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,83 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO.",
-      "onBehalfOf": "ASIA PACIFIC GROUP",
-      "address": "101 ROBINSON ROAD #08-01, ROBINSON 110, SINGAPORE 068902",
-      "telephone": "+65-6222-1111",
-      "fax": "+65-6222-2222"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Marina Bay Road, Singapore 018988",
+      "telephone": "+65 6789 0123",
+      "email": "sales@asiatrade.com.sg"
     },
     "consignee": {
-      "name": "EURO TECH GMBH",
-      "address": "HANSEATISCH STRASSE 15, 20357 HAMBURG, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "456 Harbor Blvd, Los Angeles, CA 90013, USA",
+      "taxId": "123456789",
+      "president": "JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "FREIENHAMMERSTRASSE 10, 20359 HAMBURG, GERMANY"
+      "name": "WEST COAST LOGISTICS",
+      "address": "345 Pine Street, Los Angeles, CA 90015, USA",
+      "telephone": "+1 213 555 2323",
+      "fax": "+1 213 555 2324"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "854140",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
       "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL AND MARK SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF LOS ANGELES, USA ELECTRIC MOTORS",
       "grossWeight": 12500.0,
-      "measurement": 20.0,
-      "additionalInfo": "Fragile Goods. Handle with Care."
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 60,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL AND MARK SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 13000.0,
-      "measurement": 22.0,
-      "additionalInfo": "THIS WAY UP"
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 110,
+    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 25500.0,
-    "totalMeasurement": 42.0
+    "containerType": "20' DRY X1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 30.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000202040391"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": [
-      "4112720070179X"
-    ],
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "101 ROBINSON ROAD #08-01, ROBINSON 110, SINGAPORE 068902",
-      "telephone": "+65-6222-1111",
-      "fax": "+65-6222-2222"
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "1234 Main Street, Los Angeles, CA 90012, USA",
+      "telephone": "+1 213 555 3434",
+      "fax": "+1 213 555 3435"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO TECH GMBH",
-      "address": "HANSEATISCH STRASSE 15, 20357 HAMBURG, GERMANY"
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "1234 Main Street, Los Angeles, CA 90012, USA",
+      "telephone": "+1 213 555 3434",
+      "fax": "+1 213 555 3435"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance: USD 500,000."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

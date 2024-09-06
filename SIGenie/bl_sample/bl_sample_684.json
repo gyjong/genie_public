@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912101523",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2429E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #28-01 International Plaza, Singapore 079900",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)"
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Heerengracht 478, 1017 BT Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "sales@eurochem.nl",
+      "telephone": "+31 20 624 5678"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA N.A.",
+      "address": "1221 Avenue of the Americas, New York, NY 10020",
+      "country": "UNITED STATES",
+      "email": "trade.finance@bankofamerica.com",
+      "telephone": "+1 212 444 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "28112200",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "UTLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "28112200",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "3456789012345",
+    "originalBLDistribution": {
+      "name": "HSBC BANK",
+      "address": "100 Queen Street West, Toronto, ON M5H 2N1",
+      "telephone": "+1 416 861 7000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #28-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nGOODS ARE PACKAGED IN UN-MARKED DRUMS\n"
+  }
+}

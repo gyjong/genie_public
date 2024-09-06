@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PINEAPPLE20241015143251",
+  "voyageDetails": {
+    "vesselName": "COSMOS SKY",
+    "voyageNumber": "20241003",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE TRADING CO. LTD.",
+      "onBehalfOf": null,
+      "address": "ROOM 1008, NO. 888, CHANGNING ROAD, SHANGHAI 200052, CHINA",
+      "telephone": "+86-21-6278-9001",
+      "fax": "+86-21-6278-9002"
+    },
+    "consignee": {
+      "name": "FLOWER POWER BV",
+      "address": "KEIZERSGRACHT 123, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS N.V.",
+      "address": "SPANJAARDSESTRAAT 100, 2000 ANTWERPEN, BELGIUM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "902300",
+  "commodityDescription": "LIGHTING FIXTURES",
+  "containers": [
+    {
+      "containerNumber": "UTLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: LIGHTING FIXTURES",
+      "grossWeight": 5500.0,
+      "measurement": 20.0,
+      "additionalInfo": "FRAGILE: HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 5500.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890123"
+    },
+    "certificateDetails": [
+      "4112720070179X",
+      "4112720070180X"
+    ],
+    "originalBLDistribution": {
+      "name": "FLOWER POWER BV",
+      "address": "KEIZERSGRACHT 123, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI SUNRISE TRADING CO. LTD.",
+      "address": "ROOM 1008, NO. 888, CHANGNING ROAD, SHANGHAI 200052, CHINA",
+      "telephone": "+86-21-6278-9001",
+      "fax": "+86-21-6278-9002"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD100,000"
+  }
+}

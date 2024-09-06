@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015142502",
+  "bookingReference": "GRAPE20241015132502",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "20241003",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,51 +17,51 @@
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Marina Blvd, Singapore 018988",
-      "telephone": "+65-6789-1234",
-      "fax": "+65-6789-5678"
+      "address": "10 Anson Road, #20-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-1234"
+      "name": "EURO IMPORTERS LTD.",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-1234"
+      "name": "EURO LOGISTICS BV",
+      "address": "Gustav Mahlerlaan 2001, 1081 LR Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-789-4567",
+      "fax": "+31-20-789-4568"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8544.42",
-  "commodityDescription": "COMPUTER HARDWARE",
+  "hsCode": "8471.60",
+  "commodityDescription": "ELECTRIC GENERATORS",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
+      "containerNumber": "TCLU3567890",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  COMPUTER HARDWARE - MOTHERBOARDS",
-      "grossWeight": 1200.0,
-      "measurement": 15.5
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : ELECTRIC GENERATORS",
+      "grossWeight": 1250.5,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "totalGrossWeight": 1200.0,
-    "totalMeasurement": 15.5
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1250.5,
+    "totalMeasurement": 1.5
   },
   "dangerousGoods": {
     "containerNumber": "",
@@ -72,23 +72,23 @@
     "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
     "lcDetails": {
       "lcNumber": "LC20241015001"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": "20241015-CERT-001",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Marina Blvd, Singapore 018988",
-      "telephone": "+65-6789-1234",
-      "fax": "+65-6789-5678"
+      "name": "EURO IMPORTERS LTD.",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-1234"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #20-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
     },
     "onboardDate": "OCT. 20. 2024",
     "additionalRemarks": ""

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015113045",
+  "voyageDetails": {
+    "vesselName": "MSC SOFIA",
+    "voyageNumber": "2445W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
+      "telephone": "+65-6536-9876",
+      "fax": "+65-6536-9875"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "HERMANNSTRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3777-8888",
+      "fax": "+49-40-3777-8887"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
+      "telephone": "+65-6536-9876",
+      "fax": "+65-6536-9875"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRICAL COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 100 CARTONS OF ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "TCLU9876543",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY CONTAINING ELECTRONIC COMPONENTS"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "2345678901234",
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "HERMANNSTRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3777-8888",
+      "fax": "+49-40-3777-8887"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
+      "telephone": "+65-6536-9876",
+      "fax": "+65-6536-9875"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "BATTERY CONTAINING ELECTRONIC COMPONENTS"
+  }
+}

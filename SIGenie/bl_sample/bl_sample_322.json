@@ -1,98 +1,96 @@
 {
-  "bookingReference": "APPLE202410121154200",
+  "bookingReference": "APPLE20241018123405",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024101",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86-21-5555-1212",
-      "fax": "+86-21-5555-1313"
+      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012",
-      "telephone": "+1-213-555-1111",
-      "fax": "+1-213-555-1112",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JANE SMITH"
+      "name": "EUROTECH GMBH",
+      "address": "Poststra\u00dfe 12, 20354 Hamburg, Germany",
+      "telephone": "+49-40-35678901",
+      "fax": "+49-40-35678902"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL SHIPPING SERVICES",
-      "address": "4567 OCEAN BOULEVARD, LONG BEACH, CA 90802"
+      "name": "EUROTECH GMBH",
+      "address": "Poststra\u00dfe 12, 20354 Hamburg, Germany",
+      "telephone": "+49-40-35678901",
+      "fax": "+49-40-35678902"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "620462",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "hsCode": "84798990",
+  "commodityDescription": "COMPUTER HARDWARE",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "CMAU7896543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
-      "grossWeight": 12000.0,
-      "measurement": 22.5
-    },
-    {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "765432",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 800,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
-      "grossWeight": 9600.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ET-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER HARDWARE",
+      "grossWeight": 1200.0,
+      "measurement": 5.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 1800,
-    "totalGrossWeight": 21600.0,
-    "totalMeasurement": 42.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 5.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "2345678-09",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "00002020339242"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
-    ],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86-21-5555-1212",
-      "fax": "+86-21-5555-1313"
+      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86-21-5555-1212",
-      "fax": "+86-21-5555-1313"
+      "name": "EUROTECH GMBH",
+      "address": "Poststra\u00dfe 12, 20354 Hamburg, Germany",
+      "telephone": "+49-40-35678901",
+      "fax": "+49-40-35678902"
     },
-    "onboardDate": "OCT. 29. 2024"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": ""
   }
 }

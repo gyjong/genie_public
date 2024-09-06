@@ -1,98 +1,104 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20240912101523",
   "voyageDetails": {
-    "vesselName": "EVER CHAMPION",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2434E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "123 Anson Road, #05-01, Anson Centre, Singapore 079903"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079905",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)",
+      "telephone": "+65 6222 8888",
+      "email": "shipping@asiapacifictrading.com.sg"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Stationsplein 4, 3013 AK Rotterdam, Netherlands",
-      "telephone": "+31 10 477 8800",
-      "fax": "+31 10 477 8899"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 15, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3119 0"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31 10 200 1234",
-      "fax": "+31 10 200 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 15, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3119 0"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854442",
+  "commodityDescription": "DIGITAL PROJECTORS AND ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT1234",
-      "numberOfPackages": 50,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY (H.S. CODE: 84798990)",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ET-123",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "200 PCS DIGITAL PROJECTORS MODEL X2000. GROSS WEIGHT 10,000 KGS.",
+      "grossWeight": 10000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "CMAU1111222",
+      "containerNumber": "MSCU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "GT5678",
-      "numberOfPackages": 30,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY (H.S. CODE: 84798990)",
-      "grossWeight": 8000.0,
-      "measurement": 18.0
+      "marksAndNumbers": "ET-456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES PROJECTOR ACCESSORIES (CABLES, REMOTES, LENSES) FOR MODEL X2000.",
+      "grossWeight": 2000.0,
+      "measurement": 8.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 80,
-    "packageType": "PACKAGES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 43.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 33.5
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": [
-      "COO123456789",
-      " fumigation certificate "
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Stationsplein 4, 3013 AK Rotterdam, Netherlands"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Alexandra Road, #05-01, Singapore 118500",
+      "telephone": "+65 6232 1111"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "123 Anson Road, #05-01, Anson Centre, Singapore 079903"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079905",
+      "telephone": "+65 6222 8888"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES."
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "CONTAINERS SEALED AND IN GOOD ORDER"
   }
 }

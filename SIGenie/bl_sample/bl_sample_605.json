@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912113012",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6737 8901",
+      "email": "info@asiatrading.sg"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "taxId": "12-3456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS",
+      "address": "234 ELM STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 310 555 9876",
+      "fax": "+1 310 555 9877"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "GLDU9754321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA MOTORCYCLE PARTS",
+      "grossWeight": 8500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0100102045678"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 ABC STREET, LOS ANGELES, CA 90010, USA",
+      "telephone": "+1 213 555 0000",
+      "fax": "+1 213 555 0001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 ABC STREET, LOS ANGELES, CA 90010, USA",
+      "telephone": "+1 213 555 0000",
+      "fax": "+1 213 555 0001"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

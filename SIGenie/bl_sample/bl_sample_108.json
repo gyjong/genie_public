@@ -1,111 +1,96 @@
 {
-  "bookingReference": "APPLE20240918123456",
+  "bookingReference": "ORANGE20241026143012",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "NO. 1234, HUAIHAI ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(HONGKOU DISTRICT)"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON CENTRE, SINGAPORE 068905",
+      "telephone": "+65-6536-8200",
+      "fax": "+65-6536-8299"
     },
     "consignee": {
-      "name": "EUROTRADING GMBH",
-      "address": "MARKTPLATZ 1, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADING.DE",
-      "telephone": "+49 69 798900"
+      "name": "EUROASIA IMPORTS BV",
+      "address": "WEENA 325, 3013 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-0600",
+      "fax": "+31-10-205-0699"
     },
     "notifyParty": {
-      "name": "EUROTRADING GMBH",
-      "address": "MARKTPLATZ 1, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADING.DE",
-      "telephone": "+49 69 798900"
+      "name": "EUROASIA IMPORTS BV",
+      "address": "WEENA 325, 3013 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-0600",
+      "fax": "+31-10-205-0699"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ETG123",
+      "containerNumber": "TECU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EA20241026",
       "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS FOR LOOMS",
-      "grossWeight": 12000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "ETG456",
-      "numberOfPackages": 30,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARS AND SHAFTS FOR SPINNING MACHINES",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "ONEU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ETG789",
-      "numberOfPackages": 20,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS FOR WEAVING MACHINES",
-      "grossWeight": 5000.0,
-      "measurement": 10.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS (RESISTORS, CAPACITORS)",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "MIXED",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "TECU9876543",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries packed in accordance with UN3334 regulations"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20240912",
-    "hsCode": "84798990",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC1234567890123456789"
     },
-    "certificateDetails": "COO - CHINA",
+    "certificateDetails": "SGS-20241026-12345",
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "123 MAIN STREET, LONDON, UK WC1A 1AA",
-      "telephone": "+44 20 7992 2000"
+      "name": "EUROASIA IMPORTS BV",
+      "address": "WEENA 325, 3013 AD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-205-0600",
+      "fax": "+31-10-205-0699"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADING GMBH",
-      "address": "MARKTPLATZ 1, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "telephone": "+49 69 798900",
-      "fax": "+49 69 798901"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON CENTRE, SINGAPORE 068905",
+      "telephone": "+65-6536-8200",
+      "fax": "+65-6536-8299"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO SHIPPED ON DECK"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Batteries packed in accordance with UN3334 regulations"
   }
 }

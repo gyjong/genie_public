@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20241018142531",
+  "bookingReference": "APPLE20241015134502",
   "voyageDetails": {
-    "vesselName": "MSC MARIA",
-    "voyageNumber": "2410W219",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024092",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-4567"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
     },
     "consignee": {
-      "name": "EUROFRESH BV",
-      "address": "DEIJLSTRAAT 123, 3011 GG ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstrasse 25, 20095 Hamburg, Germany",
+      "telephone": "+49-40-3039-6000",
+      "fax": "+49-40-3039-6001"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstrasse 25, 20095 Hamburg, Germany",
+      "telephone": "+49-40-3039-6000",
+      "fax": "+49-40-3039-6001"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "070110",
-  "commodityDescription": "FRESH PEACHES",
+  "shippingTerm": "CFR",
+  "hsCode": "8541.40",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "Peach Delight",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "FRESH PEACHES, GRADE A, PACKED IN CARTONS. COUNT & WEIGHT. SHIPPER'S LOAD AND COUNT.",
-      "grossWeight": 18000.0,
-      "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE CONTROLLED CONTAINER"
+      "marksAndNumbers": "ET231015",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 1200.5,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
     "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 25.0
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1200.5,
+    "totalMeasurement": 1.5
   },
-  "reeferSettings": {
+  "dangerousGoods": {
     "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC20241018123456"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE",
-      "CERTIFICATE OF ORIGIN"
-    ],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-4567"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstrasse 25, 20095 Hamburg, Germany",
+      "telephone": "+49-40-3039-6000",
+      "fax": "+49-40-3039-6001"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-4567"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
     },
-    "onboardDate": "OCT. 22. 2024",
-    "additionalRemarks": "Fruits are pre-cooled before loading."
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

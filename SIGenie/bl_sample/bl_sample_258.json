@@ -1,15 +1,15 @@
 {
-  "bookingReference": "PEACH20241017133045",
+  "bookingReference": "APPLE20241025143211",
   "voyageDetails": {
-    "vesselName": "MAERSK ESSEN",
-    "voyageNumber": "2437E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2439W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,89 +17,74 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "name": "SHANGHAI ZHENHUA CO., LTD.",
       "onBehalfOf": "",
-      "address": "201, Anson Road, #12-01 Anson Centre, Singapore 079912",
-      "telephone": "+65-6227-8900",
-      "fax": "+65-6227-8901"
+      "address": "NO. 288, YINGGAO ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
     "consignee": {
-      "name": "EUROFRESH IMPORT & EXPORT BV",
-      "address": "Karel Doormanweg 123, 3012 AA Rotterdam, Netherlands",
+      "name": "EURO imporT B.V.",
+      "address": "WEGELAAN 50, 3011 AA ROTTERDAM, NETHERLANDS",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "123 Main Street, London, UK SE1 1AA"
+      "name": "GREEN LOGISTICS LTD",
+      "address": "WATERLOO SQUARE 2, 2544NL THE HAGUE, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "080290",
-  "commodityDescription": "GRAPES",
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "SUDU9561732",
       "sealNumber": "123456",
-      "marksAndNumbers": "GR1234",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN GRAPES",
-      "grossWeight": 18000.0,
-      "measurement": 25.0,
-      "additionalInfo": "COOLING REQUIRED"
-    },
-    {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GR5678",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN GRAPES",
-      "grossWeight": 18000.0,
-      "measurement": 25.0,
-      "additionalInfo": "COOLING REQUIRED"
+      "marksAndNumbers": "ZH-123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 2500.0,
+      "measurement": 5.5,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
-    "totalPackages": 2000,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 5.5
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "9876543210"
     },
     "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE"
+      "CN20241025001",
+      "CN20241025002"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "201, Anson Road, #12-01 Anson Centre, Singapore 079912",
-      "telephone": "+65-6227-8900",
-      "fax": "+65-6227-8901"
+      "name": "SHANGHAI ZHENHUA CO., LTD.",
+      "address": "NO. 288, YINGGAO ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6278-1234",
+      "fax": "+86-21-6278-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH IMPORT & EXPORT BV",
-      "address": "Karel Doormanweg 123, 3012 AA Rotterdam, Netherlands"
+      "name": "EURO imporT B.V.",
+      "address": "WEGELAAN 50, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "GRAPES ARE PACKED IN CARTONS AND SHOULD BE KEPT REFRIGERATED DURING TRANSIT"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: EUR 10,000"
   }
 }

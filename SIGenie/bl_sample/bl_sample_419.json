@@ -1,20 +1,20 @@
 {
-  "bookingReference": "STARFRUIT20241026134512",
+  "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024103",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "243567",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "SHANGHAI, CHINA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,79 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "200 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "DELTA TRADING BV",
+      "address": "KEIZER STREET 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "email": "INFO@DELTATRADING.NL"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
-      "companyNumber": "12345678"
+      "name": "ASIA IMPORT & EXPORT CO. LTD",
+      "address": "ROOM 501, NO. 288 XINZHU ROAD, SHANGHAI, CHINA",
+      "taxId": "91330100789012345X",
+      "president": "MS. LI WEI",
+      "telephone": "+86 21 6321 7890",
+      "fax": "+86 21 6321 7891"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS GROUP",
-      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401, USA"
+      "name": "ASIA IMPORT & EXPORT CO. LTD",
+      "address": "ROOM 501, NO. 288 XINZHU ROAD, SHANGHAI, CHINA",
+      "taxId": "91330100789012345X",
+      "president": "MS. LI WEI",
+      "telephone": "+86 21 6321 7890",
+      "fax": "+86 21 6321 7891"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "shippingTerm": "CFR",
+  "hsCode": "8708709090",
+  "commodityDescription": "MOTORCYCLE PARTS - ENGINE BLOCKS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS INDICATED. SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 6500.0,
-      "measurement": 20.0,
-      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
-    },
-    {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS INDICATED. SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 6500.0,
-      "measurement": 20.0,
-      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SHANGHAI, CHINA MOTORCYCLE PARTS - ENGINE BLOCKS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
     "totalPackages": 100,
     "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 13000.0,
-    "totalMeasurement": 40.0
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "0200301045678"
     },
-    "certificateDetails": [
-      "CO-123456789",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "1050030070131",
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "200 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6321 7892",
+      "fax": "+86 21 6321 7893"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 6321 7892",
+      "fax": "+86 21 6321 7893"
     },
-    "onboardDate": "OCT. 31. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT PACKING"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS IN GOOD ORDER AND CONDITION"
   }
 }

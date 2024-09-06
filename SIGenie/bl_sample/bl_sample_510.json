@@ -1,96 +1,95 @@
 {
-  "bookingReference": "APPLE20241015113045",
+  "bookingReference": "APPLE20240912102512",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2445W",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2436E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
-      "telephone": "+65-6536-9876",
-      "fax": "+65-6536-9875"
+      "name": "DELTA TRADING LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7555 1234",
+      "email": "INFO@DELTATRADING.CO.UK"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "HERMANNSTRASSE 12, 20095 HAMBURG, GERMANY",
-      "telephone": "+49-40-3777-8888",
-      "fax": "+49-40-3777-8887"
+      "name": "SEA LION LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "GST123456789",
+      "president": "MR. LEO TAN",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
-      "telephone": "+65-6536-9876",
-      "fax": "+65-6536-9875"
+      "name": "DELTA TRADING LTD",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7555 1234",
+      "email": "INFO@DELTATRADING.CO.UK"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRICAL COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLE PARTS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "APTC123",
-      "numberOfPackages": 100,
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 100 CARTONS OF ELECTRONIC COMPONENTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE MOTORCYCLE PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 100,
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "CARTONS",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.5
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "TCLU9876543",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8544.42",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY CONTAINING ELECTRONIC COMPONENTS"
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0200201033738"
     },
-    "certificateDetails": "2345678901234",
+    "certificateDetails": "1050020070131",
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "HERMANNSTRASSE 12, 20095 HAMBURG, GERMANY",
-      "telephone": "+49-40-3777-8888",
-      "fax": "+49-40-3777-8887"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 Kallang Avenue #03-01, Singapore 208716",
+      "telephone": "+65 6339 5555",
+      "fax": "+65 6339 5556"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905",
-      "telephone": "+65-6536-9876",
-      "fax": "+65-6536-9875"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 Kallang Avenue #03-01, Singapore 208716",
+      "telephone": "+65 6339 5555",
+      "fax": "+65 6339 5556"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "BATTERY CONTAINING ELECTRONIC COMPONENTS"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

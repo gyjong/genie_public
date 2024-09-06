@@ -1,106 +1,110 @@
 {
-  "bookingReference": "APPLE20241026143045",
+  "bookingReference": "APPLE20240912121545",
   "voyageDetails": {
-    "vesselName": "MSC CHLOE",
+    "vesselName": "CMA CGM GRACE BAY",
     "voyageNumber": "2438E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "name": "ASIA PACIFIC TRADING CO.",
       "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)"
     },
     "consignee": {
-      "name": "EUROFRESH IMPORTS BV",
-      "address": "Willemskade 23, 3016 BA Rotterdam, Netherlands",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-7890"
+      "name": "EUROTECH GMBH",
+      "address": "Gustav-Stresemann-Ring 10, 65189 Wiesbaden",
+      "country": "GERMANY",
+      "email": "orders@eurotech.de, info@eurotech.de",
+      "telephone": "+49 611 715 300"
     },
     "notifyParty": {
-      "name": "EUROFRESH LOGISTICS",
-      "address": "Keizersgracht 123, 1016 DW Amsterdam, Netherlands",
-      "telephone": "+31-20-678-9012",
-      "fax": "+31-20-678-9034"
+      "name": "KLM LOGISTICS",
+      "address": "Van der Kooijlaan 1, 1182 NE Amstelveen",
+      "country": "NETHERLANDS",
+      "email": "operations@klmlogistics.nl",
+      "telephone": "+31 20 644 7777"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "0805.10",
-  "commodityDescription": "ORANGES",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL REFRIGERATION UNITS",
   "containers": [
     {
-      "containerNumber": "SEGU4567890",
+      "containerNumber": "UTLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "OR231026",
-      "numberOfPackages": 1200,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ORANGES",
-      "grossWeight": 22000.0,
-      "measurement": 35.0
+      "marksAndNumbers": "FRZ-2024-01",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) INDUSTRIAL REFRIGERATION UNIT, MODEL FRZ-2024, WEIGHT 5000 KGS",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "UTLU87654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "OR231026",
-      "numberOfPackages": 1200,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ORANGES",
-      "grossWeight": 22000.0,
-      "measurement": 35.0
+      "marksAndNumbers": "FRZ-2024-02",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) INDUSTRIAL REFRIGERATION UNIT, MODEL FRZ-2024, WEIGHT 5000 KGS",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "UTLU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "FRZ-2024-03",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) INDUSTRIAL REFRIGERATION UNIT, MODEL FRZ-2024, WEIGHT 5000 KGS",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 2400,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 44000.0,
-    "totalMeasurement": 70.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNIT",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 45.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
+    "purchaseOrderNumber": "PO-2024-FRZ-001",
+    "hsCode": "8479899090",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 231026001",
+    "certificateDetails": "SGS Certificate No. 20241012345",
     "originalBLDistribution": {
-      "name": "EUROFRESH IMPORTS BV",
-      "address": "Willemskade 23, 3016 BA Rotterdam, Netherlands",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-7890"
+      "name": "HSBC BANK",
+      "address": "1 Queen's Road Central, Hong Kong",
+      "telephone": "+852 2288 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "name": "ASIA PACIFIC TRADING CO.",
       "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 5678"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "SHIPMENT SUBJECT TO INSPECTION BY CUSTOMS AUTHORITIES"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Units pre-assembled and tested. Customs clearance required at destination."
   }
 }

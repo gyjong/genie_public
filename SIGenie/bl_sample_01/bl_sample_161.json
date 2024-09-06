@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PINEAPPLE20241026134511",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": "FRUITFUL HARVEST CO.",
+      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS BV",
+      "address": "DE KOPPEL 15, 3011 GG ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "CARGO LOGISTICS BV",
+      "address": "ZUIDERHOF 21, 3075 KV ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "080590",
+  "commodityDescription": "PINEAPPLES, FRESH",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "FRUIT23",
+      "numberOfPackages": 1200,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINEAPPLES, FRESH",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": "COC PROVIDED. CONTAINER IS PROPERTY OF MAERSK."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 1200,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "PINEAPPLES SHIPPED IN GOOD CONDITION."
+  }
+}

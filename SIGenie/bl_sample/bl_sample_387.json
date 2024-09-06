@@ -1,100 +1,96 @@
 {
-  "bookingReference": "ORANGE20240926124532",
+  "bookingReference": "GRAPE20241015142502",
   "voyageDetails": {
-    "vesselName": "MSC ZARA",
-    "voyageNumber": "2435E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2438W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "address": "NO. 158, CHANGSHU ROAD, SHANGHAI, 200080",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong New Area)"
+      "name": "SEAFOOD SINGAPORE PTE LTD",
+      "address": "200 Jalan Sultan, #03-01 Sultan Plaza, Singapore 199018",
+      "telephone": "+65 6226 5555",
+      "fax": "+65 6226 5556"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEIEN 11, 3063 VL ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 10 462 8000"
+      "name": "FISH DELIGHT BV",
+      "address": "Weteringschans 123, 1017XC Amsterdam, Netherlands",
+      "telephone": "+31 20 666 7777",
+      "fax": "+31 20 666 7778"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEIEN 11, 3063 VL ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 10 462 8000"
+      "name": "SEAFOOD SINGAPORE PTE LTD",
+      "address": "200 Jalan Sultan, #03-01 Sultan Plaza, Singapore 199018",
+      "telephone": "+65 6226 5555",
+      "fax": "+65 6226 5556"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "shippingTerm": "CIF",
+  "hsCode": "030729",
+  "commodityDescription": "FROZEN TUNA",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT, 200 LITRE DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU6543210",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT, 200 LITRE DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
+      "containerNumber": "CCMU8173529",
+      "sealNumber": "789456",
+      "marksAndNumbers": "SEAFOOD-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "FROZEN TUNA - 100 CARTONS, NET WEIGHT 10.0KG PER CARTON",
+      "grossWeight": 1006.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 1000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 41000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1006.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29153100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO87654321",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "HEALTH CERTIFICATE 1234567890",
     "originalBLDistribution": {
-      "name": "BANK OF CHINA",
-      "address": "100 YINCHENG ROAD, SHANGHAI, 200000",
-      "telephone": "+86 21 6888 8888"
+      "name": "FISH DELIGHT BV",
+      "address": "Weteringschans 123, 1017XC Amsterdam, Netherlands",
+      "telephone": "+31 20 666 7777",
+      "fax": "+31 20 666 7778"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "DE KOEIEN 11, 3063 VL ROTTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 10 462 8000"
+      "name": "SEAFOOD SINGAPORE PTE LTD",
+      "address": "200 Jalan Sultan, #03-01 Sultan Plaza, Singapore 199018",
+      "telephone": "+65 6226 5555",
+      "fax": "+65 6226 5556"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nAll charges prepaid"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "CARGO STOWED IN REFRIGERATED CONTAINER"
   }
 }

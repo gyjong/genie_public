@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015103002",
+  "bookingReference": "APPLE20241018142345",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2224W02",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2436W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,61 +17,51 @@
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "Seaway Bill",
+    "blType": "Original",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "2345 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "WEESTERDORP 100, 3016 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "EURO TRADING BV",
+      "address": "WEENA 250, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "2345 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "EURO TRADING BV",
+      "address": "WEENA 250, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
     }
   },
-  "shippingTerm": "CIF",
+  "shippingTerm": "CFR",
   "hsCode": "8544.42",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "GMLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-123",
-      "numberOfPackages": 10,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, MARKED & NUMBERED AS SHOWN. 10 CARTONS ELECTRIC MOTORS",
-      "grossWeight": 1500.0,
-      "measurement": 1.8
-    },
-    {
-      "containerNumber": "GMLU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "SUNRISE-456",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, MARKED & NUMBERED AS SHOWN. 5 PALLETS ELECTRIC MOTORS",
-      "grossWeight": 750.0,
-      "measurement": 0.9
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "CARTONS & PALLETS",
-    "totalGrossWeight": 2250.0,
-    "totalMeasurement": 2.7
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
   },
   "dangerousGoods": {
     "containerNumber": "",
@@ -82,25 +72,25 @@
     "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20241015001",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "WEESTERDORP 100, 3016 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "EURO TRADING BV",
+      "address": "WEENA 250, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "2345 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
-    "onboardDate": "OCT. 20. 2024",
+    "onboardDate": "OCT. 22. 2024",
     "additionalRemarks": ""
   }
 }

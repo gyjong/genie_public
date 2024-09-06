@@ -1,96 +1,97 @@
 {
-  "bookingReference": "APPLE20241015143057",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "224W18",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2426E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
       "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "email": "info@asiatrading.com"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany",
-      "telephone": "+49 69 7574 3000",
-      "fax": "+49 69 7574 3001"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "Pieterstraat 123, 3012 AA Rotterdam, Netherlands",
+      "taxId": "NL853472658B01",
+      "president": "Mr. Hans van der Meer",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "Pieterstraat 123, 3012 AA Rotterdam, Netherlands",
+      "taxId": "NL853472658B01",
+      "president": "Mr. Hans van der Meer",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8543.70",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROTECH-123",
-      "numberOfPackages": 150,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER INVOICE NO. 20241015-001.",
-      "grossWeight": 4500.0,
-      "measurement": 15.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, NETHERLANDS MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 150,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 4500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "BOXES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
   },
-  "dangerousGoods": {
-    "containerNumber": "TCLU1234567",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8543.70",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "Lithium-ion batteries contained in electronic components."
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-20241015-001",
-    "salesOrderNumber": "SO-20241015-002",
     "lcDetails": {
-      "lcNumber": "LC-20241015-003"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": "20241015-CERT-001",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany",
-      "telephone": "+49 69 7574 3000",
-      "fax": "+49 69 7574 3001"
+      "name": "DHL EXPRESS",
+      "address": "DHL Express Singapore Pte Ltd, 1 Temasek Avenue, #06-01, Singapore 039192",
+      "telephone": "+65 6323 9191",
+      "fax": "+65 6323 9190"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "DHL EXPRESS",
+      "address": "DHL Express Singapore Pte Ltd, 1 Temasek Avenue, #06-01, Singapore 039192",
+      "telephone": "+65 6323 9191",
+      "fax": "+65 6323 9190"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN ACCORDANCE WITH IATA DANGEROUS GOODS REGULATIONS."
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

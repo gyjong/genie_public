@@ -1,106 +1,97 @@
 {
-  "bookingReference": "APPLE20240915124521",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC LUCIANA",
-    "voyageNumber": "2432W",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024040",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN HONGJIANG IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 188, SHANXI ROAD, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(ZIP CODE: 528401)",
-      "telephone": "+86 757 8226 6888",
-      "email": "sales@hongjiang-import.com"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "100 ORCHARD ROAD, #12-01, SINGAPORE 238840"
     },
     "consignee": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@DEUTSCHEIMPORTS.DE, ORDERS@DEUTSCHEIMPORTS.DE",
-      "telephone": "+49 40 3999 8765"
+      "name": "EUROPEAN IMPORTS BV",
+      "address": "WEGELAAN 100, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@DEUTSCHEIMPORTS.DE, ORDERS@DEUTSCHEIMPORTS.DE",
-      "telephone": "+49 40 3999 8765"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "123 ALEXANDRA ROAD, #05-01, SINGAPORE 159939",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL PUMPS",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
   "containers": [
     {
-      "containerNumber": "SEGU9876543",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "HJ20240915",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: 50 ELECTRIC MOTORS FOR INDUSTRIAL PUMPS, MODEL: HM-200",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
+      "containerNumber": "CMAU8673529",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS FOR FOOD PROCESSING (AS PER PACKING LIST)",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "SEGU1234567",
-      "sealNumber": "9876543210",
-      "marksAndNumbers": "HJ20240915",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: 50 ELECTRIC MOTORS FOR INDUSTRIAL PUMPS, MODEL: HM-200",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 15,
+      "cargoDescription": "MACHINERY PARTS FOR FOOD PROCESSING (AS PER PACKING LIST)",
+      "grossWeight": 15000.0,
+      "measurement": 40.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 51.0
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20GP",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 75.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COO-CN20240915"
+      "COO-2024-0912-123"
     ],
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "123 HIGH STREET, LONDON WC1A 1AA, UK",
-      "telephone": "+44 20 7662 7100"
+      "name": "EUROPEAN IMPORTS BV",
+      "address": "WEGELAAN 100, 3011 AA ROTTERDAM, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "123 HIGH STREET, LONDON WC1A 1AA, UK",
-      "telephone": "+44 20 7662 7100"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "100 ORCHARD ROAD, #12-01, SINGAPORE 238840"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "Value: USD 150,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES. INSURANCE POLICY NUMBER: 1234567890"
   }
 }

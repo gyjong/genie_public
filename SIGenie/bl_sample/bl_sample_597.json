@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912143521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EUROLOG GMBH",
+      "address": "Frankfurter Strasse 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Postfach 10 02 56, 60002 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79797979",
+      "fax": "+49 69 79797980"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU3216789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOX1",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINE PARTS (H.S. CODE: 84798990)",
+      "grossWeight": 8500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BOX2",
+      "numberOfPackages": 20,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINE PARTS (H.S. CODE: 84798990)",
+      "grossWeight": 9200.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 35,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 17700.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": [
+      "COO-20240912-001",
+      " fumigation certificate-20240912-002"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROLOG GMBH",
+      "address": "Frankfurter Strasse 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "All cargo packed in wooden crates suitable for sea transportation."
+  }
+}

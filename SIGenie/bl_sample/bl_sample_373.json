@@ -1,100 +1,107 @@
 {
-  "bookingReference": "PEAR202410191142100",
+  "bookingReference": "ORANGE20240915141235",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2431E",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2422E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
-      "address": "ROOM 502, UNIT 1, NO. 888 HUANGPU ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "86-21-6327-5678",
-      "fax": "86-21-6327-5679"
+      "name": "CHINA INTERNATIONAL TRADING CO., LTD.",
+      "address": "NO. 1888, XINHE ROAD, JIANGNING DISTRICT, NANJING, 211100",
+      "country": "CHINA",
+      "additionalInfo": "(NANJING BRANCH)",
+      "telephone": "+86 25 8488 1234",
+      "email": "LIU.JING@CITC.CN"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90045",
-      "telephone": "1-310-555-1212",
-      "fax": "1-310-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH GMBH",
+      "address": "KLEIN-REISENSTRASSE 12, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 367890"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL FREIGHT SOLUTIONS",
-      "address": "1500 MARKET STREET, SUITE 300, SAN FRANCISCO, CA 94102",
-      "telephone": "1-415-555-2323",
-      "fax": "1-415-555-2324"
+      "name": "EUROTECH GMBH",
+      "address": "KLEIN-REISENSTRASSE 12, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 367890"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "610910",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATION EQUIPMENT FOR INDUSTRIAL ROBOTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, SIZE L, COLOR BLUE",
-      "grossWeight": 12500.0,
-      "measurement": 22.5
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATION EQUIPMENT FOR INDUSTRIAL ROBOTS (MODEL RX-75)",
+      "grossWeight": 15000.0,
+      "measurement": 28.5
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, SIZE XL, COLOR RED",
-      "grossWeight": 12300.0,
-      "measurement": 22.0
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATION EQUIPMENT FOR INDUSTRIAL ROBOTS (MODEL RX-75)",
+      "grossWeight": 7500.0,
+      "measurement": 14.25
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 24800.0,
-    "totalMeasurement": 44.5
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 42.75
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20241019-001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112724080179X",
-      "4112724080180X"
+      "CN202409151234",
+      "CN202409151235"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
-      "address": "ROOM 502, UNIT 1, NO. 888 HUANGPU ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "86-21-6327-5678",
-      "fax": "86-21-6327-5679"
+      "name": "HANJIN LOGISTICS",
+      "address": "2222 K STREET NW, WASHINGTON, DC 20037, USA",
+      "telephone": "+1 202 555 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
-      "address": "ROOM 502, UNIT 1, NO. 888 HUANGPU ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "86-21-6327-5678",
-      "fax": "86-21-6327-5679"
+      "name": "CHINA INTERNATIONAL TRADING CO., LTD.",
+      "address": "NO. 1888, XINHE ROAD, JIANGNING DISTRICT, NANJING, 211100",
+      "telephone": "+86 25 8488 1234"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "VALUE: EUR 50,000"
   }
 }

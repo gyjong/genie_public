@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241017142503",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2438W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Weesperstraat 75, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
+    },
+    "notifyParty": {
+      "name": "EURO IMPORTS BV",
+      "address": "Weesperstraat 75, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EM-123",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 2 MOTORCYCLES (MODEL X500)",
+      "grossWeight": 1250.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 15.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Weesperstraat 75, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

@@ -1,98 +1,96 @@
 {
-  "bookingReference": "APPLE202410172341100",
+  "bookingReference": "APPLE20241015112302",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024305",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 3
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
     },
     "consignee": {
-      "name": "EUROTRANS LOGISTICS BV",
-      "address": "Willemskade 12, 3016 DK Rotterdam, Netherlands",
-      "telephone": "+31 10 414 2000",
-      "fax": "+31 10 414 2001",
-      "email": "info@eurotrans.nl",
-      "contactPerson": "Pieter Van Der Meer"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE IMPORTS BV",
-      "address": "Amsteldijk 168, 1079 LH Amsterdam, Netherlands",
-      "telephone": "+31 20 675 2345",
-      "fax": "+31 20 675 2346"
+      "name": "WEST COAST LOGISTICS",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90002, USA",
+      "telephone": "+1-310-555-2323",
+      "fax": "+1-310-555-2324"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "INDUSTRIAL LASER CUTTING MACHINE",
+  "shippingTerm": "CFR",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU3859765",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "LASER123",
-      "numberOfPackages": 1,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ONE INDUSTRIAL LASER CUTTING MACHINE",
-      "grossWeight": 12500.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "MSCU7890123",
-      "sealNumber": "789012",
-      "marksAndNumbers": "LASER456",
-      "numberOfPackages": 1,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ACCESSORIES FOR INDUSTRIAL LASER CUTTING MACHINE",
-      "grossWeight": 2000.0,
-      "measurement": 10.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 10 BOXES OF MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 2500.0,
+      "measurement": 10.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT CONTAINERS",
-    "totalPackages": 2,
-    "totalGrossWeight": 14500.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "20231017-001",
-    "documentNumber": "202410170001",
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CE-20241017"
-    ],
+    "certificateDetails": "CO12345678",
     "originalBLDistribution": {
-      "name": "EUROTRANS LOGISTICS BV",
-      "address": "Willemskade 12, 3016 DK Rotterdam, Netherlands",
-      "telephone": "+31 10 414 2000",
-      "fax": "+31 10 414 2001"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

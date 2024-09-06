@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "EVER EVER",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "258 NANJING ROAD EAST, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(HUAFA TOWER)"
+    },
+    "consignee": {
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@GERMANIMPORTS.DE",
+      "telephone": "+49 69 79876543"
+    },
+    "notifyParty": {
+      "name": "CUSTOMS BROKER SERVICES",
+      "address": "SPUISTRAAT 10, 3012 VL ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@CUSTOMSBROKERS.NL",
+      "telephone": "+31 10 4123456"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOX NO. 123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20MT ETHYL ACETATE IN 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BOX NO. 456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20MT ETHYL ACETATE IN 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABCDE",
+    "hsCode": "291539",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 71234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 71234567"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

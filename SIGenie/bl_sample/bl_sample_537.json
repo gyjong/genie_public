@@ -1,96 +1,110 @@
 {
-  "bookingReference": "APRICOT20241015143022",
+  "bookingReference": "GRAPE20241018123456",
   "voyageDetails": {
-    "vesselName": "MSC MIA",
-    "voyageNumber": "2428E",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "123 Cecil Street, #10-01, Singapore 069535",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0124"
+      "name": "SHANGHAI IRON & STEEL CO., LTD.",
+      "address": "NO. 1588, SHANGHAI ROAD, JIANGSU PROVINCE, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Keizersgracht 123, 1016 EA Amsterdam, Netherlands",
-      "telephone": "+31-20-1234-5678",
-      "fax": "+31-20-1234-5679"
+      "name": "EUROSTEEL BV",
+      "address": "BEZUIDENHOUTSEWEG 100, 2596 BC THE HAGUE",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROSTEEL.NL",
+      "telephone": "+31 70 314 9900"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Prinsestraat 234, 2511 CP The Hague, Netherlands",
-      "telephone": "+31-70-345-6789",
-      "fax": "+31-70-345-6790"
+      "name": "EUROSTEEL BV",
+      "address": "BEZUIDENHOUTSEWEG 100, 2596 BC THE HAGUE",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROSTEEL.NL",
+      "telephone": "+31 70 314 9900"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8708.99",
-  "commodityDescription": "MOTORCYCLE PARTS",
+  "hsCode": "720837",
+  "commodityDescription": "STEEL BILLETS",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
+      "containerNumber": "TCLU9657483",
       "sealNumber": "123456",
-      "marksAndNumbers": "GLT-123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. MOTORCYCLE PARTS AS PER PACKING LIST.",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "marksAndNumbers": "SB123",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL BILLETS 20MT, 1000 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SB456",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL BILLETS 20MT, 1000 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "135790",
+      "marksAndNumbers": "SB789",
+      "numberOfPackages": 1000,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL BILLETS 20MT, 1000 BUNDLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 35.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BUNDLES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-2024-10-15-001",
-    "salesOrderNumber": "SO-2024-10-15-002",
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "720837",
+    "freeTimeAtDestination": "14 DAYS",
     "lcDetails": {
-      "lcNumber": "LC20241015003"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "20241015-004",
+    "certificateDetails": "CERT1234567890",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Keizersgracht 123, 1016 EA Amsterdam, Netherlands",
-      "telephone": "+31-20-1234-5678",
-      "fax": "+31-20-1234-5679"
+      "name": "EUROBANK NETHERLANDS",
+      "address": "KLOVENIERSBURGWAL 50, 1012 CX AMSTERDAM",
+      "telephone": "+31 20 555 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Prinsestraat 234, 2511 CP The Hague, Netherlands",
-      "telephone": "+31-70-345-6789",
-      "fax": "+31-70-345-6790"
+      "name": "EUROSTEEL BV",
+      "address": "BEZUIDENHOUTSEWEG 100, 2596 BC THE HAGUE",
+      "telephone": "+31 70 314 9900",
+      "fax": "+31 70 314 9901"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "additionalRemarks": "14 Days Free Time at Destination\nALL FREIGHT PREPAID"
   }
 }

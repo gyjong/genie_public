@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PEACH20240912123456",
+  "voyageDetails": {
+    "vesselName": "COSCO CHONGQING 07",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHEJIANG WEISHI IMPORT & EXPORT CO., LTD",
+      "address": "NO.333, XINHU ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "telephone": "+86 579 8612 3456",
+      "email": "SALES@WEISHITRADING.COM"
+    },
+    "consignee": {
+      "name": "CALIFORNIA HARDWARE INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "taxId": "9876543210",
+      "president": "MS. JANE SMITH",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
+    },
+    "notifyParty": {
+      "name": "CALIFORNIA HARDWARE INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "taxId": "9876543210",
+      "president": "MS. JANE SMITH",
+      "telephone": "+1 555 123 4567",
+      "fax": "+1 555 123 4568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "82054000",
+  "commodityDescription": "METAL DOOR FRAMES",
+  "containers": [
+    {
+      "containerNumber": "CMAU8897654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR LOS ANGELES, USA METAL DOOR FRAMES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' Dry Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0300301045678"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "1234 LOGISTICS WAY, LOS ANGELES, CA 90002, USA",
+      "telephone": "+1 555 567 8901",
+      "fax": "+1 555 567 8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "1234 LOGISTICS WAY, LOS ANGELES, CA 90002, USA",
+      "telephone": "+1 555 567 8901",
+      "fax": "+1 555 567 8902"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPPER'S SEAL USED. "
+  }
+}

@@ -1,110 +1,110 @@
 {
-  "bookingReference": "APPLE20240922125523",
+  "bookingReference": "GRAPE20240925123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2434W",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2431E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 Bishan Street 22 #05-01, Bishan Biz Hub, Singapore 573965",
       "country": "SINGAPORE",
-      "additionalInfo": ""
+      "additionalInfo": "(Contact: Mr. Lim)"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 2000"
+      "name": "EUROCHEM GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 30 20001234"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 2000"
+      "name": "EUROCHEM GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "logistics@eurochem.de",
+      "telephone": "+49 30 20005678"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "29031100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "hsCode": "29033910",
+  "commodityDescription": "ETHYL ACETATE, INDUSTRIAL GRADE",
   "containers": [
     {
-      "containerNumber": "TCLU5963852",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE 2024",
-      "numberOfPackages": 1000,
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 500,
       "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20200.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, INDUSTRIAL GRADE, 200 LITERS PER DRUM",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "TCLU7895643",
-      "sealNumber": "654321",
-      "marksAndNumbers": "SUNRISE 2024",
-      "numberOfPackages": 1000,
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 500,
       "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20200.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, INDUSTRIAL GRADE, 200 LITERS PER DRUM",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "CMAU4321098",
       "sealNumber": "789012",
-      "marksAndNumbers": "SUNRISE 2024",
-      "numberOfPackages": 1000,
+      "marksAndNumbers": "EC789",
+      "numberOfPackages": 500,
       "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20200.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, INDUSTRIAL GRADE, 200 LITERS PER DRUM",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
     "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
+    "totalPackages": 1500,
     "packageType": "DRUMS",
-    "totalGrossWeight": 60600.0,
-    "totalMeasurement": 75.0
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
     "purchaseOrderNumber": "PO123456789",
-    "hsCode": "29031100",
+    "hsCode": "29033910",
     "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "SGS-2024-123456",
+    "certificateDetails": "COC issued by Singapore Chemical Association",
     "originalBLDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 2000"
+      "name": "EUROCHEM GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "telephone": "+49 30 20001234"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 Bishan Street 22 #05-01, Bishan Biz Hub, Singapore 573965",
+      "telephone": "+65 62551234",
+      "fax": "+65 62555678"
     },
-    "onboardDate": "SEPT. 25. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nGOODS SHIPPED IN SOUND CONDITION\nCERTIFICATE OF ORIGIN ATTACHED"
+    "onboardDate": "SEPT. 27. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nInsurance arranged by shipper"
   }
 }

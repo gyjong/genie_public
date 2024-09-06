@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2432E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON CENTRE, SINGAPORE 068905",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6223 4567",
+      "email": "INFO@SUNRISETRADING.COM.SG"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "country": "UNITED STATES",
+      "email": "ORDERS@WESTCOASTIMPORTS.COM",
+      "telephone": "+1 213 555 1234"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS LLC",
+      "address": "4567 MARKET STREET, SAN FRANCISCO, CA 94103, USA",
+      "country": "UNITED STATES",
+      "email": "NOTIFICATIONS@GOLDENGATELOGISTICS.COM",
+      "telephone": "+1 415 777 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "DIGITAL CAMERA LENSES AND ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO. PTE LTD",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 100 CARTONS DIGITAL CAMERA LENSES AND ACCESSORIES. GROSS WEIGHT: 2500 KGS.",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TRADING CO. PTE LTD",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 100 CARTONS DIGITAL CAMERA LENSES AND ACCESSORIES. GROSS WEIGHT: 2500 KGS.",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-0012345"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON CENTRE, SINGAPORE 068905",
+      "telephone": "+65 6223 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON CENTRE, SINGAPORE 068905",
+      "telephone": "+65 6223 4567"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD 50,000.00"
+  }
+}

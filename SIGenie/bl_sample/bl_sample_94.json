@@ -1,98 +1,100 @@
 {
-  "bookingReference": "APPLE20240912142501",
+  "bookingReference": "APPLE202410051234567",
   "voyageDetails": {
-    "vesselName": "MSC LUCIANA",
+    "vesselName": "APL VANDA",
     "voyageNumber": "2437E",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "MASTER",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza Singapore 079903"
+      "name": "CHINA STAR TRADING CO., LTD",
+      "address": "28TH FLOOR, HONGKONG TOWER, 152-158 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "EUROTRADE IMPORT BV",
-      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 444 5555",
-      "fax": "+31 10 444 5556"
+      "name": "WEST COAST IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "IMPORT@WESTCOASTIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "EUROTRADE IMPORT BV",
-      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 444 5555",
-      "fax": "+31 10 444 5556"
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "456 OAK AVENUE, LOS ANGELES, CA 90014",
+      "telephone": "+1-310-555-3434",
+      "fax": "+1-310-555-3435",
+      "email": "NOTIFICATIONS@GLOBALLOGISTICS.COM"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "84798990",
-  "commodityDescription": "INDUSTRIAL REFRIGERATION UNITS",
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ET123",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 INDUSTRIAL REFRIGERATION UNITS, MODEL: RX-500",
-      "grossWeight": 18000.0,
-      "measurement": 35.0
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TS-123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "SUDU1111222",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "ET456",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 INDUSTRIAL REFRIGERATION UNITS, MODEL: RX-500",
-      "grossWeight": 18000.0,
-      "measurement": 35.0
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "TS-456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "packageType": "UNITS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 70.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 51.0
   },
   "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20241005-002",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CO1234567890",
-      " fumigation certificate"
+      "COO-20241005-001"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE IMPORT BV",
-      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS"
+      "name": "CHINA STAR TRADING CO., LTD",
+      "address": "28TH FLOOR, HONGKONG TOWER, 152-158 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza Singapore 079903"
+      "name": "WEST COAST IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS ARE PACKED ON PALLETS AND SECURED FOR TRANSPORT. PLEASE HANDLE WITH CARE."
+    "onboardDate": "OCT. 15. 2024"
   }
 }

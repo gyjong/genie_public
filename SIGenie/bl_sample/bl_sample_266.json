@@ -1,94 +1,96 @@
 {
-  "bookingReference": "APPLE20241018113022",
+  "bookingReference": "SUNFLOWER20241026153011",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2442W",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2445W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "SUNRISE TRADING GROUP",
-      "address": "123 HUA SHAN ROAD, SHANGHAI, CHINA 200001",
-      "telephone": "+86-21-6338-9876",
-      "fax": "+86-21-6338-9875"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": null,
+      "address": "123 ORCHARD ROAD, #15-01, ORCHARD TOWERS, SINGAPORE 238889",
+      "telephone": "+65-6732-1234",
+      "fax": "+65-6732-5678"
     },
     "consignee": {
-      "name": "EUROFRESH BV",
-      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTECH GMBH",
+      "address": "GEWERBESTRASSE 25, 60314 FRANKFURT AM MAIN, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "SUNRISE LOGISTICS BV",
-      "address": "WEENA 250, 3012 CB ROTTERDAM, NETHERLANDS"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRIEDRICH-EBERT-STRASSE 1, 60325 FRANKFURT AM MAIN, GERMANY"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "080550",
-  "commodityDescription": "APPLES - GOLDEN DELICIOUS",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE 123",
-      "numberOfPackages": 1000,
+      "containerNumber": "APTU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 1000 CARTONS OF GOLDEN DELICIOUS APPLES. NET WEIGHT: 20 MT.",
-      "grossWeight": 22000.0,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
       "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE TO BE MAINTAINED AT +2\u00b0C TO +4\u00b0C."
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 1000,
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "CARTONS",
-    "containerType": "40HQ",
-    "totalGrossWeight": 22000.0,
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
     "totalMeasurement": 25.0
   },
   "reeferSettings": {
-    "containerNumber": "CMAU9876543",
-    "temperature": "+3.0\u00baC",
-    "minTemperature": "+2.0\u00b0C",
-    "maxTemperature": "+4.0\u00b0C",
-    "ventilation": "Closed",
-    "humidity": "90%"
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "Phytosanitary Certificate No. 123456789"
+      "COO-1234567890"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE IMPORT & EXPORT CO., LTD.",
-      "address": "123 HUA SHAN ROAD, SHANGHAI, CHINA 200001",
-      "telephone": "+86-21-6338-9876",
-      "fax": "+86-21-6338-9875"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, #15-01, ORCHARD TOWERS, SINGAPORE 238889",
+      "telephone": "+65-6732-1234",
+      "fax": "+65-6732-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH BV",
-      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, #15-01, ORCHARD TOWERS, SINGAPORE 238889",
+      "telephone": "+65-6732-1234",
+      "fax": "+65-6732-5678"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Apples packed in cartons with protective padding. Please handle with care."
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": " SHIPMENT CONTAINS HIGH-VALUE ELECTRONIC COMPONENTS. PLEASE HANDLE WITH EXTREME CARE."
   }
 }

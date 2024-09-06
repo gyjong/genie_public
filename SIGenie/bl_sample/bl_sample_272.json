@@ -1,107 +1,88 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20240912141523",
   "voyageDetails": {
-    "vesselName": "COSMOS 02",
-    "voyageNumber": "2024041",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": "FRANKFURT"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "MASTER BL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 1,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "225 BANK STREET, AMSTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road #12-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)",
+      "telephone": "+65 6221 5678",
+      "email": "sales@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTERS PTE LTD",
-      "address": "101 Anson Road, #20-01, International Plaza, Singapore 079900",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Lange Reihe 12, 20099 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3010 2000"
     },
     "notifyParty": {
-      "name": "SEA FREIGHT LOGISTICS",
-      "address": "123 Marina Boulevard, #15-01, Marina Bay Financial Centre, Singapore 018985",
-      "telephone": "+65 6888 9999",
-      "fax": "+65 6888 8888"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Hammerbrookstra\u00dfe 67, 20097 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "dhlhamburg@dhl.com",
+      "telephone": "+49 40 3333 1111"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "87119000",
-  "commodityDescription": "MOTORCYCLES, 125CC ENGINE",
+  "shippingTerm": "CIF",
+  "hsCode": "85444200",
+  "commodityDescription": "DIGITAL PRINTERS FOR OFFICE USE",
   "containers": [
     {
-      "containerNumber": "CMAU7865432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "MTC123",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU1112223",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "MTC456",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU9998887",
-      "sealNumber": "5432109",
-      "marksAndNumbers": "MTC789",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, 125CC ENGINE, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ET-1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS DIGITAL PRINTERS, MODEL ET-1234, MADE IN SINGAPORE",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20FR) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "CRATES",
-    "containerType": "20FR",
-    "totalGrossWeight": 3600.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20FR) CONTAINER ONLY",
+    "totalPackages": 50,
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 15.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "outOfGaugeDimensions": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "12345678901234"
     },
-    "certificateDetails": [
-      "CO-123456",
-      " fumigation Certificate"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC IMPORTERS PTE LTD",
-      "address": "101 Anson Road, #20-01, International Plaza, Singapore 079900"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Hammerbrookstra\u00dfe 67, 20097 Hamburg, Germany",
+      "telephone": "+49 40 3333 1111"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "225 BANK STREET, AMSTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road #12-01, Singapore 079903",
+      "telephone": "+65 6221 5678"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "ALL CARGO PACKED AND SECURED AS PER INDUSTRY STANDARDS."
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Insurance: USD 100,000"
   }
 }

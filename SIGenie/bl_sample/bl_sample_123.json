@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241015143025",
+  "bookingReference": "APPLE20240912132511",
   "voyageDetails": {
-    "vesselName": "MAERSK CHICAGO",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,85 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SKY IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "UNIT 1201, 12F, SHANGHAI GLOBAL TRADE CENTER, NO. 333, SHANGHAI, CHINA",
-      "telephone": "+86-21-6329-8765",
-      "fax": "+86-21-6329-8766"
+      "name": "EURO TRADE BV",
+      "address": "BEETHOVENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@EUROTRADE.NL"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "555 OCEAN AVE, SUITE 200, SANTA MONICA, CA 90402, USA",
-      "companyNumber": "12345678"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345Z",
+      "president": "MR. TAN CHENG WEI",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     },
     "notifyParty": {
-      "name": "BLUE OCEAN SHIPPING LLC",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "940390",
-  "commodityDescription": "WOODEN FURNITURE",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "CCLU8876543",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SKY123",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION."
-    },
-    {
-      "containerNumber": "CCLU8876544",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SKY124",
-      "numberOfPackages": 30,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN TABLES",
-      "grossWeight": 8000.0,
-      "measurement": 20.0,
-      "additionalInfo": ""
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE MACHINERY PARTS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP) CONTAINERS",
-    "totalPackages": 80,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 20500.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' Dry Container"
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      " fumigation certificate "
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "SHANGHAI SKY IMPORT & EXPORT CO., LTD.",
-      "address": "UNIT 1201, 12F, SHANGHAI GLOBAL TRADE CENTER, NO. 333, SHANGHAI, CHINA",
-      "telephone": "+86-21-6329-8765",
-      "fax": "+86-21-6329-8766"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre, Tower 3, Singapore 018982",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2223"
     },
     "originalInvoiceDistribution": {
-      "name": "BLUE OCEAN SHIPPING LLC",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
-      "telephone": "212-555-1212",
-      "fax": "212-555-1213"
+      "name": "EURO TRADE BV",
+      "address": "BEETHOVENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@EUROTRADE.NL"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

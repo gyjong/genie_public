@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241017132545",
+  "bookingReference": "APPLE20241015113022",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2433E",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2437W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,74 +17,78 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE INDUSTRIES PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "EUROFRESH IMPORTS BV",
-      "address": "Hoogoorddreef 15, 3062 BE Rotterdam, Netherlands",
+      "name": "EURO IMPORTS BV",
+      "address": "Gustav Mahlerlaan 1501, 1081 LR Amsterdam, Netherlands",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "Weesperplein 3, 1018 ZA Amsterdam, Netherlands"
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Hauptstrasse 10, 60329 Frankfurt, Germany"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "080550",
-  "commodityDescription": "FRESH OR DRIED APPLES",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "FRUIT123",
-      "numberOfPackages": 1000,
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH APPLES",
-      "grossWeight": 20000.0,
-      "measurement": 25.0,
-      "additionalInfo": "Temperature to be maintained at 2\u00b0C."
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 2500.0,
+      "measurement": 8.0,
+      "additionalInfo": "CARGO SECURED FOR SEA TRANSPORT."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40FT DRY) CONTAINER ONLY",
-    "totalPackages": 1000,
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "CARTONS",
-    "containerType": "40DR",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 25.0
+    "containerType": "20GP",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 8.0
   },
-  "reeferSettings": {},
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE NUMBER: 1234567890",
-      "CERTIFICATE OF ORIGIN NUMBER: 9876543210"
+      "COO-1234567890"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE INDUSTRIES PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "EURO IMPORTS BV",
+      "address": "Gustav Mahlerlaan 1501, 1081 LR Amsterdam, Netherlands"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Apples to be delivered in good condition."
+    "additionalRemarks": "Cargo insured for USD 50,000. "
   }
 }

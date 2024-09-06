@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410172110300",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA IMPORT & EXPORT CO. LTD",
+      "address": "NO. 123 HUAYU STREET, BEILUN DISTRICT, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8686-1234",
+      "fax": "+86-574-8686-1235"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "SPOCKSTRASSE 15, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3786-2222",
+      "fax": "+49-40-3786-2223",
+      "email": "INFO@EUROTRADE.DE",
+      "contactPerson": "PETER MEIER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DUTCH CARGO SERVICES BV",
+      "address": "WATERLOOSTRASSE 10, 3012 Bern, SWITZERLAND"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "SEGU3765431",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M",
+      "grossWeight": 9500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "SEGU3765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE L",
+      "grossWeight": 9300.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HC CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 18800.0,
+    "totalMeasurement": 50.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "CI20241017001",
+    "documentNumber": "20241017002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241017003",
+      "CN20241017004"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA IMPORT & EXPORT CO. LTD",
+      "address": "NO. 123 HUAYU STREET, BEILUN DISTRICT, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8686-1234",
+      "fax": "+86-574-8686-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "SPOCKSTRASSE 15, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-3786-2222",
+      "fax": "+49-40-3786-2223"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912134521",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Westblaak 123, 3012 KK Rotterdam, Netherlands",
+      "telephone": "+31 10 246 5000",
+      "fax": "+31 10 246 5001"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Westblaak 123, 3012 KK Rotterdam, Netherlands",
+      "telephone": "+31 10 246 5000",
+      "fax": "+31 10 246 5001"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS AS DESCRIBED ABOVE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 15,
+      "cargoDescription": "MACHINERY PARTS AS DESCRIBED ABOVE",
+      "grossWeight": 14000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 26000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "123456789012345",
+      "98765432101234"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "Westblaak 123, 3012 KK Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

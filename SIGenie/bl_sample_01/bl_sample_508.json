@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM AQUILA",
+    "voyageNumber": "2024345",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY PTE LTD",
+      "address": "101 ROBINSON ROAD, #10-01, ROBINSON 100, SINGAPORE 068902"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "WEENA 265, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY PTE LTD",
+      "address": "101 ROBINSON ROAD, #10-01, ROBINSON 100, SINGAPORE 068902"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87089910",
+  "commodityDescription": "MOTORCYCLES (125CC)",
+  "containers": [
+    {
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GT-2024-09-12",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES (125CC) WITH ACCESSORIES",
+      "grossWeight": 3500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "GRSU8765432",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "GT-2024-09-12",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES (125CC) WITH ACCESSORIES",
+      "grossWeight": 3500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 7000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20240912123456"
+    },
+    "certificateDetails": [
+      "CO-20240912-123",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "WEENA 265, 3012CN ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY PTE LTD",
+      "address": "101 ROBINSON ROAD, #10-01, ROBINSON 100, SINGAPORE 068902"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "SHIPMENT READY FOR IMMEDIATE LOADING"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912142501",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIANA",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903"
+    },
+    "consignee": {
+      "name": "EUROTRADE IMPORT BV",
+      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE IMPORT BV",
+      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL REFRIGERATION UNITS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 INDUSTRIAL REFRIGERATION UNITS, MODEL: RX-500",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "SUDU1111222",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 INDUSTRIAL REFRIGERATION UNITS, MODEL: RX-500",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "CO1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE IMPORT BV",
+      "address": "BEETHOVENSTRAAT 12, 3015 CA ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS ARE PACKED ON PALLETS AND SECURED FOR TRANSPORT. PLEASE HANDLE WITH CARE."
+  }
+}

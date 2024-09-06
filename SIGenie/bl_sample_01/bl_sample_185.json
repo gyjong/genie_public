@@ -1,0 +1,101 @@
+{
+  "bookingReference": "APPLE202410171243200",
+  "voyageDetails": {
+    "vesselName": "MSC SIMONE",
+    "voyageNumber": "2024045",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD",
+      "address": "NO. 128, YONGJI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6327-8912",
+      "fax": "+86-21-6327-8913"
+    },
+    "consignee": {
+      "name": "EUROTRADE GMBH",
+      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-7982-1234",
+      "fax": "+49-69-7982-1235",
+      "email": "INFO@EUROTRADEGMBH.DE",
+      "contactPerson": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE GMBH",
+      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-7982-1234",
+      "fax": "+49-69-7982-1235",
+      "email": "INFO@EUROTRADEGMBH.DE",
+      "contactPerson": "ANNA SCHMIDT"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "TCLU9216783",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-202410",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MACHINE PARTS FOR WEAVING LOOM",
+      "grossWeight": 9500.0,
+      "measurement": 15.25
+    },
+    {
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ETG-202410",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPARE PARTS FOR SPINNING MACHINES",
+      "grossWeight": 11000.0,
+      "measurement": 16.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 20500.0,
+    "totalMeasurement": 31.75
+  },
+  "additionalInformation": {
+    "invoiceNumber": "ETG-20241017-001",
+    "documentNumber": "20241017-002",
+    "lcDetails": {
+      "lcNumber": "LC20241017-003"
+    },
+    "certificateDetails": [
+      "CO-20241017-004",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-7982-1234",
+      "fax": "+49-69-7982-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTRADE GMBH",
+      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49-69-7982-1234",
+      "fax": "+49-69-7982-1235"
+    },
+    "onboardDate": "OCT. 28. 2024"
+  }
+}

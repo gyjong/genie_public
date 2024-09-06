@@ -1,0 +1,109 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC IRENE",
+    "voyageNumber": "24040",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "(CENTRAL DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4567890"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4567890"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC789",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "COC-123456789",
+    "originalBLDistribution": {
+      "name": "BANK OF AMERICA",
+      "address": "123 WALL STREET, NEW YORK, NY 10005",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123"
+    },
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

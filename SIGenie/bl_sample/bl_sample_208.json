@@ -1,100 +1,97 @@
 {
-  "bookingReference": "APPLE202410171425400",
+  "bookingReference": "APPLE20240912103015",
   "voyageDetails": {
-    "vesselName": "CMA CGM LIBRA",
-    "voyageNumber": "2435W",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA IMPORTS LTD",
-      "address": "UNIT 501, 5TH FLOOR, SHANGHAI SKY TOWER, 1388 SHENNAN ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "021-6328-5555",
-      "fax": "021-6328-5556"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "EURO TRADE BV",
-      "address": "DE ERTS 10, 3011 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "31-10-413-2000",
-      "fax": "31-10-413-2001",
-      "email": "INFO@EUROTRADE.NL",
-      "contactPerson": "ANNA VAN DER MEER"
+      "name": "EURO STEEL IMPORT BV",
+      "address": "Nieuwe Haven 123, 3011 GE Rotterdam, Netherlands",
+      "taxId": "NL85765432100000",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL LOGISTICS NV",
-      "address": "BRUGGENSTRAAT 25, 2000 ANTWERP, BELGIUM",
-      "telephone": "32-3-205-1000",
-      "fax": "32-3-205-1001"
+      "name": "EURO STEEL IMPORT BV",
+      "address": "Nieuwe Haven 123, 3011 GE Rotterdam, Netherlands",
+      "taxId": "NL85765432100000",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF",
+  "hsCode": "7206109000",
+  "commodityDescription": "IRON BARS",
   "containers": [
     {
-      "containerNumber": "MSCU3761615",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "123/ABC/456",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPARE PARTS FOR LOOM MACHINES",
-      "grossWeight": 12500.0,
-      "measurement": 22.5
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "456/XYZ/789",
-      "numberOfPackages": 40,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRONIC COMPONENTS FOR TEXTILE MACHINES",
-      "grossWeight": 9500.0,
-      "measurement": 18.0
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM IRON BARS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 90,
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 40.5
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BUNDLES",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "20241017-001",
-    "documentNumber": "20241017-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "01234567890"
     },
-    "certificateDetails": [
-      "CN1234567890",
-      "CO1234567890"
-    ],
+    "certificateDetails": "123456789012",
     "originalBLDistribution": {
-      "name": "ASIA IMPORTS LTD",
-      "address": "UNIT 501, 5TH FLOOR, SHANGHAI SKY TOWER, 1388 SHENNAN ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "021-6328-5555",
-      "fax": "021-6328-5556"
+      "name": "DHL EXPRESS",
+      "address": "DHL Global Forwarding (Netherlands) B.V. - Nieuwe Haven 123, 3011 GE Rotterdam, Netherlands",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO TRADE BV",
-      "address": "DE ERTS 10, 3011 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "31-10-413-2000",
-      "fax": "31-10-413-2001"
+      "name": "DHL EXPRESS",
+      "address": "DHL Global Forwarding (Netherlands) B.V. - Nieuwe Haven 123, 3011 GE Rotterdam, Netherlands",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

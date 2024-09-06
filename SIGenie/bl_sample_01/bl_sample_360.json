@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240918123456",
+  "voyageDetails": {
+    "vesselName": "MSC ELSA",
+    "voyageNumber": "24278",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE TRADING CO. LTD.",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Koningstraat 123, 3012 AA Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@euroimports.nl",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Handelsstra\u00dfe 56, 20355 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "operations@globallogistics.de",
+      "telephone": "+49 40 123 4567"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444290",
+  "commodityDescription": "OPTICAL FIBER CABLES",
+  "containers": [
+    {
+      "containerNumber": "GOMG8876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SING202409",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: OPTICAL FIBER CABLES ON REELS, 25KM PER REEL",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SING202409",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: OPTICAL FIBER CABLES ON REELS, 25KM PER REEL",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1113334",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SING202409",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: OPTICAL FIBER CABLES ON REELS, 25KM PER REEL",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "85444290",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": "20240918-CERT-001",
+    "originalBLDistribution": {
+      "name": "SINGAPORE BANKING CORPORATION",
+      "address": "1 Raffles Quay, Singapore 048583",
+      "telephone": "+65 6533 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Koningstraat 123, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nCARGO TO BE DISCHARGED AT EURO IMPORTS BV WAREHOUSE."
+  }
+}

@@ -1,103 +1,110 @@
 {
-  "bookingReference": "APPLE202410169543200",
+  "bookingReference": "APPLE20240920103047",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2432W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LONG BEACH, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA, U.S.A"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LONG BEACH, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN GLOBAL LOGISTICS CO. LTD",
-      "address": "NO. 588, HUAYUAN ROAD, XIAOLANG, ZHONGSHAN, GUANGDONG, CHINA",
-      "telephone": "+86-757-82356789",
-      "fax": "+86-757-82356790"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
     },
     "consignee": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "IMPORT@AMERICANLOGISTICS.COM",
-      "contactPerson": "MARIA SMITH"
+      "name": "EUROCHEM BV",
+      "address": "Hoofdweg 123, 3063 NP Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 456 7890"
     },
     "notifyParty": {
-      "name": "XYZ TRADING CO.",
-      "address": "456 OAK STREET, SAN FRANCISCO, CA 94102",
-      "telephone": "+1-415-555-2323",
-      "fax": "+1-415-555-2324",
-      "email": "IMPORT@XYZTRADING.COM",
-      "contactPerson": "JOHN JONES"
+      "name": "EUROCHEM BV",
+      "address": "Hoofdweg 123, 3063 NP Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 456 7890"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "850110",
-  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "GRSU9876543",
+      "containerNumber": "MSCU7876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL A123",
-      "grossWeight": 12500.0,
+      "marksAndNumbers": "EACT123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180 KGS EACH",
+      "grossWeight": 90000.0,
       "measurement": 25.5
     },
     {
-      "containerNumber": "FCLU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 40,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL B789",
-      "grossWeight": 10000.0,
-      "measurement": 22.0
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EACT124",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180 KGS EACH",
+      "grossWeight": 90000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "EACT125",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180 KGS EACH",
+      "grossWeight": 90000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 90,
-    "totalGrossWeight": 22500.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 270000.0,
+    "totalMeasurement": 76.5
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241016001",
-    "documentNumber": "20241016002",
+    "purchaseOrderNumber": "1234567890ICP-1",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012345"
     },
-    "certificateDetails": [
-      "CERT12345678",
-      "CERT98765432"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "ZHONGSHAN GLOBAL LOGISTICS CO. LTD",
-      "address": "NO. 588, HUAYUAN ROAD, XIAOLANG, ZHONGSHAN, GUANGDONG, CHINA",
-      "telephone": "+86-757-82356789",
-      "fax": "+86-757-82356790"
+      "name": "DHL EXPRESS",
+      "address": "Changi Airport, Singapore",
+      "telephone": "+65 6596 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "IMPORT@AMERICANLOGISTICS.COM",
-      "contactPerson": "MARIA SMITH"
+      "name": "EUROCHEM BV",
+      "address": "Hoofdweg 123, 3063 NP Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
-    "onboardDate": "OCT. 26. 2024"
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nGOODS SOLD AS IS WHERE IS"
   }
 }

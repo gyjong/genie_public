@@ -1,98 +1,100 @@
 {
-  "bookingReference": "APPLE202409271310200",
+  "bookingReference": "APPLE20240925111542",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2024045",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI EVERBRIGHT LOGISTICS CO., LTD",
-      "address": "ROOM 1001, 10TH FL., SHANGHAI TOWER, 501, PUJIAN ROAD, PUTUO DISTRICT, SHANGHAI 200062, CHINA",
-      "telephone": "021-5111-2222",
-      "fax": "021-5111-2223"
+      "name": "SINGAPORE TRADING CO. PTE LTD",
+      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "562-444-5555",
-      "fax": "562-444-5556",
-      "email": "IMPORT@WCI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROCHEM GMBH",
+      "address": "Kaiserstrasse 15, 60311 Frankfurt, Germany",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 69 7909888"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE TRADING CO.",
-      "address": "456 MARKET STREET, SAN FRANCISCO, CA 94103",
-      "telephone": "415-777-8888",
-      "fax": "415-777-8889"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "Friedrichstrasse 100, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "operations@abclogistics.de",
+      "telephone": "+49 30 20002222"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "621210",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "CCLU7896543",
+      "containerNumber": "TCLU9774456",
       "sealNumber": "123456",
-      "marksAndNumbers": "GGT1234",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE S, M, L",
-      "grossWeight": 12500.0,
-      "measurement": 18.5
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 LITRE DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CCLU1112223",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "GGT1235",
-      "numberOfPackages": 800,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE XL, XXL",
-      "grossWeight": 9500.0,
-      "measurement": 17.8
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 LITRE DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 1800,
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 36.3
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 50.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20231005-001",
-    "documentNumber": "202310270001",
+    "purchaseOrderNumber": "PO12345678",
+    "hsCode": "29152100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0000123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112724080177X"
-    ],
+    "certificateDetails": "COC123456789",
     "originalBLDistribution": {
-      "name": "GOLDEN GATE TRADING CO.",
-      "address": "456 MARKET STREET, SAN FRANCISCO, CA 94103",
-      "telephone": "415-777-8888",
-      "fax": "415-777-8889"
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "123 Main Street, Singapore 123456",
+      "telephone": "+65 67890123"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "562-444-5555",
-      "fax": "562-444-5556"
+      "name": "SINGAPORE TRADING CO. PTE LTD",
+      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 61234567",
+      "fax": "+65 61234568"
     },
-    "onboardDate": "OCT. 27. 2024"
+    "onboardDate": "SEPT. 26. 2024",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION\nATTACHED RIDER"
   }
 }

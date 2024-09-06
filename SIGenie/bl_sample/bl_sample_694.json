@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912103005",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2435E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY BV",
+      "address": "BEETHOVENSTRAAT 50, 3015 AN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068910",
+      "taxId": "201212345A",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068910",
+      "taxId": "201212345A",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84131900",
+  "commodityDescription": "PNEUMATIC TYRE MANUFACTURING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 25,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE, PNEUMATIC TYRE MANUFACTURING MACHINERY",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "01234567890123"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 Anson Road, #10-01, Singapore 019936",
+      "telephone": "+65 6223 3333",
+      "fax": "+65 6223 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 Anson Road, #10-01, Singapore 019936",
+      "telephone": "+65 6223 3333",
+      "fax": "+65 6223 3334"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

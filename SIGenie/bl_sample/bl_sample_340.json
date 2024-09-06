@@ -1,110 +1,107 @@
 {
   "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "EVER GOLDEN",
-    "voyageNumber": "2024312",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2432W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": " negotiable",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "CHINA TECH SOLUTIONS LTD.",
+      "address": "NO. 888, SHANGHAI ROAD, BEIJING, 100081",
+      "country": "CHINA",
+      "additionalInfo": "(BEIJING BUSINESS DISTRICT)",
+      "telephone": "+86 10 5555 1234",
+      "email": "INFO@CHINA-TECH.COM"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Kaiserstra\u00dfe 17, 60311 Frankfurt am Main, GERMANY",
+      "name": "GERMAN IMPORT & EXPORT GMBH",
+      "address": "HAMBURGSTRASSE 25, 20095 HAMBURG",
       "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 69 7903730"
+      "email": "ORDER@GERMAN-IMPORT.DE",
+      "telephone": "+49 40 12345678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Postfach 10 02 55, 53002 Bonn, GERMANY",
+      "name": "ABC LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT",
       "country": "GERMANY",
-      "email": "info@dhl.com",
-      "telephone": "+49 228 182-0"
+      "email": "FREIGHT@ABC-LOGISTICS.DE",
+      "telephone": "+49 69 9999 1234"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE (EA)",
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "AUTOMATIC DOOR OPERATORS AND ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "GRSU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EA20231025",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE (EA),  NET WEIGHT 180KG/DRUM",
-      "grossWeight": 36000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC DOOR OPERATORS AND ACCESSORIES",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "EA20231025",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE (EA), NET WEIGHT 180KG/DRUM",
-      "grossWeight": 36000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "214365",
-      "marksAndNumbers": "EA20231025",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE (EA), NET WEIGHT 180KG/DRUM",
-      "grossWeight": 36000.0,
-      "measurement": 25.0
+      "containerNumber": "GRSU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC DOOR OPERATORS AND ACCESSORIES",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 108000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "20231025EA",
+    "certificateDetails": [
+      "C1234567890",
+      "C9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "Kaiserstra\u00dfe 17, 60311 Frankfurt am Main, GERMANY",
-      "telephone": "+49 69 7903730"
+      "name": "DHL EXPRESS GMBH",
+      "address": "POSTFACH 1203, 53039 BONN, GERMANY",
+      "telephone": "+49 228 555 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6227 1234",
-      "fax": "+65 6227 5678"
+      "name": "DHL EXPRESS GMBH",
+      "address": "POSTFACH 1203, 53039 BONN, GERMANY",
+      "telephone": "+49 228 555 1234"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nALL FREIGHT COLLECT"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "VALUE: USD 150,000"
   }
 }

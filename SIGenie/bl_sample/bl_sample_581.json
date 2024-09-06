@@ -1,99 +1,97 @@
 {
-  "bookingReference": "APPLE20240912103012",
+  "bookingReference": "APPLE20240912132517",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
+    "vesselName": "CMA CGM GEORG FORSTER",
     "voyageNumber": "2024042",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
-      "address": "1234 FUJIAN ROAD, NINGBO, CHINA"
+      "name": "ZHEJIANG HONGYU IMPORT & EXPORT CO., LTD",
+      "address": "NO.388, FENGQIU ROAD, YONGJIANG DISTRICT, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "sales@hongyu.com.cn"
     },
     "consignee": {
-      "name": "AMERICAN IMPORTERS INC.",
-      "address": "5678 SUNSET BOULEVARD, LOS ANGELES, CA, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "taxId": "12-3456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "ABC BANK",
-      "address": "123 MAIN STREET, NEW YORK, NY, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2324"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "taxId": "12-3456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "MSCU3216789",
+      "containerNumber": "CMAU5789632",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
-      "grossWeight": 18000.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 12,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
-      "grossWeight": 20000.0,
-      "measurement": 40.0
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 22,
-    "packageType": "PACKAGES",
-    "containerType": "20FTX2",
-    "totalGrossWeight": 38000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.5
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "1000020070133X"
-    ],
+    "certificateDetails": "COO-1234567890",
     "originalBLDistribution": {
-      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
-      "address": "1234 FUJIAN ROAD, NINGBO, CHINA"
+      "name": "WORLDWIDE SHIPPING CO.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "telephone": "+1 646 555 1234",
+      "fax": "+1 646 555 1235"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN IMPORTERS INC.",
-      "address": "5678 SUNSET BOULEVARD, LOS ANGELES, CA, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "WORLDWIDE SHIPPING CO.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA",
+      "telephone": "+1 646 555 1234",
+      "fax": "+1 646 555 1235"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT PACKING"
   }
 }

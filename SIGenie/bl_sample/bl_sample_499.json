@@ -1,97 +1,95 @@
 {
-  "bookingReference": "GRAPE20240912123456",
+  "bookingReference": "PEACH20240915133012",
   "voyageDetails": {
-    "vesselName": "MERCHANT BRIDGE 01",
-    "voyageNumber": "2024042",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "425 CANAL STREET, NEW YORK, NY 10013, USA"
+      "name": "VAN DER HOEK INTERNATIONAL BV",
+      "address": "AAVENUE 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@VDH.NL"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
-      "address": "201 ROBINSON ROAD, #15-01, SHENTON HOUSE, SINGAPORE 068963",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "123 Anson Road, #05-01, Singapore 079903",
+      "taxId": "199801234Z",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8800"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS PTE LTD.",
-      "address": "10 Anson Road #08-01, International Plaza, Singapore 079903",
-      "telephone": "+65 6336 5555",
-      "fax": "+65 6336 6666"
+      "name": "GOLDEN SUN LOGISTICS PTE LTD",
+      "address": "100 Beach Road, #22-01, Singapore 189702",
+      "telephone": "+65 6338 5566",
+      "fax": "+65 6338 5577"
     }
   },
-  "shippingTerm": "CFR",
+  "shippingTerm": "CIF SINGAPORE",
   "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "commodityDescription": "MACHINERY PARTS - GEARBOX ASSEMBLIES",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT123",
+      "marksAndNumbers": "AS PER PACKING LIST",
       "numberOfPackages": 50,
-      "cargoDescription": "TEXTILE MACHINE PARTS - AS PER PACKING LIST",
-      "grossWeight": 12000.0,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF SINGAPORE MACHINERY PARTS - GEARBOX ASSEMBLIES",
+      "grossWeight": 15000.0,
       "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GT456",
-      "numberOfPackages": 40,
-      "cargoDescription": "TEXTILE MACHINE PARTS - AS PER PACKING LIST",
-      "grossWeight": 9000.0,
-      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 90,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 21000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC000123456"
     },
-    "certificateDetails": [
-      "COO-12345678"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
-      "address": "201 ROBINSON ROAD, #15-01, SHENTON HOUSE, SINGAPORE 068963"
+      "name": "GOLDEN SUN LOGISTICS PTE LTD",
+      "address": "100 Beach Road, #22-01, Singapore 189702",
+      "telephone": "+65 6338 5566",
+      "fax": "+65 6338 5577"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "425 CANAL STREET, NEW YORK, NY 10013, USA"
+      "name": "VAN DER HOEK INTERNATIONAL BV",
+      "address": "AAVENUE 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@VDH.NL"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN WOODEN CASES."
+    "additionalRemarks": "NONE"
   }
 }

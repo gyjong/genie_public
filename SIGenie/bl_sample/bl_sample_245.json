@@ -1,107 +1,99 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE202409121015300",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2432E",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IRON & STEEL CO., LTD.",
-      "address": "NO. 188, HUAYUAN ROAD, BAOSHAN DISTRICT, SHANGHAI, 200437",
-      "country": "CHINA",
-      "additionalInfo": "(BAOSHAN DISTRICT)",
-      "telephone": "+86 21 6217 1234",
-      "email": "INFO@SHANGHAISTEEL.COM"
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 5678"
     },
     "consignee": {
-      "name": "WEST COAST METALS INC.",
-      "address": "555 SOUTH FLOWER STREET, LOS ANGELES, CA 90071",
-      "country": "USA",
-      "email": "PURCHASING@WESTCOASTMETALS.COM",
-      "telephone": "+1 213 555 1234"
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 SUNRISE BOULEVARD, LOS ANGELES, CA 90012, U.S.A",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 2323",
+      "email": "IMPORT@SUNRISEINC.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "ABC BANK",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012",
-      "country": "USA",
-      "email": "TRADEFINANCE@ABCBANK.COM",
-      "telephone": "+1 213 444 5678"
+      "name": "FIRST BANK USA",
+      "address": "1000 MAIN STREET, LOS ANGELES, CA 90015, U.S.A",
+      "telephone": "+1 213 555 3434",
+      "fax": "+1 213 555 4545"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "720890",
-  "commodityDescription": "HOT ROLLED STEEL COILS, ASTM A36 GRADE",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "STEEL COILS",
-      "numberOfPackages": 100,
-      "packageType": "COILS",
-      "cargoDescription": "100 HOT ROLLED STEEL COILS, ASTM A36 GRADE, WEIGHT: 25 TONS",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU7890123",
+      "containerNumber": "CMLU8901234",
       "sealNumber": "654321",
-      "marksAndNumbers": "STEEL COILS",
-      "numberOfPackages": 100,
-      "packageType": "COILS",
-      "cargoDescription": "100 HOT ROLLED STEEL COILS, ASTM A36 GRADE, WEIGHT: 25 TONS",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE L",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 200,
-    "totalGrossWeight": 50000.0,
-    "totalMeasurement": 60.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40HC CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 50.5
   },
   "additionalInformation": {
+    "invoiceNumber": "GT20240912-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "00001010339243"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "4112724080179X",
+      "4112724080180X"
     ],
     "originalBLDistribution": {
-      "name": "ABC SHIPPING AGENCY",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012",
-      "telephone": "+1 213 444 5678"
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 SUNRISE BOULEVARD, LOS ANGELES, CA 90012, U.S.A",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 2323"
     },
     "originalInvoiceDistribution": {
-      "name": "ABC SHIPPING AGENCY",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90012",
-      "telephone": "+1 213 444 5678"
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 1234",
+      "fax": "+86 574 8888 5678"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD250,000"
+    "onboardDate": "SEPT. 28. 2024"
   }
 }

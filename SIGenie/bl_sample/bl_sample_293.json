@@ -1,95 +1,102 @@
 {
-  "bookingReference": "GRAPE20240912132517",
+  "bookingReference": "APPLE202409281234567",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2427E",
-    "bound": "E"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2430E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "123 Anson Road, #18-01 Anson Centre, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "email": "shipping@asiatrading.com.sg"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road #12-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 3333",
+      "fax": "+65 6222 4444"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
-      "taxId": "NL854321678B01",
-      "president": "Mr. Jan van der Meer",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "name": "EURO IMPORTS GMBH",
+      "address": "Wilhelmstra\u00dfe 42, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79386500",
+      "fax": "+49 69 79386501",
+      "email": "info@euroimports.de",
+      "contactPerson": "ANNA SCHMITZ"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS BV",
-      "address": "Maasboulevard 100, 3063 NL Rotterdam, Netherlands",
-      "telephone": "+31 10 234 5678",
-      "fax": "+31 10 234 5679"
+      "name": "EURO LOGISTICS GMBH",
+      "address": "Kaiserstra\u00dfe 10, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 27373333",
+      "fax": "+49 69 27373334",
+      "email": "info@eurologistics.de"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "NETWORKING EQUIPMENT",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR FOOD PROCESSING",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 100,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT, AND WEIGHT. 100 BOXES NETWORKING EQUIPMENT. FREIGHT PREPAID TO ROTTERDAM.",
-      "grossWeight": 12000.0,
-      "measurement": 28.0
+      "containerNumber": "MSCU3679852",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL MIXER",
+      "grossWeight": 6500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 3,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SYSTEM",
+      "grossWeight": 4200.0,
+      "measurement": 8.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 28.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY Container"
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 8,
+    "totalGrossWeight": 10700.0,
+    "totalMeasurement": 20.5
   },
   "additionalInformation": {
+    "invoiceNumber": "2024-10-001",
+    "documentNumber": "20241028001",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "COO No. 1234567890",
+    "certificateDetails": [
+      "C-1234567",
+      "C-8765432"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Airport Road, Singapore 628123",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0456"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road #12-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 3333",
+      "fax": "+65 6222 4444"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Airport Road, Singapore 628123",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0456"
+      "name": "EURO IMPORTS GMBH",
+      "address": "Wilhelmstra\u00dfe 42, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79386500",
+      "fax": "+49 69 79386501",
+      "email": "info@euroimports.de",
+      "contactPerson": "ANNA SCHMITZ"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "CARGO SHIPPED ON DECK"
+    "onboardDate": "OCT. 27. 2024"
   }
 }

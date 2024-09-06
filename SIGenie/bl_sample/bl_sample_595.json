@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241016142503",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2438W",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "KEULENSTRAAT 10, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-4567",
+      "fax": "+31-10-203-8901"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "VISSERSTRAAT 25, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241016",
+    "salesOrderNumber": "SO20241016",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "KEULENSTRAAT 10, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-203-4567",
+      "fax": "+31-10-203-8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": " SHIPPED ON BOARD"
+  }
+}

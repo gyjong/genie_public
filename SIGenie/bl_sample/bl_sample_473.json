@@ -1,109 +1,96 @@
 {
-  "bookingReference": "APPLE20240918132547",
+  "bookingReference": "APPLE20241016123456",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2428E",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024421",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI HUIXING IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1202, BUILDING 3, NO. 888, XINGYE ROAD, SHANGHAI, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(PUTUO DISTRICT)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
     "consignee": {
-      "name": "GERMAN IMPORTERS GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "INFO@GERMANIMPORTERS.DE",
-      "telephone": "+49 69 79087654"
+      "name": "EURO TRADE LTD.",
+      "address": "Weesperstraat 89, 1018 VN Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-620-1234",
+      "fax": "+31-20-620-5678"
     },
     "notifyParty": {
-      "name": "CUSTOMS BROKER GMBH",
-      "address": "HAMBURGER ALLEE 5, 20457 HAMBURG, GERMANY",
-      "country": "GERMANY",
-      "email": "NOTIFICATIONS@CUSTOMS-BROKER.DE",
-      "telephone": "+49 40 30218765"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "73269090",
-  "commodityDescription": "IRON AND STEEL WIRE RODS",
+  "hsCode": "8542.31",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU9661234",
+      "containerNumber": "GLDU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "HI23456",
-      "numberOfPackages": 200,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. IRON AND STEEL WIRE RODS 6MM DIA X 500KG COILS. TOTAL 20 TONS.",
-      "grossWeight": 20000.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "HI78901",
-      "numberOfPackages": 200,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. IRON AND STEEL WIRE RODS 8MM DIA X 500KG COILS. TOTAL 20 TONS.",
-      "grossWeight": 20000.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "TCLU4567890",
-      "sealNumber": "987654",
-      "marksAndNumbers": "HI45678",
-      "numberOfPackages": 200,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. IRON AND STEEL WIRE RODS 10MM DIA X 500KG COILS. TOTAL 20 TONS.",
-      "grossWeight": 20000.0,
-      "measurement": 28.0
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF ELECTRONIC COMPONENTS. GROSS WEIGHT: 1500 KGS",
+      "grossWeight": 1500.0,
+      "measurement": 10.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "COILS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
     "purchaseOrderNumber": "PO123456789",
-    "hsCode": "73269090",
-    "freeTimeAtDestination": "10 DAYS FREE TIME AT DESTINATION",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "GERMAN IMPORTERS GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 79087654"
+      "name": "EURO TRADE LTD.",
+      "address": "Weesperstraat 89, 1018 VN Amsterdam, NETHERLANDS",
+      "telephone": "+31-20-620-1234",
+      "fax": "+31-20-620-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "GERMAN IMPORTERS GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 79087654"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
-    "onboardDate": "SEPT. 19. 2024",
-    "additionalRemarks": "ALL FREIGHT COLLECT AT DESTINATION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

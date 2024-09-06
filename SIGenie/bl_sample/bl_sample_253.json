@@ -1,101 +1,89 @@
 {
-  "bookingReference": "APPLE202409201435200",
+  "bookingReference": "GRAPE20241026143011",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2435E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 3
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD",
-      "address": "NO. 59, HONGXING ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
-      "telephone": "+86-760-23298765",
-      "fax": "+86-760-23298764"
+      "name": "Zhejiang Mingyang Textile Co., Ltd.",
+      "onBehalfOf": "",
+      "address": "No. 188, West Huancheng Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-86123456",
+      "fax": "+86-574-86123457"
     },
     "consignee": {
-      "name": "EUROTRADING BV",
-      "address": "KALVERSTRAAT 45, 1012 XK AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-6245800",
-      "fax": "+31-20-6245801",
-      "email": "INFO@EUROTRADING.NL",
-      "contactPerson": "PETER VAN DER SLOOT"
+      "name": "West Coast Apparel Inc.",
+      "address": "1234 Sunset Boulevard, Los Angeles, CA 90068, USA",
+      "companyNumber": "1234567890"
     },
     "notifyParty": {
-      "name": "EUROTRADING LOGISTICS BV",
-      "address": "STATIONSPLEIN 12, 1012 AB AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-4567890",
-      "fax": "+31-20-4567891",
-      "email": "NOTIFICATIONS@EUROTRADINGLOGISTICS.NL"
+      "name": "Global Logistics Solutions",
+      "address": "1000 Wilshire Boulevard, Los Angeles, CA 90017, USA"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "621120",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "hsCode": "610910",
+  "commodityDescription": "Men's T-Shirts",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456789",
-      "marksAndNumbers": "ET1234",
-      "numberOfPackages": 1500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "ET9876",
-      "numberOfPackages": 1500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MYT20241026",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 1000 CARTONS OF MEN'S T-SHIRTS. MADE IN CHINA.",
       "grossWeight": 12500.0,
-      "measurement": 26.0
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 3000,
-    "totalGrossWeight": 24500.0,
-    "totalMeasurement": 51.5
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "invoiceNumber": "20231025-001",
-    "documentNumber": "20231025-002",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CN1234567890",
-      "CN9876543210"
+      "CN20241026001"
     ],
     "originalBLDistribution": {
-      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD",
-      "address": "NO. 59, HONGXING ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
-      "telephone": "+86-760-23298765",
-      "fax": "+86-760-23298764"
+      "name": "Zhejiang Mingyang Textile Co., Ltd.",
+      "address": "No. 188, West Huancheng Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-86123456",
+      "fax": "+86-574-86123457"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADING BV",
-      "address": "KALVERSTRAAT 45, 1012 XK AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-6245800",
-      "fax": "+31-20-6245801",
-      "email": "INFO@EUROTRADING.NL"
+      "name": "Mingyang Trading Inc.",
+      "address": "1010 Wilshire Boulevard, Los Angeles, CA 90017, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "OCT. 26. 2023"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Shipment Value: USD 50,000"
   }
 }

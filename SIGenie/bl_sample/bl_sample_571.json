@@ -1,99 +1,109 @@
 {
-  "bookingReference": "APPLE202410171245300",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2435E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "24041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
-      "address": "2345 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-63285678",
-      "fax": "+86-21-63285679"
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-75935600",
-      "fax": "+49-69-75935601",
-      "email": "IMPORT@EUROTRADE.DE",
-      "contactPerson": "PETER SCHMIDT"
+      "name": "SUNRISE LOGISTICS SDN BHD",
+      "address": "25 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2148 6789",
+      "fax": "+60 3 2148 6790"
     },
     "notifyParty": {
-      "name": "CUSTOMS BROKER SERVICES GMBH",
-      "address": "HAMBURGER ALLE 25, 20097 HAMBURG, GERMANY",
-      "telephone": "+49-40-30698765",
-      "fax": "+49-40-30698764"
+      "name": "SUNRISE LOGISTICS SDN BHD",
+      "address": "25 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2148 6789",
+      "fax": "+60 3 2148 6790"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR PACKAGING LINE",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERAS",
   "containers": [
     {
-      "containerNumber": "CMLU9876543",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "P123",
-      "numberOfPackages": 15,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLY",
-      "grossWeight": 7500.0,
-      "measurement": 12.5
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS DIGITAL CAMERAS (MODEL DC-200)",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "CMLU1234567",
-      "sealNumber": "9876543210",
-      "marksAndNumbers": "P456",
-      "numberOfPackages": 20,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SECTIONS",
-      "grossWeight": 6800.0,
-      "measurement": 11.0
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS DIGITAL CAMERAS (MODEL DC-200)",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS DIGITAL CAMERAS (MODEL DC-200)",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 35,
-    "totalGrossWeight": 14300.0,
-    "totalMeasurement": 23.5
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 45.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241017-001",
-    "documentNumber": "20241017-002",
     "lcDetails": {
-      "lcNumber": "LC20241017-ABC123"
+      "lcNumber": "123456789012"
     },
     "certificateDetails": [
-      "CN20241017-123",
-      "CN20241017-456"
+      "COO-2024-12345",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-75935600",
-      "fax": "+49-69-75935601"
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
-      "address": "2345 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-63285678",
-      "fax": "+86-21-63285679"
+      "name": "SUNRISE LOGISTICS SDN BHD",
+      "address": "25 JALAN TUN RAZAK, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2148 6789",
+      "fax": "+60 3 2148 6790"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "NONE"
   }
 }

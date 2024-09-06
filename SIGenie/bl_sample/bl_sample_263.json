@@ -1,110 +1,106 @@
 {
-  "bookingReference": "APPLE20240912111155",
+  "bookingReference": "STARFISH20240915142532",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2423E",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2433W",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "200 Anson Road, #12-01, International Plaza, SINGAPORE 079909",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Mr. Tan)"
+      "name": "ZHANGJIAGANG SHUANGHONG IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 128, XINJIANG ROAD, ZHANGJIAGANG, JIANGSU, 215600",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIAGANG FREE TRADE ZONE)",
+      "telephone": "+86 523 8696 1234",
+      "email": "sales@shuanghai.com"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 73, 3012 KK ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 412 5678"
+      "name": "AUTOMOBILTECHNIK GMBH",
+      "address": "MAINZER STRASSE 123, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "info@automobiltechnik.de",
+      "telephone": "+49 69 7978 1234"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 73, 3012 KK ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 412 5678"
+      "name": "AUTOMOBILTECHNIK GMBH",
+      "address": "MAINZER STRASSE 123, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "info@automobiltechnik.de",
+      "telephone": "+49 69 7978 1234"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "28121000",
-  "commodityDescription": "SODIUM HYDROXIDE (CAUSTIC SODA)",
+  "hsCode": "870899",
+  "commodityDescription": "MOTOR VEHICLE PARTS, SPECIFICALLY GEARBOX COMPONENTS",
   "containers": [
     {
-      "containerNumber": "GESU8765432",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "AUTO123",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC234",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC345",
-      "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 25KG BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "AUTO456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GEARBOX COMPONENTS FOR AUTOMOBILES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "28121000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "LCL1234567890"
     },
-    "certificateDetails": "CO issued by Singapore Trade Federation",
+    "certificateDetails": [
+      "COO20241001"
+    ],
     "originalBLDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 73, 3012 KK ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 412 5678"
+      "name": "KUEHNE + NAGEL",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7978 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "200 Anson Road, #12-01, International Plaza, SINGAPORE 079909",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "KUEHNE + NAGEL",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7978 1234"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "Value: EUR50,000\n"
   }
 }

@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240912121234",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN 02",
+    "vesselName": "APL TEMASEK",
     "voyageNumber": "2024042",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65 6789 0123",
-      "email": "info@asiatrading.com.sg"
+      "address": "210 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068932",
+      "country": "SINGAPORE",
+      "additionalInfo": "(CENTRAL BUSINESS DISTRICT)",
+      "telephone": "+65 6221 5678",
+      "email": "SALES@ASIAPACIFICTRADING.COM.SG"
     },
     "consignee": {
-      "name": "EURO STEEL IMPORTS BV",
-      "address": "KAMPSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL856789012",
-      "president": "MR. HANS VAN DER LINDEN",
-      "telephone": "+31 10 234 5678",
-      "fax": "+31 10 234 5679"
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "SCHILLERSTRASSE 12, 20099 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEMASCHINEN.DE",
+      "telephone": "+49 40 36547890"
     },
     "notifyParty": {
-      "name": "EURO STEEL IMPORTS BV",
-      "address": "KAMPSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL856789012",
-      "president": "MR. HANS VAN DER LINDEN",
-      "telephone": "+31 10 234 5678",
-      "fax": "+31 10 234 5679"
+      "name": "ABC LOGISTICS GmbH",
+      "address": "FEHRBELLINER PLATZ 1, 10117 BERLIN",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 30 24678901"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "72071100",
-  "commodityDescription": "STEEL PLATES",
+  "hsCode": "842139",
+  "commodityDescription": "MACHINE TOOLS FOR METAL WORKING, INCLUDING LATHE AND MILLING MACHINES",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS STEEL PLATES",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LATHE MACHINE (W.2500MM H.1800MM)",
+      "grossWeight": 12000.0,
+      "measurement": 20.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 3,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MILLING MACHINE (W.1800MM H.1500MM)",
+      "grossWeight": 8000.0,
+      "measurement": 15.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER",
-    "totalPackages": 200,
-    "packageType": "BUNDLES",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 8,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 35.7
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "01234567890"
+      "lcNumber": "00001010334345"
     },
-    "certificateDetails": "12345678901234",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 ABC STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 987 6543",
-      "fax": "+31 10 987 6544"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "2500 CHOA CHU KANG ROAD, SINGAPORE 690250",
+      "telephone": "+65 6277 3333"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 ABC STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 987 6543",
-      "fax": "+31 10 987 6544"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "2500 CHOA CHU KANG ROAD, SINGAPORE 690250",
+      "telephone": "+65 6277 3333"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

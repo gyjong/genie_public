@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VERMONT",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": "CHICAGO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFRESH LOGISTICS BV",
+      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "AMERICAN COLD CHAIN LLC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADE SOLUTIONS",
+      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "07011000",
+  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY",
+  "containers": [
+    {
+      "containerNumber": "MSCU7895632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AP123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AP456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "876543",
+      "marksAndNumbers": "AP789",
+      "numberOfPackages": 1000,
+      "cargoDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS",
+      "grossWeight": 25000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40FR) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "40FR",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 99.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTO-123456",
+      "HEALTH-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "AMERICAN COLD CHAIN LLC",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFRESH LOGISTICS BV",
+      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 0-2\u00b0C"
+  }
+}

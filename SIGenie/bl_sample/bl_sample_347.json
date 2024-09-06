@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20241016143052",
+  "bookingReference": "GRAPE20241026143256",
   "voyageDetails": {
-    "vesselName": "MARINA STAR",
-    "voyageNumber": "2024092",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "address": "123 Anson Road, #12-01, Anson Centre, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6222 3333",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
     },
     "consignee": {
       "name": "EUROTECH GMBH",
-      "address": "INDUSTRIESTRASSE 10, 60314 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "address": "Messeallee 1-7, 20357 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE, ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 300 999 0"
     },
     "notifyParty": {
-      "name": "KUEHNE+NAGEL GMBH",
-      "address": "WALDKIRCHER STRASSE 5, 60594 FRANKFURT, GERMANY"
+      "name": "EUROTECH GMBH",
+      "address": "Messeallee 1-7, 20357 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE, ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 300 999 0"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRICAL COMPONENTS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854370",
+  "commodityDescription": "PRINTING MACHINERY PARTS INCLUDING ROLLERS, PLATES AND BEARINGS",
   "containers": [
     {
-      "containerNumber": "CAIU8876543",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL COMPONENTS",
-      "grossWeight": 7500.0,
-      "measurement": 20.0,
-      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRINTING MACHINERY PARTS INCLUDING ROLLERS, PLATES AND BEARINGS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRINTING MACHINERY PARTS INCLUDING ROLLERS, PLATES AND BEARINGS",
+      "grossWeight": 17500.0,
+      "measurement": 30.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 20.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 55.7
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
     "certificateDetails": [
-      "23456789012345",
-      "98765432109876"
+      "411252403578X",
+      "411252403579X"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "10 Changi South Street 3, Singapore 486036",
+      "telephone": "+65 6317 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "INDUSTRIESTRASSE 10, 60314 FRANKFURT, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "10 Changi South Street 3, Singapore 486036",
+      "telephone": "+65 6317 5555"
     },
-    "onboardDate": "OCT. 22. 2024",
-    "additionalRemarks": "Shipment of electrical components for industrial use. Value: EUR 25,000"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

@@ -1,110 +1,107 @@
 {
-  "bookingReference": "APPLE20240915123456",
+  "bookingReference": "APPLE20240912104521",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2436E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CORP.",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "ZHONGSHAN SUNRISE ELECTRONICS CO., LTD.",
+      "address": "NO. 5, SHANGCHENG ROAD, XIAOLONG VILLAGE, NANZHU TOWN, ZHONGSHAN, GUANGDONG, 528400",
+      "country": "CHINA",
+      "additionalInfo": "(ZHONGSHAN CITY)",
+      "telephone": "+86 750 3333 5555",
+      "email": "SALES@SUNRISE-ELECTRONICS.COM"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Europaplein 12, 3075 AA Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochembv.nl",
-      "telephone": "+31 10 456 7890"
+      "name": "TECH SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 500, LOS ANGELES, CA 90015",
+      "country": "USA",
+      "email": "INFO@TECHSOLUTIONS.COM",
+      "telephone": "+1 213 555 1212"
     },
     "notifyParty": {
-      "name": "BANK OF AMERICA",
-      "address": "Coolsingel 117, 3012 GP Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "trade.rotterdam@bofa.com",
-      "telephone": "+31 10 201 2345"
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003",
+      "country": "USA",
+      "email": "NOTIFICATIONS@ABCIMPORTEXPORT.COM",
+      "telephone": "+1 646 555 2323"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "854230",
+  "commodityDescription": "DIGITAL CAMERA MODULES",
   "containers": [
     {
-      "containerNumber": "SEGU3456789",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT-123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: DIGITAL CAMERA MODULES, MODEL: DCM-500",
+      "grossWeight": 2000.0,
+      "measurement": 10.0
     },
     {
-      "containerNumber": "SEGU7890123",
+      "containerNumber": "TCLU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "GT-456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "SEGU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "GT-789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: DIGITAL CAMERA MODULES, MODEL: DCM-500",
+      "grossWeight": 2000.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 20.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-2024-09-15-123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS FREE TIME",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00002345678912"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "certificateDetails": [
+      "CN2024091212345",
+      "CN2024091267890"
+    ],
     "originalBLDistribution": {
-      "name": "HSBC BANK",
-      "address": "250, Raffles Place, Singapore 018583",
-      "telephone": "+65 6326 6326"
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "2nd Floor, Building B, No. 123, Huizhou Road, Guangzhou, China",
+      "telephone": "+86 20 3333 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CORP.",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6226 8888",
-      "fax": "+65 6226 9999"
+      "name": "SUNRISE LOGISTICS LTD.",
+      "address": "2nd Floor, Building B, No. 123, Huizhou Road, Guangzhou, China",
+      "telephone": "+86 20 3333 8888"
     },
     "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "CONTAINERS SEALED AND LOCKED"
+    "additionalRemarks": "Value: USD50,000"
   }
 }

@@ -1,95 +1,100 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240920101532",
   "voyageDetails": {
-    "vesselName": "COSCO PACIFIC 01",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24043",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, USA"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 8888",
-      "email": "info@globaltrading.sg"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "221 ORCHARD ROAD #08-01, SINGAPORE 238854",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Ngee Ann City)"
     },
     "consignee": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "123 Main Street, Los Angeles, CA 90015, USA",
-      "taxId": "123456789",
-      "president": "Mr. John Smith",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "EUROCHEM BV",
+      "address": "Delftsestraat 10, 3013 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "orders@eurochem.nl, info@eurochem.nl",
+      "telephone": "+31 10 444 5555"
     },
     "notifyParty": {
-      "name": "SUNRISE LOGISTICS LLC",
-      "address": "456 Elm Street, Los Angeles, CA 90016, USA",
-      "telephone": "+1 213 555 2323",
-      "fax": "+1 213 555 2324"
+      "name": "EUROCHEM BV",
+      "address": "Delftsestraat 10, 3013 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "logistics@eurochem.nl",
+      "telephone": "+31 10 444 5556"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8542391000",
-  "commodityDescription": "COMPUTER KEYBOARD",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE (EA)",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "marksAndNumbers": "EA2023",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE (EA) 20MT 200KG DRUMS, PALLETIZED",
+      "grossWeight": 20150.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "789101",
+      "marksAndNumbers": "EA2024",
       "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 500 PCS COMPUTER KEYBOARD",
-      "grossWeight": 5000.0,
-      "measurement": 15.0
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE (EA) 10MT 200KG DRUMS, PALLETIZED",
+      "grossWeight": 10075.0,
+      "measurement": 12.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 500,
-    "packageType": "CARTONS",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 5000.0,
-    "totalMeasurement": 15.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 30225.0,
+    "totalMeasurement": 37.5
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "12345EA-2024",
+    "hsCode": "291532",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "1234567890"
     },
-    "certificateDetails": "12345678901234567890",
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "SUNRISE LOGISTICS LLC",
-      "address": "456 Elm Street, Los Angeles, CA 90016, USA",
-      "telephone": "+1 213 555 2323",
-      "fax": "+1 213 555 2324"
+      "name": "GLOBAL SHIPPING CO. LTD.",
+      "address": "123 SHIP STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 8888",
-      "email": "info@globaltrading.sg"
+      "name": "GLOBAL SHIPPING CO. LTD.",
+      "address": "123 SHIP STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nSHIPMENT IS SUBJECT TO INSPECTION"
   }
 }

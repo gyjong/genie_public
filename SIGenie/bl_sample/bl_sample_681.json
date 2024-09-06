@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PINEAPPLE20241018113522",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024412",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "telephone": "+65 6737 8901",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 123, 60314 FRANKFURT, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS MEIER",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85414000",
+  "commodityDescription": "NETWORKING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, GERMANY NETWORKING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7123 4567",
+      "fax": "+44 20 7123 4568"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

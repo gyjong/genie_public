@@ -1,95 +1,110 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20240918151245",
   "voyageDetails": {
-    "vesselName": "COSCO PACIFIC",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2427E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 5555",
-      "email": "sales@sunrisetrading.sg"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Tel: +65 6221 8500)"
     },
     "consignee": {
-      "name": "GOLDEN GATE IMPORTS INC",
-      "address": "123 Main Street, Los Angeles, CA 90012, USA",
-      "taxId": "12-3456789",
-      "president": "Mr. John Smith",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "EURO CHEM GMBH",
+      "address": "Van der Doesstraat 2, 3011GD Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 477 8800"
     },
     "notifyParty": {
-      "name": "ABC BANK",
-      "address": "111 Wall Street, New York, NY 10005, USA",
-      "telephone": "+1 212 555 2222",
-      "fax": "+1 212 555 2223"
+      "name": "BANK OF AMERICA",
+      "address": "Weena 360, 3013 AD Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "rotterdam@bofa.com",
+      "telephone": "+31 10 214 5000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8544421000",
-  "commodityDescription": "COMPUTER PROCESSORS",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
   "containers": [
     {
-      "containerNumber": "GMLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA COMPUTER PROCESSORS",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "EG-2024-09",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG-2024-09",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "EG-2024-09",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO-123456-EG",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "20240918-EG-CERT",
     "originalBLDistribution": {
       "name": "DHL EXPRESS",
-      "address": "123 DHL Way, Los Angeles, CA 90013, USA",
-      "telephone": "+1 800 225 5345",
-      "fax": "+1 800 225 5346"
+      "address": "41000 SINGAPORE",
+      "telephone": "+65 6221 8500"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 DHL Way, Los Angeles, CA 90013, USA",
-      "telephone": "+1 800 225 5345",
-      "fax": "+1 800 225 5346"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8500",
+      "fax": "+65 6227 7500"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " SHIPMENT OF COMPUTER PROCESSORS"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
   }
 }

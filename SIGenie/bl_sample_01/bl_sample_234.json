@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912102515",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROLOGISTICS BV",
+      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA FREIGHT FORWARDERS PTE LTD",
+      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "SUITE 501, LEVEL 5,  MENARA HLA,  1 Jalan Kia Peng, 50450 Kuala Lumpur, MALAYSIA",
+      "telephone": "+60 3 2161 9000",
+      "fax": "+60 3 2161 9111"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU7775553",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU8886664",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 8,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 33000.0,
+    "totalMeasurement": 65.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024091212345"
+    },
+    "certificateDetails": [
+      "COO-20240912-001",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA FREIGHT FORWARDERS PTE LTD",
+      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROLOGISTICS BV",
+      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+  }
+}

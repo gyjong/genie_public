@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912101201",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "24039N",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 128, GUANGDONG RD., ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 528000)",
+      "telephone": "+86 760 2223 1234",
+      "email": "SALES@SUNRISEIMPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "HANAUER LANDSTRASSE 123, 60314 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 7564 1234"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "HANAUER LANDSTRASSE 123, 60314 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 7564 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR INDUSTRIAL ROBOTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "ROBOT ARM PARTS AS PER PACKING LIST",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "ROBOT CONTROL UNIT AND ACCESSORIES",
+      "grossWeight": 9000.0,
+      "measurement": 20.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 16500.0,
+    "totalMeasurement": 35.7
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202409121234"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 128, GUANGDONG RD., ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 760 2223 1234"
+    },
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "VALUE: USD 50,000"
+  }
+}

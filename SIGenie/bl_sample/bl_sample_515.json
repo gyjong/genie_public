@@ -1,95 +1,109 @@
 {
-  "bookingReference": "APPLE20241015143012",
+  "bookingReference": "APPLE20240918152742",
   "voyageDetails": {
-    "vesselName": "SILVER WAVE",
-    "voyageNumber": "2024102",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SEAFOOD PTE LTD",
-      "onBehalfOf": "",
-      "address": "20 Anson Road #11-01 Anson Centre, Singapore 079912",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 888, FUJIAN ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
     },
     "consignee": {
-      "name": "FRUIT IMPORT GMBH",
-      "address": "Kaiserstra\u00dfe 10, 60311 Frankfurt am Main, Germany",
-      "companyNumber": "HRB 12345"
+      "name": "EURO TRADE GMBH",
+      "address": "SCHIPHOLESTRAAT 123, 1118 AX SCHIPHOL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTRADE.NL",
+      "telephone": "+31 20 777 1111"
     },
     "notifyParty": {
-      "name": "FRUIT LOGISTICS BV",
-      "address": "Oosterdoksstraat 10, 1011 DK Amsterdam, Netherlands"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "WATERLOO 25, 3012 AM ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 444 2222"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "030199",
-  "commodityDescription": "FROZEN FISH - GROUPER",
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "SEGU9876543",
       "sealNumber": "1234567",
-      "marksAndNumbers": "SEAFOOD-123",
-      "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. FROZEN FISH - GROUPER. PACKED IN CARTONS. ",
-      "grossWeight": 15000.0,
-      "measurement": 25.0,
-      "additionalInfo": ""
+      "marksAndNumbers": "MKT-123",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 10 WOODEN CASES CONTAINING MACHINERY PARTS FOR WIND TURBINES AS PER PACKING LIST.",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "MKT-456",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 5 WOODEN PALLETS CONTAINING MACHINERY PARTS FOR WIND TURBINES AS PER PACKING LIST.",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "MKT-789",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 15 STEEL CRATES CONTAINING MACHINERY PARTS FOR WIND TURBINES AS PER PACKING LIST.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'RF) CONTAINER ONLY",
-    "totalPackages": 500,
-    "packageType": "CARTONS",
-    "containerType": "20RF",
-    "totalGrossWeight": 15000.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": "MSCU9876543",
-    "temperature": "-18.0\u00baC",
-    "minTemperature": "-20.0\u00b0C",
-    "maxTemperature": "-16.0\u00b0C",
-    "ventilation": "Closed",
-    "humidity": "80%"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CASES, PALLETS & CRATES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0000202040112"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": [
-      "HACCP-1234567890",
-      "FDA-9876543210"
-    ],
+    "certificateDetails": "CO, fumigation certificate",
     "originalBLDistribution": {
-      "name": "SEAFOOD PTE LTD",
-      "address": "20 Anson Road #11-01 Anson Centre, Singapore 079912",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "SCHIPHOL AIRPORT, NETHERLANDS",
+      "telephone": "+31 20 6567890"
     },
     "originalInvoiceDistribution": {
-      "name": "FRUIT IMPORT GMBH",
-      "address": "Kaiserstra\u00dfe 10, 60311 Frankfurt am Main, Germany"
+      "name": "EURO TRADE GMBH",
+      "address": "SCHIPHOLESTRAAT 123, 1118 AX SCHIPHOL, NETHERLANDS",
+      "telephone": "+31 20 777 1111"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Frozen Fish, Temperature: -18\u00b0C, Value: EUR50,000"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nGOODS SHIPPED ON BOARD\n"
   }
 }

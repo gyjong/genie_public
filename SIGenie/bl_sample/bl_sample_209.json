@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241015103005",
+  "bookingReference": "APRICOT20241026153421",
   "voyageDetails": {
-    "vesselName": "MAERSK EMERALD",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2430E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,74 +23,88 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": null,
-      "address": "258 HUAIHAI MIDDLE ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6351-2345",
-      "fax": "+86-21-6351-2346"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 1234, XINHU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
     },
     "consignee": {
-      "name": "EUROTECH BV",
-      "address": "WEENA 265, 3012CN ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTECH GMBH",
+      "address": "HAUPTSTRASSE 56, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE, ORDER@EUROTECH.DE",
+      "telephone": "+49 69 790800"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "SCHIPHOL RING 121, 1118 AN SCHIPHOL, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "HAUPTSTRASSE 56, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 790800"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "COMPUTER MONITORS",
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
   "containers": [
     {
-      "containerNumber": "CMLU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EUROTECH-123",
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-123",
       "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "25 INCH LED COMPUTER MONITORS - SHIPPER'S LOAD, COUNT AND WEIGHT",
-      "grossWeight": 6500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL XYZ-123, AS PER INVOICE NO. 1234567",
+      "grossWeight": 1500.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "SUDU1111222",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL XYZ-456, AS PER INVOICE NO. 1234567",
+      "grossWeight": 1500.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "SUDU3333444",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ET-789",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL XYZ-789, AS PER INVOICE NO. 1234567",
+      "grossWeight": 1500.0,
+      "measurement": 12.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 150,
     "packageType": "BOXES",
-    "containerType": "20DR",
-    "totalGrossWeight": 6500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 36.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "8544421000",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN NO. 12345678",
     "originalBLDistribution": {
-      "name": "EUROTECH BV",
-      "address": "WEENA 265, 3012CN ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-200-1000",
-      "fax": "+31-10-200-1001"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 790800"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "258 HUAIHAI MIDDLE ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6351-2345",
-      "fax": "+86-21-6351-2346"
+      "name": "EUROTECH GMBH",
+      "address": "HAUPTSTRASSE 56, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 790800",
+      "fax": "+49 69 790801"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Shipper's Load & Count. Value: USD 20,000"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nINSURANCE POLICY NUMBER: 123456789"
   }
 }

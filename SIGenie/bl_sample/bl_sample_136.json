@@ -1,20 +1,20 @@
 {
-  "bookingReference": "GRAPE20240912112518",
+  "bookingReference": "APPLE20241018153245",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2428W",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024102",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -23,75 +23,79 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROCHEM BV",
-      "address": "MARKTRECHT 13, 3021 AK ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 5200",
-      "email": "INFO@EUROCHEM.NL"
+      "name": "SHANGHAI SUNRISE CO., LTD.",
+      "onBehalfOf": "SUNRISE INTERNATIONAL GROUP",
+      "address": "333 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6351-1234",
+      "fax": "+86-21-6351-5678"
     },
     "consignee": {
-      "name": "ASIA PACIFIC CHEMICALS PTE LTD",
-      "address": "10 Anson Road #26-01 International Plaza, SINGAPORE 079903",
-      "taxId": "199801938D",
-      "president": "MR. LIM CHENG KUAN",
-      "telephone": "+65 6226 3600",
-      "fax": "+65 6226 3666"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "CALANDSTRAAT 15, 3039 GR ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC CHEMICALS PTE LTD",
-      "address": "10 Anson Road #26-01 International Plaza, SINGAPORE 079903",
-      "taxId": "199801938D",
-      "president": "MR. LIM CHENG KUAN",
-      "telephone": "+65 6226 3600",
-      "fax": "+65 6226 3666"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "DOKlaan 12, 3016 ED ROTTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "28112200",
-  "commodityDescription": "SODIUM HYDROXIDE SOLUTION 50%",
+  "shippingTerm": "CIF",
+  "hsCode": "070110",
+  "commodityDescription": "GREEN BEANS",
   "containers": [
     {
-      "containerNumber": "TCLU7360258",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SODIUM HYDROXIDE SOLUTION 50% FOR INDUSTRIAL USE. HAZARDOUS MATERIAL. IMDG CODE: 1824.",
-      "grossWeight": 22000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GREEN BEANS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINERS ARE VENTILATED."
+    },
+    {
+      "containerNumber": "TCLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GREEN BEANS",
+      "grossWeight": 15500.0,
+      "measurement": 25.5,
+      "additionalInfo": "CONTAINERS ARE VENTILATED."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 200,
-    "packageType": "DRUMS",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 25.5
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 30500.0,
+    "totalMeasurement": 50.5
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY Container"
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "000023456789"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "222 Anson Road #07-01 Anson Centre, SINGAPORE 079912",
-      "telephone": "+65 6590 7777",
-      "fax": "+65 6590 7778"
+      "name": "SUNRISE INTERNATIONAL GROUP",
+      "address": "333 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6351-1234",
+      "fax": "+86-21-6351-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "222 Anson Road #07-01 Anson Centre, SINGAPORE 079912",
-      "telephone": "+65 6590 7777",
-      "fax": "+65 6590 7778"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "CALANDSTRAAT 15, 3039 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-202-2020",
+      "fax": "+31-10-202-2021"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CARGO SHOULD BE STOWED AWAY FROM FOODSTUFFS. HAZARDOUS MATERIAL. IMDG CODE: 1824."
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Green Beans, Value: EUR50,000"
   }
 }

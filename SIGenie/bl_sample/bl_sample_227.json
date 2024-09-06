@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20241015143025",
+  "bookingReference": "GRAPE202410161417300",
   "voyageDetails": {
-    "vesselName": "MSC CHLOE",
-    "voyageNumber": "2429W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI ZHAOWEI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1102, BUILDING 3, NO. 1888, HUANGPU ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6329-8765",
-      "fax": "+86-21-6329-8766"
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "NO. 123 HONGYU ROAD, YONGKANG, ZHEJIANG, 325000, CHINA",
+      "telephone": "86-579-86521345",
+      "fax": "86-579-86521346"
     },
     "consignee": {
-      "name": "EUROTRADE BV",
-      "address": "BEETHOVENSTRAAT 12, 3015 BC ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "555 MARKET STREET, SUITE 1200, SAN FRANCISCO, CA 94105",
+      "telephone": "1-415-555-1212",
+      "fax": "1-415-555-1213",
+      "email": "IMPORT@GOLDENGATEIMPORTS.COM",
+      "contactPerson": "MARIA RODRIGUEZ"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL",
-      "address": "WESTLANDGAAZ 35, 3015 BK ROTTERDAM, NETHERLANDS"
+      "sameAsConsignee": false,
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1111",
+      "fax": "1-213-555-1112"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "940160",
+  "commodityDescription": "WOODEN DINING CHAIRS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9986752",
       "sealNumber": "123456",
-      "marksAndNumbers": "KW1234",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "MOTORCYCLES, MAKE: HONDA, MODEL: CBR600RR, YEAR: 2024",
-      "grossWeight": 750.0,
-      "measurement": 10.5,
-      "additionalInfo": ""
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU9986753",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-124",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12600.0,
+      "measurement": 26.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20DR",
-    "totalGrossWeight": 750.0,
-    "totalMeasurement": 10.5
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 25100.0,
+    "totalMeasurement": 51.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "1234567890123"
+      "lcNumber": "0000202033925"
     },
     "certificateDetails": [
-      "CN20241015001",
-      "CN20241015002"
+      "4112724080179X",
+      "4112724080180X"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE BV",
-      "address": "BEETHOVENSTRAAT 12, 3015 BC ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-234-5678",
-      "fax": "+31-10-234-5679"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "555 MARKET STREET, SUITE 1200, SAN FRANCISCO, CA 94105",
+      "telephone": "1-415-555-1212",
+      "fax": "1-415-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI ZHAOWEI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1102, BUILDING 3, NO. 1888, HUANGPU ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6329-8765",
-      "fax": "+86-21-6329-8766"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1111",
+      "fax": "1-213-555-1112"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "OCT. 29. 2024"
   }
 }

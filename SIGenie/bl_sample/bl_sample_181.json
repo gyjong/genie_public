@@ -1,108 +1,95 @@
 {
-  "bookingReference": "GRAPE20241015103012",
+  "bookingReference": "PINEAPPLE20240912114537",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2443E",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2438W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI ZHENYU IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1102, NO. 1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-1234",
-      "fax": "+86-21-6327-5678"
+      "name": "GLOBAL TRADING SOLUTIONS BV",
+      "address": "WEGELAAN 12, 3061  ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "info@globaltradingsolutions.nl"
     },
     "consignee": {
-      "name": "EUROTRADING BV",
-      "address": "DIJKSTRA LAAN 10, 3065 BD ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+      "taxId": "200102345Z",
+      "president": "MR. CHEN LIANG",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
     },
     "notifyParty": {
-      "name": "ZIM INTEGRATED SHIPPING SERVICES",
-      "address": "WILLEMSTAD, CURACAO"
+      "name": "GLOBAL LOGISTICS SERVICES",
+      "address": "101 Cecil Street, #12-01  The Octagon, Singapore 069533",
+      "telephone": "+65 6536 7777",
+      "fax": "+65 6536 8888"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "hsCode": "73269090",
+  "commodityDescription": "IRON AND STEEL BARS",
   "containers": [
     {
-      "containerNumber": "TCLU5678901",
+      "containerNumber": "GLSU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZHENYU123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IN GOOD ORDER AND CONDITION."
-    },
-    {
-      "containerNumber": "TCLU5678902",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ZHENYU456",
-      "numberOfPackages": 40,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
-      "grossWeight": 10000.0,
-      "measurement": 20.0,
-      "additionalInfo": "CONTAINER IN GOOD ORDER AND CONDITION."
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. IRON AND STEEL BARS",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS",
-    "totalPackages": 90,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 22500.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 35.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "001234567890"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROTRADING BV",
-      "address": "DIJKSTRA LAAN 10, 3065 BD ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-1234567",
-      "fax": "+31-10-8765432"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6220 2222",
+      "fax": "+65 6220 2333"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI ZHENYU IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1102, NO. 1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-1234",
-      "fax": "+86-21-6327-5678"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Machinery parts for automobiles, Value: USD100,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

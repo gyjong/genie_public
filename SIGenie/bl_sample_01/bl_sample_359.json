@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026143502",
+  "voyageDetails": {
+    "vesselName": "COSCO ASIA",
+    "voyageNumber": "2024451",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "10 Anson Road, #22-01, International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-5555",
+      "fax": "+65-6222-6666"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Prinsestraat 123, 3012 AX Rotterdam, Netherlands",
+      "telephone": "+31-10-444-5555",
+      "fax": "+31-10-444-6666"
+    },
+    "notifyParty": {
+      "name": "EUROBANK N.V.",
+      "address": "Coolsingel 108, 3011 AD Rotterdam, Netherlands",
+      "telephone": "+31-10-777-8888",
+      "fax": "+31-10-777-9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8711.90",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "M-123",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN 5 MOTORCYCLES",
+      "grossWeight": 1500.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 20.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU7896543",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN NO. CO20241026001",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Prinsestraat 123, 3012 AX Rotterdam, Netherlands",
+      "telephone": "+31-10-444-5555",
+      "fax": "+31-10-444-6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "10 Anson Road, #22-01, International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-5555",
+      "fax": "+65-6222-6666"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

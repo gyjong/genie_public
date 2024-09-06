@@ -1,0 +1,92 @@
+{
+  "bookingReference": "APPLE202409121435200",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENLAND IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 201, BUILDING B, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6215-7890",
+      "fax": "+86-21-6215-7891"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "1234 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "IMPORT@WCLI.COM",
+      "contactPerson": "SARAH WILSON"
+    },
+    "notifyParty": {
+      "name": "GREENLAND IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 201, BUILDING B, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMLU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GL-123",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GL-124",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240912-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X"
+    ],
+    "originalBLDistribution": {
+      "name": "GREENLAND IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 201, BUILDING B, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREENLAND IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 201, BUILDING B, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA"
+    },
+    "onboardDate": "SEPT. 29. 2024"
+  }
+}

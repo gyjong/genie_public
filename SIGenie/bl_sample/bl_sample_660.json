@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APRICOT20241015133011",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024105",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "EUROTECH BV",
+      "address": "HOOFDDORPSEWEG 10, 2132 HE HOOFDDORP, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "ZUIDERLAAN 100, 1075 KX AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "E-1234",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. ELECTRONIC COMPONENTS AS DESCRIBED.",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH BV",
+      "address": "HOOFDDORPSEWEG 10, 2132 HE HOOFDDORP, NETHERLANDS",
+      "telephone": "+31-23-555-1234",
+      "fax": "+31-23-555-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

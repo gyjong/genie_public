@@ -1,96 +1,99 @@
 {
-  "bookingReference": "APPLE20241015113022",
+  "bookingReference": "APPLE202410261234500",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "202410A",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "24045",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6221-8888",
-      "fax": "+65-6221-9999"
+      "name": "ZHONGSHAN GLOBAL TRADING CO., LTD",
+      "address": "ROOM 201, NO. 59, ZHENHUI ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 759 85599999",
+      "fax": "+86 759 85599998"
     },
     "consignee": {
-      "name": "EUROTECH IMPORT & EXPORT BV",
-      "address": "Herengracht 352, 1016 CH Amsterdam, Netherlands",
-      "telephone": "+31-20-777-1111",
-      "fax": "+31-20-777-2222"
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "INFO@SUNRISEIMPORT.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "EUROTECH IMPORT & EXPORT BV",
-      "address": "Herengracht 352, 1016 CH Amsterdam, Netherlands",
-      "telephone": "+31-20-777-1111",
-      "fax": "+31-20-777-2222"
+      "name": "SUNRISE LOGISTICS LLC",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90016",
+      "telephone": "+1 310 555 1313",
+      "fax": "+1 310 555 1314"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8479.89",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "GRSU9876543",
+      "containerNumber": "SEGU3672518",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET-1234",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SEAL SAID TO CONTAIN: MACHINERY PARTS FOR ASSEMBLY LINE",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 1500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 25.8
+    },
+    {
+      "containerNumber": "SEGU3715823",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 1500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - ASSORTED COLORS AND SIZES",
+      "grossWeight": 12200.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 3000,
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 51.3
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241015",
-    "salesOrderNumber": "SO20241015A",
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
     "lcDetails": {
-      "lcNumber": "LC001234567"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": "COC-20241015-001",
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH IMPORT & EXPORT BV",
-      "address": "Herengracht 352, 1016 CH Amsterdam, Netherlands",
-      "telephone": "+31-20-777-1111",
-      "fax": "+31-20-777-2222"
+      "name": "SUNRISE LOGISTICS LLC",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90016",
+      "telephone": "+1 310 555 1313",
+      "fax": "+1 310 555 1314"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6221-8888",
-      "fax": "+65-6221-9999"
+      "name": "ZHONGSHAN GLOBAL TRADING CO., LTD",
+      "address": "ROOM 201, NO. 59, ZHENHUI ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 759 85599999",
+      "fax": "+86 759 85599998"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "OCT. 28. 2024"
   }
 }

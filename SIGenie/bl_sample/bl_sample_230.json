@@ -1,90 +1,96 @@
 {
-  "bookingReference": "APPLE20241015103045",
+  "bookingReference": "APPLE20241026143012",
   "voyageDetails": {
-    "vesselName": "EVERGREEN SKY",
-    "voyageNumber": "2024103",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2440W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "SHANGHAI, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
-      "onBehalfOf": "",
-      "address": "123 FUJIAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6321-8888",
-      "fax": "+86-21-6321-9999"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 Anson Road, #12-01, International Plaza, Singapore 079900",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Europaplein 10, 3013 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL GMBH",
-      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY"
+      "name": "EUROTECH LOGISTICS",
+      "address": "Europaplein 5, 3013 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 456 1234",
+      "fax": "+31 10 456 5678"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85444200",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "8541.40",
+  "commodityDescription": "ELECTRICAL COMPONENTS",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "ET123",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT, AND WEIGHT",
       "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
     "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
+    "packageType": "CARTONS",
     "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalMeasurement": 30.0
   },
-  "reeferSettings": {},
+  "dangerousGoods": {
+    "containerNumber": "TCLU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8541.40",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY MARKED AS UN3264"
+  },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO-123456",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "COO-123456",
     "originalBLDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
-      "address": "123 FUJIAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6321-8888",
-      "fax": "+86-21-6321-9999"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Europaplein 10, 3013 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-1234-5678",
-      "fax": "+49-69-1234-5679"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 Anson Road, #12-01, International Plaza, Singapore 079900",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Container Secured with Tamper-Evident Seals"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "BATTERY SHIPMENT - PROPER HANDLING REQUIRED"
   }
 }

@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912102305",
+  "voyageDetails": {
+    "vesselName": "MSC PARIS",
+    "voyageNumber": "2431ES",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING BV",
+      "address": "WEENA 261, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "taxId": "199801234J",
+      "president": "MR. LIM CHONG WEI",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "201 Henderson Road #05-01 Singapore 159545",
+      "telephone": "+65 6272 1234",
+      "fax": "+65 6272 1235"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84213910",
+  "commodityDescription": "ELECTRIC KITCHEN OVENS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE ELECTRIC KITCHEN OVENS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SINGAPORE BANKING CORPORATION LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6318 9888",
+      "fax": "+65 6318 9899"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING BV",
+      "address": "WEENA 261, 3012CN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 4567",
+      "email": "INFO@GLOBALTRADING.NL"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

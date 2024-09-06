@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912101523",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2424W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI HUIXING TRADING CO., LTD.",
+      "address": "ROOM 1502, NO. 1888, SHANGHAI ROAD, SHANGHAI, 200080",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)",
+      "telephone": "+86 21 6278 1234",
+      "email": "SALES@SHANGHAIHUIXING.COM"
+    },
+    "consignee": {
+      "name": "GERMAN IMPORT GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@GERMANIMPORT.DE",
+      "telephone": "+49 69 7589 1234"
+    },
+    "notifyParty": {
+      "name": "GERMAN IMPORT GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@GERMANIMPORT.DE",
+      "telephone": "+49 69 7589 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "841381",
+  "commodityDescription": "PNEUMATIC CONTROL VALVES FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI2345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PNEUMATIC CONTROL VALVES FOR INDUSTRIAL MACHINERY (MADE IN CHINA)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI2346",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PNEUMATIC CONTROL VALVES FOR INDUSTRIAL MACHINERY (MADE IN CHINA)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN23456789"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7589 9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7589 9876"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: EUR150,000"
+  }
+}

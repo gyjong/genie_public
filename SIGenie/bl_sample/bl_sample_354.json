@@ -1,107 +1,100 @@
 {
-  "bookingReference": "APPLE20240912124532",
+  "bookingReference": "APPLE202410251432000",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2430W",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2445W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "FRANKFURT, GERMANY",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI XINGYUAN IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1502, NO. 1888, HONGQIAO ROAD, SHANGHAI, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(MINHANG DISTRICT)",
-      "telephone": "+86 21 6231 8888",
-      "email": "sales@xingyuan.com.cn"
+      "name": "EVERBRIGHT TRADING CO., LTD",
+      "address": "ROOM 1008, 10TH FL., BUILDING A, NO.188, SHENYANG ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "ABC GmbH & Co. KG",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT AM MAIN",
-      "country": "GERMANY",
-      "email": "info@abgmbh.de",
-      "telephone": "+49 69 79999999"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-323-555-1212",
+      "fax": "+1-323-555-1213",
+      "email": "IMPORT@WCLINC.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "ABC Logistics GmbH",
-      "address": "MAINZER STRASSE 10, 60329 FRANKFURT AM MAIN",
-      "country": "GERMANY",
-      "email": "operations@abclogistics.de, info@abclogistics.de",
-      "telephone": "+49 69 22222222"
+      "name": "ABC BANK",
+      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "+1-212-555-5555",
+      "fax": "+1-212-555-5556"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "PACKAGING MACHINERY, INCLUDING FILLING AND SEALING EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "XY123",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: PACKAGING MACHINERY, INCLUDING FILLING AND SEALING EQUIPMENT",
-      "grossWeight": 15000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "EB20241025",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 12500.0,
+      "measurement": 25.567
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "ABC456",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: PACKAGING MACHINERY, INCLUDING FILLING AND SEALING EQUIPMENT",
-      "grossWeight": 7500.0,
-      "measurement": 12.7
+      "marksAndNumbers": "EB20241025",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 12400.0,
+      "measurement": 25.234
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "totalGrossWeight": 22500.0,
-    "totalMeasurement": 38.2
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24900.0,
+    "totalMeasurement": 50.801
   },
   "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "202410250001",
     "lcDetails": {
-      "lcNumber": "00001010334238"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "411252403578Y",
-      "411252403579Z"
+      "4112724080177X",
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "FRANKFURTER STRASSE 100, 60329 FRANKFURT AM MAIN",
-      "telephone": "+49 69 11111111"
+      "name": "EVERBRIGHT TRADING CO., LTD",
+      "address": "ROOM 1008, 10TH FL., BUILDING A, NO.188, SHENYANG ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "FRANKFURTER STRASSE 100, 60329 FRANKFURT AM MAIN",
-      "telephone": "+49 69 11111111"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-323-555-1212",
+      "fax": "+1-323-555-1213",
+      "email": "IMPORT@WCLINC.COM"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "Value: EUR 50,000"
+    "onboardDate": "OCT. 27. 2024"
   }
 }

@@ -1,96 +1,107 @@
 {
-  "bookingReference": "GRAPE20241015143256",
+  "bookingReference": "APPLE20240912113215",
   "voyageDetails": {
-    "vesselName": "CMA CGM ARGOS",
-    "voyageNumber": "2438E",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2428E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
-      "telephone": "+65 6221 5555",
-      "fax": "+65 6221 6666"
+      "name": "SHANGHAI PRECISION ENGINEERING LTD.",
+      "address": "NO. 128, CHANGSHENG ROAD, BAOSHAN DISTRICT, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BAOSHAN FREE TRADE ZONE)",
+      "telephone": "+86 21 6688 1234",
+      "email": "SALES@SPELTD.COM"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Weena 412, 3013 AD Rotterdam, Netherlands",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 7890"
+      "name": "EUROTECH GMBH",
+      "address": "GESELLSCHAFTSTRASSE 15, 4053 BASEL, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "email": "ORDERS@EUROTECH.CH, INFO@EUROTECH.CH",
+      "telephone": "+41 61 261 6000"
     },
     "notifyParty": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Weena 412, 3013 AD Rotterdam, Netherlands",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 7890"
+      "name": "EUROTECH GMBH",
+      "address": "GESELLSCHAFTSTRASSE 15, 4053 BASEL, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "email": "ORDERS@EUROTECH.CH, INFO@EUROTECH.CH",
+      "telephone": "+41 61 261 6000"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8471.60",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CIF",
+  "hsCode": "846620",
+  "commodityDescription": "CNC MILLING MACHINES WITH AUTOMATED TOOL CHANGERS",
   "containers": [
     {
-      "containerNumber": "TCLU5987321",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "50 BOXES OF TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SPEL-123",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) CNC MILLING MACHINE WITH AUTOMATED TOOL CHANGER",
+      "grossWeight": 12000.0,
+      "measurement": 20.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SPEL-456",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) CNC MILLING MACHINE WITH AUTOMATED TOOL CHANGER",
+      "grossWeight": 12000.0,
+      "measurement": 20.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 41.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC0012345678"
+      "lcNumber": "00005678912345"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Weena 412, 3013 AD Rotterdam, Netherlands",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 7890"
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 6699 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
-      "telephone": "+65 6221 5555",
-      "fax": "+65 6221 6666"
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 6699 1234"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD200,000"
   }
 }

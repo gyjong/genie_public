@@ -1,0 +1,97 @@
+{
+  "bookingReference": "ORANGE20240912101502",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6227 8888",
+      "email": "info@asiatrade.com"
+    },
+    "consignee": {
+      "name": "EURO METALS LTD.",
+      "address": "Westblaak 10, 3012 KM Rotterdam, Netherlands",
+      "taxId": "NL856324712B01",
+      "president": "Mr. Pieter Van Dijk",
+      "telephone": "+31 10 201 5555",
+      "fax": "+31 10 201 6666"
+    },
+    "notifyParty": {
+      "name": "EURO METALS LTD.",
+      "address": "Westblaak 10, 3012 KM Rotterdam, Netherlands",
+      "taxId": "NL856324712B01",
+      "president": "Mr. Pieter Van Dijk",
+      "telephone": "+31 10 201 5555",
+      "fax": "+31 10 201 6666"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "7202110000",
+  "commodityDescription": "ALUMINIUM BARS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, NETHERLANDS ALUMINIUM BARS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "01234567890"
+    },
+    "certificateDetails": "1234567890123",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1001 Beach Road, #05-01, Singapore 199677",
+      "telephone": "+65 6339 9999",
+      "fax": "+65 6339 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1001 Beach Road, #05-01, Singapore 199677",
+      "telephone": "+65 6339 9999",
+      "fax": "+65 6339 8888"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+  }
+}

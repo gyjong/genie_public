@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912101523",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024312",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@SHANGHAIIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FEHNSTRASSE 25, 20257 HAMBURG",
+      "country": "GERMANY",
+      "email": "SALES@EUROTECH.DE",
+      "telephone": "+49 40 3333 1234"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "FEHNSTRASSE 25, 20257 HAMBURG",
+      "country": "GERMANY",
+      "email": "SALES@EUROTECH.DE",
+      "telephone": "+49 40 3333 1234"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM200)",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM200)",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00001234567"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FEHNSTRASSE 25, 20257 HAMBURG",
+      "telephone": "+49 40 3333 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FEHNSTRASSE 25, 20257 HAMBURG",
+      "telephone": "+49 40 3333 1234"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

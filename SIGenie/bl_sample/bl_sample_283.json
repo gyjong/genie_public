@@ -1,16 +1,16 @@
 {
-  "bookingReference": "APPLE20240912134512",
+  "bookingReference": "APPLE20240912101506",
   "voyageDetails": {
-    "vesselName": "COSCO YONGZHI",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024041",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
@@ -23,73 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG SHANGYU IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 388, JIANGLIANG ROAD, SHANGYU DISTRICT, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "+86 575 8298 6123",
-      "email": "sales@shangyuimport.com"
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Marina Bay Road, #22-01 Marina Bay Financial Centre Tower 3, Singapore 018986",
+      "telephone": "+65 6226 8888",
+      "email": "info@asiapacifictrading.com.sg"
     },
     "consignee": {
-      "name": "WEST COAST TRADING INC.",
-      "address": "1234 OCEAN AVE, SUITE 200, SANTA MONICA, CA 90401, USA",
-      "taxId": "12-3456789",
-      "president": "MR. JOHN SMITH",
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Sunset Boulevard, Los Angeles, CA 90069, USA",
+      "taxId": "98-7654321",
+      "president": "Ms. Jane Smith",
       "telephone": "+1 310 555 1212",
       "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "5678 MARKET ST, SAN FRANCISCO, CA 94118, USA",
-      "telephone": "+1 415 555 8989",
-      "fax": "+1 415 555 8990"
+      "name": "WEST COAST LOGISTICS LLC",
+      "address": "5678 Wilshire Boulevard, Los Angeles, CA 90036, USA",
+      "telephone": "+1 310 555 2323",
+      "fax": "+1 310 555 2324"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8541408000",
-  "commodityDescription": "ELECTRONIC COMPONENTS - RESISTORS",
+  "hsCode": "85423100",
+  "commodityDescription": "DIGITAL VIDEO RECORDERS",
   "containers": [
     {
-      "containerNumber": "SUDU8765432",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 100,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRONIC COMPONENTS - RESISTORS",
-      "grossWeight": 8000.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 100PCS DIGITAL VIDEO RECORDERS",
+      "grossWeight": 3500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 500,
+    "totalContainers": "ONE (40' DRY X1) CONTAINER ONLY",
+    "totalPackages": 100,
     "packageType": "CARTONS",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 8000.0,
-    "totalMeasurement": 25.0
+    "containerType": "40' DRY X1",
+    "totalGrossWeight": 3500.0,
+    "totalMeasurement": 15.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
     "width": "In-Gauge",
     "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20 DRY Container"
+    "additionalInfo": "In-gauge in 40' DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "SEA SKY LOGISTICS",
-      "address": "101 MAIN ST, NEW YORK, NY 10001, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "GOLDEN GATE SHIPPING LTD",
+      "address": "1001 Market Street, Suite 1000, San Francisco, CA 94103, USA",
+      "telephone": "+1 415 555 1111",
+      "fax": "+1 415 555 1112"
     },
     "originalInvoiceDistribution": {
-      "name": "SEA SKY LOGISTICS",
-      "address": "101 MAIN ST, NEW YORK, NY 10001, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "GOLDEN GATE SHIPPING LTD",
+      "address": "1001 Market Street, Suite 1000, San Francisco, CA 94103, USA",
+      "telephone": "+1 415 555 1111",
+      "fax": "+1 415 555 1112"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPMENT IS SUBJECT TO US CUSTOMS REGULATIONS."
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

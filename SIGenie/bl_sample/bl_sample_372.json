@@ -1,99 +1,97 @@
 {
-  "bookingReference": "APPLE202410171132100",
+  "bookingReference": "APRICOT20240912113025",
   "voyageDetails": {
-    "vesselName": "MSC ELENA",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZENITH TRADING CO. LTD",
-      "address": "ROOM 502, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA",
-      "telephone": "86-21-6352-8888",
-      "fax": "86-21-6352-9999"
+      "name": "GLOBAL FREIGHT SOLUTIONS PTE LTD",
+      "address": "101 TANJONG PAGAR ROAD, #14-01, ICONIC BUILDING, SINGAPORE 088538"
     },
     "consignee": {
-      "name": "GLOBAL IMPORTERS BV",
-      "address": "DIJKMAN STREET 12, 3011 ZG ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-3457",
-      "email": "INFO@GLOBALIMPORTERS.NL",
-      "contactPerson": "PETER VAN DER LINDEN"
+      "name": "EUROFREIGHT LOGISTICS B.V.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 GR HOOFDDORP, NETHERLANDS",
+      "telephone": "+31 23 555 1234",
+      "fax": "+31 23 555 1235"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ZENITH LOGISTICS BV",
-      "address": "WATERLOOPLEIN 150, 1011 NZ AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-777-1234",
-      "fax": "+31-20-777-5678"
+      "name": "EUROFREIGHT LOGISTICS B.V.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 GR HOOFDDORP, NETHERLANDS",
+      "telephone": "+31 23 555 1234",
+      "fax": "+31 23 555 1235"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8479899000",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERAS WITH ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "MSCU6754218",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZEN1234",
-      "numberOfPackages": 15,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 DIGITAL CAMERAS WITH LENSES, CHARGERS AND CARRYING CASES",
+      "grossWeight": 1200.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "MSCU1112223",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ZEN4321",
-      "numberOfPackages": 20,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLE HOUSING UNITS",
-      "grossWeight": 13000.0,
-      "measurement": 22.5
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ-789",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 DIGITAL CAMERAS WITH LENSES, CHARGERS AND CARRYING CASES",
+      "grossWeight": 1200.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 35,
-    "totalGrossWeight": 25500.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 2400.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241017001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC000123456789"
+      "lcNumber": "0000321045678"
     },
     "certificateDetails": [
-      "CN1234567890"
+      "1000032107890X"
     ],
     "originalBLDistribution": {
-      "name": "ZENITH TRADING CO. LTD",
-      "address": "ROOM 502, NO. 1888, SHENNAN ROAD, SHANGHAI, CHINA",
-      "telephone": "86-21-6352-8888",
-      "fax": "86-21-6352-9999"
+      "name": "EUROFREIGHT LOGISTICS B.V.",
+      "address": "HOOFDDORPSTRAAT 123, 2132 GR HOOFDDORP, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "ZENITH LOGISTICS BV",
-      "address": "WATERLOOPLEIN 150, 1011 NZ AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-777-1234",
-      "fax": "+31-20-777-5678"
+      "name": "GLOBAL FREIGHT SOLUTIONS PTE LTD",
+      "address": "101 TANJONG PAGAR ROAD, #14-01, ICONIC BUILDING, SINGAPORE 088538"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

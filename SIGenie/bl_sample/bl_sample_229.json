@@ -1,105 +1,102 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE202409121012300",
   "voyageDetails": {
-    "vesselName": "MSC BELGICA",
-    "voyageNumber": "2435E",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "24045",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFRESH BV",
-      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 411 2345",
-      "email": "INFO@EUROFRESH.NL"
+      "name": "CHINA STAR IMPORT & EXPORT CO., LTD",
+      "address": "1234 XINCHANG ROAD, YONGHE DISTRICT, NINGBO 315000, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
     },
     "consignee": {
-      "name": "ASIA PACIFIC FRUITS PTE LTD",
-      "address": "123 Anson Road, #05-01, Singapore 079903",
-      "taxId": "200212345H",
-      "president": "MR. TAN AH KENG",
-      "telephone": "+65 6225 5678",
-      "fax": "+65 6225 5679"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "INFO@SUNRISELOGISTICS.COM",
+      "contactPerson": "MARIA GARCIA"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS",
-      "address": "100 Cecil Street, #15-02, Singapore 069532",
-      "telephone": "+65 6536 9876",
-      "fax": "+65 6536 9875"
+      "name": "GOLDEN GATE TRADING CO.",
+      "address": "456 EL CAMINO REAL, SAN FRANCISCO, CA 94103",
+      "telephone": "1-415-555-2323",
+      "fax": "1-415-555-2324",
+      "sameAsConsignee": false
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "0805500000",
-  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY",
+  "shippingTerm": "CIF",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "FCPU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "marksAndNumbers": "SUNRISE-123",
       "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL SAID TO CONTAIN: 1000 CARTONS FRESH APPLES - GOLDEN DELICIOUS VARIETY",
-      "grossWeight": 20000.0,
-      "measurement": 30.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "FCPU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "marksAndNumbers": "SUNRISE-456",
       "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL SAID TO CONTAIN: 1000 CARTONS FRESH APPLES - GOLDEN DELICIOUS VARIETY",
-      "grossWeight": 20000.0,
-      "measurement": 30.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12200.0,
+      "measurement": 24.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 O/T X2) CONTAINERS ONLY",
+    "totalContainers": "2 X 40HC CONTAINERS",
     "totalPackages": 2000,
-    "packageType": "CARTONS",
-    "containerType": "20 O/TX2",
-    "totalGrossWeight": 40000.0,
-    "totalMeasurement": 60.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalGrossWeight": 24200.0,
+    "totalMeasurement": 49.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20231001-001",
+    "documentNumber": "20231002-002",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NUMBER: 20240912001",
+    "certificateDetails": [
+      "CO-1234567890",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
-      "telephone": "+65 6228 8888",
-      "fax": "+65 6228 8889"
+      "name": "CHINA STAR IMPORT & EXPORT CO., LTD",
+      "address": "1234 XINCHANG ROAD, YONGHE DISTRICT, NINGBO 315000, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH BV",
-      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 411 2345",
-      "email": "INFO@EUROFRESH.NL"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "INFO@SUNRISELOGISTICS.COM",
+      "contactPerson": "MARIA GARCIA"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPPER'S SEAL"
+    "onboardDate": "OCT. 15. 2023"
   }
 }

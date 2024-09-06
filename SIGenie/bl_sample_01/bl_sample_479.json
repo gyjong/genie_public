@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240912101522",
+  "voyageDetails": {
+    "vesselName": "MSC IRENE",
+    "voyageNumber": "2435W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Saturnusstraat 23, 3133 KS Vlaardingen, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 15 750 2500"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Leeuwenhoekstraat 12, 3011 AA Rotterdam, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@globallogistics.nl",
+      "telephone": "+31 10 411 4500"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "CMAU7879456",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
+      "grossWeight": 40000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "ONEU7856231",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
+      "grossWeight": 40000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "1357924",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
+      "grossWeight": 40000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin issued by Singapore Trade Federation",
+    "originalBLDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "Saturnusstraat 23, 3133 KS Vlaardingen, NETHERLANDS",
+      "telephone": "+31 15 750 2500"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 1234",
+      "fax": "+65 6221 5678"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Cargo stowed under deck. Please contact consignee for any further instructions."
+  }
+}

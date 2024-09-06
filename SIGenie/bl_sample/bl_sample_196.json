@@ -1,95 +1,110 @@
 {
-  "bookingReference": "APRICOT20240925103211",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "MSC CHLOE",
-    "voyageNumber": "2442E",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2437EW",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WATERLOOPLEIN 109, 1011 TX AMSTERDAM, NETHERLANDS"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 28, SHANGXIAN ROAD, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA 528400",
+      "country": "CHINA",
+      "additionalInfo": "(ZHUJIANG DISTRICT)"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road, #27-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "GERMAN LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 32, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GERMANLOGISTICS.DE",
+      "telephone": "+49 69 75912345"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "20 Cecil Street, #15-01, Equity Plaza, SINGAPORE 049705",
-      "telephone": "+65 6333 1111",
-      "fax": "+65 6333 2222"
+      "name": "SUNRISE TRADING CO.",
+      "address": "23 HIGH STREET, LONDON WC1A 2BN, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@SUNRISETRADING.CO.UK",
+      "telephone": "+44 20 7580 1234"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "95030090",
-  "commodityDescription": "TOYS, GAMES & SPORTS EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "854140",
+  "commodityDescription": "TELECOMMUNICATIONS EQUIPMENT - ROUTERS",
   "containers": [
     {
-      "containerNumber": "TCLU6789234",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "cargoDescription": "CHILDREN'S TOYS - CARS, DOLLS & BUILDING BLOCKS",
-      "grossWeight": 12000.0,
-      "measurement": 28.0
+      "containerNumber": "TCLU9996652",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-2024-10-26",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "100 PCS ROUTERS, MODEL RX-5000, PALLETIZED",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "9876543210",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 30,
-      "cargoDescription": "SPORTS EQUIPMENT - BASKETBALLS, VOLLEYBALLS & SOCCER BALLS",
-      "grossWeight": 6000.0,
+      "containerNumber": "TCLU9996653",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2024-10-26",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "100 PCS ROUTERS, MODEL RX-5000, PALLETIZED",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU9996654",
+      "sealNumber": "111111",
+      "marksAndNumbers": "SUNRISE-2024-10-26",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "100 PCS ROUTERS, MODEL RX-5000, PALLETIZED",
+      "grossWeight": 8000.0,
       "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
-    "totalPackages": 80,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 48.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "BOXES",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "hsCode": "8541409090",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [],
+    "certificateDetails": "C-1234567890",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road, #27-01 International Plaza, SINGAPORE 079903"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road, #27-01 International Plaza, SINGAPORE 079903"
+      "name": "SUNRISE TRADING CO.",
+      "address": "23 HIGH STREET, LONDON WC1A 2BN, UNITED KINGDOM",
+      "telephone": "+44 20 7580 1234",
+      "fax": "+44 20 7580 5678"
     },
-    "onboardDate": "OCT. 05. 2024",
-    "additionalRemarks": "CARGO PACKED IN STURDY CARTONS.  FRAGILE ITEMS MARKED ACCORDINGLY."
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO SHIPPED ON DECK"
   }
 }

@@ -1,105 +1,96 @@
 {
-  "bookingReference": "ORANGE20240912133215",
+  "bookingReference": "APPLE20241015123045",
   "voyageDetails": {
-    "vesselName": "EMERALD STAR 07",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2445W",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG EVERBRIGHT METAL CO., LTD",
-      "address": "NO. 188, SHANGHUI ROAD, YONGKANG, ZHEJIANG, CHINA",
-      "telephone": "+86 579 8637 5826",
-      "email": "sales@everbrightmetal.cn"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     },
     "consignee": {
-      "name": "WEST COAST METAL IMPORTERS INC.",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "taxId": "12-3456789",
-      "president": "MR. JOHN SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
     },
     "notifyParty": {
-      "name": "WEST COAST CUSTOMS BROKERS",
-      "address": "5678 SUNSET BLVD, LOS ANGELES, CA 90028, USA",
-      "telephone": "+1 310 555 9876",
-      "fax": "+1 310 555 9877"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "7202410000",
-  "commodityDescription": "ALUMINIUM ALLOY PLATES",
+  "hsCode": "8544.42",
+  "commodityDescription": "COMPUTER HARDWARE",
   "containers": [
     {
-      "containerNumber": "TCLU3779512",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ALUMINIUM ALLOY PLATES",
-      "grossWeight": 18500.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "TCLU3779513",
-      "sealNumber": "123456789",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ALUMINIUM ALLOY PLATES",
-      "grossWeight": 18500.0,
-      "measurement": 35.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-1234",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HARD DISK DRIVES",
+      "grossWeight": 2500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 O/T X2) CONTAINER ONLY",
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
     "totalPackages": 100,
-    "packageType": "CRATES",
-    "containerType": "20 O/TX2",
-    "totalGrossWeight": 37000.0,
-    "totalMeasurement": 70.0
+    "packageType": "BOXES",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "EVERBRIGHT LOGISTICS CO., LTD",
-      "address": "ROOM NO.301, SHANGHAI INTERNATIONAL TRADE CENTER, 1333 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 6278 9999",
-      "fax": "+86 21 6278 9998"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "EVERBRIGHT LOGISTICS CO., LTD",
-      "address": "ROOM NO.301, SHANGHAI INTERNATIONAL TRADE CENTER, 1333 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 6278 9999",
-      "fax": "+86 21 6278 9998"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "fax": "+65 6225 9999"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT OF COMPUTER HARDWARE"
   }
 }

@@ -1,96 +1,109 @@
 {
-  "bookingReference": "APPLE20241015123456",
+  "bookingReference": "APPLE20241025114522",
   "voyageDetails": {
-    "vesselName": "MOL TRIDENT",
-    "voyageNumber": "2024102",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2428W",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CORP.",
-      "onBehalfOf": "ASIA PACIFIC LTD",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "Zhejiang Huayou Cobalt Co., Ltd.",
+      "address": "No. 288, Beiyuan Road, Hangzhou Economic & Technological Development Zone, Hangzhou, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": ""
     },
     "consignee": {
-      "name": "EURO IMPORT GMBH",
-      "address": "BERLINER STRASSE 10, 20357 HAMBURG, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "Trafigura Beheer B.V.",
+      "address": "Apollolaan 11, 1077 BA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@trafigura.com",
+      "telephone": "+31 20 553 5000"
     },
     "notifyParty": {
-      "name": "LOGISTICS PLUS GMBH",
-      "address": "FRANKFURTER ALLEE 5, 20457 HAMBURG, GERMANY"
+      "name": "Trafigura Beheer B.V.",
+      "address": "Apollolaan 11, 1077 BA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@trafigura.com",
+      "telephone": "+31 20 553 5000"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "261310",
+  "commodityDescription": "BATTERY GRADE COBALT SULFATE",
   "containers": [
     {
+      "containerNumber": "MSCU3526781",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "HUAYOU-231025",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BATTERY GRADE COBALT SULFATE 20 MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
       "containerNumber": "MSCU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GT-123",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 750.0,
-      "measurement": 10.0,
-      "additionalInfo": ""
+      "sealNumber": "8765432",
+      "marksAndNumbers": "HUAYOU-231025",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BATTERY GRADE COBALT SULFATE 20 MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "HUAYOU-231025",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BATTERY GRADE COBALT SULFATE 20 MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "40HQ",
-    "totalGrossWeight": 750.0,
-    "totalMeasurement": 10.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "261310",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LTD",
-      "address": "123 MAIN STREET, SINGAPORE 123456",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "Trafigura Global Logistics",
+      "address": "1000 Connecticut Avenue NW, Suite 1100, Washington, DC 20036, USA",
+      "telephone": "+1 202 628 6000"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORT GMBH",
-      "address": "BERLINER STRASSE 10, 20357 HAMBURG, GERMANY",
-      "telephone": "+49-40-12345678",
-      "fax": "+49-40-12345679"
+      "name": "Trafigura Global Logistics",
+      "address": "1000 Connecticut Avenue NW, Suite 1100, Washington, DC 20036, USA",
+      "telephone": "+1 202 628 6000"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Motorcycles for sale, Value: EUR50,000"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
   }
 }

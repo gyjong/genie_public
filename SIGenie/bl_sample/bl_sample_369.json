@@ -1,101 +1,100 @@
 {
-  "bookingReference": "APPLE20241015123456",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
+    "vesselName": "CMA CGM EOURES",
     "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "onBehalfOf": "",
-      "address": "123 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "CHINA INTERNATIONAL TRADE CO., LTD.",
+      "address": "NO. 123, XINJING ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEIMPORTS.DE",
+      "telephone": "+49 69 79876543"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "SCHIPHOL RING 123, 1118 ZD SCHIPHOL, NETHERLANDS"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEIMPORTS.DE",
+      "telephone": "+49 69 79876543"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "LCD PANELS FOR MONITORS",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "MOTORCYCLE1",
-      "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 1500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC: THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT"
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "LCD-27-01",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "27-INCH LCD PANELS, PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "UTLU8901234",
-      "sealNumber": "678901",
-      "marksAndNumbers": "MOTORCYCLE2",
-      "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 1500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC: THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT"
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "LCD-24-02",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "24-INCH LCD PANELS, PACKED IN CARTONS",
+      "grossWeight": 16000.0,
+      "measurement": 32.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "UNITS",
-    "containerType": "20GP",
-    "totalGrossWeight": 3000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 110,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 31000.0,
+    "totalMeasurement": 62.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "852871",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "00002345678912"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "456789123456789",
     "originalBLDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "123 SHANGHAI ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60311 FRANKFURT",
+      "telephone": "+49 69 12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-1234567",
-      "fax": "+31-20-12345678"
+      "name": "CHINA INTERNATIONAL TRADE CO., LTD.",
+      "address": "NO. 123, XINJING ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Value: EUR50,000"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\nSHIPPER'S LOAD, COUNT AND SEAL."
   }
 }

@@ -1,105 +1,107 @@
 {
-  "bookingReference": "GRAPE20240912142315",
+  "bookingReference": "APPLE20240912121215",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA 05",
-    "voyageNumber": "2024041",
-    "bound": "E"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "SAN FRANCISCO, USA"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI EVERGREEN IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 201, BUILDING 3, NO. 888 HUANGPU ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 6218 7539",
-      "email": "sales@evergreen.cn"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6222 5555",
+      "email": "info@asiapacifictrading.sg"
     },
     "consignee": {
-      "name": "GOLDEN GATE TRADING INC.",
-      "address": "123 MAIN STREET, SUITE 400, LOS ANGELES, CA 90014, USA",
-      "taxId": "123456789",
-      "president": "MS. ANNA JOHNSON",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Speicherstra\u00dfe 12, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "orders@germanimports.de",
+      "telephone": "+49 40 3038 6666"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "123 OCEAN AVENUE, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "telephone": "+1 310 555 8989",
-      "fax": "+1 310 555 8990"
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Speicherstra\u00dfe 12, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "orders@germanimports.de",
+      "telephone": "+49 40 3038 6666"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "902300",
+  "commodityDescription": "DIGITAL CAMERAS WITH ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "CMLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 25,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, MEASUREMENT & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA MACHINERY PARTS FOR FOOD PROCESSING",
-      "grossWeight": 12500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "1234567890",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS DIGITAL CAMERAS WITH ACCESSORIES. GROSS WEIGHT: 2000KG",
+      "grossWeight": 2000.0,
+      "measurement": 15.5
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 15,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, MEASUREMENT & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA MACHINERY PARTS FOR FOOD PROCESSING",
-      "grossWeight": 7500.0,
-      "measurement": 16.0
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "9876543210",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS DIGITAL CAMERAS WITH ACCESSORIES. GROSS WEIGHT: 2000KG",
+      "grossWeight": 2000.0,
+      "measurement": 15.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 O/T X2) CONTAINERS ONLY",
-    "totalPackages": 40,
-    "packageType": "CRATES & PALLETS",
-    "containerType": "20 O/TX2",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 44.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 4000.0,
+    "totalMeasurement": 31.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "length": 6000,
+    "width": 2400,
+    "height": 2600,
+    "overWidth": 0,
+    "overHeight": 100
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "123 OCEAN AVENUE, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "telephone": "+1 310 555 8989",
-      "fax": "+1 310 555 8990"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 Ocean Drive, Singapore 018945",
+      "telephone": "+65 6789 0123"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI EVERGREEN IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 201, BUILDING 3, NO. 888 HUANGPU ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 6218 7539",
-      "email": "sales@evergreen.cn"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "123 Ocean Drive, Singapore 018945",
+      "telephone": "+65 6789 0123"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "FRAGILE, HANDLE WITH CARE"
   }
 }

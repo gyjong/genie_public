@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912102515",
+  "bookingReference": "GRAPE20240912134512",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
+    "vesselName": "APL RAFFLES",
     "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,76 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROLOGISTICS BV",
-      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 UPPER CROSS STREET #03-01, SINGAPORE 058357",
+      "telephone": "+65 6224 5678",
+      "email": "sales@asiapacificlogistics.com.sg"
     },
     "consignee": {
-      "name": "ASIA FREIGHT FORWARDERS PTE LTD",
-      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6227 8888",
-      "fax": "+65 6227 9999"
+      "name": "EUROMETAL IMPORT BV",
+      "address": "BEZOENENlaan 12, 3016 BK ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856923140B01",
+      "president": "MR. JAN VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADING CO. LTD",
-      "address": "SUITE 501, LEVEL 5,  MENARA HLA,  1 Jalan Kia Peng, 50450 Kuala Lumpur, MALAYSIA",
-      "telephone": "+60 3 2161 9000",
-      "fax": "+60 3 2161 9111"
+      "name": "EUROMETAL IMPORT BV",
+      "address": "BEZOENENlaan 12, 3016 BK ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856923140B01",
+      "president": "MR. JAN VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
+  "shippingTerm": "CIF",
+  "hsCode": "7202111000",
+  "commodityDescription": "ALUMINIUM ALLOY SHEETS",
   "containers": [
     {
-      "containerNumber": "TCLU7775553",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ALUMINIUM ALLOY SHEETS",
       "grossWeight": 18000.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "MSCU8886664",
-      "sealNumber": "789012",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 8,
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
-      "grossWeight": 15000.0,
-      "measurement": 30.0
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 33000.0,
-    "totalMeasurement": 65.0
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "PALLETS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC2024091212345"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO-20240912-001",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "ASIA FREIGHT FORWARDERS PTE LTD",
-      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903"
+      "name": "KUEHNE + NAGEL",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "KUEHNE + NAGEL",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CLEAN ON BOARD"
   }
 }

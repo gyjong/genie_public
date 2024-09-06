@@ -1,97 +1,109 @@
 {
-  "bookingReference": "BLUEBERRY20241026143051",
+  "bookingReference": "APPLE20240915112245",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024102",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2427E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "TRANSFERABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI YINGZHI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1702, NO.188, HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8666",
-      "fax": "+86-21-6327-8667"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "228 HUANGPU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(OFFICE BUILDING)"
     },
     "consignee": {
-      "name": "EUROTECH BV",
-      "address": "ZUIDHOEK 33, 3141 DA MAASSLUIS, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTRADE GMBH",
+      "address": "GOTTHOLD-EBERHARD-STR. 10, 40476 DUSSELDORF",
+      "country": "GERMANY",
+      "email": "INFO@EUROTRADE.DE",
+      "telephone": "+49 211 545 6789"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) BV",
-      "address": "DE RUN 250, 3161 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROBANK AG",
+      "address": "KONRAD-ADENAUER-STRASSE 10, 40210 D\u00dcSSELDORF",
+      "country": "GERMANY",
+      "email": "IMPORT@EUROBANK.DE",
+      "telephone": "+49 211 123 4567"
     }
   },
-  "shippingTerm": "CIF",
+  "shippingTerm": "CIF ROTTERDAM",
   "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "SEGU9965721",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "YZ231026",
-      "numberOfPackages": 50,
+      "containerNumber": "CMAU5478632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-123",
+      "numberOfPackages": 10,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINING SPARE PARTS FOR INDUSTRIAL MACHINERY"
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY AS DETAILED IN PACKING LIST",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ETG-456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY AS DETAILED IN PACKING LIST",
+      "grossWeight": 3000.0,
+      "measurement": 8.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ETG-789",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY AS DETAILED IN PACKING LIST",
+      "grossWeight": 7000.0,
+      "measurement": 12.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "BOXES & CRATES",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
     "originalBLDistribution": {
-      "name": "SHANGHAI YINGZHI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1702, NO.188, HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8666",
-      "fax": "+86-21-6327-8667"
+      "name": "EUROBANK AG",
+      "address": "KONRAD-ADENAUER-STRASSE 10, 40210 D\u00dcSSELDORF",
+      "telephone": "+49 211 123 4567"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH BV",
-      "address": "ZUIDHOEK 33, 3141 DA MAASSLUIS, NETHERLANDS",
-      "telephone": "+31-10-463-7777",
-      "fax": "+31-10-463-7778"
+      "name": "EUROTRADE GMBH",
+      "address": "GOTTHOLD-EBERHARD-STR. 10, 40476 DUSSELDORF",
+      "telephone": "+49 211 545 6789"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "Machinery parts for industrial use. Value: EUR50,000"
+    "onboardDate": "SEPT. 17. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
   }
 }

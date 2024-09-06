@@ -1,96 +1,96 @@
 {
-  "bookingReference": "APPLE20241015102502",
+  "bookingReference": "APPLE20241015134522",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "20241003",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6288-1234",
-      "fax": "+86-21-6288-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "GOLDEN STAR INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213"
+      "name": "EURO IMPORTERS LTD.",
+      "address": "DE KOOPVAARDT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6288-1234",
-      "fax": "+86-21-6288-5678"
+      "name": "EURO IMPORTERS LTD.",
+      "address": "DE KOOPVAARDT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "SEGU7890123",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE 1",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER PACKING LIST.",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 1500.0,
+      "measurement": 1.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 1.2
   },
   "dangerousGoods": {
-    "containerNumber": "MSCU1234567",
+    "containerNumber": "SEGU7890123",
     "unClass": "9",
     "unCode": "3264",
-    "hsCode": "8544.42",
-    "flashPoint": "Not applicable",
-    "additionalInfo": "BATTERY CONTAINING EQUIPMENT"
+    "hsCode": "8479.89",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "MISCELLANEOUS DANGEROUS GOODS PACKING GROUP III"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "LC20241015001"
     },
-    "certificateDetails": "CN20241015001",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "GOLDEN STAR INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213"
+      "name": "EURO IMPORTERS LTD.",
+      "address": "DE KOOPVAARDT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6288-1234",
-      "fax": "+86-21-6288-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "BATTERY CONTAINING EQUIPMENT, PROPERLY PACKED AND MARKED AS PER IATA REGULATIONS."
+    "additionalRemarks": "DG, Class: 9, UN No: 3264"
   }
 }

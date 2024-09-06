@@ -1,0 +1,105 @@
+{
+  "bookingReference": "APPLE20241015143547",
+  "voyageDetails": {
+    "vesselName": "MAERSK SHANGHAI",
+    "voyageNumber": "2445W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "ASIA PACIFIC GROUP",
+      "address": "101 ROBINSON ROAD #08-01, ROBINSON 110, SINGAPORE 068902",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
+    },
+    "consignee": {
+      "name": "EURO TECH GMBH",
+      "address": "HANSEATISCH STRASSE 15, 20357 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "FREIENHAMMERSTRASSE 10, 20359 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL AND MARK SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 20.0,
+      "additionalInfo": "Fragile Goods. Handle with Care."
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 60,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL AND MARK SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 13000.0,
+      "measurement": 22.0,
+      "additionalInfo": "THIS WAY UP"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 110,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 25500.0,
+    "totalMeasurement": 42.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000202040391"
+    },
+    "certificateDetails": [
+      "4112720070179X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "101 ROBINSON ROAD #08-01, ROBINSON 110, SINGAPORE 068902",
+      "telephone": "+65-6222-1111",
+      "fax": "+65-6222-2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TECH GMBH",
+      "address": "HANSEATISCH STRASSE 15, 20357 HAMBURG, GERMANY"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance: USD 500,000."
+  }
+}

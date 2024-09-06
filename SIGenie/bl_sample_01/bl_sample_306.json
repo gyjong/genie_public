@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NEW YORK, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEETHOVENSTRAAT 50, 3015 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "SEA LION LOGISTICS INC.",
+      "address": "123 WALL STREET, SUITE 500, NEW YORK, NY 10005, USA",
+      "telephone": "1-212-555-1212",
+      "fax": "1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN IMPORTERS LTD.",
+      "address": "456 BROADWAY, SUITE 300, NEW YORK, NY 10013, USA",
+      "telephone": "1-646-555-2323",
+      "fax": "1-646-555-2324"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES, 125CC",
+  "containers": [
+    {
+      "containerNumber": "SEGU7895432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MOTO123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, 125CC, MODEL YEAR 2025, PACKED IN INDIVIDUAL CRATES",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "MOTO456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES, 125CC, MODEL YEAR 2025, PACKED IN INDIVIDUAL CRATES",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "CO-1234567890",
+      " fumigation-20240912"
+    ],
+    "originalBLDistribution": {
+      "name": "SEA LION LOGISTICS INC.",
+      "address": "123 WALL STREET, SUITE 500, NEW YORK, NY 10005, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEETHOVENSTRAAT 50, 3015 AA ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "SHIPMENT READY FOR IMMEDIATE LOADING"
+  }
+}

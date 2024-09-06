@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410161042300",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2426E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, NY, U.S.A",
+    "placeOfDelivery": "NEWARK, NJ, U.S.A",
+    "finalDestination": "CHICAGO, IL, U.S.A"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "NEW YORK, NY, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFLOW LOGISTICS BV",
+      "address": "WATERLOOSTRAAT 56, 3012 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "consignee": {
+      "name": "AMERICAN SHIPPING CO. INC.",
+      "address": "123 MAIN STREET, SUITE 300, NEWARK, NJ 07102",
+      "telephone": "973-555-1212",
+      "fax": "973-555-1213",
+      "email": "INFO@AMERICANSHIPPING.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "555 BROADWAY, NEW YORK, NY 10003",
+      "telephone": "212-555-5555",
+      "fax": "212-555-5556"
+    }
+  },
+  "shippingTerm": "CFR NEW YORK",
+  "hsCode": "441870",
+  "commodityDescription": "PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
+  "containers": [
+    {
+      "containerNumber": "MSCU3812597",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "PL123",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "MSCU5632810",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "PL456",
+      "numberOfPackages": 450,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 950,
+    "totalGrossWeight": 42500.0,
+    "totalMeasurement": 58.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-BL-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE - NL20241016-001"
+    ],
+    "originalBLDistribution": {
+      "name": "AMERICAN SHIPPING CO. INC.",
+      "address": "123 MAIN STREET, SUITE 300, NEWARK, NJ 07102",
+      "telephone": "973-555-1212",
+      "fax": "973-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFLOW LOGISTICS BV",
+      "address": "WATERLOOSTRAAT 56, 3012 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

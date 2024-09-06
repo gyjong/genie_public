@@ -1,110 +1,95 @@
 {
-  "bookingReference": "APPLE20241026123456",
+  "bookingReference": "APPLE20240912133052",
   "voyageDetails": {
-    "vesselName": "COSCO PACIFIC",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024342",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "SHANGHAI, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "NO. 1234, YUANMING ROAD, PUTUO DISTRICT, SHANGHAI, 200062",
-      "country": "CHINA",
-      "additionalInfo": "(NEAR SHANGHAI METRO STATION)"
+      "name": "Zhejiang Newstar Machinery Co., Ltd.",
+      "address": "No. 188, Jinhe Road, Yinzhou District, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8668 5213",
+      "email": "sales@newstarmachinery.com"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "DE KONINGSTRAAT 150, 3015 LA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 444 5555"
+      "name": "Schmidt & Co. GmbH",
+      "address": "Gustav-Stresemann-Ring 12, 60596 Frankfurt am Main, Germany",
+      "taxId": "DE111111111",
+      "president": "Herr Klaus Schmidt",
+      "telephone": "+49 69 7909090",
+      "fax": "+49 69 7909091"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "DE KONINGSTRAAT 150, 3015 LA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 444 5555"
+      "name": "Kuehne + Nagel GmbH",
+      "address": "Am Flughafen 1, 60549 Frankfurt am Main, Germany",
+      "telephone": "+49 69 69793666",
+      "fax": "+49 69 69793667"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "shippingTerm": "CFR",
+  "hsCode": "84561000",
+  "commodityDescription": "MACHINE TOOLS - MILLING MACHINES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC-123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200KG",
-      "grossWeight": 40000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC-456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200KG",
-      "grossWeight": 40000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "CMAU8765432",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC-789",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200KG",
-      "grossWeight": 40000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "MILLING MACHINE PARTS AS PER PACKING LIST",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 120000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345ABC-1",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010333789"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 222 3333"
+      "name": "DHL Global Forwarding",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 222 3333",
-      "fax": "+31 10 222 3334"
+      "name": "DHL Global Forwarding",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 1234567",
+      "fax": "+49 69 1234568"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN"
   }
 }

@@ -1,110 +1,99 @@
 {
-  "bookingReference": "APPLE20241026123456",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2445W",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #25-01, International Plaza, Singapore 079900",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Mr. David Lee)"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "KLOPPERSESTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
-      "country": "BELGIUM",
-      "email": "info@eurochem.be",
-      "telephone": "+32 3 216 54 32"
+      "name": "ASIA PACIFIC SHIPPING PTE LTD",
+      "address": "128 ROBINSON ROAD #13-01, ROBINSON CENTRE, SINGAPORE 068904",
+      "telephone": "+65 6536 1234",
+      "fax": "+65 6536 5678"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
-      "country": "BELGIUM",
-      "email": "logistics@eurochem.be",
-      "telephone": "+32 3 216 54 32"
+      "name": "ASIA PACIFIC SHIPPING PTE LTD",
+      "address": "128 ROBINSON ROAD #13-01, ROBINSON CENTRE, SINGAPORE 068904",
+      "telephone": "+65 6536 1234",
+      "fax": "+65 6536 5678"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "29032200",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF",
+  "hsCode": "90230000",
+  "commodityDescription": "AIR CONDITIONING UNITS",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 28.0
+      "marksAndNumbers": "GL-2345",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 AIR CONDITIONING UNITS (MODEL AC-100)",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "CMAU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EC789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 28.0
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GL-3456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 AIR CONDITIONING UNITS (MODEL AC-100)",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60300.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "UNITS",
+    "containerType": "20FT",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29032200",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "CO12345678"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS CO. LTD.",
-      "address": "123 Main Street, Singapore 123456",
-      "telephone": "+65 6789 0123"
+      "name": "ASIA PACIFIC SHIPPING PTE LTD",
+      "address": "128 ROBINSON ROAD #13-01, ROBINSON CENTRE, SINGAPORE 068904",
+      "telephone": "+65 6536 1234",
+      "fax": "+65 6536 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium",
-      "telephone": "+32 3 216 54 32",
-      "fax": "+32 3 216 54 33"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "KLOPPERSESTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CARGO PACKED IN INDIVIDUAL BOXES."
   }
 }

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241016134522",
+  "voyageDetails": {
+    "vesselName": "CMA CGM RHONE",
+    "voyageNumber": "2448W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE BANK AG FRANKFURT",
+      "address": "TAUNUSPLATZ 12, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 910-30000",
+      "fax": "+49 69 910-30001"
+    },
+    "consignee": {
+      "name": "DBS BANK LTD",
+      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
+      "telephone": "+65 6586 6666",
+      "fax": "+65 6536 3666"
+    },
+    "notifyParty": {
+      "name": "DBS BANK LTD",
+      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
+      "telephone": "+65 6586 6666",
+      "fax": "+65 6536 3666"
+    }
+  },
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "8471.60",
+  "commodityDescription": "AUTOMATIC DATA PROCESSING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "MSCU3921658",
+      "sealNumber": "875423",
+      "marksAndNumbers": "DB-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : AUTOMATIC DATA PROCESSING MACHINES",
+      "grossWeight": 1250.75,
+      "measurement": 1.56
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "546321",
+      "marksAndNumbers": "DB-456",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : AUTOMATIC DATA PROCESSING MACHINES",
+      "grossWeight": 625.37,
+      "measurement": 0.78
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 1876.12,
+    "totalMeasurement": 2.34
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU3921658",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8471.60",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries are packed according to IATA regulations"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "DBS BANK LTD",
+      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
+      "telephone": "+65 6586 6666",
+      "fax": "+65 6536 3666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEUTSCHE BANK AG FRANKFURT",
+      "address": "TAUNUSPLATZ 12, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 910-30000",
+      "fax": "+49 69 910-30001"
+    },
+    "onboardDate": "OCT. 22. 2024",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
+  }
+}

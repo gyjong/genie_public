@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20240918123456",
+  "bookingReference": "APPLE20241015142502",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2430E",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2430W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Seaway Bill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI XINGYU IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 202, BUILDING 5, NO. 1388, SHENNAN ROAD, JING'AN DISTRICT, SHANGHAI, 200040",
-      "country": "CHINA",
-      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)"
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEVERWIJKSTRAAT 12A, 3011 AC ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 456 7890"
+      "name": "EURO IMPORTS BV",
+      "address": "PIETER MAASSTRAAT 12, 3011 DD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEVERWIJKSTRAAT 12A, 3011 AC ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 456 7890"
+      "name": "EURO IMPORTS BV",
+      "address": "PIETER MAASSTRAAT 12, 3011 DD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "8471.60",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "FCLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "123-ABC",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL IN 200 KG DRUMS",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "FCLU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "456-DEF",
-      "numberOfPackages": 800,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL IN 250 KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 1200.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 1800,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 45000.0,
-    "totalMeasurement": 55.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 10.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO-2024",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
     "lcDetails": {
-      "lcNumber": "00001234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20241012345678",
+    "certificateDetails": "12345678901234567890",
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "123 CANARY WHARF, LONDON E14 5HQ, UNITED KINGDOM",
-      "telephone": "+44 20 7992 2000"
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "BEVERWIJKSTRAAT 12A, 3011 AC ROTTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 10 456 7890"
+      "name": "EURO IMPORTS BV",
+      "address": "PIETER MAASSTRAAT 12, 3011 DD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nSHIPPER'S SEAL & COUNT"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

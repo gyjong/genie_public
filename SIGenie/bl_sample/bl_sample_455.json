@@ -1,105 +1,89 @@
 {
-  "bookingReference": "APPLE20240912104521",
+  "bookingReference": "APPLE20241015143522",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2432E",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2440W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 253, 3012CN ROTTERDAM, NETHERLANDS"
+      "name": "SHANGHAI YINGLI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 301, BUILDING 3, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6297-8899",
+      "fax": "+86-21-6297-8898"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6226 5555",
-      "fax": "+65 6226 5556"
+      "name": "EUROFRESH BV",
+      "address": "ZUIDHOEK 123, 3115 HE SCHIEDAM, NETHERLANDS",
+      "companyNumber": "27319285"
     },
     "notifyParty": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 253, 3012CN ROTTERDAM, NETHERLANDS"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "PO BOX 1234, 1000 AA AMSTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85414000",
-  "commodityDescription": "ELECTRIC GENERATORS",
+  "hsCode": "07011100",
+  "commodityDescription": "POTATOES",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "TCLU5678901",
       "sealNumber": "123456",
-      "marksAndNumbers": "GF123",
-      "numberOfPackages": 10,
-      "cargoDescription": "ELECTRIC GENERATORS - MODEL X2000",
-      "grossWeight": 15000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU1112223",
-      "sealNumber": "789012",
-      "marksAndNumbers": "GF456",
-      "numberOfPackages": 10,
-      "cargoDescription": "ELECTRIC GENERATORS - MODEL X2000",
-      "grossWeight": 15000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "GRSU3334445",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GF789",
-      "numberOfPackages": 10,
-      "cargoDescription": "ELECTRIC GENERATORS - MODEL X2000",
-      "grossWeight": 15000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "POTATOES-123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT & SEAL SAID TO CONTAIN: POTATOES",
+      "grossWeight": 25000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 30,
-    "packageType": "PACKAGES",
+    "totalContainers": "ONE (20DRY X1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
     "containerType": "20DRY",
-    "totalGrossWeight": 45000.0,
-    "totalMeasurement": 90.0
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COC-123456",
-      " fumigation certificate"
+      "PHYTO-20241015-NL"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, SINGAPORE 079903"
+      "name": "EUROFRESH BV",
+      "address": "ZUIDHOEK 123, 3115 HE SCHIEDAM, NETHERLANDS",
+      "telephone": "+31-15-278-9000",
+      "fax": "+31-15-278-9001"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 253, 3012CN ROTTERDAM, NETHERLANDS"
+      "name": "SHANGHAI YINGLI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 301, BUILDING 3, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6297-8899",
+      "fax": "+86-21-6297-8898"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "GOODS ARE PACKED ON PALLETS"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD 30,000"
   }
 }

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015143045",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "202410A",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "BEEMSTERSTRAAT 100, 1031 AH AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS NV",
+      "address": "ROTTERDAMSEWEG 10, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-8901-2345",
+      "fax": "+31-10-8901-2346"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: 50 CARTONS ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "BEEMSTERSTRAAT 100, 1031 AH AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0124"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

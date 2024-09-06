@@ -1,107 +1,100 @@
 {
-  "bookingReference": "APPLE20240915142531",
+  "bookingReference": "APPLE20241026142356",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2434W",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI ZHIYU IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 201, NO. 1888, ZHONGXING ROAD, XUHUI DISTRICT, SHANGHAI, 200030",
+      "name": "ZHONGSHAN POWER TECH CO., LTD.",
+      "address": "NO. 52, LONGXIN ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE",
       "country": "CHINA",
-      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
-      "telephone": "+86 21 6496 2345",
-      "email": "INFO@ZHIYUIMPORT.COM"
+      "additionalInfo": "(ZIP CODE: 528402)"
     },
     "consignee": {
-      "name": "AUTOTEC GMBH",
-      "address": "HERMANNSTRA\u00dfE 45, 20095 HAMBURG",
-      "country": "GERMANY",
-      "email": "SALES@AUTOTEC.DE",
-      "telephone": "+49 40 3036 1234"
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "DE ERFT 5, 3011 AB ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 10 414 7500"
     },
     "notifyParty": {
-      "name": "AUTOTEC GMBH",
-      "address": "HERMANNSTRA\u00dfE 45, 20095 HAMBURG",
-      "country": "GERMANY",
-      "email": "SALES@AUTOTEC.DE",
-      "telephone": "+49 40 3036 1234"
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "DE ERFT 5, 3011 AB ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 10 414 7500"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870899",
-  "commodityDescription": "MOTORCYCLE PARTS INCLUDING ENGINE BLOCKS, CYLINDER HEADS AND TRANSMISSION GEARS",
+  "shippingTerm": "CFR",
+  "hsCode": "85044090",
+  "commodityDescription": "TRANSFORMERS FOR ELECTRIC POWER DISTRIBUTION",
   "containers": [
     {
-      "containerNumber": "TRLU1234567",
+      "containerNumber": "TCLU9372865",
       "sealNumber": "123456",
-      "marksAndNumbers": "AUTOMOBILE PARTS",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS INCLUDING ENGINE BLOCKS, CYLINDER HEADS AND TRANSMISSION GEARS (W.2400MM H.2200MM)",
-      "grossWeight": 18500.0,
-      "measurement": 30.5
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "2 TRANSFORMERS, WEIGHT 5000 KG EACH, PACKED IN WOODEN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "TRLU7890123",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "789012",
-      "marksAndNumbers": "AUTOMOBILE PARTS",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS INCLUDING ENGINE BLOCKS, CYLINDER HEADS AND TRANSMISSION GEARS (W.2400MM H.2200MM)",
-      "grossWeight": 18500.0,
-      "measurement": 30.5
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "2 TRANSFORMERS, WEIGHT 5000 KG EACH, PACKED IN WOODEN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 37000.0,
-    "totalMeasurement": 61.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 2400,
-    "width": 2400,
-    "height": 2200,
-    "overWidth": 0,
-    "overHeight": 0
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "CRATES",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "85044090",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00005678901234"
+      "lcNumber": "LC20241026123"
     },
-    "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
-    ],
+    "certificateDetails": "CE Certification No. 123456789",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KLAGENFURTER STR. 4, 20149 HAMBURG, GERMANY",
-      "telephone": "+49 40 3613 1234"
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "DE ERFT 5, 3011 AB ROTTERDAM",
+      "telephone": "+31 10 414 7500"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KLAGENFURTER STR. 4, 20149 HAMBURG, GERMANY",
-      "telephone": "+49 40 3613 1234"
+      "name": "ZHONGSHAN POWER TECH CO., LTD.",
+      "address": "NO. 52, LONGXIN ROAD, NANLANG TOWN, ZHONGSHAN CITY, GUANGDONG PROVINCE",
+      "telephone": "+86 750 333 1234",
+      "fax": "+86 750 333 5678"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "Value: EUR250,000\n PACKING LIST ATTACHED"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
   }
 }

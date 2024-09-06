@@ -1,107 +1,96 @@
 {
-  "bookingReference": "PEACH20240912133015",
+  "bookingReference": "APPLE20241017143215",
   "voyageDetails": {
-    "vesselName": "COSCO CHINA 05",
-    "voyageNumber": "2024042",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2445W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG SHENXIN IMPORT & EXPORT CO., LTD",
-      "address": "2ND FLOOR, BUILDING A, NO.188 HUAYUAN ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "+86 579 8665 3210",
-      "email": "sales@shenxinimport.com"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
     },
     "consignee": {
-      "name": "WEST COAST METALWORKS INC.",
-      "address": "1234 OCEAN AVENUE, LONG BEACH, CA 90802, USA",
-      "taxId": "98-76543210",
-      "president": "MR. JOHN SMITH",
-      "telephone": "+1 562-555-1212",
-      "fax": "+1 562-555-1213"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "De Maas 10, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "WEST COAST METALWORKS INC.",
-      "address": "1234 OCEAN AVENUE, LONG BEACH, CA 90802, USA",
-      "taxId": "98-76543210",
-      "president": "MR. JOHN SMITH",
-      "telephone": "+1 562-555-1212",
-      "fax": "+1 562-555-1213"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "De Maas 10, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "73269098",
-  "commodityDescription": "STEEL PIPES",
+  "hsCode": "8544.42",
+  "commodityDescription": "COMPUTER KEYBOARDS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "MSCU5678901",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA STEEL PIPES",
-      "grossWeight": 18000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA STEEL PIPES",
-      "grossWeight": 18000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ETK-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER KEYBOARDS - MODEL KB-200",
+      "grossWeight": 2500.0,
+      "measurement": 2.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
     "totalPackages": 100,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY X2",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 50.0
+    "packageType": "CARTONS",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 2.5
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO-123456789",
+    "salesOrderNumber": "SO-987654321",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC00012345678"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "3456789012345678901234567890",
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
-      "telephone": "+1 212-555-1212",
-      "fax": "+1 212-555-1213"
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "De Maas 10, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
-      "telephone": "+1 212-555-1212",
-      "fax": "+1 212-555-1213"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " "
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": null
   }
 }

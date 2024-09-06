@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20241015143011",
+  "bookingReference": "APPLE20241025123456",
   "voyageDetails": {
-    "vesselName": "MARINE STAR",
-    "voyageNumber": "2024102",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2440E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": ""
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": "FRANKFURT"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable ",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "onBehalfOf": "",
-      "address": "101 ROBINSON ROAD, #08-01 ROBINSON 100, SINGAPORE 068902",
-      "telephone": "+65-6226-1234",
-      "fax": "+65-6226-5678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": null,
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "GLAUBENSTRASSE 12, 20355 HAMBURG, GERMANY",
+      "name": "EUROTECH GMBH",
+      "address": "Stresemannplatz 7, 2000 Hamburg, Germany",
       "companyNumber": "HRB 123456"
     },
     "notifyParty": {
       "name": "DHL GLOBAL FORWARDING",
-      "address": "FELSENSTRASSE 2, 20354 HAMBURG, GERMANY"
+      "address": "Im Technologiepark 1, 22848 Norderstedt, Germany"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "85423000",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GTD20241015",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 850.0,
+      "containerNumber": "TCLU9987654",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE-01",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 2500.0,
       "measurement": 15.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. "
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20DR",
-    "totalGrossWeight": 850.0,
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 2500.0,
     "totalMeasurement": 15.0
   },
   "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC0000123456"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "COO-20241025-123"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "101 ROBINSON ROAD, #08-01 ROBINSON 100, SINGAPORE 068902",
-      "telephone": "+65-6226-1234",
-      "fax": "+65-6226-5678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "101 ROBINSON ROAD, #08-01 ROBINSON 100, SINGAPORE 068902",
-      "telephone": "+65-6226-1234",
-      "fax": "+65-6226-5678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Motorcycles, Value: USD 20,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Shipment of Electronic Components to Eurotech GmbH, Hamburg"
   }
 }

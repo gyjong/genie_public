@@ -1,101 +1,108 @@
 {
-  "bookingReference": "APPLE202410161245300",
+  "bookingReference": "APPLE20241018143512",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2436E",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2443E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "NEW YORK, USA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6227 8888",
-      "fax": "+65 6227 9999"
+      "name": "FLOWER IMPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "KEIZERSGRACHT 212, 1016 GV AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-622-1010",
+      "fax": "+31-20-622-1011"
     },
     "consignee": {
-      "name": "EUROSTAR LOGISTICS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31 10 217 8000",
-      "fax": "+31 10 217 8001",
-      "email": "info@eurostarlogistics.nl",
-      "contactPerson": "PETER VAN DER WIEL"
+      "name": "SUNRISE TRADING INC.",
+      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "companyNumber": "123456789"
     },
     "notifyParty": {
-      "name": "EUROSTAR LOGISTICS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31 10 217 8000",
-      "fax": "+31 10 217 8001",
-      "email": "info@eurostarlogistics.nl",
-      "contactPerson": "PETER VAN DER WIEL"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "150 BROAD STREET, NEW YORK, NY 10004, USA"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8708991000",
-  "commodityDescription": "MOTORCYCLE PARTS - BRAKE SYSTEMS AND COMPONENTS",
+  "hsCode": "060210",
+  "commodityDescription": "FRESH ROSES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "MS-2023-102",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: BRAKE PADS, ROTORS, CALIPERS AND HOSES",
-      "grossWeight": 7500.0,
-      "measurement": 15.2
+      "containerNumber": "GLDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FLOWER123",
+      "numberOfPackages": 1500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ROSES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "TEMPERATURE CONTROLLED: 5-7\u00b0C"
     },
     {
-      "containerNumber": "APMU1122334",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "MS-2023-103",
-      "numberOfPackages": 45,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MASTER CYLINDERS, BRAKE FLUID RESERVOIRS AND ASSOCIATED HARDWARE",
-      "grossWeight": 6800.0,
-      "measurement": 14.5
+      "containerNumber": "GLDU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "FLOWER456",
+      "numberOfPackages": 1500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ROSES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "TEMPERATURE CONTROLLED: 5-7\u00b0C"
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 95,
-    "totalGrossWeight": 14300.0,
-    "totalMeasurement": 29.7
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 3000,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 40.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "APT-20241016-001",
-    "documentNumber": "202410160002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0012345678"
     },
     "certificateDetails": [
-      "CO-1234567",
-      " fumigation certificate"
+      "PHYTO-1234567890",
+      " fumigation-9876543210"
     ],
     "originalBLDistribution": {
-      "name": "EUROSTAR LOGISTICS BV",
-      "address": "Maasboulevard 100, 3063 NP Rotterdam, Netherlands",
-      "telephone": "+31 10 217 8000",
-      "fax": "+31 10 217 8001"
+      "name": "FLOWER IMPORT CO. LTD.",
+      "address": "KEIZERSGRACHT 212, 1016 GV AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-622-1010",
+      "fax": "+31-20-622-1011"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6227 8888",
-      "fax": "+65 6227 9999"
+      "name": "SUNRISE TRADING INC.",
+      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Fragile cargo, handle with care."
   }
 }

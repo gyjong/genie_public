@@ -1,16 +1,16 @@
 {
-  "bookingReference": "APPLE202410171243200",
+  "bookingReference": "APPLE20241017112030",
   "voyageDetails": {
-    "vesselName": "MSC SIMONE",
-    "voyageNumber": "2024045",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
@@ -23,79 +23,76 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD",
-      "address": "NO. 128, YONGJI ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6327-8912",
-      "fax": "+86-21-6327-8913"
+      "name": "CHINA TRADE CO. LTD",
+      "address": "1234 HUAHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7982-1234",
-      "fax": "+49-69-7982-1235",
-      "email": "INFO@EUROTRADEGMBH.DE",
-      "contactPerson": "ANNA SCHMIDT"
+      "name": "EURO LOGISTICS BV",
+      "address": "STATIONSPLEIN 12, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-202-2000",
+      "fax": "+31-10-202-2001",
+      "email": "INFO@EUROLOGISTICS.NL",
+      "contactPerson": "PETER VAN DER MARK"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7982-1234",
-      "fax": "+49-69-7982-1235",
-      "email": "INFO@EUROTRADEGMBH.DE",
-      "contactPerson": "ANNA SCHMIDT"
+      "name": "GLOBAL SHIPPING SOLUTIONS",
+      "address": "23 AMSTERDAMSE WEG, 1096 BL AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-666-6666",
+      "fax": "+31-20-666-6667"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU9216783",
+      "containerNumber": "GMLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG-202410",
-      "numberOfPackages": 15,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MACHINE PARTS FOR WEAVING LOOM",
-      "grossWeight": 9500.0,
-      "measurement": 15.25
+      "marksAndNumbers": "CTCO-123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU5678901",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ETG-202410",
-      "numberOfPackages": 20,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPARE PARTS FOR SPINNING MACHINES",
-      "grossWeight": 11000.0,
-      "measurement": 16.5
+      "containerNumber": "GMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CTCO-456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12700.0,
+      "measurement": 25.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 35,
-    "totalGrossWeight": 20500.0,
-    "totalMeasurement": 31.75
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 25200.0,
+    "totalMeasurement": 51.3
   },
   "additionalInformation": {
-    "invoiceNumber": "ETG-20241017-001",
-    "documentNumber": "20241017-002",
+    "invoiceNumber": "CTCO-20241017-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC20241017-003"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CO-20241017-004",
-      " fumigation certificate"
+      "4112724080177X"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7982-1234",
-      "fax": "+49-69-7982-1235"
+      "name": "EURO LOGISTICS BV",
+      "address": "STATIONSPLEIN 12, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-202-2000",
+      "fax": "+31-10-202-2001"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "SCHLOSSSTRASSE 15, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7982-1234",
-      "fax": "+49-69-7982-1235"
+      "name": "CHINA TRADE CO. LTD",
+      "address": "1234 HUAHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
     },
-    "onboardDate": "OCT. 28. 2024"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

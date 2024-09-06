@@ -1,0 +1,104 @@
+{
+  "bookingReference": "APPLE20240912124523",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "24041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YINGCHAO IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1506, NO. 333, XINHUA ROAD, SHANGHAI, 200052",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)",
+      "telephone": "+86 21 6375 8686",
+      "email": "SALES@YINGCHAO.COM"
+    },
+    "consignee": {
+      "name": "GERTZ GMBH",
+      "address": "FRANKFURTER STRASSE 23, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@GERTZ-GMBH.DE",
+      "telephone": "+49 40 3743 222"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "SCHWARZKOPFSTRASSE 12, 20097 HAMBURG",
+      "country": "GERMANY",
+      "email": "OPERATIONS@WORLDWIDE-LOGISTICS.DE",
+      "telephone": "+49 40 3807 9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "YC-20240912",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "YC-20240912",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 31.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC202409121234567"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "SCHWARZKOPFSTRASSE 12, 20097 HAMBURG",
+      "telephone": "+49 40 3807 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "SCHWARZKOPFSTRASSE 12, 20097 HAMBURG",
+      "telephone": "+49 40 3807 9999"
+    },
+    "onboardDate": "SEPT. 14. 2024",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING DUE TO FRAGILE NATURE OF CARGO"
+  }
+}

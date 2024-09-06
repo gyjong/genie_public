@@ -1,0 +1,99 @@
+{
+  "bookingReference": "GRAPE20241018123456",
+  "voyageDetails": {
+    "vesselName": "MSC VERONICA",
+    "voyageNumber": "24273",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE TRADING CO. LTD.",
+      "address": "100 Anson Road, #22-01, International Plaza, Singapore 079900",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. John Lee)"
+    },
+    "consignee": {
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Friedrichstrasse 60, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "info@germanimports.de",
+      "telephone": "+49 30 2000 1234"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS GMBH",
+      "address": "Handelsstrasse 10, 20097 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "operations@ab clogistics.de",
+      "telephone": "+49 40 5555 6789"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "38249990",
+  "commodityDescription": "SYNTHETIC RUBBER GRANTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SYNTHETIC RUBBER GRANTS - 20MT IN BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SYNTHETIC RUBBER GRANTS - 20MT IN BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "38249990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "ABC SHIPPING LTD.",
+      "address": "123 Harbour Road, Singapore 123456",
+      "telephone": "+65 6789 0123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 Main Street, Frankfurt, Germany 60325",
+      "telephone": "+49 69 1234 5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nSHIPPER'S SEAL"
+  }
+}

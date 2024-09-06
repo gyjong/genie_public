@@ -1,107 +1,95 @@
 {
-  "bookingReference": "APPLE20241018123456",
+  "bookingReference": "PINEAPPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2432E",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 Anson Road, #28-01 International Plaza, SINGAPORE 079900",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Ms. Jane Tan)",
-      "telephone": "+65 6222 1234",
-      "email": "janetan@asiatrading.sg"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #22-01, International Plaza, Singapore 079900",
+      "telephone": "+65 6221 8888",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Hamburger Strasse 15, 20095 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 40 3789 1234"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Harbor Way, Los Angeles, CA 90013, USA",
+      "taxId": "123456789",
+      "president": "Mr. John Doe",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "Hamburger Strasse 15, 20095 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 40 3789 1234"
+      "name": "ABC LOGISTICS",
+      "address": "5678 Wilshire Blvd, Los Angeles, CA 90036, USA",
+      "telephone": "+1 310 555 9876",
+      "fax": "+1 310 555 9877"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "848330",
-  "commodityDescription": "DIGITAL PRINTING MACHINES WITH ACCESSORIES",
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "ET-123",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) DIGITAL PRINTING MACHINE WITH ACCESSORIES (W.2400MM H.2000MM)",
-      "grossWeight": 8000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "ET-456",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS AND ACCESSORIES FOR DIGITAL PRINTING MACHINE (W.1200MM H.1500MM)",
-      "grossWeight": 4000.0,
-      "measurement": 12.8
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRONIC COMPONENTS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 38.3
+    "totalContainers": "ONE (40 HQ) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40 HQ",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in HQ Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "L1234567890"
+      "lcNumber": "0100301045678"
     },
-    "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
-    ],
+    "certificateDetails": "1234567890123",
     "originalBLDistribution": {
       "name": "DHL EXPRESS",
-      "address": "12 Changi South Street 2, Singapore 486047",
-      "telephone": "+65 6221 1234"
+      "address": "123 DHL Way, Los Angeles, CA 90001, USA",
+      "telephone": "+1 800 225 5345",
+      "fax": "+1 800 225 5346"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 Anson Road, #28-01 International Plaza, SINGAPORE 079900",
-      "telephone": "+65 6222 1234"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL Way, Los Angeles, CA 90001, USA",
+      "telephone": "+1 800 225 5345",
+      "fax": "+1 800 225 5346"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD 50,000"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS ARE DANGEROUS"
   }
 }

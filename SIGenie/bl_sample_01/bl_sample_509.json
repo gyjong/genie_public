@@ -1,0 +1,110 @@
+{
+  "bookingReference": "ORANGE20240912112233",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2440E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Hanauer Landstra\u00dfe 168, 60314 Frankfurt am Main",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 69 7950 2000"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS SOLUTIONS GMBH",
+      "address": "Kaiserstra\u00dfe 76, 60329 Frankfurt am Main",
+      "country": "GERMANY",
+      "email": "notifications@logistics-solutions.de",
+      "telephone": "+49 69 7560 8000"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "MSCU3849652",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EG-123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU9276310",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EG-456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU1113298",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EG-789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "Certificate of Origin No. 1234567",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Road, Singapore 819823",
+      "telephone": "+65 6787 7777"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
+    },
+    "onboardDate": "SEPT. 14. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\n SHIPMENT IS HAZARDOUS. PLEASE HANDLE WITH CARE."
+  }
+}

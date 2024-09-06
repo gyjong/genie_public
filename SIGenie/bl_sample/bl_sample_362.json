@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240912102312",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
+    "vesselName": "CMA CGM ZHENG HE",
     "voyageNumber": "2024042",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, USA"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LONG BEACH, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,78 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+      "name": "ZHONGSHAN SUNRISE METAL CO., LTD.",
+      "address": "NO. 18, YUANJIANG ROAD, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "+86 760 2336 1289",
+      "email": "sales@sunrisemetal.com"
     },
     "consignee": {
-      "name": "WEST COAST SHIPPING INC.",
-      "address": "1234 Ocean Avenue, Los Angeles, CA 90038, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "WEST COAST METAL WORKS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "taxId": "98-76543210",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "ABC IMPORTERS INC.",
-      "address": "5678 Sunset Boulevard, Los Angeles, CA 90028, USA",
-      "telephone": "+1 310 555 2323",
-      "fax": "+1 310 555 2324"
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "SUITE 500, 123 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 5678",
+      "fax": "+1 212 555 5679"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85414010",
-  "commodityDescription": "COMPUTER HARDWARE - MOTHERBOARDS",
+  "hsCode": "72111300",
+  "commodityDescription": "STEEL PLATES",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU9786543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 50,
-      "cargoDescription": "50 PACKAGES OF COMPUTER MOTHERBOARDS (MODEL XYZ-123)",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 PACKAGES OF COMPUTER MOTHERBOARDS (MODEL XYZ-123)",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LONG BEACH, USA STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "PACKAGES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 5000.0,
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BUNDLES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 25000.0,
     "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HC Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC0012345678"
     },
-    "certificateDetails": [
-      "COO-12345",
-      " fumigation certificate-67890"
-    ],
+    "certificateDetails": "123456789012",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "SUITE 500, 123 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 5678",
+      "fax": "+1 212 555 5679"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST SHIPPING INC.",
-      "address": "1234 Ocean Avenue, Los Angeles, CA 90038, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "SUNRISE INTERNATIONAL LOGISTICS",
+      "address": "SUITE 500, 123 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 5678",
+      "fax": "+1 212 555 5679"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " SHIPMENT CONTAINS VALUABLE ELECTRONIC COMPONENTS. HANDLE WITH CARE."
+    "additionalRemarks": "CONTAINER IN GOOD ORDER AND CONDITION"
   }
 }

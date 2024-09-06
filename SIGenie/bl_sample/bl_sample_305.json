@@ -1,96 +1,97 @@
 {
-  "bookingReference": "APPLE20241015103005",
+  "bookingReference": "APPLE20240912103012",
   "voyageDetails": {
-    "vesselName": "MSC POZNAN",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024045",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": " ",
-      "address": "NO. 1888 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6286-1234",
-      "fax": "+86-21-6286-5678"
+      "name": "SHANGHAI KINGWAY LOGISTICS CO., LTD.",
+      "address": "333 XINJING ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EUROTRADING BV",
-      "address": "DE BRIJNSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROGLOBAL TRADING BV",
+      "address": "BEZUIDENHOUTSEWEG 152, 2596JG THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 313 55 55",
+      "fax": "+31 70 313 55 56"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KALVERSTRAAT 40, 1012 XA AMSTERDAM, NETHERLANDS"
+      "name": "EUROGLOBAL TRADING BV",
+      "address": "BEZUIDENHOUTSEWEG 152, 2596JG THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 313 55 55",
+      "fax": "+31 70 313 55 56"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR PROCESSING TEXTILES",
   "containers": [
     {
-      "containerNumber": "GLDU1234567",
+      "containerNumber": "MSCU3134571",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "KGL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
       "sealNumber": "9876543210",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. MARKED AND NUMBERED AS PER SHIPPING ORDER. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": " "
+      "marksAndNumbers": "KGL456",
+      "numberOfPackages": 8,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 9500.0,
+      "measurement": 28.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20DR",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 21500.0,
+    "totalMeasurement": 63.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033739"
     },
     "certificateDetails": [
-      "COO4567890"
+      "1000020070133X"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADING BV",
-      "address": "DE BRIJNSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-1234"
+      "name": "EUROGLOBAL TRADING BV",
+      "address": "BEZUIDENHOUTSEWEG 152, 2596JG THE HAGUE, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 1888 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6286-1234",
-      "fax": "+86-21-6286-5678"
+      "name": "SHANGHAI KINGWAY LOGISTICS CO., LTD.",
+      "address": "333 XINJING ROAD, SHANGHAI, CHINA"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance: USD 100,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

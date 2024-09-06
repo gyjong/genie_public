@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE202410181234500",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2423W",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "CHICAGO, IL, U.S.A"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "NEW YORK, NY, U.S.A"
   },
   "documentationDetails": {
     "blType": "COPY",
@@ -23,84 +23,78 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "2388 HUANGPU ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(PUTUO DISTRICT)",
-      "telephone": "+86 21 6336 7890",
-      "email": "SHIPPING@SHANGHAIIMPORTEXPORT.COM"
+      "name": "EURO TRADE IMPORT & EXPORT BV",
+      "address": "BEEMSTERWEG 12, 1441 GJ PURMEREND, NETHERLANDS",
+      "telephone": "+31 78 621 4567",
+      "fax": "+31 78 621 4568"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "SCHILLERSTRASSE 12, 20099 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECH.DE",
-      "telephone": "+49 40 3748 5600"
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, CHICAGO, IL 60601",
+      "telephone": "312-555-1212",
+      "fax": "312-555-1213",
+      "email": "IMPORT@GLOBALLOGISTICS.COM",
+      "contactPerson": "MARIA SMITH"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "SCHILLERSTRASSE 12, 20099 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECH.DE",
-      "telephone": "+49 40 3748 5600"
+      "sameAsConsignee": false,
+      "name": "ABC WAREHOUSE CO.",
+      "address": "1500 WAREHOUSE LN, CHICAGO, IL 60602",
+      "telephone": "773-555-5678",
+      "fax": "773-555-5679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "842139",
-  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
+  "hsCode": "84213100",
+  "commodityDescription": "MACHINERY FOR COFFEE ROASTING - ELECTRIC",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "TCLU7895632",
       "sealNumber": "1234567",
-      "marksAndNumbers": "ET123",
-      "numberOfPackages": 15,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "COFFEE ROASTER 1",
+      "numberOfPackages": 2,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ONE COFFEE ROASTING MACHINE",
+      "grossWeight": 4500.0,
+      "measurement": 15.5
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "7890123",
-      "marksAndNumbers": "ET456",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
-      "grossWeight": 8000.0,
-      "measurement": 18.0
+      "containerNumber": "TCLU8901234",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "COFFEE ROASTER 2",
+      "numberOfPackages": 2,
+      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ONE COFFEE ROASTING MACHINE",
+      "grossWeight": 4600.0,
+      "measurement": 16.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "totalGrossWeight": 20500.0,
-    "totalMeasurement": 43.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 4,
+    "totalGrossWeight": 9100.0,
+    "totalMeasurement": 31.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018001234",
     "lcDetails": {
-      "lcNumber": "LCL1234567890"
+      "lcNumber": "LC123456789"
     },
     "certificateDetails": [
-      "CN1234567890"
+      "4112724080177X",
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "SCHILLINGSTRASSE 12, 20099 HAMBURG",
-      "telephone": "+49 40 3748 5610"
+      "name": "EURO TRADE IMPORT & EXPORT BV",
+      "address": "BEEMSTERWEG 12, 1441 GJ PURMEREND, NETHERLANDS",
+      "telephone": "+31 78 621 4567",
+      "fax": "+31 78 621 4568"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "SCHILLINGSTRASSE 12, 20099 HAMBURG",
-      "telephone": "+49 40 3748 5610"
+      "name": "EURO TRADE IMPORT & EXPORT BV",
+      "address": "BEEMSTERWEG 12, 1441 GJ PURMEREND, NETHERLANDS",
+      "telephone": "+31 78 621 4567",
+      "fax": "+31 78 621 4568"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD50,000"
+    "onboardDate": "OCT. 28. 2024"
   }
 }

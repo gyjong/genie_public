@@ -1,0 +1,96 @@
+{
+  "bookingReference": "ORANGE20241015134502",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2435E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "Kaiserstrasse 5, 60311 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 798050",
+      "fax": "+49 69 79805100"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "Hanauer Landstra\u00dfe 126, 60314 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 66778800",
+      "fax": "+49 69 66778811"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8471.60",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ITM123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 CARTONS OF TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 1500.0,
+      "measurement": 10.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 10.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": " fumigation certificate no. 20241015001",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "Kaiserstrasse 5, 60311 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 798050",
+      "fax": "+49 69 79805100"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GOODS IN GOOD CONDITION"
+  }
+}

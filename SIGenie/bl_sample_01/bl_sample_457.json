@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912101245",
+  "voyageDetails": {
+    "vesselName": "MSC ELARA",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01 Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "( Anson Centre)",
+      "telephone": "+65 6221 1234",
+      "email": "info@sunrisetrading.sg"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Main Street, Suite 200, Los Angeles, CA 90015",
+      "country": "USA",
+      "email": "orders@wciimports.com",
+      "telephone": "+1 213 555 1212"
+    },
+    "notifyParty": {
+      "name": "ABC BANK",
+      "address": "100 Wall Street, New York, NY 10005",
+      "country": "USA",
+      "email": "lettersofcredit@abcbank.com",
+      "telephone": "+1 212 555 2323"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR THE PRODUCTION OF PLASTIC FILM",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: MACHINERY FOR THE PRODUCTION OF PLASTIC FILM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 3,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SPARE PARTS FOR MACHINERY FOR THE PRODUCTION OF PLASTIC FILM",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 8,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-20240912-123"
+    ],
+    "originalBLDistribution": {
+      "name": "HSBC SINGAPORE LTD.",
+      "address": "10 Collyer Quay, Singapore 049315",
+      "telephone": "+65 6321 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01 Anson Centre, Singapore 079903",
+      "telephone": "+65 6221 1234"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Insurance Policy Number: 1234567890"
+  }
+}

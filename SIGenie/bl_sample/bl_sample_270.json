@@ -1,97 +1,106 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "STARBERRY20241026103512",
   "voyageDetails": {
-    "vesselName": "MSC CHLOE",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024101",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 8500",
-      "email": "info@asiatrading.com.sg"
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 CHANGAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
     "consignee": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "Weena 235, 3012CN Rotterdam, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "Mr. Pieter Van Der Meer",
-      "telephone": "+31 10 412 5678",
-      "fax": "+31 10 412 5679"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "555 BROADWAY, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-6767"
     },
     "notifyParty": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "Weena 235, 3012CN Rotterdam, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "Mr. Pieter Van Der Meer",
-      "telephone": "+31 10 412 5678",
-      "fax": "+31 10 412 5679"
+      "name": "FIRST BANK OF AMERICA",
+      "address": "222 SOUTH HILL STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1-213-555-8989",
+      "fax": "+1-213-555-9090"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "7207200000",
-  "commodityDescription": "STEEL PLATES",
+  "hsCode": "8543.70",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
       "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "marksAndNumbers": "ABC123",
       "numberOfPackages": 100,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM STEEL PLATES",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8901234",
+      "sealNumber": "678901",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 6000.0,
+      "measurement": 12.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 37.5
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC001234567"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": "CN20241026001",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "DHL Express Hub, Changi North Crescent, Singapore 499677",
-      "telephone": "+65 6595 8888",
-      "fax": "+65 6595 8889"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "555 BROADWAY, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-6767"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 8500",
-      "email": "info@asiatrading.com.sg"
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 CHANGAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
+    "onboardDate": "OCT. 27. 2024",
     "additionalRemarks": "NONE"
   }
 }

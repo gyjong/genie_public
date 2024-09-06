@@ -1,109 +1,101 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20241026143251",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2024041",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "20241003",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "100 Anson Road #12-01, International Plaza, SINGAPORE 079900"
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": "ASIA PACIFIC FOODS LTD",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068910",
+      "telephone": "+65-6738-9876",
+      "fax": "+65-6738-9875"
     },
     "consignee": {
-      "name": "EUROTECH IMPORT EXPORT GMBH",
-      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
-      "telephone": "+49 69 75652100",
-      "fax": "+49 69 75652199"
+      "name": "EUROFRESH BV",
+      "address": "DIJKZICHT 123, 3011 AE ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROTECH IMPORT EXPORT GMBH",
-      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
-      "telephone": "+49 69 75652100",
-      "fax": "+49 69 75652199"
+      "name": "GLOBAL LOGISTICS NV",
+      "address": "ANTWERP PORT, BELGIUM"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "DIGITAL CAMERAS WITH ACCESSORIES",
+  "hsCode": "070110",
+  "commodityDescription": "RAW COFFEE BEANS",
   "containers": [
     {
-      "containerNumber": "SUDU7895432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "GT-123",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
-      "grossWeight": 1500.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "COF123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: RAW COFFEE BEANS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CERTIFIED ORGANIC COFFEE"
     },
     {
-      "containerNumber": "SUDU1234567",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "GT-456",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
-      "grossWeight": 1500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "SUDU9876543",
-      "sealNumber": "2345678",
-      "marksAndNumbers": "GT-789",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 PCS DIGITAL CAMERAS WITH LENSES AND CHARGERS",
-      "grossWeight": 1500.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "COF456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: RAW COFFEE BEANS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CERTIFIED FAIR TRADE COFFEE"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
-    "totalPackages": 150,
-    "packageType": "CARTONS",
-    "containerType": "20FT",
-    "totalGrossWeight": 4500.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "123456789012"
     },
     "certificateDetails": [
-      "1000020070133X",
-      "1000020070134X"
+      "ORG-2024-1026-001",
+      "FT-2024-1026-002"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "100 Anson Road #12-01, International Plaza, SINGAPORE 079900"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068910",
+      "telephone": "+65-6738-9876",
+      "fax": "+65-6738-9875"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH IMPORT EXPORT GMBH",
-      "address": "Hauptstrasse 123, 60325 Frankfurt am Main, GERMANY",
-      "telephone": "+49 69 75652100",
-      "fax": "+49 69 75652199"
+      "name": "ASIA PACIFIC FOODS LTD",
+      "address": "124 ROBINSON ROAD, #16-01, SINGAPORE 068911",
+      "telephone": "+65-6738-9877",
+      "fax": "+65-6738-9878"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CARGO STOWED IN DRY CONTAINERS"
+    "onboardDate": "OCT. 30. 2024",
+    "additionalRemarks": "Coffee beans packed in jute bags. Value: USD 50,000"
   }
 }

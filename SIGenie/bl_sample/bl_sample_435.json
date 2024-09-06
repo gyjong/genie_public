@@ -1,106 +1,101 @@
 {
-  "bookingReference": "APPLE20241016134522",
+  "bookingReference": "APPLE20241016912345",
   "voyageDetails": {
-    "vesselName": "CMA CGM RHONE",
-    "voyageNumber": "2448W",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "LOS ANGELES, CA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DEUTSCHE BANK AG FRANKFURT",
-      "address": "TAUNUSPLATZ 12, 60329 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 910-30000",
-      "fax": "+49 69 910-30001"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 5, SHANHU ROAD, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "+86 750 371 8765",
+      "fax": "+86 750 371 8766"
     },
     "consignee": {
-      "name": "DBS BANK LTD",
-      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
-      "telephone": "+65 6586 6666",
-      "fax": "+65 6536 3666"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@SUNRISETRADING.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "DBS BANK LTD",
-      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
-      "telephone": "+65 6586 6666",
-      "fax": "+65 6536 3666"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@SUNRISETRADING.COM",
+      "contactPerson": "JANE SMITH"
     }
   },
-  "shippingTerm": "CIF SINGAPORE",
-  "hsCode": "8471.60",
-  "commodityDescription": "AUTOMATIC DATA PROCESSING MACHINES",
+  "shippingTerm": "CIF",
+  "hsCode": "94016100",
+  "commodityDescription": "WOODEN CHAIRS",
   "containers": [
     {
-      "containerNumber": "MSCU3921658",
-      "sealNumber": "875423",
-      "marksAndNumbers": "DB-123",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : AUTOMATIC DATA PROCESSING MACHINES",
-      "grossWeight": 1250.75,
-      "measurement": 1.56
+      "containerNumber": "CMAU9675328",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 100 WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "546321",
-      "marksAndNumbers": "DB-456",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : AUTOMATIC DATA PROCESSING MACHINES",
-      "grossWeight": 625.37,
-      "measurement": 0.78
+      "containerNumber": "CMAU9675329",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 100 WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "CARTONS & PALLETS",
-    "totalGrossWeight": 1876.12,
-    "totalMeasurement": 2.34
-  },
-  "dangerousGoods": {
-    "containerNumber": "MSCU3921658",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8471.60",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "Batteries are packed according to IATA regulations"
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "123456789",
-    "salesOrderNumber": "987654321",
+    "invoiceNumber": "SR20241016001",
+    "documentNumber": "20241016002",
     "lcDetails": {
-      "lcNumber": "0000123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [
+      "CIQ20241016001",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
-      "telephone": "+65 6586 6666",
-      "fax": "+65 6536 3666"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 5, SHANHU ROAD, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "+86 750 371 8765",
+      "fax": "+86 750 371 8766"
     },
     "originalInvoiceDistribution": {
-      "name": "DEUTSCHE BANK AG FRANKFURT",
-      "address": "TAUNUSPLATZ 12, 60329 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 910-30000",
-      "fax": "+49 69 910-30001"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 5, SHANHU ROAD, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "+86 750 371 8765",
+      "fax": "+86 750 371 8766"
     },
-    "onboardDate": "OCT. 22. 2024",
-    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
+    "onboardDate": "OCT. 26. 2024"
   }
 }

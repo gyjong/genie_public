@@ -1,98 +1,96 @@
 {
-  "bookingReference": "APPLE20240927143211",
+  "bookingReference": "APPLE20241015143025",
   "voyageDetails": {
-    "vesselName": "OOCL AMERICA",
-    "voyageNumber": "2431E",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "20241002",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "LOS ANGELES, USA",
-    "portOfLoading": "LOS ANGELES, USA",
-    "portOfDischarge": "NINGBO, CHINA",
-    "placeOfDelivery": "NINGBO, CHINA",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SEA LION LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 500, LOS ANGELES, CA 90015, USA"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 HONGQI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "GOLDEN DRAGON IMPORTS LTD.",
-      "address": "245 HUA SHAN ROAD, NINGBO, ZHEJIANG, CHINA",
-      "telephone": "+86 574 8888 9999",
-      "fax": "+86 574 8888 9998"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-2323"
     },
     "notifyParty": {
-      "name": "SEA LION LOGISTICS (SHANGHAI) CO. LTD.",
-      "address": "32ND FLOOR, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, CHINA",
-      "telephone": "+86 21 6888 1111",
-      "fax": "+86 21 6888 1112"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 HONGQI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE PRODUCTION",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "CMLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SL123",
-      "numberOfPackages": 10,
-      "cargoDescription": "AUTOMOBILE ENGINE PARTS (MADE IN USA)",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "CMAU1112223",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SL456",
-      "numberOfPackages": 8,
-      "cargoDescription": "TRANSMISSION COMPONENTS (MADE IN USA)",
-      "grossWeight": 8500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "SUNRISE-2024",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FIVE (5) MOTORCYCLES",
+      "grossWeight": 1500.0,
+      "measurement": 2.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "packageType": "PACKAGES",
-    "containerType": "20GP",
-    "totalGrossWeight": 20500.0,
-    "totalMeasurement": 63.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 2.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO-12345",
+    "salesOrderNumber": "SO-67890",
     "lcDetails": {
-      "lcNumber": "LC2024100512345"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": [
-      "COO20241005A",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "CN20241015-001",
     "originalBLDistribution": {
-      "name": "GOLDEN DRAGON IMPORTS LTD.",
-      "address": "245 HUA SHAN ROAD, NINGBO, ZHEJIANG, CHINA"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-2323"
     },
     "originalInvoiceDistribution": {
-      "name": "SEA LION LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 500, LOS ANGELES, CA 90015, USA"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 HONGQI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
-    "onboardDate": "OCT. 05. 2024",
-    "additionalRemarks": "CARGO PACKED IN WOODEN CRATES"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": null
   }
 }

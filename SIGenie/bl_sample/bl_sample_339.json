@@ -1,107 +1,107 @@
 {
-  "bookingReference": "APPLE20241026143211",
+  "bookingReference": "APPLE20240912113015",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2443E",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI ZHENXI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1608, NO. 1555, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6336-8888",
-      "fax": "+86-21-6336-9999"
+      "name": "DEUTSCHE BAHN AG",
+      "address": "Potdamer Platz 1, 10785 Berlin, Germany",
+      "telephone": "+49 30 29933333",
+      "email": "info@deutschebahn.com"
     },
     "consignee": {
-      "name": "EUROTRADE BV",
-      "address": "DIJKSTRA LAAN 25, 3061 HC ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "SINGAPORE PORTS AUTHORITY",
+      "address": "460 Alexandra Road, Singapore 119963",
+      "taxId": "GST0012345678",
+      "president": "Mr. Tan Chee Meng",
+      "telephone": "+65 6275 1111",
+      "fax": "+65 6275 2222"
     },
     "notifyParty": {
-      "name": "CARGO HANDLING SERVICES BV",
-      "address": "HAVENLAAN 10, 3191 AL ROTTERDAM, NETHERLANDS"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Singapore 018982",
+      "taxId": "GST0098765432",
+      "president": "Mr. Piyush Gupta",
+      "telephone": "+65 6588 8888",
+      "fax": "+65 6588 9999"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CIF",
+  "hsCode": "8606910000",
+  "commodityDescription": "RAILWAY CAR WHEELS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ZX-123",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "2 MOTORCYCLES - MODEL ZX-250",
-      "grossWeight": 650.0,
-      "measurement": 10.5,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+      "containerNumber": "CMAU9663425",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 10 CRATES OF RAILWAY CAR WHEELS. CIF SINGAPORE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CMAU1112223",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ZX-456",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "2 MOTORCYCLES - MODEL ZX-300",
-      "grossWeight": 700.0,
-      "measurement": 11.0,
-      "additionalInfo": ""
+      "containerNumber": "CMAU9663426",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 10 CRATES OF RAILWAY CAR WHEELS. CIF SINGAPORE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 4,
-    "packageType": "UNITS",
-    "containerType": "20GP",
-    "totalGrossWeight": 1350.0,
-    "totalMeasurement": 21.5
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "L1234567890"
+      "lcNumber": "LC20240912001"
     },
-    "certificateDetails": [
-      "COO-1234567890"
-    ],
+    "certificateDetails": "CO, Fumigation Certificate",
     "originalBLDistribution": {
-      "name": "EUROTRADE BV",
-      "address": "DIJKSTRA LAAN 25, 3061 HC ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-7891"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6588 8888",
+      "fax": "+65 6588 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI ZHENXI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1608, NO. 1555, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6336-8888",
-      "fax": "+86-21-6336-9999"
+      "name": "DEUTSCHE BAHN AG",
+      "address": "Potdamer Platz 1, 10785 Berlin, Germany",
+      "telephone": "+49 30 29933333",
+      "fax": "+49 30 29933334"
     },
-    "onboardDate": "NOV. 05. 2024",
-    "additionalRemarks": "All motorcycles are brand new."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

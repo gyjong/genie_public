@@ -1,99 +1,106 @@
 {
-  "bookingReference": "ORANGE20240912134521",
+  "bookingReference": "APPLE20241026142356",
   "voyageDetails": {
-    "vesselName": "EVERGREEN SKY",
-    "voyageNumber": "2024312",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2442E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+      "name": "ZHEJIANG HONGYU IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 288, JIAOJIANG ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 322000)",
+      "telephone": "+86 579 8312 5678",
+      "email": "SALES@HONGYUEXPORT.COM"
     },
     "consignee": {
-      "name": "AMERICAN IMPORTERS INC.",
-      "address": "456 OCEAN AVENUE, LOS ANGELES, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "country": "USA",
+      "email": "INFO@WESTCOASTIMPORTS.COM",
+      "telephone": "+1 310 555 1212"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS",
-      "address": "789 MARKET STREET, CHICAGO, USA",
-      "telephone": "+1 312 555 2323",
-      "fax": "+1 312 555 2324"
+      "name": "ABC LOGISTICS LLC",
+      "address": "1500 BROADWAY, NEW YORK, NY 10036",
+      "country": "USA",
+      "email": "NOTIFICATIONS@ABCLOGISTICS.COM",
+      "telephone": "+1 212 555 2323"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85437000",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "hsCode": "841370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
   "containers": [
     {
-      "containerNumber": "CCLU8765432",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "HONGYU123",
       "numberOfPackages": 50,
-      "cargoDescription": "50 ELECTRIC MOTORS (MODEL EM-100)",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY, MODEL: EM-200",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "CCLU1112223",
+      "containerNumber": "MSCU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
+      "marksAndNumbers": "HONGYU456",
       "numberOfPackages": 50,
-      "cargoDescription": "50 ELECTRIC MOTORS (MODEL EM-100)",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY, MODEL: EM-200",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
     "totalPackages": 100,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 70.0
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000301043738"
+      "lcNumber": "LC00123456789"
     },
     "certificateDetails": [
-      "1000030080131X"
+      "CN20241026001"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "telephone": "+1 310 555 1212"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN IMPORTERS INC.",
-      "address": "456 OCEAN AVENUE, LOS ANGELES, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "telephone": "+1 310 555 1212"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT."
   }
 }

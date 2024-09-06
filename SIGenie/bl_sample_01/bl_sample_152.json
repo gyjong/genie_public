@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2436E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Europaplein 12, 3075 AA Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA",
+      "address": "Coolsingel 117, 3012 GP Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "trade.rotterdam@bofa.com",
+      "telephone": "+31 10 201 2345"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "SEGU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "SEGU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT-789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 84.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-09-15-123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS FREE TIME",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "HSBC BANK",
+      "address": "250, Raffles Place, Singapore 018583",
+      "telephone": "+65 6326 6326"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "CONTAINERS SEALED AND LOCKED"
+  }
+}

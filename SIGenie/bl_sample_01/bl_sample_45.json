@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240922125523",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2434W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 414 2000"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 414 2000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29031100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "TCLU5963852",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE 2024",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7895643",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE 2024",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE 2024",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
+      "grossWeight": 20200.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60600.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29031100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "SGS-2024-123456",
+    "originalBLDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "BEUKENBURG 47, 3068 GR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road #25-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
+    },
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nGOODS SHIPPED IN SOUND CONDITION\nCERTIFICATE OF ORIGIN ATTACHED"
+  }
+}

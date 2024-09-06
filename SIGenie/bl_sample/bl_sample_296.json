@@ -1,19 +1,19 @@
 {
-  "bookingReference": "ORANGE20240915154103",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC ANTWERP",
-    "voyageNumber": "2429E",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "24041",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -24,77 +24,72 @@
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #15-01, Anson Centre, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "address": "101 Ubi Avenue 1, #05-01, Ubi Plaza, Singapore 408900",
+      "telephone": "+65 6745 6789",
+      "email": "info@asiapacifictrading.com"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 211 58590"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Hoogoordplein 1, 3012 AD Rotterdam, Netherlands",
+      "taxId": "NL856741234",
+      "president": "Mr. Pieter van Dijk",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 7890"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 211 58590"
+      "name": "EUROTECH LOGISTICS",
+      "address": "Erasmuslaan 15, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "hsCode": "85414090",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "TCLU4653789",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ACME123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN 1000 DRUMS OF ETHYL ACETATE",
-      "grossWeight": 24000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "TCLU2345678",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EUROCHEM1",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN 500 DRUMS OF ETHYL ACETATE",
-      "grossWeight": 12000.0,
-      "measurement": 15.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "COO-1234567890",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "HSBC BANK",
-      "address": "123 Main Street, Singapore 012345",
-      "telephone": "+65 6222 1234"
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Boulevard, Singapore Changi Airport, Singapore 819642",
+      "telephone": "+65 6595 6666",
+      "fax": "+65 6595 6667"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "Von-der-Heydt-Stra\u00dfe 1, 40599 D\u00fcsseldorf, GERMANY",
-      "telephone": "+49 211 58590",
-      "fax": "+49 211 58591"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Ubi Avenue 1, #05-01, Ubi Plaza, Singapore 408900",
+      "telephone": "+65 6745 6789",
+      "email": "info@asiapacifictrading.com"
     },
-    "onboardDate": "SEPT. 17. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS SHOULD BE DELIVERED TO EUROTECH IMPORTS BV AT THEIR WAREHOUSE IN ROTTERDAM"
   }
 }

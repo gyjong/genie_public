@@ -1,95 +1,99 @@
 {
-  "bookingReference": "GRAPE20240912134507",
+  "bookingReference": "PINEAPPLE20241026154321",
   "voyageDetails": {
-    "vesselName": "EVER EVERGREEN 10",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2445W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD",
-      "address": "123 Anson Road, #15-02 Anson Centre, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "email": "info@sunrisetrading.com.sg"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #22-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. Tan)"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 Harbor Boulevard, Suite 200, Los Angeles, CA 90013, USA",
-      "taxId": "98-7654321",
-      "president": "Ms. Jane Doe",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "EUROCHEM BV",
+      "address": "Havenlaan 80, 3000 Antwerpen, BELGIUM",
+      "country": "BELGIUM",
+      "email": "info@eurochem.be",
+      "telephone": "+32 3 213 4567"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO. LTD",
-      "address": "123 Anson Road, #15-02 Anson Centre, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ABC BANK N.V.",
+      "address": "Koningstraat 10, 1012 NL Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcbank.nl",
+      "telephone": "+31 20 666 7777"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "7211130000",
-  "commodityDescription": "STEEL WIRE RODS",
+  "shippingTerm": "CIF",
+  "hsCode": "290339",
+  "commodityDescription": "POLYETHYLENE GLYCOL (PEG 4000)",
   "containers": [
     {
-      "containerNumber": "TCLU5872631",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
-      "numberOfPackages": 500,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL WIRE RODS, 5.5MM DIAMETER",
-      "grossWeight": 25000.0,
+      "containerNumber": "MSCU3857962",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: 1000 DRUMS OF POLYETHYLENE GLYCOL (PEG 4000)",
+      "grossWeight": 22000.0,
       "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: 500 BAGS OF POLYETHYLENE GLYCOL (PEG 4000)",
+      "grossWeight": 11000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 500,
-    "packageType": "COILS",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS & BAGS",
+    "totalGrossWeight": 33000.0,
+    "totalMeasurement": 50.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "390720",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "Certificate of Origin issued by Singapore Chamber of Commerce",
     "originalBLDistribution": {
-      "name": "GOLDEN GATE LOGISTICS",
-      "address": "123 Main Street, Los Angeles, CA 90012, USA",
-      "telephone": "+1 213 555 2323",
-      "fax": "+1 213 555 2324"
+      "name": "ABC LOGISTICS",
+      "address": "123 Harbour Road, Singapore 018967",
+      "telephone": "+65 6789 0123"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO. LTD",
-      "address": "123 Anson Road, #15-02 Anson Centre, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "EUROCHEM BV",
+      "address": "Havenlaan 80, 3000 Antwerpen, BELGIUM",
+      "telephone": "+32 3 213 4567"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "GRAPE20240912112515",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024045",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE KRAFTTECHNIK GMBH",
+      "address": "INDUSTRIESTRASSE 12, 47877 WILLICH, GERMANY",
+      "telephone": "+49 2462 978 2000",
+      "email": "INFO@DEUTSCHE-KRAFTTECHNIK.DE"
+    },
+    "consignee": {
+      "name": "SINGAPORE ENGINEERING WORKS PTE LTD",
+      "address": "150 BENOI ROAD, SINGAPORE 629901",
+      "taxId": "199901573R",
+      "president": "MR. TAN AH HONG",
+      "telephone": "+65 6268 5555",
+      "fax": "+65 6268 6666"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE ENGINEERING WORKS PTE LTD",
+      "address": "150 BENOI ROAD, SINGAPORE 629901",
+      "taxId": "199901573R",
+      "president": "MR. TAN AH HONG",
+      "telephone": "+65 6268 5555",
+      "fax": "+65 6268 6666"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84137010",
+  "commodityDescription": "POWER GENERATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU8687039",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER GENERATION EQUIPMENT AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20' DRY X1",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO. LTD",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS CO. LTD",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

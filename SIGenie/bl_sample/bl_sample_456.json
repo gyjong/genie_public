@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APPLE20240912113005",
+  "bookingReference": "APPLE20240918124522",
   "voyageDetails": {
-    "vesselName": "MSC MARIA",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2432E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE TRADING CO.",
-      "address": "100 ORCHARD ROAD, #15-01, SINGAPORE 238840",
-      "telephone": "+65 6737 8910",
-      "email": "INFO@SINGAPORETRADING.COM"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "235 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "EURO METALS BV",
-      "address": "WEENA 253, 3012CN ROTTERDAM, NETHERLANDS",
-      "taxId": "NL853721478B01",
-      "president": "MR. JAN VAN DER HEIJDEN",
-      "telephone": "+31 10 411 2345",
-      "fax": "+31 10 411 2346"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 7909123"
     },
     "notifyParty": {
-      "name": "EURO METALS BV",
-      "address": "WEENA 253, 3012CN ROTTERDAM, NETHERLANDS",
-      "taxId": "NL853721478B01",
-      "president": "MR. JAN VAN DER HEIJDEN",
-      "telephone": "+31 10 411 2345",
-      "fax": "+31 10 411 2346"
+      "name": "ABC LOGISTICS GmbH",
+      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 40 3096123"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "7202110000",
-  "commodityDescription": "ALUMINIUM ALLOY SHEETS",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "SUDU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM ALUMINIUM ALLOY SHEETS",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20200.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
+      "grossWeight": 20200.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY Container"
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40400.0,
+    "totalMeasurement": 50.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "00001234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "1234 ABC STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 1234567",
-      "fax": "+31 10 1234568"
+      "name": "DHL EXPRESS",
+      "address": "567 FRANKFURTER STRASSE, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7909123"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "1234 ABC STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 1234567",
-      "fax": "+31 10 1234568"
+      "name": "ABC LOGISTICS GmbH",
+      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3096123"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nSTRICTLY NO CONTAINER DETENTION"
   }
 }

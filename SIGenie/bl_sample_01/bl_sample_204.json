@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20241015143021",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NEW YORK, USA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA LOGISTICS BV",
+      "address": "STATIONSPLEIN 12, 3013 BX ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 BROADWAY, NEW YORK, NY 10005, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2424"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE PARTS (H.S. CODE: 84798990)",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE PARTS (H.S. CODE: 84798990)",
+      "grossWeight": 6000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 11000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567",
+      " fumigation certificate-1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTERS LTD.",
+      "address": "456 FIFTH AVENUE, NEW YORK, NY 10017, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA LOGISTICS BV",
+      "address": "STATIONSPLEIN 12, 3013 BX ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "SHIPMENT CONTAINS SPARE PARTS FOR TEXTILE MACHINES"
+  }
+}

@@ -1,89 +1,97 @@
 {
-  "bookingReference": "APPLE20241017143205",
+  "bookingReference": "APPLE20241005143012",
   "voyageDetails": {
-    "vesselName": "CMA CGM AQUILA",
-    "voyageNumber": "2442W",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NEW YORK, USA"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 118, SINGAPORE 068902",
-      "telephone": "+65-6536-8899",
-      "fax": "+65-6536-8800"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "EUROASIA IMPORTS BV",
-      "address": "PIETERMAAIJTkade 22, 3072 ME ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-414-5678",
-      "fax": "+31-10-414-5679"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 118, SINGAPORE 068902",
-      "telephone": "+65-6536-8899",
-      "fax": "+65-6536-8800"
+      "name": "CUSTOMS BROKERAGE SERVICES",
+      "address": "789 FIFTH AVENUE, NEW YORK, NY 10022, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8471.30",
-  "commodityDescription": "DIGITAL PRINTERS",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "TCLU5678912",
+      "containerNumber": "MSCU3456789",
       "sealNumber": "123456",
-      "marksAndNumbers": "APTC12345",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 CARTONS DIGITAL PRINTERS",
-      "grossWeight": 1500.0,
-      "measurement": 10.5
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) MOTORCYCLES, MODEL: MX250",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) MOTORCYCLES, MODEL: MX250",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
     "totalPackages": 10,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 1500.0,
-    "totalMeasurement": 10.5
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 50.0
   },
-  "dangerousGoods": {},
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241017001",
-    "salesOrderNumber": "SO20241017002",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "0000321043789"
     },
-    "certificateDetails": "234567890123456",
+    "certificateDetails": [
+      "1000032070131X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROASIA IMPORTS BV",
-      "address": "PIETERMAAIJTkade 22, 3072 ME ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-414-5678",
-      "fax": "+31-10-414-5679"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 118, SINGAPORE 068902",
-      "telephone": "+65-6536-8899",
-      "fax": "+65-6536-8800"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "MOTORCYCLES PACKED IN CRATES."
   }
 }

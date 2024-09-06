@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241017142502",
+  "bookingReference": "APPLE20241015134502",
   "voyageDetails": {
-    "vesselName": "EVERGREEN SKY",
-    "voyageNumber": "2436W",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "20241001",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,51 +17,51 @@
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Original",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #10-01, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8999"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
-      "telephone": "+41 44 212 3456",
-      "fax": "+41 44 212 7890"
+      "name": "EURO TRADE LTD.",
+      "address": "Coolsingel 117, 3012 AD Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-204-6000",
+      "fax": "+31-10-204-6001"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
-      "telephone": "+41 44 212 3456",
-      "fax": "+41 44 212 7890"
+      "name": "EURO TRADE LTD.",
+      "address": "Coolsingel 117, 3012 AD Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-204-6000",
+      "fax": "+31-10-204-6001"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+  "hsCode": "8479.90",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET123",
-      "numberOfPackages": 500,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 500 BOXES ELECTRONIC COMPONENTS - CAPACITORS. NET WEIGHT: 1250 KGS.",
-      "grossWeight": 1350.0,
-      "measurement": 10.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 500,
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
     "packageType": "BOXES",
-    "totalGrossWeight": 1350.0,
-    "totalMeasurement": 10.5
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
   },
   "dangerousGoods": {
     "containerNumber": "",
@@ -72,25 +72,25 @@
     "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0012345"
     },
-    "certificateDetails": "SGS20241017",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "Europaallee 15, 2000 Z\u00fcrich, Switzerland",
-      "telephone": "+41 44 212 3456",
-      "fax": "+41 44 212 7890"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8999"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #10-01, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EURO TRADE LTD.",
+      "address": "Coolsingel 117, 3012 AD Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-204-6000",
+      "fax": "+31-10-204-6001"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "CARGO STOWED ON DECK."
+    "additionalRemarks": ""
   }
 }

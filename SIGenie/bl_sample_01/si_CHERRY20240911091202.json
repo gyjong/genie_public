@@ -1,0 +1,94 @@
+{
+    "bookingReference": "CHERRY20240911091202",
+    "voyageDetails": {
+      "vesselName": "ARONIA 3",
+      "voyageNumber": "2024041",
+      "bound": "E"
+    },
+    "routeDetails": {
+      "placeOfReceipt": "BUSAN, KOREA",
+      "portOfLoading": "BUSAN, KOREA",
+      "portOfDischarge": "VLADIVOSTOK, RUSSIA",
+      "placeOfDelivery": "VLADIVOSTOK, RUSSIA",
+      "finalDestination": ""
+    },
+    "paymentDetails": {
+      "freightPaymentTerms": "PREPAID",
+      "freightPayableAt": "BUSAN, KOREA"
+    },
+    "documentationDetails": {
+      "blType": "SURRENDER",
+      "numberOfOriginalBLs": 0,
+      "numberOfCopies": 0
+    },
+    "partyDetails": {
+      "shipper": {
+        "name": "LX PANTOS CO., LTD.",
+        "onBehalfOf": "LG H&H CO., LTD",
+        "address": "LG GWANGHWAMOON BUILDING, 92 SINMUNNO 2-GA, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+        "telephone": "+82-2-3500-0001",
+        "fax": "+82-2-3500-1000"
+      },
+      "consignee": {
+        "name": "LLC IC GA GROUP",
+        "address": "62 SACCO AND VANZETTI STR. OFFICE 703, 620014,, EKATERINBURG RUSSIA",
+        "companyNumber": "1126761020035"
+      },
+      "notifyParty": {
+        "name": "CJSC FM LOGISTICS CUSTOMS",
+        "address": "PAVELTSEVO DISTRICT NOVOE SHOSSE 34 BUILDING 4141720 DOLGOPRUDNIY RUSSIA"
+      }
+    },
+    "shippingTerm": "CY / CY",
+    "hsCode": "330420",
+    "commodityDescription": "COSMETICS",
+    "containers": [
+      {
+        "containerNumber": "CRLU9908625",
+        "sealNumber": "892083",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 10,
+        "packageType": "PALLETS",
+        "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETICS",
+        "grossWeight": 4829.000,
+        "measurement": 12.0000,
+        "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+      }
+    ],
+    "totalShipment": {
+      "totalContainers": "ONE (45HG X1) CONTAINER ONLY",
+      "totalPackages": 10,
+      "packageType": "PALLETS",
+      "containerType": "45RHX1",
+      "totalGrossWeight": 4829.000,
+      "totalMeasurement": 12.000
+    },
+    "reeferSettings": {
+      "containerNumber": "CRLU9908625",
+      "temperature": "+5.0ºC",
+      "minTemperature": "+2.0°C",
+      "maxTemperature": "+7.0°C",
+      "ventilation": "Closed",
+      "humidity": "50% ~ 60%"
+    },
+    "additionalInformation": {
+      "lcDetails": {
+        "lcNumber": "0000101033738"
+      },
+      "certificateDetails": ["4112720070177X", "4112720070178X"],
+      "originalBLDistribution": {
+        "name": "LX PANTOS CO., LTD.",
+        "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+        "telephone": "+82-2-3700-2110",
+        "fax": "+82-2-3700-2000"
+      },
+      "originalInvoiceDistribution": {
+        "name": "LX PANTOS JAPAN INC.",
+        "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+        "telephone": "03600061234",
+        "fax": "81-3-6000-0001"
+      },
+      "onboardDate": "OCT. 04. 2024",
+      "additionalRemarks": "Reefer Container, Item: COSMETICS, Temperature: +5°C, Value: USD50,000"
+    }
+  }

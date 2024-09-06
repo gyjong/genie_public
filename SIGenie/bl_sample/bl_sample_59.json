@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241026143255",
+  "bookingReference": "BERRY20240912132547",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2429W",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -23,88 +23,85 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Central Business District)"
+      "name": "WORLDWIDE SHIPPING LTD.",
+      "address": "22ND FLOOR, SHANGHAI TOWER, 123 SHANGHAI ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 7500"
+      "name": "GLOBAL TRADING CO.",
+      "address": "2ND FLOOR, ROTTERDAM CENTRAL STATION, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 3456",
+      "fax": "+31 10 202 3457"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 7500"
+      "name": "BLUE SKY LOGISTICS",
+      "address": "15TH FLOOR, THE BRIDGE BUILDING, 123 AMSTERDAM STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 678 9012",
+      "fax": "+31 20 678 9013"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "290339",
-  "commodityDescription": "POLYETHYLENE GLYCOL (PEG)",
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
   "containers": [
     {
-      "containerNumber": "SEGU7265873",
+      "containerNumber": "CGXU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "WWL1234",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 100 PACKAGES OF TELECOMMUNICATION EQUIPMENT. ROUTERS AND SWITCHES (MODEL: RX-5000)",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "SEGU8415629",
+      "containerNumber": "CGXU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "WWL4321",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 100 PACKAGES OF TELECOMMUNICATION EQUIPMENT. ROUTERS AND SWITCHES (MODEL: RX-5000)",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGXU9876543",
       "sealNumber": "789012",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "SEGU9623451",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE GLYCOL (PEG) 20 MT",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "WWL7654",
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 50 PACKAGES OF TELECOMMUNICATION EQUIPMENT. ROUTERS AND SWITCHES (MODEL: RX-5000)",
+      "grossWeight": 6000.0,
+      "measurement": 17.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "THREE (20FT X2, 40FT X1) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "PACKAGES",
+    "containerType": "20FT X2, 40FT X1",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 87.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO-2024",
-    "hsCode": "29033990",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC2024091212345"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-678901"
+    ],
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "Marina Bay Financial Centre Tower 3, 12 Marina Boulevard, Singapore 018982",
-      "telephone": "+65 6220 2222"
+      "name": "GLOBAL TRADING CO.",
+      "address": "2ND FLOOR, ROTTERDAM CENTRAL STATION, 3013 AL ROTTERDAM, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Westblaak 171, 3012 KN Rotterdam, Netherlands",
-      "telephone": "+31 10 414 7500",
-      "fax": "+31 10 414 7501"
+      "name": "WORLDWIDE SHIPPING LTD.",
+      "address": "22ND FLOOR, SHANGHAI TOWER, 123 SHANGHAI ROAD, SHANGHAI, CHINA"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nCARGO SHOULD BE DISCHARGED AT THE ROTTERDAM PORT ONLY\nALL COSTS AND EXPENSES AFTER DISCHARGE AT ROTTERDAM ARE FOR CONSIGNEE'S ACCOUNT."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN INDIVIDUAL BOXES AND PALLETIZED. "
   }
 }

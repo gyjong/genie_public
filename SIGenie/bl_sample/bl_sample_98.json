@@ -1,97 +1,96 @@
 {
-  "bookingReference": "GRAPE20240912101507",
+  "bookingReference": "APPLE20241026134502",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "20241003",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Master BL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5555",
-      "email": "info@asiatrading.com"
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-8899",
+      "fax": "+65-6221-8866"
     },
     "consignee": {
-      "name": "EURO STEEL IMPORTS BV",
-      "address": "Weesperstraat 10, 1018 AD Amsterdam, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "MR. JAN VAN DER MEER",
-      "telephone": "+31 20 624 7500",
-      "fax": "+31 20 624 7501"
+      "name": "EUROASIA IMPORTS BV",
+      "address": "Weena 345, 3012CB Rotterdam, Netherlands",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
     },
     "notifyParty": {
-      "name": "EURO STEEL IMPORTS BV",
-      "address": "Weesperstraat 10, 1018 AD Amsterdam, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "MR. JAN VAN DER MEER",
-      "telephone": "+31 20 624 7500",
-      "fax": "+31 20 624 7501"
+      "name": "EUROASIA LOGISTICS",
+      "address": "Keizersgracht 123, 1016DW Amsterdam, Netherlands",
+      "telephone": "+31-20-624-5678",
+      "fax": "+31-20-624-5679"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "72072000",
-  "commodityDescription": "STEEL BILLETS",
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU7654321",
-      "sealNumber": "987654",
-      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
       "numberOfPackages": 100,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS STEEL BILLETS",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 100 CARTONS OF ELECTRONIC COMPONENTS",
+      "grossWeight": 1250.5,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
     "totalPackages": 100,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1250.5,
+    "totalMeasurement": 1.5
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "dangerousGoods": {
+    "containerNumber": "TCLU9876543",
+    "unClass": "9",
+    "unCode": "3334",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries are properly packaged and labeled in accordance with IATA regulations."
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "012345678901"
+      "lcNumber": "LC123456789012"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "Certificate of Origin No. CO12345678",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "1001 North Point Drive, Suite 200, San Francisco, CA 94133, USA",
-      "telephone": "+1 415 555 1212",
-      "fax": "+1 415 555 1213"
+      "name": "EUROASIA IMPORTS BV",
+      "address": "Weena 345, 3012CB Rotterdam, Netherlands",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "1001 North Point Drive, Suite 200, San Francisco, CA 94133, USA",
-      "telephone": "+1 415 555 1212",
-      "fax": "+1 415 555 1213"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-8899",
+      "fax": "+65-6221-8866"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "Batteries are lithium-ion and are packed in accordance with UN38.3."
   }
 }

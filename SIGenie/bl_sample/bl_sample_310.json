@@ -1,94 +1,100 @@
 {
-  "bookingReference": "APPLE20241015143211",
+  "bookingReference": "APPLE20240912102547",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "20241003",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI YINGLONG IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1202, NO. 888, SHENNAN ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6352-1234",
-      "fax": "+86-21-6352-5678"
+      "name": "DHL GLOBAL FORWARDING (EUROPE) GMBH & CO. KG",
+      "address": "HANS-GOTTFRIED-BERGER-STRASSE 2, 60489 FRANKFURT AM MAIN, GERMANY"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "SEA FREIGHT LOGISTICS SDN BHD",
+      "address": "UNIT 1-1, LEVEL 1, BLOCK A, PLAZA DAMANSARA, NO. 67, Jalan Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia",
+      "telephone": "+60 3 7726 1888",
+      "fax": "+60 3 7726 1999"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL LTD.",
-      "address": "SPUILEIN 50, 2000 ANTWERP, BELGIUM"
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "101 UPPER CROSS STREET, #06-00, THE ICONIC, SINGAPORE 058357",
+      "telephone": "+65 6323 9999",
+      "fax": "+65 6323 9900"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854239",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "94017900",
+  "commodityDescription": "WOODEN CHAIRS AND TABLES",
   "containers": [
     {
-      "containerNumber": "TCLU5678901",
+      "containerNumber": "TCLU5769123",
       "sealNumber": "1234567",
-      "marksAndNumbers": "EUROTECH-123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS AND TABLES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "XYZ987",
+      "numberOfPackages": 150,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS AND TABLES",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 65.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "000023456789"
+      "lcNumber": "LC0001234567"
     },
     "certificateDetails": [
-      "4123456789012X"
+      " fumigation certificate",
+      "origin certificate"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI YINGLONG IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1202, NO. 888, SHENNAN ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6352-1234",
-      "fax": "+86-21-6352-5678"
+      "name": "SEA FREIGHT LOGISTICS SDN BHD",
+      "address": "UNIT 1-1, LEVEL 1, BLOCK A, PLAZA DAMANSARA, NO. 67, Jalan Damansara Utama, 47400 Petaling Jaya, Selangor, Malaysia"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY"
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "101 UPPER CROSS STREET, #06-00, THE ICONIC, SINGAPORE 058357",
+      "telephone": "+65 6323 9999",
+      "fax": "+65 6323 9900"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: EUR 25,000"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN PALLETS"
   }
 }

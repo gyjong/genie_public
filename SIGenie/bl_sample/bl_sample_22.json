@@ -1,99 +1,98 @@
 {
-  "bookingReference": "APPLE20240915143251",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2423E",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024041",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER BL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA TRADING CO. LTD.",
-      "address": "123 FENGSHU ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong District)"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "email": "INFO@EUROIMPORTS.DE",
-      "telephone": "+49 69 1234567"
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS GMBH",
-      "address": "HANSASTRASSE 5, 20457 HAMBURG",
-      "country": "GERMANY",
-      "email": "NOTIFICATIONS@ABCLOGISTICS.DE",
-      "telephone": "+49 40 8888888"
+      "name": "ABC IMPORT & EXPORT CO.",
+      "address": "456 Elm Street, San Francisco, CA 94105, USA",
+      "telephone": "+1 415 555 2323",
+      "fax": "+1 415 555 2324"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "854140",
-  "commodityDescription": "DIGITAL CAMERA LENSES",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERA LENSES (MODEL XYZ-100) 100PCS",
-      "grossWeight": 1500.0,
-      "measurement": 10.0
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: AUTOMOBILE ENGINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "MSCU1111111",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "654321",
       "marksAndNumbers": "DEF456",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL CAMERA LENSES (MODEL XYZ-200) 50PCS",
-      "grossWeight": 750.0,
-      "measurement": 5.0
+      "numberOfPackages": 40,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: AUTOMOBILE TRANSMISSION PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 150,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 2250.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 90,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 65.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "8541409000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000321045678"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 123456",
+    "certificateDetails": [
+      "1000030080145X",
+      "1000030080146Y"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "FRANKFURTER STRASSE 10, 60311 FRANKFURT",
-      "telephone": "+49 69 9999999"
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90014, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
-      "telephone": "+49 69 1234567"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "GOODS ARE FRAGILE, HANDLE WITH CARE"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES AND PALLETS."
   }
 }

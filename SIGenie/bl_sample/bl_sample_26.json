@@ -1,106 +1,97 @@
 {
-  "bookingReference": "ORANGE20241015142305",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "COSCO INDIA",
-    "voyageNumber": "222441",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6221-3456",
-      "fax": "+65-6227-1234"
+      "name": "GERMAN STEEL WORKS GMBH",
+      "address": "EINER STRASSE 12, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "email": "INFO@GERMANSTEELWORKS.DE"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Friedrichstrasse 123, 60323 Frankfurt am Main, Germany",
-      "telephone": "+49-69-75678901",
-      "fax": "+49-69-75678902"
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "1234 Anson Road, #10-01, Singapore 079906",
+      "taxId": "GST123456789A",
+      "president": "MR. LIM AH CHONG",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6221-3456",
-      "fax": "+65-6227-1234"
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "1234 Anson Road, #10-01, Singapore 079906",
+      "taxId": "GST123456789A",
+      "president": "MR. LIM AH CHONG",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "72151000",
+  "commodityDescription": "STEEL PLATES",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "APTC-202410",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEALED AND WEIGHTED AS INDICATED.",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "APTC-202410",
-      "numberOfPackages": 150,
-      "packageType": "BOXES",
-      "cargoDescription": "ELECTRONIC COMPONENTS AS PER INVOICE.",
-      "grossWeight": 15000.0,
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE STEEL PLATES",
+      "grossWeight": 25000.0,
       "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
-    "totalPackages": 250,
-    "packageType": "CARTONS & BOXES",
-    "totalGrossWeight": 27500.0,
-    "totalMeasurement": 55.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' Dry Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567890",
-    "salesOrderNumber": "SO9876543210",
     "lcDetails": {
-      "lcNumber": "LC20241015001"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": "C1234567890",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "Friedrichstrasse 123, 60323 Frankfurt am Main, Germany",
-      "telephone": "+49-69-75678901",
-      "fax": "+49-69-75678902"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 Anson Road #01-01, Singapore 019857",
+      "telephone": "+65 6333 6666",
+      "fax": "+65 6333 6667"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6221-3456",
-      "fax": "+65-6227-1234"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 Anson Road #01-01, Singapore 019857",
+      "telephone": "+65 6333 6666",
+      "fax": "+65 6333 6667"
     },
-    "onboardDate": "OCT. 20. 2024",
+    "onboardDate": "SEPT. 28. 2024",
     "additionalRemarks": "NONE"
   }
 }

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234",
+      "fax": "+31 20 624 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADE SOLUTIONS BV",
+      "address": "De Ruyterkade 15, 1012 AA Amsterdam, Netherlands",
+      "telephone": "+31 20 421 8901",
+      "fax": "+31 20 421 8902"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85437080",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS FOR TELECOMMUNICATIONS EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS FOR TELECOMMUNICATIONS EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 100,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS FOR TELECOMMUNICATIONS EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "000056789012"
+    },
+    "certificateDetails": [
+      "SGS20240912123456A",
+      "COC20240912123456B"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO PACKED IN STANDARD CARTONS. SHIPMENT VALUE USD 50,000"
+  }
+}

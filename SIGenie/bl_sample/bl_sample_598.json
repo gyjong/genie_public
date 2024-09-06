@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912113456",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024041",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "235 HUAIHAI ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(2ND FLOOR, OFFICE BUILDING A)",
+      "telephone": "+86 21 6328 1234",
+      "email": "SALES@SHANGHAITRADING.COM"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401, USA",
+      "country": "USA",
+      "email": "INFO@WESTCOASTIMPORTERS.COM",
+      "telephone": "+1 310 555 1212"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS LLC",
+      "address": "5678 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "country": "USA",
+      "email": "NOTIFICATIONS@SUNRISELOGISTICS.COM",
+      "telephone": "+1 213 555 2323"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MOTOR123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "MOTOR456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00002345678901"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE LOGISTICS LLC",
+      "address": "5678 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 213 555 2323"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE LOGISTICS LLC",
+      "address": "5678 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 213 555 2323"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "VALUE: USD150,000\nPACKING LIST ATTACHED"
+  }
+}

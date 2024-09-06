@@ -1,97 +1,97 @@
 {
-  "bookingReference": "APPLE20241015133045",
+  "bookingReference": "ORANGE20241015114503",
   "voyageDetails": {
-    "vesselName": "MSC ELARA",
-    "voyageNumber": "2428W",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2435W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "BLOOMFIELD AGRO LTD.",
-      "onBehalfOf": null,
-      "address": "HOOFDDORP, NETHERLANDS",
-      "telephone": "+31 23 555 1212",
-      "fax": "+31 23 555 1313"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "TROPICAL FRUITS PTE LTD",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "companyNumber": "201234567Z"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "FRUIT LOGISTICS SDN BHD",
-      "address": "LEVEL 10, MENARA AIA, KUALA LUMPUR, MALAYSIA"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Europaboulevard 22, 3104 AC Rotterdam, Netherlands"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "080590",
-  "commodityDescription": "FRESH GRAPES",
+  "hsCode": "08029090",
+  "commodityDescription": "GRAPES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "BF-123",
-      "numberOfPackages": 1500,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. GRAPES, GREEN VARIETY, FOR IMMEDIATE SALE.",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GRAPES",
       "grossWeight": 18000.0,
       "measurement": 25.0,
-      "additionalInfo": "TEMPERATURE CONTROL REQUIRED. +2\u00b0C TO +4\u00b0C."
+      "additionalInfo": "Temperature controlled container. Maintain temperature at +5\u00b0C"
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HC) CONTAINER ONLY",
-    "totalPackages": 1500,
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
     "packageType": "CARTONS",
-    "containerType": "40HC",
+    "containerType": "20DR",
     "totalGrossWeight": 18000.0,
     "totalMeasurement": 25.0
   },
   "reeferSettings": {
-    "containerNumber": "TCLU1234567",
-    "temperature": "+3.0\u00baC",
+    "containerNumber": "MSCU9876543",
+    "temperature": "+5.0\u00baC",
     "minTemperature": "+2.0\u00b0C",
-    "maxTemperature": "+4.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
     "ventilation": "Closed",
-    "humidity": "85% - 90%"
+    "humidity": "80% ~ 90%"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE",
-      "CERTIFICATE OF ORIGIN"
+      "PHYTO-12345678",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "BLOOMFIELD AGRO LTD.",
-      "address": "HOOFDDORP, NETHERLANDS",
-      "telephone": "+31 23 555 1212",
-      "fax": "+31 23 555 1313"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "BLOOMFIELD AGRO LTD.",
-      "address": "HOOFDDORP, NETHERLANDS",
-      "telephone": "+31 23 555 1212",
-      "fax": "+31 23 555 1313"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31-10-4445555",
+      "fax": "+31-10-4446666"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS STOWED ON DECK. CONTAINER SEALED AT ORIGIN."
+    "additionalRemarks": "Fragile cargo. Handle with care."
   }
 }

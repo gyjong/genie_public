@@ -1,20 +1,20 @@
 {
-  "bookingReference": "ORANGE20240918131234",
+  "bookingReference": "MANGO20240912103512",
   "voyageDetails": {
-    "vesselName": "CMA CGM RHONE",
-    "voyageNumber": "243012",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,89 +23,83 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI YUANXING TRADING CO., LTD.",
-      "address": "ROOM 1201, NO. 555, YISHAN ROAD, SHANGHAI, 200235",
-      "country": "CHINA",
-      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "email": "info@asiatrading.com"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "WEESP STREET 123, 1311 DD, WEESP",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 294 412345"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1455 OCEAN AVE, SANTA MONICA, CA 90401, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "WEESP STREET 123, 1311 DD, WEESP",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@EUROCHEM.NL",
-      "telephone": "+31 294 412345"
+      "name": "WEST COAST LOGISTICS",
+      "address": "1000 Wilshire Blvd, Los Angeles, CA 90017, USA",
+      "telephone": "+1 213 555 8888",
+      "fax": "+1 213 555 8889"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "29034100",
-  "commodityDescription": "ETHYL ACETATE",
+  "hsCode": "8541401000",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "CMAU8976543",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC234567",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 25.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC234568",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC234569",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
-      "grossWeight": 20100.0,
-      "measurement": 25.0
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60300.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20 O/T X1) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "123456789ICP-1",
-    "hsCode": "29153100",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010333790"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "GLOBAL FREIGHT FORWARDERS",
-      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 2020202"
+      "name": "GLOBAL SHIPPING SERVICES",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 5555",
+      "fax": "+1 212 555 5556"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "WEESP STREET 123, 1311 DD, WEESP",
-      "country": "NETHERLANDS",
-      "telephone": "+31 294 412345",
-      "fax": "+31 294 412346"
+      "name": "GLOBAL SHIPPING SERVICES",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 5555",
+      "fax": "+1 212 555 5556"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "CLEAN ON BOARD. PLEASE DISCHARGE AT CONSIGNEE'S WAREHOUSE."
   }
 }

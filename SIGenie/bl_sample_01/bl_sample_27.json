@@ -1,0 +1,96 @@
+{
+  "bookingReference": "GRAPE20241015132502",
+  "voyageDetails": {
+    "vesselName": "CMA CGM PEARL",
+    "voyageNumber": "2430W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6226 1234",
+      "fax": "+65 6226 5678"
+    },
+    "consignee": {
+      "name": "EUROSTAR IMPORTS BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6226 1234",
+      "fax": "+65 6226 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR ASSEMBLY LINE",
+      "grossWeight": 1250.75,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1250.75,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC20241015001"
+    },
+    "certificateDetails": "20241015-001",
+    "originalBLDistribution": {
+      "name": "EUROSTAR IMPORTS BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6226 1234",
+      "fax": "+65 6226 5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": null
+  }
+}

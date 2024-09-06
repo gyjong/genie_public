@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APRICOT20241015143025",
+  "voyageDetails": {
+    "vesselName": "MSC ELARA",
+    "voyageNumber": "2443E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 201, BUILDING 5, NO. 1588, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6278-9999",
+      "fax": "+86-21-6278-8888"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "POSTFACH 1204, 60006 FRANKFURT, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "COMPUTER HARDWARE",
+  "containers": [
+    {
+      "containerNumber": "GTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE2345",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: COMPUTER HARDWARE",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE. KEEP DRY"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 15.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
+      "address": "ROOM 201, BUILDING 5, NO. 1588, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6278-9999",
+      "fax": "+86-21-6278-8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-79080-0",
+      "fax": "+49-69-79080-100"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance Coverage: USD 500,000"
+  }
+}

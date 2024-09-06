@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241016112504",
+  "bookingReference": "APPLE20241015123456",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2423W",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "224W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE, SINGAPORE",
-    "portOfLoading": "SINGAPORE, SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE, SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,65 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC SHIPPING LTD.",
-      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903"
+      "name": "ASIA PACIFIC TRADERS LTD.",
+      "onBehalfOf": "",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Oosterdokskade 10, 1011 AX Amsterdam, Netherlands",
-      "telephone": "+31 20 620 1234",
-      "fax": "+31 20 620 5678"
+      "name": "EURO IMPORT BV",
+      "address": "KEULENSTRAAT 10, 3012 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC SHIPPING LTD.",
-      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "FIRST LOGISTICS BV",
+      "address": "SPUISTRAAT 12, 3012 AB ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "hsCode": "8703230000",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "GLDU9876543",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "APSL123",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 ELECTRIC MOTORS, MODEL: EM-250, WEIGHT: 20KG EACH",
-      "grossWeight": 1000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "APSL456",
-      "numberOfPackages": 50,
-      "cargoDescription": "50 ELECTRIC MOTORS, MODEL: EM-250, WEIGHT: 20KG EACH",
-      "grossWeight": 1000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "APTL-123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "TWO (2) MOTORCYCLES, BRAND: HONDA CB500F",
+      "grossWeight": 550.0,
+      "measurement": 10.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 2000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 550.0,
+    "totalMeasurement": 10.0
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COC20241016"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Oosterdokskade 10, 1011 AX Amsterdam, Netherlands"
+      "name": "ASIA PACIFIC TRADERS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC SHIPPING LTD.",
-      "address": "10 Anson Road, #28-01, International Plaza, Singapore 079903"
+      "name": "ASIA PACIFIC TRADERS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Motorcycles packed in individual crates."
   }
 }

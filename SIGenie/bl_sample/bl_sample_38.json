@@ -1,99 +1,97 @@
 {
-  "bookingReference": "APPLE202410157742100",
+  "bookingReference": "APPLE20241015123456",
   "voyageDetails": {
-    "vesselName": "CMA CGM VERDI",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZENITH GLOBAL TRADING CO., LTD",
-      "address": "22ND FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, SHANGHAI 200120, CHINA",
-      "telephone": "+86-21-5386-7788",
-      "fax": "+86-21-5386-7799"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "onBehalfOf": null,
+      "address": "123 EAST NANJING ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6329-1234",
+      "fax": "+86-21-6329-5678"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 SUNRISE BOULEVARD, SUITE 200, LOS ANGELES, CA 90064",
-      "telephone": "1-310-555-1212",
-      "fax": "1-310-555-1213",
-      "email": "IMPORT@WESTCOASTLOGISTICS.COM",
-      "contactPerson": "SARAH LEE"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1000 OCEAN AVE, SANTA MONICA, CA 90401, USA",
+      "companyNumber": "123456789"
     },
     "notifyParty": {
-      "name": "ZENITH GLOBAL TRADING CO., LTD",
-      "address": "22ND FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, SHANGHAI 200120, CHINA",
-      "telephone": "+86-21-5386-7788",
-      "fax": "+86-21-5386-7799"
+      "name": "GLOBAL LOGISTICS LLC",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105, USA"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "620462",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU7842316",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ZENITH20241015",
-      "numberOfPackages": 1500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS.",
       "grossWeight": 12500.0,
-      "measurement": 25.6
-    },
-    {
-      "containerNumber": "MSCU3456789",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ZENITH20241015",
-      "numberOfPackages": 1500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
-      "grossWeight": 12600.0,
-      "measurement": 26.0
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 3000,
-    "totalGrossWeight": 25100.0,
-    "totalMeasurement": 51.6
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20241015-001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "1234567890123"
     },
     "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
+      "CN-20241015-001",
+      "CN-20241015-002"
     ],
     "originalBLDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 SUNRISE BOULEVARD, SUITE 200, LOS ANGELES, CA 90064",
-      "telephone": "1-310-555-1212",
-      "fax": "1-310-555-1213"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 EAST NANJING ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6329-1234",
+      "fax": "+86-21-6329-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ZENITH GLOBAL TRADING CO., LTD",
-      "address": "22ND FLOOR, SHANGHAI TOWER, 501 YINCHENG ROAD, SHANGHAI 200120, CHINA",
-      "telephone": "+86-21-5386-7788",
-      "fax": "+86-21-5386-7799"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 EAST NANJING ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6329-1234",
+      "fax": "+86-21-6329-5678"
     },
-    "onboardDate": "OCT. 28. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD 100,000"
   }
 }

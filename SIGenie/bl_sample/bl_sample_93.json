@@ -1,100 +1,100 @@
 {
-  "bookingReference": "APPLE20241012809200",
+  "bookingReference": "APPLE20240918153212",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024048",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
-      "address": "ROOM 1002, NO. 333 XINZHU ROAD, SHANGHAI 200120, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "NO. 123, XINZHU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "PACIFIC COAST LOGISTICS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "+1-562-555-1212",
-      "fax": "+1-562-555-5656",
-      "email": "IMPORT@PCLI.COM",
-      "contactPerson": "JANE SMITH"
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROIMPORTS.DE",
+      "telephone": "+49 69 7908880"
     },
     "notifyParty": {
-      "name": "ABC IMPORTERS LTD",
-      "address": "456 BROADWAY, NEW YORK, NY 10003",
-      "telephone": "+1-212-555-2345",
-      "fax": "+1-212-555-5678",
-      "sameAsConsignee": false
+      "name": "ABC LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@ABCLOGISTICS.DE",
+      "telephone": "+49 40 377880"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "EM123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "10 CRATES CONTAINING ELECTRIC MOTORS (MODEL EM123) AS PER PACKING LIST",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "SUDU4567890",
-      "sealNumber": "654321",
-      "marksAndNumbers": "XYZ789",
-      "numberOfPackages": 150,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS",
-      "grossWeight": 14000.0,
-      "measurement": 28.0
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EM234",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "5 CRATES CONTAINING ELECTRIC MOTORS (MODEL EM234) AS PER PACKING LIST",
+      "grossWeight": 2500.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 250,
-    "totalGrossWeight": 26000.0,
-    "totalMeasurement": 53.5
+    "totalContainers": "TWO (20'DV) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "CRATES",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 25.0
   },
   "additionalInformation": {
-    "invoiceNumber": "1234567-09",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "8541409000",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC0012345"
     },
-    "certificateDetails": [
-      "4112724080177Y",
-      "4112724080178Z"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY CHAMBER OF COMMERCE SHANGHAI",
     "originalBLDistribution": {
-      "name": "ABC BANK",
-      "address": "123 BANK STREET, LOS ANGELES, CA 90012",
-      "telephone": "+1-213-555-1234",
-      "fax": "+1-213-555-5678"
+      "name": "EURO IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7908880"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
-      "address": "ROOM 1002, NO. 333 XINZHU ROAD, SHANGHAI 200120, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "NO. 123, XINZHU ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 55556666",
+      "fax": "+86 21 55557777"
     },
-    "onboardDate": "OCT. 29. 2024"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN SEA WORTHY CONDITION. CARGO DESCRIPTION AND PACKING LIST ARE ATTACHED."
   }
 }

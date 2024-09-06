@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20240912142351",
+  "bookingReference": "APPLE20241015101502",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2431W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DHL GLOBAL FORWARDING (NL) BV",
-      "address": "EINDHOVENSEWEG 12, 5682 LA WESTERLO, NETHERLANDS"
+      "name": "CHINA TRADING CO. LTD.",
+      "address": "238 HUANGPU ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6351-8888",
+      "fax": "+86-21-6351-9999"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "EURO IMPORTS BV",
+      "address": "DE KOEIEN 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5555",
+      "fax": "+31-10-414-6666"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING (SG) PTE LTD",
-      "address": "181 Kallang Way #07-01 Singapore 208757",
-      "telephone": "+65 6887 7777",
-      "fax": "+65 6887 6666"
+      "name": "EURO LOGISTICS BV",
+      "address": "VIJLHOF 15, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-777-8888",
+      "fax": "+31-10-777-9999"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES WITH SIDE CARS, 125CC ENGINE CAPACITY",
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "DHL123",
-      "numberOfPackages": 2,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 2 MOTORCYCLES WITH SIDE CARS, 125CC ENGINE CAPACITY",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "9876543210",
-      "marksAndNumbers": "DHL456",
-      "numberOfPackages": 2,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 2 MOTORCYCLES WITH SIDE CARS, 125CC ENGINE CAPACITY",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU7789654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS AS PER PACKING LIST",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 4,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 2400.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "TCLU7789654",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY CONTAINING DEVICE"
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO1234567890"
-    ],
+    "certificateDetails": "CN1234567890",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING (SG) PTE LTD",
-      "address": "181 Kallang Way #07-01 Singapore 208757"
+      "name": "EURO IMPORTS BV",
+      "address": "DE KOEIEN 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5555",
+      "fax": "+31-10-414-6666"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+      "name": "CHINA TRADING CO. LTD.",
+      "address": "238 HUANGPU ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6351-8888",
+      "fax": "+86-21-6351-9999"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN INDIVIDUAL CRATES. "
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "BATTERY CONTAINING DEVICE, CLASS 9, UN 3264"
   }
 }

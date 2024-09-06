@@ -1,107 +1,96 @@
 {
-  "bookingReference": "PINEAPPLE20240912124523",
+  "bookingReference": "APPLE20241015133022",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2024302",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "20241003",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": "BERLIN, GERMANY"
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON 118, SINGAPORE 068911",
-      "country": "SINGAPORE",
-      "additionalInfo": "(CENTRAL BUSINESS DISTRICT)",
-      "telephone": "+65 6536 7890",
-      "email": "SALES@SUNRISETRADING.COM.SG"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "333 SHENNAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
     },
     "consignee": {
-      "name": "GERMAN AUTOMOTIVE GMBH",
-      "address": "HENRIettenstrasse 54, 20097 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@GERMANAUTOMOTIVE.DE, ORDERS@GERMANAUTOMOTIVE.DE",
-      "telephone": "+49 40 3612 5678"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "companyNumber": "123456789"
     },
     "notifyParty": {
-      "name": "GERMAN AUTOMOTIVE GMBH",
-      "address": "HENRIettenstrasse 54, 20097 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@GERMANAUTOMOTIVE.DE, ORDERS@GERMANAUTOMOTIVE.DE",
-      "telephone": "+49 40 3612 5678"
+      "name": "ABC LOGISTICS",
+      "address": "456 OCEAN AVENUE, LONG BEACH, CA 90802, USA"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "870899",
-  "commodityDescription": "MOTORCYCLE PARTS, INCLUDING ENGINE COMPONENTS, BRAKE SYSTEMS, AND TRANSMISSION PARTS",
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
       "containerNumber": "CMAU1234567",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS, INCLUDING ENGINE COMPONENTS, BRAKE SYSTEMS, AND TRANSMISSION PARTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "CMAU8765432",
       "sealNumber": "9876543210",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS, INCLUDING ENGINE COMPONENTS, BRAKE SYSTEMS, AND TRANSMISSION PARTS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 950.0,
+      "measurement": 15.0,
+      "additionalInfo": "COC: THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. CONTAINER IS 20' DRY."
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 51.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 950.0,
+    "totalMeasurement": 15.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345678"
+      "lcNumber": "12345678901234"
     },
     "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "11 CHANGI SOUTH STREET 1, SINGAPORE 486138",
-      "telephone": "+65 6593 5500"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "address": "333 SHENNAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6326-8888",
+      "fax": "+86-21-6326-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "11 CHANGI SOUTH STREET 1, SINGAPORE 486138",
-      "telephone": "+65 6593 5500"
+      "name": "ABC BANKING CORP.",
+      "address": "111 WALL STREET, NEW YORK, NY 10005, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1313"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD500,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Motorcycles shipped under CIF terms. Insurance details provided separately."
   }
 }

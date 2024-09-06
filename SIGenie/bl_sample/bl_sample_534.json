@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241016143205",
+  "bookingReference": "APPLE20240927103256",
   "voyageDetails": {
-    "vesselName": "EVER GIANT",
-    "voyageNumber": "2024102",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024321",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
@@ -23,86 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": "",
-      "address": "NO. 1888, SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6288-1234",
-      "fax": "+86-21-6288-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65 6222 1111",
+      "email": "info@asiatrade.com"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 23, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "name": "EUROTECH GMBH",
+      "address": "Kurf\u00fcrstendamm 61, 10707 Berlin, Germany",
+      "taxId": "DE123456789",
+      "president": "Ms. ANNA MEIER",
+      "telephone": "+49 30 2222 3333",
+      "fax": "+49 30 2222 3334"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL GMBH",
-      "address": "THE SQUAREL, FRANKFURTER STRASSE 45, 60311 FRANKFURT, GERMANY"
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "telephone": "+49 30 1111 2222",
+      "fax": "+49 30 1111 2223"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "85423110",
+  "commodityDescription": "ELECTRONIC COMPONENTS - SEMICONDUCTORS",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, AND SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
-    },
-    {
-      "containerNumber": "UTLU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, AND SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF MSC."
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - SEMICONDUCTORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "containerType": "20FT",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "0000012345"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 23, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-7980-1234",
-      "fax": "+49-69-7980-5678"
+      "name": "DHL EXPRESS",
+      "address": "DHL Global Forwarding (Germany) GmbH, Stresemannstrasse 19, 60596 Frankfurt am Main",
+      "telephone": "+49 69 5003 0",
+      "fax": "+49 69 5003 2000"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "NO. 1888, SHANGHAI ROAD, SHANGHAI, CHINA",
-      "telephone": "+86-21-6288-1234",
-      "fax": "+86-21-6288-5678"
+      "name": "DHL EXPRESS",
+      "address": "DHL Global Forwarding (Germany) GmbH, Stresemannstrasse 19, 60596 Frankfurt am Main",
+      "telephone": "+49 69 5003 0",
+      "fax": "+49 69 5003 2000"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "SEPT. 30. 2024",
+    "additionalRemarks": "SHIPMENT CONTAINS FRAGILE ELECTRONIC COMPONENTS, HANDLE WITH CARE."
   }
 }

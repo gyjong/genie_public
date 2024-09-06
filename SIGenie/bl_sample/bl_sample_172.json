@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20241015143502",
+  "bookingReference": "APPLE202410051543200",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2434E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
-      "onBehalfOf": null,
-      "address": "238 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
+      "address": "UNIT 1202, NO. 288, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6236-1122",
+      "fax": "+86-21-6236-1133"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 OCEAN AVE, SUITE 200, LONG BEACH, CA 90802",
+      "telephone": "+1-562-555-1212",
+      "fax": "+1-562-555-1213",
+      "email": "IMPORT@WCIMPORT.COM",
+      "contactPerson": "DAVID LEE"
     },
     "notifyParty": {
-      "name": "KUEHNE + NAGEL GMBH",
-      "address": "THE SQUALOR, 123 MAIN STREET, LONDON WC1A 1RT, UK"
+      "sameAsConsignee": false,
+      "name": "GOLDEN STAR LOGISTICS LLC",
+      "address": "5555 ELM STREET, LOS ANGELES, CA 90012",
+      "telephone": "+1-213-555-5656",
+      "fax": "+1-213-555-5657"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "842139",
+  "commodityDescription": "ELECTRIC COFFEE GRINDERS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "GOODS ARE FRAGILE. HANDLE WITH CARE."
+      "containerNumber": "FECU7561238",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "COF-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC COFFEE GRINDERS - MODEL 2024A",
+      "grossWeight": 7500.0,
+      "measurement": 15.6
+    },
+    {
+      "containerNumber": "FECU8765432",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "COF-456",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC COFFEE GRINDERS - MODEL 2024B",
+      "grossWeight": 6000.0,
+      "measurement": 14.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 180,
+    "totalGrossWeight": 13500.0,
+    "totalMeasurement": 29.8
   },
   "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00002345678901"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "4112724080177X",
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
-      "address": "238 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "GOLDEN STAR LOGISTICS LLC",
+      "address": "5555 ELM STREET, LOS ANGELES, CA 90012",
+      "telephone": "+1-213-555-5656",
+      "fax": "+1-213-555-5657"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD",
+      "address": "UNIT 1202, NO. 288, CHANGNING ROAD, SHANGHAI 200051, CHINA",
+      "telephone": "+86-21-6236-1122",
+      "fax": "+86-21-6236-1133"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS ARE FOR INDUSTRIAL USE ONLY"
+    "onboardDate": "OCT. 15. 2024"
   }
 }

@@ -1,98 +1,94 @@
 {
-  "bookingReference": "APPLE20240912134501",
+  "bookingReference": "APPLE202410121032100",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "24204",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "24304S",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "HAMBURG, GERMANY",
-    "portOfLoading": "HAMBURG, GERMANY",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LONG BEACH, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "GERMAN AUTOMOTIVE SOLUTIONS GMBH",
-      "address": "INDUSTRIESTRASSE 12, 20354 HAMBURG, GERMANY"
+      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD",
+      "address": "NO.32, CHANGJIANG ROAD, NANLANG TOWN, ZHONGSHAN, GUANGDONG, CHINA",
+      "telephone": "86-760-23356789",
+      "fax": "86-760-23356788"
     },
     "consignee": {
-      "name": "AMERICAN AUTO PARTS INC.",
-      "address": "155 BROADWAY, NEW YORK, NY 10038, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 Harbor Drive, Long Beach, CA 90802",
+      "telephone": "562-555-1212",
+      "fax": "562-555-1213",
+      "email": "info@westcoastlogistics.com",
+      "contactPerson": "SARAH LEE"
     },
     "notifyParty": {
-      "name": "GERMAN LOGISTICS LTD.",
-      "address": "FRANKFURTER STRASSE 5, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49 69 12345678",
-      "fax": "+49 69 12345679"
+      "name": "GREENWORLD TRADING CO.",
+      "address": "1001 Main Street, Los Angeles, CA 90014",
+      "telephone": "213-555-1111",
+      "fax": "213-555-1112"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "87089990",
-  "commodityDescription": "AUTOMOBILE PARTS - ENGINE BLOCKS",
+  "hsCode": "621220",
+  "commodityDescription": "LADIES' COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "CMAU7895632",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GAS123",
-      "numberOfPackages": 50,
-      "cargoDescription": "ENGINE BLOCKS, MADE IN GERMANY",
-      "grossWeight": 18000.0,
-      "measurement": 40.0
+      "containerNumber": "CMAU9987654",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EW123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 25.618
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "654321",
-      "marksAndNumbers": "OIL789",
-      "numberOfPackages": 50,
-      "cargoDescription": "ENGINE BLOCKS, MADE IN GERMANY",
-      "grossWeight": 18000.0,
-      "measurement": 40.0
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "EW456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 11800.0,
+      "measurement": 24.071
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 80.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40FT CONTAINER",
+    "totalPackages": 2000,
+    "totalGrossWeight": 23800.0,
+    "totalMeasurement": 49.689
   },
   "additionalInformation": {
+    "invoiceNumber": "EW20241012-001",
+    "documentNumber": "20241012-002",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "Cert123456",
-      "Cert789012"
+      "C-1234567890"
     ],
     "originalBLDistribution": {
-      "name": "AMERICAN AUTO PARTS INC.",
-      "address": "155 BROADWAY, NEW YORK, NY 10038, USA"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 Harbor Drive, Long Beach, CA 90802"
     },
     "originalInvoiceDistribution": {
-      "name": "GERMAN AUTOMOTIVE SOLUTIONS GMBH",
-      "address": "INDUSTRIESTRASSE 12, 20354 HAMBURG, GERMANY"
+      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD",
+      "address": "NO.32, CHANGJIANG ROAD, NANLANG TOWN, ZHONGSHAN, GUANGDONG, CHINA"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

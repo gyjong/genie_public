@@ -1,98 +1,105 @@
 {
-  "bookingReference": "APPLE202410121145100",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2445E",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2431E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHANGJIagang FENGHUA IMPORT & EXPORT CO., LTD.",
-      "address": "23F, BUILDING A, NO. 1188, SHENZHONG ROAD, JIANGSU PROVINCE, CHINA",
-      "telephone": "+86-512-56881112",
-      "fax": "+86-512-56881113"
+      "name": "DEUTSCHE METALL GMBH",
+      "address": "SCHILLERSTRASSE 12, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 374823",
+      "email": "INFO@DEUTSCHEMETALL.DE"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 PACIFIC AVENUE, LONG BEACH, CA 90802",
-      "telephone": "+1-562-555-1212",
-      "fax": "+1-562-555-1213",
-      "email": "INFO@WESTCOASTLOGISTICS.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345G",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "1010 MARKET STREET, SAN FRANCISCO, CA 94103",
-      "telephone": "+1-415-555-3434",
-      "fax": "+1-415-555-3435"
+      "name": "DEUTSCHE BANK AG",
+      "address": "RAFFLES PLACE, SINGAPORE 048620",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112"
     }
   },
-  "shippingTerm": "CFR LOS ANGELES",
-  "hsCode": "611030",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CFR",
+  "hsCode": "7202111000",
+  "commodityDescription": "STEEL BILLETS",
   "containers": [
     {
-      "containerNumber": "CMLU3391547",
+      "containerNumber": "SEGU4578632",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZJF123",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
-      "grossWeight": 12000.0,
-      "measurement": 25.618
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL SAID TO CONTAIN: 1000 BUNDLES OF STEEL BILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMLU9876543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ZJF456",
+      "containerNumber": "SEGU7894563",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
-      "grossWeight": 11800.0,
-      "measurement": 24.571
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, SEAL SAID TO CONTAIN: 1000 BUNDLES OF STEEL BILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalContainers": "TWO (20 DRY) CONTAINERS",
     "totalPackages": 2000,
-    "totalGrossWeight": 23800.0,
-    "totalMeasurement": 50.189
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "20241012-001",
-    "documentNumber": "20241012-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0012345"
     },
-    "certificateDetails": [
-      "COO-CN-20241012-001"
-    ],
+    "certificateDetails": "COC 123456789",
     "originalBLDistribution": {
-      "name": "ZHANGJIagang FENGHUA IMPORT & EXPORT CO., LTD.",
-      "address": "23F, BUILDING A, NO. 1188, SHENZHONG ROAD, JIANGSU PROVINCE, CHINA",
-      "telephone": "+86-512-56881112",
-      "fax": "+86-512-56881113"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 1112"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "1010 MARKET STREET, SAN FRANCISCO, CA 94103",
-      "telephone": "+1-415-555-3434",
-      "fax": "+1-415-555-3435"
+      "name": "ASIA PACIFIC METALS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241018123456",
+  "bookingReference": "APPLE20241026143011",
   "voyageDetails": {
-    "vesselName": "CMA CGM TIBERIUS",
-    "voyageNumber": "2436W",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2447E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,88 +23,86 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact Person: Mr. John Doe)"
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "onBehalfOf": "",
+      "address": "238 NANJING ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "consignee": {
-      "name": "EURO CHEM GMBH",
-      "address": "Hauptstrasse 12, 60325 Frankfurt am Main, Germany",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 69 79876543"
+      "name": "EUROTRADE BV",
+      "address": "250 BEZUIDENHOUTSEWEG, 2595 AL THE HAGUE, NETHERLANDS",
+      "companyNumber": "3456789012"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS GMBH",
-      "address": "Hanauer Landstrasse 123, 60314 Frankfurt am Main, Germany",
-      "country": "GERMANY",
-      "email": "info@abclogistics.de",
-      "telephone": "+49 69 12345678"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WATERLOOPLEIN 201, 1011 NZ AMSTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "CIF",
+  "hsCode": "854231",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "SEGU7896543",
+      "containerNumber": "CGHU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC-123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
-      "grossWeight": 200000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ET1234",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile goods, handle with care"
     },
     {
-      "containerNumber": "SEGU1112223",
+      "containerNumber": "CGHU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "DEF-456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
-      "grossWeight": 200000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "SEGU7778889",
-      "sealNumber": "987654",
-      "marksAndNumbers": "GHI-789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 DRUMS OF ETHYLENE GLYCOL (EG) NET WEIGHT 200 KGS EACH DRUM. TOTAL GROSS WEIGHT 200,000 KGS.",
-      "grossWeight": 200000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ET5678",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile goods, handle with care"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 600000.0,
-    "totalMeasurement": 90.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000202040101"
     },
-    "certificateDetails": "COC-1234567890",
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Airport Road, Frankfurt, Germany",
-      "telephone": "+49 69 12345678"
+      "name": "EUROTRADE BV",
+      "address": "250 BEZUIDENHOUTSEWEG, 2595 AL THE HAGUE, NETHERLANDS",
+      "telephone": "+31-70-361-5555",
+      "fax": "+31-70-361-6666"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
-      "telephone": "+65 65123456",
-      "fax": "+65 65123457"
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "address": "238 NANJING ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "FREIGHT PAYABLE AT DESTINATION"
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "Insurance: USD 100,000.00"
   }
 }

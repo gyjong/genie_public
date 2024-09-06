@@ -1,96 +1,110 @@
 {
-  "bookingReference": "APPLE20241015142502",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "COSCO YONG SHAN",
-    "voyageNumber": "2408W",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2438W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SHANGHAI, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "NO. 123 HENGJIANG ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-1234",
-      "fax": "+86-21-6329-5678"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
     },
     "consignee": {
-      "name": "SUNSET IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1313"
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 332, 3012 KN ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 201 2000"
     },
     "notifyParty": {
-      "name": "FIRST BANK OF AMERICA",
-      "address": "101 BROADWAY, NEW YORK, NY 10005, USA",
-      "telephone": "+1-212-555-2323",
-      "fax": "+1-212-555-2424"
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 332, 3012 KN ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 201 2000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8703.23",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "2 MOTORCYCLES, MODEL: XR250, ENGINE NO.: 1234567890 & 9876543210",
-      "grossWeight": 450.5,
-      "measurement": 6.0
+      "marksAndNumbers": "EC-123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT (200 DRUMS X 100KG)",
+      "grossWeight": 20250.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "EC-456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT (200 DRUMS X 100KG)",
+      "grossWeight": 20250.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "EC-789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT (200 DRUMS X 100KG)",
+      "grossWeight": 20250.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "totalGrossWeight": 450.5,
-    "totalMeasurement": 6.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "CMAU1234567",
-    "unClass": "9",
-    "unCode": "3077",
-    "hsCode": "8703.23",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY CONTAINING LITHIUM IONS"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60750.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "salesOrderNumber": "SO987654321",
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "20231015001",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "NO. 123 HENGJIANG ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-1234",
-      "fax": "+86-21-6329-5678"
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "12 Marina Boulevard, #38-01 Marina Bay Financial Centre Tower 3, SINGAPORE 018982",
+      "telephone": "+65 6533 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNSET IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1313"
+      "name": "EUROCHEM BV",
+      "address": "Westblaak 332, 3012 KN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 2000",
+      "fax": "+31 10 201 2001"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "D/G, Class: 9, UN No: 3077"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nGOODS SHIPPED IN GOOD ORDER AND CONDITION"
   }
 }

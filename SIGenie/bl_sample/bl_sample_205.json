@@ -1,95 +1,97 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "STARFISH20241026143011",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "224EWL",
-    "bound": "E"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2445W",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "FLOWER POWER LTD",
-      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 123 4567",
-      "email": "info@flowerpower.nl"
+      "name": "ZHEJIANG HONGYI IMPORTS & EXPORTS CO., LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 318, WENZHOU ROAD, YONGJIANG DISTRICT, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "ASIA GREEN IMPORTERS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "taxId": "201212345Z",
-      "president": "Mr. Lee Wei",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "SCHLOSSPLATZ 1, 40215 D\u00dcSSELDORF, GERMANY",
+      "companyNumber": "HRB 23456"
     },
     "notifyParty": {
-      "name": "FLOWER POWER LTD",
-      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 123 4567",
-      "email": "info@flowerpower.nl"
+      "name": "DPD GROUP",
+      "address": "DE RUN 3333, 5611 CH EINDHOVEN, NETHERLANDS"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "0602100000",
-  "commodityDescription": "TULIPS, FRESH",
+  "hsCode": "610910",
+  "commodityDescription": "T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "UTLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "FP20241001",
-      "numberOfPackages": 1000,
-      "packageType": "BUNCHES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH TULIPS",
-      "grossWeight": 12000.0,
-      "measurement": 15.0
+      "marksAndNumbers": "HONGYI-2310",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: T-SHIRTS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "BUNCHES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 12000.0,
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 6000.0,
     "totalMeasurement": 15.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC20241001123"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 20241001001",
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "1001 Marina Boulevard #16-01, Marina Bay Financial Centre Tower 3, Singapore 018983",
-      "telephone": "+65 6399 2200",
-      "fax": "+65 6399 2299"
+      "name": "ZHEJIANG HONGYI IMPORTS & EXPORTS CO., LTD.",
+      "address": "NO. 318, WENZHOU ROAD, YONGJIANG DISTRICT, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "FLOWER POWER LTD",
-      "address": "123 BLOOM STREET, AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 123 4567",
-      "email": "info@flowerpower.nl"
+      "name": "HONGYI INTERNATIONAL TRADING LTD.",
+      "address": "222 REGENT STREET, LONDON W1B 3HH, UNITED KINGDOM",
+      "telephone": "+44-20-7535-1234",
+      "fax": "+44-20-7535-5678"
     },
-    "onboardDate": "OCT. 15. 2024",
-    "additionalRemarks": "None"
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "Value: USD 10,000.00"
   }
 }

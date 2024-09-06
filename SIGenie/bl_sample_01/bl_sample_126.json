@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20240912101522",
+  "voyageDetails": {
+    "vesselName": "MSC SILVIA",
+    "voyageNumber": "24039",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 1,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "UNIT 301, NO. 1588, XINGHUANG ROAD, SHANGHAI, 200333, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)",
+      "telephone": "+86 21 6666 1234",
+      "email": "sales@shanghaiglobal.com"
+    },
+    "consignee": {
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "HANDELSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEMASCHINEN.DE",
+      "telephone": "+49 40 555 1234"
+    },
+    "notifyParty": {
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "HANDELSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEMASCHINEN.DE",
+      "telephone": "+49 40 555 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "842710",
+  "commodityDescription": "HYDRAULIC PRESSES WITH AUTOMATIC FEED SYSTEMS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DGM1234",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HYDRAULIC PRESSES WITH AUTOMATIC FEED SYSTEMS (W.2400MM H.2000MM)",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FR) CONTAINER ONLY",
+    "totalPackages": 10,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "BERLINER STRASSE 12, 20357 HAMBURG, GERMANY",
+      "telephone": "+49 40 5555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "BERLINER STRASSE 12, 20357 HAMBURG, GERMANY",
+      "telephone": "+49 40 5555 1234"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

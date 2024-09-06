@@ -1,15 +1,15 @@
 {
-  "bookingReference": "MANGO20241025134521",
+  "bookingReference": "APPLE20241015143201",
   "voyageDetails": {
-    "vesselName": "COSCO YANTIAN",
-    "voyageNumber": "2024362",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2440E",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -23,75 +23,81 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "NINGBO SHUANGYUAN IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 201, BUILDING 1, NO. 388 SHANGCHENG STREET, YINZHOU DISTRICT, NINGBO, ZHEJIANG, CHINA",
-      "telephone": "+86 574 8665 2345",
-      "email": "SALES@SHUANGYUAN.COM.CN"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6221-5555",
+      "fax": "+65-6221-6666"
     },
     "consignee": {
-      "name": "EUROTECH TRADING BV",
-      "address": "DIJKSTRASTRAAT 12, 3062 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL819732513B01",
-      "president": "MR. JAN VAN DER VELDE",
-      "telephone": "+31 10 462 8500",
-      "fax": "+31 10 462 8599"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "Westerstraat 123, 3011 AB Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS BV",
-      "address": "DIJKSTRASTRAAT 12, 3062 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL819732513B02",
-      "president": "MR. PETER DEKKER",
-      "telephone": "+31 10 462 8501",
-      "fax": "+31 10 462 8598"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Nieuwe Haven 150, 3011 GJ Rotterdam, Netherlands"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "73269090",
-  "commodityDescription": "IRON AND STEEL BARS",
+  "shippingTerm": "CFR",
+  "hsCode": "070990",
+  "commodityDescription": "FRESH ONIONS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM IRON AND STEEL BARS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
+      "containerNumber": "APMU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. FRESH ONIONS IN 50 KG BAGS.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "APMU8765432",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "DEF-456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. FRESH ONIONS IN 50 KG BAGS.",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BUNDLES",
-    "containerType": "40 O/TX1",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "01234567890123"
+      "lcNumber": "LC00012345678"
     },
-    "certificateDetails": "CN20241026001",
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WEGALLEIS 3, 20354 HAMBURG, GERMANY",
-      "telephone": "+49 40 3038 0000",
-      "fax": "+49 40 3038 0099"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6221-5555",
+      "fax": "+65-6221-6666"
     },
     "originalInvoiceDistribution": {
-      "name": "NINGBO SHUANGYUAN IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 201, BUILDING 1, NO. 388 SHANGCHENG STREET, YINZHOU DISTRICT, NINGBO, ZHEJIANG, CHINA",
-      "telephone": "+86 574 8665 2345",
-      "email": "SALES@SHUANGYUAN.COM.CN"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "Westerstraat 123, 3011 AB Rotterdam, Netherlands"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "CLEAN ON BOARD. PLEASE DISCHARGE AT ROTTERDAM PORT."
+    "onboardDate": "OCT. 22. 2024",
+    "additionalRemarks": "Onions packed in breathable bags, suitable for long-distance transportation."
   }
 }

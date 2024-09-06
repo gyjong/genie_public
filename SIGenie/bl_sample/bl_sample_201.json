@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241015134522",
+  "bookingReference": "APPLE20240912132512",
   "voyageDetails": {
-    "vesselName": "EVERGREEN SKY",
-    "voyageNumber": "2024101",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,68 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI ZHENHUA IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1002, NO.1333, SHENZHONG ROAD, SHANGHAI 200070, CHINA",
-      "telephone": "+86-21-5876-1234",
-      "fax": "+86-21-5876-5678"
+      "name": "EUROFLOWERS BV",
+      "address": "SCHUYTSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "email": "INFO@EUROFLOWERS.NL"
     },
     "consignee": {
-      "name": "EUROTRADING BV",
-      "address": "WEGELAAN 10, 3062 GB ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "BLOOM SINGAPORE PTE LTD",
+      "address": "123 ORCHARD ROAD, #05-12 ORCHARD CENTRAL, SINGAPORE 238888",
+      "taxId": "200102891D",
+      "president": "MRS. LIN MEI",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KLOVENIERSLAAN 35, 1381 AC WEESP, NETHERLANDS"
+      "name": "EUROFLOWERS BV",
+      "address": "SCHUYTSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456",
+      "email": "INFO@EUROFLOWERS.NL"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854140",
-  "commodityDescription": "TELEPHONE RECEIVERS",
+  "shippingTerm": "CFR",
+  "hsCode": "0603110000",
+  "commodityDescription": "CUT FLOWERS - ROSES",
   "containers": [
     {
-      "containerNumber": "GNLU9998765",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZH-2345",
+      "marksAndNumbers": "EUROFLOWERS SHIPMENT",
       "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELEPHONE RECEIVERS",
-      "grossWeight": 6500.0,
-      "measurement": 18.0,
-      "additionalInfo": "CARGO IS SUBJECT TO INSPECTION."
+      "packageType": "BOXES",
+      "cargoDescription": "FRESH CUT ROSES, VARIETIES AS PER PACKING LIST, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
     "totalPackages": 500,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 6500.0,
-    "totalMeasurement": 18.0
+    "packageType": "BOXES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC23456789012"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": [
-      "CN23456789012",
-      "CN23456789013"
-    ],
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NUMBER: SG20240912001",
     "originalBLDistribution": {
-      "name": "SHANGHAI ZHENHUA IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1002, NO.1333, SHENZHONG ROAD, SHANGHAI 200070, CHINA",
-      "telephone": "+86-21-5876-1234",
-      "fax": "+86-21-5876-5678"
+      "name": "DHL EXPRESS",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118518",
+      "telephone": "+65 6234 9999",
+      "fax": "+65 6234 9998"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADING BV",
-      "address": "WEGELAAN 10, 3062 GB ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-477-8888",
-      "fax": "+31-10-477-9999"
+      "name": "DHL EXPRESS",
+      "address": "123 ALEXANDRA ROAD, SINGAPORE 118518",
+      "telephone": "+65 6234 9999",
+      "fax": "+65 6234 9998"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Telephone Receivers, Value: USD10,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO STOWED IN A REFRIGERATED CONTAINER AT 2 DEGREES CELSIUS"
   }
 }

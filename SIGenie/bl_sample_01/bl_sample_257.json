@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015113501",
+  "voyageDetails": {
+    "vesselName": "MSC BEATRICE",
+    "voyageNumber": "2443S",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "onBehalfOf": null,
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
+    },
+    "consignee": {
+      "name": "EURO imporT BV",
+      "address": "Stationsweg 100, 3013 AL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS",
+      "address": "Prinsestraat 12, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR ASSEMBLY LINE",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO123456"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-5678",
+      "fax": "+65-6221-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO imporT BV",
+      "address": "Stationsweg 100, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD 25,000"
+  }
+}

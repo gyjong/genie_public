@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240915103522",
+  "bookingReference": "APPLE20241026143215",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "20241005",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,77 +23,67 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI YINGZHI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1701, NO. 1588, HUANGPU ROAD, SHANGHAI, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(PUDONG DISTRICT)"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": "",
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT AM MAIN",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROCHEM.DE",
-      "telephone": "+49 69 756580"
+      "name": "CALIFORNIA WHOLESALE DISTRIBUTORS INC.",
+      "address": "5678 SUNSET BOULEVARD, LOS ANGELES, CA 90028, USA",
+      "companyNumber": "1234567"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT AM MAIN",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROCHEM.DE",
-      "telephone": "+49 69 756580"
+      "name": "ABC LOGISTICS INC.",
+      "address": "4321 WILLOW STREET, LOS ANGELES, CA 90001, USA"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "shippingTerm": "CFR",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE IN 200 DRUMS (200 LITERS EACH)",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE IN 200 DRUMS (200 LITERS EACH)",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 1200.0,
+      "measurement": 20.0,
+      "additionalInfo": "COC PROVIDED. CONTAINER IS CLEAN AND IN GOOD CONDITION."
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 400,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 50000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 20.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "EC20240915",
-    "hsCode": "29153100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "C-1234567890"
+    ],
     "originalBLDistribution": {
-      "name": "HSBC BANK PLC",
-      "address": "123 BROAD STREET, LONDON EC2M 1NS",
-      "telephone": "+44 20 7321 8000"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "1234 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT AM MAIN",
-      "telephone": "+49 69 756580"
+      "name": "ABC BANK",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nETHYL ACETATE FOR INDUSTRIAL USE ONLY"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "MOTORCYCLES IN CRATES. VALUE: USD20,000"
   }
 }

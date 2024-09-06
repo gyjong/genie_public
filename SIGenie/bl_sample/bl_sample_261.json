@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241015142511",
+  "bookingReference": "APPLE20240912124512",
   "voyageDetails": {
-    "vesselName": "CMA CGM RHONE",
-    "voyageNumber": "2435W",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2422W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,73 +23,84 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1003, BUILDING A, NO.1588 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-8600",
-      "fax": "+86-21-6329-8601"
+      "name": "ZHEJIANG SHENGE IMPORT AND EXPORT CO., LTD.",
+      "address": "NO. 288, JIAOJIANG ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, 322200, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 322200)",
+      "telephone": "+86 579 8666 8888",
+      "email": "SALES@SHENGE-GROUP.COM"
     },
     "consignee": {
-      "name": "EUROFRESH BV",
-      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS",
-      "companyNumber": "52714967"
+      "name": "EUROTECH GMBH",
+      "address": "SCHLOSSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 69 759 8765"
     },
     "notifyParty": {
-      "name": "EUROFRESH LOGISTICS",
-      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "SCHLOSSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 69 759 8765"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "080290",
-  "commodityDescription": "GRAPES",
+  "shippingTerm": "CFR",
+  "hsCode": "848330",
+  "commodityDescription": "MACHINERY FOR PRINTING TEXT AND IMAGES ON TEXTILES",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EUROFRESH GRAPE MARK",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. GRAPES. ",
-      "grossWeight": 22000.0,
-      "measurement": 30.0,
-      "additionalInfo": "TEMPERATURE CONTROLLED"
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ETG-0123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE PRINTING MACHINE PARTS",
+      "grossWeight": 7500.0,
+      "measurement": 15.2
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ETG-0456",
+      "numberOfPackages": 3,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE PRINTING MACHINE ACCESSORIES",
+      "grossWeight": 4500.0,
+      "measurement": 10.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "containerType": "40HQ",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 8,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 26.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC2024101512345"
+      "lcNumber": "00002020334237"
     },
     "certificateDetails": [
-      "PHYTO-20241015-001",
-      "COO-20241015-002"
+      "411252403578X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1003, BUILDING A, NO.1588 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-8600",
-      "fax": "+86-21-6329-8601"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH BV",
-      "address": "WESTPOLDER 131, 3181 XD ROTTERDAM, NETHERLANDS"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GRAPES SHIPPED AT 10 DEGREES CELSIUS"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD50,000"
   }
 }

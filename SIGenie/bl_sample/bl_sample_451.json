@@ -1,99 +1,107 @@
 {
-  "bookingReference": "GRAPE20241018123456",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC VERONICA",
-    "voyageNumber": "24273",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024041",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE TRADING CO. LTD.",
-      "address": "100 Anson Road, #22-01, International Plaza, Singapore 079900",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact Person: Mr. John Lee)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #10-01, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "email": "info@asiapacifictrading.com"
     },
     "consignee": {
-      "name": "GERMAN IMPORTS GMBH",
-      "address": "Friedrichstrasse 60, 10117 Berlin, Germany",
-      "country": "GERMANY",
-      "email": "info@germanimports.de",
-      "telephone": "+49 30 2000 1234"
+      "name": "EURO METALS LTD",
+      "address": "Havenstraat 12, 3011 AA Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter Van Dijk",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS GMBH",
-      "address": "Handelsstrasse 10, 20097 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "operations@ab clogistics.de",
-      "telephone": "+49 40 5555 6789"
+      "name": "EURO METALS LTD",
+      "address": "Havenstraat 12, 3011 AA Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Pieter Van Dijk",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "38249990",
-  "commodityDescription": "SYNTHETIC RUBBER GRANTS",
+  "shippingTerm": "CFR",
+  "hsCode": "7202111000",
+  "commodityDescription": "STEEL PLATES",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SYNTHETIC RUBBER GRANTS - 20MT IN BAGS",
-      "grossWeight": 20000.0,
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM STEEL PLATES",
+      "grossWeight": 25000.0,
       "measurement": 30.0
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: SYNTHETIC RUBBER GRANTS - 20MT IN BAGS",
-      "grossWeight": 20000.0,
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM STEEL PLATES",
+      "grossWeight": 25000.0,
       "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 2000,
-    "packageType": "BAGS",
-    "totalGrossWeight": 40000.0,
+    "totalContainers": "TWO (20 O/T X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX2",
+    "totalGrossWeight": 50000.0,
     "totalMeasurement": 60.0
   },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567890",
-    "hsCode": "38249990",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "01234567890"
     },
-    "certificateDetails": "CERT1234567890",
+    "certificateDetails": "123456789012",
     "originalBLDistribution": {
-      "name": "ABC SHIPPING LTD.",
-      "address": "123 Harbour Road, Singapore 123456",
-      "telephone": "+65 6789 0123"
+      "name": "DHL EXPRESS",
+      "address": "1001 Airport Road, Singapore 819143",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "originalInvoiceDistribution": {
-      "name": "XYZ TRADING CO.",
-      "address": "123 Main Street, Frankfurt, Germany 60325",
-      "telephone": "+49 69 1234 5678"
+      "name": "DHL EXPRESS",
+      "address": "1001 Airport Road, Singapore 819143",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nSHIPPER'S SEAL"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

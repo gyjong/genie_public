@@ -1,95 +1,107 @@
 {
-  "bookingReference": "APPLE20240912102305",
+  "bookingReference": "APPLE20240912112345",
   "voyageDetails": {
-    "vesselName": "MSC PARIS",
-    "voyageNumber": "2431ES",
-    "bound": "E"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2435S",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING BV",
-      "address": "WEENA 261, 3012CN ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 203 4567",
-      "email": "INFO@GLOBALTRADING.NL"
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "NO. 123, SHENYANG ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUTUO DISTRICT)",
+      "telephone": "+86 21 6666 7890",
+      "email": "INFO@SGT.COM.CN"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "taxId": "199801234J",
-      "president": "MR. LIM CHONG WEI",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 7567890"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS LTD",
-      "address": "201 Henderson Road #05-01 Singapore 159545",
-      "telephone": "+65 6272 1234",
-      "fax": "+65 6272 1235"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE",
+      "telephone": "+49 69 7567890"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84213910",
-  "commodityDescription": "ELECTRIC KITCHEN OVENS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84798990",
+  "commodityDescription": "DIGITAL PRINTING PRESSES WITH ACCESSORIES AND SPARE PARTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE ELECTRIC KITCHEN OVENS",
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ETP-202310",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) DIGITAL PRINTING PRESS WITH ACCESSORIES AND SPARE PARTS",
       "grossWeight": 12000.0,
       "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8901234",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ETP-202311",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS AND ACCESSORIES FOR DIGITAL PRINTING PRESS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 40.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC000123456"
+      "lcNumber": "LC1234567890123"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": [
+      "CN20241012345",
+      "CN20241012346"
+    ],
     "originalBLDistribution": {
-      "name": "SINGAPORE BANKING CORPORATION LTD",
-      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
-      "telephone": "+65 6318 9888",
-      "fax": "+65 6318 9899"
+      "name": "HSBC BANK PLC",
+      "address": "FRANKFURTER PLATZ 1, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 9555 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING BV",
-      "address": "WEENA 261, 3012CN ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 203 4567",
-      "email": "INFO@GLOBALTRADING.NL"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 7567890"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: EUR 500,000\nTO BE DELIVERED TO FRANKFURT WAREHOUSE"
   }
 }

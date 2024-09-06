@@ -1,72 +1,70 @@
 {
-  "bookingReference": "APPLE20240922143021",
+  "bookingReference": "APPLE20240918143512",
   "voyageDetails": {
-    "vesselName": "MSC EVA 894",
-    "voyageNumber": "2024105",
-    "bound": "E"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2425E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SHANGHAI, CHINA",
-    "placeOfDelivery": "SHANGHAI, CHINA",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SHANGHAI, CHINA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "EURO STEEL LTD",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 123 4567",
-      "email": "info@euro-steel.nl"
+      "name": "DELTA TRADING BV",
+      "address": "SINGEL 235, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "email": "info@deltatrading.nl"
     },
     "consignee": {
-      "name": "ASIA METAL WORKS CO.,LTD",
-      "address": "245 HUANGPU ROAD, SHANGHAI, CHINA",
-      "taxId": "91330100765109788X",
-      "president": "MR. WANG LIJUN",
-      "telephone": "+86 21 5678 9012",
-      "fax": "+86 21 5678 9013"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 Anson Road, #15-01 Anson Centre, SINGAPORE 079903",
+      "taxId": "199801234Z",
+      "president": "MR. CHEN LIANG",
+      "telephone": "+65 6221 8900",
+      "fax": "+65 6221 8901"
     },
     "notifyParty": {
-      "name": "ASIA METAL WORKS CO.,LTD",
-      "address": "245 HUANGPU ROAD, SHANGHAI, CHINA",
-      "taxId": "91330100765109788X",
-      "president": "MR. WANG LIJUN",
-      "telephone": "+86 21 5678 9012",
-      "fax": "+86 21 5678 9013"
+      "name": "DELTA TRADING BV",
+      "address": "SINGEL 235, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "email": "info@deltatrading.nl"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "72072000",
-  "commodityDescription": "STEEL PLATES",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERAS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "GESU1234567",
       "sealNumber": "123456",
       "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SHANGHAI, CHINA STEEL PLATES",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE DIGITAL CAMERAS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 200,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
@@ -76,22 +74,22 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0300301045678"
+      "lcNumber": "LC202410012345"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS CO., LTD",
-      "address": "101 YONGJIN BUILDING, SEOUL, SOUTH KOREA",
-      "telephone": "+82 2 345 6789",
-      "fax": "+82 2 345 6788"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 Kallang Avenue, #06-00, Singapore 208716",
+      "telephone": "+65 6323 9111",
+      "fax": "+65 6323 9112"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS CO., LTD",
-      "address": "101 YONGJIN BUILDING, SEOUL, SOUTH KOREA",
-      "telephone": "+82 2 345 6789",
-      "fax": "+82 2 345 6788"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 Kallang Avenue, #06-00, Singapore 208716",
+      "telephone": "+65 6323 9111",
+      "fax": "+65 6323 9112"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NO SPECIAL REMARKS"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

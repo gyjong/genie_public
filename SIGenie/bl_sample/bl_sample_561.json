@@ -1,96 +1,110 @@
 {
-  "bookingReference": "APPLE20240912132547",
+  "bookingReference": "ORANGE20240918153245",
   "voyageDetails": {
-    "vesselName": "COSCO YOKOHAMA",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "24042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable ",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING SOLUTIONS PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101, Anson Road, #28-01 International Plaza, Singapore 079900",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Ms. Lee)"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "1200 S Figueroa St, Los Angeles, CA 90015, USA",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "EUROCHEM BV",
+      "address": "Europaplein 10, 3070 KB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 5678"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADING SOLUTIONS PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903"
+      "name": "EUROCHEM BV",
+      "address": "Europaplein 10, 3070 KB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 5678"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87116000",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "38249090",
+  "commodityDescription": "SYNTHETIC RUBBER",
   "containers": [
     {
-      "containerNumber": "MSCU3567890",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GTL-2024-09-12",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 MOTORCYCLES - MODEL X-1000",
-      "grossWeight": 5000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU7652341",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EC1234",
+      "numberOfPackages": 500,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SYNTHETIC RUBBER ( SBR )  20MT, 25KG ROLLS PALLETIZED",
+      "grossWeight": 20250.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GTL-2024-09-12",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 MOTORCYCLES - MODEL X-1000",
-      "grossWeight": 5000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "EC5678",
+      "numberOfPackages": 300,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SYNTHETIC RUBBER ( NBR )  20MT, 25KG ROLLS PALLETIZED",
+      "grossWeight": 20150.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "EC9012",
+      "numberOfPackages": 400,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SYNTHETIC RUBBER ( EPDM )  20MT, 25KG ROLLS PALLETIZED",
+      "grossWeight": 20200.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (40FT HC) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "packageType": "PACKAGES",
-    "containerType": "40FT HC",
-    "totalGrossWeight": 10000.0,
-    "totalMeasurement": 60.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1200,
+    "packageType": "ROLLS",
+    "totalGrossWeight": 60600.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "38249090",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC2024091212345"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": [
-      "CO-123456789",
-      " fumigation certificate - 20240912"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "1200 S Figueroa St, Los Angeles, CA 90015, USA"
+      "name": "EUROCHEM BV",
+      "address": "Europaplein 10, 3070 KB Rotterdam, Netherlands",
+      "telephone": "+31 10 412 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING SOLUTIONS PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101, Anson Road, #28-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6226 5555",
+      "fax": "+65 6226 5556"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " SHIPMENT IN GOOD ORDER AND CONDITION."
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
   }
 }

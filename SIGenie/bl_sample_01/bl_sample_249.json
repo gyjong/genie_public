@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. Tan)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Kattenburgerstraat 5, 1018 NA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 20 624 3300"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA",
+      "address": "Gustav Mahlerlaan 3000, 1081 LR Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "tradeoperations@bofa.com",
+      "telephone": "+31 20 576 7000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "21436587",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "14 DAYS FREE TIME",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "2023-10-26-CERT-001",
+    "originalBLDistribution": {
+      "name": "BANK OF AMERICA",
+      "address": "Gustav Mahlerlaan 3000, 1081 LR Amsterdam, Netherlands",
+      "telephone": "+31 20 576 7000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6220 1234",
+      "fax": "+65 6220 4321"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "SHIPMENT SUBJECT TO LETTER OF CREDIT TERMS AND CONDITIONS"
+  }
+}

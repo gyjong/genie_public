@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APRICOT20241015143025",
+  "bookingReference": "APPLE20240912102542",
   "voyageDetails": {
-    "vesselName": "MSC ELARA",
-    "voyageNumber": "2443E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 201, BUILDING 5, NO. 1588, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6278-9999",
-      "fax": "+86-21-6278-8888"
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "123 BEIJING ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "name": "AMERICAN EXPRESS LOGISTICS INC.",
+      "address": "1500 BROADWAY, NEW YORK, NY, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "POSTFACH 1204, 60006 FRANKFURT, GERMANY"
+      "name": "WORLDWIDE IMPORTS LLC",
+      "address": "500 FIFTH AVENUE, CHICAGO, IL, USA",
+      "telephone": "+1 312 555 2323",
+      "fax": "+1 312 555 2324"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "COMPUTER HARDWARE",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
   "containers": [
     {
-      "containerNumber": "GTLU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE2345",
+      "marksAndNumbers": "CGL-123",
       "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: COMPUTER HARDWARE",
-      "grossWeight": 7500.0,
-      "measurement": 15.0,
-      "additionalInfo": "FRAGILE. KEEP DRY"
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL A123",
+      "grossWeight": 1500.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CGL-456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL B456",
+      "grossWeight": 1500.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 40.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033739"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "1000020070133X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
-      "address": "ROOM 201, BUILDING 5, NO. 1588, SHANGHAI ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6278-9999",
-      "fax": "+86-21-6278-8888"
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "123 BEIJING ROAD, SHANGHAI, CHINA"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT, GERMANY",
-      "telephone": "+49-69-79080-0",
-      "fax": "+49-69-79080-100"
+      "name": "AMERICAN EXPRESS LOGISTICS INC.",
+      "address": "1500 BROADWAY, NEW YORK, NY, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance Coverage: USD 500,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO STOWED ON DECK"
   }
 }

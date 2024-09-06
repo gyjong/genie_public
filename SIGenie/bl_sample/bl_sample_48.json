@@ -1,110 +1,104 @@
 {
-  "bookingReference": "APPLE20240920114512",
+  "bookingReference": "APPLE20240912121542",
   "voyageDetails": {
-    "vesselName": "COSCO SHIPPING LEO",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024302",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI JINYU TRADING CO., LTD.",
-      "address": "ROOM 1001, NO. 188, SHANGHAI ROAD, SHANGHAI, 200020",
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 568, HUAYUAN ROAD, JIANGNING DISTRICT, NINGBO, 315012",
       "country": "CHINA",
-      "additionalInfo": "(JING'AN DISTRICT)"
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "INFO@CIECO.COM.CN"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKELSTRAAT 25, 3070 VORselaar",
-      "country": "BELGIUM",
-      "email": "INFO@EUROCHEM.BE",
-      "telephone": "+32 14 69 50 50"
+      "name": "WEST COAST TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "country": "USA",
+      "email": "SALES@WESTCOASTTRADING.COM",
+      "telephone": "+1 213 555 1212"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKELSTRAAT 25, 3070 VORselaar",
-      "country": "BELGIUM",
-      "email": "INFO@EUROCHEM.BE",
-      "telephone": "+32 14 69 50 50"
+      "name": "JOHN SMITH",
+      "address": "456 OCEAN AVE, SANTA MONICA, CA 90402",
+      "country": "USA",
+      "email": "JOHNSMITH@GMAIL.COM",
+      "telephone": "+1 310 555 2323"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRICAL SWITCHING APPARATUS",
   "containers": [
     {
-      "containerNumber": "MSCU3568721",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "123-ABC",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "CIEC-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL SWITCHING APPARATUS (MADE IN CHINA)",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ABC-123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU8901234",
-      "sealNumber": "456789",
-      "marksAndNumbers": "XYZ-123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200 DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 25.0
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CIEC-456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL SWITCHING APPARATUS (MADE IN CHINA)",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "290331",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010333790"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 MAIN STREET, LONDON, UK",
-      "telephone": "+44 20 7000 0000"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, LOS ANGELES, CA 90001",
+      "telephone": "+1 800 225 5345"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 MAIN STREET, LONDON, UK",
-      "telephone": "+44 20 7000 0000",
-      "fax": "+44 20 7000 0001"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, LOS ANGELES, CA 90001",
+      "telephone": "+1 800 225 5345"
     },
-    "onboardDate": "SEPT. 22. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nALL FREIGHT PREPAID\nSHIPPER'S DECLARATION\n"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS PACKED IN 200 BOXES. PLEASE CONTACT CONSIGNEE FOR DELIVERY ARRANGEMENTS"
   }
 }

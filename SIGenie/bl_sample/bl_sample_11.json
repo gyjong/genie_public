@@ -1,98 +1,96 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20241017133002",
   "voyageDetails": {
-    "vesselName": "COSCO  YANGTZE",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2432W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA SHIPPING GROUP CO., LTD.",
-      "address": "215 SHANGHAI ROAD, SHANGHAI, CHINA"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65-6536-1234",
+      "fax": "+65-6536-5678"
     },
     "consignee": {
-      "name": "EUROLOGISTICS BV",
-      "address": "BEVERWIJKSTRAAT 23, 3011 AC ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 413 5555",
-      "fax": "+31 10 413 5556"
+      "name": "EUROSTAR IMPORT & EXPORT BV",
+      "address": "BEETHOVENSTRAAT 12, 3015 PA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
     },
     "notifyParty": {
-      "name": "ABC IMPORTERS",
-      "address": "123 MAIN STREET, LONDON, UK",
-      "telephone": "+44 20 7123 4567",
-      "fax": "+44 20 7123 4568"
+      "name": "EUROSTAR LOGISTICS",
+      "address": "WEGELAAN 56, 3016 CK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-9012"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
       "containerNumber": "CMAU9876543",
-      "sealNumber": "1234567",
+      "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "MACHINERY PARTS FOR WIND TURBINES AS PER PACKING LIST",
-      "grossWeight": 18000.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 12,
-      "cargoDescription": "MACHINERY PARTS FOR WIND TURBINES AS PER PACKING LIST",
-      "grossWeight": 20000.0,
-      "measurement": 38.0
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
-    "totalPackages": 22,
-    "packageType": "PACKAGES",
-    "containerType": "20GP",
-    "totalGrossWeight": 38000.0,
-    "totalMeasurement": 73.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO1234567",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "BEVERWIJKSTRAAT 23, 3011 AC ROTTERDAM, NETHERLANDS"
+      "name": "EUROSTAR IMPORT & EXPORT BV",
+      "address": "BEETHOVENSTRAAT 12, 3015 PA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "BEVERWIJKSTRAAT 23, 3011 AC ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65-6536-1234",
+      "fax": "+65-6536-5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER"
   }
 }

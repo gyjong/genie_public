@@ -1,107 +1,107 @@
 {
-  "bookingReference": "APPLE20240912101542",
+  "bookingReference": "APPLE20240915141234",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2438E",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2423N",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
-      "address": "NO. 158, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200336",
+      "name": "SHANGHAI XINGYUAN IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 502, NO. 888, SHANGHAI ROAD, SHANGHAI, 200001",
       "country": "CHINA",
-      "additionalInfo": "(SHANGHAI FREE TRADE ZONE)",
-      "telephone": "+86 21 6235 7890",
-      "email": "INFO@SGT-TRADING.COM"
+      "additionalInfo": "(ZHENPING DISTRICT)",
+      "telephone": "+86 21 5333 8888",
+      "email": "EXPORT@SHANGHAIXINGYUAN.COM"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN",
+      "name": "HANSA LOGISTICS GMBH",
+      "address": "WALTER-GABLER-STRASSE 4, 20354 HAMBURG",
       "country": "GERMANY",
-      "email": "SALES@EUROTECH.DE",
-      "telephone": "+49 69 777777"
+      "email": "INFO@HANSA-LOGISTICS.DE",
+      "telephone": "+49 40 30987654"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT AM MAIN",
+      "name": "ABC IMPORT GMBH",
+      "address": "REINHARDTSTRASSE 5, 20457 HAMBURG",
       "country": "GERMANY",
-      "email": "SALES@EUROTECH.DE",
-      "telephone": "+49 69 777777"
+      "email": "IMPORT@ABC-IMPORT.DE, ORDER@ABC-IMPORT.DE",
+      "telephone": "+49 40 37891234"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "848330",
-  "commodityDescription": "MANUFACTURED ALUMINUM WHEEL HUBS FOR AUTOMOBILES",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "FCLU1234567",
+      "containerNumber": "SUDU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET-12345",
-      "numberOfPackages": 50,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ALUMINUM WHEEL HUBS FOR AUTOMOBILES (50 BOXES)",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE SPARE PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 15.5
     },
     {
-      "containerNumber": "FCLU7890123",
+      "containerNumber": "SUDU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "ET-67890",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ALUMINUM WHEEL HUBS FOR AUTOMOBILES (50 BOXES)",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE SPARE PARTS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 51.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 27500.0,
+    "totalMeasurement": 35.5
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overWidth": null,
-    "overHeight": null
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CN2345678901234",
-      "CN123456789012"
+      "COO4567890123",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "FRANKFURTER TOR 1, 60323 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 79387938"
+      "name": "ABC IMPORT GMBH",
+      "address": "REINHARDTSTRASSE 5, 20457 HAMBURG",
+      "telephone": "+49 40 37891234"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "FRANKFURTER TOR 1, 60323 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 79387938"
+      "name": "ABC IMPORT GMBH",
+      "address": "REINHARDTSTRASSE 5, 20457 HAMBURG",
+      "telephone": "+49 40 37891234"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD150,000"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Value: EUR 50,000. "
   }
 }

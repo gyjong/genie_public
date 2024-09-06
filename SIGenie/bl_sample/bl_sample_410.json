@@ -1,100 +1,95 @@
 {
-  "bookingReference": "APPLE202410121051300",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC REBECCA",
-    "voyageNumber": "2437E",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024040",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA EXPORT TRADING CO.",
-      "address": "258 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-63289876",
-      "fax": "+86-21-63289877"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6737 8899",
+      "email": "sales@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "EUROLOGISTICS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-66778899",
-      "fax": "+49-69-66778800",
-      "email": "INFO@EUROLOGISTICS.DE",
-      "contactPerson": "ANNA MEYER"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "PIETER MAASSTRAAT 12, 3011 DT ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855312345B01",
+      "president": "MR. JAN VAN DER LINDEN",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ABC IMPORTS GMBH",
-      "address": "SCHLOSSSTRASSE 10, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-55556677",
-      "fax": "+49-69-55556688"
+      "name": "EUROTECH LOGISTICS",
+      "address": "PIETER MAASSTRAAT 12, 3011 DT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7892",
+      "fax": "+31 10 456 7893"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "90328100",
-  "commodityDescription": "OPTICAL INSTRUMENTS AND DEVICES",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
   "containers": [
     {
-      "containerNumber": "CMAU9987654",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LASER RANGEFINDERS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 40,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL MICROSCOPES",
-      "grossWeight": 9500.0,
-      "measurement": 22.5
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AS STATED, 100 CARTONS OF DIGITAL CAMERA LENSES",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 90,
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "CE20241012-001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": [
-      "COO-20241012-001",
-      " fumigation-20241012-001"
-    ],
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "ABC BANK, FRANKFURT",
-      "address": "G\u00d6THEPLATZ 1, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-55556699",
-      "fax": "+49-69-55556600"
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 SHENTON WAY, SINGAPORE 068883",
+      "telephone": "+65 6222 5566",
+      "fax": "+65 6222 5577"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROLOGISTICS GMBH",
-      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-66778899",
-      "fax": "+49-69-66778800"
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "101 SHENTON WAY, SINGAPORE 068883",
+      "telephone": "+65 6222 5566",
+      "fax": "+65 6222 5577"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": ""
   }
 }

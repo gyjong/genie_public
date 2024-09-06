@@ -1,110 +1,99 @@
 {
-  "bookingReference": "APPLE20241018123456",
+  "bookingReference": "APPLE202410171234567",
   "voyageDetails": {
-    "vesselName": "MSC VIOLET",
-    "voyageNumber": "2245SW",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 188, GUANGMING ROAD, ZHONGSHAN, GUANGDONG, 528403, CHINA",
-      "country": "CHINA",
-      "additionalInfo": ""
+      "name": "EUROFRESH BV",
+      "address": "WESTERSTRAAT 50, 3011 BG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 477 8500",
+      "fax": "+31 10 477 8599"
     },
     "consignee": {
-      "name": "EUROTECH TRADING BV",
-      "address": "WEGELAAN 22, 3131 AA  HILLEGOM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTECHTRADING.NL",
-      "telephone": "+31 23 537 1234"
+      "name": "ASIA PACIFIC FRUITS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 1234",
+      "fax": "+65 6227 5678",
+      "email": "info@asiapacificfruits.com",
+      "contactPerson": "MR. TAN AH HOO"
     },
     "notifyParty": {
-      "name": "EUROTECH TRADING BV",
-      "address": "WEGELAAN 22, 3131 AA  HILLEGOM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTECHTRADING.NL",
-      "telephone": "+31 23 537 1234"
+      "sameAsConsignee": false,
+      "name": "SEA FREIGHT LOGISTICS",
+      "address": "1 Marina Boulevard, #38-01 Marina Bay Financial Centre Tower 1, Singapore 018989",
+      "telephone": "+65 6536 8888",
+      "fax": "+65 6536 9999"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS - USB FLASH DRIVES",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "080910",
+  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS",
   "containers": [
     {
-      "containerNumber": "TCLU9786543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ET-FD2024",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "APF20241017",
       "numberOfPackages": 1000,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - USB FLASH DRIVES, 128GB, 2.0 VERSION",
-      "grossWeight": 2500.0,
-      "measurement": 10.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FRESH APPLES - GOLDEN DELICIOUS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "TCLU8976543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ET-FD2024",
+      "containerNumber": "TCLU8901234",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "APF20241017",
       "numberOfPackages": 1000,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - USB FLASH DRIVES, 64GB, 3.0 VERSION",
-      "grossWeight": 2500.0,
-      "measurement": 10.0
-    },
-    {
-      "containerNumber": "TCLU7654321",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ET-FD2024",
-      "numberOfPackages": 1000,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - USB FLASH DRIVES, 32GB, 2.0 VERSION",
-      "grossWeight": 2500.0,
-      "measurement": 10.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FRESH APPLES - GOLDEN DELICIOUS",
+      "grossWeight": 21500.0,
+      "measurement": 28.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "BOXES",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "2 X 40' DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 58.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241018-001",
-    "hsCode": "85444210",
-    "freeTimeAtDestination": "7 DAYS",
+    "invoiceNumber": "1234567890",
+    "documentNumber": "20241017001",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "",
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH TRADING BV",
-      "address": "WEGELAAN 22, 3131 AA  HILLEGOM, NETHERLANDS",
-      "telephone": "+31 23 537 1234"
+      "name": "EUROFRESH BV",
+      "address": "WESTERSTRAAT 50, 3011 BG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 477 8500",
+      "fax": "+31 10 477 8599"
     },
     "originalInvoiceDistribution": {
-      "name": "ZHONGSHAN EVERBRIGHT IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 188, GUANGMING ROAD, ZHONGSHAN, GUANGDONG, 528403, CHINA",
-      "telephone": "+86 757 8398 7654",
-      "fax": "+86 757 8398 7653"
+      "name": "ASIA PACIFIC FRUITS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 1234",
+      "fax": "+65 6227 5678"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

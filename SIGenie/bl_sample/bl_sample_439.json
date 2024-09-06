@@ -1,19 +1,19 @@
 {
-  "bookingReference": "GRAPE20240915103245",
+  "bookingReference": "GRAPE20240912134521",
   "voyageDetails": {
-    "vesselName": "MSC ANKARA",
-    "voyageNumber": "2428W",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2443W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,88 +23,83 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA EAST INTERNATIONAL CO. LTD.",
-      "address": "NO. 188, HUANGPU ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(NINGBO BRANCH)"
+      "name": "ZHEJIANG SHENGDA IMPORT & EXPORT CO., LTD",
+      "address": "NO.388, XINGFU ROAD, YIWU, CHINA",
+      "telephone": "+86 579 8888 6666",
+      "email": "sales@shengda.com"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "WATERLOOSTRAAT 123, 3012 AM ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTECH.NL",
-      "telephone": "+31 10 477 55 00"
+      "name": "VAN DER LEE IMPORT BV",
+      "address": "SINGEL 235, 1012 AB AMSTERDAM, NETHERLANDS",
+      "taxId": "NL852931748B01",
+      "president": "MR. JAN VAN DER LEE",
+      "telephone": "+31 20 624 3578",
+      "fax": "+31 20 624 3579"
     },
     "notifyParty": {
-      "name": "BANK OF CHINA NINGBO BRANCH",
-      "address": "NO. 288, TIANYI ROAD, NINGBO, 315000",
-      "country": "CHINA",
-      "email": "NINGBOBRANCH@BANKOFCHINA.COM",
-      "telephone": "+86 574 8777 2222"
+      "name": "ZHEJIANG SHENGDA IMPORT & EXPORT CO., LTD",
+      "address": "NO.388, XINGFU ROAD, YIWU, CHINA",
+      "telephone": "+86 579 8888 6666",
+      "fax": "+86 579 8888 6667"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MEDICAL INSTRUMENT PARTS",
+  "hsCode": "8541401000",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET12345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT.MEDICAL INSTRUMENT PARTS. 50 BOXES, 1000 KG NET WEIGHT. ",
-      "grossWeight": 1050.0,
-      "measurement": 10.0
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "MSCU1111111",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ET67890",
-      "numberOfPackages": 30,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT.MEDICAL INSTRUMENT PARTS. 30 BOXES, 600 KG NET WEIGHT. ",
-      "grossWeight": 630.0,
-      "measurement": 8.0
-    },
-    {
-      "containerNumber": "COSU2222222",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ET34567",
-      "numberOfPackages": 20,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT.MEDICAL INSTRUMENT PARTS. 20 BOXES, 400 KG NET WEIGHT. ",
-      "grossWeight": 420.0,
-      "measurement": 6.0
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalContainers": "TWO (20 O/T X1) CONTAINER ONLY",
     "totalPackages": 100,
-    "packageType": "BOXES",
-    "totalGrossWeight": 2100.0,
-    "totalMeasurement": 24.0
+    "packageType": "CARTONS",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "902110",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20240915001",
+    "certificateDetails": "CN20240912001",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "ROTTERDAM AIRPORT, 3047 AM ROTTERDAM",
-      "telephone": "+31 10 477 55 00"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 3578",
+      "fax": "+31 20 624 3579"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "WATERLOOSTRAAT 123, 3012 AM ROTTERDAM",
-      "telephone": "+31 10 477 55 00",
-      "fax": "+31 10 477 55 01"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 3578",
+      "fax": "+31 20 624 3579"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "GOODS SHIPPED AS PER ORDER #123456"
   }
 }

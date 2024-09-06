@@ -1,0 +1,108 @@
+{
+  "bookingReference": "BLUEBERRY20241026153412",
+  "voyageDetails": {
+    "vesselName": "STAR AQUARIUS",
+    "voyageNumber": "202410A",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YIXIN IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "HONGKONG TRADING CO.",
+      "address": "ROOM 1001, NO. 888, SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6338-1234",
+      "fax": "+86-21-6338-5678"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS LLC",
+      "address": "555 SOUTH FLOWER STREET, LOS ANGELES, CA 90071, USA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "ELECTRIC MOTOR",
+  "containers": [
+    {
+      "containerNumber": "CAIU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MOTOR-123",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "Fragile Cargo. Handle with Care"
+    },
+    {
+      "containerNumber": "CGLU1111111",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "MOTOR-456",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": "Fragile Cargo. Handle with Care"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241026-123",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "HONGKONG TRADING CO.",
+      "address": "123 DES VOEUX ROAD, CENTRAL, HONG KONG",
+      "telephone": "+852-2523-8888",
+      "fax": "+852-2523-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI YIXIN IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 888, SHANGHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6338-1234",
+      "fax": "+86-21-6338-5678"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Insurance Policy: Policy No. 1234567890"
+  }
+}

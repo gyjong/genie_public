@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241015143012",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024102",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "SUNRISE GLOBAL LTD",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-4567"
+    },
+    "consignee": {
+      "name": "EURO IMPORT BV",
+      "address": "BEURSSTRAAT 101, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "102 WESTGATE STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "847130",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "CONTAINING SENSITIVE ELECTRONIC EQUIPMENT. HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "SEGU1111222",
+      "sealNumber": "333222",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 8000.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS",
+    "totalPackages": 80,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 35.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL LTD",
+      "address": "1234 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-8901"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Cargo Value: USD150,000. Insurance Policy Number: 1234567890"
+  }
+}

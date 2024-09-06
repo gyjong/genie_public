@@ -1,95 +1,86 @@
 {
-  "bookingReference": "APPLE20240912102345",
+  "bookingReference": "APPLE20241015113002",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "224E",
-    "bound": "E"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024051",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFLOWER BV",
-      "address": "ZUIDERHAVEN 123, 3163 NL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "INFO@EUROFLOWER.NL"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 58 HUANSHENG ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "telephone": "+86-579-8661-5555",
+      "fax": "+86-579-8661-6666"
     },
     "consignee": {
-      "name": "SINGAPORE FLOWER MARKET PTE LTD",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "taxId": "200212345678",
-      "president": "MR. LIM CHENG",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0124"
+      "name": "GOLDEN GATE IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1313"
     },
     "notifyParty": {
-      "name": "SINGAPORE FLOWER IMPORTERS ASSOCIATION",
-      "address": "101 TANGLIN ROAD, SINGAPORE 248160",
-      "telephone": "+65 6876 5432",
-      "fax": "+65 6876 5433"
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 58 HUANSHENG ROAD, YONGKANG, ZHEJIANG, CHINA",
+      "telephone": "+86-579-8661-5555",
+      "fax": "+86-579-8661-6666"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "0602100000",
-  "commodityDescription": "FRESH CUT ROSES",
+  "shippingTerm": "CIF",
+  "hsCode": "6204.62",
+  "commodityDescription": "LADIES' DRESSES",
   "containers": [
     {
-      "containerNumber": "FCLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROFLOWER SHIPMENT",
-      "numberOfPackages": 1000,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH CUT ROSES, VARIETY: RED WONDER",
-      "grossWeight": 18000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' DRESSES, AS PER ORDER NO. GG123456789",
+      "grossWeight": 8500.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "BOXES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 20.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "GG123456789",
+    "salesOrderNumber": "SR20241015001",
     "lcDetails": {
-      "lcNumber": "LC20240912102345"
+      "lcNumber": "LC20241015ABC123"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 1234567890",
-    "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "123 TAMASIA STREET, SINGAPORE 638093",
-      "telephone": "+65 6222 2222",
-      "fax": "+65 6222 2223"
-    },
-    "originalInvoiceDistribution": {
-      "name": "EUROFLOWER BV",
-      "address": "ZUIDERHAVEN 123, 3163 NL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "INFO@EUROFLOWER.NL"
-    },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED, 5-10 DEGREES CELSIUS"
+    "certificateDetails": null,
+    "originalBLDistribution": null,
+    "originalInvoiceDistribution": null,
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT OF LADIES' DRESSES"
   }
 }

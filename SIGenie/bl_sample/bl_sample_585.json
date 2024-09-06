@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912103045",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL LOGISTICS LTD.",
+      "address": "20F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87112000",
+  "commodityDescription": "MOTORCYCLES, 125CC ENGINE CAPACITY",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "MOTORCYCLES, PACKED IN INDIVIDUAL CRATES. MODEL: RX125.",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 5,
+      "cargoDescription": "MOTORCYCLES, PACKED IN INDIVIDUAL CRATES. MODEL: RX125.",
+      "grossWeight": 2500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20FT",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO202409121"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA GLOBAL LOGISTICS LTD.",
+      "address": "20F, SHANGHAI TOWER, 501 YIN CHENG ROAD, SHANGHAI, CHINA"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT CONTAINS 10 MOTORCYCLES, PACKED IN INDIVIDUAL CRATES. ALL UNITS ARE NEW AND FACTORY SEALED."
+  }
+}

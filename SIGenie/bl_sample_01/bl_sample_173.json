@@ -1,0 +1,95 @@
+{
+  "bookingReference": "APPLE20240912121547",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSIA",
+    "voyageNumber": "2430E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
+      "address": "123 Anson Road, #05-01, Singapore 079905"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Industriestra\u00dfe 10, 60314 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 12345679"
+    },
+    "notifyParty": {
+      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
+      "address": "123 Anson Road, #05-01, Singapore 079905"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85423900",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - MODEMS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5512345",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SG1234",
+      "numberOfPackages": 100,
+      "cargoDescription": "MODEMS - BRAND X - MODEL Y",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU8876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SG5678",
+      "numberOfPackages": 100,
+      "cargoDescription": "MODEMS - BRAND X - MODEL Y",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "Industriestra\u00dfe 10, 60314 Frankfurt am Main, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
+      "address": "123 Anson Road, #05-01, Singapore 079905"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
+  }
+}

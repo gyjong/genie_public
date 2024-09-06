@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241016115532",
+  "voyageDetails": {
+    "vesselName": "MSC CHLOE",
+    "voyageNumber": "222409",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DAVE IMPORT & EXPORT LTD.",
+      "onBehalfOf": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, LONDON EC1A 1ZX, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "124 ORCHARD ROAD, SINGAPORE 238865",
+      "companyNumber": "200312345K"
+    },
+    "notifyParty": {
+      "name": "FIRST LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01, International Plaza, SINGAPORE 079903"
+    }
+  },
+  "shippingTerm": "CFR SINGAPORE",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU3214567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 8500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile Cargo, Handle with Care"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00012345678"
+    },
+    "certificateDetails": [
+      "SG-COI-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DAVE IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, LONDON EC1A 1ZX, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 MAIN STREET, LONDON EC1A 1ZX, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Insurance Policy: ABC123456"
+  }
+}

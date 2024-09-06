@@ -1,97 +1,110 @@
 {
-  "bookingReference": "APPLE20240912102537",
+  "bookingReference": "APPLE20240917143211",
   "voyageDetails": {
-    "vesselName": "MAERSK ALBUFEIRA",
-    "voyageNumber": "22431W",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL IMPORT EXPORT CO. LTD.",
-      "address": "288 HONGQI ROAD, JIANGNING DISTRICT, NINGBO, CHINA"
+      "name": "SINGAPORE TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #20-01, International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. John Lee)"
     },
     "consignee": {
-      "name": "EUROTRADING BV",
-      "address": "SINGEL 452-454, 1012 WP AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 624 5678",
-      "fax": "+31 20 624 5679"
+      "name": "EUROCHEM GMBH",
+      "address": "Industriestra\u00dfe 10, 65428 R\u00fcsselsheim, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurochem.de",
+      "telephone": "+49 6142 123456"
     },
     "notifyParty": {
-      "name": "EUROTRADING BV",
-      "address": "SINGEL 452-454, 1012 WP AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 624 5678",
-      "fax": "+31 20 624 5679"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "Handelsstra\u00dfe 5, 60329 Frankfurt, GERMANY",
+      "country": "GERMANY",
+      "email": "info@abclogistics.de",
+      "telephone": "+49 69 98765432"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES, 250CC ENGINE DISPLACEMENT",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
   "containers": [
     {
-      "containerNumber": "TCLU4752318",
+      "containerNumber": "MSCU3876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "GIX2024",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, 250CC ENGINE DISPLACEMENT, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 2500.0,
-      "measurement": 35.0
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "654321",
-      "marksAndNumbers": "GIX2024",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, 250CC ENGINE DISPLACEMENT, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 2500.0,
-      "measurement": 35.0
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EG789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200KG DRUMS",
+      "grossWeight": 20500.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (40'HC) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "CRATES",
-    "containerType": "40'HC",
-    "totalGrossWeight": 5000.0,
-    "totalMeasurement": 70.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 90.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00023456789"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": [],
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
     "originalBLDistribution": {
-      "name": "EUROTRADING BV",
-      "address": "SINGEL 452-454, 1012 WP AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 624 5678",
-      "fax": "+31 20 624 5679"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6226 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL IMPORT EXPORT CO. LTD.",
-      "address": "288 HONGQI ROAD, JIANGNING DISTRICT, NINGBO, CHINA"
+      "name": "EUROCHEM GMBH",
+      "address": "Industriestra\u00dfe 10, 65428 R\u00fcsselsheim, GERMANY",
+      "telephone": "+49 6142 123456",
+      "fax": "+49 6142 987654"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CARGO PACKED AND SECURED AS PER INDUSTRY STANDARDS."
+    "onboardDate": "SEPT. 19. 2024",
+    "additionalRemarks": "SHIPMENT IS SUBJECT TO INSPECTION BY BUYER AT DESTINATION"
   }
 }

@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APPLE20241016134521",
+  "bookingReference": "APPLE20240918125734",
   "voyageDetails": {
-    "vesselName": "MSC AMARA",
-    "voyageNumber": "2435E",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2436E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTERBL",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "KAMPSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1008, NO. 188 NANJING ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)"
     },
     "consignee": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "150 BROADWAY, NEW YORK, NY 10038, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "EUROTRADING GMBH",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTRADING.DE",
+      "telephone": "+49 40 306050"
     },
     "notifyParty": {
-      "name": "BLUE SKY IMPORTERS LLC",
-      "address": "555 MICHIGAN AVE, CHICAGO, IL 60601, USA",
-      "telephone": "+1 312 555 9876",
-      "fax": "+1 312 555 9877"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "FRANKFURTER STRASSE 10, 60311 FRANKFURT, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 69 799880"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
+  "hsCode": "390730",
+  "commodityDescription": "POLYETHYLENE TEREPHTHALATE (PET) RESIN",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "TCLU7643529",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: X200)",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "UTLU7890123",
-      "sealNumber": "456789",
+      "containerNumber": "TCLU3175842",
+      "sealNumber": "789012",
       "marksAndNumbers": "DEF456",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: X200)",
-      "grossWeight": 1200.0,
-      "measurement": 25.0
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: POLYETHYLENE TEREPHTHALATE (PET) RESIN, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 4,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 2400.0,
-    "totalMeasurement": 50.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "123456ABC-1",
+    "hsCode": "39073000",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "000023456789"
     },
-    "certificateDetails": [
-      "CERTIFICATE OF ORIGIN"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "KAMPSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 799880"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "150 BROADWAY, NEW YORK, NY 10038, USA"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 799880"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION."
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
   }
 }

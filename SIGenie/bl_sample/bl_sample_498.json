@@ -1,96 +1,95 @@
 {
-  "bookingReference": "APPLE20241015134523",
+  "bookingReference": "ORANGE20240912121502",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024091",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "CHICAGO, USA"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "123 HUA SHAN ROAD, SHANGHAI 200031, CHINA",
-      "telephone": "+86-21-6352-1234",
-      "fax": "+86-21-6352-5678"
+      "name": "ZHEJIANG YONGXING IMPORT & EXPORT CO., LTD",
+      "address": "NO. 258, HUAYANG ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "sales@yongxingimport.com"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "4567 OCEAN AVE, LOS ANGELES, CA 90022, USA",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-6767"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
+      "taxId": "9876543210",
+      "president": "MS. JANE SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "SUNRISE LOGISTICS LTD.",
-      "address": "890 JIANGSU ROAD, SHANGHAI 200011, CHINA",
-      "telephone": "+86-21-3333-4567",
-      "fax": "+86-21-3333-8901"
+      "name": "ABC INTERNATIONAL TRADING",
+      "address": "5678 SUNSET BLVD, LOS ANGELES, CA 90068, USA",
+      "telephone": "+1 323 555 9876",
+      "fax": "+1 323 555 9877"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "8541408000",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "GELO1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "SUNRISE 123",
-      "numberOfPackages": 50,
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRIC MOTORS",
       "grossWeight": 12500.0,
-      "measurement": 25.0
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
-    "totalPackages": 50,
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 20,
     "packageType": "CARTONS",
+    "containerType": "20 O/TX1",
     "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalMeasurement": 30.0
   },
-  "dangerousGoods": {
-    "containerNumber": "GELO1234567",
-    "unClass": "9",
-    "unCode": "3334",
-    "hsCode": "8544.42",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY PACKAGING AND HANDLING REQUIREMENTS MET"
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "CN20241015001",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "4567 OCEAN AVE, LOS ANGELES, CA 90022, USA",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-6767"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 800 225 5345",
+      "fax": "+1 800 225 5346"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "123 HUA SHAN ROAD, SHANGHAI 200031, CHINA",
-      "telephone": "+86-21-6352-1234",
-      "fax": "+86-21-6352-5678"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 800 225 5345",
+      "fax": "+1 800 225 5346"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "BATTERY SHIPMENT - PROPER HANDLING REQUIRED"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

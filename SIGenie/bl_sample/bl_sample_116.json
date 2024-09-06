@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20240918124532",
+  "bookingReference": "APPLE20241015143215",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2432E",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024435",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Central Business District)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Westerlaan 10, 3016 CK Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 412 3456"
+      "name": "EURO IMPORTS BV",
+      "address": "NIEUWELAAN 123, 3011 GJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "Westerlaan 10, 3016 CK Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "logistics@eurochem.nl",
-      "telephone": "+31 10 412 3456"
+      "name": "EURO IMPORTS BV",
+      "address": "NIEUWELAAN 123, 3011 GJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF",
+  "hsCode": "8543.70",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "SUDU7859632",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC-123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (99.9% PURE) NET WEIGHT 20,000 KG",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU6789012",
-      "sealNumber": "678901",
-      "marksAndNumbers": "EC-456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (99.9% PURE) NET WEIGHT 20,000 KG",
-      "grossWeight": 20500.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 400,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 41000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567-EG",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
+    "purchaseOrderNumber": "987654321",
+    "salesOrderNumber": "123456789",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "00002010339243"
     },
-    "certificateDetails": "PHYTO-20240918",
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "Marina Bay Financial Centre Tower 3, 12 Marina Boulevard, Singapore 018982",
-      "telephone": "+65 6878 8888"
+      "name": "EURO IMPORTS BV",
+      "address": "NIEUWELAAN 123, 3011 GJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "SEPT. 19. 2024",
-    "additionalRemarks": "SHIPS AND RECEIVES AT SHIPPERS RISK.  \nALL FREIGHT PREPAID EXCEPT FOR DESTINATION CHARGES"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

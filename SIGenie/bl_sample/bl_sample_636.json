@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912121245",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024321",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #25-01, International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Business Park Central)",
+      "telephone": "+65 6222 1234",
+      "email": "info@asiapacifictrading.com"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Main Street, Suite 200, Los Angeles, CA 90015, USA",
+      "country": "UNITED STATES",
+      "email": "orders@westcoastimports.com",
+      "telephone": "+1 213 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "5678 Sunset Boulevard, Los Angeles, CA 90028, USA",
+      "country": "UNITED STATES",
+      "email": "operations@globallogisticsltd.com",
+      "telephone": "+1 310 555 2323"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES OF ELECTRIC MOTORS (MODEL EM-200)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "50 BOXES OF ELECTRIC MOTORS (MODEL EM-200)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20240912-1234"
+    ],
+    "originalBLDistribution": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Main Street, Suite 200, Los Angeles, CA 90015, USA",
+      "telephone": "+1 213 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #25-01, International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6222 1234"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD & COUNT"
+  }
+}

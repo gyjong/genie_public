@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202409121147300",
+  "voyageDetails": {
+    "vesselName": "MSC IRINA",
+    "voyageNumber": "2435E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI INTERNATIONAL TRADING CO. LTD",
+      "address": "23rd Floor, Shanghai Tower, 501 Pudong Avenue, Shanghai, 200120, China",
+      "telephone": "+86 21 6888 9999",
+      "fax": "+86 21 6888 8888"
+    },
+    "consignee": {
+      "name": "PACIFIC COAST LOGISTICS LLC",
+      "address": "123 Harbor Drive, Suite 200, Long Beach, CA 90802, USA",
+      "telephone": "+1 562 555 1212",
+      "fax": "+1 562 555 1313",
+      "email": "info@pacificcoastlogistics.com",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 Main Street, Los Angeles, CA 90015, USA",
+      "telephone": "+1 213 555 5656",
+      "fax": "+1 213 555 5757"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "621220",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BOX 1-100",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS (SIZE S-XL)",
+      "grossWeight": 2500.0,
+      "measurement": 5.6
+    },
+    {
+      "containerNumber": "UTLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "BOX 101-200",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS (SIZE S-XL)",
+      "grossWeight": 2450.0,
+      "measurement": 5.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 4950.0,
+    "totalMeasurement": 11.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20240912-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080179X",
+      "4112724080180X"
+    ],
+    "originalBLDistribution": {
+      "name": "PACIFIC COAST LOGISTICS LLC",
+      "address": "123 Harbor Drive, Suite 200, Long Beach, CA 90802, USA",
+      "telephone": "+1 562 555 1212",
+      "fax": "+1 562 555 1313"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 Main Street, Los Angeles, CA 90015, USA",
+      "telephone": "+1 213 555 5656",
+      "fax": "+1 213 555 5757"
+    },
+    "onboardDate": "SEPT. 28. 2024"
+  }
+}

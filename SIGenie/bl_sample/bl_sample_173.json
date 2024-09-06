@@ -1,95 +1,96 @@
 {
-  "bookingReference": "APPLE20240912121547",
+  "bookingReference": "APPLE20241015113002",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024103",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
-      "address": "123 Anson Road, #05-01, Singapore 079905"
+      "name": "DELTA GLOBAL TRADING BV",
+      "address": "WEENA 229, 3012CJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 737 1234",
+      "fax": "+31 10 737 1235"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Industriestra\u00dfe 10, 60314 Frankfurt am Main, Germany",
-      "telephone": "+49 69 12345678",
-      "fax": "+49 69 12345679"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "120 Anson Road #05-01, Singapore 079909",
+      "telephone": "+65 6227 1234",
+      "fax": "+65 6227 1235"
     },
     "notifyParty": {
-      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
-      "address": "123 Anson Road, #05-01, Singapore 079905"
+      "name": "DELTA GLOBAL TRADING BV",
+      "address": "WEENA 229, 3012CJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 737 1234",
+      "fax": "+31 10 737 1235"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85423900",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - MODEMS",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "CMAU5512345",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SG1234",
-      "numberOfPackages": 100,
-      "cargoDescription": "MODEMS - BRAND X - MODEL Y",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU8876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "SG5678",
-      "numberOfPackages": 100,
-      "cargoDescription": "MODEMS - BRAND X - MODEL Y",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DG123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR ASSEMBLY LINE",
+      "grossWeight": 1250.65,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 200,
-    "packageType": "CARTONS",
-    "containerType": "20FT",
-    "totalGrossWeight": 5000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1250.65,
+    "totalMeasurement": 1.5
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+  "dangerousGoods": {
+    "containerNumber": "MSCU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8479.89",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Special Handling Required"
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "salesOrderNumber": "SO123456789",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC123456789012345"
     },
-    "certificateDetails": [
-      "Certificate of Origin"
-    ],
+    "certificateDetails": "SGS20241015001",
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "Industriestra\u00dfe 10, 60314 Frankfurt am Main, Germany"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "120 Anson Road #05-01, Singapore 079909",
+      "telephone": "+65 6227 1234",
+      "fax": "+65 6227 1235"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE GLOBAL TRADING PTE LTD",
-      "address": "123 Anson Road, #05-01, Singapore 079905"
+      "name": "DELTA GLOBAL TRADING BV",
+      "address": "WEENA 229, 3012CJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 737 1234",
+      "fax": "+31 10 737 1235"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
   }
 }

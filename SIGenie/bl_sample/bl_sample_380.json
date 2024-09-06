@@ -1,100 +1,110 @@
 {
-  "bookingReference": "APPLE20241012105100",
+  "bookingReference": "ORANGE20240915124523",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2024342",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024312",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZENITH SHIPPING PTE LTD",
-      "address": "123 Marina Boulevard, #36-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
-      "telephone": "+65 6888 1111",
-      "fax": "+65 6888 2222"
+      "name": "Zhejiang Green Packaging Co., Ltd.",
+      "address": "No. 188, Xinghua Road, Jiangshan, Zhejiang, 324000",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Branch)"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 Harbor Freeway, Los Angeles, CA 90015",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "Euro Packaging Solutions BV",
+      "address": "Europalaan 10, 3075 AA Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@europackagingsolutions.nl",
+      "telephone": "+31 10 412 3456"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GOLDEN GATE FREIGHT FORWARDERS",
-      "address": "5678 Mission Street, San Francisco, CA 94105",
-      "telephone": "+1 415 555 3333",
-      "fax": "+1 415 555 3334"
+      "name": "Green Logistics BV",
+      "address": "Weena 250, 3012 CN Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "operations@greenlogistics.nl",
+      "telephone": "+31 10 206 7890"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8479899000",
-  "commodityDescription": "MACHINERY FOR FOOD PROCESSING",
+  "hsCode": "611120",
+  "commodityDescription": "Reusable Shopping Bags",
   "containers": [
     {
-      "containerNumber": "GOCU1234567",
+      "containerNumber": "TCLU8976543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ZSPL123",
-      "numberOfPackages": 10,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SYSTEM",
-      "grossWeight": 7500.0,
-      "measurement": 15.6
+      "marksAndNumbers": "GREE12345",
+      "numberOfPackages": 5000,
+      "packageType": "PIECES",
+      "cargoDescription": "Reusable Shopping Bags - Assorted Colors and Designs",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
     },
     {
-      "containerNumber": "GOCU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ZSPL789",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MIXING MACHINE",
-      "grossWeight": 4500.0,
-      "measurement": 10.2
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GREE67890",
+      "numberOfPackages": 5000,
+      "packageType": "PIECES",
+      "cargoDescription": "Reusable Shopping Bags - Blue and Green Color",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GREE23456",
+      "numberOfPackages": 5000,
+      "packageType": "PIECES",
+      "cargoDescription": "Reusable Shopping Bags - Red and Yellow Color",
+      "grossWeight": 12500.0,
+      "measurement": 28.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 15,
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.8
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 15000,
+    "packageType": "PIECES",
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 84.0
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241012-001",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO-123456789",
+    "hsCode": "61112090",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": [
-      "CO234567890",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "Certificate of Origin",
     "originalBLDistribution": {
-      "name": "ZENITH SHIPPING PTE LTD",
-      "address": "123 Marina Boulevard, #36-01 Marina Bay Financial Centre Tower 3, Singapore 018983",
-      "telephone": "+65 6888 1111",
-      "fax": "+6888 2222"
+      "name": "Green Logistics BV",
+      "address": "Weena 250, 3012 CN Rotterdam, Netherlands",
+      "telephone": "+31 10 206 7890"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 Harbor Freeway, Los Angeles, CA 90015",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "Zhejiang Green Packaging Co., Ltd.",
+      "address": "No. 188, Xinghua Road, Jiangshan, Zhejiang, 324000",
+      "telephone": "+86 578 288 1234",
+      "fax": "+86 578 288 5678"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
   }
 }

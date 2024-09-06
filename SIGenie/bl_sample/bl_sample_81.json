@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241025123456",
+  "bookingReference": "APPLE20240918115502",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2423E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,94 +17,93 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SEA LION SHIPPING PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "NO. 1234, HONGQIAO ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)"
     },
     "consignee": {
       "name": "EUROCHEM BV",
-      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
+      "address": "BEURSLANSSTRAAT 100, 3000 ROTTERDAM",
       "country": "NETHERLANDS",
-      "email": "info@eurochembv.nl",
-      "telephone": "+31 10 412 5500"
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4123456"
     },
     "notifyParty": {
       "name": "EUROCHEM BV",
-      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
+      "address": "BEURSLANSSTRAAT 100, 3000 ROTTERDAM",
       "country": "NETHERLANDS",
-      "email": "info@eurochembv.nl",
-      "telephone": "+31 10 412 5500"
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4123456"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "282735",
-  "commodityDescription": "POLYETHYLENE RESIN (PE)",
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "CMAU9673421",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SL123",
+      "marksAndNumbers": "EUROCHEM 123",
       "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
-      "grossWeight": 25000.0,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20500.0,
       "measurement": 20.0
     },
     {
-      "containerNumber": "CMAU5872310",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SL456",
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROCHEM 456",
       "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
-      "grossWeight": 25000.0,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20500.0,
       "measurement": 20.0
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "345678",
-      "marksAndNumbers": "SL789",
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EUROCHEM 789",
       "numberOfPackages": 500,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: POLYETHYLENE RESIN (PE) 25MT BAGS",
-      "grossWeight": 25000.0,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20500.0,
       "measurement": 20.0
     }
   ],
   "totalShipment": {
     "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
     "totalPackages": 1500,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 61500.0,
     "totalMeasurement": 60.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "28273590",
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "2903310000",
     "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE",
+    "certificateDetails": "2345678901234567",
     "originalBLDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Westplein 50, 3016 BM Rotterdam, Netherlands",
-      "telephone": "+31 10 412 5500"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "2ND FLOOR, 123 MAIN STREET, ROTTERDAM",
+      "telephone": "+31 10 2345678"
     },
     "originalInvoiceDistribution": {
-      "name": "SEA LION SHIPPING PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6224 5678",
-      "fax": "+65 6224 5679"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "2ND FLOOR, 123 MAIN STREET, ROTTERDAM",
+      "telephone": "+31 10 2345678"
     },
-    "onboardDate": "OCT. 26. 2024",
+    "onboardDate": "SEPT. 19. 2024",
     "additionalRemarks": "7 Days Free Time at Destination"
   }
 }

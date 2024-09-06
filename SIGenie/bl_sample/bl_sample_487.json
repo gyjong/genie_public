@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20241025101234",
+  "bookingReference": "APPLE20241026153001",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "234 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "FREUDENREICHSTRASSE 12, 60325 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROTECH.DE",
-      "telephone": "+49 69 79080"
+      "name": "EUROFRESH BV",
+      "address": "Westblaak 366, 3012 KL Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "FREUDENREICHSTRASSE 12, 60325 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROTECH.DE",
-      "telephone": "+49 69 79080"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1100 Van der Madeweg, 1181 ZG Amstelveen, Netherlands"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854140",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH APPLES",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "ET123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 10000.0,
-      "measurement": 20.0
-    },
-    {
       "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "ET456",
-      "numberOfPackages": 30,
+      "sealNumber": "123456",
+      "marksAndNumbers": "APPLE2410",
+      "numberOfPackages": 1000,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 7000.0,
-      "measurement": 15.0
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 1000 CARTONS FRESH APPLES. NET WEIGHT 20MT",
+      "grossWeight": 22000.0,
+      "measurement": 25.0,
+      "additionalInfo": "TEMP: 0-2\u00b0C. VENTILATION: CLOSED"
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 80,
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 1000,
     "packageType": "CARTONS",
-    "totalGrossWeight": 17000.0,
-    "totalMeasurement": 35.0
+    "containerType": "40HQ",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "MSCU1234567",
+    "temperature": "+2.0\u00b0C",
+    "minTemperature": "+0.0\u00b0C",
+    "maxTemperature": "+4.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "90%"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "8541409000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00012345678"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN20241025001",
+    "certificateDetails": [
+      "Phytosanitary Certificate No. 1234567890"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "FRANKFURT AIRPORT, GERMANY",
-      "telephone": "+49 69 69095678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "FREUDENREICHSTRASSE 12, 60325 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 79080",
-      "fax": "+49 69 79081"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "OCT. 30. 2024",
+    "additionalRemarks": "Apples packed in cartons, suitable for direct retail.  Value: USD 50,000"
   }
 }

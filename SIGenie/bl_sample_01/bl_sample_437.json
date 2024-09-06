@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241015103045",
+  "voyageDetails": {
+    "vesselName": "CMA CGM FORTUNE",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "onBehalfOf": null,
+      "address": "123 NANJING ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1111",
+      "fax": "+86-21-6328-2222"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS",
+      "address": "5678 ELM STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINS FRAGILE ITEMS. HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "123 NANJING ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-1111",
+      "fax": "+86-21-6328-2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance: USD 100,000"
+  }
+}

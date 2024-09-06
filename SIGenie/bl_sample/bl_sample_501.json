@@ -1,93 +1,96 @@
 {
-  "bookingReference": "APPLE20240912142511",
+  "bookingReference": "ORANGE20241015143012",
   "voyageDetails": {
-    "vesselName": "MSC ISABELLA",
-    "voyageNumber": "2422E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024100",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "ASIA IMPORTERS SDN. BHD.",
-      "address": "Unit 10-02, Wisma KLCC, Jalan Ampang, Kuala Lumpur, Malaysia",
-      "telephone": "+60 3 2386 1234",
-      "fax": "+60 3 2386 5678"
+      "name": "EURO TRADE LTD.",
+      "address": "124 KERKSTRAAT, 3011 GN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+      "name": "BANK OF AMERICA, SINGAPORE",
+      "address": "125 ROBINSON ROAD, SINGAPORE 068901",
+      "telephone": "+65-6223-1234",
+      "fax": "+65-6223-5678"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87089900",
-  "commodityDescription": "MOTORCYCLE PARTS & ACCESSORIES",
+  "hsCode": "8541.40",
+  "commodityDescription": "MOBILE PHONE ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GL-123",
-      "numberOfPackages": 50,
-      "cargoDescription": "MOTORCYCLE TIRES, BRAKE PADS, AND HANDLEBARS",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "GL-456",
-      "numberOfPackages": 30,
-      "cargoDescription": "MOTORCYCLE ENGINE PARTS AND ACCESSORIES",
-      "grossWeight": 8000.0,
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MOBILE PHONE ACCESSORIES",
+      "grossWeight": 10500.0,
       "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 80,
-    "packageType": "PACKAGES",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 45.5
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 10500.0,
+    "totalMeasurement": 20.0
   },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00002010339243"
     },
-    "certificateDetails": [],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "ASIA IMPORTERS SDN. BHD.",
-      "address": "Unit 10-02, Wisma KLCC, Jalan Ampang, Kuala Lumpur, Malaysia"
+      "name": "EURO TRADE LTD.",
+      "address": "124 KERKSTRAAT, 3011 GN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-7891"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPMENT IS TO BE DELIVERED TO THE CONSIGNEE'S WAREHOUSE IN KUALA LUMPUR."
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

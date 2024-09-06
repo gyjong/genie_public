@@ -1,96 +1,95 @@
 {
-  "bookingReference": "APPLE20241020115205",
+  "bookingReference": "APPLE20240912101508",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024101",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "Original",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
-      "telephone": "+65-6737-8888",
-      "fax": "+65-6737-9999"
+      "name": "ZHEJIANG HUAYU IMPORT & EXPORT CO., LTD",
+      "address": "NO. 188, SHANGHENG ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 579 8668 8888",
+      "email": "SALES@HUAYUEXPORT.COM"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "KREUZSTRASSE 10, 20095 HAMBURG, GERMANY",
-      "telephone": "+49-40-3033-1234",
-      "fax": "+49-40-3033-5678"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401, USA",
+      "taxId": "9876543210",
+      "president": "MR. DAVID WILSON",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS LTD",
-      "address": "123 Anson Road, #12-01, Singapore 079903",
-      "telephone": "+65-6221-8888",
-      "fax": "+65-6221-9999"
+      "name": "WEST COAST LOGISTICS LLC",
+      "address": "5678 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 213 555 2323",
+      "fax": "+1 213 555 2324"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8541.40",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CIF",
+  "hsCode": "73269098",
+  "commodityDescription": "IRON AND STEEL TUBING",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
+      "containerNumber": "TCLU1500123",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 100,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. ELECTRONIC COMPONENTS AS PER PACKING LIST",
-      "grossWeight": 12500.0,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA IRON AND STEEL TUBING",
+      "grossWeight": 15000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 15000.0,
     "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567890",
-    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "KREUZSTRASSE 10, 20095 HAMBURG, GERMANY",
-      "telephone": "+49-40-3033-1234",
-      "fax": "+49-40-3033-5678"
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.2001, SUNRISE TOWER, 123 SUNRISE STREET, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 5555 6789",
+      "fax": "+86 21 5555 6788"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
-      "telephone": "+65-6737-8888",
-      "fax": "+65-6737-9999"
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.2001, SUNRISE TOWER, 123 SUNRISE STREET, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 5555 6789",
+      "fax": "+86 21 5555 6788"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CLEAN ON BOARD"
   }
 }

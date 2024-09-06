@@ -1,0 +1,178 @@
+{
+  "booking_id": null,
+  "shipper": null,
+  "consignee": null,
+  "notify_party": null,
+  "port_of_loading": null,
+  "port_of_discharge": null,
+  "vessel": null,
+  "voyage": null,
+  "containers": [],
+  "similar_bls": [
+    {
+      "bl_number": null,
+      "shipper": null,
+      "consignee": null,
+      "notify_party": null,
+      "port_of_loading": null,
+      "port_of_discharge": null,
+      "vessel": null,
+      "voyage": null,
+      "containers": [
+        {
+          "containerNumber": "CRLU7637427",
+          "sealNumber": "NONE",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 1,
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETICS LIFEBOAT WITH ENGINE AND LIFE/RESCUE BOAT WITH ENGINE (H.2561)",
+          "grossWeight": 3600.0,
+          "measurement": 68.0
+        },
+        {
+          "containerNumber": "CRLU0713993",
+          "sealNumber": "NONE",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 1,
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETICS LIFEBOAT WITH ENGINE AND LIFE/RESCUE BOAT WITH ENGINE (H.2561)",
+          "grossWeight": 3600.0,
+          "measurement": 68.0
+        }
+      ]
+    },
+    {
+      "bl_number": null,
+      "shipper": null,
+      "consignee": null,
+      "notify_party": null,
+      "port_of_loading": null,
+      "port_of_discharge": null,
+      "vessel": null,
+      "voyage": null,
+      "containers": [
+        {
+          "containerNumber": "CRLU2992659",
+          "sealNumber": "706716",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 3,
+          "packageType": "PACKAGES",
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : PAINTS",
+          "grossWeight": 907.35,
+          "measurement": 0.907
+        }
+      ]
+    },
+    {
+      "bl_number": null,
+      "shipper": null,
+      "consignee": null,
+      "notify_party": null,
+      "port_of_loading": null,
+      "port_of_discharge": null,
+      "vessel": null,
+      "voyage": null,
+      "containers": [
+        {
+          "containerNumber": "CRLU2026038",
+          "sealNumber": "170768",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 31,
+          "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+          "grossWeight": 19121.0,
+          "measurement": 20.618
+        },
+        {
+          "containerNumber": "CRLU2030543",
+          "sealNumber": "170658",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 36,
+          "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+          "grossWeight": 18643.0,
+          "measurement": 20.071
+        },
+        {
+          "containerNumber": "CRLU2712351",
+          "sealNumber": "170990",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 34,
+          "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+          "grossWeight": 19194.0,
+          "measurement": 19.449
+        },
+        {
+          "containerNumber": "CRLU2148985",
+          "sealNumber": "170759",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 32,
+          "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+          "grossWeight": 17673.0,
+          "measurement": 19.04
+        },
+        {
+          "containerNumber": "CRLU2164841",
+          "sealNumber": "170635",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 32,
+          "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: NANTUCKET GLOSS COVER",
+          "grossWeight": 17531.0,
+          "measurement": 18.747
+        }
+      ]
+    },
+    {
+      "bl_number": null,
+      "shipper": null,
+      "consignee": null,
+      "notify_party": null,
+      "port_of_loading": null,
+      "port_of_discharge": null,
+      "vessel": null,
+      "voyage": null,
+      "containers": [
+        {
+          "containerNumber": "CRLU9908625",
+          "sealNumber": "892083",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 10,
+          "packageType": "PALLETS",
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETICS",
+          "grossWeight": 4829.0,
+          "measurement": 12.0,
+          "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. THE CONTAINER IS PROPERTY OF CHERRY."
+        }
+      ]
+    },
+    {
+      "bl_number": null,
+      "shipper": null,
+      "consignee": null,
+      "notify_party": null,
+      "port_of_loading": null,
+      "port_of_discharge": null,
+      "vessel": null,
+      "voyage": null,
+      "containers": [
+        {
+          "containerNumber": "CRLU1234567",
+          "sealNumber": "NONE",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 2,
+          "packageType": "PACKAGES",
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRECISION MACHINERY COMPENENTS INCLUDING XY TABLES, SPINDLES AND SUPPORT UNITS (W.2600MM H.2500MM)",
+          "grossWeight": 22063.0,
+          "measurement": 35.1
+        },
+        {
+          "containerNumber": "CRLU7890123",
+          "sealNumber": "NONE",
+          "marksAndNumbers": "NO MARK",
+          "numberOfPackages": 2,
+          "packageType": "PACKAGES",
+          "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRECISION MACHINERY COMPENENTS INCLUDING XY TABLES, SPINDLES AND SUPPORT UNITS (W.2600MM H.2500MM)",
+          "grossWeight": 22063.0,
+          "measurement": 35.1
+        }
+      ]
+    }
+  ],
+  "generated_info": "Generated SI based on Booking None and 5 similar BLs"
+}

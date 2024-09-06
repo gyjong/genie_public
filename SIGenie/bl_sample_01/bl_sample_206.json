@@ -1,0 +1,105 @@
+{
+  "bookingReference": "APPLE20241026134521",
+  "voyageDetails": {
+    "vesselName": "MSC SHANGHAI 07",
+    "voyageNumber": "2024342",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Cecil Street, #10-01, Singapore 049712",
+      "telephone": "+65 6536 7890",
+      "email": "info@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Hanauer Landstra\u00dfe 123, 60314 Frankfurt, Germany",
+      "taxId": "DE123456789",
+      "president": "Ms. Anna Schmidt",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Postfach 10 02 01, 60002 Frankfurt, Germany",
+      "telephone": "+49 69 5005 1234",
+      "fax": "+49 69 5005 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5398765",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, GERMANY ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR ROTTERDAM, GERMANY ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 7500.0,
+      "measurement": 14.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15500.0,
+    "totalMeasurement": 29.5
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO, FORM A",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Postfach 10 02 01, 60002 Frankfurt, Germany",
+      "telephone": "+49 69 5005 1234",
+      "fax": "+49 69 5005 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "123 Cecil Street, #10-01, Singapore 049712",
+      "telephone": "+65 6536 7890",
+      "email": "info@asiatrading.com.sg"
+    },
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN ACCORDANCE WITH THE SHIPPER'S INSTRUCTIONS."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241015114030",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2435W",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
+      "address": "358 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6321-8500",
+      "fax": "+86-21-6321-8501"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "IMPORT@WCLI.COM",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR CORP.",
+      "address": "5678 MAIN ST, SAN FRANCISCO, CA 94105",
+      "telephone": "+1-415-555-9876",
+      "fax": "+1-415-555-9877",
+      "email": "ORDERS@GOLDENSTAR.COM"
+    }
+  },
+  "shippingTerm": "CFR LOS ANGELES",
+  "hsCode": "620462",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU2356789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS12345",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 10500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU1111222",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GS67890",
+      "numberOfPackages": 450,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 9800.0,
+      "measurement": 26.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 950,
+    "totalGrossWeight": 20300.0,
+    "totalMeasurement": 54.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241015-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE INTERNATIONAL TRADING CO., LTD",
+      "address": "358 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6321-8500",
+      "fax": "+86-21-6321-8501"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 OCEAN AVE, SUITE 200, LOS ANGELES, CA 90022",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "IMPORT@WCLI.COM"
+    },
+    "onboardDate": "OCT. 27. 2024"
+  }
+}

@@ -1,99 +1,103 @@
 {
-  "bookingReference": "GRAPE20240918113245",
+  "bookingReference": "GRAPE202410151135400",
   "voyageDetails": {
-    "vesselName": "CMA CGM RHONE",
-    "voyageNumber": "2435E",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2442E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
-      "address": "NO. 1234, HONGQIAO ROAD, SHANGHAI, 200030",
-      "country": "CHINA",
-      "additionalInfo": "( Pudong District)"
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "NO. 288, SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "86-574-87654321",
+      "fax": "86-574-87654322"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "DREIECKPLATZ 1, 20457 HAMBURG",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROTRADEGMBH.DE",
-      "telephone": "+49 40 361380"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90012",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "IMPORT@WCLINC.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "DREIECKPLATZ 1, 20457 HAMBURG",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROTRADEGMBH.DE",
-      "telephone": "+49 40 361380"
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "5678 OCEAN AVENUE, SANTA MONICA, CA 90401",
+      "telephone": "1-310-555-9876",
+      "fax": "1-310-555-9877",
+      "email": "NOTIFICATIONS@GLOBALIMPORTS.COM",
+      "sameAsConsignee": false
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY FOR PACKAGING FOOD PRODUCTS",
+  "shippingTerm": "CIF",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ETG1234",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR PACKAGING FOOD PRODUCTS",
-      "grossWeight": 15000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CMAU1122334",
-      "sealNumber": "7654321",
-      "marksAndNumbers": "ETG5678",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CONTROL PANEL AND ELECTRICAL COMPONENTS FOR PACKAGING MACHINERY",
-      "grossWeight": 5000.0,
-      "measurement": 15.0
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 12500.0,
+      "measurement": 24.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "CRATES & PALLETS",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "2 X 40' DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 49.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "ETG-2024-09-18-001",
-    "hsCode": "8479899090",
-    "freeTimeAtDestination": "7 DAYS",
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "20241015-002",
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "certificateDetails": [
+      "COO-20241015-001",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "HAMBURGER STRASSE 1, 20095 HAMBURG",
-      "telephone": "+49 40 30387300"
+      "name": "CHINA GLOBAL TRADING CO., LTD",
+      "address": "NO. 288, SHANGHAI ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "86-574-87654321",
+      "fax": "86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "DREIECKPLATZ 1, 20457 HAMBURG",
-      "telephone": "+49 40 361380"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90012",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213",
+      "email": "IMPORT@WCLINC.COM",
+      "contactPerson": "JANE SMITH"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "GOODS PACKED AND SEALED IN ACCORDANCE WITH INDUSTRY STANDARDS. PLEASE CONTACT DHL EXPRESS FOR ANY QUERIES."
+    "onboardDate": "OCT. 20. 2024"
   }
 }

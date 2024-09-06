@@ -1,96 +1,105 @@
 {
-  "bookingReference": "APPLE20241026133015",
+  "bookingReference": "APPLE20240920123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "244W",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "onBehalfOf": null,
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "GLOBAL TRADING BV",
+      "address": "KEIZERSGRACHT 323, 1016 ED AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "email": "INFO@GLOBALTRADING.NL"
     },
     "consignee": {
-      "name": "GERMAN IMPORTS GMBH",
-      "address": "Speicherstra\u00dfe 10, 20095 Hamburg, Germany",
-      "companyNumber": "HRB 123456"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 ROBINSON ROAD, #12-01, SINGAPORE 068905",
+      "taxId": "201234567890",
+      "president": "MR. LIM CHONG WEI",
+      "telephone": "+65 6536 7890",
+      "fax": "+65 6536 7891"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Im Zollhafen 1, 20355 Hamburg, Germany"
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "250 NORTH BRIDGE ROAD, #03-01, SINGAPORE 179102",
+      "telephone": "+65 6336 8890",
+      "fax": "+65 6336 8891"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "87119000",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "84833000",
+  "commodityDescription": "AIR CONDITIONING UNITS",
   "containers": [
     {
-      "containerNumber": "FCLU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "APTC-2024-10",
-      "numberOfPackages": 2,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 950.0,
-      "measurement": 15.5,
-      "additionalInfo": null
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, MEASUREMENT, AND SEAL SAID TO CONTAIN: CIF SINGAPORE AIR CONDITIONING UNITS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU6543210",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT, MEASUREMENT, AND SEAL SAID TO CONTAIN: CIF SINGAPORE AIR CONDITIONING UNITS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "CRATES",
-    "containerType": "20GP",
-    "totalGrossWeight": 950.0,
-    "totalMeasurement": 15.5
+    "totalContainers": "TWO (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC202409201234"
     },
-    "certificateDetails": [
-      "COO-123456"
-    ],
+    "certificateDetails": "CO, Fumigation Certificate",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1010 WOODLANDS ROAD, #04-01, SINGAPORE 640101",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "originalInvoiceDistribution": {
-      "name": "GERMAN IMPORTS GMBH",
-      "address": "Speicherstra\u00dfe 10, 20095 Hamburg, Germany",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 98765432"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1010 WOODLANDS ROAD, #04-01, SINGAPORE 640101",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "Motorcycles for private use. Insurance provided by shipper."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

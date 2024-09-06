@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "ORANGE20240912102345",
   "voyageDetails": {
-    "vesselName": "MSC ARIANE",
-    "voyageNumber": "2435SA",
-    "bound": "E"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024042",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "DEUTSCHE BANK AG",
-      "address": "FRANKFURTER STRASSE 24, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49 69 910 30000",
-      "email": "INFO@DB.COM"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Business District)",
+      "telephone": "+65 6227 1111",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
     },
     "consignee": {
-      "name": "SINGAPORE OIL TRADING PTE LTD",
-      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
-      "taxId": "200103124K",
-      "president": "MR. LEE KIM CHONG",
-      "telephone": "+65 6220 1234",
-      "fax": "+65 6220 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 12, 20457 Hamburg",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 40 3010 5000"
     },
     "notifyParty": {
-      "name": "SINGAPORE OIL TRADING PTE LTD",
-      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
-      "taxId": "200103124K",
-      "president": "MR. LEE KIM CHONG",
-      "telephone": "+65 6220 1234",
-      "fax": "+65 6220 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 12, 20457 Hamburg",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECHGMBH.DE",
+      "telephone": "+49 40 3010 5000"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "27101910",
-  "commodityDescription": "CRUDE PETROLEUM OIL",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "842139",
+  "commodityDescription": "ELECTRIC MOTOR PARTS, INCLUDING STATORS AND ROTORS",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 1,
-      "packageType": "BULK",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: 1000 MT CRUDE PETROLEUM OIL",
-      "grossWeight": 1000000.0,
-      "measurement": 50.0
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: ELECTRIC MOTOR PARTS, INCLUDING STATORS AND ROTORS",
+      "grossWeight": 12000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: ELECTRIC MOTOR PARTS, INCLUDING STATORS AND ROTORS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
-    "totalPackages": 1,
-    "packageType": "BULK",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 1000000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 35.5
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "00001010334321"
     },
-    "certificateDetails": "CO-234567890",
+    "certificateDetails": [
+      "411252403580X",
+      "411252403581X"
+    ],
     "originalBLDistribution": {
-      "name": "SINGAPORE OIL TRADING PTE LTD",
-      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
-      "telephone": "+65 6220 1234",
-      "fax": "+65 6220 5678"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "123 Main Street, Hamburg, Germany",
+      "telephone": "+49 40 1234 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE OIL TRADING PTE LTD",
-      "address": "2121 Anson Road #08-01 Anson Centre Singapore 079903",
-      "telephone": "+65 6220 1234",
-      "fax": "+65 6220 5678"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "123 Main Street, Hamburg, Germany",
+      "telephone": "+49 40 1234 5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

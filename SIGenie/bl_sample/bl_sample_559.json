@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20241017124321",
+  "bookingReference": "APPLE20241023151247",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2423E",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "123 Anson Road, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "ASIA IMPORTERS PTE LTD",
-      "address": "100 ORCHARD ROAD, SINGAPORE 238844",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 0456"
+      "name": "DUTCH IMPORTS BV",
+      "address": "Postbus 123, 3000 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS PTE LTD",
-      "address": "555 NORTH BRIDGE ROAD, SINGAPORE 179097",
-      "telephone": "+65 6123 4567",
-      "fax": "+65 6123 8901"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "123 Anson Road, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87112000",
-  "commodityDescription": "MOTORCYCLES WITH 150CC ENGINE",
+  "shippingTerm": "CFR",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "TCLU7895432",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT123",
+      "marksAndNumbers": "MTR123",
       "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, MODEL X150, PACKED IN INDIVIDUAL CRATES",
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 5 MOTORCYCLES",
       "grossWeight": 1500.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU4567890",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GT456",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES, MODEL X150, PACKED IN INDIVIDUAL CRATES",
-      "grossWeight": 1500.0,
-      "measurement": 20.0
+      "measurement": 2.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "CRATES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 3000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 2.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO20241017"
-    ],
+    "certificateDetails": "COC1234567890",
     "originalBLDistribution": {
-      "name": "ASIA IMPORTERS PTE LTD",
-      "address": "100 ORCHARD ROAD, SINGAPORE 238844"
+      "name": "DUTCH IMPORTS BV",
+      "address": "Postbus 123, 3000 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-456-7890",
+      "fax": "+31-10-456-1234"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+      "name": "SINGAPORE TRADING CO.",
+      "address": "123 Anson Road, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": ""
   }
 }

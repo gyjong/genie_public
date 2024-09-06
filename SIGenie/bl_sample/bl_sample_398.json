@@ -1,110 +1,97 @@
 {
-  "bookingReference": "ORANGE20240917123456",
+  "bookingReference": "APPLE20241025151022",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "242039",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2245W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #12-01, Anson Centre, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "onBehalfOf": "ABC INTERNATIONAL CORP.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-9100",
+      "fax": "+86-21-6328-9101"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Zuidplein 150, 3013 AL ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 413 7500"
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 765432"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "Westblaak 36, 3012 KM ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "operations@globallogistics.nl",
-      "telephone": "+31 10 203 4567"
+      "name": "CUSTOMS BROKERAGE SERVICES BV",
+      "address": "DEIJLSTRAAT 2, 3011 AC ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYL ACETATE",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "TCLU3857296",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "APTC123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU6872543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "APTC456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "CMAU9765432",
-      "sealNumber": "345678",
-      "marksAndNumbers": "APTC789",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
-      "grossWeight": 25000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. "
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "290331",
-    "freeTimeAtDestination": "14 DAYS",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "12345678901234"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "CN1234567890",
+      "CO1234567890"
+    ],
     "originalBLDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Zuidplein 150, 3013 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 413 7500"
+      "name": "ABC INTERNATIONAL CORP.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #12-01, Anson Centre, SINGAPORE 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ABC SHIPPING CO.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1-212-555-2323",
+      "fax": "+1-212-555-2324"
     },
-    "onboardDate": "SEPT. 19. 2024",
-    "additionalRemarks": "14 Days Free Time at Destination\nCargo Packed in New Drums\nShipper's Declaration for Dangerous Goods Not Required"
+    "onboardDate": "OCT. 29. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

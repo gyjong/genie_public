@@ -1,100 +1,98 @@
 {
-  "bookingReference": "APPLE20241026141234",
+  "bookingReference": "APPLE20240912104521",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2443W",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA TRADING CO., LTD.",
-      "address": "No. 123, Huangpu Road, Shanghai, China",
-      "country": "CHINA",
-      "additionalInfo": "(Shanghai Free Trade Zone)"
+      "name": "CHINA SHIPPING CO., LTD.",
+      "address": "23 F, CHINA SHIPPING TOWER, NO. 188, SHANGHAI ROAD, SHANGHAI, CHINA"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 100, 3012 AA Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@euroimports.nl",
-      "telephone": "+31 10 4567890"
+      "name": "AMERICAN LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, LOS ANGELES, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Weteringlaan 15, 3016 CK Rotterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "operations@eurologistics.nl",
-      "telephone": "+31 10 1234567"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "456 OAK STREET, SUITE 200, CHICAGO, IL 60606, USA",
+      "telephone": "+1 312 555 3434",
+      "fax": "+1 312 555 3435"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854442",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE ASSEMBLY LINES",
   "containers": [
     {
-      "containerNumber": "GRSU9876543",
+      "containerNumber": "MSCU3785621",
       "sealNumber": "123456",
-      "marksAndNumbers": "XYZ123",
-      "numberOfPackages": 100,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
-      "grossWeight": 12000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "AUTOMOBILE ASSEMBLY LINE PARTS, PACKED IN WOODEN CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 45.0
     },
     {
-      "containerNumber": "SEGU8765432",
+      "containerNumber": "MSCU9876543",
       "sealNumber": "654321",
-      "marksAndNumbers": "ABC456",
-      "numberOfPackages": 50,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT - CABLES AND ACCESSORIES",
-      "grossWeight": 6000.0,
-      "measurement": 15.0
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 35,
+      "cargoDescription": "AUTOMOBILE ASSEMBLY LINE PARTS, PACKED IN PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 150,
-    "packageType": "BOXES & CRATES",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 35.0
+    "totalContainers": "TWO (40HC) CONTAINERS ONLY",
+    "totalPackages": 85,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 35000.0,
+    "totalMeasurement": 80.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "8544421000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000321045678"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Boulevard, Rotterdam, Netherlands",
-      "telephone": "+31 10 2345678"
+      "name": "AMERICAN LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, LOS ANGELES, CA 90014, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA TRADING CO., LTD.",
-      "address": "No. 123, Huangpu Road, Shanghai, China",
-      "telephone": "+86 21 98765432",
-      "fax": "+86 21 98765433"
+      "name": "CHINA SHIPPING CO., LTD.",
+      "address": "23 F, CHINA SHIPPING TOWER, NO. 188, SHANGHAI ROAD, SHANGHAI, CHINA"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nCargo subject to inspection upon arrival."
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD & COUNT.  FREIGHT PREPAID TO DESTINATION."
   }
 }

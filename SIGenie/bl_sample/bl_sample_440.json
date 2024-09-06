@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "COSCO SHANGHAI 08",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024302",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG SHUANGCHENG IMPORT & EXPORT CO., LTD.",
-      "address": "NO.288, JIANGLING ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "+86 579 8612 3456",
-      "email": "info@shuangshengexport.com"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #25-01, International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Tel: +65 6222 1111, Fax: +65 6222 2222)"
     },
     "consignee": {
-      "name": "GLOBAL TRADING BV",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS",
-      "taxId": "NL854231942B01",
-      "president": "MR. JAN VAN DER KOLK",
-      "telephone": "+31 10 477 8900",
-      "fax": "+31 10 477 8999"
+      "name": "EUROCHEM BV",
+      "address": "Pieter de Hoochweg 2, 3115 BT SCHIEDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 15 256 1234"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADING BV",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS",
-      "taxId": "NL854231942B01",
-      "president": "MR. JAN VAN DER KOLK",
-      "telephone": "+31 10 477 8900",
-      "fax": "+31 10 477 8999"
+      "name": "FIRST LOGISTICS LTD.",
+      "address": "1232 Westkanaalzone, 3125 EB ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@firstlogistics.nl",
+      "telephone": "+31 10 256 7890"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84839010",
-  "commodityDescription": "MACHINERY PARTS FOR PACKAGING",
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "MSCU3856792",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MACHINERY PARTS FOR PACKAGING",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "EG123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200KG STEEL DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EG456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200KG STEEL DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20 DRY Container"
+    "totalContainers": "TWO (20'DV) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "01234567890123"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CN1234567890",
+    "certificateDetails": "COO-123456789",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 477 8900",
-      "fax": "+31 10 477 8999"
+      "name": "FIRST LOGISTICS LTD.",
+      "address": "1232 Westkanaalzone, 3125 EB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 256 7890"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "WEGELAAN 12, 3065 NL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 477 8900",
-      "fax": "+31 10 477 8999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #25-01, International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "CLEAN ON BOARD, SHIPPED ON BOARD"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "CARGO STOWED ON DECK. 7 DAYS FREE TIME AT DESTINATION PORT."
   }
 }

@@ -1,97 +1,98 @@
 {
-  "bookingReference": "APPLE20241015103045",
+  "bookingReference": "APPLE20241015142530",
   "voyageDetails": {
-    "vesselName": "MAERSK EAGLE",
-    "voyageNumber": "2024102",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2428E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
+      "name": "VAN DER HORST IMPORT & EXPORT BV",
       "onBehalfOf": "",
-      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
-      "telephone": "+65-6220-1234",
-      "fax": "+65-6220-5678"
+      "address": "MAASLANDSEWEG 10, 3125 BA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-462-6200",
+      "fax": "+31-10-462-6299"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Am Alten Hafen 12, 20457 Hamburg, Germany",
-      "companyNumber": "HRB 12345"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "111 SOMERSET ROAD, #05-12, SINGAPORE 238164",
+      "companyNumber": "200102738K"
     },
     "notifyParty": {
-      "name": "LOGISTICS PLUS GMBH",
-      "address": "Hansaallee 22, 20457 Hamburg, Germany"
+      "name": "GLOBAL LOGISTICS SERVICES PTE LTD",
+      "address": "10 Anson Road, #27-01 International Plaza, Singapore 079903"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84713000",
-  "commodityDescription": "DIGITAL PRINTERS",
+  "shippingTerm": "DAP SINGAPORE",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES, COMPLETE & ASSEMBLED",
   "containers": [
     {
-      "containerNumber": "CMAU8876543",
+      "containerNumber": "MSKU9867521",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL PRINTERS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "marksAndNumbers": "V.D.HORST IMEX 1",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 10500.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
+    },
+    {
+      "containerNumber": "MSKU9867532",
+      "sealNumber": "789012",
+      "marksAndNumbers": "V.D.HORST IMEX 2",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 10500.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINERS ARE CLEAN AND IN GOOD ORDER."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20FT",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "UNITS",
+    "containerType": "20GP",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "COC-20241015-001"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
-      "telephone": "+65-6220-1234",
-      "fax": "+65-6220-5678"
+      "name": "VAN DER HORST IMPORT & EXPORT BV",
+      "address": "MAASLANDSEWEG 10, 3125 BA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-462-6200",
+      "fax": "+31-10-462-6299"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road #12-01 International Plaza Singapore 079903",
-      "telephone": "+65-6220-1234",
-      "fax": "+65-6220-5678"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "111 SOMERSET ROAD, #05-12, SINGAPORE 238164"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "additionalRemarks": "20 MOTORCYCLES, VALUE: USD 50,000"
   }
 }

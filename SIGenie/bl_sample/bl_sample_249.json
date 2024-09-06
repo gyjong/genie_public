@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20240915123456",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2432E",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2425E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,88 +23,85 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Mr. Tan)"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 ROBINSON ROAD, #12-01, SINGAPORE 068902",
+      "telephone": "+65 6536 8888",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Kattenburgerstraat 5, 1018 NA Amsterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 20 624 3300"
+      "name": "EURO IMPORTS BV",
+      "address": "KLOPPENBURGSTRAAT 25, 3011 ZH ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855012345B01",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666"
     },
     "notifyParty": {
-      "name": "BANK OF AMERICA",
-      "address": "Gustav Mahlerlaan 3000, 1081 LR Amsterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "tradeoperations@bofa.com",
-      "telephone": "+31 20 576 7000"
+      "name": "EURO LOGISTICS BV",
+      "address": "KLOPPENBURGSTRAAT 25, 3011 ZH ROTTERDAM, NETHERLANDS",
+      "taxId": "NL855012345B02",
+      "president": "MR. PETER DE JONG",
+      "telephone": "+31 10 444 7777",
+      "fax": "+31 10 444 8888"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "87089900",
+  "commodityDescription": "MOTORCYCLE PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "EG123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU7678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MOTORCYCLE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "EG456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "21436587",
-      "marksAndNumbers": "EG789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG NET WEIGHT DRUMS, 20 DRUMS PER PALLET",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU7678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MOTORCYCLE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 90.0
+    "totalContainers": "TWO (20 DRY) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "14 DAYS FREE TIME",
     "lcDetails": {
       "lcNumber": "1234567890"
     },
-    "certificateDetails": "2023-10-26-CERT-001",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "BANK OF AMERICA",
-      "address": "Gustav Mahlerlaan 3000, 1081 LR Amsterdam, Netherlands",
-      "telephone": "+31 20 576 7000"
+      "name": "DHL EXPRESS",
+      "address": "123 AIRPORT ROAD, SINGAPORE 618800",
+      "telephone": "+65 6545 6789",
+      "fax": "+65 6545 6790"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6220 1234",
-      "fax": "+65 6220 4321"
+      "name": "DHL EXPRESS",
+      "address": "123 AIRPORT ROAD, SINGAPORE 618800",
+      "telephone": "+65 6545 6789",
+      "fax": "+65 6545 6790"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "SHIPMENT SUBJECT TO LETTER OF CREDIT TERMS AND CONDITIONS"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NO HAZARDOUS MATERIALS"
   }
 }

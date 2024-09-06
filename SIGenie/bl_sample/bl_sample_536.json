@@ -1,98 +1,96 @@
 {
-  "bookingReference": "PINEAPPLE202409211248300",
+  "bookingReference": "APPLE20241015103002",
   "voyageDetails": {
-    "vesselName": "MSC BEATRICE",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024100",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GREEN LEAF IMPORTS LTD",
-      "address": "123 MAIN STREET, LONDON EC1A 1BB, UNITED KINGDOM",
-      "telephone": "+44 20 7123 4567",
-      "fax": "+44 20 7123 4568"
+      "name": "GREEN LEAF TRADING PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "200 ORCHARD ROAD, #10-01 ORCHARD TOWERS, SINGAPORE 238846",
-      "telephone": "+65 6737 8900",
-      "fax": "+65 6737 8901",
-      "email": "IMPORT@APTC.COM.SG",
-      "contactPerson": "MICHAEL TAN"
+      "name": "FLOWER POWER BV",
+      "address": "Nieuwe Binnenweg 192, 3014 GE Rotterdam, Netherlands",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 7890"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GOLDEN STAR LOGISTICS",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903"
+      "name": "GREEN LEAF TRADING PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "220210",
-  "commodityDescription": "COFFEE BEANS, GREEN, UNROASTED",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "0602.90.90",
+  "commodityDescription": "FRESH OR DRIED FLOWERS",
   "containers": [
     {
-      "containerNumber": "TCLU8765432",
+      "containerNumber": "CMAU7896543",
       "sealNumber": "123456",
-      "marksAndNumbers": "COF-01",
-      "numberOfPackages": 500,
-      "cargoDescription": "500 BAGS OF GREEN COFFEE BEANS",
-      "grossWeight": 18000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "COF-02",
-      "numberOfPackages": 500,
-      "cargoDescription": "500 BAGS OF GREEN COFFEE BEANS",
-      "grossWeight": 18500.0,
-      "measurement": 25.5
+      "marksAndNumbers": "GLT-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ROSES",
+      "grossWeight": 1500.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 36500.0,
-    "totalMeasurement": 50.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 15.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "20240921-001",
-    "documentNumber": "20240921-002",
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": [
-      "CO-2024-0921-001",
-      "PHYTOSANITARY-2024-0921-002"
-    ],
+    "certificateDetails": "PHYTOCERTIFICATE NO. 1234567890",
     "originalBLDistribution": {
-      "name": "GREEN LEAF IMPORTS LTD",
-      "address": "123 MAIN STREET, LONDON EC1A 1BB, UNITED KINGDOM",
-      "telephone": "+44 20 7123 4567",
-      "fax": "+44 20 7123 4568"
+      "name": "FLOWER POWER BV",
+      "address": "Nieuwe Binnenweg 192, 3014 GE Rotterdam, Netherlands",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 7890"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "200 ORCHARD ROAD, #10-01 ORCHARD TOWERS, SINGAPORE 238846",
-      "telephone": "+65 6737 8900",
-      "fax": "+65 6737 8901"
+      "name": "GREEN LEAF TRADING PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "SEPT. 28. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

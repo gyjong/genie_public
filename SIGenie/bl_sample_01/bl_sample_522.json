@@ -1,0 +1,102 @@
+{
+  "bookingReference": "APPLE202410121141200",
+  "voyageDetails": {
+    "vesselName": "COSCO YINGKOU",
+    "voyageNumber": "2024342",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA DRAGON TRADING CO., LTD",
+      "address": "225 XINGYI ROAD, SHANGHAI, 200336, CHINA",
+      "telephone": "+86-21-6296-8556",
+      "fax": "+86-21-6296-8557"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90025",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "INFO@WCLINC.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE IMPORTERS LTD.",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105",
+      "telephone": "+1-415-555-2222",
+      "fax": "+1-415-555-2223",
+      "email": "ORDERS@GIMP.COM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854239",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9685721",
+      "sealNumber": "123456",
+      "marksAndNumbers": "C123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ROUTERS MODEL XR-2000",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7894321",
+      "sealNumber": "789012",
+      "marksAndNumbers": "D456",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ROUTERS MODEL XR-1500",
+      "grossWeight": 9600.0,
+      "measurement": 22.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 180,
+    "totalGrossWeight": 21600.0,
+    "totalMeasurement": 47.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-001",
+    "documentNumber": "20241012-BL-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigationCertificate-20241012-123"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA DRAGON TRADING CO., LTD",
+      "address": "225 XINGYI ROAD, SHANGHAI, 200336, CHINA",
+      "telephone": "+86-21-6296-8556",
+      "fax": "+86-21-6296-8557"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90025",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213",
+      "email": "INFO@WCLINC.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "onboardDate": "OCT. 20. 2024"
+  }
+}

@@ -1,97 +1,98 @@
 {
-  "bookingReference": "APPLE20241015143211",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "20241003",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable ",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": "",
-      "address": "233 NANJING ROAD EAST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #25-01 International Plaza, SINGAPORE 079903"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "EURO FREIGHT GMBH",
+      "address": "Kaiserstrasse 55, 60329 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 7938 5678",
+      "fax": "+49 69 7938 5679"
     },
     "notifyParty": {
-      "name": "LOGISTICS PLUS GMBH",
-      "address": "HAMBURGER STRASSE 56, 20095 HAMBURG, GERMANY"
+      "name": "ASIA PACIFIC LOGISTICS GMBH",
+      "address": "Frankfurter Allee 10, 60327 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 7938 5680",
+      "fax": "+49 69 7938 5681"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR PACKAGING FOOD PRODUCTS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "MTR-2024-10",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 750.0,
-      "measurement": 15.0,
-      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+      "marksAndNumbers": "APL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 PACKAGES OF MACHINERY FOR PACKAGING FOOD PRODUCTS - WEIGHT: 5000KG EACH",
+      "grossWeight": 50000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APL456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 PACKAGES OF SPARE PARTS FOR PACKAGING MACHINERY - WEIGHT: 2500KG EACH",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 750.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20DR",
+    "totalGrossWeight": 62500.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "CN1234567890",
-      "CO1234567890"
+      "Cert12345",
+      "Cert67890"
     ],
     "originalBLDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-7988-0000",
-      "fax": "+49-69-7988-1111"
+      "name": "EURO FREIGHT GMBH",
+      "address": "Kaiserstrasse 55, 60329 Frankfurt am Main, GERMANY"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "233 NANJING ROAD EAST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "ASIA PACIFIC LOGISTICS GMBH",
+      "address": "Frankfurter Allee 10, 60327 Frankfurt am Main, GERMANY"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance Policy Number: 1234567890"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT & WEIGHT"
   }
 }

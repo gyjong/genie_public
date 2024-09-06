@@ -1,16 +1,16 @@
 {
-  "bookingReference": "APPLE20241016143012",
+  "bookingReference": "PEACH20241015143211",
   "voyageDetails": {
-    "vesselName": "MAERSK MAERSK",
-    "voyageNumber": "2410W112",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
@@ -23,67 +23,65 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "name": "ASIA PACIFIC TRADING CO.",
       "onBehalfOf": "",
-      "address": "2345 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "SPUISTRAT 123, 3013 AL ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROSTAR LOGISTICS GMBH",
+      "address": "SCHILDERSTRASSE 25, 20099 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "STATIONSPLEIN 4, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "CARGO CONTROL BV",
+      "address": "ZUIDERLAAN 100, 1075 AX AMSTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLE PARTS",
   "containers": [
     {
       "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "BOXES 1-10",
-      "numberOfPackages": 20,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE CARGO"
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MOTORCYCLE PARTS AS PER PACKING LIST.",
+      "grossWeight": 6500.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
-    "totalPackages": 20,
-    "packageType": "BOXES",
-    "containerType": "40HQ",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 6500.0,
+    "totalMeasurement": 15.0
   },
   "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000234567890"
     },
     "certificateDetails": [
-      "COO-CN-20241016"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "SPUISTRAT 123, 3013 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-1234567",
-      "fax": "+31-10-8765432"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
-      "address": "2345 HUAIHAI ROAD, SHANGHAI 200021, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "EUROSTAR LOGISTICS GMBH",
+      "address": "SCHILDERSTRASSE 25, 20099 HAMBURG, GERMANY"
     },
-    "onboardDate": "OCT. 22. 2024",
-    "additionalRemarks": "Value: USD 50,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance: USD 50,000"
   }
 }

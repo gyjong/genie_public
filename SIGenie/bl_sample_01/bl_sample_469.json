@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240918124521",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2432E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Ms. Li Mei)",
+      "telephone": "+65 6221 5555",
+      "email": "sales@asiatrading.com.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 30 2000 1234"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "Friedrichstra\u00dfe 60, 10117 Berlin, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 30 2000 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "842131",
+  "commodityDescription": "MACHINERY FOR THE PRODUCTION OF TEXTILE FABRICS",
+  "containers": [
+    {
+      "containerNumber": "GAMI5678901",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "ETG-1234",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE FABRIC PRODUCTION MACHINERY (W.2400MM H.2200MM)",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "GAMI9876543",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ETG-5678",
+      "numberOfPackages": 8,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE FABRIC PRODUCTION MACHINERY (W.2400MM H.2200MM)",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 47.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HSBC BANK SINGAPORE LTD",
+      "address": "1 North Canal Road, Singapore 048828",
+      "telephone": "+65 6388 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HSBC BANK SINGAPORE LTD",
+      "address": "1 North Canal Road, Singapore 048828",
+      "telephone": "+65 6388 8888"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "VALUE: USD150,000"
+  }
+}

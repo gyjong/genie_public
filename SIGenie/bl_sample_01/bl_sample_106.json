@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240920143212",
+  "voyageDetails": {
+    "vesselName": "COSCO INDIA",
+    "voyageNumber": "2437W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "JIANGSU EVERGREEN IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 288, HONGWU ROAD, JIANGSU, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "ZEEHAVEN 95, 3195 ND ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 436 8900"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "ZEEHAVEN 95, 3195 ND ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 436 8900"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "containers": [
+    {
+      "containerNumber": "MSCU3567890",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "EG-001",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT IN 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "EG-002",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20 MT IN 200 KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "EC20240920-001",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20240920001",
+    "originalBLDistribution": {
+      "name": "HSBC BANK PLC",
+      "address": "103-105 SOUTHAMPTON ROW, LONDON WC1B 4JN, UNITED KINGDOM",
+      "telephone": "+44 20 7992 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "JIANGSU EVERGREEN IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 288, HONGWU ROAD, JIANGSU, CHINA",
+      "telephone": "+86 519 8888 9999",
+      "fax": "+86 519 8888 9998"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

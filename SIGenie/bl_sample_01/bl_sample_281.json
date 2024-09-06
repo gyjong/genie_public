@@ -1,0 +1,110 @@
+{
+  "bookingReference": "STARFISH20241018153245",
+  "voyageDetails": {
+    "vesselName": "MSC CASSIUS",
+    "voyageNumber": "2423W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. John Lee)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 20 620 5555"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 20 620 5555"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE, PURIFIED",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC23456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC78901",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC34567",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00012345"
+    },
+    "certificateDetails": "2345678901234567",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "21 Changi South Street 1, Singapore 486777",
+      "telephone": "+65 6378 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "PINEAPPLE20240925134521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "INFO@DELTATRADING.NL"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT PTE LTD",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "taxId": "199801234J",
+      "president": "MR. LIM CHENG KEE",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT PTE LTD",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "taxId": "199801234J",
+      "president": "MR. LIM CHENG KEE",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8708999000",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. MOTORCYCLE PARTS.  FREIGHT PREPAID TO SINGAPORE.",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CO-123456789",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT PTE LTD",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT PTE LTD",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": ""
+  }
+}

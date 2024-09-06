@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20241005123456",
+  "bookingReference": "APPLE202410181427300",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2426W",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2448E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "123 Marina Bay Road, Singapore 018985"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Hanauer Landstra\u00dfe 100, 60314 Frankfurt am Main, Germany",
-      "telephone": "+49 69 7937930",
-      "fax": "+49 69 7937931"
+      "name": "EURO LOGISTICS BV",
+      "address": "Willemstraat 5, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 414 7000",
+      "fax": "+31 10 414 7001",
+      "email": "info@eurologistics.nl",
+      "contactPerson": "Pieter Van Der Meer"
     },
     "notifyParty": {
-      "name": "BANK OF CHINA SINGAPORE BRANCH",
-      "address": "1 Battery Road #01-01, Singapore 049907",
-      "telephone": "+65 6211 1111",
-      "fax": "+65 6211 2222"
+      "sameAsConsignee": false,
+      "name": "GREEN SHIPPING CO.",
+      "address": "Overtoom 123, 1054 DN Amsterdam, Netherlands",
+      "telephone": "+31 20 666 7777",
+      "fax": "+31 20 666 7778"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "90230010",
-  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
+  "hsCode": "8479899090",
+  "commodityDescription": "INDUSTRIAL REFRIGERATION UNITS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "GT123",
-      "numberOfPackages": 100,
-      "cargoDescription": "ELECTRONIC CIRCUIT BOARDS (100 PCS)",
-      "grossWeight": 2000.0,
-      "measurement": 15.0
+      "containerNumber": "TCLU7876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GRN123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 2 INDUSTRIAL REFRIGERATION UNITS",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "MSCU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GT456",
-      "numberOfPackages": 100,
-      "cargoDescription": "ELECTRONIC CIRCUIT BOARDS (100 PCS)",
-      "grossWeight": 2000.0,
-      "measurement": 15.0
+      "containerNumber": "TCLU8901234",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "BLU456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 2 INDUSTRIAL REFRIGERATION UNITS",
+      "grossWeight": 12800.0,
+      "measurement": 31.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 200,
-    "packageType": "CARTONS",
-    "containerType": "20FT",
-    "totalGrossWeight": 4000.0,
-    "totalMeasurement": 30.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40FT CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 25300.0,
+    "totalMeasurement": 61.0
   },
   "additionalInformation": {
+    "invoiceNumber": "INV20241018001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC00012345"
+      "lcNumber": "00001010339243"
     },
     "certificateDetails": [
-      "COO-00123456"
+      "4112724080177X",
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Hanauer Landstra\u00dfe 100, 60314 Frankfurt am Main, Germany"
+      "name": "EURO LOGISTICS BV",
+      "address": "Willemstraat 5, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 414 7000",
+      "fax": "+31 10 414 7001"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "123 Marina Bay Road, Singapore 018985"
+      "name": "GLOBAL TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
     },
-    "onboardDate": "OCT. 15. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN STANDARD EXPORT CARTONS"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

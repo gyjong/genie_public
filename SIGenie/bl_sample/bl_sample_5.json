@@ -1,106 +1,97 @@
 {
-  "bookingReference": "APPLE20241026143256",
+  "bookingReference": "APPLE20240912102504",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024342",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024040",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA TECH CO. LTD.",
-      "address": "NO. 123, XINZHU ROAD, SHANGHAI, 200001",
-      "country": "CHINA",
-      "additionalInfo": "(JING'AN DISTRICT)",
-      "telephone": "+86 21 6278 9012",
-      "email": "SALES@CHINATECH.COM"
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "22nd Floor, De Pijp Tower, A.J. Ernststraat 123, Amsterdam, Netherlands"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015",
-      "country": "USA",
-      "email": "INFO@WESTCOASTIMPORTERS.COM",
-      "telephone": "+1 213 555 1212"
+      "name": "SUNRISE IMPORTS PTE LTD",
+      "address": "10 Anson Road, #18-05 International Plaza, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "5678 OCEAN AVENUE, SANTA MONICA, CA 90401",
-      "country": "USA",
-      "email": "NOTIFICATIONS@GLOBALLOGISTICS.COM",
-      "telephone": "+1 310 555 2323"
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "22nd Floor, De Pijp Tower, A.J. Ernststraat 123, Amsterdam, Netherlands",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798999",
-  "commodityDescription": "COMPUTER HARDWARE INCLUDING MOTHERBOARDS, GRAPHICS CARDS AND RAM MODULES",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "CT123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER HARDWARE INCLUDING MOTHERBOARDS, GRAPHICS CARDS AND RAM MODULES",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & MEASUREMENTS AS INDICATED. TEXTILE MACHINE PARTS",
+      "grossWeight": 8000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "CMAU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "CT456",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER HARDWARE INCLUDING MOTHERBOARDS, GRAPHICS CARDS AND RAM MODULES",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 8,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & MEASUREMENTS AS INDICATED. TEXTILE MACHINE PARTS",
+      "grossWeight": 6500.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 14500.0,
+    "totalMeasurement": 55.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033739"
     },
     "certificateDetails": [
-      "CN1234567890"
+      "1000020070133X"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "123 OCEAN DRIVE, MIAMI, FL 33139",
-      "telephone": "+1 305 555 1234"
+      "name": "SUNRISE IMPORTS PTE LTD",
+      "address": "10 Anson Road, #18-05 International Plaza, Singapore 079903"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA TECH CO. LTD.",
-      "address": "NO. 123, XINZHU ROAD, SHANGHAI, 200001",
-      "telephone": "+86 21 6278 9012"
+      "name": "DELTA TRADING CO. LTD.",
+      "address": "22nd Floor, De Pijp Tower, A.J. Ernststraat 123, Amsterdam, Netherlands"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "VALUE: USD 500,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

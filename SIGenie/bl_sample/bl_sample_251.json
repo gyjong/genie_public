@@ -1,97 +1,90 @@
 {
-  "bookingReference": "APPLE20241015124532",
+  "bookingReference": "APPLE20241015103045",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": "",
-      "address": "568 SHEN NAN ROAD, SHANGHAI 200011, CHINA",
-      "telephone": "+86-21-6335-8888",
-      "fax": "+86-21-6335-9999"
+      "name": "CHINA IMPORT & EXPORT CO.",
+      "onBehalfOf": null,
+      "address": "123 HUAHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "consignee": {
-      "name": "GLOBAL TRADING GMBH",
-      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "AMERICAN TRADING INC.",
+      "address": "1000 Wilshire Blvd, Suite 1500, Los Angeles, CA 90017, USA",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "LOGISTICS PLUS GMBH",
-      "address": "HANSA RING 15, 20457 HAMBURG, GERMANY"
+      "name": "LOGISTICS PLUS USA",
+      "address": "1500 W. Higgins Rd, Suite 300, Des Plaines, IL 60018, USA"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "847130",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU7865123",
-      "sealNumber": "1234567",
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  ELECTRONIC COMPONENTS AS PER PACKING LIST.",
       "grossWeight": 12500.0,
       "measurement": 25.0,
-      "additionalInfo": "CONTAINS PRECISION COMPONENTS. HANDLE WITH CARE."
+      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HC) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
+    "totalContainers": "ONE (40FT HC) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
     "containerType": "40HC",
     "totalGrossWeight": 12500.0,
     "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "0000202033739"
     },
     "certificateDetails": [
       "4112720070177X",
       "4112720070178X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "568 SHEN NAN ROAD, SHANGHAI 200011, CHINA",
-      "telephone": "+86-21-6335-8888",
-      "fax": "+86-21-6335-9999"
+      "name": "CHINA IMPORT & EXPORT CO.",
+      "address": "123 HUAHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING GMBH",
-      "address": "FRANKFURTER STRASSE 25, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-1234-5678",
-      "fax": "+49-69-1234-5679"
+      "name": "AMERICAN TRADING INC.",
+      "address": "1000 Wilshire Blvd, Suite 1500, Los Angeles, CA 90017, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Machinery parts for assembly line. Value: EUR 50,000"
+    "additionalRemarks": "Value: USD100,000"
   }
 }

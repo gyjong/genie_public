@@ -1,0 +1,111 @@
+{
+  "bookingReference": "ORANGE20240918131234",
+  "voyageDetails": {
+    "vesselName": "CMA CGM RHONE",
+    "voyageNumber": "243012",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YUANXING TRADING CO., LTD.",
+      "address": "ROOM 1201, NO. 555, YISHAN ROAD, SHANGHAI, 200235",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "WEESP STREET 123, 1311 DD, WEESP",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROCHEM.NL",
+      "telephone": "+31 294 412345"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "WEESP STREET 123, 1311 DD, WEESP",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROCHEM.NL",
+      "telephone": "+31 294 412345"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29034100",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "CMAU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC234567",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC234568",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC234569",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 20MT, 200KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60300.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789ICP-1",
+    "hsCode": "29153100",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333790"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT FORWARDERS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2020202"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "WEESP STREET 123, 1311 DD, WEESP",
+      "country": "NETHERLANDS",
+      "telephone": "+31 294 412345",
+      "fax": "+31 294 412346"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+  }
+}

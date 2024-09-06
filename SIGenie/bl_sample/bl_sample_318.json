@@ -1,98 +1,95 @@
 {
-  "bookingReference": "APPLE20240912102512",
+  "bookingReference": "APPLE20241026153212",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA 05",
-    "voyageNumber": "2024045",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2428E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "SAN FRANCISCO, USA"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GREENEARTH LOGISTICS (NINGBO) CO., LTD.",
-      "address": "12TH FLOOR, GREENLAND BUILDING, 333 HENGYANG ROAD,NINGBO, CHINA"
+      "name": "SCHULTE GMBH & CO. KG",
+      "address": "WALTER-RATZ-STRASSE 3, 21079 HAMBURG, GERMANY",
+      "telephone": "+49 40 369060",
+      "email": "INFO@SCHULTE-GMBH.DE"
     },
     "consignee": {
-      "name": "WESTCOAST IMPORTERS INC.",
-      "address": "555 MARKET STREET, SUITE 300, LOS ANGELES, CA 90013, USA",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "16 RAFFLES QUAY #32-01, SINGAPORE 048581",
+      "taxId": "200212345H",
+      "president": "MR. LIM CHONG WEN",
+      "telephone": "+65 6536 8888",
+      "fax": "+65 6536 9999"
     },
     "notifyParty": {
-      "name": "GREENEARTH LOGISTICS (USA) INC.",
-      "address": "101 PARK AVE, NEW YORK, NY 10017, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2324"
+      "name": "SCHULTE GMBH & CO. KG",
+      "address": "WALTER-RATZ-STRASSE 3, 21079 HAMBURG, GERMANY",
+      "telephone": "+49 40 369060",
+      "email": "INFO@SCHULTE-GMBH.DE"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR WIND TURBINES",
+  "shippingTerm": "CFR",
+  "hsCode": "84139100",
+  "commodityDescription": "PUMPS FOR LIQUIDS, OTHER THAN HYDRAULIC",
   "containers": [
     {
-      "containerNumber": "MSCU3765928",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "GE20240912",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
-      "grossWeight": 18000.0,
-      "measurement": 35.0
-    },
-    {
-      "containerNumber": "MSCU7890123",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "GE20240912",
-      "numberOfPackages": 15,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  MACHINERY PARTS FOR WIND TURBINES (H.S. CODE: 84798990)",
-      "grossWeight": 22000.0,
-      "measurement": 40.0
+      "containerNumber": "CRLU9672315",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE PUMPS FOR LIQUIDS, OTHER THAN HYDRAULIC",
+      "grossWeight": 4500.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 40000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 10.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000321045678"
+      "lcNumber": "01234567890"
     },
-    "certificateDetails": [
-      "1000032012345X",
-      "1000032012346Y"
-    ],
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "GREENEARTH LOGISTICS (USA) INC.",
-      "address": "101 PARK AVE, NEW YORK, NY 10017, USA"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 CHANDLER ROAD #01-01, SINGAPORE 199679",
+      "telephone": "+65 6371 3100",
+      "fax": "+65 6371 3111"
     },
     "originalInvoiceDistribution": {
-      "name": "WESTCOAST IMPORTERS INC.",
-      "address": "555 MARKET STREET, SUITE 300, LOS ANGELES, CA 90013, USA"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "25 CHANDLER ROAD #01-01, SINGAPORE 199679",
+      "telephone": "+65 6371 3100",
+      "fax": "+65 6371 3111"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "INSURANCE: USD500,000"
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "NONE"
   }
 }

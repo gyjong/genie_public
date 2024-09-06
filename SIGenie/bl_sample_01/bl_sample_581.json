@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE20240912103012",
+  "voyageDetails": {
+    "vesselName": "MAERSK SHANGHAI",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": "CHICAGO, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "1234 FUJIAN ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "AMERICAN IMPORTERS INC.",
+      "address": "5678 SUNSET BOULEVARD, LOS ANGELES, CA, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "notifyParty": {
+      "name": "ABC BANK",
+      "address": "123 MAIN STREET, NEW YORK, NY, USA",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "MSCU3216789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 12,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILE INDUSTRY",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 22,
+    "packageType": "PACKAGES",
+    "containerType": "20FTX2",
+    "totalGrossWeight": 38000.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033739"
+    },
+    "certificateDetails": [
+      "1000020070133X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA GLOBAL LOGISTICS CO., LTD.",
+      "address": "1234 FUJIAN ROAD, NINGBO, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "AMERICAN IMPORTERS INC.",
+      "address": "5678 SUNSET BOULEVARD, LOS ANGELES, CA, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

@@ -1,96 +1,95 @@
 {
-  "bookingReference": "APPLE20241015143522",
+  "bookingReference": "APPLE202409201045200",
   "voyageDetails": {
-    "vesselName": "CMA CGM SAPPHIRE",
-    "voyageNumber": "2447W",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "1010 Marina Boulevard, #23-01 Marina Bay Financial Centre Tower 2, Singapore 018967",
-      "telephone": "+65-6876-5432",
-      "fax": "+65-6876-5431"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "ROOM 602, 6TH FLOOR, SHANGHAI SKY TOWER, 128 YUAN SHANG ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86 21 6352 1112",
+      "fax": "+86 21 6352 1113"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
-      "telephone": "+31-20-624-1234",
-      "fax": "+31-20-624-1235"
+      "name": "SUNRISE IMPORTERS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1 323 555 1212",
+      "fax": "+1 323 555 1213",
+      "email": "INFO@SUNRISEIMPORTERS.COM",
+      "contactPerson": "MARK JOHNSON"
     },
     "notifyParty": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
-      "telephone": "+31-20-624-1234",
-      "fax": "+31-20-624-1235"
+      "sameAsConsignee": true
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "ELECTRIC KITCHEN OVENS",
   "containers": [
     {
-      "containerNumber": "TCLU6789456",
+      "containerNumber": "CMAU5790123",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETM231015",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS, MODEL: EM-2023",
+      "marksAndNumbers": "GLT123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 100 ELECTRIC KITCHEN OVENS",
       "grossWeight": 12500.0,
-      "measurement": 25.5
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLT456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 100 ELECTRIC KITCHEN OVENS",
+      "grossWeight": 12300.0,
+      "measurement": 24.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.5
-  },
-  "dangerousGoods": {
-    "containerNumber": "TCLU6789456",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8544.42",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "None"
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 24800.0,
+    "totalMeasurement": 49.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "ETM-PO231015",
-    "salesOrderNumber": "20231015-001",
+    "invoiceNumber": "GT20240920-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC231015-001"
+      "lcNumber": "00001010339243"
     },
-    "certificateDetails": "SGS-231015-001",
+    "certificateDetails": [
+      "4112724080179X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "Oosterdokskade 150, 1011 AC Amsterdam, Netherlands",
-      "telephone": "+31-20-624-1234",
-      "fax": "+31-20-624-1235"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "ROOM 602, 6TH FLOOR, SHANGHAI SKY TOWER, 128 YUAN SHANG ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86 21 6352 1112",
+      "fax": "+86 21 6352 1113"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "1010 Marina Boulevard, #23-01 Marina Bay Financial Centre Tower 2, Singapore 018967",
-      "telephone": "+65-6876-5432",
-      "fax": "+65-6876-5431"
+      "name": "SUNRISE IMPORTERS INC.",
+      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90064",
+      "telephone": "+1 323 555 1212",
+      "fax": "+1 323 555 1213"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "None"
+    "onboardDate": "SEPT. 29. 2024"
   }
 }

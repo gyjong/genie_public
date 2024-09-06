@@ -1,19 +1,19 @@
 {
-  "bookingReference": "STARFISH20241018153245",
+  "bookingReference": "GRAPE20241026143056",
   "voyageDetails": {
-    "vesselName": "MSC CASSIUS",
-    "voyageNumber": "2423W",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2425E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,88 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Contact: Mr. John Lee)"
+      "name": "SUNRISE TRADING PTE LTD",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #08-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 20 620 5555"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 20 620 5555"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Einsteinweg 12, 2611 BX Delft, Netherlands"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE, PURIFIED",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "070110",
+  "commodityDescription": "POTATOES",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EC23456",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
-    },
-    {
       "containerNumber": "TCLU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC78901",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC34567",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, PURIFIED 20 MT IN 200 LITRE DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 25.0
+      "sealNumber": "987654321",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTATOES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE CONTROLLED"
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00012345"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": "2345678901234567",
+    "certificateDetails": [
+      "PHYTO-00012345",
+      " fumigation-00067890"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "21 Changi South Street 1, Singapore 486777",
-      "telephone": "+65 6378 9999"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road, #08-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31 10 4445555",
+      "fax": "+31 10 4446666"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "OCT. 30. 2024",
+    "additionalRemarks": "Cold Storage Required"
   }
 }

@@ -1,100 +1,90 @@
 {
-  "bookingReference": "APPLE20240912143521",
+  "bookingReference": "APPLE20241026143210",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA 01",
-    "voyageNumber": "2024042",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2438W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-02, ROBINSON CENTRE, SINGAPORE 068930"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "SHANGHAI SUNRISE TRADING CO., LTD.",
+      "address": "ROOM 301, BUILDING 1, NO. 1688, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6358-1234",
+      "fax": "+86-21-6358-5678"
     },
     "consignee": {
-      "name": "EUROTRANS LOGISTICS BV",
-      "address": "DE KOEIEN 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 203 1234",
-      "fax": "+31 10 203 5678"
+      "name": "DEUTSCHE IMPORT GMBH",
+      "address": "SCHLOSSSTRASSE 10, 40215 D\u00dcSSELDORF, GERMANY",
+      "companyNumber": "HRB 23456"
     },
     "notifyParty": {
-      "name": "ABC IMPORT EXPORT NV",
-      "address": "STATIONSPLEIN 1, 2000 ANTWERPEN, BELGIUM",
-      "telephone": "+32 3 222 1234",
-      "fax": "+32 3 222 5678"
+      "name": "GLOBAL LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "SEGU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 8,
-      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
-      "grossWeight": 10000.0,
-      "measurement": 22.0
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 8500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile, handle with care."
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 47.0
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC20241026001"
     },
     "certificateDetails": [
-      "CO1234567890",
-      " fumigation certificate"
+      "CN234567890123",
+      "CN123456789012"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-02, ROBINSON CENTRE, SINGAPORE 068930"
+      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 301, BUILDING 1, NO. 1688, SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6358-1234",
+      "fax": "+86-21-6358-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRANS LOGISTICS BV",
-      "address": "DE KOEIEN 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 203 1234",
-      "fax": "+31 10 203 5678"
+      "name": "SUNRISE TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 20, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49-69-75678901",
+      "fax": "+49-69-75678902"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Insurance: USD 500,000"
   }
 }

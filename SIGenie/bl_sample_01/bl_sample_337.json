@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240915124521",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIANA",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHONGSHAN HONGJIANG IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 188, SHANXI ROAD, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 528401)",
+      "telephone": "+86 757 8226 6888",
+      "email": "sales@hongjiang-import.com"
+    },
+    "consignee": {
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEIMPORTS.DE, ORDERS@DEUTSCHEIMPORTS.DE",
+      "telephone": "+49 40 3999 8765"
+    },
+    "notifyParty": {
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHEIMPORTS.DE, ORDERS@DEUTSCHEIMPORTS.DE",
+      "telephone": "+49 40 3999 8765"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL PUMPS",
+  "containers": [
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "HJ20240915",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: 50 ELECTRIC MOTORS FOR INDUSTRIAL PUMPS, MODEL: HM-200",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "HJ20240915",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: 50 ELECTRIC MOTORS FOR INDUSTRIAL PUMPS, MODEL: HM-200",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN20240915"
+    ],
+    "originalBLDistribution": {
+      "name": "HSBC BANK PLC",
+      "address": "123 HIGH STREET, LONDON WC1A 1AA, UK",
+      "telephone": "+44 20 7662 7100"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HSBC BANK PLC",
+      "address": "123 HIGH STREET, LONDON WC1A 1AA, UK",
+      "telephone": "+44 20 7662 7100"
+    },
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Value: USD 150,000"
+  }
+}

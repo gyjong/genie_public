@@ -1,110 +1,98 @@
 {
-  "bookingReference": "APPLE20240920103217",
+  "bookingReference": "APPLE20240912103045",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2432W",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road #15-01, Singapore 079906",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "SEA DRAGON LOGISTICS PTE LTD",
+      "address": "101 ROBINSON ROAD #16-00 ROBINSON 100, SINGAPORE 068902"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Stationsweg 100, 3065 WB ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochem.nl",
-      "telephone": "+31 10 414 5000"
+      "name": "BLUE SKY TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY",
+      "telephone": "+49 69 75693300",
+      "fax": "+49 69 75693301"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "Weesperstraat 80, 1018 VN Amsterdam, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "operations@globallogistics.nl",
-      "telephone": "+31 20 624 2500"
+      "name": "SEA DRAGON LOGISTICS GMBH",
+      "address": "G\u00d6TTINGENSTRASSE 31, 60313 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 66773300",
+      "fax": "+49 69 66773301"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYL ACETATE",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "TCLU9856321",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EA123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 200 KG PER DRUM",
-      "grossWeight": 40500.0,
-      "measurement": 20.0
+      "marksAndNumbers": "SD230912",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU5432109",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EA456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 200 KG PER DRUM",
-      "grossWeight": 40500.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EA789",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYL ACETATE, NET WEIGHT 200 KG PER DRUM",
-      "grossWeight": 40500.0,
-      "measurement": 20.0
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SD230913",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 121500.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20GP",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC2345678901"
     },
-    "certificateDetails": "CN20241020123456",
+    "certificateDetails": [
+      "1234567890123",
+      "987654321012"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING LTD.",
-      "address": "123 Main Street, London, UK",
-      "telephone": "+44 20 7123 4567"
+      "name": "BLUE SKY TRADING GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Stationsweg 100, 3065 WB ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 5000",
-      "fax": "+31 10 414 5001"
+      "name": "SEA DRAGON LOGISTICS GMBH",
+      "address": "G\u00d6TTINGENSTRASSE 31, 60313 FRANKFURT AM MAIN, GERMANY"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT SUBJECT TO CUSTOMS INSPECTION."
   }
 }

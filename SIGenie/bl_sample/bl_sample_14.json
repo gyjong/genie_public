@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241026143511",
+  "bookingReference": "SUNFLOWER20241026143256",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2443E",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2424052",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,78 +23,88 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "233 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "ZHEJIANG HUAYU CHEMICAL CO., LTD.",
+      "address": "NO. 668, HONGQI ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, 325000",
+      "country": "CHINA",
+      "additionalInfo": "(SOUTHERN DISTRICT)"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "FRIEDRICHSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "EUROCHEM BV",
+      "address": "DE RUN 4111, 3131 AA, ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROCHEM.NL, INFO@EUROCHEM.NL",
+      "telephone": "+31 10 203 5678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WALTER-G-MEYER-STRASSE 15, 60594 FRANKFURT, GERMANY"
+      "name": "EUROCHEM BV",
+      "address": "DE RUN 4111, 3131 AA, ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROCHEM.NL, INFO@EUROCHEM.NL",
+      "telephone": "+31 10 203 5678"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8479899000",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "29032200",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "1234567890",
-      "marksAndNumbers": "EUROTECH 1/3",
-      "numberOfPackages": 15,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 8500.0,
-      "measurement": 18.0,
-      "additionalInfo": ""
+      "containerNumber": "SEGU9163761",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "EA123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "TCLU87654321",
-      "sealNumber": "9876543210",
-      "marksAndNumbers": "EUROTECH 2/3",
-      "numberOfPackages": 20,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 9000.0,
-      "measurement": 20.0,
-      "additionalInfo": ""
+      "containerNumber": "SEGU7542310",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "EA456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU3879264",
+      "sealNumber": "13579246",
+      "marksAndNumbers": "EA789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
-    "totalPackages": 35,
-    "packageType": "BOXES AND CRATES",
-    "containerType": "20FT",
-    "totalGrossWeight": 17500.0,
-    "totalMeasurement": 38.0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29032200",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC1234567890123"
     },
-    "certificateDetails": [
-      "CN1234567890"
-    ],
+    "certificateDetails": "CN20241026001",
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "233 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WEGGENSTRAAT 10, 3010, ROTTERDAM",
+      "telephone": "+31 10 203 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "FRIEDRICHSTRASSE 12, 60313 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7981-2345",
-      "fax": "+49-69-7981-2346"
+      "name": "EUROCHEM BV",
+      "address": "DE RUN 4111, 3131 AA, ROTTERDAM",
+      "telephone": "+31 10 203 5678",
+      "fax": "+31 10 203 5679"
     },
-    "onboardDate": "NOV. 02. 2024",
-    "additionalRemarks": "Machinery parts packed in sturdy boxes and crates. Consignee responsible for unloading."
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\nATTACHED RIDER"
   }
 }

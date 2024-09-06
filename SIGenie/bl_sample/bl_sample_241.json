@@ -1,95 +1,110 @@
 {
-  "bookingReference": "GRAPE20240912101502",
+  "bookingReference": "APPLE20240925103456",
   "voyageDetails": {
-    "vesselName": "CELESTIAL HOPE 05",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024321",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE, SINGAPORE",
-    "portOfLoading": "SINGAPORE, SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": ""
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "101 UPPER CROSS STREET, #05-01, SINGAPORE 058357",
-      "telephone": "+65 6336 7890",
-      "email": "sales@sunrisetrading.sg"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "ATTN: MR. JOHN SMITH"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "taxId": "98-76543210",
-      "president": "MR. JOHN SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROCHEM GMBH",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 40 37890123"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE LOGISTICS LLC",
-      "address": "5678 MARKET ST, SAN FRANCISCO, CA 94107, USA",
-      "telephone": "+1 415 555 3434",
-      "fax": "+1 415 555 3435"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "FRANKFURTER ALLEE 12, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "NOTIFICATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 69 79876543"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "73269098",
-  "commodityDescription": "STEEL PIPES & TUBES",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
       "containerNumber": "CMAU9876543",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA STEEL PIPES & TUBES",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL, NET WEIGHT 20,000 KGS",
       "grossWeight": 22000.0,
-      "measurement": 30.0
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL, NET WEIGHT 20,000 KGS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "ONEU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL, NET WEIGHT 20,000 KGS",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 30.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "2903310000",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "COC-1234567890",
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS CO., LTD",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS CO., LTD",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890456"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CLEAN ON BOARD"
+    "onboardDate": "SEPT. 26. 2024",
+    "additionalRemarks": "ALL FREIGHT PREPAID EXCEPT PORT CHARGES AND VAT.\nSHIPPER DECLARES THAT THE CARGO IS NOT SUBJECT TO ANY EXPORT RESTRICTIONS."
   }
 }

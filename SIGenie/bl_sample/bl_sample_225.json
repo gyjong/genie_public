@@ -1,97 +1,97 @@
 {
-  "bookingReference": "APPLE20241015132501",
+  "bookingReference": "GRAPE20240912142511",
   "voyageDetails": {
-    "vesselName": "MSC ARIANE",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2435W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "HAMBURG, GERMANY",
-    "portOfLoading": "HAMBURG, GERMANY",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE, SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ABC IMPORT EXPORT GMBH",
-      "onBehalfOf": "",
-      "address": "Kaiserstra\u00dfe 25, 20095 Hamburg, Germany",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 12345679"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "20 Anson Road, #12-01, Anson Centre, Singapore 079912"
     },
     "consignee": {
-      "name": "SEA LION TRADING PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "companyNumber": "200501234Z"
+      "name": "EURO IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS PTE LTD",
-      "address": "180 Alexandra Road, #05-01 PSA Building, Singapore 079946"
+      "name": "EURO LOGISTICS GMBH",
+      "address": "HafenCity 10, 20457 Hamburg, Germany",
+      "telephone": "+49 40 6666 7777",
+      "fax": "+49 40 6666 8888"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE PRODUCTION",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC-123",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 950.0,
-      "measurement": 15.0,
-      "additionalInfo": "COC: PROVIDED BY SHIPPER"
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SPARES FOR LOOMS, PACKED IN WOODEN CRATES",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 8,
+      "cargoDescription": "ELECTRONIC COMPONENTS FOR WEAVING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20FT",
-    "totalGrossWeight": 950.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "CRATES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 65.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC0000123456"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "COO-SINGAPORE"
     ],
     "originalBLDistribution": {
-      "name": "ABC IMPORT EXPORT GMBH",
-      "address": "Kaiserstra\u00dfe 25, 20095 Hamburg, Germany",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 12345679"
+      "name": "EURO IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany"
     },
     "originalInvoiceDistribution": {
-      "name": "ABC IMPORT EXPORT GMBH",
-      "address": "Kaiserstra\u00dfe 25, 20095 Hamburg, Germany",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 12345679"
+      "name": "EURO IMPORTS GMBH",
+      "address": "Speicherstadt 1, 20457 Hamburg, Germany"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Motorcycles for commercial use. Value: USD 15,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT TO BE DELIVERED TO EURO IMPORTS GMBH WAREHOUSE IN HAMBURG."
   }
 }

@@ -1,100 +1,106 @@
 {
-  "bookingReference": "APPLE202410181032100",
+  "bookingReference": "APPLE20240912113021",
   "voyageDetails": {
-    "vesselName": "MSC CATALINA",
-    "voyageNumber": "2435E",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2437E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ANTWERP, BELGIUM",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "PHOENIX, AZ, U.S.A"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "VAN DER HORST IMPORT EXPORT BV",
-      "address": "BEEMSTERSTRAAT 123, 1013 KG AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 622 3456",
-      "fax": "+31 20 622 3457"
+      "name": "SHANGHAI GOLDENSTAR CO., LTD.",
+      "address": "NO. 1888, SHANGHAI ROAD, PUTUO DISTRICT, SHANGHAI, 200062",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)",
+      "telephone": "+86 21 6325 1234",
+      "email": "INFO@GOLDENSTAR.COM.CN"
     },
     "consignee": {
-      "name": "SUNRISE LOGISTICS INC.",
-      "address": "12345 SUNRISE BLVD, LOS ANGELES, CA 90011",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213",
-      "email": "IMPORT@SUNRISELOGISTICS.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH GMBH",
+      "address": "GOTZKOWSKI STREET 23, 20537 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 3556 7890"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE WAREHOUSE",
-      "address": "12345 GOLDEN GATE AVE, PHOENIX, AZ 85001",
-      "telephone": "+1 602 555 1313",
-      "fax": "+1 602 555 1314",
-      "contactPerson": "JANE DOE"
+      "name": "EUROTECH GMBH",
+      "address": "GOTZKOWSKI STREET 23, 20537 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 40 3556 7890"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES, 125CC",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "84798990",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
   "containers": [
     {
-      "containerNumber": "TCLU3456789",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-123",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
-      "grossWeight": 1500.0,
-      "measurement": 10.0
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM-2024)",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "MSCU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "SUNRISE-456",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
-      "grossWeight": 1500.0,
-      "measurement": 10.0
+      "marksAndNumbers": "GT5678",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM-2024)",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 10,
-    "totalGrossWeight": 3000.0,
-    "totalMeasurement": 20.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241018-001",
-    "documentNumber": "20241018-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "L1234567890"
     },
     "certificateDetails": [
-      "CO-1234567890",
-      " fumigation certificate - 1234567890"
+      "CN20240912001"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE LOGISTICS INC.",
-      "address": "12345 SUNRISE BLVD, LOS ANGELES, CA 90011",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "DHL EXPRESS",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT",
+      "telephone": "+49 69 7902 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "VAN DER HORST IMPORT EXPORT BV",
-      "address": "BEEMSTERSTRAAT 123, 1013 KG AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 622 3456",
-      "fax": "+31 20 622 3457"
+      "name": "DHL EXPRESS",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT",
+      "telephone": "+49 69 7902 1234"
     },
-    "onboardDate": "OCT. 28. 2024"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD 60,000"
   }
 }

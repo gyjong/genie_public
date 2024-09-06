@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241016113542",
+  "voyageDetails": {
+    "vesselName": "COSCO YINGKOU",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GOLDEN DRAGON LTD.",
+      "address": "1234 BAOAN ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1213"
+    },
+    "consignee": {
+      "name": "AMSTERDAM TRADING CO.",
+      "address": "255 DAM SQUARE, AMSTERDAM 1012 NL, NETHERLANDS",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1235"
+    },
+    "notifyParty": {
+      "name": "AMSTERDAM TRADING CO.",
+      "address": "255 DAM SQUARE, AMSTERDAM 1012 NL, NETHERLANDS",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1235"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 1250.5,
+      "measurement": 1.5
+    },
+    {
+      "containerNumber": "CMAU4321654",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 875.25,
+      "measurement": 1.25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "BOXES AND CRATES",
+    "totalGrossWeight": 2125.75,
+    "totalMeasurement": 2.75
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "234567890123456789",
+    "originalBLDistribution": {
+      "name": "AMSTERDAM TRADING CO.",
+      "address": "255 DAM SQUARE, AMSTERDAM 1012 NL, NETHERLANDS",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI GOLDEN DRAGON LTD.",
+      "address": "1234 BAOAN ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1213"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

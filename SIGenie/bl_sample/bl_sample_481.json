@@ -1,96 +1,89 @@
 {
-  "bookingReference": "APPLE20241015143022",
+  "bookingReference": "APPLE20241015123456",
   "voyageDetails": {
-    "vesselName": "EVER LIBERTY",
-    "voyageNumber": "20241001",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "238 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6327-1111",
-      "fax": "+86-21-6327-2222"
+      "name": "TROPICAL FRUITS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "5555 Wilshire Blvd. Suite 200, Los Angeles, CA 90036, USA",
-      "telephone": "1-310-555-1212",
-      "fax": "1-310-555-3434"
+      "name": "FRUIT IMPORTERS BV",
+      "address": "NIEUWemarkT 12, 3011 CA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "238 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6327-1111",
-      "fax": "+86-21-6327-2222"
+      "name": "FRUIT IMPORTERS BV",
+      "address": "NIEUWemarkT 12, 3011 CA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8543.70",
-  "commodityDescription": "COMPUTER HARDWARE",
+  "shippingTerm": "CFR",
+  "hsCode": "0805.90",
+  "commodityDescription": "MANGOES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-LA123",
-      "numberOfPackages": 10,
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "FRUIT123",
+      "numberOfPackages": 500,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. HARDWARE FOR COMPUTERS. TOTAL 10 CARTONS.",
-      "grossWeight": 1250.5,
-      "measurement": 15.25
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MANGOES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'X1) CONTAINER ONLY",
-    "totalPackages": 10,
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 500,
     "packageType": "CARTONS",
-    "totalGrossWeight": 1250.5,
-    "totalMeasurement": 15.25
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "TCLU1234567",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8543.70",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY COMPARTMENTS PROTECTED"
-  },
+  "dangerousGoods": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567890",
-    "salesOrderNumber": "9876543210",
+    "purchaseOrderNumber": "9010283",
+    "salesOrderNumber": "2083456",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00003010339242"
     },
-    "certificateDetails": "CN20241015001",
+    "certificateDetails": "4112724080190",
     "originalBLDistribution": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "5555 Wilshire Blvd. Suite 200, Los Angeles, CA 90036, USA",
-      "telephone": "1-310-555-1212",
-      "fax": "1-310-555-3434"
+      "name": "FRUIT IMPORTERS BV",
+      "address": "NIEUWemarkT 12, 3011 CA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4567-8901",
+      "fax": "+31-10-4567-8902"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "238 HUAIHAI ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6327-1111",
-      "fax": "+86-21-6327-2222"
+      "name": "TROPICAL FRUITS LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "BATTERY COMPARTMENTS PROTECTED"
+    "additionalRemarks": "GOOD ORDER AND CONDITION"
   }
 }

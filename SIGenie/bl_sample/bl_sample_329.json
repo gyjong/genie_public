@@ -1,20 +1,20 @@
 {
-  "bookingReference": "PEACH20240912123456",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "COSCO CHONGQING 07",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432E",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG WEISHI IMPORT & EXPORT CO., LTD",
-      "address": "NO.333, XINHU ROAD, YONGKANG, ZHEJIANG, CHINA",
-      "telephone": "+86 579 8612 3456",
-      "email": "SALES@WEISHITRADING.COM"
+      "name": "DEUTSCHE METALL GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3036 5421",
+      "email": "INFO@DEUTSCHEMETALL.DE"
     },
     "consignee": {
-      "name": "CALIFORNIA HARDWARE INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "taxId": "9876543210",
-      "president": "MS. JANE SMITH",
-      "telephone": "+1 555 123 4567",
-      "fax": "+1 555 123 4568"
+      "name": "SINGAPORE IRON & STEEL PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "198712345H",
+      "president": "MR. LIM CHENG WEE",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "notifyParty": {
-      "name": "CALIFORNIA HARDWARE INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "taxId": "9876543210",
-      "president": "MS. JANE SMITH",
-      "telephone": "+1 555 123 4567",
-      "fax": "+1 555 123 4568"
+      "name": "SINGAPORE IRON & STEEL PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "198712345H",
+      "president": "MR. LIM CHENG WEE",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "82054000",
-  "commodityDescription": "METAL DOOR FRAMES",
+  "hsCode": "72083700",
+  "commodityDescription": "HOT ROLLED STEEL COILS",
   "containers": [
     {
-      "containerNumber": "CMAU8897654",
+      "containerNumber": "MSCU9671234",
       "sealNumber": "123456",
       "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR LOS ANGELES, USA METAL DOOR FRAMES",
-      "grossWeight": 15000.0,
-      "measurement": 25.0
+      "numberOfPackages": 200,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HOT ROLLED STEEL COILS",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "containerType": "40 DRY",
-    "totalGrossWeight": 15000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "COILS",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
     "width": "In-Gauge",
     "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40' Dry Container"
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0300301045678"
+      "lcNumber": "LC000123456"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "1234 LOGISTICS WAY, LOS ANGELES, CA 90002, USA",
-      "telephone": "+1 555 567 8901",
-      "fax": "+1 555 567 8902"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Singapore 018982",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 3333"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "1234 LOGISTICS WAY, LOS ANGELES, CA 90002, USA",
-      "telephone": "+1 555 567 8901",
-      "fax": "+1 555 567 8902"
+      "name": "SINGAPORE IRON & STEEL PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPPER'S SEAL USED. "
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240915102345",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024312",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 BUKIT MERAH CENTRAL, #05-01, SINGAPORE 169878",
+      "country": "SINGAPORE",
+      "additionalInfo": "(TRADE CENTRE)"
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "SCHLOSSSTRASSE 12, 60313 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 7908760"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "SCHLOSSSTRASSE 12, 60313 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 7908760"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC-123",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC-456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "ONEU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EC-789",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
+      "grossWeight": 20100.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60300.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 96666666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "101 BUKIT MERAH CENTRAL, #05-01, SINGAPORE 169878",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+  }
+}

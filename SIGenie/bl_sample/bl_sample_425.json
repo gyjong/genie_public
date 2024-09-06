@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20240920123456",
   "voyageDetails": {
-    "vesselName": "MSC BEATRICE",
-    "voyageNumber": "2426E",
-    "bound": "E"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2432W",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "SEA WAYBILL",
@@ -23,73 +23,88 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFRESH BV",
-      "address": "ZUIDERHOEK 15, 3115 GR SCHIEDAM, NETHERLANDS",
-      "telephone": "+31 15 262 5555",
-      "email": "INFO@EUROFRESH.NL"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(International Plaza)"
     },
     "consignee": {
-      "name": "FRUITASIA PTE LTD",
-      "address": "51 Anson Road #06-01 Anson Centre, SINGAPORE 079903",
-      "taxId": "200211234Z",
-      "president": "MR. LIM CHENG WEE",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "EUROCHEM BV",
+      "address": "Prinsenhof 10, 3011 KV Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 3456"
     },
     "notifyParty": {
-      "name": "FRUITASIA LOGISTICS PTE LTD",
-      "address": "123 Tampines Central 1 #03-12 Tampines Hub, SINGAPORE 528533",
-      "telephone": "+65 6789 0000",
-      "fax": "+65 6789 1111"
+      "name": "EUROCHEM BV",
+      "address": "Prinsenhof 10, 3011 KV Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 412 3456"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "0805909000",
-  "commodityDescription": "APPLES, GOLDEN DELICIOUS, FRESH",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "GRSU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "FRUITASIA/2345",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "1000 CARTONS GOLDEN DELICIOUS APPLES, FRESH, COUNT AND WEIGHT",
+      "marksAndNumbers": "EC20240920",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20,000 KGS IN 200 DRUMS",
       "grossWeight": 20000.0,
-      "measurement": 25.0
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC20240920",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20,000 KGS IN 200 DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "GRSU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC20240920",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20,000 KGS IN 200 DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 45.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "PHYTO-SANITARY CERTIFICATE NO. 1234567890",
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "10 Anson Road #09-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6222 9999",
-      "fax": "+65 6222 8888"
+      "name": "EUROCHEM BV",
+      "address": "Prinsenhof 10, 3011 KV Rotterdam, Netherlands",
+      "telephone": "+31 10 412 3456"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "10 Anson Road #09-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6222 9999",
-      "fax": "+65 6222 8888"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
   }
 }

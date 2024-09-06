@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912113510",
+  "voyageDetails": {
+    "vesselName": "CMA CGM RHONE",
+    "voyageNumber": "2439W",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEUTSCHE BANK AG AMSTERDAM BRANCH",
+      "address": "WILLEMSSTAD 2, 1016JK AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 555 1234",
+      "email": "shipping@deutschebank.nl"
+    },
+    "consignee": {
+      "name": "GOLDSTAR TRADING PTE LTD",
+      "address": "123 Anson Road #18-01 Anson Centre Singapore 079903",
+      "taxId": "200212345Z",
+      "president": "MR. LEE CHONG WEE",
+      "telephone": "+65 6222 5555",
+      "fax": "+65 6222 6666"
+    },
+    "notifyParty": {
+      "name": "GOLDSTAR TRADING PTE LTD",
+      "address": "123 Anson Road #18-01 Anson Centre Singapore 079903",
+      "taxId": "200212345Z",
+      "president": "MR. LEE CHONG WEE",
+      "telephone": "+65 6222 5555",
+      "fax": "+65 6222 6666"
+    }
+  },
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "8479899000",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "SUDU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS1234567",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF SINGAPORE MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 8500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "123 Changi North Way 1, Singapore 499603",
+      "telephone": "+65 6393 3300",
+      "fax": "+65 6393 3399"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "123 Changi North Way 1, Singapore 499603",
+      "telephone": "+65 6393 3300",
+      "fax": "+65 6393 3399"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS PACKED AND MARKED IN ACCORDANCE WITH CUSTOMER'S REQUIREMENTS"
+  }
+}

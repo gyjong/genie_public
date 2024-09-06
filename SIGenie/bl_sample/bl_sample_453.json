@@ -1,110 +1,107 @@
 {
-  "bookingReference": "APPLE20240915113456",
+  "bookingReference": "APPLE20240912103512",
   "voyageDetails": {
-    "vesselName": "EVER GOLDEN",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024342",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG LONGHUI IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 388, CHENGXING ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(ZIP CODE: 322000)"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "212 CANARY WHARF, LONDON E14 5HQ, UNITED KINGDOM"
     },
     "consignee": {
-      "name": "GLOBAL TRADING GMBH",
-      "address": "FRANKFURTER STRASSE 54, 60329 FRANKFURT AM MAIN, GERMANY",
-      "country": "GERMANY",
-      "email": "INFO@GLOBALTRADING.DE",
-      "telephone": "+49 69 798675"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS GMBH",
-      "address": "SCHLESISCHE STR. 23, 40235 D\u00dcSSELDORF, GERMANY",
-      "country": "GERMANY",
-      "email": "NOTIFICATIONS@ABCLOGISTICS.DE",
-      "telephone": "+49 211 301456"
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "1 Marina Boulevard #42-01 Marina Bay Financial Centre Tower 3, Singapore 018989",
+      "telephone": "+65 6888 1111",
+      "fax": "+65 6888 2222"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "848330",
-  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "LH123",
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "GP123",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS DIGITAL CAMERA LENSES, MODEL: DCX-5000",
+      "grossWeight": 1200.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GP456",
+      "numberOfPackages": 100,
+      "cargoDescription": "100 PCS DIGITAL CAMERA LENSES, MODEL: DCX-5000",
+      "grossWeight": 1200.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU9999999",
+      "sealNumber": "1111111111",
+      "marksAndNumbers": "GP789",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (50 BOXES)",
-      "grossWeight": 12000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU1112223",
-      "sealNumber": "789012",
-      "marksAndNumbers": "LH456",
-      "numberOfPackages": 30,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (30 CRATES)",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "COSU3334445",
-      "sealNumber": "345678",
-      "marksAndNumbers": "LH789",
-      "numberOfPackages": 20,
-      "packageType": "PALLETS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT (20 PALLETS)",
-      "grossWeight": 6000.0,
-      "measurement": 10.0
+      "cargoDescription": "50 PCS DIGITAL CAMERA LENSES, MODEL: DCX-7000",
+      "grossWeight": 600.0,
+      "measurement": 7.75
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES, CRATES & PALLETS",
-    "totalGrossWeight": 26000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 48.75
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "84833090",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "certificateDetails": [
+      "COC1234567890",
+      "COO1234567890"
+    ],
     "originalBLDistribution": {
-      "name": "ABC SHIPPING CO. LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA",
-      "telephone": "+86 21 12345678"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING GMBH",
-      "address": "FRANKFURTER STRASSE 54, 60329 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49 69 798675",
-      "fax": "+49 69 798676"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "212 CANARY WHARF, LONDON E14 5HQ, UNITED KINGDOM"
     },
-    "onboardDate": "SEPT. 16. 2024",
-    "additionalRemarks": "FREIGHT PREPAID TO ROTTERDAM. 10 DAYS FREE TIME AT DESTINATION. CONSIGNEE TO ARRANGE CUSTOMS CLEARANCE AND INLAND TRANSPORTATION."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT TO BE DELIVERED TO KUALA LUMPUR, MALAYSIA AFTER DISCHARGE IN SINGAPORE."
   }
 }

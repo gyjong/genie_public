@@ -1,20 +1,20 @@
 {
-  "bookingReference": "GRAPE20241025143056",
+  "bookingReference": "APPLE20240912112345",
   "voyageDetails": {
-    "vesselName": "MERLIN STAR",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2427E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,79 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1201, NO. 555, SHENYING ROAD, SHANGHAI 200041, CHINA",
-      "telephone": "+86-21-6336-8888",
-      "fax": "+86-21-6336-9999"
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "INFO@GLOBALTRADING.NL"
     },
     "consignee": {
-      "name": "GOLDEN GATE DISTRIBUTORS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
-      "companyNumber": "1234567"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "199801234Z",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6222 1111",
+      "fax": "+65 6222 2222"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS SOLUTIONS",
-      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401, USA"
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 3333",
+      "fax": "+65 6222 4444"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "847130",
-  "commodityDescription": "AUTOMATIC GEARBOXES",
+  "hsCode": "85423100",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "SEGU9906743",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "GGD-123",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC GEARBOXES",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED AT 15\u00b0C"
-    },
-    {
-      "containerNumber": "SEGU9906744",
-      "sealNumber": "789012",
-      "marksAndNumbers": "GGD-456",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC GEARBOXES",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED AT 15\u00b0C"
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000212145678"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1201, NO. 555, SHENYING ROAD, SHANGHAI 200041, CHINA",
-      "telephone": "+86-21-6336-8888",
-      "fax": "+86-21-6336-9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "originalInvoiceDistribution": {
-      "name": "GOLDEN GATE DISTRIBUTORS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 ABC STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

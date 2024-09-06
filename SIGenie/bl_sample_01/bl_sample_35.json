@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "MSC IRINA",
+    "voyageNumber": "2428E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NEW YORK, USA",
+    "placeOfDelivery": "NEW YORK, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA SHIPPING BV",
+      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "125 BROAD STREET, SUITE 200, NEW YORK, NY 10004, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING BV",
+      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 6789",
+      "fax": "+31 10 555 6790"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87112000",
+  "commodityDescription": "MOTORCYCLES, 50CC TO 250CC",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA-1",
+      "numberOfPackages": 10,
+      "cargoDescription": "MOTORCYCLES, 50CC TO 250CC, BRAND: DELTA SPEEDSTER",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DELTA-2",
+      "numberOfPackages": 10,
+      "cargoDescription": "MOTORCYCLES, 50CC TO 250CC, BRAND: DELTA SPEEDSTER",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20240912123"
+    },
+    "certificateDetails": [
+      "COO-US20240912"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING BV",
+      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "125 BROAD STREET, SUITE 200, NEW YORK, NY 10004, USA"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES. "
+  }
+}

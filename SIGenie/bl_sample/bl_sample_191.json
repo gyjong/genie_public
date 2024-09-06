@@ -1,97 +1,89 @@
 {
-  "bookingReference": "PINEAPPLE20241015143251",
+  "bookingReference": "APPLE20241026143512",
   "voyageDetails": {
-    "vesselName": "COSMOS SKY",
+    "vesselName": "APL CHANGI",
     "voyageNumber": "20241003",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE TRADING CO. LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1008, NO. 888, CHANGNING ROAD, SHANGHAI 200052, CHINA",
-      "telephone": "+86-21-6278-9001",
-      "fax": "+86-21-6278-9002"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "SUNRISE LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "FLOWER POWER BV",
-      "address": "KEIZERSGRACHT 123, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "name": "EUROIMPORTS BV",
+      "address": "NIEUWE MAAS 123, 3011 WC ROTTERDAM, NETHERLANDS",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS N.V.",
-      "address": "SPANJAARDSESTRAAT 100, 2000 ANTWERPEN, BELGIUM"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "SCHIPHOL RING 123, 1118 AX SCHIPHOL, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "902300",
-  "commodityDescription": "LIGHTING FIXTURES",
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "UTLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ABC123",
       "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: LIGHTING FIXTURES",
-      "grossWeight": 5500.0,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
       "measurement": 20.0,
-      "additionalInfo": "FRAGILE: HANDLE WITH CARE."
+      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
     "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 5500.0,
+    "packageType": "BOXES",
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
     "totalMeasurement": 20.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "L1234567890123"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "4112720070179X",
-      "4112720070180X"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "FLOWER POWER BV",
-      "address": "KEIZERSGRACHT 123, 1016 GJ AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-123-4567",
-      "fax": "+31-20-123-4568"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI SUNRISE TRADING CO. LTD.",
-      "address": "ROOM 1008, NO. 888, CHANGNING ROAD, SHANGHAI 200052, CHINA",
-      "telephone": "+86-21-6278-9001",
-      "fax": "+86-21-6278-9002"
+      "name": "SUNRISE LTD.",
+      "address": "123 MAIN STREET, LONDON W1A 1AA, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Insurance Policy Number: 1234567890"
   }
 }

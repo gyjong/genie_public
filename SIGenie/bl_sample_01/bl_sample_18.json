@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912134512",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2427E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROTECH IMPORT EXPORT BV",
+      "address": "MARKTSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 245 6789",
+      "email": "INFO@EUROTECH.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "taxId": "200112345G",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "taxId": "200112345G",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84212300",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE MACHINERY PARTS FOR TEXTILE INDUSTRY",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "123 Changi North Crescent, Singapore 499610",
+      "telephone": "+65 6595 6666",
+      "fax": "+65 6595 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "123 Changi North Crescent, Singapore 499610",
+      "telephone": "+65 6595 6666",
+      "fax": "+65 6595 6667"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

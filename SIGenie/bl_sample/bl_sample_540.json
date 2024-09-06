@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE202410161037210",
+  "bookingReference": "APPLE202409271512100",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2442E",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "24048E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -23,77 +23,76 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
-      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "consignee": {
-      "name": "West Coast Logistics Inc.",
-      "address": "123 Main Street, Los Angeles, CA 90012, U.S.A",
-      "telephone": "+1-213-555-1234",
-      "fax": "+1-213-555-1235",
-      "email": "info@westcoastlogistics.com",
-      "contactPerson": "John Smith"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "4567 OCEAN AVE, LOS ANGELES, CA 90045, U.S.A",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-9876",
+      "email": "IMPORT@WCL.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
       "sameAsConsignee": false,
-      "name": "Zenith International Trading",
-      "address": "456 Elm Street, Los Angeles, CA 90013, U.S.A",
-      "telephone": "+1-310-555-5678",
-      "fax": "+1-310-555-5679"
+      "name": "GLOBAL TRADING CO.",
+      "address": "7890 MAIN ST, SAN FRANCISCO, CA 94103, U.S.A",
+      "telephone": "+1-415-555-2323",
+      "fax": "+1-415-555-6767"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "610910",
-  "commodityDescription": "Men's T-Shirts - Cotton Blend",
+  "shippingTerm": "CIF",
+  "hsCode": "854239",
+  "commodityDescription": "ELECTRONIC COMPONENTS - RESISTORS AND CAPACITORS",
   "containers": [
     {
-      "containerNumber": "CMAU8876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "T-SHIRT123",
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
       "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - COTTON BLEND",
-      "grossWeight": 9500.0,
-      "measurement": 18.5
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: RESISTORS AND CAPACITORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "T-SHIRT456",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - COTTON BLEND",
-      "grossWeight": 9400.0,
-      "measurement": 18.2
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 450,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: RESISTORS AND CAPACITORS",
+      "grossWeight": 11000.0,
+      "measurement": 23.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 18900.0,
-    "totalMeasurement": 36.7
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 950,
+    "totalGrossWeight": 23000.0,
+    "totalMeasurement": 48.5
   },
   "additionalInformation": {
-    "invoiceNumber": "20241016-001",
-    "documentNumber": "20001639822",
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20241027001",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
+      "COO-20241027-001"
     ],
     "originalBLDistribution": {
-      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
-      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "Zhejiang Tianyi Import & Export Co., Ltd.",
-      "address": "No. 188, Wenzhou Road, Ningbo, Zhejiang, China",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "4567 OCEAN AVE, LOS ANGELES, CA 90045, U.S.A",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-9876"
     },
     "onboardDate": "OCT. 27. 2024"
   }

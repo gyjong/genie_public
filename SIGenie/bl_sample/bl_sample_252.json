@@ -1,106 +1,97 @@
 {
-  "bookingReference": "STARFISH20240918142731",
+  "bookingReference": "APPLE20240912132501",
   "voyageDetails": {
-    "vesselName": "MSC ANNA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ROBINSON ROAD, #12-00 ROBINSON TOWER, SINGAPORE 068902",
-      "country": "SINGAPORE",
-      "additionalInfo": "(BUSINESS DISTRICT)",
-      "telephone": "+65 6536 1234",
-      "email": "INFO@ASIAPACIFICTRADING.COM"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "225 DE RUYTERlaan, 3011 NL ROTTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "WALTER-STRASSE 12, 20355 HAMBURG",
-      "country": "GERMANY",
-      "email": "ORDERS@EUROTECHGMBH.DE",
-      "telephone": "+49 40 367890"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD.",
+      "address": "128 ROBINSON ROAD, #13-01, SINGAPORE 068906",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
     },
     "notifyParty": {
-      "name": "ABC IMPORT EXPORT",
-      "address": "REUTERSTRASSE 25, 20537 HAMBURG",
-      "country": "GERMANY",
-      "email": "FREIGHT@ABCIMPORTEXPORT.DE",
-      "telephone": "+49 40 2567890"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD.",
+      "address": "128 ROBINSON ROAD, #13-01, SINGAPORE 068906",
+      "telephone": "+65 6226 8888",
+      "fax": "+65 6226 9999"
     }
   },
   "shippingTerm": "CIF",
   "hsCode": "84798990",
-  "commodityDescription": "INDUSTRIAL HYDRAULIC PUMPS WITH ELECTRIC MOTORS",
+  "commodityDescription": "INDUSTRIAL HYDRAULIC PRESSES",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMLU1234567",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "TEN (10) CRATES CONTAINING INDUSTRIAL HYDRAULIC PUMPS WITH ELECTRIC MOTORS. GROSS WEIGHT: 5000 KG. ",
-      "grossWeight": 5000.0,
-      "measurement": 15.0
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) HYDRAULIC PRESSES, MODEL: HP-2000, SERIAL NUMBERS: HP202301-05",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     },
     {
-      "containerNumber": "CMAU7890123",
+      "containerNumber": "CMLU87654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "TEN (10) CRATES CONTAINING INDUSTRIAL HYDRAULIC PUMPS WITH ELECTRIC MOTORS. GROSS WEIGHT: 5000 KG. ",
-      "grossWeight": 5000.0,
-      "measurement": 15.0
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) HYDRAULIC PRESSES, MODEL: HP-2000, SERIAL NUMBERS: HP202306-10",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
     "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "totalGrossWeight": 10000.0,
-    "totalMeasurement": 30.0
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 70.0
   },
   "outOfGaugeDimensions": {
     "length": 0,
     "width": 0,
     "height": 0,
-    "overWidth": 0,
     "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "LC0001234567"
     },
     "certificateDetails": [
       "COO1234567890"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "321 FRANKFURTER STRASSE, 60314 FRANKFURT",
-      "telephone": "+49 69 79033300"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD.",
+      "address": "128 ROBINSON ROAD, #13-01, SINGAPORE 068906"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "321 FRANKFURTER STRASSE, 60314 FRANKFURT",
-      "telephone": "+49 69 79033300"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "225 DE RUYTERlaan, 3011 NL ROTTERDAM, NETHERLANDS"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "SHIPMENT UNDER TIR CONVENTION\nGOODS ARE PACKED IN ACCORDANCE WITH THE REQUIREMENTS OF THE IMDG CODE"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
   }
 }

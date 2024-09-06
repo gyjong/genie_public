@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024040",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "Kaiserstrasse 12, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79098765",
+      "fax": "+49 69 79098764"
+    },
+    "notifyParty": {
+      "name": "EURO TRADE GMBH",
+      "address": "Kaiserstrasse 12, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79098765",
+      "fax": "+49 69 79098764"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "DIGITAL CAMERA LENSES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG-001",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL: DLX-1000",
+      "grossWeight": 1200.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ETG-002",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 BOXES DIGITAL CAMERA LENSES, MODEL: DLX-1000",
+      "grossWeight": 1200.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 2400.0,
+    "totalMeasurement": 31.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-00123456"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "Kaiserstrasse 12, 60311 Frankfurt am Main, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TRADE GMBH",
+      "address": "Kaiserstrasse 12, 60311 Frankfurt am Main, Germany"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

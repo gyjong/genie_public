@@ -1,90 +1,100 @@
 {
-  "bookingReference": "GRAPE20241025123456",
+  "bookingReference": "APPLE20241015133045",
   "voyageDetails": {
-    "vesselName": "MARS LOGISTICS",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
     "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "FLOWER POWER LTD.",
-      "onBehalfOf": "",
-      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
-      "telephone": "+31-20-1234-5678",
-      "fax": "+31-20-9876-5432"
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "SUNRISE GROUP LTD.",
+      "address": "123 SUNRISE STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0432"
     },
     "consignee": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "10 ORCHARD ROAD, SINGAPORE 238864",
-      "companyNumber": "200212345H"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "124 EURO STREET, 3000 ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS PTE LTD",
-      "address": "200 TEMASEK BOULEVARD, SINGAPORE 038786"
+      "name": "SUNRISE LOGISTICS",
+      "address": "125 LOGISTICS WAY, SINGAPORE 543210"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "330499",
-  "commodityDescription": "PERFUMES",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "FP231025",
-      "numberOfPackages": 500,
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PERFUMES",
-      "grossWeight": 6000.0,
-      "measurement": 15.5,
-      "additionalInfo": "Fragile, Handle with Care"
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 1200.0,
+      "measurement": 8.5,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "432109",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 40,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 1000.0,
+      "measurement": 7.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 500,
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 90,
     "packageType": "CARTONS",
     "containerType": "20GP",
-    "totalGrossWeight": 6000.0,
+    "totalGrossWeight": 2200.0,
     "totalMeasurement": 15.5
   },
   "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "123456789012"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "FLOWER POWER LTD.",
-      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
-      "telephone": "+31-20-1234-5678",
-      "fax": "+31-20-9876-5432"
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0432"
     },
     "originalInvoiceDistribution": {
-      "name": "FLOWER POWER LTD.",
-      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
-      "telephone": "+31-20-1234-5678",
-      "fax": "+31-20-9876-5432"
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, SINGAPORE 123456",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0432"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "Value: USD 100,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD50,000"
   }
 }

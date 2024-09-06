@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE202409121012300",
+  "bookingReference": "APPLE202409261145300",
   "voyageDetails": {
-    "vesselName": "MSC MARIA",
-    "voyageNumber": "2024040",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024311",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LONG BEACH, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA, U.S.A"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LONG BEACH, CA, U.S.A"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -23,79 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA IMPORT & EXPORT CO., LTD",
-      "address": "2013 HUAYUAN ROAD, SHIMING DISTRICT, NINGBO, 315040, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "fax": "+86 574 8765 4322"
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "1234 HONGWU ROAD, JIANGNING DISTRICT, NINGBO 315011, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     },
     "consignee": {
-      "name": "AMERICAN GLOBAL LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213",
-      "email": "IMPORT@AGL.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "5555 EL SEGUNDO BLVD, LOS ANGELES, CA 90249",
+      "telephone": "310-555-1212",
+      "fax": "310-555-1213",
+      "email": "INFO@WESTCOASTLOGISTICS.COM",
+      "contactPerson": "MARIA SANCHEZ"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "5678 OCEAN AVENUE, SANTA MONICA, CA 90405",
-      "telephone": "1-310-555-9876",
-      "fax": "1-310-555-9877",
-      "email": "INFO@SUNRISETRADE.COM"
+      "sameAsConsignee": true
     }
   },
-  "shippingTerm": "CFR LONG BEACH",
-  "hsCode": "620920",
-  "commodityDescription": "LADIES' COTTON T-SHIRTS",
+  "shippingTerm": "CFR",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "TCLU7799654",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
       "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS ASSORTED COLORS AND SIZES",
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS ASSORTED COLORS & SIZES",
       "grossWeight": 12500.0,
-      "measurement": 25.505
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU7799655",
-      "sealNumber": "7654321",
-      "marksAndNumbers": "SUNRISE124",
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-456",
       "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' COTTON T-SHIRTS ASSORTED COLORS AND SIZES",
-      "grossWeight": 12450.0,
-      "measurement": 25.125
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS ASSORTED COLORS & SIZES",
+      "grossWeight": 12300.0,
+      "measurement": 24.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT CONTAINER",
+    "totalContainers": "2 X 40' DRY CONTAINERS",
     "totalPackages": 2000,
-    "totalGrossWeight": 24950.0,
-    "totalMeasurement": 50.63
+    "totalGrossWeight": 24800.0,
+    "totalMeasurement": 50.3
   },
   "additionalInformation": {
-    "invoiceNumber": "CI20240912001",
+    "invoiceNumber": "20241001-001",
     "documentNumber": "20001639822",
     "lcDetails": {
       "lcNumber": "00001010339243"
     },
     "certificateDetails": [
-      "4112724080179X",
-      "4112724080180X"
+      "4112724080179X"
     ],
     "originalBLDistribution": {
-      "name": "CHINA IMPORT & EXPORT CO., LTD",
-      "address": "2013 HUAYUAN ROAD, SHIMING DISTRICT, NINGBO, 315040, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "fax": "+86 574 8765 4322"
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "1234 HONGWU ROAD, JIANGNING DISTRICT, NINGBO 315011, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN GLOBAL LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213",
-      "email": "IMPORT@AGL.COM"
+      "name": "SUNRISE IMPORT & EXPORT CO. LTD",
+      "address": "1234 HONGWU ROAD, JIANGNING DISTRICT, NINGBO 315011, CHINA",
+      "telephone": "0574-87654321",
+      "fax": "0574-87654322"
     },
-    "onboardDate": "SEPT. 28. 2024"
+    "onboardDate": "OCT. 05. 2024"
   }
 }

@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912101502",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024312",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "DIJKZICHT 60, 3012 BV ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "TRANSATLANTIC LOGISTICS INC.",
+      "address": "175 BROADWAY, NEW YORK, NY 10038, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "notifyParty": {
+      "name": "BLUE OCEAN IMPORTS LLC",
+      "address": "123 MAIN STREET, BOSTON, MA 02110, USA",
+      "telephone": "+1 617 555 1111",
+      "fax": "+1 617 555 1112"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR FOOD PROCESSING",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GO123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 10 PACKAGES OF MACHINERY FOR FOOD PROCESSING",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "GRSU1112223",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "GS456",
+      "numberOfPackages": 5,
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 5 PACKAGES OF MACHINERY FOR FOOD PROCESSING",
+      "grossWeight": 6000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000301043745"
+    },
+    "certificateDetails": [
+      "1000030080131X",
+      "1000030080132X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "DIJKZICHT 60, 3012 BV ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TRANSATLANTIC LOGISTICS INC.",
+      "address": "175 BROADWAY, NEW YORK, NY 10038, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES. ALL PACKAGES ARE PROPERLY MARKED AND LABELED."
+  }
+}

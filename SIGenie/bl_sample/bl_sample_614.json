@@ -1,0 +1,101 @@
+{
+  "bookingReference": "PEACH20241026143215",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI DRAGON TRADING CO., LTD.",
+      "onBehalfOf": "YIWU IMPORT & EXPORT CO.",
+      "address": "ROOM 502, BUILDING 3, NO. 1888 YISHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "consignee": {
+      "name": "EUROFRESH BV",
+      "address": "WESTLANDELAAN 1A, 2681 HV,  HERPEN, NETHERLANDS",
+      "companyNumber": "51234567"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS NETHERLANDS",
+      "address": "POELSTRAAT 10, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "070990",
+  "commodityDescription": "ONIONS",
+  "containers": [
+    {
+      "containerNumber": "CMLU5567823",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ONION55",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONIONS",
+      "grossWeight": 24000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Temperature controlled shipment"
+    },
+    {
+      "containerNumber": "CMLU1122334",
+      "sealNumber": "678901",
+      "marksAndNumbers": "ONION56",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONIONS",
+      "grossWeight": 24000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Temperature controlled shipment"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000223344556"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI DRAGON TRADING CO., LTD.",
+      "address": "ROOM 502, BUILDING 3, NO. 1888 YISHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFRESH BV",
+      "address": "WESTLANDELAAN 1A, 2681 HV,  HERPEN, NETHERLANDS",
+      "telephone": "+31-17-428-5555",
+      "fax": "+31-17-428-6666"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Onions for fresh market consumption"
+  }
+}

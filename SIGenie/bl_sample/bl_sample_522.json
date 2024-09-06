@@ -1,102 +1,110 @@
 {
-  "bookingReference": "APPLE202410121141200",
+  "bookingReference": "APPLE20240920123456",
   "voyageDetails": {
-    "vesselName": "COSCO YINGKOU",
-    "voyageNumber": "2024342",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA DRAGON TRADING CO., LTD",
-      "address": "225 XINGYI ROAD, SHANGHAI, 200336, CHINA",
-      "telephone": "+86-21-6296-8556",
-      "fax": "+86-21-6296-8557"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 588, HUAIHAI MIDDLE ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90025",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "INFO@WCLINC.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "GERMAN CHEMICALS GMBH",
+      "address": "FRANKFURTER STRASSE 56, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "INFO@GERMANCHEMICALS.DE",
+      "telephone": "+49 69 7560123"
     },
     "notifyParty": {
-      "name": "GOLDEN GATE IMPORTERS LTD.",
-      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105",
-      "telephone": "+1-415-555-2222",
-      "fax": "+1-415-555-2223",
-      "email": "ORDERS@GIMP.COM"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@ABCLOGISTICS.DE",
+      "telephone": "+49 40 3038123"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854239",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
+  "hsCode": "280700",
+  "commodityDescription": "SODIUM CARBONATE (SODA ASH)",
   "containers": [
     {
-      "containerNumber": "CMAU9685721",
+      "containerNumber": "MSCU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "C123",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ROUTERS MODEL XR-2000",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25 MT, 50 KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "CMAU7894321",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "D456",
-      "numberOfPackages": 80,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ROUTERS MODEL XR-1500",
-      "grossWeight": 9600.0,
-      "measurement": 22.5
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25 MT, 50 KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SODIUM CARBONATE (SODA ASH) 25 MT, 50 KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 180,
-    "totalGrossWeight": 21600.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241012-001",
-    "documentNumber": "20241012-BL-002",
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "28070090",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00001010333789"
     },
-    "certificateDetails": [
-      "COO-1234567890",
-      " fumigationCertificate-20241012-123"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "CHINA DRAGON TRADING CO., LTD",
-      "address": "225 XINGYI ROAD, SHANGHAI, 200336, CHINA",
-      "telephone": "+86-21-6296-8556",
-      "fax": "+86-21-6296-8557"
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234567"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 SUNSET BOULEVARD, SUITE 300, LOS ANGELES, CA 90025",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "INFO@WCLINC.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 588, HUAIHAI MIDDLE ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 22. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nSHIPPER'S LOAD AND COUNT"
   }
 }

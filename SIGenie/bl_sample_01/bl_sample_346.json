@@ -1,0 +1,89 @@
+{
+  "bookingReference": "APPLE20241015123456",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "20241002",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "SUNRISE LTD.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Prinsestraat 123, 3012 AA Rotterdam, Netherlands",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "1234 Port Road, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "GCKU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 7500.0,
+      "measurement": 15.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 15.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #20-01, Singapore 079903",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE LTD.",
+      "address": "1234 Main Street, Singapore 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance Policy: Policy No. 1234567890"
+  }
+}

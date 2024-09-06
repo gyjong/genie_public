@@ -1,95 +1,97 @@
 {
-  "bookingReference": "APPLE202410179143200",
+  "bookingReference": "ORANGE20240912113005",
   "voyageDetails": {
-    "vesselName": "MSC SHANGHAI",
-    "voyageNumber": "2024342",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 2
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA TRADE IMPORT EXPORT CO. LTD",
-      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA 315000",
-      "telephone": "+86-574-88776655",
-      "fax": "+86-574-88776688"
+      "name": "NINGBO HONGYI IMPORT & EXPORT CO., LTD.",
+      "address": "2ND FLOOR, BUILDING NO. 1, XINMING INDUSTRIAL PARK, YONGJIANG STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "sales@hongyi-nb.com"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "DE KOOPVAART 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-3478",
-      "email": "INFO@EUROIMPORTS.NL",
-      "contactPerson": "JAN VAN DER MEER"
+      "name": "EUROTRADE BV",
+      "address": "WEGELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "STATIONSPLEIN 25, 3013 AK ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-203-4567",
-      "fax": "+31-10-203-4589"
+      "name": "EUROTRADE BV",
+      "address": "WEGELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN VAN DER HEIJDEN",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "GRSU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 20,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPARE PARTS FOR LOOM MACHINES",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "XYZ987",
-      "numberOfPackages": 15,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONTROL UNITS FOR WEAVING MACHINES",
-      "grossWeight": 9000.0,
-      "measurement": 22.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ELECTRONIC CIRCUIT BOARDS",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 35,
-    "totalGrossWeight": 21500.0,
-    "totalMeasurement": 47.5
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 8000.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "invoiceNumber": "20241017-001",
-    "documentNumber": "20241017-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0300201033738"
     },
-    "certificateDetails": [
-      "CN20241017-001"
-    ],
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "DE KOOPVAART 12, 3011 AA ROTTERDAM, NETHERLANDS"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA TRADE IMPORT EXPORT CO. LTD",
-      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA 315000"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

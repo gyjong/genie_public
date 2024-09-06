@@ -1,96 +1,107 @@
 {
-  "bookingReference": "APPLE20241015123456",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "COSCO PACIFIC",
-    "voyageNumber": "224W",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Original Bill of Lading",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "123 CHANGSHU ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86-21-6328-5678",
-      "fax": "+86-21-6328-5679"
+      "name": "SHANGHAI DELTA TRADING CO., LTD.",
+      "address": "ROOM 1002, NO. 1888, HONGQIAO ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5876 8901",
+      "email": "SALES@SHANGHAIDELTA.COM"
     },
     "consignee": {
-      "name": "DUTCH IMPORTERS BV",
-      "address": "152 ANNA VAN BURENSTRAAT, 3011 Rotterdam, NETHERLANDS",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-3457"
+      "name": "EUROTECH GMBH",
+      "address": "MARKTSTRASSE 5, 4021 BASEL, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "email": "INFO@EUROTECH.CH, ORDERS@EUROTECH.CH",
+      "telephone": "+41 61 692 45 67"
     },
     "notifyParty": {
-      "name": "DUTCH CUSTOMS BROKER",
-      "address": "125 MAASLANDSTRAAT, 3011 Rotterdam, NETHERLANDS",
-      "telephone": "+31-10-234-5678",
-      "fax": "+31-10-234-5679"
+      "name": "EUROTECH GMBH",
+      "address": "MARKTSTRASSE 5, 4021 BASEL, SWITZERLAND",
+      "country": "SWITZERLAND",
+      "email": "INFO@EUROTECH.CH, ORDERS@EUROTECH.CH",
+      "telephone": "+41 61 692 45 67"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8471.30",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "hsCode": "848330",
+  "commodityDescription": "MACHINERY FOR THE PRODUCTION OF TEXTILES",
   "containers": [
     {
-      "containerNumber": "MSCU5782315",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "EM-123",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET2345",
       "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 12500.0,
-      "measurement": 30.0
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AS SHOWN, SAID TO CONTAIN: TEXTILE MACHINERY PARTS (W.2400MM H.2200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET7890",
+      "numberOfPackages": 8,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AS SHOWN, SAID TO CONTAIN: TEXTILE MACHINERY PARTS (W.2400MM H.2200MM)",
+      "grossWeight": 15000.0,
+      "measurement": 28.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "totalGrossWeight": 33000.0,
+    "totalMeasurement": 58.7
   },
-  "dangerousGoods": {
-    "containerNumber": "MSCU5782315",
-    "unClass": "9",
-    "unCode": "3334",
-    "hsCode": "8471.30",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "Batteries contained within motors"
+  "outOfGaugeDimensions": {
+    "length": 2400,
+    "width": 2400,
+    "height": 2200,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-123456789",
-    "salesOrderNumber": "SO-987654321",
     "lcDetails": {
-      "lcNumber": "LC20241015001"
+      "lcNumber": "00002345678901"
     },
-    "certificateDetails": "20241015002",
+    "certificateDetails": [
+      "CN411252403578X",
+      "CN411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "DUTCH IMPORTERS BV",
-      "address": "152 ANNA VAN BURENSTRAAT, 3011 Rotterdam, NETHERLANDS",
-      "telephone": "+31-10-412-3456",
-      "fax": "+31-10-412-3457"
+      "name": "SWISS GLOBAL LOGISTICS",
+      "address": "ZURICHstrasse 12, 8001 ZURICH, SWITZERLAND",
+      "telephone": "+41 44 255 66 77"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "123 CHANGSHU ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86-21-6328-5678",
-      "fax": "+86-21-6328-5679"
+      "name": "SWISS GLOBAL LOGISTICS",
+      "address": "ZURICHstrasse 12, 8001 ZURICH, SWITZERLAND",
+      "telephone": "+41 44 255 66 77"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Batteries contained within electric motors"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "VALUE: USD50,000\nATTACHED RIDER"
   }
 }

@@ -1,20 +1,20 @@
 {
-  "bookingReference": "ORANGE20240912121507",
+  "bookingReference": "APPLE20241026143012",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA 18",
-    "voyageNumber": "2024042",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "MASTER",
@@ -23,78 +23,67 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA"
+      "name": "GLOBAL FOODS LTD.",
+      "onBehalfOf": "",
+      "address": "PO Box 1234, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
     "consignee": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "POSTFACH 100123, 20000 HAMBURG, GERMANY",
-      "telephone": "+49 40 12345678",
-      "fax": "+49 40 87654321"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "companyNumber": "201212345K"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA",
-      "telephone": "+86 21 56789012",
-      "fax": "+86 21 34567890"
+      "name": "SUNRISE LOGISTICS PTE LTD.",
+      "address": "101 Ubi Avenue 1, #05-01, Ubi Techpark, SINGAPORE 408955"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "07011000",
+  "commodityDescription": "WHEAT FLOUR",
   "containers": [
     {
-      "containerNumber": "CMAU5587236",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 10,
-      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 15,
-      "cargoDescription": "SPARE PARTS FOR TEXTILE MACHINERY",
-      "grossWeight": 8000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "GF-231026",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT & SEAL SAID TO CONTAIN: 1000 BAGS WHEAT FLOUR",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "packageType": "PACKAGES",
+    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
     "containerType": "20DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 45.0
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "1000020070133X",
-      "1000020070134Y"
+      "PHYTOSANITARY CERTIFICATE"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "POSTFACH 100123, 20000 HAMBURG, GERMANY"
+      "name": "GLOBAL FOODS LTD.",
+      "address": "PO Box 1234, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO., LTD.",
-      "address": "35TH FLOOR, SHANGHAI TOWER, 1218 SHANGHAI, CHINA",
-      "telephone": "+86 21 56789012",
-      "fax": "+86 21 34567890"
+      "name": "GLOBAL FOODS LTD.",
+      "address": "PO Box 1234, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN EXPORT STANDARD PACKING"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "WHEAT FLOUR FOR HUMAN CONSUMPTION"
   }
 }

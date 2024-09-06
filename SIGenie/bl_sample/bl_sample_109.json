@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240912121212",
+  "bookingReference": "APPLE202410129876500",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2440E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,94 +17,84 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 ORCHARD ROAD, #12-01, SINGAPORE 238875",
-      "country": "SINGAPORE",
-      "additionalInfo": "(CAPITAL TOWER)"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "DIJKZICHT 123, 3016 AD ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 444 5555"
+      "name": "EUROTRADE IMPORT & EXPORT BV",
+      "address": "Industrieweg 10, 3125 BV Hoek van Holland, Netherlands",
+      "telephone": "+31 174 567890",
+      "fax": "+31 174 567891",
+      "email": "info@eurotrade.nl",
+      "contactPerson": "Pieter Van Der Meer"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "DIJKZICHT 123, 3016 AD ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 444 5555"
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
+      "telephone": "+31 20 777 1234",
+      "fax": "+31 20 777 5678"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "29032100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "MSCU7896543",
+      "containerNumber": "GLDU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC2345",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG PER DRUM, TOTAL 20MT",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "T-SHIRT ORDER 12345",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "EG1234",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG PER DRUM, TOTAL 20MT",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EG5678",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL, 200KG PER DRUM, TOTAL 20MT",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "T-SHIRT ORDER 67890",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 50.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "29032100",
-    "freeTimeAtDestination": "14 DAYS",
+    "invoiceNumber": "APL2024101298765",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "00001010333789"
+      "lcNumber": "LC00012345678"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
     "originalBLDistribution": {
-      "name": "SINGAPORE GLOBAL LOGISTICS",
-      "address": "123 JURONG EAST STREET 13, #05-01, SINGAPORE 602123",
-      "telephone": "+65 6567 8901"
+      "name": "EUROTRADE IMPORT & EXPORT BV",
+      "address": "Industrieweg 10, 3125 BV Hoek van Holland, Netherlands",
+      "telephone": "+31 174 567890",
+      "fax": "+31 174 567891"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE GLOBAL LOGISTICS",
-      "address": "123 JURONG EAST STREET 13, #05-01, SINGAPORE 602123",
-      "telephone": "+65 6567 8901",
-      "fax": "+65 6567 8902"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "14 Days Free Time at Destination\nATTACHED RIDER"
+    "onboardDate": "OCT. 27. 2024"
   }
 }

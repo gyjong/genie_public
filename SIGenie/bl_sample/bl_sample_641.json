@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241026143011",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024102",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": null,
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8866",
+      "fax": "+65 6221 8899"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "HafenCity, \u00dcberseering 12, 20457 Hamburg, Germany",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GERMAN FREIGHT FORWARDERS",
+      "address": "Speicherstadt, Brooktorkai 2, 20457 Hamburg, Germany"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "GCKU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "CertNo1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8866",
+      "fax": "+65 6221 8899"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "HafenCity, \u00dcberseering 12, 20457 Hamburg, Germany",
+      "telephone": "+49 40 3119 1234",
+      "fax": "+49 40 3119 5678"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Hazardous Cargo Declaration Required"
+  }
+}

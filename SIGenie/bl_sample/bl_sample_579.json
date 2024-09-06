@@ -1,98 +1,108 @@
 {
-  "bookingReference": "APPLE202410161042300",
+  "bookingReference": "APPLE20241017143211",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2426E",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, NY, U.S.A",
-    "placeOfDelivery": "NEWARK, NJ, U.S.A",
-    "finalDestination": "CHICAGO, IL, U.S.A"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "NEW YORK, NY, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 3
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFLOW LOGISTICS BV",
-      "address": "WATERLOOSTRAAT 56, 3012 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 3457"
+      "name": "SUNRISE TRADING CO. LTD",
+      "onBehalfOf": "",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6321-5678",
+      "fax": "+86-21-6321-5679"
     },
     "consignee": {
-      "name": "AMERICAN SHIPPING CO. INC.",
-      "address": "123 MAIN STREET, SUITE 300, NEWARK, NJ 07102",
-      "telephone": "973-555-1212",
-      "fax": "973-555-1213",
-      "email": "INFO@AMERICANSHIPPING.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL FREIGHT SOLUTIONS",
-      "address": "555 BROADWAY, NEW YORK, NY 10003",
-      "telephone": "212-555-5555",
-      "fax": "212-555-5556"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "100 BROADWAY, NEW YORK, NY 10004, USA"
     }
   },
-  "shippingTerm": "CFR NEW YORK",
-  "hsCode": "441870",
-  "commodityDescription": "PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
   "containers": [
     {
-      "containerNumber": "MSCU3812597",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "PL123",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
-      "grossWeight": 22000.0,
-      "measurement": 30.5
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     },
     {
-      "containerNumber": "MSCU5632810",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "PL456",
-      "numberOfPackages": 450,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLYWOOD, HARDWOOD, BIRCH, 1/2 INCH THICK",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT DRY CONTAINERS",
-    "totalPackages": 950,
-    "totalGrossWeight": 42500.0,
-    "totalMeasurement": 58.5
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "20241016-001",
-    "documentNumber": "20241016-BL-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE - NL20241016-001"
+      "4112720070177X",
+      "4112720070178X"
     ],
     "originalBLDistribution": {
-      "name": "AMERICAN SHIPPING CO. INC.",
-      "address": "123 MAIN STREET, SUITE 300, NEWARK, NJ 07102",
-      "telephone": "973-555-1212",
-      "fax": "973-555-1213"
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6321-5678",
+      "fax": "+86-21-6321-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFLOW LOGISTICS BV",
-      "address": "WATERLOOSTRAAT 56, 3012 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 412 3456",
-      "fax": "+31 10 412 3457"
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6321-5678",
+      "fax": "+86-21-6321-5679"
     },
-    "onboardDate": "OCT. 27. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD 50,000"
   }
 }

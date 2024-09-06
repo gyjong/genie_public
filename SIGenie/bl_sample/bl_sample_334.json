@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20240925143512",
+  "bookingReference": "ORANGE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "24045E",
-    "bound": "E"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024045",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD",
-      "address": "234 CANAL STREET, AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 777 8889",
-      "email": "INFO@GLOBALTRADING.NL"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Marina Bay, Singapore 018982",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-4567"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
-      "taxId": "200821777D",
-      "president": "MR. TAN AH KEE",
-      "telephone": "+65 6225 1234",
-      "fax": "+65 6225 5678"
+      "name": "EUROTECH GMBH",
+      "address": "Kurf\u00fcrstenstrasse 56, 10707 Berlin, Germany",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
-      "taxId": "200821777D",
-      "president": "MR. TAN AH KEE",
-      "telephone": "+65 6225 1234",
-      "fax": "+65 6225 5678"
+      "name": "BANK OF AMERICA, FRANKFURT BRANCH",
+      "address": "Taunusanlage 12, 60323 Frankfurt am Main, Germany",
+      "telephone": "+49-69-7938-0",
+      "fax": "+49-69-7938-1000"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES - 125CC",
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "MSCU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE MOTORCYCLES - 125CC",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ET-2023-0912",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 100 BOXES ELECTRONIC COMPONENTS.",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CRATES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 15.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' Dry Container"
+  "dangerousGoods": {
+    "containerNumber": "MSCU8765432",
+    "unClass": "9",
+    "unCode": "3077",
+    "hsCode": "8544.42",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Batteries are packed in accordance with IATA regulations."
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO-2023-10-01",
+    "salesOrderNumber": "SO-2023-10-02",
     "lcDetails": {
-      "lcNumber": "LC0023456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": "20231003-CERT-001",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "12 Changi South Street 2, Singapore 486060",
-      "telephone": "+65 6595 6666",
-      "fax": "+65 6595 6667"
+      "name": "EUROTECH GMBH",
+      "address": "Kurf\u00fcrstenstrasse 56, 10707 Berlin, Germany",
+      "telephone": "+49-30-1234-5678",
+      "fax": "+49-30-1234-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS SINGAPORE",
-      "address": "12 Changi South Street 2, Singapore 486060",
-      "telephone": "+65 6595 6666",
-      "fax": "+65 6595 6667"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Marina Bay, Singapore 018982",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-4567"
     },
-    "onboardDate": "OCT. 10. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "Batteries are subject to special handling."
   }
 }

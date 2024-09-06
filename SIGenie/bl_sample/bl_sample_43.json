@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241026134512",
+  "bookingReference": "APPLE20240912103521",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2430E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,65 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "101 ORCHARD ROAD, #25-01, SINGAPORE 238840",
-      "telephone": "+65-6737-8888",
-      "fax": "+65-6737-9999"
+      "name": "SCHULZ GMBH & CO. KG",
+      "address": "REINHOLD-STRASSE 12, 20253 HAMBURG, GERMANY",
+      "telephone": "+49 40 398 567 42",
+      "email": "INFO@SCHULZ-GMBH.DE"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "HERMANN-STRASSE 12, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
+      "taxId": "201212345G",
+      "president": "MR. LEE CHONG YONG",
+      "telephone": "+65 6225 8900",
+      "fax": "+65 6225 8901"
     },
     "notifyParty": {
-      "name": "FREIGHT FORWARDERS LTD.",
-      "address": "25 MARKET STREET, LONDON EC1A 4PQ, UNITED KINGDOM"
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "111 Tampines Street 33, #03-12, Singapore 521111",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "SUDU8123456",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROTECH 123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT. SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 2500.0,
-      "measurement": 15.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+      "marksAndNumbers": "AS PER SHIPPING MARKS",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+      "grossWeight": 5000.0,
+      "measurement": 12.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 12.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 Dry Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC20241026001"
+      "lcNumber": "LC20241001"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ORCHARD ROAD, #25-01, SINGAPORE 238840",
-      "telephone": "+65-6737-8888",
-      "fax": "+65-6737-9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123, Anson Road, Singapore 079903",
+      "telephone": "+65 6225 8902",
+      "fax": "+65 6225 8903"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "HERMANN-STRASSE 12, 60311 FRANKFURT, GERMANY"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123, Anson Road, Singapore 079903",
+      "telephone": "+65 6225 8902",
+      "fax": "+65 6225 8903"
     },
-    "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "Insurance covered by shipper."
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT IS SUBJECT TO INSPECTION BY SGS"
   }
 }

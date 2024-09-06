@@ -1,0 +1,111 @@
+{
+  "bookingReference": "APPLE20240915145642",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2224099",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "KLASSENSTRASSE 12, 20357 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 3212345"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "KLASSENSTRASSE 12, 20357 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 3212345"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETM-2024-0915-1",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 ELECTRIC MOTORS FOR INDUSTRIAL USE, 500KG EACH",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ETM-2024-0915-2",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 ELECTRIC MOTORS FOR INDUSTRIAL USE, 500KG EACH",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ETM-2024-0915-3",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 ELECTRIC MOTORS FOR INDUSTRIAL USE, 500KG EACH",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "85437090",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001234567890"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "HAMBURG AIRPORT, 22335 HAMBURG, GERMANY",
+      "telephone": "+49 40 5000123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "KLASSENSTRASSE 12, 20357 HAMBURG",
+      "country": "GERMANY",
+      "telephone": "+49 40 3212345",
+      "fax": "+49 40 3212346"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+  }
+}

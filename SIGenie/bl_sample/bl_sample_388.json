@@ -1,97 +1,110 @@
 {
-  "bookingReference": "ORANGE20240912134521",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "MSC IRENE",
-    "voyageNumber": "2432E",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2423W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "VAN DER MEER TRADING BV",
-      "address": "NIEUWELAAN 123, 3011 CZ ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "INFO@VANDERMEER.NL"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 68, SHIJING ROAD, ZHONGSHAN, GUANGDONG, 528403",
+      "country": "CHINA",
+      "additionalInfo": "(ZHUHAI BRANCH)"
     },
     "consignee": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "123 Anson Road, #12-01 Anson Centre, SINGAPORE 079903",
-      "taxId": "201212345Z",
-      "president": "MR. TAN KIM HENG",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROCHEM BV",
+      "address": "BEZIENSTRAAT 15, 3011 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 412 5000"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "123 Anson Road, #12-01 Anson Centre, SINGAPORE 079903",
-      "taxId": "201212345Z",
-      "president": "MR. TAN KIM HENG",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROCHEM BV",
+      "address": "BEZIENSTRAAT 15, 3011 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 412 5000"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLBENZENE",
   "containers": [
     {
-      "containerNumber": "TCLU5555567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 10,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE MACHINERY PARTS",
-      "grossWeight": 8500.0,
-      "measurement": 15.5
+      "containerNumber": "SEGU7654321",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EC23456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SEAL SAID TO CONTAIN 200 DRUMS ETHYLBENZENE 200KG PER DRUM, TOTAL 40,000KG",
+      "grossWeight": 40000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SEGU8765432",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "EC12345",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SEAL SAID TO CONTAIN 200 DRUMS ETHYLBENZENE 200KG PER DRUM, TOTAL 40,000KG",
+      "grossWeight": 40000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "3216547",
+      "marksAndNumbers": "EC67890",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SEAL SAID TO CONTAIN 200 DRUMS ETHYLBENZENE 200KG PER DRUM, TOTAL 40,000KG",
+      "grossWeight": 40000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 10,
-    "packageType": "BOXES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 8500.0,
-    "totalMeasurement": 15.5
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 90.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "CO-123456789",
+    "certificateDetails": "CN1234567890",
     "originalBLDistribution": {
-      "name": "ABC Freight Forwarders",
-      "address": "123 Main Street, Singapore 123456",
-      "telephone": "+65 6123 4567",
-      "fax": "+65 6123 8901"
+      "name": "DHL EXPRESS",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 555 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "ABC Freight Forwarders",
-      "address": "123 Main Street, Singapore 123456",
-      "telephone": "+65 6123 4567",
-      "fax": "+65 6123 8901"
+      "name": "EUROCHEM BV",
+      "address": "BEZIENSTRAAT 15, 3011 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 412 5000"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO IS HAZARDOUS, PLEASE HANDLE WITH CARE."
   }
 }

@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240915142357",
+  "bookingReference": "APPLE20240912101522",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
-    "voyageNumber": "2432E",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2432W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,64 +17,64 @@
     "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "",
-      "telephone": "+65 6221 8888",
-      "email": "info@globaltrading.com.sg"
+      "name": "SHANGHAI GREEN ENERGY CO., LTD.",
+      "address": "NO. 888, SHENNAN ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SALES@GREENENERGY.COM.CN"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Hammerbrookstra\u00dfe 90, 20097 Hamburg, Germany",
+      "name": "SOLARTECH GMBH",
+      "address": "HOHENZOLLERNSTRASSE 5, 20148 HAMBURG",
       "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 40 30033 0"
+      "email": "INFO@SOLARTECH.DE",
+      "telephone": "+49 40 3333 5555"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "Hammerbrookstra\u00dfe 90, 20097 Hamburg, Germany",
+      "name": "ABC IMPORT & EXPORT GMBH",
+      "address": "REINHOLDSTRASSE 12, 20457 HAMBURG",
       "country": "GERMANY",
-      "email": "info@eurotech.de",
-      "telephone": "+49 40 30033 0"
+      "email": "CONTACT@ABCIMPORTEXPORT.DE",
+      "telephone": "+49 40 2222 6666"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "854140",
+  "commodityDescription": "SOLAR PANELS, PHOTOVOLTAIC MODULES",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT123",
-      "numberOfPackages": 10,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
-      "grossWeight": 1500.0,
-      "measurement": 10.5
+      "marksAndNumbers": "GREEN ENERGY 1",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 50 PALLETS OF SOLAR PANELS, PHOTOVOLTAIC MODULES, MODEL SP200-40W",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
     },
     {
-      "containerNumber": "MSCU7890123",
+      "containerNumber": "TCLU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "GT456",
-      "numberOfPackages": 15,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
-      "grossWeight": 2000.0,
-      "measurement": 12.5
+      "marksAndNumbers": "GREEN ENERGY 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 50 PALLETS OF SOLAR PANELS, PHOTOVOLTAIC MODULES, MODEL SP200-40W",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "totalGrossWeight": 3500.0,
-    "totalMeasurement": 23.0
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 61.0
   },
   "outOfGaugeDimensions": {
     "length": 0,
@@ -85,20 +85,24 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345678"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": [],
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Main Street, Anytown, USA",
-      "telephone": "+1 555 123 4567"
+      "name": "BANK OF CHINA, SHANGHAI BRANCH",
+      "address": "NO. 123, NANKING ROAD, SHANGHAI, 200000",
+      "telephone": "+86 21 5555 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "123 Main Street, Anytown, USA",
-      "telephone": "+1 555 123 4567"
+      "name": "SOLARTECH GMBH",
+      "address": "HOHENZOLLERNSTRASSE 5, 20148 HAMBURG",
+      "country": "GERMANY",
+      "telephone": "+49 40 3333 5555"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "VALUE USD 50,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD 250,000"
   }
 }

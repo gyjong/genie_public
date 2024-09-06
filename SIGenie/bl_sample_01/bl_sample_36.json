@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241015143502",
+  "voyageDetails": {
+    "vesselName": "EVER GREEN",
+    "voyageNumber": "20241005",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 XINING ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "456 OCEAN BOULEVARD, LOS ANGELES, CA 90210, USA",
+      "telephone": "+1-310-555-5678",
+      "fax": "+1-310-555-1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "789 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1-212-555-1234",
+      "fax": "+1-212-555-5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8703.23",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "MOTORCYCLE-1",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TWO MOTORCYCLES",
+      "grossWeight": 450.0,
+      "measurement": 1.5
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "MOTORCYCLE-2",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TWO MOTORCYCLES",
+      "grossWeight": 460.0,
+      "measurement": 1.6
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "UNITS",
+    "totalGrossWeight": 910.0,
+    "totalMeasurement": 3.1
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
+    "lcDetails": {
+      "lcNumber": "LC12345678"
+    },
+    "certificateDetails": "CN20241015001",
+    "originalBLDistribution": {
+      "name": "ASIA TRADING CO. LTD.",
+      "address": "123 XINING ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "456 OCEAN BOULEVARD, LOS ANGELES, CA 90210, USA",
+      "telephone": "+1-310-555-5678",
+      "fax": "+1-310-555-1234"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

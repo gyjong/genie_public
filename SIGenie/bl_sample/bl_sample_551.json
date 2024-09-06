@@ -1,15 +1,15 @@
 {
-  "bookingReference": "STARBERRY20240912143521",
+  "bookingReference": "APPLE20240912124521",
   "voyageDetails": {
-    "vesselName": "MSC NINA",
-    "voyageNumber": "2432E",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
@@ -23,78 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA SHIPPING & LOGISTICS BV",
-      "address": "WESTPOORT 222, 3015 AL ROTTERDAM, NETHERLANDS"
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "ROTTERDAMSEWEG 123, 3012 AA ROTTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "123 Anson Road, #12-05 Anson Centre, Singapore 079903",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "name": "ASIA PACIFIC LOGISTICS SDN BHD",
+      "address": "12TH FLOOR, MENARA HLA, 3 JALAN LAHAT, 55200 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2141 5678",
+      "fax": "+60 3 2141 5679"
     },
     "notifyParty": {
-      "name": "ALPHA LOGISTICS SDN BHD",
-      "address": "Suite 1001, Menara TM, Jalan Raja Laut, 50660 Kuala Lumpur, Malaysia",
-      "telephone": "+60 3 2692 1234",
-      "fax": "+60 3 2692 5678"
+      "name": "ASIA PACIFIC LOGISTICS SDN BHD",
+      "address": "12TH FLOOR, MENARA HLA, 3 JALAN LAHAT, 55200 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2141 5678",
+      "fax": "+60 3 2141 5679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87033210",
-  "commodityDescription": "MOTORCYCLES WITH INTERNAL COMBUSTION ENGINES",
+  "hsCode": "84798990",
+  "commodityDescription": "ELECTRIC MOTOR COMPONENTS",
   "containers": [
     {
-      "containerNumber": "COSU1234567",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "MTR-123",
-      "numberOfPackages": 10,
-      "cargoDescription": "TEN (10) MOTORCYCLES, MODEL MX250",
-      "grossWeight": 2800.0,
+      "marksAndNumbers": "APLS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTOR COMPONENTS",
+      "grossWeight": 12000.0,
       "measurement": 30.0
     },
     {
-      "containerNumber": "COSU7654321",
+      "containerNumber": "TCLU4321098",
       "sealNumber": "654321",
-      "marksAndNumbers": "MTR-456",
-      "numberOfPackages": 10,
-      "cargoDescription": "TEN (10) MOTORCYCLES, MODEL MX250",
-      "grossWeight": 2800.0,
+      "marksAndNumbers": "APLS456",
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTOR COMPONENTS",
+      "grossWeight": 12000.0,
       "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS",
-    "totalPackages": 20,
-    "packageType": "UNITS",
-    "containerType": "20FT",
-    "totalGrossWeight": 5600.0,
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 24000.0,
     "totalMeasurement": 60.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC202409121245"
     },
     "certificateDetails": [
-      "COC-123456",
-      " fumigation-789012"
+      "C-20240912-001"
     ],
     "originalBLDistribution": {
-      "name": "DELTA SHIPPING & LOGISTICS BV",
-      "address": "WESTPOORT 222, 3015 AL ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC LOGISTICS SDN BHD",
+      "address": "12TH FLOOR, MENARA HLA, 3 JALAN LAHAT, 55200 KUALA LUMPUR, MALAYSIA"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "123 Anson Road, #12-05 Anson Centre, Singapore 079903",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "name": "GLOBAL FREIGHT SOLUTIONS BV",
+      "address": "ROTTERDAMSEWEG 123, 3012 AA ROTTERDAM, NETHERLANDS"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " SHIPPED ON BOARD ON 28TH SEPTEMBER 2024 AT ROTTERDAM"
+    "additionalRemarks": "NONE"
   }
 }

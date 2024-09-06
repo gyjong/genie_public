@@ -1,100 +1,100 @@
 {
-  "bookingReference": "APPLE20240912113005",
+  "bookingReference": "APPLE20240915143212",
   "voyageDetails": {
-    "vesselName": "MARINE CHAMPION 01",
-    "voyageNumber": "2024041",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2224045",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, CA"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE LOGISTICS CO. LTD.",
-      "address": "123 Marina Boulevard, Singapore 018985"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "UNIT 502, NO. 1888 HUAIHAI ROAD, SHANGHAI, 200030, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "5555 Wilshire Boulevard, Los Angeles, CA 90036",
-      "telephone": "+1 323 555 1212",
-      "fax": "+1 323 555 1213"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 79999999"
     },
     "notifyParty": {
-      "name": "GLOBAL FREIGHT SOLUTIONS",
-      "address": "444 Market Street, San Francisco, CA 94105",
-      "telephone": "+1 415 555 2323",
-      "fax": "+1 415 555 2324"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 79999999"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87121000",
-  "commodityDescription": "MOTORCYCLES WITH 500cc ENGINE CAPACITY",
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "POLYETHYLENE RESIN",
   "containers": [
     {
-      "containerNumber": "GLCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES (MODEL: RX500) WITH ACCESSORIES",
-      "grossWeight": 1800.0,
-      "measurement": 30.0
+      "marksAndNumbers": "EC1234",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "GLCU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 MOTORCYCLES (MODEL: RX500) WITH ACCESSORIES",
-      "grossWeight": 1800.0,
-      "measurement": 30.0
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC5678",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYETHYLENE RESIN, 25KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "UNITS",
-    "containerType": "20FT",
-    "totalGrossWeight": 3600.0,
-    "totalMeasurement": 60.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "12345PO",
+    "hsCode": "390110",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": [
-      "COC123456",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "SINGAPORE LOGISTICS CO. LTD.",
-      "address": "123 Marina Boulevard, Singapore 018985"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 79999998"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "5555 Wilshire Boulevard, Los Angeles, CA 90036",
-      "telephone": "+1 323 555 1212",
-      "fax": "+1 323 555 1213"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 79999998",
+      "fax": "+49 69 79999997"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT."
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nCargo Packed in New Bags"
   }
 }

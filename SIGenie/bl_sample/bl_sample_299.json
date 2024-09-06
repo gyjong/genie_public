@@ -1,90 +1,100 @@
 {
-  "bookingReference": "APPLE20241015143022",
+  "bookingReference": "APPLE20241016124321",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2439E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
-      "onBehalfOf": "NINGBO DONGFANG IMPORT & EXPORT CO., LTD.",
-      "address": "UNIT 1608, 16/F, SHANGHAI GATEWAY PLAZA, NO. 1128, YINCHENG ROAD, SHANGHAI, 200127, CHINA",
-      "telephone": "+86-21-6161-9090",
-      "fax": "+86-21-6161-9191"
+      "name": "GOLDEN STAR TRADING CO., LTD",
+      "address": "23/F, CHINA WORLD TOWER, 1 CHAOYANGMEN DAXIE STREET, BEIJING, 100020, CHINA",
+      "telephone": "+86-10-8591-2345",
+      "fax": "+86-10-8591-2346"
     },
     "consignee": {
-      "name": "EURO GLOBAL LOGISTICS BV",
-      "address": "ZUIDHOEK 101, 3072 MA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "34287612"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 SOUTH Figueroa Street, Los Angeles, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "IMPORT@WCLI.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "BRIGHT STAR SHIPPING BV",
-      "address": "VAN DER ZIJDENSTRAAT 22, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "ABC BANK",
+      "address": "123 Main Street, New York, NY 10001",
+      "telephone": "+1-212-555-5555",
+      "fax": "+1-212-555-5556",
+      "email": "NOTIFICATIONS@ABCBANK.COM"
     }
   },
   "shippingTerm": "CFR",
   "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "commodityDescription": "DIGITAL PRINTING MACHINES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9675123",
       "sealNumber": "123456",
-      "marksAndNumbers": "BOX 1-10",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. CONTAINER IS PROPERTY OF HMM."
+      "marksAndNumbers": "GS-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 DIGITAL PRINTING MACHINE",
+      "grossWeight": 7500.0,
+      "measurement": 15.25
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GS-456",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 DIGITAL PRINTING MACHINE",
+      "grossWeight": 7400.0,
+      "measurement": 14.85
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 14900.0,
+    "totalMeasurement": 30.1
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "invoiceNumber": "20231016-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "0000202033738"
+      "lcNumber": "00001010339243"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "4112724080177X",
+      "4112724080178X"
     ],
     "originalBLDistribution": {
-      "name": "NINGBO DONGFANG IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 333, ZHONGSHAN ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
-      "telephone": "+86-574-8730-6666",
-      "fax": "+86-574-8730-5555"
+      "name": "GOLDEN STAR TRADING CO., LTD",
+      "address": "23/F, CHINA WORLD TOWER, 1 CHAOYANGMEN DAXIE STREET, BEIJING, 100020, CHINA",
+      "telephone": "+86-10-8591-2345",
+      "fax": "+86-10-8591-2346"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING INC.",
-      "address": "555 FIFTH AVE, NEW YORK, NY 10017, USA",
-      "telephone": "212-555-1212",
-      "fax": "212-555-1313"
+      "name": "GOLDEN STAR TRADING CO., LTD",
+      "address": "23/F, CHINA WORLD TOWER, 1 CHAOYANGMEN DAXIE STREET, BEIJING, 100020, CHINA",
+      "telephone": "+86-10-8591-2345",
+      "fax": "+86-10-8591-2346"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Non-Reefer Container, Item: MACHINERY PARTS FOR TEXTILE INDUSTRY, Value: USD25,000"
+    "onboardDate": "OCT. 28. 2024"
   }
 }

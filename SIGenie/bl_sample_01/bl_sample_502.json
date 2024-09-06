@@ -1,0 +1,97 @@
+{
+  "bookingReference": "STARFRUIT20240920134521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2432W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS BV",
+      "address": "WESTPORTWEG 10, 3191 DB, ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson Road, #12-05 Anson Centre, Singapore 079903",
+      "telephone": "+65 6227 8888",
+      "fax": "+65 6227 9999"
+    },
+    "notifyParty": {
+      "name": "GREENEARTH TRADING CO.",
+      "address": "200 Bukit Batok Street 23, #02-25 Bukit Batok Industrial Park A, Singapore 659528",
+      "telephone": "+65 6555 1111",
+      "fax": "+65 6555 2222"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "CONSTRUCTION MACHINERY PARTS - HYDRAULIC PUMPS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GWL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 PACKAGES HYDRAULIC PUMPS FOR CONSTRUCTION EQUIPMENT",
+      "grossWeight": 4500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GWL456",
+      "numberOfPackages": 8,
+      "cargoDescription": "8 PACKAGES HYDRAULIC PUMPS FOR CONSTRUCTION EQUIPMENT",
+      "grossWeight": 3800.0,
+      "measurement": 12.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 8300.0,
+    "totalMeasurement": 27.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE SHIPPING SOLUTIONS BV",
+      "address": "WESTPORTWEG 10, 3191 DB, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 Anson Road, #12-05 Anson Centre, Singapore 079903"
+    },
+    "onboardDate": "OCT. 10. 2024",
+    "additionalRemarks": "GOODS ARE PACKED ON PALLETS. CONTAINER SEAL NUMBERS ARE TO BE PROVIDED BY THE CARRIER."
+  }
+}

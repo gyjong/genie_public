@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE202409281015300",
+  "bookingReference": "APPLE20241016134512",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA TRADE CO. LTD",
-      "address": "123 SHAOYING ROAD, SHANGHAI 200010, CHINA",
-      "telephone": "+86-21-5555-6666",
-      "fax": "+86-21-5555-7777"
+      "name": "CHINA IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "POSTBUS 123, 3000 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-888-9999",
-      "fax": "+31-10-888-1111",
-      "email": "IMPORT@EUROIMPORTS.NL",
-      "contactPerson": "JAN VAN DER LEEUW"
+      "name": "EUROTECH BV",
+      "address": "WATERLOO STREET 123, 3012 AB ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "EURO LOGISTICS BV",
-      "address": "POSTBUS 456, 3000 AB ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-777-8888",
-      "fax": "+31-10-777-9999"
+      "name": "EUROLOGISTICS BV",
+      "address": "DEN HAAGSE STRAAT 567, 2585 AA THE HAGUE, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "854140",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "XYZ123",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ET-123",
       "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
-      "grossWeight": 12000.0,
-      "measurement": 15.5
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ABC456",
-      "numberOfPackages": 40,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLE MOTORS",
-      "grossWeight": 8000.0,
-      "measurement": 12.0
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 7500.0,
+      "measurement": 20.0,
+      "additionalInfo": "CARGO NEEDS SPECIAL HANDLING. FRAGILE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 90,
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 27.5
+    "totalContainers": "ONE (20FT) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20FT",
+    "totalGrossWeight": 7500.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
-    "invoiceNumber": "CT-2024-09-28-101",
-    "documentNumber": "202409281015300",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "CN-2024-10-01-123",
-      "CN-2024-10-01-456"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "POSTBUS 123, 3000 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-888-9999",
-      "fax": "+31-10-888-1111"
+      "name": "CHINA IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO 315000, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA TRADE CO. LTD",
-      "address": "123 SHAOYING ROAD, SHANGHAI 200010, CHINA",
-      "telephone": "+86-21-5555-6666",
-      "fax": "+86-21-5555-7777"
+      "name": "EUROTECH BV",
+      "address": "WATERLOO STREET 123, 3012 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-87654321"
     },
-    "onboardDate": "OCT. 10. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Cargo Value: EUR 100,000"
   }
 }

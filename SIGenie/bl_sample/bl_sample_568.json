@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241015143211",
+  "bookingReference": "APPLE20240920123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2426E",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2429W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,87 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "DEUTSCHE DHL GMBH",
-      "onBehalfOf": null,
-      "address": "STRASSENBAHNSTRASSE 5, 53113 BONN, GERMANY",
-      "telephone": "+49 228 555 5555",
-      "fax": "+49 228 555 5556"
+      "name": "CHINA EASTERN TEXTILES CO., LTD.",
+      "address": "NO. 588, SHANGHAI ROAD, HANGZHOU, ZHEJIANG, 310001",
+      "country": "CHINA",
+      "additionalInfo": "(XIAOSHAN DISTRICT)"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "companyNumber": "200207873K"
+      "name": "EURO TEXTILE IMPORT BV",
+      "address": "DE KOEPLAAN 10, 3062 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTEXTILE.NL",
+      "telephone": "+31 10 412 5678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING SINGAPORE",
-      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902"
+      "name": "EURO TEXTILE IMPORT BV",
+      "address": "DE KOEPLAAN 10, 3062 AA ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTEXTILE.NL",
+      "telephone": "+31 10 412 5678"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8479899000",
-  "commodityDescription": "MACHINERY PARTS",
+  "hsCode": "540752",
+  "commodityDescription": "SYNTHETIC TEXTILE FABRICS (POLYESTER)",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "TCLU5768932",
       "sealNumber": "123456",
-      "marksAndNumbers": "DHL123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE CARGO, HANDLE WITH CARE"
+      "marksAndNumbers": "ET230920",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SYNTHETIC TEXTILE FABRICS (POLYESTER) 20 MT, 500M PER ROLL",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ET230920",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SYNTHETIC TEXTILE FABRICS (POLYESTER) 20 MT, 500M PER ROLL",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ET230920",
+      "numberOfPackages": 1000,
+      "packageType": "ROLLS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SYNTHETIC TEXTILE FABRICS (POLYESTER) 20 MT, 500M PER ROLL",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "ROLLS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "54075200",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC0001234567"
+      "lcNumber": "LC23092012345"
     },
-    "certificateDetails": [
-      "COO-1234567890",
-      " fumigation-9876543210"
-    ],
+    "certificateDetails": "CN1234567890",
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING SINGAPORE",
-      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902",
-      "telephone": "+65 6227 6666",
-      "fax": "+65 6227 6667"
+      "name": "EURO TEXTILE IMPORT BV",
+      "address": "DE KOEPLAAN 10, 3062 AA ROTTERDAM",
+      "telephone": "+31 10 412 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL GLOBAL FORWARDING SINGAPORE",
-      "address": "120 Anson Road #11-01 International Plaza, Singapore 079902",
-      "telephone": "+65 6227 6666",
-      "fax": "+65 6227 6667"
+      "name": "CHINA EASTERN TEXTILES CO., LTD.",
+      "address": "NO. 588, SHANGHAI ROAD, HANGZHOU, ZHEJIANG, 310001",
+      "telephone": "+86 571 8789 0123"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "MACHINERY PARTS FOR ASSEMBLY LINE, VALUE: USD100,000"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
   }
 }

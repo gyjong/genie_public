@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20240912103456",
+  "bookingReference": "APPLE20241017124501",
   "voyageDetails": {
-    "vesselName": "MAERSK EDMONTON",
-    "voyageNumber": "2234W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, USA"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "2345 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-6328-9876",
+      "fax": "+86-21-6328-9875"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "456 OCEAN AVE, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROTRADING GMBH",
+      "address": "VAN GOUDENBOOM 12, 3061 GD ROTTERDAM, NETHERLANDS",
+      "companyNumber": "27123456"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS",
-      "address": "789 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2324"
+      "name": "DUTCH CUSTOMS BROKERS",
+      "address": "PO Box 1234, 3000 AA ROTTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "85414000",
+  "commodityDescription": "TELEPHONE HANDSETS",
   "containers": [
     {
-      "containerNumber": "MSCU3567890",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT123",
-      "numberOfPackages": 50,
-      "cargoDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
-      "grossWeight": 10000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GT456",
-      "numberOfPackages": 40,
-      "cargoDescription": "TELECOMMUNICATION EQUIPMENT - SWITCHES",
-      "grossWeight": 8000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELEPHONE HANDSETS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 90,
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
     "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 45.0
+    "containerType": "20DR",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC0012345678"
+      "lcNumber": "1234567890123"
     },
     "certificateDetails": [
-      "CERTIFICATE OF ORIGIN - CHINA"
+      "CN1234567890"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL TRADING CO. LTD.",
-      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-6328-9876",
+      "fax": "+86-21-6328-9875"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "456 OCEAN AVE, LOS ANGELES, CA 90001, USA"
+      "name": "EUROTRADING GMBH",
+      "address": "VAN GOUDENBOOM 12, 3061 GD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CARGO SHIPPED IN GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: EUR50,000"
   }
 }

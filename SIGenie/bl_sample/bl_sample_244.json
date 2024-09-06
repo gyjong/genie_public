@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241015143215",
+  "bookingReference": "APPLE20241025114522",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2439E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,68 +23,78 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
-      "onBehalfOf": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1701, NO. 288, SHANGHAI ROAD, YANGPU DISTRICT, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6235-8888",
-      "fax": "+86-21-6235-9999"
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "123 XINZHUANG ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)"
     },
     "consignee": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "FRANZ-JOSEF-STRASSE 25, 40213 DUSSELDORF, GERMANY",
-      "companyNumber": "HRB20378"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 7907-0"
     },
     "notifyParty": {
-      "name": "WORLDWIDE LOGISTICS GMBH",
-      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 7907-0"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "420232",
-  "commodityDescription": "TRAVELLING BAGS",
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "MSCU6532785",
-      "sealNumber": "789456",
-      "marksAndNumbers": "SUNRISE-2024",
-      "numberOfPackages": 250,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRAVELLING BAGS",
-      "grossWeight": 8500.0,
-      "measurement": 22.5,
-      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD ORDER."
+      "containerNumber": "GLDU9764812",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (200KG NET EACH)",
+      "grossWeight": 40000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "UTLU8752941",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (200KG NET EACH)",
+      "grossWeight": 40000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 250,
-    "packageType": "CARTONS",
-    "containerType": "20GP",
-    "totalGrossWeight": 8500.0,
-    "totalMeasurement": 22.5
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 50.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "12345PO",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC2024101501234"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": [
-      "CN20241015001",
-      "CN20241015002"
-    ],
+    "certificateDetails": "CN1234567890",
     "originalBLDistribution": {
-      "name": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIANG 310000, CHINA",
-      "telephone": "+86-571-8765-4321",
-      "fax": "+86-571-8765-4322"
+      "name": "HSBC BANK",
+      "address": "123 WALL STREET, NEW YORK, NY 10005",
+      "telephone": "+1 212 555 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
-      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIANG 310000, CHINA",
-      "telephone": "+86-571-8765-4321",
-      "fax": "+86-571-8765-4322"
+      "name": "EUROCHEM GMBH",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 7907-0",
+      "fax": "+49 69 7907-100"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD30,000"
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\n SHIPMENT TO BE DELIVERED TO EUROCHEM GMBH WAREHOUSE IN FRANKFURT"
   }
 }

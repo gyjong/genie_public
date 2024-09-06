@@ -1,96 +1,97 @@
 {
-  "bookingReference": "PINEAPPLE20240912101542",
+  "bookingReference": "APPLE20240912113415",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2429W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2437E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Business Registration No. 201212345H)",
-      "telephone": "+65 6227 8888",
-      "email": "sales@asiapacifictrading.com.sg"
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "INFO@GLOBALTRADING.NL"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "St. Pauli Hafenstrasse 12, 20359 Hamburg, GERMANY",
-      "country": "GERMANY",
-      "email": "info@eurotech-gmbh.de",
-      "telephone": "+49 40 3333 4444"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345G",
+      "president": "MR. LEE CHONG HUI",
+      "telephone": "+65 6222 5555",
+      "fax": "+65 6222 6666"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "St. Pauli Hafenstrasse 12, 20359 Hamburg, GERMANY",
-      "country": "GERMANY",
-      "email": "info@eurotech-gmbh.de",
-      "telephone": "+49 40 3333 4444"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "taxId": "201212345G",
+      "president": "MR. LEE CHONG HUI",
+      "telephone": "+65 6222 5555",
+      "fax": "+65 6222 6666"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "842139",
-  "commodityDescription": "INDUSTRIAL HYDRAULIC PUMPS AND MOTORS",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTER HARDWARE",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG123",
-      "numberOfPackages": 10,
-      "packageType": "CRATES",
-      "cargoDescription": "TEN (10) INDUSTRIAL HYDRAULIC PUMPS AND MOTORS, AS PER PACKING LIST",
-      "grossWeight": 7500.0,
-      "measurement": 15.5
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ETG124",
-      "numberOfPackages": 5,
-      "packageType": "PALLETS",
-      "cargoDescription": "FIVE (5) SPARE HYDRAULIC PUMPS AND MOTORS, AS PER PACKING LIST",
-      "grossWeight": 3750.0,
-      "measurement": 7.75
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE COMPUTER HARDWARE",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (2) 20' DRY CONTAINERS",
-    "totalPackages": 15,
-    "totalGrossWeight": 11250.0,
-    "totalMeasurement": 23.25
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": [],
-    "originalBLDistribution": {},
-    "originalInvoiceDistribution": {},
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "GOODS PACKED IN EXPORT WORTHY PACKING"
+    "certificateDetails": "20240912-CERT-001",
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "100 Anson Road, #04-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6333 3333",
+      "fax": "+65 6333 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "100 Anson Road, #04-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6333 3333",
+      "fax": "+65 6333 9999"
+    },
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "NONE"
   }
 }

@@ -1,97 +1,99 @@
 {
-  "bookingReference": "PEACH20240912142345",
+  "bookingReference": "APPLE202410051245300",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "24235",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2441W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "101 PASIR PANJANG ROAD, #05-01, SINGAPORE 118523"
+      "name": "SHANGHAI IMPORTS & EXPORTS CO.",
+      "address": "325 HONGQI ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 6327 8901",
+      "fax": "+86 21 6327 8902"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY",
-      "telephone": "+49 69 79998888",
-      "fax": "+49 69 79998889"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1234 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@SUNRISELOGISTICS.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY",
-      "telephone": "+49 69 79998888",
-      "fax": "+49 69 79998889"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1234 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@SUNRISELOGISTICS.COM"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY FOR FOOD PROCESSING - INDUSTRIAL MIXER",
+  "shippingTerm": "CIF",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "UTLU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG123",
+      "marksAndNumbers": "SUN123",
       "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. INDUSTRIAL MIXER PARTS AS DETAILED ON PACKING LIST.",
-      "grossWeight": 4500.0,
-      "measurement": 20.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
     },
     {
-      "containerNumber": "UTLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "ETG124",
-      "numberOfPackages": 5,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. INDUSTRIAL MIXER PARTS AS DETAILED ON PACKING LIST.",
-      "grossWeight": 2500.0,
-      "measurement": 12.0
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUN456",
+      "numberOfPackages": 8,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT SECTIONS",
+      "grossWeight": 4500.0,
+      "measurement": 8.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "PACKAGES",
-    "containerType": "20FTDRY",
-    "totalGrossWeight": 7000.0,
-    "totalMeasurement": 32.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 18,
+    "totalGrossWeight": 9500.0,
+    "totalMeasurement": 18.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20241005-BL002",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CO-123456"
+      "CN20241005001"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 35, 60329 FRANKFURT, GERMANY"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1234 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "101 PASIR PANJANG ROAD, #05-01, SINGAPORE 118523"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "1234 MAIN STREET, SUITE 300, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S DECLARATION: THIS SHIPMENT DOES NOT CONTAIN ANY DANGEROUS GOODS."
+    "onboardDate": "OCT. 15. 2024"
   }
 }

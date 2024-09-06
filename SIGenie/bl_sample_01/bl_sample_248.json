@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240927101502",
+  "voyageDetails": {
+    "vesselName": "COSCO SHIPPING ARIES",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zhejiang Huayou Cobalt Co., Ltd.",
+      "address": "No. 1999, Dongfang Road, Hangzhou Economic & Technological Development Zone, Hangzhou, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "ABC Chemicals GmbH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
+    },
+    "notifyParty": {
+      "name": "XYZ Logistics GmbH",
+      "address": "Am Hafen 5, 20457 Hamburg, Germany",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "28041000",
+  "commodityDescription": "Cobalt Oxide Powder",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "COBALT-01",
+      "numberOfPackages": 20,
+      "cargoDescription": "20 BAGS COBALT OXIDE POWDER",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "COBALT-02",
+      "numberOfPackages": 20,
+      "cargoDescription": "20 BAGS COBALT OXIDE POWDER",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "COBALT-03",
+      "numberOfPackages": 20,
+      "cargoDescription": "20 BAGS COBALT OXIDE POWDER",
+      "grossWeight": 22000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
+    "totalPackages": 60,
+    "packageType": "BAGS",
+    "containerType": "20FT",
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 99.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "SGS Certificate No. 1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Chemicals GmbH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Chemicals GmbH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": ""
+  }
+}

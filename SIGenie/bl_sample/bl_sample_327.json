@@ -1,101 +1,88 @@
 {
-  "bookingReference": "APPLE20241017777100",
+  "bookingReference": "APPLE20241026153210",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2434W",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024102",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN SKYWELL IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 201, BUILDING 3, NO. 188 XIANGBIN ROAD, ZHONGSHAN, GUANGDONG 528401, CHINA",
-      "telephone": "+86 760 22986666",
-      "fax": "+86 760 22986667"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "101 Anson Road, #20-01, Singapore 079900",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "EUROLINE IMPORT & EXPORT BV",
-      "address": "ZUIDERHAVEN 12, 3133 BK HOOK OF HOLLAND, NETHERLANDS",
-      "telephone": "+31 174 226 266",
-      "fax": "+31 174 226 267",
-      "email": "IMPORT@EUROLINE.NL",
-      "contactPerson": "JAN VAN DER KUIP"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Koninginnegracht 55, 2514 AA The Hague, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "SKYWELL LOGISTICS LTD.",
-      "address": "ROOM 401, BUILDING 2, NO. 288 SHENZHEN ROAD, SHENZHEN, GUANGDONG 518000, CHINA",
-      "telephone": "+86 755 2666 9999",
-      "fax": "+86 755 2666 8888"
+      "name": "GLOBAL LOGISTICS NV",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "94016000",
-  "commodityDescription": "WOODEN KITCHEN CABINETS",
+  "hsCode": "080510",
+  "commodityDescription": "FROZEN ORANGE JUICE CONCENTRATE",
   "containers": [
     {
-      "containerNumber": "CMLU7946756",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SW1234",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN KITCHEN CABINETS WITH DRAWERS AND DOORS",
-      "grossWeight": 15000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "CMLU6743218",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SW2345",
-      "numberOfPackages": 45,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOODEN KITCHEN CABINETS WITH DRAWERS AND DOORS",
-      "grossWeight": 14500.0,
-      "measurement": 24.8
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "FRUIT123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FROZEN ORANGE JUICE CONCENTRATE",
+      "grossWeight": 25000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE TO BE MAINTAINED AT -18\u00b0C"
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40' DRY CONTAINERS",
-    "totalPackages": 95,
-    "totalGrossWeight": 29500.0,
-    "totalMeasurement": 50.3
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "containerType": "20DR",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "invoiceNumber": "SW20241017001",
-    "documentNumber": "20241017002",
     "lcDetails": {
-      "lcNumber": "LC20241017003"
+      "lcNumber": "NL1234567890"
     },
     "certificateDetails": [
-      "CN20241017004",
-      "CN20241017005"
+      "PHYTOSANITARY CERTIFICATE NO. 20241026-001",
+      "CERTIFICATE OF ORIGIN NO. 20241026-002"
     ],
     "originalBLDistribution": {
-      "name": "SKYWELL LOGISTICS LTD.",
-      "address": "ROOM 401, BUILDING 2, NO. 288 SHENZHEN ROAD, SHENZHEN, GUANGDONG 518000, CHINA",
-      "telephone": "+86 755 2666 9999",
-      "fax": "+86 755 2666 8888"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01, Singapore 079900",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROLINE IMPORT & EXPORT BV",
-      "address": "ZUIDERHAVEN 12, 3133 BK HOOK OF HOLLAND, NETHERLANDS",
-      "telephone": "+31 174 226 266",
-      "fax": "+31 174 226 267",
-      "email": "IMPORT@EUROLINE.NL",
-      "contactPerson": "JAN VAN DER KUIP"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "Koninginnegracht 55, 2514 AA The Hague, Netherlands"
     },
-    "onboardDate": "OCT. 27. 2024"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "FROZEN ORANGE JUICE CONCENTRATE, VALUE: USD 50,000"
   }
 }

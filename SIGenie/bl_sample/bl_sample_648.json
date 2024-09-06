@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20240912101542",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2432E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SKYWAY IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 888, YANAN ROAD EAST, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)",
+      "telephone": "+86 21 6288 5678",
+      "email": "SALES@SKYWAYIMPORT.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "country": "USA",
+      "email": "ORDERS@SUNRISETRADE.COM",
+      "telephone": "+1 213 555 1212"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS",
+      "address": "555 MARKET STREET, SAN FRANCISCO, CA 94105",
+      "country": "USA",
+      "email": "OPERATIONS@GOLDENGATELOGISTICS.COM",
+      "telephone": "+1 415 555 2323"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84213900",
+  "commodityDescription": "MACHINERY FOR TEXTILE INDUSTRY, AUTOMATIC WEAVING LOOMS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SKYWAY123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATED WEAVING LOOMS, SPARE PARTS AND ACCESSORIES",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SKYWAY456",
+      "numberOfPackages": 30,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATED WEAVING LOOMS, SPARE PARTS AND ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 80,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 55.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "CN20240912101542"
+    ],
+    "originalBLDistribution": {
+      "name": "SKYWAY FREIGHT FORWARDERS",
+      "address": "1001 SKYWAY BLVD, SHANGHAI, 200001",
+      "telephone": "+86 21 6288 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SKYWAY FREIGHT FORWARDERS",
+      "address": "1001 SKYWAY BLVD, SHANGHAI, 200001",
+      "telephone": "+86 21 6288 5678"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS PACKED AND MARKED IN GOOD ORDER AND CONDITION. VALUE: USD150,000"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241017143205",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "MARKTSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 100, SINGAPORE 068902",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "MARKTSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS-123",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GS-456",
+      "numberOfPackages": 8,
+      "cargoDescription": "MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 9000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "PACKAGES",
+    "containerType": "20FTX2",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 63.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-123456",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 100, SINGAPORE 068902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 ROBINSON ROAD, #12-01 ROBINSON 100, SINGAPORE 068902"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+  }
+}

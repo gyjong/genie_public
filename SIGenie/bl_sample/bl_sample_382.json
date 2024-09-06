@@ -1,95 +1,106 @@
 {
-  "bookingReference": "ORANGE20240912143621",
+  "bookingReference": "APPLE20240912101521",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "240934",
-    "bound": "E"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2437EA",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, CA, USA"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "NINGBO SKYWAY IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 1502, NO. 328, YISHAN ROAD, NINGBO, CHINA",
-      "telephone": "+86 574 8785 6723",
-      "email": "sales@nbskyway.com"
+      "name": "EASTERN SUN TRADING CO., LTD.",
+      "address": "258 JIANGNING ROAD, JIANGNING DISTRICT, NANJING, 211100",
+      "country": "CHINA",
+      "additionalInfo": "(NANJING OFFICE)",
+      "telephone": "+86 25 8378 2112",
+      "email": "SALES@EASTERNSUN.COM.CN"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
-      "taxId": "12-3456789",
-      "president": "JOHN SMITH",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "GABELSBERGER STRASSE 15, 20357 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@GERMANIMPORTS.DE",
+      "telephone": "+49 40 303650"
     },
     "notifyParty": {
-      "name": "ABC INTERNATIONAL TRADING",
-      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
-      "telephone": "+1 212 555 9876",
-      "fax": "+1 212 555 9877"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "REINHARDTSTRASSE 20, 22143 HAMBURG",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 40 7999 8888"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "85044010",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY - WEAVING LOOMS",
   "containers": [
     {
-      "containerNumber": "TCLU9387654",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, STATED TO CONTAIN: 50 ELECTRIC MOTORS",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "5 CRATES WEAVING LOOMS - MODEL X25, WEIGHT: 2500KG EACH",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "5 CRATES WEAVING LOOMS - MODEL X25, WEIGHT: 2500KG EACH",
       "grossWeight": 12500.0,
       "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HC) CONTAINER",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "40'HC",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 60.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40'HC Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "Certificate of Origin",
+    "certificateDetails": [
+      "CN-234567890123"
+    ],
     "originalBLDistribution": {
-      "name": "ABC FREIGHT FORWARDERS",
-      "address": "1000 OCEAN DRIVE, MIAMI BEACH, FL 33139, USA",
-      "telephone": "+1 305 555 1212",
-      "fax": "+1 305 555 1213"
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "GABELSBERGER STRASSE 15, 20357 HAMBURG",
+      "telephone": "+49 40 303650"
     },
     "originalInvoiceDistribution": {
-      "name": "ABC FREIGHT FORWARDERS",
-      "address": "1000 OCEAN DRIVE, MIAMI BEACH, FL 33139, USA",
-      "telephone": "+1 305 555 1212",
-      "fax": "+1 305 555 1213"
+      "name": "EASTERN SUN TRADING CO., LTD.",
+      "address": "258 JIANGNING ROAD, JIANGNING DISTRICT, NANJING, 211100",
+      "telephone": "+86 25 8378 2112"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "GOODS ARE SHIPPED ON DECK. "
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "NONE"
   }
 }

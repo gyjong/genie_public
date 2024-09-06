@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241018103015",
+  "bookingReference": "APPLE20240912114502",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1001, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
-      "telephone": "+86-21-6278-9876",
-      "fax": "+86-21-6278-9875"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "DEUTSCHE LOGISTIK GMBH",
-      "address": "FRANKFURTER STRASSE 55, 60311 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KELLERSTRASSE 2, 60329 FRANKFURT AM MAIN, GERMANY"
+      "name": "ABC IMPORTERS SDN BHD",
+      "address": "1 Jalan Bukit Bintang, Kuala Lumpur, Malaysia",
+      "telephone": "+60 3 2141 1234",
+      "fax": "+60 3 2141 5678"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "854230",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CIF",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES WITH 125CC ENGINE",
   "containers": [
     {
-      "containerNumber": "MSCU3456789",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": ""
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL X125",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL X125",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "MOTORCYCLES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 50.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "LC20241001"
     },
     "certificateDetails": [
-      "CN20241018001",
-      "CN20241018002"
+      "CERTIFICATE OF ORIGIN"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1001, NO. 888, CHANGNING ROAD, SHANGHAI 200051, CHINA",
-      "telephone": "+86-21-6278-9876",
-      "fax": "+86-21-6278-9875"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
     },
     "originalInvoiceDistribution": {
-      "name": "DEUTSCHE LOGISTIK GMBH",
-      "address": "FRANKFURTER STRASSE 55, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-1234567",
-      "fax": "+49-69-1234568"
+      "name": "ABC IMPORTERS SDN BHD",
+      "address": "1 Jalan Bukit Bintang, Kuala Lumpur, Malaysia"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Value: EUR 50,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT TO BE DELIVERED TO KUALA LUMPUR, MALAYSIA"
   }
 }

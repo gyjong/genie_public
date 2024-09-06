@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912101506",
+  "voyageDetails": {
+    "vesselName": "MSC ELISE 06",
+    "voyageNumber": "2024042",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "NINGBO EVERBRIGHT IMPORT & EXPORT CO., LTD",
+      "address": "ROOM 301, NO.288, XINGYE ROAD, HAISHU DISTRICT, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "sales@everbright-nb.com"
+    },
+    "consignee": {
+      "name": "EUROTRADE BV",
+      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL811234567B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "notifyParty": {
+      "name": "EUROTRADE BV",
+      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL811234567B01",
+      "president": "MR. PETER VAN DER LINDE",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84833000",
+  "commodityDescription": "GEARBOXES FOR WIND TURBINES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1500123",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EB1234 AS PER PACKING LIST",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS GEARBOXES FOR WIND TURBINES",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU1500124",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EB1234 AS PER PACKING LIST",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS GEARBOXES FOR WIND TURBINES",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS",
+    "totalPackages": 4,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "BANK OF CHINA",
+      "address": "NINGBO BRANCH, NO.123 HUANSHENG ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "fax": "+86 574 8765 4322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTRADE BV",
+      "address": "BEUKELSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

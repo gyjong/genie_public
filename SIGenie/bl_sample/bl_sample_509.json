@@ -1,15 +1,15 @@
 {
-  "bookingReference": "ORANGE20240912112233",
+  "bookingReference": "APPLE20240918123456",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2440E",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2437E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
@@ -24,87 +24,77 @@
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "address": "123 CHANG AN ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Hanauer Landstra\u00dfe 168, 60314 Frankfurt am Main",
+      "name": "EUROTECH GMBH",
+      "address": "HANSASTRASSE 10, 60314 FRANKFURT AM MAIN",
       "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 69 7950 2000"
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 756090"
     },
     "notifyParty": {
-      "name": "LOGISTICS SOLUTIONS GMBH",
-      "address": "Kaiserstra\u00dfe 76, 60329 Frankfurt am Main",
+      "name": "EUROTECH GMBH",
+      "address": "HANSASTRASSE 10, 60314 FRANKFURT AM MAIN",
       "country": "GERMANY",
-      "email": "notifications@logistics-solutions.de",
-      "telephone": "+49 69 7560 8000"
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 756090"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING LINES",
   "containers": [
     {
-      "containerNumber": "MSCU3849652",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EG-123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "ET-001",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: MACHINERY PARTS FOR PACKAGING LINES",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "MSCU9276310",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "EG-456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "MSCU1113298",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EG-789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL (EG) IN 200 KG DRUMS",
-      "grossWeight": 20500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "ET-002",
+      "numberOfPackages": 8,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: MACHINERY PARTS FOR PACKAGING LINES",
+      "grossWeight": 9000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 61500.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "CRATES",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 35.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "10 DAYS",
+    "purchaseOrderNumber": "12345PO-2024",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "1234567890LC"
     },
-    "certificateDetails": "Certificate of Origin No. 1234567",
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 Airport Road, Singapore 819823",
-      "telephone": "+65 6787 7777"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 79023456"
     },
     "originalInvoiceDistribution": {
       "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "address": "123 CHANG AN ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 66667777",
+      "fax": "+86 21 66668888"
     },
-    "onboardDate": "SEPT. 14. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\n SHIPMENT IS HAZARDOUS. PLEASE HANDLE WITH CARE."
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination\nCONSIGNEE TO ARRANGE UNLOADING\nGOODS ARE FRAGILE, HANDLE WITH CARE"
   }
 }

@@ -1,0 +1,90 @@
+{
+  "bookingReference": "APPLE20241015143215",
+  "voyageDetails": {
+    "vesselName": "EVER GLORY",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SUNRISE TRADING CO., LTD.",
+      "onBehalfOf": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1701, NO. 288, SHANGHAI ROAD, YANGPU DISTRICT, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6235-8888",
+      "fax": "+86-21-6235-9999"
+    },
+    "consignee": {
+      "name": "DEUTSCHE IMPORTS GMBH",
+      "address": "FRANZ-JOSEF-STRASSE 25, 40213 DUSSELDORF, GERMANY",
+      "companyNumber": "HRB20378"
+    },
+    "notifyParty": {
+      "name": "WORLDWIDE LOGISTICS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "420232",
+  "commodityDescription": "TRAVELLING BAGS",
+  "containers": [
+    {
+      "containerNumber": "MSCU6532785",
+      "sealNumber": "789456",
+      "marksAndNumbers": "SUNRISE-2024",
+      "numberOfPackages": 250,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRAVELLING BAGS",
+      "grossWeight": 8500.0,
+      "measurement": 22.5,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD ORDER."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 8500.0,
+    "totalMeasurement": 22.5
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024101501234"
+    },
+    "certificateDetails": [
+      "CN20241015001",
+      "CN20241015002"
+    ],
+    "originalBLDistribution": {
+      "name": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIANG 310000, CHINA",
+      "telephone": "+86-571-8765-4321",
+      "fax": "+86-571-8765-4322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHEJIANG YONGYU IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 123, FUXING ROAD, HANGZHOU, ZHEJIANG 310000, CHINA",
+      "telephone": "+86-571-8765-4321",
+      "fax": "+86-571-8765-4322"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Value: USD30,000"
+  }
+}

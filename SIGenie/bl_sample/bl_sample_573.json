@@ -1,97 +1,107 @@
 {
-  "bookingReference": "PEACH20240912113017",
+  "bookingReference": "STARFRUIT20240912142356",
   "voyageDetails": {
-    "vesselName": "MAERSK ESSEN 08",
-    "voyageNumber": "2024342",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2438E",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG SHANGYU IMPORT & EXPORT CO.,LTD",
-      "address": "NO.338, SHANGYU STREET, SHANGYU DISTRICT, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "+86 575 8289 6789",
-      "email": "sales@shangyuie.com"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "101 UPPER CROSS STREET, #05-01,PEOPLE'S PARK COMPLEX,SINGAPORE 058357"
     },
     "consignee": {
-      "name": "WEST COAST METAL INC.",
-      "address": "1234 OCEAN AVENUE, LOS ANGELES, CA 90015, USA",
-      "taxId": "123456789",
-      "president": "JOHN SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "WEST COAST WAREHOUSING INC.",
+      "address": "12345 PIER AVE, LONG BEACH, CA 90802, USA",
+      "telephone": "+1 562 555 1234",
+      "fax": "+1 562 555 5678"
     },
     "notifyParty": {
-      "name": "WEST COAST METAL INC.",
-      "address": "1234 OCEAN AVENUE, LOS ANGELES, CA 90015, USA",
-      "taxId": "123456789",
-      "president": "JOHN SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "123 MAIN STREET, SUITE 200, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 9876",
+      "fax": "+1 415 555 1234"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "7326909090",
-  "commodityDescription": "IRON AND STEEL BARS",
+  "shippingTerm": "CIF",
+  "hsCode": "85437000",
+  "commodityDescription": "ELECTRONIC CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 25,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, LOS ANGELES, USA IRON AND STEEL BARS",
-      "grossWeight": 24500.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC CIRCUIT BOARDS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC CIRCUIT BOARDS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC CIRCUIT BOARDS - SHIPPERS LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 25,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 24500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 84.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "CERT123456",
+      "CERT789012"
+    ],
     "originalBLDistribution": {
-      "name": "GOLDEN GATE SHIPPING LTD",
-      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
-      "telephone": "+1 415 555 1234",
-      "fax": "+1 415 555 1235"
+      "name": "WEST COAST WAREHOUSING INC.",
+      "address": "12345 PIER AVE, LONG BEACH, CA 90802, USA"
     },
     "originalInvoiceDistribution": {
-      "name": "GOLDEN GATE SHIPPING LTD",
-      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
-      "telephone": "+1 415 555 1234",
-      "fax": "+1 415 555 1235"
+      "name": "GLOBAL FREIGHT SOLUTIONS",
+      "address": "123 MAIN STREET, SUITE 200, SAN FRANCISCO, CA 94105, USA"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CARGO PACKED IN WOODEN CRATES"
   }
 }

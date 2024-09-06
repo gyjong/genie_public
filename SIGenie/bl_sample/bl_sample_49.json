@@ -1,95 +1,110 @@
 {
-  "bookingReference": "PEAR20240912134512",
+  "bookingReference": "APPLE20240912111199",
   "voyageDetails": {
-    "vesselName": "COSCO SHANGHAI 12",
+    "vesselName": "APL CHANGI",
     "voyageNumber": "2024042",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Huayuan Textile Co., Ltd.",
-      "address": "No. 1888, Wenyuan Road, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8712 3456",
-      "email": "sales@huayuantextile.com"
+      "name": "CHINA INTERNATIONAL TRADING CO. LTD",
+      "address": "NO. 188, NANJING ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "Textile Emporium GmbH",
-      "address": "Frankfurter Stra\u00dfe 12, 60329 Frankfurt, Germany",
-      "taxId": "DE123456789",
-      "president": "Herr Franz Mayer",
-      "telephone": "+49 69 756 1234",
-      "fax": "+49 69 756 5678"
+      "name": "EUROCHEM BV",
+      "address": "DIJKZICHT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 414 5000"
     },
     "notifyParty": {
-      "name": "K\u00fchne + Nagel International AG",
-      "address": "D\u00fcsseldorfer Stra\u00dfe 12, 40219 D\u00fcsseldorf, Germany",
-      "telephone": "+49 211 1234567",
-      "fax": "+49 211 9876543"
+      "name": "EUROCHEM BV",
+      "address": "DIJKZICHT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 414 5000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "55121900",
-  "commodityDescription": "Woven Cotton Fabric",
+  "hsCode": "290339",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
+      "containerNumber": "MSCU9743852",
       "sealNumber": "123456",
-      "marksAndNumbers": "HUAYUAN-20240912-001",
+      "marksAndNumbers": "EC2024-1",
       "numberOfPackages": 1000,
-      "packageType": "ROLLS",
-      "cargoDescription": "1000 ROLLS OF WOVEN COTTON FABRIC. SHIPPER'S LOAD, COUNT AND WEIGHT. FREIGHT PREPAID TO ROTTERDAM.",
-      "grossWeight": 18000.0,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU3946721",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EC2024-2",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU6359184",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EC2024-3",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
+      "grossWeight": 20000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER",
-    "totalPackages": 1000,
-    "packageType": "ROLLS",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 25.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "Standard container"
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "290339",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "00002023123456"
     },
-    "certificateDetails": "Certificate of Origin issued by Zhejiang Chamber of Commerce",
+    "certificateDetails": "CN202410123456",
     "originalBLDistribution": {
-      "name": "DHL Express",
-      "address": "60329 Frankfurt, Germany",
-      "telephone": "+49 69 756 1234",
-      "fax": "+49 69 756 5678"
+      "name": "DHL EXPRESS",
+      "address": "ROTTERDAM AIRPORT, 3045 AP ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 88 222 2222"
     },
     "originalInvoiceDistribution": {
-      "name": "Textile Emporium GmbH",
-      "address": "Frankfurter Stra\u00dfe 12, 60329 Frankfurt, Germany",
-      "telephone": "+49 69 756 1234",
-      "fax": "+49 69 756 5678"
+      "name": "EUROCHEM BV",
+      "address": "DIJKZICHT 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S DECLARATION: THE GOODS ARE NOT SUBJECT TO ANY EXPORT RESTRICTIONS."
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nGOODS ARE DELIVERED ON BOARD"
   }
 }

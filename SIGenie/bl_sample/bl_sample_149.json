@@ -1,94 +1,107 @@
 {
-  "bookingReference": "APPLE20241012111430",
+  "bookingReference": "APPLE20240912113456",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2423E",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "24042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "NEW YORK, USA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "235 HENGYU ROAD, SHANGHAI, CHINA 200000",
-      "telephone": "+86 21 5402 8888",
-      "fax": "+86 21 5402 9999"
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "additionalInfo": "(ORCHARD CENTRAL)",
+      "telephone": "+65 6789 0123",
+      "email": "SALES@GLOBALTRADING.COM.SG"
     },
     "consignee": {
-      "name": "EUROTRADE IMPORT BV",
-      "address": "KEULENSTRAAT 35, 3012 GR ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 5000",
-      "fax": "+31 10 414 5001",
-      "email": "INFO@EUROTRADE.NL",
-      "contactPerson": "MARIJKE VAN DER MEER"
+      "name": "AMERICAN IMPORTS INC.",
+      "address": "555 BROADWAY, NEW YORK, NY 10012",
+      "country": "USA",
+      "email": "INFO@AMERICANIMPORTS.COM",
+      "telephone": "+1 212 555 1212"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "BANK OF AMERICA, ROTTERDAM BRANCH",
-      "address": "WESTBLAAK 17, 3012 KK ROTTERDAM, NETHERLANDS"
+      "name": "FIRST BANK OF NEW YORK",
+      "address": "1 WALL STREET, NEW YORK, NY 10005",
+      "country": "USA",
+      "email": "INTERNATIONAL.TRADE@FIRSTBANKNY.COM",
+      "telephone": "+1 212 555 2323"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES, 250CC, WITH ELECTRIC START",
   "containers": [
     {
-      "containerNumber": "TCLU9856321",
+      "containerNumber": "UTLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "MTR2024",
-      "numberOfPackages": 25,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL USE",
-      "grossWeight": 15000.0,
-      "measurement": 18.5
+      "marksAndNumbers": "GLOBALTRADING-123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "MOTORCYCLES, 250CC, WITH ELECTRIC START (5 UNITS PER CRATE)",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "MTR2024A",
-      "numberOfPackages": 20,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL USE",
-      "grossWeight": 13500.0,
-      "measurement": 17.0
+      "containerNumber": "UTLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLOBALTRADING-456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "MOTORCYCLES, 250CC, WITH ELECTRIC START (5 UNITS PER CRATE)",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 45,
-    "totalGrossWeight": 28500.0,
-    "totalMeasurement": 35.5
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241012-001",
-    "documentNumber": "20241012-CN2023",
     "lcDetails": {
-      "lcNumber": "LC20241012-001"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CN20241012-COO1",
-      "CN20241012-PHY1"
+      "CERT-1234567",
+      "CERT-7890123"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE IMPORT BV",
-      "address": "KEULENSTRAAT 35, 3012 GR ROTTERDAM, NETHERLANDS"
+      "name": "FIRST BANK OF NEW YORK",
+      "address": "1 WALL STREET, NEW YORK, NY 10005",
+      "telephone": "+1 212 555 2323"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "235 HENGYU ROAD, SHANGHAI, CHINA 200000"
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "MOTORCYCLES PACKED IN CRATES WITH PROTECTIVE PACKAGING.  VALUE: USD 150,000"
   }
 }

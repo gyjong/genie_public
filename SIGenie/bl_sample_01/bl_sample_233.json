@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALEXANDRA",
+    "voyageNumber": "2431E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6225 8888",
+      "email": "info@asiatrading.sg"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT BV",
+      "address": "Hoogoorddreef 51, 1101 BE Amsterdam, Netherlands",
+      "taxId": "NL853372657B01",
+      "president": "Mr. Peter Jansen",
+      "telephone": "+31 20 667 8900",
+      "fax": "+31 20 667 8901"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORT BV",
+      "address": "Hoogoorddreef 51, 1101 BE Amsterdam, Netherlands",
+      "taxId": "NL853372657B01",
+      "president": "Mr. Peter Jansen",
+      "telephone": "+31 20 667 8900",
+      "fax": "+31 20 667 8901"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84137010",
+  "commodityDescription": "PUMPS FOR LIQUIDS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS PUMPS FOR LIQUIDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": "CO, Fumigation Certificate",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING AGENCY",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 123 4568"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS TO BE DELIVERED TO WAREHOUSE ADDRESS PROVIDED BY CONSIGNEE."
+  }
+}

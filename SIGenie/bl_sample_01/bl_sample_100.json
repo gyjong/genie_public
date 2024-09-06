@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240920143215",
+  "voyageDetails": {
+    "vesselName": "MAERSK MERIDA",
+    "voyageNumber": "2024345",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS BV",
+      "address": "BEUKENHORST 25, 3062 AA ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS SDN BHD",
+      "address": "UNIT 1-10, LEVEL 1, MENARA TA ONE, NO. 2, JALAN SIR CHENG LOCK, 50000 KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2035 1111",
+      "fax": "+60 3 2035 2222"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 MAIN STREET, SINGAPORE 010000",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
+  "containers": [
+    {
+      "containerNumber": "UTLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSS123",
+      "numberOfPackages": 2,
+      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS, MODEL: X-ADV 750",
+      "grossWeight": 850.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "UTLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSS456",
+      "numberOfPackages": 2,
+      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS, MODEL: X-ADV 750",
+      "grossWeight": 850.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 1700.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS SDN BHD",
+      "address": "UNIT 1-10, LEVEL 1, MENARA TA ONE, NO. 2, JALAN SIR CHENG LOCK, 50000 KUALA LUMPUR, MALAYSIA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 MAIN STREET, SINGAPORE 010000",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

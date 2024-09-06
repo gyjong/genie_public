@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20240912114523",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2431E",
-    "bound": "E"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2432E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6225 8888",
-      "email": "info@asiatrading.sg"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, #08-01, SINGAPORE 238840",
+      "country": "SINGAPORE",
+      "additionalInfo": "(CAPITAL TOWER)",
+      "telephone": "+65 6732 5678",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
     },
     "consignee": {
-      "name": "EUROTECH IMPORT BV",
-      "address": "Hoogoorddreef 51, 1101 BE Amsterdam, Netherlands",
-      "taxId": "NL853372657B01",
-      "president": "Mr. Peter Jansen",
-      "telephone": "+31 20 667 8900",
-      "fax": "+31 20 667 8901"
+      "name": "EUROTECH GMBH",
+      "address": "BAHNHOFSTRASSE 15, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 36789012"
     },
     "notifyParty": {
-      "name": "EUROTECH IMPORT BV",
-      "address": "Hoogoorddreef 51, 1101 BE Amsterdam, Netherlands",
-      "taxId": "NL853372657B01",
-      "president": "Mr. Peter Jansen",
-      "telephone": "+31 20 667 8900",
-      "fax": "+31 20 667 8901"
+      "name": "EUROTECH GMBH",
+      "address": "BAHNHOFSTRASSE 15, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 36789012"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84137010",
-  "commodityDescription": "PUMPS FOR LIQUIDS",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS, INCLUDING PRINTED CIRCUIT BOARDS AND SEMICONDUCTORS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "marksAndNumbers": "ET123",
       "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS PUMPS FOR LIQUIDS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS, INCLUDING PRINTED CIRCUIT BOARDS AND SEMICONDUCTORS",
+      "grossWeight": 12500.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: ELECTRONIC COMPONENTS, INCLUDING PRINTED CIRCUIT BOARDS AND SEMICONDUCTORS",
+      "grossWeight": 12500.0,
+      "measurement": 28.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 57.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20 DRY Container"
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890123"
+      "lcNumber": "LC0012345678"
     },
-    "certificateDetails": "CO, Fumigation Certificate",
+    "certificateDetails": [
+      "SGS20240912001",
+      "COC20240912002"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 123 4567",
-      "fax": "+31 10 123 4568"
+      "name": "BANK OF CHINA, SINGAPORE",
+      "address": "101 UPPER CROSS STREET, #01-00, SINGAPORE 058357",
+      "telephone": "+65 6323 8888"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 123 4567",
-      "fax": "+31 10 123 4568"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, #08-01, SINGAPORE 238840",
+      "telephone": "+65 6732 5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS TO BE DELIVERED TO WAREHOUSE ADDRESS PROVIDED BY CONSIGNEE."
+    "onboardDate": "SEPT. 14. 2024",
+    "additionalRemarks": "GOODS IN EXCELLENT CONDITION\n"
   }
 }

@@ -1,20 +1,20 @@
 {
-  "bookingReference": "GRAPE20240915123502",
+  "bookingReference": "APPLE20240912103456",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
+    "vesselName": "CMA CGM ROQUEVAIRE",
     "voyageNumber": "2024042",
-    "bound": "E"
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,73 +23,78 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ROBINSON ROAD #12-01, SINGAPORE 068902",
-      "telephone": "+65 6536 8877",
-      "email": "INFO@APTRADING.SG"
+      "name": "SEA DRAGON LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "VISSERSTRAAT 12, 3011 BA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL853675212B01",
-      "president": "MRS. ANNA VAN DER HEIJDEN",
-      "telephone": "+31 10 414 5678",
-      "fax": "+31 10 414 5679"
+      "name": "EURO STAR LOGISTICS GMBH",
+      "address": "Frankfurter Strasse 25, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS",
-      "address": "VISSERSTRAAT 12, 3011 BA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 5680",
-      "fax": "+31 10 414 5681"
+      "name": "SEA DRAGON LOGISTICS GMBH",
+      "address": "Friedrichstrasse 10, 10969 Berlin, Germany",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 98765432"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "85044010",
-  "commodityDescription": "ELECTRIC TRANSFORMERS",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR MANUFACTURING TEXTILES",
   "containers": [
     {
       "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET2024-09-15",
-      "numberOfPackages": 2,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. TRANSFORMERS AS PER PACKING LIST.",
-      "grossWeight": 12000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "SD20240912",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 PACKAGES TEXTILE MACHINERY SPARES",
+      "grossWeight": 1200.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SD20240912A",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 PACKAGES TEXTILE MACHINERY PARTS",
+      "grossWeight": 2500.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "CRATES",
-    "containerType": "40' DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3700.0,
+    "totalMeasurement": 35.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40' Dry Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": "CERTIFICATE OF ORIGIN: CN20240915",
+    "certificateDetails": [
+      "COO-123456",
+      " fumigation-789012"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "2500 SINGAPORE POST CENTRE, SINGAPORE 915142",
-      "telephone": "+65 6333 3333",
-      "fax": "+65 6333 3334"
+      "name": "EURO STAR LOGISTICS GMBH",
+      "address": "Frankfurter Strasse 25, 60311 Frankfurt am Main, Germany"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "2500 SINGAPORE POST CENTRE, SINGAPORE 915142",
-      "telephone": "+65 6333 3333",
-      "fax": "+65 6333 3334"
+      "name": "SEA DRAGON LOGISTICS GMBH",
+      "address": "Friedrichstrasse 10, 10969 Berlin, Germany",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 98765432"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
   }
 }

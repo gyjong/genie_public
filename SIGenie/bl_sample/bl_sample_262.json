@@ -1,90 +1,109 @@
 {
-  "bookingReference": "STARAPPLE20241026143511",
+  "bookingReference": "APPLE20241025143256",
   "voyageDetails": {
-    "vesselName": "MSC MARIA",
-    "voyageNumber": "2443E",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2433W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI GENERAL IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1201, NO.333, XINZHU ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6328-5678",
-      "fax": "+86-21-6328-5679"
+      "name": "SHANGHAI XINYU IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1502, NO. 358, XINZHU ROAD, SHANGHAI, 200031, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "EUROCHEM GMBH",
+      "address": "FRIEDRICH-EBERT-STRASSE 12, 60323 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 794070"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WALDDORFSTRASSE 125, 60599 FRANKFURT AM MAIN, GERMANY"
+      "name": "EUROCHEM GMBH",
+      "address": "FRIEDRICH-EBERT-STRASSE 12, 60323 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROCHEM.DE",
+      "telephone": "+49 69 794070"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "hsCode": "290311",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "DSLU9912345",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "EUROTECH-1",
-      "numberOfPackages": 5,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
-      "grossWeight": 2500.0,
-      "measurement": 10.0,
-      "additionalInfo": ""
+      "containerNumber": "SEGU4798625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU7854321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU2345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EC789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE 20 MT IN 200 DRUMS OF 100 KG EACH",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 10.0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "291524",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000123456789"
     },
-    "certificateDetails": [
-      "CN1234567890",
-      "CO1234567890"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "FRANKFURTER STRASSE 123, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7981-2345",
-      "fax": "+49-69-7981-2346"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 794070"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI GENERAL IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1201, NO.333, XINZHU ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6328-5678",
-      "fax": "+86-21-6328-5679"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 5, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 794070"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination\nDangerous Goods Declaration Attached"
   }
 }

@@ -1,98 +1,107 @@
 {
-  "bookingReference": "APPLE20240912143256",
+  "bookingReference": "APPLE20241026101542",
   "voyageDetails": {
-    "vesselName": "MAERSK INDIANA",
-    "voyageNumber": "224W",
-    "bound": "W"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2434W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+      "name": "ZHONGSHAN SKYWELL ELECTRONICS CO., LTD.",
+      "address": "NO. 128, HUANGHUA ROAD, NANLANG TOWN, ZHONGSHAN, GUANGDONG, 528437",
+      "country": "CHINA",
+      "additionalInfo": "(SKYWELL INDUSTRIAL PARK)",
+      "telephone": "+86 757 8225 6666",
+      "email": "SALES@SKYWELL.COM"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Pieter de Hoochweg 12, 3072 BM Rotterdam, Netherlands",
-      "telephone": "+31 10 462 8500",
-      "fax": "+31 10 462 8599"
+      "name": "EUROTECH GMBH",
+      "address": "SCHULZENDORP 5, 22393 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 3999 1000"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Coolsingel 108, 3012 AG Rotterdam, Netherlands",
-      "telephone": "+31 10 204 5678",
-      "fax": "+31 10 204 5679"
+      "name": "EUROTECH GMBH",
+      "address": "SCHULZENDORP 5, 22393 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 3999 1000"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84138100",
-  "commodityDescription": "PUMPS FOR LIQUIDS - CENTRIFUGAL PUMPS",
+  "shippingTerm": "CFR",
+  "hsCode": "854140",
+  "commodityDescription": "POWER ADAPTERS, USB CHARGERS AND CABLES",
   "containers": [
     {
-      "containerNumber": "MSCU3456789",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT-123",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 CENTRIFUGAL PUMPS, MODEL CP-2000, PACKED IN WOODEN CRATES",
-      "grossWeight": 2500.0,
-      "measurement": 15.5
+      "marksAndNumbers": "SKYWELL1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER ADAPTERS, USB CHARGERS AND CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "CMAU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "GT-456",
-      "numberOfPackages": 10,
-      "cargoDescription": "10 CENTRIFUGAL PUMPS, MODEL CP-2000, PACKED IN WOODEN CRATES",
-      "grossWeight": 2500.0,
-      "measurement": 15.5
+      "marksAndNumbers": "SKYWELL5678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER ADAPTERS, USB CHARGERS AND CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 5000.0,
-    "totalMeasurement": 31.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
   },
   "outOfGaugeDimensions": {
     "length": 0,
     "width": 0,
     "height": 0,
+    "overWidth": 0,
     "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00002122345678"
     },
     "certificateDetails": [
-      "Certificate of Origin",
-      "Inspection Certificate"
+      "411252403578X",
+      "411252403579X"
     ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Pieter de Hoochweg 12, 3072 BM Rotterdam, Netherlands"
+      "name": "DHL EXPRESS",
+      "address": "SCHULZENDORP 5, 22393 HAMBURG",
+      "telephone": "+49 40 3999 1000"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+      "name": "DHL EXPRESS",
+      "address": "SCHULZENDORP 5, 22393 HAMBURG",
+      "telephone": "+49 40 3999 1000"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD & COUNT"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

@@ -1,96 +1,97 @@
 {
-  "bookingReference": "GRAPE20241015103002",
+  "bookingReference": "ORANGE20241026143215",
   "voyageDetails": {
-    "vesselName": "MAERSK ATLANTIS",
-    "voyageNumber": "2024055",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024103",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #10-01 Anson Centre, SINGAPORE 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "onBehalfOf": "ASIA PACIFIC HOLDINGS",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Frankfurter Strasse 12, 60329 Frankfurt, GERMANY",
-      "telephone": "+49-69-1234-5678",
-      "fax": "+49-69-1234-5679"
+      "name": "EUROFRESH BV",
+      "address": "Industrieweg 25, 3144 AC Maassluis, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "Frankfurter Strasse 12, 60329 Frankfurt, GERMANY",
-      "telephone": "+49-69-1234-5678",
-      "fax": "+49-69-1234-5679"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "070110",
+  "commodityDescription": "POTATOES",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "GRSU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROTECH 123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 BOXES OF ELECTRONIC COMPONENTS.",
-      "grossWeight": 1200.0,
-      "measurement": 1.5
+      "marksAndNumbers": "SUNRISE23",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTATOES",
+      "grossWeight": 22000.0,
+      "measurement": 25.0,
+      "additionalInfo": "GOODS STOWED AND SECURED. TEMPERATURE CONTROLLED."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "totalGrossWeight": 1200.0,
-    "totalMeasurement": 1.5
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BAGS",
+    "containerType": "40HC",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "SUDU9876543",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8544.42",
-    "flashPoint": "N/A",
-    "additionalInfo": "BATTERY MARKING REQUIRED"
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC20241015"
+      "lcNumber": "0000202040589"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [
+      "PHYTO-1234567890",
+      " fumigation certificate "
+    ],
     "originalBLDistribution": {
-      "name": "EUROTECH GMBH",
-      "address": "Frankfurter Strasse 12, 60329 Frankfurt, GERMANY",
-      "telephone": "+49-69-1234-5678",
-      "fax": "+49-69-1234-5679"
+      "name": "SUNRISE TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #10-01 Anson Centre, SINGAPORE 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "ASIA PACIFIC HOLDINGS",
+      "address": "100 Orchard Road, #15-01 Orchard Towers, Singapore 238840",
+      "telephone": "+65-6737-5555",
+      "fax": "+65-6737-6666"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "FRAGILE - HANDLE WITH CARE"
+    "onboardDate": "OCT. 31. 2024",
+    "additionalRemarks": "Potato variety: Russet Burbank"
   }
 }

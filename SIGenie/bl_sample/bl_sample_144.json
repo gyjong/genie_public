@@ -1,19 +1,19 @@
 {
-  "bookingReference": "BLUEBERRY20241015143501",
+  "bookingReference": "APPLE202410179432100",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2410W2",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024345",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,68 +23,77 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1502, NO. 1588 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8866"
     },
     "consignee": {
-      "name": "EUROSTAR LOGISTICS BV",
-      "address": "WEENA 235, 3012 AM ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EURO LOGISTICS BV",
+      "address": "Vlaardingenweg 25, 3133 KX Vlaardingen, Netherlands",
+      "telephone": "+31 15 750 5000",
+      "fax": "+31 15 750 5050",
+      "email": "info@eurologistics.nl",
+      "contactPerson": "JAN VAN DER MEER"
     },
     "notifyParty": {
-      "name": "WORLDWIDE CARGO MANAGEMENT",
-      "address": "23 RUE DE LA PAIX, 75001 PARIS, FRANCE"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8866"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CIF",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLES (500CC)",
   "containers": [
     {
-      "containerNumber": "MSCU6789123",
+      "containerNumber": "SEGU6527319",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC PROVIDED BY SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD."
+      "marksAndNumbers": "GLB-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 1850.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "SEGU6527320",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLB-124",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 1870.0,
+      "measurement": 15.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 3720.0,
+    "totalMeasurement": 31.3
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "invoiceNumber": "GT20241017001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "LC-0001234567"
     },
     "certificateDetails": [
-      "CN20241015001",
-      "CN20241015002"
+      "4112724080179X",
+      "4112724080180X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1502, NO. 1588 HUANGPU ROAD, SHANGHAI 200000, CHINA",
-      "telephone": "+86-21-6326-8888",
-      "fax": "+86-21-6326-9999"
+      "name": "EURO LOGISTICS BV",
+      "address": "Vlaardingenweg 25, 3133 KX Vlaardingen, Netherlands",
+      "telephone": "+31 15 750 5000",
+      "fax": "+31 15 750 5050"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROSTAR LOGISTICS BV",
-      "address": "WEENA 235, 3012 AM ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-200-0000",
-      "fax": "+31-10-200-1111"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8899",
+      "fax": "+65 6221 8866"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Cargo insured for USD 100,000"
+    "onboardDate": "OCT. 29. 2024"
   }
 }

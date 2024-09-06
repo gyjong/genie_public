@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20240912143256",
+  "bookingReference": "ORANGE20240912104502",
   "voyageDetails": {
-    "vesselName": "CAPELLA 08",
-    "voyageNumber": "2024042",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024040",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -23,78 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "WORLDWIDE IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, LONDON, UK EC1A 1BB"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8800",
-      "fax": "+65 6221 8899"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6737 8888",
+      "fax": "+65 6737 9999"
     },
     "notifyParty": {
-      "name": "JOHN SMITH",
-      "address": "123 MAIN STREET, ANYTOWN, USA",
-      "telephone": "+1 555 123 4567",
-      "fax": "+1 555 123 4568"
+      "name": "WORLDWIDE LOGISTICS PTE LTD.",
+      "address": "20 Anson Road #11-01, Singapore 079912",
+      "telephone": "+65 6221 5555",
+      "fax": "+65 6221 6666"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87089900",
-  "commodityDescription": "USED TRUCK TYRES",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "MSCU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "GFS123",
-      "numberOfPackages": 500,
-      "cargoDescription": "500 USED TRUCK TYRES",
-      "grossWeight": 25000.0,
-      "measurement": 33.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES, MODEL XR250",
+      "grossWeight": 4500.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "GFS456",
-      "numberOfPackages": 500,
-      "cargoDescription": "500 USED TRUCK TYRES",
-      "grossWeight": 25000.0,
-      "measurement": 33.0
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES, MODEL XR250",
+      "grossWeight": 4500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (40'HC) CONTAINERS ONLY",
-    "totalPackages": 1000,
-    "packageType": "PACKAGES",
-    "containerType": "40'HC",
-    "totalGrossWeight": 50000.0,
-    "totalMeasurement": 66.0
+    "totalContainers": "TWO (20GP) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "UNITS",
+    "containerType": "20GP",
+    "totalGrossWeight": 9000.0,
+    "totalMeasurement": 50.0
   },
   "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000302040571"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "1000030080231X",
-      "1000030080232X"
+      "CO12345678"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8800",
-      "fax": "+65 6221 8899"
+      "name": "WORLDWIDE IMPORT & EXPORT LTD.",
+      "address": "123 MAIN STREET, LONDON, UK EC1A 1BB"
     },
     "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
+    "additionalRemarks": " SHIPPED ON BOARD"
   }
 }

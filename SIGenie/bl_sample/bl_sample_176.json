@@ -1,107 +1,96 @@
 {
-  "bookingReference": "APPLE20240912101523",
+  "bookingReference": "APPLE20241016112502",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2447E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "SHANGHAI, CHINA",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA TECH SOLUTIONS LTD.",
-      "address": "UNIT 1508, 15/F, SHANGHAI TOWER, 501 YIN CHENG RD. EAST, SHANGHAI, 200120, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "(Lujiazui)",
-      "telephone": "+86 21 6158 7890",
-      "email": "SALES@ASIATECHSOLUTIONS.CN"
+      "name": "GLOBAL TRADING CO.",
+      "address": "ZUIDERKLANT 123, 3072 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2456789",
+      "fax": "+31-10-2456788"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "KLEINE FLEETSTRASSE 12, 20357 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECHGMBH.DE, ORDERS@EUROTECHGMBH.DE",
-      "telephone": "+49 40 325760"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
     },
     "notifyParty": {
-      "name": "EUROTECH GMBH",
-      "address": "KLEINE FLEETSTRASSE 12, 20357 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECHGMBH.DE, ORDERS@EUROTECHGMBH.DE",
-      "telephone": "+49 40 325760"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "AUTOMATIC PRECISION LATHES WITH CNC CONTROL",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU5872631",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS123",
-      "numberOfPackages": 1,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) AUTOMATIC PRECISION LATHE WITH CNC CONTROL",
-      "grossWeight": 12500.0,
-      "measurement": 20.5
-    },
-    {
-      "containerNumber": "MSCU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "AS456",
-      "numberOfPackages": 1,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) AUTOMATIC PRECISION LATHE WITH CNC CONTROL",
-      "grossWeight": 12500.0,
-      "measurement": 20.5
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 5 BOXES CONTAINING MACHINERY PARTS. GROSS WEIGHT AS SHOWN.",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
-    "totalPackages": 2,
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 41.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 1.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "00002020334237"
+      "lcNumber": "LC20241016001"
     },
-    "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
-    ],
+    "certificateDetails": "20241016002",
     "originalBLDistribution": {
-      "name": "WORLDWIDE LOGISTICS GMBH",
-      "address": "BEUTELSTRASSE 25, 20359 HAMBURG",
-      "telephone": "+49 40 325760"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-1235"
     },
     "originalInvoiceDistribution": {
-      "name": "WORLDWIDE LOGISTICS GMBH",
-      "address": "BEUTELSTRASSE 25, 20359 HAMBURG",
-      "telephone": "+49 40 325760"
+      "name": "GLOBAL TRADING CO.",
+      "address": "ZUIDERKLANT 123, 3072 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2456789",
+      "fax": "+31-10-2456788"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD150,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "NONE"
   }
 }

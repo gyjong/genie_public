@@ -1,109 +1,95 @@
 {
-  "bookingReference": "APPLE20241015102542",
+  "bookingReference": "APPLE20240912132511",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2430E",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI DAJIANG IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1001, NO. 388, JINGDE ROAD, SHANGHAI, 200051",
-      "country": "CHINA",
-      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+      "name": "DELTA SHIPPING BV",
+      "address": "KEizersgracht 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 8500",
+      "email": "info@deltashipping.nl"
     },
     "consignee": {
-      "name": "EUROTECH TRADING BV",
-      "address": "WEENA 307, 3012CM ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROTECH.NL",
-      "telephone": "+31 10 204 5678"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "taxId": "200212345H",
+      "president": "MR. LIM CHENG KENG",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "notifyParty": {
-      "name": "EUROTECH LOGISTICS",
-      "address": "ZUIDHOF 2, 3012BM ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "OPERATIONS@EUROTECHLOGISTICS.NL",
-      "telephone": "+31 10 485 7654"
+      "name": "SUNRISE LOGISTICS PTE LTD",
+      "address": "7500 Beach Road, #01-10 The Plaza, SINGAPORE 199591",
+      "telephone": "+65 6336 5555",
+      "fax": "+65 6336 6666"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8479899090",
-  "commodityDescription": "ELECTRIC GENERATOR SETS (DIESEL)",
+  "shippingTerm": "CIF SINGAPORE",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "GRSU9386754",
+      "containerNumber": "SUDU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG-2024-10-15",
-      "numberOfPackages": 1,
-      "packageType": "UNIT",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-12345",
-      "grossWeight": 3500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "GRSU8754321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ETG-2024-10-15",
-      "numberOfPackages": 1,
-      "packageType": "UNIT",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-67890",
-      "grossWeight": 3500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "GRSU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ETG-2024-10-15",
-      "numberOfPackages": 1,
-      "packageType": "UNIT",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) ELECTRIC GENERATOR SET (DIESEL) MODEL: DG2500KVA, SERIAL NO. DG2500-34567",
-      "grossWeight": 3500.0,
-      "measurement": 15.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF SINGAPORE MOTORCYCLES",
+      "grossWeight": 5000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3,
-    "packageType": "UNIT",
-    "totalGrossWeight": 10500.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "ONE (20FT) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "containerType": "20FT",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20FT Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "8479899090",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": "CO, COO",
+    "certificateDetails": "COC1234567890",
     "originalBLDistribution": {
-      "name": "EUROTECH LOGISTICS",
-      "address": "ZUIDHOF 2, 3012BM ROTTERDAM",
-      "telephone": "+31 10 485 7654"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, SINGAPORE 018982",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI DAJIANG IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1001, NO. 388, JINGDE ROAD, SHANGHAI, 200051",
-      "telephone": "+86 21 5555 1234"
+      "name": "DELTA SHIPPING BV",
+      "address": "KEizersgracht 123, 1016 DW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 8500",
+      "email": "info@deltashipping.nl"
     },
-    "onboardDate": "OCT. 18. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

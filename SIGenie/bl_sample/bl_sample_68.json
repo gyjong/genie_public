@@ -1,101 +1,96 @@
 {
-  "bookingReference": "GRAPE20241015567832",
+  "bookingReference": "APPLE20241015143022",
   "voyageDetails": {
-    "vesselName": "MSC ZOE",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "2333 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "86-21-63231000",
-      "fax": "86-21-63231001"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "onBehalfOf": "none",
+      "address": "123 MAIN STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 32, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49 69 790190",
-      "fax": "+49 69 790191",
-      "email": "INFO@EUROTRADE.DE",
-      "contactPerson": "ANNA SCHMIDT"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "companyNumber": "201212345H"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS GMBH",
-      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG, GERMANY",
-      "telephone": "+49 40 30378900",
-      "fax": "+49 40 30378901",
-      "email": "NOTIFICATIONS@GLOBALLOGISTICS.DE",
-      "contactPerson": "PETER MEYER"
+      "name": "FIRST LOGISTICS PTE LTD",
+      "address": "200 TEMASEK BOULEVARD, #10-01, SINGAPORE 038785"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "300490",
+  "commodityDescription": "TOOTHPASTE",
   "containers": [
     {
-      "containerNumber": "CMAU9572384",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLIES",
-      "grossWeight": 8500.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "789012",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 15,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SPINDLES AND BEARINGS",
-      "grossWeight": 7200.0,
-      "measurement": 12.5
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 1000 CARTONS TOOTHPASTE",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": "Fragile, Keep Dry"
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 25,
-    "totalGrossWeight": 15700.0,
-    "totalMeasurement": 27.5
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {
+    "containerNumber": null,
+    "temperature": null,
+    "minTemperature": null,
+    "maxTemperature": null,
+    "ventilation": null,
+    "humidity": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20241015-001",
-    "documentNumber": "20241015-BL002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000234567890"
     },
     "certificateDetails": [
-      "CO-123456789",
-      " fumigation certificate"
+      "4112720070177X"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 32, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49 69 790190",
-      "fax": "+49 69 790191"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "2333 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "86-21-63231000",
-      "fax": "86-21-63231001"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": " Value: USD50,000"
   }
 }

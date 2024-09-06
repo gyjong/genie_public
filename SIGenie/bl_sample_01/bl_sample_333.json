@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE202410121234567",
+  "voyageDetails": {
+    "vesselName": "MAERSK MONTERREY",
+    "voyageNumber": "2024042",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA TRADING CO. LTD",
+      "address": "123 CHANG'AN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1000 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1-213-555-5678",
+      "fax": "+1-213-555-5679",
+      "email": "IMPORT@WCIMPORTS.COM",
+      "contactPerson": "SARAH JOHNSON"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS LLC",
+      "address": "555 BROADWAY, NEW YORK, NY 10006",
+      "telephone": "+1-212-555-8910",
+      "fax": "+1-212-555-8911"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "621120",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CT123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CT456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - Assorted Colors and Sizes",
+      "grossWeight": 11800.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40FT CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 23800.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CHINA TRADING CO. LTD",
+      "address": "123 CHANG'AN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA TRADING CO. LTD",
+      "address": "123 CHANG'AN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "onboardDate": "OCT. 25. 2024"
+  }
+}

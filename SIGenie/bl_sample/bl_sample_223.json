@@ -1,99 +1,107 @@
 {
-  "bookingReference": "APPLE202409201357100",
+  "bookingReference": "APPLE20240912113456",
   "voyageDetails": {
-    "vesselName": "MSC ARES",
-    "voyageNumber": "2432E",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2430W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA OCEAN SHIPPING CO. LTD",
-      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
-      "telephone": "86-10-88888888",
-      "fax": "86-10-88888889"
+      "name": "SHANGHAI IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 1588, SHANGHAI ROAD, CHANGNING DISTRICT, SHANGHAI",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR HONGKOU PLAZA)",
+      "telephone": "+86 21 6278 1234",
+      "email": "SALES@SHANGHAIIMPORTEXPORT.COM"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90015",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213",
-      "email": "IMPORT@WCI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "ABC GMBH",
+      "address": "GEWERBESTRASSE 10, 20354 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@ABCGMBH.DE",
+      "telephone": "+49 40 3567890"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ABC LOGISTICS INC.",
-      "address": "456 OAK AVENUE, LOS ANGELES, CA 90016",
-      "telephone": "1-310-555-1313",
-      "fax": "1-310-555-1314"
+      "name": "ABC GMBH",
+      "address": "GEWERBESTRASSE 10, 20354 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@ABCGMBH.DE",
+      "telephone": "+49 40 3567890"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "610910",
-  "commodityDescription": "MEN'S T-SHIRTS - 100% COTTON",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "842123",
+  "commodityDescription": "INDUSTRIAL PRESSURE GAUGES WITH DIGITAL DISPLAY AND 4-20mA OUTPUT",
   "containers": [
     {
-      "containerNumber": "COSU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "T-SHIRT LOT 1",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - 100% COTTON",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS INDUSTRIAL PRESSURE GAUGES WITH DIGITAL DISPLAY AND 4-20mA OUTPUT. SHIPPER'S LOAD, COUNT & WEIGHT.",
+      "grossWeight": 1500.0,
+      "measurement": 10.5
     },
     {
-      "containerNumber": "COSU7654321",
-      "sealNumber": "765432",
-      "marksAndNumbers": "T-SHIRT LOT 2",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S T-SHIRTS - 100% COTTON",
-      "grossWeight": 12500.0,
-      "measurement": 26.0
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS INDUSTRIAL PRESSURE GAUGES WITH DIGITAL DISPLAY AND 4-20mA OUTPUT. SHIPPER'S LOAD, COUNT & WEIGHT.",
+      "grossWeight": 1500.0,
+      "measurement": 10.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 24500.0,
-    "totalMeasurement": 51.5
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 21.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "4567890-01",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "00002345678901"
     },
     "certificateDetails": [
-      "4112724080177X"
+      "411252403578X",
+      "411252403579X"
     ],
     "originalBLDistribution": {
-      "name": "CHINA OCEAN SHIPPING CO. LTD",
-      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
-      "telephone": "86-10-88888888",
-      "fax": "86-10-88888889"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
+      "telephone": "+49 69 79387333"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA OCEAN SHIPPING CO. LTD",
-      "address": "218 SHANGHAI ROAD, BEIJING, CHINA 100001",
-      "telephone": "86-10-88888888",
-      "fax": "86-10-88888889"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
+      "telephone": "+49 69 79387333"
     },
-    "onboardDate": "SEPT. 29. 2024"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "SHIPMENT INCLUDES SPARE PARTS AND ACCESSORIES. "
   }
 }

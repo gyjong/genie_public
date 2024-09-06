@@ -1,99 +1,96 @@
 {
-  "bookingReference": "APPLE202410161155200",
+  "bookingReference": "APPLE20241015142501",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2024108",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE TRADING COMPANY PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65-6737-8888",
+      "fax": "+65-6737-9999"
     },
     "consignee": {
-      "name": "EUROLOGISTICS BV",
-      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands",
-      "telephone": "+31 10 245 6789",
-      "fax": "+31 10 245 6780",
-      "email": "info@eurologistics.nl",
-      "contactPerson": "Pieter Van Der Meer"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7981-0000",
+      "fax": "+49-69-7981-1111"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GREENWAY SHIPPING",
-      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
-      "telephone": "+31 20 624 5678",
-      "fax": "+31 20 624 5670"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7981-0000",
+      "fax": "+49-69-7981-1111"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870870",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "LCD SCREENS",
   "containers": [
     {
-      "containerNumber": "MSCU6857312",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "MOTORCYCLE1",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL XR250",
-      "grossWeight": 1800.0,
-      "measurement": 15.5
-    },
-    {
-      "containerNumber": "MSCU7654321",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "MOTORCYCLE2",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT\" SAID TO CONTAIN: 5 MOTORCYCLES, MODEL XR250",
-      "grossWeight": 1850.0,
-      "measurement": 16.0
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ETG123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS LCD SCREENS, MODEL: ET2740",
+      "grossWeight": 1250.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40'HQ CONTAINERS",
-    "totalPackages": 10,
-    "totalGrossWeight": 3650.0,
-    "totalMeasurement": 31.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 1.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
-    "invoiceNumber": "20241016-001",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO20241015",
+    "salesOrderNumber": "SO20241015-01",
     "lcDetails": {
-      "lcNumber": "LC00012345678"
+      "lcNumber": "LC123456789"
     },
-    "certificateDetails": [
-      "4112724080179X"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "Nieuwe Haven 123, 3011 GW Rotterdam, Netherlands",
-      "telephone": "+31 10 245 6789",
-      "fax": "+31 10 245 6780"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65-6737-8888",
+      "fax": "+65-6737-9999"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE TRADING COMPANY PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49-69-7981-0000",
+      "fax": "+49-69-7981-1111"
     },
-    "onboardDate": "OCT. 27. 2024"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT"
   }
 }

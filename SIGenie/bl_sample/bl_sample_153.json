@@ -1,96 +1,107 @@
 {
-  "bookingReference": "PINEAPPLE20241015143211",
+  "bookingReference": "APPLE20241026123456",
   "voyageDetails": {
-    "vesselName": "CAPELLA STAR",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2435W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "onBehalfOf": null,
-      "address": "120 Anson Road, #22-01, International Plaza, Singapore 079902",
-      "telephone": "+65 6227 8500",
-      "fax": "+65 6227 8555"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road #25-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact: Mr. Lee)",
+      "telephone": "+65 6227 8888",
+      "email": "lee.chian@asiapacifictrading.com.sg"
     },
     "consignee": {
-      "name": "DEUTSCHE IMPORTS GMBH",
-      "address": "Speicherstra\u00dfe 12, 20457 Hamburg, Germany",
-      "companyNumber": "HRB 123456"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 5, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3037 5678"
     },
     "notifyParty": {
-      "name": "WORLDWIDE LOGISTICS GMBH",
-      "address": "Feldstra\u00dfe 10, 20357 Hamburg, Germany"
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstra\u00dfe 5, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3037 5678"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CFR",
+  "hsCode": "841370",
+  "commodityDescription": "PUMPS FOR LIQUIDS; PARTS OF PUMPS",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-123",
+      "marksAndNumbers": "ETG-123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "10 BOXES PUMP PARTS (W.1200MM H.1000MM D.800MM)",
+      "grossWeight": 4500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ETG-456",
       "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "packageType": "CRATES",
+      "cargoDescription": "5 CRATES PUMPS (W.1500MM H.1200MM D.900MM)",
       "grossWeight": 2500.0,
-      "measurement": 20.0,
-      "additionalInfo": "COC : THE GROSS WEIGHT WITHOUT THE CONTAINER WEIGHT. CONTAINER IS 20' DRY"
+      "measurement": 8.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "UNITS",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 20.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 7000.0,
+    "totalMeasurement": 21.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000202033738"
+      "lcNumber": "00002345678901"
     },
     "certificateDetails": [
-      "4112720070177X"
+      "411252403578X",
+      "411252403579X"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "120 Anson Road, #22-01, International Plaza, Singapore 079902",
-      "telephone": "+65 6227 8500",
-      "fax": "+65 6227 8555"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1111 E. 11th Ave, Denver, CO 80203, USA",
+      "telephone": "+1 303 555 1212"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "120 Anson Road, #22-01, International Plaza, Singapore 079902",
-      "telephone": "+65 6227 8500",
-      "fax": "+65 6227 8555"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1111 E. 11th Ave, Denver, CO 80203, USA",
+      "telephone": "+1 303 555 1212"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: USD50,000"
   }
 }

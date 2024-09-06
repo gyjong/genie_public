@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241026153047",
+  "bookingReference": "APPLE20241026143212",
   "voyageDetails": {
-    "vesselName": "MSC ZOE",
-    "voyageNumber": "2432W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2431W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,74 +23,87 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "onBehalfOf": null,
-      "address": "225 ZHONGSHAN ROAD EAST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-8888",
-      "fax": "+86-21-6329-9999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. Tan)"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "C. VAN DER HOEVENSTRAAT 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROTECH GMBH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 69 75643210"
     },
     "notifyParty": {
-      "name": "DELTA LOGISTICS BV",
-      "address": "WATERFRONT 2, 3063 NN ROTTERDAM, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, GERMANY",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 69 75643210"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "hsCode": "854140",
+  "commodityDescription": "COMPUTER PROCESSOR UNITS (CPUs)",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "ETG-20241026",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT.  MACHINERY PARTS AS DESCRIBED.",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IS TEMPERATURE CONTROLLED"
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF COMPUTER PROCESSOR UNITS (CPUs)",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ETG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF COMPUTER PROCESSOR UNITS (CPUs)",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "TCLU98765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ETG-20241026",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF COMPUTER PROCESSOR UNITS (CPUs)",
+      "grossWeight": 1500.0,
+      "measurement": 10.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 30.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "847330",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "12345678901234567890"
-    ],
+    "certificateDetails": "CO-23456789",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "C. VAN DER HOEVENSTRAAT 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "DHL EXPRESS",
+      "address": "DHL Global Forwarding GmbH,  Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, GERMANY",
+      "telephone": "+49 69 75643210"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "address": "225 ZHONGSHAN ROAD EAST, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6329-8888",
-      "fax": "+86-21-6329-9999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 1234"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": "SHIPMENT OF MACHINERY PARTS, VALUE: USD25,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO MARKED AS FRAGILE"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20241015104521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2442E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EUROFOODS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@eurofoods.nl"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE",
+      "taxId": "GST123456789",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE",
+      "taxId": "GST123456789",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "21069090",
+  "commodityDescription": "APPLE JUICE CONCENTRATE",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE APPLE JUICE CONCENTRATE",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "SINGAPORE SHIPPING AGENCY PTE LTD",
+      "address": "101 ROBINSON ROAD, SINGAPORE",
+      "telephone": "+65 6888 1234",
+      "fax": "+65 6888 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINGAPORE SHIPPING AGENCY PTE LTD",
+      "address": "101 ROBINSON ROAD, SINGAPORE",
+      "telephone": "+65 6888 1234",
+      "fax": "+65 6888 1235"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "None"
+  }
+}

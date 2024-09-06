@@ -1,109 +1,95 @@
 {
-  "bookingReference": "GRAPE20240918113422",
+  "bookingReference": "APPLE20240912101502",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
-    "voyageNumber": "2435W",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI XINGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 501, BUILDING 3, NO. 1888, SHENNAN ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(HONGKOU DISTRICT)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6737 8901",
+      "email": "SALES@ASIAPACIFIC.SG"
     },
     "consignee": {
-      "name": "VAN DER MEIJEN TRADING BV",
-      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@VANDERMEIJEN.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "name": "VAN DER MEIJEN TRADING BV",
-      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@VANDERMEIJEN.NL",
-      "telephone": "+31 10 412 3456"
+      "name": "WEST COAST LOGISTICS",
+      "address": "245 BROADWAY, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 213 555 9876",
+      "fax": "+1 213 555 9877"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "390730",
-  "commodityDescription": "POLYPROPYLENE RESIN (PPR)",
+  "hsCode": "85423100",
+  "commodityDescription": "ELECTRONIC COMPONENTS - IC CHIPS",
   "containers": [
     {
-      "containerNumber": "TCLU7786215",
+      "containerNumber": "MSCU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "VMT20240918",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU4452893",
-      "sealNumber": "789012",
-      "marksAndNumbers": "VMT20240918",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU9915467",
-      "sealNumber": "345678",
-      "marksAndNumbers": "VMT20240918",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: POLYPROPYLENE RESIN (PPR) 25MT IN 1000 BAGS",
-      "grossWeight": 25000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SEALED AND SAID TO CONTAIN: IC CHIPS AS PER INVOICE.",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 35.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' Dry Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20240915",
-    "hsCode": "3907300000",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC20240918123456"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "CN20240918123456",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "VAN DER MEIJEN TRADING BV",
-      "address": "MAASLAND 2, 3115 BZ ROTTERDAM",
-      "telephone": "+31 10 412 3456"
+      "name": "WORLDWIDE SHIPPING AGENCY",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 1235"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI XINGHAI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 501, BUILDING 3, NO. 1888, SHENNAN ROAD, SHANGHAI, 200000",
-      "telephone": "+86 21 6326 5890"
+      "name": "WORLDWIDE SHIPPING AGENCY",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 1235"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

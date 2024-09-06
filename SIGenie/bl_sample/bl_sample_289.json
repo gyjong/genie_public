@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20241018134522",
   "voyageDetails": {
-    "vesselName": "COSCO SHIPPING GALAXY",
-    "voyageNumber": "2024042",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "241028",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,75 +23,68 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "123 Cecil Street, #05-01, Singapore 069533",
-      "telephone": "+65 6536 1234",
-      "email": "sales@asiatrading.com.sg"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
+      "onBehalfOf": "",
+      "address": "123 CHANGSHU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6335-1234",
+      "fax": "+86-21-6335-5678"
     },
     "consignee": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "Postbus 1234, 3000 AA Rotterdam, Netherlands",
-      "taxId": "NL855512345B01",
-      "president": "Mr. Jan van der Meer",
-      "telephone": "+31 10 200 3000",
-      "fax": "+31 10 200 3001"
+      "name": "CALIFORNIA TRADING COMPANY",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90001, USA",
+      "companyNumber": "1234567"
     },
     "notifyParty": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "Postbus 1234, 3000 AA Rotterdam, Netherlands",
-      "taxId": "NL855512345B01",
-      "president": "Mr. Jan van der Meer",
-      "telephone": "+31 10 200 3000",
-      "fax": "+31 10 200 3001"
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "5678 MAIN ST, LOS ANGELES, CA 90210, USA"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "72069010",
-  "commodityDescription": "IRON AND STEEL BARS",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTER HARDWARE",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 500,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM IRON AND STEEL BARS",
-      "grossWeight": 25000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTER HARDWARE",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
     }
   ],
   "totalShipment": {
     "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 500,
-    "packageType": "BUNDLES",
-    "containerType": "20' DRY",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 30.0
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20DR",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20' DRY Container"
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "01234567890"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "123456789012",
+      "987654321012"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 123 4567",
-      "fax": "+31 10 123 4568"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
+      "address": "123 CHANGSHU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6335-1234",
+      "fax": "+86-21-6335-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 123 4567",
-      "fax": "+31 10 123 4568"
+      "name": "CALIFORNIA TRADING COMPANY",
+      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-310-555-1212",
+      "fax": "+1-310-555-1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "CLEAN ON BOARD"
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "Value: USD 50,000"
   }
 }

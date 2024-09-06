@@ -1,96 +1,100 @@
 {
-  "bookingReference": "APPLE20241015143052",
+  "bookingReference": "APPLE202410161441300",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "2024092",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024045",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SHANGHAI, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "258 HUANSHI ROAD, YONGHE DISTRICT, SHANGHAI 200070, CHINA",
-      "telephone": "+86-21-6478-5678",
-      "fax": "+86-21-6478-5679"
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "ROOM 502, NO. 123 XINZHU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6321-8888",
+      "fax": "+86-21-6321-9999"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213"
+      "name": "EURO LOGISTICS BV",
+      "address": "HAARLEMSE WEG 100, 2107 AH, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2000",
+      "fax": "+31-10-414-2001",
+      "email": "INFO@EUROLOGISTICS.NL",
+      "contactPerson": "MARIJKE VAN DER LINDEN"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "258 HUANSHI ROAD, YONGHE DISTRICT, SHANGHAI 200070, CHINA",
-      "telephone": "+86-21-6478-5678",
-      "fax": "+86-21-6478-5679"
+      "sameAsConsignee": false,
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "123 MAIN STREET, LONDON EC1A 1AA, UNITED KINGDOM",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "871160",
+  "commodityDescription": "MOTORCYCLES, 125CC",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE-123",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "MS12345",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
+      "grossWeight": 8500.0,
       "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "MS67890",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MOTORCYCLES, 125CC",
+      "grossWeight": 8300.0,
+      "measurement": 24.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "TCLU1234567",
-    "unClass": "9",
-    "unCode": "3264",
-    "hsCode": "8544.42",
-    "flashPoint": "Not Applicable",
-    "additionalInfo": "Proper Shipping Name: Lithium Batteries"
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 16800.0,
+    "totalMeasurement": 49.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "salesOrderNumber": "SO9876543",
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC20241016003"
     },
-    "certificateDetails": "CIQ20241015001",
+    "certificateDetails": [
+      "CN20241016-001",
+      "CN20241016-002"
+    ],
     "originalBLDistribution": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213"
+      "name": "EURO LOGISTICS BV",
+      "address": "HAARLEMSE WEG 100, 2107 AH, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-2000",
+      "fax": "+31-10-414-2001"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING CO. LTD.",
-      "address": "258 HUANSHI ROAD, YONGHE DISTRICT, SHANGHAI 200070, CHINA",
-      "telephone": "+86-21-6478-5678",
-      "fax": "+86-21-6478-5679"
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "ROOM 502, NO. 123 XINZHU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6321-8888",
+      "fax": "+86-21-6321-9999"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Lithium Batteries Enclosed. Proper Packaging and Labeling Applied."
+    "onboardDate": "OCT. 20. 2024"
   }
 }

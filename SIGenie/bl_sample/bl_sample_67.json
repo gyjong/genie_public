@@ -1,109 +1,97 @@
 {
-  "bookingReference": "APPLE20240912101506",
+  "bookingReference": "APPLE202410182123400",
   "voyageDetails": {
-    "vesselName": "CMA CGM LIBRA",
-    "voyageNumber": "2024342",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "MASTER",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+      "name": "EUROFREIGHT LOGISTICS BV",
+      "address": "KOPPENPAS 12, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 6666",
+      "fax": "+31 10 444 6667"
     },
     "consignee": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Oosterdoksstraat 10, 1011 DK Amsterdam, Netherlands",
-      "telephone": "+31 20 622 5555",
-      "fax": "+31 20 622 5556"
+      "name": "PACIFIC OCEAN IMPORTERS INC.",
+      "address": "12345 OCEAN VIEW DRIVE, LONG BEACH, CA 90802",
+      "telephone": "562-555-1234",
+      "fax": "562-555-5678",
+      "email": "IMPORT@POIINC.COM",
+      "contactPerson": "SUSAN LEE"
     },
     "notifyParty": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Oosterdoksstraat 10, 1011 DK Amsterdam, Netherlands",
-      "telephone": "+31 20 622 5555",
-      "fax": "+31 20 622 5556"
+      "sameAsConsignee": false,
+      "name": "BANK OF AMERICA",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85414010",
-  "commodityDescription": "ELECTRONIC COMPONENTS - SEMICONDUCTORS",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "8703230000",
+  "commodityDescription": "MOTORCYCLES, 125CC",
   "containers": [
     {
-      "containerNumber": "MSCU3756981",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "BOX123",
-      "numberOfPackages": 500,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - SEMICONDUCTORS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "MOTO123",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES, 125CC",
+      "grossWeight": 1500.0,
+      "measurement": 12.5
     },
     {
-      "containerNumber": "MSCU8765432",
-      "sealNumber": "789012",
-      "marksAndNumbers": "BOX456",
-      "numberOfPackages": 500,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - SEMICONDUCTORS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU1357911",
-      "sealNumber": "345678",
-      "marksAndNumbers": "BOX789",
-      "numberOfPackages": 500,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - SEMICONDUCTORS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "MOTO456",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES, 125CC",
+      "grossWeight": 1450.0,
+      "measurement": 12.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 75.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 2950.0,
+    "totalMeasurement": 24.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC20241018001"
     },
     "certificateDetails": [
-      "CERT12345",
-      "CERT67890"
+      "Certificate of Origin"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+      "name": "EUROFREIGHT LOGISTICS BV",
+      "address": "KOPPENPAS 12, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 6666",
+      "fax": "+31 10 444 6667"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO LOGISTICS BV",
-      "address": "Oosterdoksstraat 10, 1011 DK Amsterdam, Netherlands",
-      "telephone": "+31 20 622 5555",
-      "fax": "+31 20 622 5556"
+      "name": "PACIFIC OCEAN IMPORTERS INC.",
+      "address": "12345 OCEAN VIEW DRIVE, LONG BEACH, CA 90802",
+      "telephone": "562-555-1234",
+      "fax": "562-555-5678"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": " SHIPMENT CONTAINS VALUABLE ELECTRONIC COMPONENTS. HANDLE WITH CARE."
+    "onboardDate": "OCT. 25. 2024"
   }
 }

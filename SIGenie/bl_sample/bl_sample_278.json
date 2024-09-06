@@ -1,87 +1,96 @@
 {
-  "bookingReference": "APPLE20241015143521",
+  "bookingReference": "APPLE20241026143012",
   "voyageDetails": {
-    "vesselName": "MARINE CHAMPION",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2440E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": "",
-      "address": "123 HUAJIANG ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "GLOBAL TRADE LTD.",
+      "address": "NIEUWE MARKT 25, 3011 GD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "POSTFACH 1203 20, 60003 FRANKFURT, GERMANY"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR SINGAPORE",
+  "hsCode": "8479.90",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "GOCU9876543",
+      "containerNumber": "TCLU9662413",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET23-123",
-      "numberOfPackages": 50,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE"
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
+      "grossWeight": 1250.25,
+      "measurement": 2.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 50,
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
     "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalGrossWeight": 1250.25,
+    "totalMeasurement": 2.5
   },
-  "reeferSettings": {},
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
   "additionalInformation": {
+    "purchaseOrderNumber": "9876543",
+    "salesOrderNumber": "1234567",
     "lcDetails": {
-      "lcNumber": "0000212345678"
+      "lcNumber": "00002010339243"
     },
-    "certificateDetails": [
-      "4112720070179X"
-    ],
+    "certificateDetails": "4112724080190",
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "123 HUAJIANG ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "GLOBAL TRADE LTD.",
+      "address": "NIEUWE MARKT 25, 3011 GD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT, GERMANY"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6221-8900",
+      "fax": "+65-6221-8901"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: EUR 25,000"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

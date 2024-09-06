@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241025134512",
+  "voyageDetails": {
+    "vesselName": "MSC AMELIA",
+    "voyageNumber": "2441W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 588, HUANGPU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "WALTER-RATZ-STRASSE 15, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 79876543"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "THE SPROUT, FRANKFURTER STRASSE 115, 60594 FRANKFURT",
+      "country": "GERMANY",
+      "email": "DHLGF@DHL.COM",
+      "telephone": "+49 69 66666666"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847989",
+  "commodityDescription": "INDUSTRIAL ROBOTIC ARMS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-001",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 2 INDUSTRIAL ROBOTIC ARMS, MODEL: RA-2000",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-002",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: 2 INDUSTRIAL ROBOTIC ARMS, MODEL: RA-2000",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "CRATES",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-10-25-001",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "CE Certification Provided",
+    "originalBLDistribution": {
+      "name": "Deutsche Bank AG Frankfurt",
+      "address": "Taunusanlage 12, 60325 Frankfurt am Main",
+      "telephone": "+49 69 910-30"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH GMBH",
+      "address": "WALTER-RATZ-STRASSE 15, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 79876543",
+      "fax": "+49 69 79876544"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Container seals intact on loading."
+  }
+}

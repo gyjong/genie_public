@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241017143521",
+  "voyageDetails": {
+    "vesselName": "MSC CORINNE",
+    "voyageNumber": "2440W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT & EXPORT CO. LTD.",
+      "address": "22nd Floor, New Century Building, 123 Nanjing Road, Shanghai, 200001, CHINA",
+      "telephone": "+86-21-6327-1234",
+      "fax": "+86-21-6327-5678"
+    },
+    "consignee": {
+      "name": "EURO TRADING BV",
+      "address": "124 Prinsestraat, 3011 AX Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    },
+    "notifyParty": {
+      "name": "EURO TRADING BV",
+      "address": "124 Prinsestraat, 3011 AX Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8542.37",
+  "commodityDescription": "ELECTRONIC COMPONENTS - RESISTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. RESISTORS AS PER INVOICE.",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
+    },
+    {
+      "containerNumber": "TCLU7896544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF-456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. RESISTORS AS PER INVOICE.",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 2400.0,
+    "totalMeasurement": 3.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO87654321",
+    "lcDetails": {
+      "lcNumber": "LC20241017001"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "EURO TRADING BV",
+      "address": "124 Prinsestraat, 3011 AX Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORT & EXPORT CO. LTD.",
+      "address": "22nd Floor, New Century Building, 123 Nanjing Road, Shanghai, 200001, CHINA",
+      "telephone": "+86-21-6327-1234",
+      "fax": "+86-21-6327-5678"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": ""
+  }
+}

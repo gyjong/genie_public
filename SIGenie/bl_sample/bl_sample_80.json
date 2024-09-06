@@ -1,95 +1,99 @@
 {
-  "bookingReference": "APPLE20240912121506",
+  "bookingReference": "APPLE20241015143205",
   "voyageDetails": {
-    "vesselName": "MSC CASSANDRA",
-    "voyageNumber": "2435E",
-    "bound": "E"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024098",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFLOW LTD",
-      "address": "25 Prinsestraat, 3011 AX Rotterdam, Netherlands",
-      "telephone": "+31 10 477 1234",
-      "email": "info@euroflow.nl"
+      "name": "EUROFRESH LTD.",
+      "address": "DE RUN 13, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
-      "taxId": "200212345H",
-      "president": "Mr. Lee Wei",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ASIA PACIFIC FRUITS PTE LTD.",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-3456",
+      "fax": "+65-6221-3457"
     },
     "notifyParty": {
-      "name": "EUROFLOW ASIA",
-      "address": "10 Marina Boulevard #42-01 Marina Bay Financial Centre Singapore 018983",
-      "telephone": "+65 6532 8901",
-      "fax": "+65 6532 8902"
+      "name": "ASIA PACIFIC FRUITS PTE LTD.",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-3456",
+      "fax": "+65-6221-3457"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR PACKAGING",
+  "hsCode": "0809.20",
+  "commodityDescription": "APPLES",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "TCLU9183467",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER PACKING LIST",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: CFR SINGAPORE MACHINERY PARTS FOR PACKAGING",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "APPLE20241015",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 1000 CARTONS OF APPLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "TCLU9183468",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APPLE20241015",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 1000 CARTONS OF APPLES",
+      "grossWeight": 20000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 51.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 20 DRY Container"
-  },
+  "dangerousGoods": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "0000123456"
+      "lcNumber": "LC0000123456"
     },
-    "certificateDetails": "20241001-12345",
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "101 North Bridge Road #08-01 Peninsula Square Singapore 179094",
-      "telephone": "+65 6337 1234",
-      "fax": "+65 6337 5678"
+      "name": "EUROFRESH LTD.",
+      "address": "DE RUN 13, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING AGENCY",
-      "address": "101 North Bridge Road #08-01 Peninsula Square Singapore 179094",
-      "telephone": "+65 6337 1234",
-      "fax": "+65 6337 5678"
+      "name": "ASIA PACIFIC FRUITS PTE LTD.",
+      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-3456",
+      "fax": "+65-6221-3457"
     },
-    "onboardDate": "OCT. 15. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
   }
 }

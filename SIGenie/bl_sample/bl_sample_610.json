@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APRICOT20240912142356",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2431E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "LOS ANGELES, USA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI GLOBAL TRADING CO. LTD.",
+      "address": "NO. 288, XINLI ROAD, CHANGNING DISTRICT, SHANGHAI, 200336, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(OFFICE BUILDING)",
+      "telephone": "+86 21 6278 1234",
+      "email": "SALES@SGT.COM.CN"
+    },
+    "consignee": {
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "1234 OCEAN AVENUE, SANTA MONICA, CA 90401, USA",
+      "country": "USA",
+      "email": "INFO@WCIIMPORTERS.COM",
+      "telephone": "+1 310 555 1212"
+    },
+    "notifyParty": {
+      "name": "ABC LOGISTICS INC.",
+      "address": "4567 Wilshire Boulevard, Los Angeles, CA 90036, USA",
+      "country": "USA",
+      "email": "NOTIFICATIONS@ABCLGISTICS.COM",
+      "telephone": "+1 213 555 2323"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE MANUFACTURING",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE MANUFACTURING",
+      "grossWeight": 12500.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE MANUFACTURING",
+      "grossWeight": 15000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "totalGrossWeight": 27500.0,
+    "totalMeasurement": 60.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 0000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1 310 555 0000"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD50,000"
+  }
+}

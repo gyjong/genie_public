@@ -1,90 +1,110 @@
 {
-  "bookingReference": "APPLE20241026143215",
+  "bookingReference": "APPLE20240918142532",
   "voyageDetails": {
-    "vesselName": "MAERSK EMERALD",
-    "voyageNumber": "2024419",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2429E",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": " negotiable ",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "",
-      "address": "101 ROBINSON ROAD #12-00, SINGAPORE 068902",
-      "telephone": "+65-6536-8900",
-      "fax": "+65-6536-8901"
+      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
     },
     "consignee": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "BEZUIDENHOUTSEWEG 58, 2596 AR THE HAGUE, NETHERLANDS",
-      "companyNumber": "34567890"
+      "name": "EUROCHEM BV",
+      "address": "Stationsplein 45, 3013 AK Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurochembv.nl",
+      "telephone": "+31 10 414 5678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "PANNEKOEKENSTRAAT 123, 3011 NL ROTTERDAM, NETHERLANDS"
+      "name": "EUROCHEM BV",
+      "address": "Stationsplein 45, 3013 AK Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "logistics@eurochembv.nl",
+      "telephone": "+31 10 414 5678"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854440",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "ACME123",
       "numberOfPackages": 500,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE"
+      "packageType": "DRUMS",
+      "cargoDescription": "20MT ETHYL ACETATE IN 200L STEEL DRUMS, PALLETIZED",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ACME456",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "20MT ETHYL ACETATE IN 200L STEEL DRUMS, PALLETIZED",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "TCLU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ACME789",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "20MT ETHYL ACETATE IN 200L STEEL DRUMS, PALLETIZED",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 500,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {},
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "0000234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
-    ],
+    "certificateDetails": "SGS-1234567890",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 ROBINSON ROAD #12-00, SINGAPORE 068902",
-      "telephone": "+65-6536-8900",
-      "fax": "+65-6536-8901"
+      "name": "ABC BANK LTD",
+      "address": "123 Main Street, Singapore 123456",
+      "telephone": "+65 1234 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "BEZUIDENHOUTSEWEG 58, 2596 AR THE HAGUE, NETHERLANDS",
-      "telephone": "+31-70-345-6789",
-      "fax": "+31-70-345-6790"
+      "name": "EUROCHEM BV",
+      "address": "Stationsplein 45, 3013 AK Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
     },
-    "onboardDate": "OCT. 31. 2024",
-    "additionalRemarks": "Insurance: USD 100,000"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION\nGOODS SHIPPED IN GOOD ORDER AND CONDITION"
   }
 }

@@ -1,97 +1,98 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20241015102532",
   "voyageDetails": {
-    "vesselName": "CMA CGM JULES VERNE",
-    "voyageNumber": "24040",
-    "bound": "E"
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024042",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA TRADING BV",
-      "address": "WEENA 232, 3012CB ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 414 5678",
-      "email": "INFO@DELTATRADING.NL"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "taxId": "200212345H",
-      "president": "MR. TAN AH CHONG",
-      "telephone": "+65 6222 5555",
-      "fax": "+65 6222 6666"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840",
+      "telephone": "+65 6737 8888",
+      "fax": "+65 6737 9999"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "taxId": "200345678J",
-      "president": "MS. LEE MEI LING",
-      "telephone": "+65 6333 7777",
-      "fax": "+65 6333 8888"
+      "name": "GLOBAL LOGISTICS SERVICES",
+      "address": "555 NORTH BRIDGE ROAD, SINGAPORE 179105",
+      "telephone": "+65 6338 5555",
+      "fax": "+65 6338 6666"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "85444210",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "MSCU3456789",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: CFR SINGAPORE TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL A123",
+      "grossWeight": 2500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 5,
+      "cargoDescription": "5 MOTORCYCLES - MODEL B456",
+      "grossWeight": 2500.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40' HC) CONTAINER",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "40' HC",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "UNITS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 50.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in 40' HC Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890123"
+      "lcNumber": "0000321045678"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": [
+      "1000030080141X",
+      "1000030080142X"
+    ],
     "originalBLDistribution": {
-      "name": "KUEHNE+NAGEL",
-      "address": "1 Maritime Square #09-01, Singapore 099253",
-      "telephone": "+65 6397 5555",
-      "fax": "+65 6397 6666"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD.",
+      "address": "100 ORCHARD ROAD, #05-01, SINGAPORE 238840"
     },
     "originalInvoiceDistribution": {
-      "name": "KUEHNE+NAGEL",
-      "address": "1 Maritime Square #09-01, Singapore 099253",
-      "telephone": "+65 6397 5555",
-      "fax": "+65 6397 6666"
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
     },
-    "onboardDate": "SEPT. 28. 2024",
+    "onboardDate": "OCT. 20. 2024",
     "additionalRemarks": "NONE"
   }
 }

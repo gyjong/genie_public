@@ -1,96 +1,98 @@
 {
-  "bookingReference": "APRICOT20241015143023",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2441E",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024040",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GREENWORLD TRADING PTE LTD",
-      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888"
     },
     "consignee": {
-      "name": "EUROGREEN IMPORTS BV",
-      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
-      "telephone": "+31 10 477 8800",
-      "fax": "+31 10 477 8888"
+      "name": "EUROLOGISTICS GMBH",
+      "address": "SCHIFFBAUERDAMM 50, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 30368500",
+      "fax": "+49 40 30368501"
     },
     "notifyParty": {
-      "name": "GREENWORLD TRADING PTE LTD",
-      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6737 8900",
+      "fax": "+65 6737 8901"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "392690",
-  "commodityDescription": "POLYETHYLENE RESIN",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GW1234",
-      "numberOfPackages": 100,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, 100 BAGS POLYETHYLENE RESIN",
-      "grossWeight": 22000,
-      "measurement": 30
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "TEXTILE MACHINE PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 40,
+      "cargoDescription": "TEXTILE MACHINE PARTS AS PER PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "BAGS",
-    "totalGrossWeight": 22000,
-    "totalMeasurement": 30
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 90,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 47.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "20231015-001",
-    "salesOrderNumber": "SO20231015-002",
     "lcDetails": {
-      "lcNumber": "LC00012345"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "SGS-20231015-001",
+    "certificateDetails": [
+      "COO-SG20240912",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "EUROGREEN IMPORTS BV",
-      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
-      "telephone": "+31 10 477 8800",
-      "fax": "+31 10 477 8888"
+      "name": "EUROLOGISTICS GMBH",
+      "address": "SCHIFFBAUERDAMM 50, 20457 HAMBURG, GERMANY"
     },
     "originalInvoiceDistribution": {
-      "name": "GREENWORLD TRADING PTE LTD",
-      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT & SEAL."
   }
 }

@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20241015103045",
+  "bookingReference": "APPLE20240912102345",
   "voyageDetails": {
-    "vesselName": "CMA CGM FORTUNE",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024041",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "onBehalfOf": null,
-      "address": "123 NANJING ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6328-1111",
-      "fax": "+86-21-6328-2222"
+      "name": "SHANGHAI TECH SOLUTIONS LTD.",
+      "address": "NO. 1234, XINZHU ROAD, MINHANG DISTRICT, SHANGHAI, 200336",
+      "country": "CHINA",
+      "additionalInfo": "(SHANGHAI INNOVATION PARK)",
+      "telephone": "+86 21 6489 1234",
+      "email": "SALES@SHANGHAITECH.COM"
     },
     "consignee": {
-      "name": "GLOBAL TRADING INC.",
-      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "companyNumber": "123456789"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 30987654"
     },
     "notifyParty": {
-      "name": "ABC LOGISTICS",
-      "address": "5678 ELM STREET, NEW YORK, NY 10001, USA"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 50, 20095 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 40 30987654"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "847130",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "854230",
+  "commodityDescription": "NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
   "containers": [
     {
       "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "ET-123",
       "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINS FRAGILE ITEMS. HANDLE WITH CARE."
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORKING EQUIPMENT INCLUDING SWITCHES, ROUTERS AND FIREWALLS",
+      "grossWeight": 7500.0,
+      "measurement": 15.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 31.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overWidth": null,
+    "overHeight": null
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "12345678901234567890"
     },
     "certificateDetails": [
-      "COO-1234567890",
-      " fumigation certificate"
+      "411252403578X",
+      "411252403579X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "123 NANJING ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6328-1111",
-      "fax": "+86-21-6328-2222"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING INC.",
-      "address": "1234 MAIN STREET, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance: USD 100,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "Value: USD150,000"
   }
 }

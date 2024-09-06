@@ -1,106 +1,95 @@
 {
-  "bookingReference": "APPLE20240912101522",
+  "bookingReference": "ORANGE20241015143011",
   "voyageDetails": {
-    "vesselName": "MSC PARIS",
-    "voyageNumber": "2431E",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ORCHARD ROAD, #15-01, SINGAPORE 238840",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Ngee Ann City Tower)",
-      "telephone": "+65 6737 8555",
-      "email": "sales@asiatrading.com.sg"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "SUNRISE INDUSTRIES PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "WALDDORFSTRASSE 12, 20457 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTECH.DE",
-      "telephone": "+49 40 3281 000"
+      "name": "EUROFRESH BV",
+      "address": "Stationsweg 123, 3013 AL Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KELLERSTRASSE 15, 20144 HAMBURG",
-      "country": "GERMANY",
-      "email": "HAMBURG@DHL.COM",
-      "telephone": "+49 40 3779 000"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "Centrumlaan 150, 3527 GN Utrecht, Netherlands"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "842139",
-  "commodityDescription": "METAL CUTTING MACHINES",
+  "hsCode": "070110",
+  "commodityDescription": "FRESH BANANAS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 5,
-      "packageType": "CRATES",
-      "cargoDescription": "METAL CUTTING MACHINE PARTS",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 3,
-      "packageType": "PALLETS",
-      "cargoDescription": "METAL CUTTING MACHINE ACCESSORIES",
-      "grossWeight": 4000.0,
-      "measurement": 8.0
+      "marksAndNumbers": "BANANA123",
+      "numberOfPackages": 1500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: FRESH BANANAS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Container temperature maintained at 13.5\u00b0C."
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 8,
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 23.0
+    "totalContainers": "ONE (40'HQ) CONTAINER ONLY",
+    "totalPackages": 1500,
+    "packageType": "BOXES",
+    "containerType": "40HQ",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+  "reeferSettings": {
+    "containerNumber": "MSCU1234567",
+    "temperature": "+13.5\u00baC",
+    "minTemperature": "+13.0\u00b0C",
+    "maxTemperature": "+14.0\u00b0C",
+    "ventilation": "Open",
+    "humidity": "85% - 90%"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "00002020434237"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "411252403578X"
+      "PHITO20241015",
+      "COO20241015"
     ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "KELLERSTRASSE 15, 20144 HAMBURG",
-      "telephone": "+49 40 3779 000"
+      "name": "SUNRISE INDUSTRIES PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ORCHARD ROAD, #15-01, SINGAPORE 238840",
-      "telephone": "+65 6737 8555"
+      "name": "EUROFRESH BV",
+      "address": "Stationsweg 123, 3013 AL Rotterdam, Netherlands"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Value: USD50,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Bananas packed in cartons, pre-cooled for transport."
   }
 }

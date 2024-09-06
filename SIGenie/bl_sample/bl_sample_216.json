@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015132002",
+  "bookingReference": "APPLE20241002153612",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024102",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,80 +17,82 @@
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "DELTA SHIPPING & LOGISTICS GMBH",
+      "address": "SPANDAUER DAMM 23, 14059 BERLIN, GERMANY"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Speicherstadt, 20457 Hamburg, Germany",
-      "telephone": "+49 40 3119 0000",
-      "fax": "+49 40 3119 0001"
+      "name": "SEA LION LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5689"
     },
     "notifyParty": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Speicherstadt, 20457 Hamburg, Germany",
-      "telephone": "+49 40 3119 0000",
-      "fax": "+49 40 3119 0001"
+      "name": "DELTA SHIPPING GMBH (SINGAPORE OFFICE)",
+      "address": "1 Marina Boulevard #32-01, Marina Bay Financial Centre, Tower 1, Singapore 018989",
+      "telephone": "+65 6536 8901",
+      "fax": "+65 6536 8902"
     }
   },
-  "shippingTerm": "CIF HAMBURG",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "87032310",
+  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "MSCU7563128",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT-123",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN 100 CARTONS OF ELECTRONIC COMPONENTS",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
+      "marksAndNumbers": "DL1234",
+      "numberOfPackages": 2,
+      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: RED HAWK)",
+      "grossWeight": 1200.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "MSCU3517692",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DL5678",
+      "numberOfPackages": 2,
+      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: RED HAWK)",
+      "grossWeight": 1200.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 2400.0,
+    "totalMeasurement": 51.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO12345",
-    "salesOrderNumber": "SO67890",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [
+      "1234567890ABC",
+      "9876543210DEF"
+    ],
     "originalBLDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "Speicherstadt, 20457 Hamburg, Germany",
-      "telephone": "+49 40 3119 0000",
-      "fax": "+49 40 3119 0001"
+      "name": "SEA LION LOGISTICS PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "DELTA SHIPPING & LOGISTICS GMBH",
+      "address": "SPANDAUER DAMM 23, 14059 BERLIN, GERMANY"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 10. 2024",
+    "additionalRemarks": "MOTORCYCLES PACKED WITH PROTECTION."
   }
 }

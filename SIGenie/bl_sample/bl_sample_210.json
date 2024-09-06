@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20240920142511",
+  "bookingReference": "APPLE20241026143002",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA 03",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024453",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SHANGHAI, CHINA",
-    "placeOfDelivery": "SHANGHAI, CHINA",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SHANGHAI, CHINA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROTECH IMPORTS BV",
-      "address": "STATIONSPLEIN 12, 3013 AK ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 477 8952",
-      "email": "INFO@EUROTECHIMPORTS.NL"
+      "name": "CHINA SUNRISE TRADING CO., LTD.",
+      "address": "238 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6356-8901",
+      "fax": "+86-21-6356-8902"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING CO., LTD",
-      "address": "SUITE 1208, HONGKONG TOWER, 19 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "taxId": "91320100765109788X",
-      "president": "MR. LI WEI",
-      "telephone": "+86 21 6327 8912",
-      "fax": "+86 21 6327 8913"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO., LTD",
-      "address": "SUITE 1208, HONGKONG TOWER, 19 SHANGHAI ROAD, SHANGHAI, CHINA",
-      "taxId": "91320100765109788X",
-      "president": "MR. LI WEI",
-      "telephone": "+86 21 6327 8912",
-      "fax": "+86 21 6327 8913"
+      "name": "SUNRISE LOGISTICS INC.",
+      "address": "100 YUAN\u660e ROAD, SHANGHAI 200002, CHINA",
+      "telephone": "+86-21-3333-4444",
+      "fax": "+86-21-3333-5555"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "DIGITAL CAMERAS",
+  "shippingTerm": "CFR",
+  "hsCode": "8541.40",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "MSCU5678901",
+      "containerNumber": "CMCU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SHANGHAI, CHINA DIGITAL CAMERAS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNRISE-LA123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 BOXES OF TELECOMMUNICATION EQUIPMENT",
+      "grossWeight": 1500.0,
+      "measurement": 1.8
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "40 O/TX1",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 1.8
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "dangerousGoods": {
+    "containerNumber": "CMCU8765432",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "8541.40",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC0001234567"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": "20241026001",
     "originalBLDistribution": {
-      "name": "GLOBAL SHIPPING LTD",
-      "address": "2345 OCEAN DRIVE, MIAMI, FLORIDA, USA, 33139",
-      "telephone": "+1 305 555 1212",
-      "fax": "+1 305 555 1213"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90012, USA",
+      "telephone": "1-213-555-1212",
+      "fax": "1-213-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING LTD",
-      "address": "2345 OCEAN DRIVE, MIAMI, FLORIDA, USA, 33139",
-      "telephone": "+1 305 555 1212",
-      "fax": "+1 305 555 1213"
+      "name": "CHINA SUNRISE TRADING CO., LTD.",
+      "address": "238 FUJIAN ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6356-8901",
+      "fax": "+86-21-6356-8902"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "CONTAINERS SEALED AND SECURED FOR SHIPMENT"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

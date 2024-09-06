@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241018103002",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2437E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01, Singapore 079900",
+      "telephone": "+65-6225-8888",
+      "fax": "+65-6225-9999"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS BV",
+      "address": "Prinsestraat 100, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31-10-444-5555",
+      "fax": "+31-10-444-6666"
+    },
+    "notifyParty": {
+      "name": "BANK OF AMERICA",
+      "address": "101 Lombard Street, San Francisco, CA 94111, USA",
+      "telephone": "+1-415-555-1212",
+      "fax": "+1-415-555-1213"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "GLDU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 100 CARTONS OF ELECTRONIC COMPONENTS. GROSS WEIGHT: 2500 KG.",
+      "grossWeight": 2500.0,
+      "measurement": 15.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 2500.0,
+    "totalMeasurement": 15.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS BV",
+      "address": "Prinsestraat 100, 3011 AB Rotterdam, Netherlands",
+      "telephone": "+31-10-444-5555",
+      "fax": "+31-10-444-6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01, Singapore 079900",
+      "telephone": "+65-6225-8888",
+      "fax": "+65-6225-9999"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": ""
+  }
+}

@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015123456",
+  "bookingReference": "APPLE20240912113502",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "20241002",
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024043",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,73 +17,91 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE LTD.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "telephone": "+65 6225 1234",
-      "fax": "+65 6225 5678"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6221 8900",
+      "email": "info@asiatrading.sg"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 123, 3012 AA Rotterdam, Netherlands",
-      "companyNumber": "12345678"
+      "name": "EUROTECH IMPORT BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "taxId": "NL852768512B01",
+      "president": "Mr. Jan van der Meer",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "1234 Port Road, Rotterdam, Netherlands"
+      "name": "EUROTECH IMPORT BV",
+      "address": "Stationsweg 10, 3013 AL Rotterdam, Netherlands",
+      "taxId": "NL852768512B01",
+      "president": "Mr. Jan van der Meer",
+      "telephone": "+31 10 414 5678",
+      "fax": "+31 10 414 5679"
     }
   },
-  "shippingTerm": "CIF",
+  "shippingTerm": "CFR",
   "hsCode": "85444210",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
   "containers": [
     {
-      "containerNumber": "GCKU1234567",
+      "containerNumber": "UTLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 7500.0,
-      "measurement": 15.0,
-      "additionalInfo": ""
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: CFR ROTTERDAM, NETHERLANDS TELECOMMUNICATION EQUIPMENT - ROUTERS",
+      "grossWeight": 6000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "UTLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 25,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT & SEAL SAID TO CONTAIN: CFR ROTTERDAM, NETHERLANDS TELECOMMUNICATION EQUIPMENT - ROUTERS",
+      "grossWeight": 6500.0,
+      "measurement": 18.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 7500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "TWO (20) CONTAINER ONLY",
+    "totalPackages": 45,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 33.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "012345678901"
     },
-    "certificateDetails": [
-      "4112720070177X"
-    ],
+    "certificateDetails": "123456789012",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #20-01, Singapore 079903",
-      "telephone": "+65 6225 1234",
-      "fax": "+65 6225 5678"
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Road, Singapore 649800",
+      "telephone": "+65 6595 6555",
+      "fax": "+65 6595 6556"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE LTD.",
-      "address": "1234 Main Street, Singapore 123456",
-      "telephone": "+65 6789 0123",
-      "fax": "+65 6789 4567"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6221 8900",
+      "fax": "+65 6221 8901"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance Policy: Policy No. 1234567890"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240922143021",
+  "voyageDetails": {
+    "vesselName": "MSC EVA 894",
+    "voyageNumber": "2024105",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SHANGHAI, CHINA",
+    "placeOfDelivery": "SHANGHAI, CHINA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EURO STEEL LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 123 4567",
+      "email": "info@euro-steel.nl"
+    },
+    "consignee": {
+      "name": "ASIA METAL WORKS CO.,LTD",
+      "address": "245 HUANGPU ROAD, SHANGHAI, CHINA",
+      "taxId": "91330100765109788X",
+      "president": "MR. WANG LIJUN",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    },
+    "notifyParty": {
+      "name": "ASIA METAL WORKS CO.,LTD",
+      "address": "245 HUANGPU ROAD, SHANGHAI, CHINA",
+      "taxId": "91330100765109788X",
+      "president": "MR. WANG LIJUN",
+      "telephone": "+86 21 5678 9012",
+      "fax": "+86 21 5678 9013"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72072000",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SHANGHAI, CHINA STEEL PLATES",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0300301045678"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "101 YONGJIN BUILDING, SEOUL, SOUTH KOREA",
+      "telephone": "+82 2 345 6789",
+      "fax": "+82 2 345 6788"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS CO., LTD",
+      "address": "101 YONGJIN BUILDING, SEOUL, SOUTH KOREA",
+      "telephone": "+82 2 345 6789",
+      "fax": "+82 2 345 6788"
+    },
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NO SPECIAL REMARKS"
+  }
+}

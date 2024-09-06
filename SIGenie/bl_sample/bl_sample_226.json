@@ -1,20 +1,20 @@
 {
-  "bookingReference": "PINEAPPLE20240912103452",
+  "bookingReference": "APPLE20241015134502",
   "voyageDetails": {
-    "vesselName": "MSC LIVORNO",
-    "voyageNumber": "24045",
-    "bound": "E"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024092",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,73 +23,75 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "NINGBO XINGHUO IMPORT & EXPORT CO., LTD",
-      "address": "NO. 228, YINGZHU ROAD, BEILUN DISTRICT, NINGBO, CHINA",
-      "telephone": "+86 574 8626 8888",
-      "email": "sales@nbxh.com"
+      "name": "SHANGHAI TRADING CO. LTD.",
+      "onBehalfOf": "SUNRISE IMPORT EXPORT INC.",
+      "address": "2345 NANJING ROAD WEST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6321-5678",
+      "fax": "+86-21-6321-5679"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTS INC.",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "taxId": "123456789",
-      "president": "JOHN SMITH",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROTECH IMPORT BV",
+      "address": "DIJKSTRA LAAN 123, 3061 AJ ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LLC",
-      "address": "5678 MAIN ST, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1 213 555 9876",
-      "fax": "+1 213 555 9877"
+      "name": "WORLDWIDE LOGISTICS BV",
+      "address": "DE KOOI 25, 3061 AC ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "87089910",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 5,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, CIF LOS ANGELES, USA, MOTORCYCLES",
-      "grossWeight": 2500.0,
-      "measurement": 15.0
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "UNITS",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 15.0
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "0000202033738"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
     "originalBLDistribution": {
-      "name": "WORLDWIDE SHIPPING LTD",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "SUNRISE IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "WORLDWIDE SHIPPING LTD",
-      "address": "1234 OCEAN AVE, LOS ANGELES, CA 90210, USA",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROTECH IMPORT BV",
+      "address": "DIJKSTRA LAAN 123, 3061 AJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "MOTORCYCLES SHIPPED ON PALLETS"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance Coverage: USD 100,000"
   }
 }

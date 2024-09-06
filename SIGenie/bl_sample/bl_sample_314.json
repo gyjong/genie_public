@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241025143201",
+  "bookingReference": "APPLE20241026143211",
   "voyageDetails": {
-    "vesselName": "EVER GLORY",
-    "voyageNumber": "202410A",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "20241003",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "CHICAGO, USA"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,72 +23,66 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1103, NO. 288, XINHU ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6327-8899",
-      "fax": "+86-21-6327-8898"
+      "name": "Zhejiang Hailiang Co., Ltd.",
+      "onBehalfOf": "",
+      "address": "No. 888, Xingang Road, Haishu District, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-86123456",
+      "fax": "+86-574-86123457"
     },
     "consignee": {
-      "name": "VAN DER MEER IMPORT BV",
-      "address": "KALENDERSLAAN 15, 3075 ER ROTTERDAM, NETHERLANDS",
+      "name": "West Coast Logistics Inc.",
+      "address": "123 Main Street, Suite 200, Los Angeles, CA 90012, USA",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "WEENA 357, 3012 CN ROTTERDAM, NETHERLANDS"
+      "name": "ABC International Trading",
+      "address": "567 Oak Avenue, Chicago, IL 60601, USA"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "85444210",
+  "commodityDescription": "COMPUTER MOTHERBOARDS",
   "containers": [
     {
-      "containerNumber": "TCLU9786543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "VM20241025",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "TWO (2) MOTORCYCLES - MODEL VM250R",
-      "grossWeight": 650.0,
-      "measurement": 10.5,
-      "additionalInfo": "ENGINE OIL AND FUEL FILLED"
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. MARKING AND NUMBERING AS PER SHIPPER'S INSTRUCTIONS.",
+      "grossWeight": 5000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20GP) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "20GP",
-    "totalGrossWeight": 650.0,
-    "totalMeasurement": 10.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [],
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation-9876543210"
+    ],
     "originalBLDistribution": {
-      "name": "VAN DER MEER IMPORT BV",
-      "address": "KALENDERSLAAN 15, 3075 ER ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-462-1234",
-      "fax": "+31-10-462-5678"
+      "name": "Zhejiang Hailiang Co., Ltd.",
+      "address": "No. 888, Xingang Road, Haishu District, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-86123456",
+      "fax": "+86-574-86123457"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI XINYI IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1103, NO. 288, XINHU ROAD, SHANGHAI 200030, CHINA",
-      "telephone": "+86-21-6327-8899",
-      "fax": "+86-21-6327-8898"
+      "name": "ABC International Trading",
+      "address": "567 Oak Avenue, Chicago, IL 60601, USA"
     },
     "onboardDate": "OCT. 28. 2024",
-    "additionalRemarks": "MOTORCYCLES SHIPPED IN CRATES. VALUE: EUR15,000"
+    "additionalRemarks": "Shipment of computer motherboards, value: USD 50,000"
   }
 }

@@ -1,95 +1,100 @@
 {
-  "bookingReference": "APPLE20240912103512",
+  "bookingReference": "APPLE20241015132547",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2433E",
-    "bound": "E"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024042",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "HAMBURG, GERMANY"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": " negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "101, Anson Road, #25-01, International Plaza, SINGAPORE 079900",
-      "telephone": "+65 6222 1234",
-      "email": "info@asiatrade.com.sg"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Marina Boulevard, #05-01 Marina Bay Financial Centre Tower 3, Singapore 018986"
     },
     "consignee": {
-      "name": "EUROTECH GMBH",
-      "address": "Feldstra\u00dfe 123, 20355 Hamburg, GERMANY",
-      "taxId": "DE123456789",
-      "president": "Herr Johann Schmidt",
-      "telephone": "+49 40 123 4567",
-      "fax": "+49 40 123 4568"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Ocean Avenue, Suite 500, Los Angeles, CA 90210, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING GMBH",
-      "address": "Speicherstadt 1, 20457 Hamburg, GERMANY",
-      "telephone": "+49 40 3613 6000",
-      "fax": "+49 40 3613 6001"
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "4567 Wilshire Boulevard, Suite 200, Los Angeles, CA 90010, USA",
+      "telephone": "+1 310 555 2323",
+      "fax": "+1 310 555 2324"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "84137010",
-  "commodityDescription": "PUMPS FOR LIQUIDS, ELECTRICALLY DRIVEN",
+  "shippingTerm": "CIF",
+  "hsCode": "84713090",
+  "commodityDescription": "DIGITAL PRINTING MACHINES WITH ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "GRSU1234567",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER PACKING LIST",
-      "numberOfPackages": 5,
-      "packageType": "CRATES",
-      "cargoDescription": "5 CRATES CONTAINING PUMPS FOR LIQUIDS, ELECTRICALLY DRIVEN",
-      "grossWeight": 2500.0,
-      "measurement": 10.5
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL PRINTING MACHINES WITH ACCESSORIES",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DIGITAL PRINTING MACHINES WITH ACCESSORIES",
+      "grossWeight": 15000.0,
+      "measurement": 40.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "CRATES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 10.5
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 75.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC001234567"
+      "lcNumber": "123456789012"
     },
-    "certificateDetails": "CO-12345678",
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
     "originalBLDistribution": {
-      "name": "DHL GLOBAL FORWARDING GMBH",
-      "address": "Speicherstadt 1, 20457 Hamburg, GERMANY",
-      "telephone": "+49 40 3613 6000",
-      "fax": "+49 40 3613 6001"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Marina Boulevard, #05-01 Marina Bay Financial Centre Tower 3, Singapore 018986"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD",
-      "address": "101, Anson Road, #25-01, International Plaza, SINGAPORE 079900",
-      "telephone": "+65 6222 1234",
-      "email": "info@asiatrade.com.sg"
+      "name": "WEST COAST IMPORTS INC.",
+      "address": "1234 Ocean Avenue, Suite 500, Los Angeles, CA 90210, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "SHIPMENT IS SUBJECT TO US CUSTOMS REGULATIONS."
   }
 }

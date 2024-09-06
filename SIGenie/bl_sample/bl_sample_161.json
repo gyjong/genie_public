@@ -1,97 +1,101 @@
 {
-  "bookingReference": "PINEAPPLE20241026134511",
+  "bookingReference": "APPLE202410181423400",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2435E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "onBehalfOf": "FRUITFUL HARVEST CO.",
-      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "Zhejiang Everbright Import & Export Co., Ltd.",
+      "address": "No. 188, Changjiang Road, Hangzhou, Zhejiang, China 310007",
+      "telephone": "+86 571 8765 4321",
+      "fax": "+86 571 8765 4322"
     },
     "consignee": {
-      "name": "GLOBAL IMPORTERS BV",
-      "address": "DE KOPPEL 15, 3011 GG ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "West Coast Logistics Inc.",
+      "address": "1234 Ocean Avenue, Suite 200, Los Angeles, CA 90015",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213",
+      "email": "shipping@wclinc.com",
+      "contactPerson": "Sarah Jones"
     },
     "notifyParty": {
-      "name": "CARGO LOGISTICS BV",
-      "address": "ZUIDERHOF 21, 3075 KV ROTTERDAM, NETHERLANDS"
+      "sameAsConsignee": false,
+      "name": "Oceanview Shipping Services",
+      "address": "5678 Harbor Drive, Long Beach, CA 90802",
+      "telephone": "+1 562 555 9876",
+      "fax": "+1 562 555 9877"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "080590",
-  "commodityDescription": "PINEAPPLES, FRESH",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES, 50CC TO 250CC",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "987654",
-      "marksAndNumbers": "FRUIT23",
-      "numberOfPackages": 1200,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PINEAPPLES, FRESH",
-      "grossWeight": 18000.0,
-      "measurement": 25.0,
-      "additionalInfo": "COC PROVIDED. CONTAINER IS PROPERTY OF MAERSK."
+      "containerNumber": "GRSU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EMC-2024-10-18",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 1500.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EMC-2024-10-18",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 5 MOTORCYCLES",
+      "grossWeight": 1480.0,
+      "measurement": 12.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 1200,
-    "packageType": "CARTONS",
-    "containerType": "20DRY",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 25.0
-  },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 10,
+    "totalGrossWeight": 2980.0,
+    "totalMeasurement": 24.7
   },
   "additionalInformation": {
+    "invoiceNumber": "EMC-2024-10-18-001",
+    "documentNumber": "20241018001",
     "lcDetails": {
-      "lcNumber": "12345678901234"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070177X",
-      "4112720070178X"
+      "CN20241018001",
+      "CN20241018002"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "Zhejiang Everbright Import & Export Co., Ltd.",
+      "address": "No. 188, Changjiang Road, Hangzhou, Zhejiang, China 310007",
+      "telephone": "+86 571 8765 4321",
+      "fax": "+86 571 8765 4322"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "123 ORCHARD ROAD, #08-01, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "West Coast Logistics Inc.",
+      "address": "1234 Ocean Avenue, Suite 200, Los Angeles, CA 90015",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213",
+      "email": "shipping@wclinc.com"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": "PINEAPPLES SHIPPED IN GOOD CONDITION."
+    "onboardDate": "OCT. 25. 2024"
   }
 }

@@ -1,109 +1,98 @@
 {
-  "bookingReference": "APPLE20241026123456",
+  "bookingReference": "PINEAPPLE20240912142531",
   "voyageDetails": {
-    "vesselName": "CMA CGM TITAN",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": "(Business Registration No. 201215468K)"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Herzogstrasse 15, 20095 Hamburg, Germany",
-      "country": "GERMANY",
-      "email": "info@eurochem.de",
-      "telephone": "+49 40 3333333"
+      "name": "EUROFREIGHT GMBH",
+      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79999999",
+      "fax": "+49 69 79999999"
     },
     "notifyParty": {
-      "name": "BANK OF AMERICA, N.A.",
-      "address": "1221 Avenue of the Americas, New York, NY 10020, USA",
-      "country": "USA",
-      "email": "trade@bankofamerica.com",
-      "telephone": "+1 212 444 3000"
+      "name": "GLOBAL TRADING CO.",
+      "address": "213, Queen Street West, Toronto, ON M5V 2A2, Canada",
+      "telephone": "+1 416 555 1234",
+      "fax": "+1 416 555 5678"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "28112200",
-  "commodityDescription": "SODIUM HYDROXIDE (CAUSTIC SODA)",
+  "shippingTerm": "CIF",
+  "hsCode": "87033210",
+  "commodityDescription": "MOTORCYCLES, COMPLETE AND READY FOR USE",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "1234567890 ABC",
-      "numberOfPackages": 50,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS SHOWN, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 20MT 250KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "GL-123",
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) MOTORCYCLES, BRAND: 'SPEEDSTAR'",
+      "grossWeight": 1500.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "9876543210 XYZ",
-      "numberOfPackages": 50,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS SHOWN, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 20MT 250KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "MSCU7654321",
-      "sealNumber": "321654",
-      "marksAndNumbers": "7654321098 LMN",
-      "numberOfPackages": 50,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT AS SHOWN, SOTW & SEAL SAID TO CONTAIN: SODIUM HYDROXIDE (CAUSTIC SODA) 20MT 250KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GL-456",
+      "numberOfPackages": 5,
+      "cargoDescription": "FIVE (5) MOTORCYCLES, BRAND: 'SPEEDSTAR'",
+      "grossWeight": 1500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 150,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FT) CONTAINERS",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20FT",
+    "totalGrossWeight": 3000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "28112200",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "1234567890ABC"
+      "lcNumber": "LC001234567"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "CO-123456",
+      " fumigation certificate"
+    ],
     "originalBLDistribution": {
-      "name": "BANK OF AMERICA, N.A.",
-      "address": "1221 Avenue of the Americas, New York, NY 10020, USA",
-      "telephone": "+1 212 444 3000"
+      "name": "EUROFREIGHT GMBH",
+      "address": "Europaallee 12, 60327 Frankfurt am Main, Germany"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road #22-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination\nATTACHED RIDER"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT OF MOTORCYCLES FOR SALE IN GERMANY."
   }
 }

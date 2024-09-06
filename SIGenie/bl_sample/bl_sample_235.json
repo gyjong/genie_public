@@ -1,95 +1,106 @@
 {
-  "bookingReference": "APPLE20240912102345",
+  "bookingReference": "APPLE20241015143052",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2435E",
-    "bound": "E"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024092",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Master",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELFT GLOBAL TRADING BV",
-      "address": "Westerstraat 123, 2311 AA Leiden, Netherlands",
-      "telephone": "+31 71 512 3456",
-      "email": "info@delfttrading.nl"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #20-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "taxId": "201212345A",
-      "president": "MR. TAN CHEONG LEE",
-      "telephone": "+65 6222 5566",
-      "fax": "+65 6222 5577"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Saturnusstraat 15, 3063 EM Rotterdam, Netherlands",
+      "telephone": "+31 10 478 5678",
+      "fax": "+31 10 478 9012"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "1 Marina Boulevard, #39-01 Marina Bay Financial Centre Tower 3, Singapore 018989",
-      "telephone": "+65 6888 9900",
-      "fax": "+65 6888 9911"
+      "name": "EUROTECH LOGISTICS",
+      "address": "Jupiterlaan 25, 3065 NL Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 9012"
     }
   },
-  "shippingTerm": "CIF SINGAPORE",
-  "hsCode": "73181600",
-  "commodityDescription": "STAINLESS STEEL FLAT BAR",
+  "shippingTerm": "CIF",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 20,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE STAINLESS STEEL FLAT BAR",
-      "grossWeight": 18500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Machinery Parts for Assembly",
+      "grossWeight": 1250.0,
+      "measurement": 1.8
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET456",
+      "numberOfPackages": 3,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: Spare Parts for Machinery",
+      "grossWeight": 800.0,
+      "measurement": 1.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
-    "totalPackages": 20,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 18500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20'X1) CONTAINERS ONLY",
+    "totalPackages": 8,
+    "packageType": "CRATES AND PALLETS",
+    "totalGrossWeight": 2050.0,
+    "totalMeasurement": 3.0
   },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
     "lcDetails": {
-      "lcNumber": "LC0000123456"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "20240912-COO-001",
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "KUEHNE + NAGEL",
-      "address": "1 Temasek Avenue, #40-01 Temasek Tower, Singapore 039192",
-      "telephone": "+65 6222 6666",
-      "fax": "+65 6222 6677"
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Saturnusstraat 15, 3063 EM Rotterdam, Netherlands",
+      "telephone": "+31 10 478 5678",
+      "fax": "+31 10 478 9012"
     },
     "originalInvoiceDistribution": {
-      "name": "KUEHNE + NAGEL",
-      "address": "1 Temasek Avenue, #40-01 Temasek Tower, Singapore 039192",
-      "telephone": "+65 6222 6666",
-      "fax": "+65 6222 6677"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #20-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
     },
-    "onboardDate": "SEPT. 22. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance Policy No: INS123456"
   }
 }

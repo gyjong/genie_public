@@ -1,96 +1,97 @@
 {
-  "bookingReference": "GRAPE20241015132502",
+  "bookingReference": "APPLE20240920113015",
   "voyageDetails": {
-    "vesselName": "CMA CGM PEARL",
-    "voyageNumber": "2430W",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Original",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6226 1234",
-      "fax": "+65 6226 5678"
+      "name": "EUROFRESH IMPORT EXPORT BV",
+      "address": "DE REGGEWEG 12, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 462 7521",
+      "email": "INFO@EUROFRESH.NL"
     },
     "consignee": {
-      "name": "EUROSTAR IMPORTS BV",
-      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
-      "telephone": "+31 10 256 7890",
-      "fax": "+31 10 256 7891"
+      "name": "ASIA PACIFIC FOODS PTE LTD",
+      "address": "123 Anson Road, #15-01, International Plaza, SINGAPORE 079903",
+      "taxId": "199802121Z",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6221 8900",
+      "fax": "+65 6221 8901"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6226 1234",
-      "fax": "+65 6226 5678"
+      "name": "ASIA PACIFIC FOODS PTE LTD",
+      "address": "123 Anson Road, #15-01, International Plaza, SINGAPORE 079903",
+      "taxId": "199802121Z",
+      "president": "MR. TAN AH HOCK",
+      "telephone": "+65 6221 8900",
+      "fax": "+65 6221 8901"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8479.89",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CFR",
+  "hsCode": "08051000",
+  "commodityDescription": "FROZEN APPLES, WHOLE",
   "containers": [
     {
-      "containerNumber": "SEGU4567890",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 5,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR ASSEMBLY LINE",
-      "grossWeight": 1250.75,
-      "measurement": 1.5
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE FROZEN APPLES, WHOLE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "BOXES",
-    "totalGrossWeight": 1250.75,
-    "totalMeasurement": 1.5
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
   },
-  "dangerousGoods": {
-    "containerNumber": null,
-    "unClass": null,
-    "unCode": null,
-    "hsCode": null,
-    "flashPoint": null,
-    "additionalInfo": null
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "LC20241015001"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": "20241015-001",
+    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 20241001",
     "originalBLDistribution": {
-      "name": "EUROSTAR IMPORTS BV",
-      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
-      "telephone": "+31 10 256 7890",
-      "fax": "+31 10 256 7891"
+      "name": "DBS BANK LTD",
+      "address": "12 Marina Boulevard, Marina Bay Financial Centre Tower 3, Singapore 018982",
+      "telephone": "+65 6222 2222",
+      "fax": "+65 6222 2221"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6226 1234",
-      "fax": "+65 6226 5678"
+      "name": "EUROFRESH IMPORT EXPORT BV",
+      "address": "DE REGGEWEG 12, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 462 7521",
+      "email": "INFO@EUROFRESH.NL"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": null
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "NONE"
   }
 }

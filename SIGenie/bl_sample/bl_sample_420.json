@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APPLE20240912134512",
+  "bookingReference": "GRAPE20241018123456",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2024041",
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2445W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 303, 3012CM ROTTERDAM, NETHERLANDS"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 158, JIANYI ROAD, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZIP CODE: 528400)"
     },
     "consignee": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "DEUTSCHE CHEMIE GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@DEUTSCHECHEMIE.DE",
+      "telephone": "+49 69 7989010"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "AM EUROPAHUS 3, 60439 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "DHLGF-FRA@DHL.COM",
+      "telephone": "+49 69 50061111"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHANOLAMINE (99.5% PURITY)",
   "containers": [
     {
-      "containerNumber": "TCLU5782145",
-      "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CCMU9783123",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE-202410",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "250KG NET DRUMS, SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: ETHANOLAMINE (99.5% PURITY) 25MT",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "TCLU8923675",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 15,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 13500.0,
-      "measurement": 30.0
+      "containerNumber": "CCMU8765432",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SUNRISE-202410",
+      "numberOfPackages": 500,
+      "packageType": "DRUMS",
+      "cargoDescription": "250KG NET DRUMS, SHIPPER'S LOAD & COUNT, SOTW & SEAL SAID TO CONTAIN: ETHANOLAMINE (99.5% PURITY) 25MT",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 25500.0,
-    "totalMeasurement": 55.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "1000020070133X"
-    ],
+    "certificateDetails": "CN20241018001",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "AM EUROPAHUS 3, 60439 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 50061111"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS BV",
-      "address": "WEENA 303, 3012CM ROTTERDAM, NETHERLANDS"
+      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 158, JIANYI ROAD, ZHONGSHAN CITY, GUANGDONG PROVINCE, CHINA",
+      "telephone": "+86 757 82556688"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\n"
   }
 }

@@ -1,99 +1,98 @@
 {
-  "bookingReference": "GRAPE202409121123400",
+  "bookingReference": "APPLE20240912102511",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2024045",
-    "bound": "W"
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "24041W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 3333",
-      "fax": "+65 6222 4444"
+      "name": "CHINA SHIPPING (NINGBO) CO., LTD.",
+      "address": "1234 OCEAN ROAD, NINGBO FREE TRADE ZONE, CHINA"
     },
     "consignee": {
-      "name": "EUROLOGISTICS BV",
-      "address": "Westerhaven 10, 3016 BJ Rotterdam, Netherlands",
-      "telephone": "+31 10 201 5000",
-      "fax": "+31 10 201 5001",
-      "email": "info@eurologistics.nl",
-      "contactPerson": "PETER VAN DER LINDEN"
+      "name": "EUROTRANS LOGISTICS B.V.",
+      "address": "STATIONSPLEIN 1, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL FORWARDING SOLUTIONS",
-      "address": "123 Prinsestraat, 1012 AB Amsterdam, Netherlands",
-      "telephone": "+31 20 626 1000",
-      "fax": "+31 20 626 1111"
+      "name": "ABC IMPORTERS LTD.",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 678 9012",
+      "fax": "+31 20 678 3456"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "85437090",
-  "commodityDescription": "ELECTRONIC COMPONENTS - PRINTED CIRCUIT BOARDS",
+  "hsCode": "85414000",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
   "containers": [
     {
-      "containerNumber": "SUDU3879125",
-      "sealNumber": "123456",
+      "containerNumber": "MSCU7896543",
+      "sealNumber": "1234567",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 150,
-      "cargoDescription": "150 BOXES ELECTRONIC COMPONENTS",
-      "grossWeight": 5000.0,
-      "measurement": 15.25
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 50 ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM-200)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "87654321",
       "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 100,
-      "cargoDescription": "100 BOXES ELECTRONIC COMPONENTS",
-      "grossWeight": 3000.0,
-      "measurement": 12.5
+      "numberOfPackages": 50,
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 50 ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (MODEL: EM-200)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 250,
-    "totalGrossWeight": 8000.0,
-    "totalMeasurement": 27.75
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20231026-001",
-    "documentNumber": "20231026-BL001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LCL2024091201"
     },
     "certificateDetails": [
-      "COO-1234567890"
+      "CN123456789",
+      "EU987654321"
     ],
     "originalBLDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "Westerhaven 10, 3016 BJ Rotterdam, Netherlands",
-      "telephone": "+31 10 201 5000",
-      "fax": "+31 10 201 5001"
+      "name": "EUROTRANS LOGISTICS B.V.",
+      "address": "STATIONSPLEIN 1, 3013 AK ROTTERDAM, NETHERLANDS"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #20-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 3333",
-      "fax": "+65 6222 4444"
+      "name": "ABC IMPORTERS LTD.",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS"
     },
-    "onboardDate": "OCT. 28. 2024"
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "CARGO PACKED IN WOODEN CRATES. SHIPPED ON BOARD ON SEPTEMBER 25, 2024."
   }
 }

@@ -1,100 +1,107 @@
 {
-  "bookingReference": "APPLE202410121412300",
+  "bookingReference": "APPLE20240912101527",
   "voyageDetails": {
-    "vesselName": "MSC LUCIANA",
-    "voyageNumber": "2424E",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2428E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA"
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "NO. 1234, HUAYUAN ROAD, JIANGNING DISTRICT, NANJING, 211100",
+      "country": "CHINA",
+      "additionalInfo": "(SUNRISE BUILDING)",
+      "telephone": "+86 25 8686 1234",
+      "email": "INFO@SUNRISETRADING.CN"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "1234 Ocean Avenue, Suite 200, Los Angeles, CA 90210",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213",
-      "email": "info@wci.com",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE, LOGISTICS@EUROTECH.DE",
+      "telephone": "+49 69 7567 8900"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "GLOBAL LOGISTICS INC.",
-      "address": "5678 Wilshire Boulevard, Los Angeles, CA 90036",
-      "telephone": "+1 310 555 8989",
-      "fax": "+1 310 555 8990"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECH.DE, LOGISTICS@EUROTECH.DE",
+      "telephone": "+49 69 7567 8900"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8479899090",
-  "commodityDescription": "MACHINERY FOR MANUFACTURING TEXTILES",
+  "hsCode": "854140",
+  "commodityDescription": "POWER SUPPLIES FOR ELECTRONIC EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "CMAU9567231",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 10,
-      "cargoDescription": "MACHINERY PARTS - AS PER PACKING LIST",
-      "grossWeight": 7500.0,
-      "measurement": 15.6
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROTECH 123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLIES FOR ELECTRONIC EQUIPMENT (MODEL: PS-100)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "CMAU9632874",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 5,
-      "cargoDescription": "SPARE PARTS FOR MACHINERY",
-      "grossWeight": 3000.0,
-      "measurement": 8.2
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROTECH 456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER SUPPLIES FOR ELECTRONIC EQUIPMENT (MODEL: PS-100)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20FT CONTAINERS",
-    "totalPackages": 15,
-    "totalGrossWeight": 10500.0,
-    "totalMeasurement": 23.8
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "1234567890",
-    "documentNumber": "20241012001",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "COO1234567"
+      "CN2024091212345",
+      "CN2024091212346"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 5, 60311 FRANKFURT",
+      "telephone": "+49 69 7567 9900"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "1234 Ocean Avenue, Suite 200, Los Angeles, CA 90210",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213",
-      "email": "info@wci.com"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "FRANKFURTER STRASSE 5, 60311 FRANKFURT",
+      "telephone": "+49 69 7567 9900"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS ARE PACKED AND SECURED ON PALLETS."
   }
 }

@@ -1,96 +1,105 @@
 {
-  "bookingReference": "APPLE20241015143202",
+  "bookingReference": "GRAPE20240918143512",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA",
-    "voyageNumber": "2024418",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2434E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "MASTER",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SEAFOOD INTERNATIONAL PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6225-8866",
-      "fax": "+65-6225-8877"
+      "name": "HOLANDIA TRADING BV",
+      "address": "PIET HEIN STREET 12, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678",
+      "email": "INFO@HOLANDIATRADING.NL"
     },
     "consignee": {
-      "name": "SEAFOOD EUROPE BV",
-      "address": "Nieuwe Haven 12, 3011 GK Rotterdam, Netherlands",
-      "telephone": "+31-10-413-9500",
-      "fax": "+31-10-413-9599"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "10 Anson Road, #27-01 International Plaza, Singapore 079903",
+      "taxId": "201212345A",
+      "president": "MR. TAN CHENG WEE",
+      "telephone": "+65 6226 8800",
+      "fax": "+65 6226 8899"
     },
     "notifyParty": {
-      "name": "SEAFOOD EUROPE BV",
-      "address": "Nieuwe Haven 12, 3011 GK Rotterdam, Netherlands",
-      "telephone": "+31-10-413-9500",
-      "fax": "+31-10-413-9599"
+      "name": "ASIA PACIFIC LOGISTICS",
+      "address": "123 Tampines Street 61, #03-12, Singapore 521123",
+      "telephone": "+65 6789 1234",
+      "fax": "+65 6789 5678"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "0307.63",
-  "commodityDescription": "FROZEN TUNA",
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLE PARTS - ENGINE ASSEMBLIES",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SF20241015",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "1000 CARTONS FROZEN TUNA",
-      "grossWeight": 20000.0,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE MOTORCYCLE PARTS - ENGINE ASSEMBLIES",
+      "grossWeight": 12000.0,
       "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE MOTORCYCLE PARTS - ENGINE ASSEMBLIES",
+      "grossWeight": 9000.0,
+      "measurement": 22.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20 O/T X2) CONTAINER ONLY",
+    "totalPackages": 35,
+    "packageType": "BOXES",
+    "containerType": "20 O/TX2",
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 47.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO20241015",
-    "salesOrderNumber": "SO20241015",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "HEALTH CERTIFICATE",
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "SEAFOOD EUROPE BV",
-      "address": "Nieuwe Haven 12, 3011 GK Rotterdam, Netherlands",
-      "telephone": "+31-10-413-9500",
-      "fax": "+31-10-413-9599"
+      "name": "SINGAPORE LOGISTICS CO. LTD",
+      "address": "101 Cecil Street, #10-01, Singapore 069533",
+      "telephone": "+65 6338 1234",
+      "fax": "+65 6338 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "SEAFOOD INTERNATIONAL PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65-6225-8866",
-      "fax": "+65-6225-8877"
+      "name": "SINGAPORE LOGISTICS CO. LTD",
+      "address": "101 Cecil Street, #10-01, Singapore 069533",
+      "telephone": "+65 6338 1234",
+      "fax": "+65 6338 5678"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "CARGO STOWED BELOW DECK"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

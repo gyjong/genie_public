@@ -1,100 +1,95 @@
 {
-  "bookingReference": "APPLE20240915113245",
+  "bookingReference": "APPLE202409121453200",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2432W",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
-      "address": "NO. 1234, XINLI ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(HONGKOU DISTRICT)"
+      "name": "Zhejiang Suning Trading Co., Ltd",
+      "address": "No. 333, Beishan Road, Yinzhou District, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8688 6666",
+      "fax": "+86 574 8688 6667"
     },
     "consignee": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADE.DE",
-      "telephone": "+49 69 793900"
+      "name": "Pacific Coast Logistics Inc.",
+      "address": "1234 Harbor Blvd, Suite 200, Long Beach, CA 90802",
+      "telephone": "+1 562 555 1212",
+      "fax": "+1 562 555 1213",
+      "email": "info@pclinc.com",
+      "contactPerson": "Mark Johnson"
     },
     "notifyParty": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADE.DE",
-      "telephone": "+49 69 793900"
+      "sameAsConsignee": false,
+      "name": "Suning Logistics USA",
+      "address": "1111 Wilshire Blvd, Suite 1000, Los Angeles, CA 90017",
+      "telephone": "+1 213 555 2323",
+      "fax": "+1 213 555 2324"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85444210",
-  "commodityDescription": "COPPER WIRE RODS",
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "Men's Cotton T-Shirts",
   "containers": [
     {
-      "containerNumber": "CAIU9673256",
+      "containerNumber": "CMAU7962345",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG-123",
-      "numberOfPackages": 1000,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COPPER WIRE RODS, 5.5MM DIAMETER, 100KG COILS",
-      "grossWeight": 22000.0,
-      "measurement": 30.0
+      "marksAndNumbers": "SUNING2345",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
+      "grossWeight": 10500.0,
+      "measurement": 18.5
     },
     {
-      "containerNumber": "CAIU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "789012",
-      "marksAndNumbers": "ETG-456",
-      "numberOfPackages": 800,
-      "packageType": "COILS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COPPER WIRE RODS, 6.5MM DIAMETER, 120KG COILS",
-      "grossWeight": 19200.0,
-      "measurement": 25.0
+      "marksAndNumbers": "SUNING8901",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
+      "grossWeight": 10700.0,
+      "measurement": 19.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
-    "totalPackages": 1800,
-    "packageType": "COILS",
-    "totalGrossWeight": 41200.0,
-    "totalMeasurement": 55.0
+    "totalContainers": "2 X 40' DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 21200.0,
+    "totalMeasurement": 37.7
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "ETG-2024-09-15",
-    "hsCode": "74081100",
-    "freeTimeAtDestination": "7 DAYS",
+    "invoiceNumber": "20240912001",
+    "documentNumber": "20240912002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC20240912003"
     },
-    "certificateDetails": "CN-2024-09-15-COPPER",
+    "certificateDetails": [
+      "COO-20240912-001"
+    ],
     "originalBLDistribution": {
-      "name": "HSBC BANK",
-      "address": "FRANKFURTER PLATZ 1, 60311 FRANKFURT",
-      "telephone": "+49 69 793910"
+      "name": "Pacific Coast Logistics Inc.",
+      "address": "1234 Harbor Blvd, Suite 200, Long Beach, CA 90802"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO TRADE GMBH",
-      "address": "FRANKFURTER STRASSE 56, 60311 FRANKFURT",
-      "telephone": "+49 69 793900",
-      "fax": "+49 69 793901"
+      "name": "Zhejiang Suning Trading Co., Ltd",
+      "address": "No. 333, Beishan Road, Yinzhou District, Ningbo, Zhejiang, China"
     },
-    "onboardDate": "SEPT. 18. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCOPPER WIRE RODS ARE TO BE DELIVERED TO EURO TRADE GMBH WAREHOUSE."
+    "onboardDate": "SEPT. 29. 2024"
   }
 }

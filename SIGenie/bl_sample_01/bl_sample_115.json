@@ -1,0 +1,99 @@
+{
+  "bookingReference": "APPLE202409121015000",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2436E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA SUNRISE TRADING CO. LTD",
+      "address": "ROOM 1502, NO. 888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86 21 6327 8956",
+      "fax": "+86 21 6327 8957"
+    },
+    "consignee": {
+      "name": "SUNSET LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@SUNSETLOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "BLUE SKY IMPORTERS",
+      "address": "456 OCEAN AVE, SANTA MONICA, CA 90401",
+      "telephone": "+1 310 555 2323",
+      "fax": "+1 310 555 2324"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 500,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, Assorted Colors & Sizes",
+      "grossWeight": 9800.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 19800.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240912-001",
+    "documentNumber": "20240912-BL001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20240912-001"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNSET LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA SUNRISE TRADING CO. LTD",
+      "address": "ROOM 1502, NO. 888 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86 21 6327 8956",
+      "fax": "+86 21 6327 8957"
+    },
+    "onboardDate": "SEPT. 29. 2024"
+  }
+}

@@ -1,109 +1,97 @@
 {
-  "bookingReference": "APPLE20241025124523",
+  "bookingReference": "APPLE20240912102356",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2432W",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024312",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "1234 XINHU ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(PUDONG DISTRICT)"
+      "name": "ZHEJIANG IRON & STEEL CO., LTD",
+      "address": "NO. 188, HUANGSHAN ROAD, HANGZHOU, ZHEJIANG, CHINA",
+      "telephone": "+86 571 8765 4321",
+      "email": "sales@zjis.com.cn"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "POSTBUS 1234, 3000 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 4567890"
+      "name": "EUROSTEEL TRADING BV",
+      "address": "WESTWEG 10, 3131 AH VlISSINGEN, NETHERLANDS",
+      "taxId": "NL811234567B01",
+      "president": "MR. JAN VAN DER SLOOT",
+      "telephone": "+31 113 567 890",
+      "fax": "+31 113 567 891"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "POSTBUS 1234, 3000 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 4567890"
+      "name": "EUROSTEEL TRADING BV",
+      "address": "WESTWEG 10, 3131 AH VlISSINGEN, NETHERLANDS",
+      "taxId": "NL811234567B01",
+      "president": "MR. JAN VAN DER SLOOT",
+      "telephone": "+31 113 567 890",
+      "fax": "+31 113 567 891"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "CIF",
+  "hsCode": "7208370000",
+  "commodityDescription": "STEEL PLATES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "TCLU5789654",
       "sealNumber": "123456",
-      "marksAndNumbers": "EG-123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20250.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "TCLU8901234",
-      "sealNumber": "567890",
-      "marksAndNumbers": "EG-456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20250.0,
-      "measurement": 28.0
-    },
-    {
-      "containerNumber": "TCLU5432109",
-      "sealNumber": "901234",
-      "marksAndNumbers": "EG-789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL (EG) 20MT 200KG DRUMS",
-      "grossWeight": 20250.0,
-      "measurement": 28.0
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM STEEL PLATES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60750.0,
-    "totalMeasurement": 84.0
+    "totalContainers": "ONE (20' DRY X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' Dry Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO-123456789",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "01234567890"
     },
-    "certificateDetails": "CN-20241025-1234567",
+    "certificateDetails": "CN1234567890",
     "originalBLDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "POSTBUS 1234, 3000 AA ROTTERDAM",
-      "telephone": "+31 10 4567890"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "251 OLD STREET, LONDON EC1V 9EY, UNITED KINGDOM",
+      "telephone": "+44 20 7536 6000",
+      "fax": "+44 20 7536 6100"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "1234 XINHU ROAD, SHANGHAI, 200000",
-      "telephone": "+86 21 12345678"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "251 OLD STREET, LONDON EC1V 9EY, UNITED KINGDOM",
+      "telephone": "+44 20 7536 6000",
+      "fax": "+44 20 7536 6100"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

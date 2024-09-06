@@ -1,100 +1,106 @@
 {
-  "bookingReference": "ORANGE20241017142501",
+  "bookingReference": "APPLE20240912103456",
   "voyageDetails": {
-    "vesselName": "EVER EVER",
-    "voyageNumber": "2024103",
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2431W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "TRANSFERABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 2
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE IMPORT EXPORT CO., LTD.",
-      "onBehalfOf": "SUNRISE GROUP HOLDINGS",
-      "address": "238 FUJIAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6352-8888",
-      "fax": "+86-21-6352-9999"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ROBINSON ROAD, #15-01 ROBINSON TOWERS, SINGAPORE 068905",
+      "country": "SINGAPORE",
+      "additionalInfo": "(CENTRAL BUSINESS DISTRICT)",
+      "telephone": "+65 6222 1234",
+      "email": "INFO@ASIAPACIFICTRADING.COM.SG"
     },
     "consignee": {
-      "name": "EURO TRADING BV",
-      "address": "SINGEL 235-237, 1012VK AMSTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROCHEM GMBH",
+      "address": "HANSEATIKSTRASSE 15, 20355 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROCHEM.DE",
+      "telephone": "+49 40 3599 5000"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "ZUIDERKERK 19, 1012VA AMSTERDAM, NETHERLANDS"
+      "name": "EUROCHEM GMBH",
+      "address": "HANSEATIKSTRASSE 15, 20355 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROCHEM.DE",
+      "telephone": "+49 40 3599 5000"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "847989",
-  "commodityDescription": "ELECTRIC GENERATORS",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE, PURIFIED",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 25,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC GENERATORS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IN GOOD ORDER"
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EA20240912",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "ETHYL ACETATE, PURIFIED, UN1173, III",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 25,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC GENERATORS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IN GOOD ORDER"
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EA20240912",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "ETHYL ACETATE, PURIFIED, UN1173, III",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "000023456789"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070177X"
+      "CO-1234567890"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE IMPORT EXPORT CO., LTD.",
-      "address": "238 FUJIAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6352-8888",
-      "fax": "+86-21-6352-9999"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "250 CHANGI SOUTH STREET, SINGAPORE 486077",
+      "telephone": "+65 6823 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE GROUP HOLDINGS",
-      "address": "333 PUJIAN ROAD, SHANGHAI 200002, CHINA",
-      "telephone": "+86-21-6352-7777",
-      "fax": "+86-21-6352-6666"
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 ROBINSON ROAD, #15-01 ROBINSON TOWERS, SINGAPORE 068905",
+      "telephone": "+65 6222 1234"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS PACKED AND SHIPPED AS PER BUYER'S INSTRUCTIONS"
   }
 }

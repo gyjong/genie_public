@@ -1,99 +1,97 @@
 {
-  "bookingReference": "APPLE20240912104521",
+  "bookingReference": "GRAPE20240918142532",
   "voyageDetails": {
-    "vesselName": "COSMOS 07",
+    "vesselName": "CMA CGM GRACE BAY",
     "voyageNumber": "2024042",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA SHIPPING CO., LTD.",
-      "address": "123 HONGQI ROAD, SHANGHAI, CHINA"
+      "name": "DEUTSCHE METALL GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 3030 4567",
+      "email": "INFO@DEUTSCHEMETALL.DE"
     },
     "consignee": {
-      "name": "EUROLOGISTICS BV",
-      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 201 5000",
-      "fax": "+31 10 201 5001"
+      "name": "ASIA STEEL TRADING PTE LTD",
+      "address": "20 Anson Road, #11-01, Anson Centre, Singapore 079912",
+      "taxId": "200112345H",
+      "president": "MR. TAN CHONG WEE",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     },
     "notifyParty": {
-      "name": "WORLDWIDE FREIGHT FORWARDERS",
-      "address": "456 AMSTERDAMSEWEG, 1051 NJ AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 666 1111",
-      "fax": "+31 20 666 1112"
+      "name": "ASIA STEEL TRADING PTE LTD",
+      "address": "20 Anson Road, #11-01, Anson Centre, Singapore 079912",
+      "taxId": "200112345H",
+      "president": "MR. TAN CHONG WEE",
+      "telephone": "+65 6221 8888",
+      "fax": "+65 6221 9999"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "shippingTerm": "CFR",
+  "hsCode": "7206100000",
+  "commodityDescription": "STEEL BILLETS",
   "containers": [
     {
-      "containerNumber": "CMAU7512384",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 12000.0,
+      "containerNumber": "GSLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, SINGAPORE STEEL BILLETS",
+      "grossWeight": 25000.0,
       "measurement": 30.0
-    },
-    {
-      "containerNumber": "CMAU1287659",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 8,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR TEXTILE INDUSTRY",
-      "grossWeight": 9000.0,
-      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 21000.0,
-    "totalMeasurement": 55.0
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "LC00123456789"
     },
-    "certificateDetails": [
-      "1000020070133Y"
-    ],
+    "certificateDetails": "1234567890123",
     "originalBLDistribution": {
-      "name": "EUROLOGISTICS BV",
-      "address": "WEENA 333, 3013 AL ROTTERDAM, NETHERLANDS"
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "10 Anson Road, #02-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6336 8888",
+      "fax": "+65 6336 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "WORLDWIDE FREIGHT FORWARDERS",
-      "address": "456 AMSTERDAMSEWEG, 1051 NJ AMSTERDAM, NETHERLANDS",
-      "telephone": "+31 20 666 1111",
-      "fax": "+31 20 666 1112"
+      "name": "SINGAPORE GLOBAL LOGISTICS LTD",
+      "address": "10 Anson Road, #02-01, International Plaza, Singapore 079903",
+      "telephone": "+65 6336 8888",
+      "fax": "+65 6336 9999"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES"
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NONE"
   }
 }

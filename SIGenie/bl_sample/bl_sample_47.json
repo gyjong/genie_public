@@ -1,110 +1,95 @@
 {
-  "bookingReference": "APPLE20240920123456",
+  "bookingReference": "APPLE20240912124510",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA IMPORT & EXPORT CORPORATION",
-      "address": "123 CHANG'AN ROAD, SHANGHAI, CHINA",
-      "country": "CHINA",
-      "additionalInfo": "ROOM 201, SHANGHAI TOWER"
+      "name": "DELTA TRADING BV",
+      "address": "SINGEL 234, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "email": "INFO@DELTATRADING.NL"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "HOHENZOLLERNSTRASSE 10, 20148 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADE.DE",
-      "telephone": "+49 40 300550"
+      "name": "ASIA PACIFIC DISTRIBUTORS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "taxId": "200212345Z",
+      "president": "MR. TAN CHONG WEI",
+      "telephone": "+65 6221 8900",
+      "fax": "+65 6221 8999"
     },
     "notifyParty": {
-      "name": "EUROTRADE GMBH",
-      "address": "HOHENZOLLERNSTRASSE 10, 20148 HAMBURG",
-      "country": "GERMANY",
-      "email": "INFO@EUROTRADE.DE",
-      "telephone": "+49 40 300550"
+      "name": "DELTA TRADING BV",
+      "address": "SINGEL 234, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 5678",
+      "email": "INFO@DELTATRADING.NL"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "854442",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CIF",
+  "hsCode": "84137090",
+  "commodityDescription": "PUMPING EQUIPMENT",
   "containers": [
     {
       "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ETG123",
-      "numberOfPackages": 500,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER PACKING LIST",
-      "grossWeight": 12000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "TCLU8901234",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ETG456",
-      "numberOfPackages": 300,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER PACKING LIST",
-      "grossWeight": 8000.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "TCLU5678901",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ETG789",
-      "numberOfPackages": 200,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER PACKING LIST",
-      "grossWeight": 6000.0,
-      "measurement": 12.0
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE PUMPING EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1000,
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
     "packageType": "BOXES",
-    "totalGrossWeight": 26000.0,
-    "totalMeasurement": 47.0
+    "containerType": "20 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "ETG20240920",
-    "hsCode": "8544421000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "001234567890"
     },
-    "certificateDetails": "CN20240920001",
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 MAIN STREET, FRANKFURT, GERMANY",
-      "telephone": "+49 69 79020"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2199"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "HOHENZOLLERNSTRASSE 10, 20148 HAMBURG",
-      "country": "GERMANY",
-      "telephone": "+49 40 300550"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 MAIN STREET, SINGAPORE 123456",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2199"
     },
-    "onboardDate": "SEPT. 25. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": ""
   }
 }

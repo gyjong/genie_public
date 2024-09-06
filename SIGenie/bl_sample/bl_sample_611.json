@@ -1,0 +1,107 @@
+{
+  "bookingReference": "APPLE20240912124523",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "24040",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Contact Person: Mr. Tan)",
+      "telephone": "+65 6221 5678",
+      "email": "tan.ah.meng@asiapacifictrading.com"
+    },
+    "consignee": {
+      "name": "EUROTECH GMBH",
+      "address": "Stresemannplatz 7, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3038 9500"
+    },
+    "notifyParty": {
+      "name": "EUROTECH GMBH",
+      "address": "Stresemannplatz 7, 20095 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3038 9500"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "842139",
+  "commodityDescription": "HEAT TREATMENT FURNACES WITH DIGITAL CONTROLS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-23-01",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) HEAT TREATMENT FURNACE WITH DIGITAL CONTROLS (W.2500MM H.2200MM L.3000MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-23-02",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SPARE PARTS FOR HEAT TREATMENT FURNACE (W.1500MM H.1000MM L.2000MM)",
+      "grossWeight": 6000.0,
+      "measurement": 12.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 38.2
+  },
+  "outOfGaugeDimensions": {
+    "length": 3000,
+    "width": 2500,
+    "height": 2200,
+    "overWidth": 100,
+    "overHeight": 200
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL EXPRESS",
+      "address": "123 Airport Road, Singapore 819653",
+      "telephone": "+65 6221 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903",
+      "telephone": "+65 6221 5678"
+    },
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

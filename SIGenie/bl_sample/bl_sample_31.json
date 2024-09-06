@@ -1,110 +1,107 @@
 {
-  "bookingReference": "APPLE20240915143212",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2439W",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2432E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Sunshine Textile Co., Ltd.",
-      "address": "No. 188, Changxing Road, Yinzhou District, Ningbo, Zhejiang, 315040, China",
-      "country": "CHINA",
-      "additionalInfo": "(Tel: +86 574 8623 1234)"
+      "name": "ASIA PACIFIC TRADING CO. PTE. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6221 5566",
+      "email": "sales@asiapacifictrading.com.sg"
     },
     "consignee": {
-      "name": "Textile Solutions GmbH",
-      "address": "Frankfurter Strasse 27, 60329 Frankfurt am Main, Germany",
+      "name": "EUROTECH GMBH",
+      "address": "Speicherstadt, Brooktorstra\u00dfe 12, 20457 Hamburg, GERMANY",
       "country": "GERMANY",
-      "email": "info@textilesolutions.de",
-      "telephone": "+49 69 7907870"
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 33456789"
     },
     "notifyParty": {
-      "name": "Textile Solutions GmbH",
-      "address": "Frankfurter Strasse 27, 60329 Frankfurt am Main, Germany",
+      "name": "ABC BANK GMBH",
+      "address": "Neuer Jungfernstieg 12, 20354 Hamburg, GERMANY",
       "country": "GERMANY",
-      "email": "info@textilesolutions.de",
-      "telephone": "+49 69 7907870"
+      "email": "trade@abc-bank.de",
+      "telephone": "+49 40 12345678"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "551211",
-  "commodityDescription": "POLYESTER FABRIC, PRINTED",
+  "shippingTerm": "CIF HAMBURG",
+  "hsCode": "841370",
+  "commodityDescription": "MACHINERY FOR PRINTING TEXT AND IMAGES ON TEXTILES",
   "containers": [
     {
-      "containerNumber": "TCLU6679123",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "TS230915-01",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "500 ROLLS POLYESTER FABRIC, PRINTED, AS PER SAMPLE",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRINTING MACHINERY PARTS FOR TEXTILES (W.2400MM H.2200MM)",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "TS230915-02",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "500 ROLLS POLYESTER FABRIC, PRINTED, AS PER SAMPLE",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "765432",
-      "marksAndNumbers": "TS230915-03",
-      "numberOfPackages": 500,
-      "packageType": "ROLLS",
-      "cargoDescription": "500 ROLLS POLYESTER FABRIC, PRINTED, AS PER SAMPLE",
-      "grossWeight": 12000.0,
-      "measurement": 25.0
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRINTING MACHINERY PARTS FOR TEXTILES (W.2400MM H.2200MM)",
+      "grossWeight": 9000.0,
+      "measurement": 12.75
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "ROLLS",
-    "totalGrossWeight": 36000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 38.25
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "TS230915-001",
-    "hsCode": "551211",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC230915-001"
+      "lcNumber": "0000234567890"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "China Shipping Agency Co., Ltd.",
-      "address": "No. 123, Binhai Road, Ningbo, Zhejiang, 315000, China",
-      "telephone": "+86 574 8612 3456"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "123 Airport Road, SINGAPORE 819634",
+      "telephone": "+65 6789 0123"
     },
     "originalInvoiceDistribution": {
-      "name": "Textile Solutions GmbH",
-      "address": "Frankfurter Strasse 27, 60329 Frankfurt am Main, Germany",
-      "telephone": "+49 69 7907870",
-      "fax": "+49 69 7907871"
+      "name": "ASIA PACIFIC TRADING CO. PTE. LTD.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65 6221 5566"
     },
     "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "additionalRemarks": "INSURANCE: USD 300,000"
   }
 }

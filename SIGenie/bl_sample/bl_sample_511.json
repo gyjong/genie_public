@@ -1,97 +1,100 @@
 {
-  "bookingReference": "APPLE20240912143012",
+  "bookingReference": "APPLE20240912134526",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "24042E",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024042",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "MASTER BL",
     "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "EUROFRESH BV",
-      "address": "Havenstraat 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "info@eurofresh.nl"
+      "name": "KOREA SHIPPING CO., LTD.",
+      "address": "123 SEOULL STREET, SEOUL, KOREA"
     },
     "consignee": {
-      "name": "ASIA FRUIT IMPORTERS PTE LTD",
-      "address": "123 Cecil Street, #10-01, Singapore 069532",
-      "taxId": "GST123456789A",
-      "president": "Mr. Lee Chen",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "name": "USA WAREHOUSE INC.",
+      "address": "456 CALIFORNIA AVE, LOS ANGELES, CA, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 5678"
     },
     "notifyParty": {
-      "name": "ASIA FRUIT IMPORTERS PTE LTD",
-      "address": "123 Cecil Street, #10-01, Singapore 069532",
-      "taxId": "GST123456789A",
-      "president": "Mr. Lee Chen",
-      "telephone": "+65 6222 8888",
-      "fax": "+65 6222 9999"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "789 MAIN STREET, NEW YORK, NY, USA",
+      "telephone": "+1 917 555 9876",
+      "fax": "+1 917 555 4321"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "08055000",
-  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILES",
   "containers": [
     {
-      "containerNumber": "GRSU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROFRESH - 1234567",
-      "numberOfPackages": 1000,
-      "packageType": "CARTONS",
-      "cargoDescription": "FRESH APPLES, GOLDEN DELICIOUS VARIETY, PACKED IN CARTONS. SHIPPER'S LOAD AND COUNT.",
-      "grossWeight": 20000.0,
+      "marksAndNumbers": "KSL123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
+      "grossWeight": 12000.0,
       "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KSL456",
+      "numberOfPackages": 15,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "CARTONS",
-    "containerType": "20 DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 55.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033739"
     },
-    "certificateDetails": "PHYTOSANITARY CERTIFICATE NO. 123456789",
+    "certificateDetails": [
+      "1000020070133X",
+      "1000020070134X"
+    ],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "100 Airport Road, Singapore 819647",
-      "telephone": "+65 6545 6789",
-      "fax": "+65 6545 6788"
+      "name": "KOREA SHIPPING CO., LTD.",
+      "address": "123 SEOULL STREET, SEOUL, KOREA"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROFRESH BV",
-      "address": "Havenstraat 12, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 456 7890",
-      "email": "info@eurofresh.nl"
+      "name": "USA WAREHOUSE INC.",
+      "address": "456 CALIFORNIA AVE, LOS ANGELES, CA, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 5678"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS SHIPPED IN GOOD ORDER AND CONDITION"
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
   }
 }

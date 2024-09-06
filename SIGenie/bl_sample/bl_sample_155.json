@@ -1,101 +1,100 @@
 {
-  "bookingReference": "APPLE202410051115400",
+  "bookingReference": "APPLE20240915133742",
   "voyageDetails": {
-    "vesselName": "MSC NINA",
-    "voyageNumber": "2024307",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2432W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": "LOS ANGELES, CA, U.S.A"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL IMPORT & EXPORT CO. LTD",
-      "address": "2188 SHENNAN ROAD,NINGBO,315011,CHINA",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068905",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE BUSINESS DISTRICT)"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 OCEAN AVENUE, SUITE 200, LOS ANGELES, CA 90064",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "MARIA SANCHEZ"
+      "name": "EUROCHEM BV",
+      "address": "WESTWEG 12, 3016 AL ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 462 5000"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "4567 SUNRISE BLVD, LOS ANGELES, CA 90020",
-      "telephone": "+1-310-555-9876",
-      "fax": "+1-310-555-9877",
-      "email": "INFO@SUNRISETRADING.COM"
+      "name": "EUROCHEM BV",
+      "address": "WESTWEG 12, 3016 AL ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 462 5000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "84798990",
-  "commodityDescription": "METAL DETECTING EQUIPMENT",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9867543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE 123",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: METAL DETECTORS AND ACCESSORIES",
-      "grossWeight": 8500.0,
-      "measurement": 15.25
+      "marksAndNumbers": "ETAC123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200KG DRUMS, HAZMAT CLASS 3",
+      "grossWeight": 20000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "SUNRISE 456",
-      "numberOfPackages": 40,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: METAL DETECTORS AND ACCESSORIES",
-      "grossWeight": 7200.0,
-      "measurement": 14.5
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ETAC345",
+      "numberOfPackages": 800,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 250KG DRUMS, HAZMAT CLASS 3",
+      "grossWeight": 20000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 90,
-    "totalGrossWeight": 15700.0,
-    "totalMeasurement": 29.75
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1800,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 30.0
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241005001",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO12345",
+    "hsCode": "29153100",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112724080179X"
-    ],
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
     "originalBLDistribution": {
-      "name": "CHINA GLOBAL IMPORT & EXPORT CO. LTD",
-      "address": "2188 SHENNAN ROAD,NINGBO,315011,CHINA",
-      "telephone": "+86-574-87654321",
-      "fax": "+86-574-87654322"
+      "name": "DBS BANK LTD",
+      "address": "12 MARINA BOULEVARD, SINGAPORE 018982",
+      "telephone": "+65 6224 2222"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "12345 OCEAN AVENUE, SUITE 200, LOS ANGELES, CA 90064",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-1213",
-      "email": "IMPORT@WCLI.COM",
-      "contactPerson": "MARIA SANCHEZ"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068905",
+      "telephone": "+65 6536 1234",
+      "fax": "+65 6536 5678"
     },
-    "onboardDate": "OCT. 15. 2024"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "HAZARDOUS CARGO. PLEASE HANDLE WITH CARE."
   }
 }

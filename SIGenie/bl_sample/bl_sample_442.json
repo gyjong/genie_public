@@ -1,96 +1,106 @@
 {
-  "bookingReference": "APPLE20241015143022",
+  "bookingReference": "APPLE20240912121542",
   "voyageDetails": {
-    "vesselName": "MAERSK ALBATROSS",
-    "voyageNumber": "2024101",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2431W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, USA"
   },
   "documentationDetails": {
-    "blType": "Sea Waybill",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-12345678",
-      "fax": "+31-20-98765432"
+      "name": "SHANGHAI IMPORT EXPORT CO. LTD.",
+      "address": "288 Nanjing Rd, Shanghai, 200001, China",
+      "country": "CHINA",
+      "additionalInfo": "(The Bund)",
+      "telephone": "+86 21 6327 1234",
+      "email": "info@shanghaiie.com"
     },
     "consignee": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "12345 Marina Bay Financial Centre, Tower 3, Singapore 018981",
-      "telephone": "+65-67890123",
-      "fax": "+65-67890124"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "1234 Harbor Way, Los Angeles, CA 90013, USA",
+      "country": "USA",
+      "email": "shipping@wcli.com",
+      "telephone": "+1 213 555 1212"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-12345678",
-      "fax": "+31-20-98765432"
+      "name": "ABC IMPORTERS",
+      "address": "4567 Main St, San Francisco, CA 94103, USA",
+      "country": "USA",
+      "email": "info@abcimporters.com",
+      "telephone": "+1 415 555 2323"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "8479.89",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GT-1234",
-      "numberOfPackages": 5,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : MACHINERY PARTS",
-      "grossWeight": 1500.0,
-      "measurement": 1.8
+      "cargoDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT (W.2400MM H.1200MM)",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 40,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY PARTS FOR PACKAGING EQUIPMENT (W.2000MM H.1000MM)",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 5,
-    "packageType": "BOXES",
-    "totalGrossWeight": 1500.0,
-    "totalMeasurement": 1.8
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 90,
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 45.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567890",
-    "salesOrderNumber": "9876543210",
     "lcDetails": {
-      "lcNumber": "LC0012345678"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "4112724080189",
+    "certificateDetails": [
+      "CO23456789012"
+    ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC IMPORTS PTE LTD",
-      "address": "12345 Marina Bay Financial Centre, Tower 3, Singapore 018981",
-      "telephone": "+65-67890123",
-      "fax": "+65-67890124"
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "1234 Harbor Way, Los Angeles, CA 90013, USA",
+      "telephone": "+1 213 555 1212"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
-      "telephone": "+31-20-12345678",
-      "fax": "+31-20-98765432"
+      "name": "ABC IMPORTERS",
+      "address": "4567 Main St, San Francisco, CA 94103, USA",
+      "telephone": "+1 415 555 2323"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": ""
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "SHIPPER'S LOAD & COUNT\nVALUE: USD50,000"
   }
 }

@@ -1,100 +1,107 @@
 {
-  "bookingReference": "APPLE202410121155200",
+  "bookingReference": "APPLE20240915124532",
   "voyageDetails": {
-    "vesselName": "MSC BEATRICE",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2432E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHEJIANG HUIYANG IMPORT & EXPORT CO., LTD.",
-      "address": "NO.333, XINHU ROAD, YIWU CITY, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "86-579-88889999",
-      "fax": "86-579-88887777"
+      "name": "ZHONGSHAN YUWEN IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 128, XINLING ROAD, ZHONGSHAN, GUANGDONG, 528403",
+      "country": "CHINA",
+      "additionalInfo": "(NANLANG TOWN)",
+      "telephone": "+86 757 8223 5678",
+      "email": "SALES@ZHYIW.COM"
     },
     "consignee": {
-      "name": "EUROTRADE B.V.",
-      "address": "P.O. BOX 2345, 3001 DK ROTTERDAM, NETHERLANDS",
-      "telephone": "31-10-4445555",
-      "fax": "31-10-4445556",
-      "email": "INFO@EUROTRADE.NL",
-      "contactPerson": "PETER VAN DER LINDEN"
+      "name": "AUTOTECHNIK GMBH",
+      "address": "BERLINER STRASSE 15, 60311 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@AUTOTECHNIK.DE",
+      "telephone": "+49 69 6677 8899"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "EUROTRADE LOGISTICS BV.",
-      "address": "P.O. BOX 3333, 3000 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "31-10-7778888",
-      "fax": "31-10-7778889"
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN",
+      "country": "GERMANY",
+      "email": "INFO@DHL-GF.DE",
+      "telephone": "+49 69 6677 1122"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "610910",
-  "commodityDescription": "MEN'S T-SHIRTS OF COTTON",
+  "shippingTerm": "CFR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS, INCLUDING ENGINE BLOCKS, TRANSMISSION GEARS, AND BRAKING SYSTEMS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUT123",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MEN'S T-SHIRTS",
+      "marksAndNumbers": "AT123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS, INCLUDING ENGINE BLOCKS, TRANSMISSION GEARS, AND BRAKING SYSTEMS",
       "grossWeight": 12000.0,
-      "measurement": 25.0
+      "measurement": 25.5
     },
     {
       "containerNumber": "TCLU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "EUT456",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MEN'S T-SHIRTS",
-      "grossWeight": 11800.0,
-      "measurement": 24.5
+      "marksAndNumbers": "AT456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLE PARTS, INCLUDING ENGINE BLOCKS, TRANSMISSION GEARS, AND BRAKING SYSTEMS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40'HQ CONTAINERS",
-    "totalPackages": 1000,
-    "totalGrossWeight": 23800.0,
-    "totalMeasurement": 49.5
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241012-001",
-    "documentNumber": "20241012-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC001234567890"
     },
     "certificateDetails": [
-      "CN20241012001",
-      "CO20241012002"
+      "CN1234567890",
+      "CO1234567890"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE B.V.",
-      "address": "P.O. BOX 2345, 3001 DK ROTTERDAM, NETHERLANDS",
-      "telephone": "31-10-4445555",
-      "fax": "31-10-4445556"
+      "name": "DHL GLOBAL FORWARDING GMBH",
+      "address": "FRANKFURTER STRASSE 25, 60329 FRANKFURT AM MAIN",
+      "telephone": "+49 69 6677 1122"
     },
     "originalInvoiceDistribution": {
-      "name": "ZHEJIANG HUIYANG IMPORT & EXPORT CO., LTD.",
-      "address": "NO.333, XINHU ROAD, YIWU CITY, ZHEJIANG PROVINCE, CHINA",
-      "telephone": "86-579-88889999",
-      "fax": "86-579-88887777"
+      "name": "ZHONGSHAN YUWEN IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 128, XINLING ROAD, ZHONGSHAN, GUANGDONG, 528403",
+      "telephone": "+86 757 8223 5678"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Value: EUR50,000"
   }
 }

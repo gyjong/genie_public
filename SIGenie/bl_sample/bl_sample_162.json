@@ -1,110 +1,107 @@
 {
-  "bookingReference": "APPLE20241018121547",
+  "bookingReference": "GRAPE20240912115572",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2447E",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2425E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
     "blType": "SEA WAYBILL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "101 ROBINSON ROAD #12-01 ROBINSON CENTRE SINGAPORE 068902",
-      "country": "SINGAPORE",
-      "additionalInfo": "(C/O MR. JOHN TAN)"
+      "name": "CHINA PRECISION MACHINERY CO., LTD.",
+      "address": "NO. 188, SHANGCHENG ROAD, YONGKANG, ZHEJIANG, 325000",
+      "country": "CHINA",
+      "additionalInfo": "(YONGKANG INDUSTRIAL ZONE)",
+      "telephone": "+86 579 8686 1234",
+      "email": "SALES@CPMACHINERY.COM"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKELAAN 61, 3061 AA ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 462 3000"
+      "name": "GERMAN ENGINEERING GMBH",
+      "address": "WALDHUFER STRASSE 12, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@GERMANENGINEERING.DE",
+      "telephone": "+49 40 35167890"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKELAAN 61, 3061 AA ROTTERDAM, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 462 3000"
+      "name": "GERMAN ENGINEERING GMBH",
+      "address": "WALDHUFER STRASSE 12, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@GERMANENGINEERING.DE",
+      "telephone": "+49 40 35167890"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "28182000",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF",
+  "hsCode": "846630",
+  "commodityDescription": "CNC MILLING MACHINES WITH AUTO TOOL CHANGER",
   "containers": [
     {
-      "containerNumber": "TCLU4876321",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "EC-123",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "CPM-202310",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "ONE (1) CNC MILLING MACHINE WITH AUTO TOOL CHANGER (W.2500MM H.2200MM)",
+      "grossWeight": 8500.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "MSCU5678901",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC-456",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "345678",
-      "marksAndNumbers": "EC-789",
-      "numberOfPackages": 1000,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20MT 200KG DRUMS",
-      "grossWeight": 20000.0,
-      "measurement": 20.0
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "CPM-202311",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "ONE (1) CNC MILLING MACHINE WITH AUTO TOOL CHANGER (W.2500MM H.2200MM)",
+      "grossWeight": 8500.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "totalGrossWeight": 17000.0,
+    "totalMeasurement": 50.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2500,
+    "height": 2200,
+    "overWidth": 100,
+    "overHeight": 200
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "12345PO-2024",
-    "hsCode": "28182000",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010333789"
+      "lcNumber": "00002345678901"
     },
-    "certificateDetails": "411272408759X",
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS LTD.",
-      "address": "10 Anson Road #25-01 International Plaza Singapore 079903",
-      "telephone": "+65 6221 5555"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "BEUKELAAN 61, 3061 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 462 3000",
-      "fax": "+31 10 462 3001"
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "10 Days Free Time at Destination\nINSPECTION REQUIRED"
+    "onboardDate": "SEPT. 16. 2024",
+    "additionalRemarks": "FLAT RACK, LxWxH(mm): 5400x2500x2200, Value: USD150,000\nATTACHED RIDER"
   }
 }

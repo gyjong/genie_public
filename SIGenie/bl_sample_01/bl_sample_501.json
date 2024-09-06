@@ -1,0 +1,93 @@
+{
+  "bookingReference": "APPLE20240912142511",
+  "voyageDetails": {
+    "vesselName": "MSC ISABELLA",
+    "voyageNumber": "2422E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
+    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+    },
+    "consignee": {
+      "name": "ASIA IMPORTERS SDN. BHD.",
+      "address": "Unit 10-02, Wisma KLCC, Jalan Ampang, Kuala Lumpur, Malaysia",
+      "telephone": "+60 3 2386 1234",
+      "fax": "+60 3 2386 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87089900",
+  "commodityDescription": "MOTORCYCLE PARTS & ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GL-123",
+      "numberOfPackages": 50,
+      "cargoDescription": "MOTORCYCLE TIRES, BRAKE PADS, AND HANDLEBARS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GL-456",
+      "numberOfPackages": 30,
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AND ACCESSORIES",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 80,
+    "packageType": "PACKAGES",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 45.5
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA IMPORTERS SDN. BHD.",
+      "address": "Unit 10-02, Wisma KLCC, Jalan Ampang, Kuala Lumpur, Malaysia"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "2nd Floor, 123 Business Park, Rotterdam, Netherlands"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT IS TO BE DELIVERED TO THE CONSIGNEE'S WAREHOUSE IN KUALA LUMPUR."
+  }
+}

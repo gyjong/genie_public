@@ -1,0 +1,101 @@
+{
+  "bookingReference": "GRAPE20241025143056",
+  "voyageDetails": {
+    "vesselName": "MERLIN STAR",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": null,
+      "address": "ROOM 1201, NO. 555, SHENYING ROAD, SHANGHAI 200041, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE DISTRIBUTORS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "companyNumber": "1234567"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS",
+      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401, USA"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847130",
+  "commodityDescription": "AUTOMATIC GEARBOXES",
+  "containers": [
+    {
+      "containerNumber": "SEGU9906743",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GGD-123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC GEARBOXES",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED AT 15\u00b0C"
+    },
+    {
+      "containerNumber": "SEGU9906744",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GGD-456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC GEARBOXES",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED AT 15\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000212145678"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1201, NO. 555, SHENYING ROAD, SHANGHAI 200041, CHINA",
+      "telephone": "+86-21-6336-8888",
+      "fax": "+86-21-6336-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE DISTRIBUTORS INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "onboardDate": "OCT. 28. 2024",
+    "additionalRemarks": "Value: USD100,000"
+  }
+}

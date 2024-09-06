@@ -1,96 +1,105 @@
 {
-  "bookingReference": "APPLE20241018103002",
+  "bookingReference": "PINEAPPLE20240912122145",
   "voyageDetails": {
-    "vesselName": "MSC LUCIA",
-    "voyageNumber": "2437E",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "24042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #20-01, Singapore 079900",
-      "telephone": "+65-6225-8888",
-      "fax": "+65-6225-9999"
+      "name": "HOLANDIA EXPORT IMPORT BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 8579",
+      "email": "INFO@HOLANDIA.NL"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 100, 3011 AB Rotterdam, Netherlands",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza, SINGAPORE 079903",
+      "taxId": "199801234A",
+      "president": "MR. LIM CHENG",
+      "telephone": "+65 6221 3456",
+      "fax": "+65 6221 3457"
     },
     "notifyParty": {
-      "name": "BANK OF AMERICA",
-      "address": "101 Lombard Street, San Francisco, CA 94111, USA",
-      "telephone": "+1-415-555-1212",
-      "fax": "+1-415-555-1213"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "100 Cecil Street #05-01 The Octagon, SINGAPORE 069532",
+      "telephone": "+65 6333 6789",
+      "fax": "+66 6333 6790"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "hsCode": "73269098",
+  "commodityDescription": "STEEL PIPES",
   "containers": [
     {
-      "containerNumber": "GLDU9876543",
+      "containerNumber": "TCLU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 100 CARTONS OF ELECTRONIC COMPONENTS. GROSS WEIGHT: 2500 KG.",
-      "grossWeight": 2500.0,
-      "measurement": 15.5
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE STEEL PIPES",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE STEEL PIPES",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalContainers": "TWO (20 O/T X2) CONTAINER ONLY",
     "totalPackages": 100,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 15.5
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX2",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0200201033739"
     },
-    "certificateDetails": "12345678901234567890",
+    "certificateDetails": "1050020070132",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Prinsestraat 100, 3011 AB Rotterdam, Netherlands",
-      "telephone": "+31-10-444-5555",
-      "fax": "+31-10-444-6666"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "100 Cecil Street #05-01 The Octagon, SINGAPORE 069532",
+      "telephone": "+65 6333 6789",
+      "fax": "+66 6333 6790"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 Anson Road, #20-01, Singapore 079900",
-      "telephone": "+65-6225-8888",
-      "fax": "+65-6225-9999"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "100 Cecil Street #05-01 The Octagon, SINGAPORE 069532",
+      "telephone": "+65 6333 6789",
+      "fax": "+66 6333 6790"
     },
-    "onboardDate": "OCT. 25. 2024",
+    "onboardDate": "SEPT. 29. 2024",
     "additionalRemarks": ""
   }
 }

@@ -1,108 +1,97 @@
 {
-  "bookingReference": "APPLE20241017143210",
+  "bookingReference": "GRAPE20240912122517",
   "voyageDetails": {
-    "vesselName": "MSC ELISABETH",
-    "voyageNumber": "2436E",
-    "bound": "W"
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2438W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE LTD.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0124"
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "224 MAIN STREET, LONDON, UK, EC1A 9BT",
+      "telephone": "+44 20 7680 1234",
+      "email": "INFO@GLOBALIMPORTSLTD.COM"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "DE KOEIENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "taxId": "GST1234567890",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6737 8901",
+      "fax": "+65 6737 8902"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "MAASLANDSE DIJK 10, 3063 NP ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "taxId": "GST1234567890",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6737 8901",
+      "fax": "+65 6737 8902"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS",
+  "shippingTerm": "CFR",
+  "hsCode": "8542311000",
+  "commodityDescription": "SEMICONDUCTOR DEVICES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "ABC123",
+      "containerNumber": "CMAU8976543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER PACKING LIST",
       "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MACHINERY PARTS FOR AUTOMOBILES",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
-    },
-    {
-      "containerNumber": "TCLU87654321",
-      "sealNumber": "123456789",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 30,
-      "packageType": "CRATES",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: SPARE PARTS FOR INDUSTRIAL MACHINES",
-      "grossWeight": 7500.0,
-      "measurement": 15.0,
-      "additionalInfo": "FRAGILE CARGO. HANDLE WITH CARE"
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE SEMICONDUCTOR DEVICES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY X2) CONTAINERS",
-    "totalPackages": 80,
-    "packageType": "BOXES & CRATES",
-    "containerType": "20DRX2",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 40.0
+    "totalContainers": "ONE (40'HC) CONTAINER",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HC Container"
   },
   "additionalInformation": {
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "COO123456789",
-      " fumigation certificate"
-    ],
+    "certificateDetails": "1234567890123",
     "originalBLDistribution": {
-      "name": "SUNRISE LTD.",
-      "address": "123 MAIN STREET, LONDON, UK W1A 1AA",
-      "telephone": "+44-20-7946-0000",
-      "fax": "+44-20-7946-0001"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "DE KOEIENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-456-7890",
-      "fax": "+31-10-456-7891"
+      "name": "DHL EXPRESS",
+      "address": "123 DHL WAY, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 23. 2024",
-    "additionalRemarks": "Insurance: USD 500,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "SHIPMENT READY FOR LOADING"
   }
 }

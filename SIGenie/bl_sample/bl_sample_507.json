@@ -1,101 +1,100 @@
 {
-  "bookingReference": "STARLIGHT202410059721400",
+  "bookingReference": "APPLE202410151442100",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2439W",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024373",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "AMSTERDAM, NETHERLANDS"
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 2,
-    "numberOfCopies": 3
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "TROPICAL FRUIT IMPORTS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 7788",
-      "fax": "+65 6221 7799"
+      "name": "CHINA IMPORT & EXPORT CO. LTD",
+      "address": "123 HONGQI STREET, NINGBO, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "consignee": {
-      "name": "FRUITLAND BV",
-      "address": "Stationsplein 4, 3013 AK Rotterdam, Netherlands",
-      "telephone": "+31 10 411 8800",
-      "fax": "+31 10 411 8899",
-      "email": "info@fruitland.nl",
-      "contactPerson": "ANNA VAN DER WIEL"
+      "name": "PACIFIC OCEAN LOGISTICS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213",
+      "email": "IMPORT@PACIFICOCEAN.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "EUROFRESH LOGISTICS",
-      "address": "Havenlaan 80, 3000 Mechelen, Belgium",
-      "telephone": "+32 15 30 50 00",
-      "fax": "+32 15 30 50 99",
-      "email": "info@eurofresh.be"
+      "name": "WORLDWIDE TRADING CORP.",
+      "address": "4567 OCEAN AVE, LOS ANGELES, CA 90210",
+      "telephone": "+1-310-555-5678",
+      "fax": "+1-310-555-5679",
+      "sameAsConsignee": false
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "080910",
-  "commodityDescription": "FRESH MANGOES (VAR. KENT)",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9123456",
       "sealNumber": "123456",
-      "marksAndNumbers": "FRUITLAND-123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SEAL\" SAID TO CONTAIN: FRESH MANGOES (VAR. KENT)",
-      "grossWeight": 18000.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX ASSEMBLY",
+      "grossWeight": 12000.0,
       "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "654321",
-      "marksAndNumbers": "FRUITLAND-456",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SEAL\" SAID TO CONTAIN: FRESH MANGOES (VAR. KENT)",
-      "grossWeight": 17500.0,
-      "measurement": 24.5
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CONVEYOR BELT",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40FT HC CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 35500.0,
-    "totalMeasurement": 49.5
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 25,
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20241005-001",
-    "documentNumber": "20241005-BL-001",
+    "invoiceNumber": "20241015-001",
+    "documentNumber": "202410150001",
     "lcDetails": {
-      "lcNumber": "LC20241005-001234"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "PHYTO-20241005-001",
-      "HEALTH-20241005-002"
+      "CO-123456",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "TROPICAL FRUIT IMPORTS PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6221 7788",
-      "fax": "+65 6221 7799"
+      "name": "CHINA IMPORT & EXPORT CO. LTD",
+      "address": "123 HONGQI STREET, NINGBO, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
     "originalInvoiceDistribution": {
-      "name": "FRUITLAND BV",
-      "address": "Stationsplein 4, 3013 AK Rotterdam, Netherlands",
-      "telephone": "+31 10 411 8800",
-      "fax": "+31 10 411 8899",
-      "email": "info@fruitland.nl"
+      "name": "CHINA IMPORT & EXPORT CO. LTD",
+      "address": "123 HONGQI STREET, NINGBO, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
     },
-    "onboardDate": "OCT. 10. 2024"
+    "onboardDate": "OCT. 20. 2024"
   }
 }

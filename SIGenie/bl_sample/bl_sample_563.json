@@ -1,16 +1,16 @@
 {
-  "bookingReference": "BLUEBERRY20241015143022",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MAERSK ESSEX",
-    "voyageNumber": "2437EW",
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024312",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
@@ -23,73 +23,83 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": null,
-      "address": "123 ORCHARD ROAD, SINGAPORE 238866",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "ZHEJIANG YONGQING IMPORT & EXPORT CO., LTD",
+      "address": "NO. 188, HUAYUAN ROAD, YONGQING DISTRICT, NINGBO, CHINA",
+      "telephone": "+86 574 86123456",
+      "email": "sales@yongqing.cn"
     },
     "consignee": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 12345"
+      "name": "GLOBAL TRADING BV",
+      "address": "DE RUN 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JAN VAN DER MEER",
+      "telephone": "+31 10 4567890",
+      "fax": "+31 10 4567891"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "AM STADTHAUS 1, 60313 FRANKFURT, GERMANY"
+      "name": "ZHEJIANG YONGQING IMPORT & EXPORT CO., LTD",
+      "address": "NO. 188, HUAYUAN ROAD, YONGQING DISTRICT, NINGBO, CHINA",
+      "telephone": "+86 574 86123456",
+      "fax": "+86 574 86123457"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "shippingTerm": "CFR",
+  "hsCode": "85437000",
+  "commodityDescription": "ELECTRICAL TRANSFORMERS",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "APTC-231015",
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 50,
       "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ELECTRICAL TRANSFORMERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS ELECTRICAL TRANSFORMERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
+    "totalPackages": 100,
     "packageType": "BOXES",
-    "containerType": "20DR",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "containerType": "20' DRY X2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
   },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20' DRY Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC00012345"
     },
-    "certificateDetails": [
-      "COO-20241015-001",
-      " fumigation certificate - 20241015-002"
-    ],
+    "certificateDetails": "CN20240912123456",
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238866",
-      "telephone": "+65-6789-0123",
-      "fax": "+65-6789-0456"
+      "name": "DHL EXPRESS",
+      "address": "WEUSTRAAT 15, 3012 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4567892",
+      "fax": "+31 10 4567893"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS GMBH",
-      "address": "FRANKFURTER STRASSE 10, 60329 FRANKFURT, GERMANY"
+      "name": "ZHEJIANG YONGQING IMPORT & EXPORT CO., LTD",
+      "address": "NO. 188, HUAYUAN ROAD, YONGQING DISTRICT, NINGBO, CHINA",
+      "telephone": "+86 574 86123456",
+      "fax": "+86 574 86123457"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Insurance policy:  2024-10-20-INS-001"
+    "onboardDate": "SEPT. 25. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN EXPORT QUALITY CARTONS"
   }
 }

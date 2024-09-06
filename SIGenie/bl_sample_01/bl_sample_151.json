@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20241026115236",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2443W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI EVERBRIGHT IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1001, NO. 1588 SHANGHAI ROAD, SHANGHAI, 200080",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "SINGEL 435, 1012 WP AMSTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM BV",
+      "address": "SINGEL 435, 1012 WP AMSTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "SEGU3757412",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180KG PER DRUM",
+      "grossWeight": 36000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "SEGU4567890",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "EC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. 200 DRUMS OF ETHYL ACETATE, NET WEIGHT 180KG PER DRUM",
+      "grossWeight": 36000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "EC20241026-001",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20241026001",
+    "originalBLDistribution": {
+      "name": "HSBC BANK PLC",
+      "address": "100 QUEEN STREET, LONDON EC4R 1BX, UNITED KINGDOM",
+      "telephone": "+44 20 7992 2000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "SINGEL 435, 1012 WP AMSTERDAM",
+      "country": "NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nCARGO STOWED ON DECK"
+  }
+}

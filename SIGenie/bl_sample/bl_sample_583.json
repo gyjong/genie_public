@@ -1,98 +1,110 @@
 {
-  "bookingReference": "APPLE20241012121210",
+  "bookingReference": "APPLE20240918123456",
   "voyageDetails": {
-    "vesselName": "COSCO PACIFIC",
-    "voyageNumber": "2024101",
-    "bound": "W"
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2435U",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
-      "address": "No. 11, Lianhua Road, Guzhen Town, Zhongshan City, Guangdong Province, China",
-      "telephone": "+86 760 22223333",
-      "fax": "+86 760 22224444"
+      "name": "Zhejiang Huayuan Textile Co., Ltd.",
+      "address": "No. 188, Wenxing Road, Xiaoshan District, Hangzhou, Zhejiang, 311200, China",
+      "country": "CHINA",
+      "additionalInfo": "(Tel: +86-571-82888888)"
     },
     "consignee": {
-      "name": "SUNRISE LOGISTICS INC.",
-      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1313",
-      "email": "info@sunriselogistics.com",
-      "contactPerson": "JANE SMITH"
+      "name": "Textile Imports BV",
+      "address": "De Ruyterkade 12, 1011 AA Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@textileimports.nl",
+      "telephone": "+31 20 622 5555"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ABC TRADING COMPANY",
-      "address": "456 Elm Street, Los Angeles, CA 90001"
+      "name": "DHL Global Forwarding",
+      "address": "Europaplein 22, 1078 GZ Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@dhl.com",
+      "telephone": "+31 20 500 1000"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "940360",
-  "commodityDescription": "WOODEN FURNITURE - SOFAS",
+  "hsCode": "55151200",
+  "commodityDescription": "Woven Cotton Fabric",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 25 SOFAS",
-      "grossWeight": 12000.0,
-      "measurement": 30.0
+      "containerNumber": "CMAU9685234",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "HUAYUAN230918",
+      "numberOfPackages": 100,
+      "packageType": "ROLLS",
+      "cargoDescription": "100 ROLLS OF WOVEN COTTON FABRIC, 200GSM, WHITE COLOR, 50M PER ROLL",
+      "grossWeight": 5000.0,
+      "measurement": 15.0
     },
     {
-      "containerNumber": "TCLU8765432",
-      "sealNumber": "765432",
-      "marksAndNumbers": "SUNRISE456",
-      "numberOfPackages": 50,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 25 SOFAS",
-      "grossWeight": 12500.0,
-      "measurement": 32.0
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "HUAYUAN230918",
+      "numberOfPackages": 100,
+      "packageType": "ROLLS",
+      "cargoDescription": "100 ROLLS OF WOVEN COTTON FABRIC, 220GSM, BLUE COLOR, 50M PER ROLL",
+      "grossWeight": 5200.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "ONEU9876543",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "HUAYUAN230918",
+      "numberOfPackages": 100,
+      "packageType": "ROLLS",
+      "cargoDescription": "100 ROLLS OF WOVEN COTTON FABRIC, 240GSM, GREY COLOR, 50M PER ROLL",
+      "grossWeight": 5400.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40DRY CONTAINERS",
-    "totalPackages": 100,
-    "totalGrossWeight": 24500.0,
-    "totalMeasurement": 62.0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "ROLLS",
+    "totalGrossWeight": 15600.0,
+    "totalMeasurement": 45.0
   },
   "additionalInformation": {
-    "invoiceNumber": "SUNRISE20241012",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "55151200",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "L23456789012"
     },
-    "certificateDetails": [
-      "4112724080179X",
-      "4112724080180X"
-    ],
+    "certificateDetails": "CN230918001",
     "originalBLDistribution": {
-      "name": "ZHONGSHAN SUNRISE IMPORT & EXPORT CO., LTD",
-      "address": "No. 11, Lianhua Road, Guzhen Town, Zhongshan City, Guangdong Province, China",
-      "telephone": "+86 760 22223333",
-      "fax": "+86 760 22224444"
+      "name": "Textile Imports BV",
+      "address": "De Ruyterkade 12, 1011 AA Amsterdam, Netherlands",
+      "telephone": "+31 20 622 5555"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE LOGISTICS INC.",
-      "address": "123 Main Street, Suite 200, Los Angeles, CA 90015",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1313"
+      "name": "Zhejiang Huayuan Textile Co., Ltd.",
+      "address": "No. 188, Wenxing Road, Xiaoshan District, Hangzhou, Zhejiang, 311200, China",
+      "telephone": "+86-571-82888888",
+      "fax": "+86-571-82888889"
     },
-    "onboardDate": "OCT. 20. 2024"
+    "onboardDate": "SEPT. 19. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
   }
 }

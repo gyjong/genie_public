@@ -1,98 +1,99 @@
 {
-  "bookingReference": "APPLE20241015143021",
+  "bookingReference": "GOLDEN20241016543210",
   "voyageDetails": {
-    "vesselName": "MSC SILVIA",
-    "voyageNumber": "2437E",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024412",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
-    "finalDestination": ""
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NEW YORK, USA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA LOGISTICS BV",
-      "address": "STATIONSPLEIN 12, 3013 BX ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
     },
     "consignee": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "123 BROADWAY, NEW YORK, NY 10005, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1313"
+      "name": "EUROLOGISTICS GMBH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 7567 8901",
+      "fax": "+49 69 7567 8902",
+      "email": "info@eurologistics.de",
+      "contactPerson": "ANNA SCHMIDT"
     },
     "notifyParty": {
-      "name": "ALPHA IMPORTERS LTD.",
-      "address": "456 FIFTH AVENUE, NEW YORK, NY 10017, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2424"
+      "name": "WORLDWIDE SHIPPING LTD",
+      "address": "145 Fleet Street, London EC4A 2BU, United Kingdom",
+      "telephone": "+44 20 7936 1234",
+      "fax": "+44 20 7936 5678"
     }
   },
   "shippingTerm": "CFR",
   "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "commodityDescription": "INDUSTRIAL HYDRAULIC PUMPS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9675321",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE PARTS (H.S. CODE: 84798990)",
-      "grossWeight": 5000.0,
-      "measurement": 25.0
+      "numberOfPackages": 25,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HYDRAULIC PUMPS - MODEL HP5000",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "654321",
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
       "marksAndNumbers": "XYZ456",
       "numberOfPackages": 15,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINE PARTS (H.S. CODE: 84798990)",
-      "grossWeight": 6000.0,
-      "measurement": 30.0
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HYDRAULIC PUMPS - MODEL HP2500",
+      "grossWeight": 8000.0,
+      "measurement": 18.25
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
-    "totalPackages": 25,
-    "packageType": "PACKAGES",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 11000.0,
-    "totalMeasurement": 55.0
-  },
-  "outOfGaugeDimensions": {
-    "length": null,
-    "width": null,
-    "height": null,
-    "overHeight": null
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 40,
+    "totalGrossWeight": 20500.0,
+    "totalMeasurement": 43.75
   },
   "additionalInformation": {
+    "invoiceNumber": "20241016-001",
+    "documentNumber": "20241016-BL002",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COO-1234567",
-      " fumigation certificate-1234567"
+      "C1234567890",
+      "C9876543210"
     ],
     "originalBLDistribution": {
-      "name": "ALPHA IMPORTERS LTD.",
-      "address": "456 FIFTH AVENUE, NEW YORK, NY 10017, USA"
+      "name": "EUROLOGISTICS GMBH",
+      "address": "Frankfurter Stra\u00dfe 123, 60329 Frankfurt am Main, Germany",
+      "telephone": "+49 69 7567 8901",
+      "fax": "+49 69 7567 8902"
     },
     "originalInvoiceDistribution": {
-      "name": "DELTA LOGISTICS BV",
-      "address": "STATIONSPLEIN 12, 3013 BX ROTTERDAM, NETHERLANDS"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "101 Anson Road, #20-01 International Plaza, Singapore 079900",
+      "telephone": "+65 6225 1234",
+      "fax": "+65 6225 5678"
     },
-    "onboardDate": "OCT. 25. 2024",
-    "additionalRemarks": "SHIPMENT CONTAINS SPARE PARTS FOR TEXTILE MACHINES"
+    "onboardDate": "OCT. 28. 2024"
   }
 }

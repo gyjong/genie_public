@@ -1,96 +1,89 @@
 {
-  "bookingReference": "APPLE20241026143012",
+  "bookingReference": "APPLE20241015103005",
   "voyageDetails": {
-    "vesselName": "COSCO YING",
-    "voyageNumber": "222433",
-    "bound": "W"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244W342",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Seaway Bill",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO.",
-      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "BEIJING SHUANGHUI CO., LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 12 XINXING STREET, BEIJING 100001, CHINA",
+      "telephone": "+86-10-8888-9999",
+      "fax": "+86-10-8888-8888"
     },
     "consignee": {
-      "name": "AMSTERDAM IMPORTS BV",
-      "address": "KLOVENIERDE 25, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-414-2000",
-      "fax": "+31-10-414-2001"
+      "name": "EUROFRESH IMPORTS BV",
+      "address": "AARDE 22, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "CUSTOMS BROKER BENelux",
-      "address": "DE KOEWIJNERSSTRAAT 12, 3012 AG ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-246-3000",
-      "fax": "+31-10-246-3001"
+      "name": "GREEN LOGISTICS BV",
+      "address": "PIETERMAAIJSENSTRAAT 35, 3011 AB ROTTERDAM, NETHERLANDS"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "8703.23",
-  "commodityDescription": "MOTORCYCLES",
+  "hsCode": "080290",
+  "commodityDescription": "GRAPES",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "MOTORCYCLE 123",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "2 MOTORCYCLES, MODEL: RX-250, COLOR: RED",
-      "grossWeight": 550.0,
-      "measurement": 10.5
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SHUANGHUI GRAPE MARK",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: GRAPES, VARIETY: RED GLOBE",
+      "grossWeight": 22000.0,
+      "measurement": 25.0,
+      "additionalInfo": "KEEP DRY & VENTILATED"
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "totalGrossWeight": 550.0,
-    "totalMeasurement": 10.5
+    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40HQ",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 25.0
   },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
-  },
+  "reeferSettings": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "20231026001",
-    "salesOrderNumber": "20231026002",
     "lcDetails": {
-      "lcNumber": "LC00123456789"
+      "lcNumber": "1234567890"
     },
-    "certificateDetails": "CN20231026003",
+    "certificateDetails": [
+      "CN-PHY-2024-1015-01"
+    ],
     "originalBLDistribution": {
-      "name": "AMSTERDAM IMPORTS BV",
-      "address": "KLOVENIERDE 25, 3011 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-414-2000",
-      "fax": "+31-10-414-2001"
+      "name": "BEIJING SHUANGHUI CO., LTD.",
+      "address": "NO. 12 XINXING STREET, BEIJING 100001, CHINA",
+      "telephone": "+86-10-8888-9999",
+      "fax": "+86-10-8888-8888"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO.",
-      "address": "123 HUANGPU ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-8888",
-      "fax": "+86-21-6327-9999"
+      "name": "GREEN LOGISTICS BV",
+      "address": "PIETERMAAIJSENSTRAAT 35, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-202-1010",
+      "fax": "+31-10-202-1011"
     },
-    "onboardDate": "NOV. 02. 2024",
-    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GRAPES SHIPPED UNDER TEMPERATURE CONTROL"
   }
 }

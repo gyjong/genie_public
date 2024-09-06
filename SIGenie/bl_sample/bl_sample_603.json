@@ -1,0 +1,100 @@
+{
+  "bookingReference": "APPLE20240912134506",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "KUALA LUMPUR, MALAYSIA"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "123 MAIN STREET, LONDON, UK"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 8901"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "D1234567",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES - MODEL X100",
+      "grossWeight": 5000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "D7654321",
+      "numberOfPackages": 10,
+      "cargoDescription": "10 MOTORCYCLES - MODEL X200",
+      "grossWeight": 5000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40HC) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "SGS202409121234",
+      "COO202409125678"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD.",
+      "address": "123 MAIN STREET, LONDON, UK"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0456"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+  }
+}

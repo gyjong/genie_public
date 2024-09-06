@@ -1,100 +1,100 @@
 {
-  "bookingReference": "APPLE20240912142511",
+  "bookingReference": "APPLE202410178276400",
   "voyageDetails": {
-    "vesselName": "COSMOS 07",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2431E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 3,
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "WORLDWIDE LOGISTICS BV",
-      "address": "SINGEL 235, 1012 VK AMSTERDAM, NETHERLANDS"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "ROOM 1202, NO. 888, SHENNAN ROAD, SHANGHAI, 200021, CHINA",
+      "telephone": "+86-21-5357-8888",
+      "fax": "+86-21-5357-9999"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068910",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "EURO TRADING BV",
+      "address": "SPANSTRAAT 125, 3011 GN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5000",
+      "fax": "+31-10-414-5001",
+      "email": "INFO@EUROTRADING.NL",
+      "contactPerson": "JOHAN VAN DER MEER"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068910",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "ZUIDERHOEK 10, 3125 BD SCHIEDAM, NETHERLANDS",
+      "telephone": "+31-15-261-5000",
+      "fax": "+31-15-261-5001"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "INDUSTRIAL ROBOTIC ARMS WITH ACCESSORIES",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "MSCU7895632",
-      "sealNumber": "123456",
-      "marksAndNumbers": "BOX123",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 ROBOTIC ARMS, MODEL: RX-2000, SERIAL NUMBERS: RX2000-001 TO RX2000-005",
-      "grossWeight": 6000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU6543219",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "T-SHIRTS ORDER #12345",
+      "numberOfPackages": 1200,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.5
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "654321",
-      "marksAndNumbers": "BOX456",
-      "numberOfPackages": 5,
-      "cargoDescription": "5 ROBOTIC ARMS, MODEL: RX-2000, SERIAL NUMBERS: RX2000-006 TO RX2000-010",
-      "grossWeight": 6000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "T-SHIRTS ORDER #12346",
+      "numberOfPackages": 1200,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12400.0,
+      "measurement": 25.2
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
-    "totalPackages": 10,
-    "packageType": "PACKAGES",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 60.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 2400,
+    "totalGrossWeight": 24900.0,
+    "totalMeasurement": 50.7
   },
   "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
     "lcDetails": {
-      "lcNumber": "1234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CO1234567890",
+      "COO-20241017-001",
       " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING PTE LTD",
-      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWER, SINGAPORE 068910",
-      "telephone": "+65 6221 8888",
-      "fax": "+65 6221 9999"
+      "name": "EURO TRADING BV",
+      "address": "SPANSTRAAT 125, 3011 GN ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5000",
+      "fax": "+31-10-414-5001"
     },
     "originalInvoiceDistribution": {
-      "name": "WORLDWIDE LOGISTICS BV",
-      "address": "SINGEL 235, 1012 VK AMSTERDAM, NETHERLANDS"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "ROOM 1202, NO. 888, SHENNAN ROAD, SHANGHAI, 200021, CHINA",
+      "telephone": "+86-21-5357-8888",
+      "fax": "+86-21-5357-9999"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS IN EXCELLENT CONDITION"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

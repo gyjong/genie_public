@@ -1,110 +1,95 @@
 {
-  "bookingReference": "APPLE20240912102345",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "MSC CHIARA",
-    "voyageNumber": "2438E",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #05-01, Anson Centre, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "ZHEJIANG HUIXING IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 188, JINGANG ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 579 8668 5555",
+      "email": "sales@huixing.cn"
     },
     "consignee": {
-      "name": "EUROCHEM GMBH",
-      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
-      "country": "NETHERLANDS",
-      "email": "orders@eurochem.nl",
-      "telephone": "+31 181 385 700"
+      "name": "EUROTRADE B.V.",
+      "address": "HUIZINGASTRAT 123, 3011 ZG ROTTERDAM, NETHERLANDS",
+      "taxId": "NL852212345B01",
+      "president": "MRS. ANNA VAN DER LINDEN",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
     },
     "notifyParty": {
-      "name": "EUROCHEM GMBH",
-      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
-      "country": "NETHERLANDS",
-      "email": "orders@eurochem.nl",
-      "telephone": "+31 181 385 700"
+      "name": "ZHEJIANG HUIXING IMPORT & EXPORT CO., LTD.",
+      "address": "NO. 188, JINGANG ROAD, YONGKANG CITY, ZHEJIANG PROVINCE, CHINA",
+      "telephone": "+86 579 8668 5555",
+      "fax": "+86 579 8668 5556"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "28039000",
-  "commodityDescription": "UREA FERTILIZER",
+  "hsCode": "73269090",
+  "commodityDescription": "IRON AND STEEL ARTICLES",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "EUROCHEM 123",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
-      "grossWeight": 25000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "EUROCHEM 456",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
-      "grossWeight": 25000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "987654",
-      "marksAndNumbers": "EUROCHEM 789",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
-      "grossWeight": 25000.0,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS IRON AND STEEL ARTICLES",
+      "grossWeight": 15000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 3000,
-    "packageType": "BAGS",
-    "totalGrossWeight": 75000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 O/TX1",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "hsCode": "28039000",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "123456789012345",
+    "certificateDetails": "CIQ00123456789",
     "originalBLDistribution": {
-      "name": "EUROCHEM GMBH",
-      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
-      "telephone": "+31 181 385 700"
+      "name": "DHL EXPRESS",
+      "address": "DHL EXPRESS NETHERLANDS,  HUIZINGASTRAT 123, 3011 ZG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 20 555 5555",
+      "fax": "+31 20 555 5556"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 Anson Road, #05-01, Anson Centre, SINGAPORE 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "DHL EXPRESS",
+      "address": "DHL EXPRESS NETHERLANDS,  HUIZINGASTRAT 123, 3011 ZG ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 20 555 5555",
+      "fax": "+31 20 555 5556"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "7 Days Free Time at Destination"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

@@ -1,15 +1,15 @@
 {
-  "bookingReference": "GRAPE20241015143022",
+  "bookingReference": "APPLE20241015143522",
   "voyageDetails": {
-    "vesselName": "MAERSK ELDER",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "244W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,51 +17,51 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE INDUSTRIES PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65-6222-3333",
-      "fax": "+65-6222-4444"
+      "onBehalfOf": "SUNRISE ENTERPRISES LTD",
+      "address": "123 Anson Road, #15-01, Singapore 079906",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "EUROFRESH BV",
-      "address": "Koningstraat 123, 3012 AA Rotterdam, Netherlands",
+      "name": "EURO imporT BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "Havenlaan 861, 2070 Zwijndrecht, Belgium"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "2nd Floor, 100 High Street, London WC1A 2EE, United Kingdom"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "070110",
-  "commodityDescription": "POTATOES",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS",
   "containers": [
     {
-      "containerNumber": "GLDU9987654",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "SUNRISE 123",
-      "numberOfPackages": 1000,
-      "packageType": "BAGS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POTATOES",
-      "grossWeight": 24000.0,
-      "measurement": 30.0,
-      "additionalInfo": "TEMPERATURE CONTROLLED"
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile Cargo. Handle with Care."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HC) CONTAINER ONLY",
-    "totalPackages": 1000,
-    "packageType": "BAGS",
-    "containerType": "40HC",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 30.0
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20GP",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
   "reeferSettings": {
     "containerNumber": "",
@@ -73,24 +73,25 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000222244445"
+      "lcNumber": "123456789012345"
     },
     "certificateDetails": [
-      "PHYTOSANITARY CERTIFICATE NO. 123456"
+      "COO-1234567890",
+      " fumigation certificate - 9876543210"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE INDUSTRIES PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65-6222-3333",
-      "fax": "+65-6222-4444"
+      "name": "SUNRISE ENTERPRISES LTD",
+      "address": "100 Orchard Road, #05-10, Singapore 238840",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-4567"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE INDUSTRIES PTE LTD",
-      "address": "123 Anson Road, #15-01, Anson Centre, Singapore 079903",
-      "telephone": "+65-6222-3333",
-      "fax": "+65-6222-4444"
+      "name": "EURO imporT BV",
+      "address": "Nieuwe Haven 123, 3011 GK Rotterdam, Netherlands",
+      "telephone": "+31-10-200-1234",
+      "fax": "+31-10-200-5678"
     },
     "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Temperature Controlled Shipment. Potatoes packed in 25kg bags."
+    "additionalRemarks": "Machinery parts for assembly line. Value: EUR 50,000"
   }
 }

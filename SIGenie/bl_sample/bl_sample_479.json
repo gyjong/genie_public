@@ -1,110 +1,106 @@
 {
-  "bookingReference": "APPLE20240912101522",
+  "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "MSC IRENE",
-    "voyageNumber": "2435W",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2433E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "name": "ASIA PACIFIC TRADING LTD.",
+      "address": "10 Anson Road #28-01, International Plaza, SINGAPORE 079903",
       "country": "SINGAPORE",
-      "additionalInfo": ""
+      "additionalInfo": "(Central Business District)",
+      "telephone": "+65 6222 8888",
+      "email": "shipping@asiapacifictrading.com"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Saturnusstraat 23, 3133 KS Vlaardingen, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "info@eurochembv.nl",
-      "telephone": "+31 15 750 2500"
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 23, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "info@eurotech.de",
+      "telephone": "+49 40 3119 2000"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS BV",
-      "address": "Leeuwenhoekstraat 12, 3011 AA Rotterdam, NETHERLANDS",
-      "country": "NETHERLANDS",
-      "email": "operations@globallogistics.nl",
-      "telephone": "+31 10 411 4500"
+      "name": "EUROTECH GMBH",
+      "address": "Am Hafen 23, 20457 Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "logistics@eurotech.de",
+      "telephone": "+49 40 3119 2001"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL (EG)",
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL ROBOTIC ARMS WITH INTEGRATED SENSORS AND CONTROLLERS",
   "containers": [
     {
-      "containerNumber": "CMAU7879456",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "EG123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
-      "grossWeight": 40000.0,
+      "containerNumber": "CCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET-RA1234",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ROBOTIC ARMS (W.2.5M H.2.0M)",
+      "grossWeight": 8000.0,
       "measurement": 25.0
     },
     {
-      "containerNumber": "ONEU7856231",
-      "sealNumber": "8765432",
-      "marksAndNumbers": "EG456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
-      "grossWeight": 40000.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "MSCU5678901",
-      "sealNumber": "1357924",
-      "marksAndNumbers": "EG789",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "200 DRUMS OF ETHYLENE GLYCOL (EG) 200KG NET EACH",
-      "grossWeight": 40000.0,
-      "measurement": 25.0
+      "containerNumber": "CCLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-RA5678",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "ROBOTIC CONTROLLERS AND SENSORS (W.1.5M H.1.2M)",
+      "grossWeight": 4000.0,
+      "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 120000.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "Certificate of Origin issued by Singapore Trade Federation",
+    "certificateDetails": [
+      "COO-123456"
+    ],
     "originalBLDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Saturnusstraat 23, 3133 KS Vlaardingen, NETHERLANDS",
-      "telephone": "+31 15 750 2500"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1 Harbourfront Place #01-01, Singapore 018954",
+      "telephone": "+65 6216 6666"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "telephone": "+65 6221 1234",
-      "fax": "+65 6221 5678"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "1 Harbourfront Place #01-01, Singapore 018954",
+      "telephone": "+65 6216 6666"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "Cargo stowed under deck. Please contact consignee for any further instructions."
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "Value: USD500,000\nPacked in compliance with ISPM 15 regulations"
   }
 }

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015102502",
+  "voyageDetails": {
+    "vesselName": "EVER GLORY",
+    "voyageNumber": "2024102",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, USA",
+    "placeOfDelivery": "LOS ANGELES, USA",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS AS PER PACKING LIST.",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "MSCU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8544.42",
+    "flashPoint": "Not applicable",
+    "additionalInfo": "BATTERY CONTAINING EQUIPMENT"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CN20241015001",
+    "originalBLDistribution": {
+      "name": "GOLDEN STAR INC.",
+      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO., LTD.",
+      "address": "258 HUAYUAN ROAD, SHANGHAI 200080, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "BATTERY CONTAINING EQUIPMENT, PROPERLY PACKED AND MARKED AS PER IATA REGULATIONS."
+  }
+}

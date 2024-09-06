@@ -1,110 +1,85 @@
 {
-  "bookingReference": "APPLE20241025153742",
+  "bookingReference": "APPLE20241015123511",
   "voyageDetails": {
-    "vesselName": "MSC IRENE",
-    "voyageNumber": "2432W",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024103",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
-      "country": "SINGAPORE",
-      "additionalInfo": ""
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-3456",
+      "fax": "+65-6221-3457"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "Westerstraat 23, 3011 KZ ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 413 2000"
+      "name": "EUROTECH GMBH",
+      "address": "Industriestrasse 12, 60314 Frankfurt am Main, Germany",
+      "companyNumber": "HRB 12345"
     },
     "notifyParty": {
-      "name": "EUROCHEM BV",
-      "address": "Westerstraat 23, 3011 KZ ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 413 2000"
+      "name": "KUEHNE + NAGEL GMBH",
+      "address": "Dreischeibenhaus, Theodor-Heuss-Allee 10, 40472 D\u00fcsseldorf, Germany"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "29033100",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF",
+  "hsCode": "85437090",
+  "commodityDescription": "DIGITAL CAMERA MODULES",
   "containers": [
     {
-      "containerNumber": "CMAU9934567",
-      "sealNumber": "123456",
-      "marksAndNumbers": "EC123",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "EC456",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "CMAU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "EC789",
-      "numberOfPackages": 500,
-      "packageType": "DRUMS",
-      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT IN 200 KG DRUMS",
-      "grossWeight": 20050.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ET-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 BOXES DIGITAL CAMERA MODULES. GROSS WEIGHT AS INDICATED.",
+      "grossWeight": 1250.0,
+      "measurement": 8.5,
+      "additionalInfo": "TEMPERATURE SENSITIVE. HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 1500,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60150.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "ONE (20FT) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "BOXES",
+    "containerType": "20FT DRY",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 8.5
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "purchaseOrderNumber": "PO1234567",
-    "hsCode": "29033100",
-    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "12345678901234"
     },
-    "certificateDetails": "CERT-123456789",
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "210 Changi South Avenue 1, Singapore 486036",
-      "telephone": "+65 6781 5555"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65-6221-3456",
+      "fax": "+65-6221-3457"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "Westerstraat 23, 3011 KZ ROTTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 10 413 2000"
+      "name": "EUROTECH GMBH",
+      "address": "Industriestrasse 12, 60314 Frankfurt am Main, Germany"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Insurance Policy Number: 1234567890. Value: USD 50,000"
   }
 }

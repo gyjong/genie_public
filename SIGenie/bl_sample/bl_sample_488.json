@@ -1,100 +1,96 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE20241015142502",
   "voyageDetails": {
-    "vesselName": "MAERSK SHANGHAI",
-    "voyageNumber": "2024040",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "224W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": "LOS ANGELES, USA"
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "Negotiable",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA SHIPPING CO., LTD.",
-      "address": "123 HONGQI ROAD, SHANGHAI, CHINA"
+      "name": "SHANGHAI EVERBRIGHT IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1502, NO. 258, SHANGHAI ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
     },
     "consignee": {
-      "name": "GLOBAL TRADING INC.",
-      "address": "1500 BROADWAY, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "notifyParty": {
-      "name": "ABC IMPORTERS",
-      "address": "1000 MARKET STREET, SAN FRANCISCO, CA 94103, USA",
-      "telephone": "+1 415 555 1313",
-      "fax": "+1 415 555 1314"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
+  "shippingTerm": "CFR",
+  "hsCode": "8544.42",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS, MODEL XYZ-123",
-      "grossWeight": 1500.0,
-      "measurement": 30.0
-    },
-    {
-      "containerNumber": "MSCU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS, MODEL XYZ-123",
-      "grossWeight": 1500.0,
-      "measurement": 30.0
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT.  TELECOMMUNICATION EQUIPMENT AS PER PACKING LIST.",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 4,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 3000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 1.5
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+  "dangerousGoods": {
+    "containerNumber": null,
+    "unClass": null,
+    "unCode": null,
+    "hsCode": null,
+    "flashPoint": null,
+    "additionalInfo": null
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "123456789012345678",
-      "987654321098765432"
-    ],
+    "certificateDetails": "4112724080189",
     "originalBLDistribution": {
-      "name": "ABC SHIPPING AGENCY",
-      "address": "123 MAIN STREET, LOS ANGELES, CA 90001, USA"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL TRADING INC.",
-      "address": "1500 BROADWAY, LOS ANGELES, CA 90001, USA",
-      "telephone": "+1 213 555 1212",
-      "fax": "+1 213 555 1213"
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1-213-555-1212",
+      "fax": "+1-213-555-1213"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "MOTORCYCLES ARE PACKED IN WOODEN CRATES"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
   }
 }

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "APPLE20240912103512",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438E",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "VAN DER MARK TRADING BV",
+      "address": "SINGEL 235, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 620 5555",
+      "email": "INFO@VDMTRADING.NL"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTERS PTE LTD",
+      "address": "120 ROBINSON ROAD, #15-01, SINGAPORE 068913",
+      "taxId": "200112345Z",
+      "president": "MR. LEE CHENG",
+      "telephone": "+65 6222 8888",
+      "fax": "+65 6222 9999"
+    },
+    "notifyParty": {
+      "name": "GOLDEN GATE LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #02-01, Singapore 079903",
+      "taxId": "201234567V",
+      "president": "MS. LIN MEI",
+      "telephone": "+65 6333 6666",
+      "fax": "+65 6333 7777"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES, 50CC-250CC",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 10 MOTORCYCLES, 50CC-250CC, PACKED IN WOODEN CRATES",
+      "grossWeight": 4500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "UNITS",
+    "containerType": "20 DRY X1",
+    "totalGrossWeight": 4500.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #02-01, Singapore 079903",
+      "telephone": "+65 6333 6666",
+      "fax": "+65 6333 7777"
+    },
+    "originalInvoiceDistribution": {
+      "name": "VAN DER MARK TRADING BV",
+      "address": "SINGEL 235, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 620 5555",
+      "email": "INFO@VDMTRADING.NL"
+    },
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
+  }
+}

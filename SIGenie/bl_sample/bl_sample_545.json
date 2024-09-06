@@ -1,99 +1,109 @@
 {
-  "bookingReference": "APPLE202410188632100",
+  "bookingReference": "APPLE20240920101542",
   "voyageDetails": {
-    "vesselName": "MSC ALESSIA",
-    "voyageNumber": "2432E",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
+    "finalDestination": "LOS ANGELES, USA"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": " negotiable ",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA BEST IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 1001, NO. 1888, HONGQIAO ROAD, SHANGHAI 200336, CHINA",
-      "telephone": "86-21-66666666",
-      "fax": "86-21-66666667"
+      "name": "SUNRISE GLOBAL LOGISTICS LTD.",
+      "address": "22ND FLOOR, CHINA WORLD TOWER, NO.1 JIANGUOMEN INNER STREET, BEIJING, CHINA"
     },
     "consignee": {
-      "name": "GOLDEN GATE LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90012, USA",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213",
-      "email": "IMPORT@GOLDENGATELOGISTICS.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "WEST COAST SHIPPING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ABC TRADING CO.",
-      "address": "45678 OCEAN AVE, LOS ANGELES, CA 90001, USA",
-      "telephone": "1-310-555-5656"
+      "name": "GOLDEN GATE LOGISTICS LLC",
+      "address": "456 ELM STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 3434",
+      "fax": "+1 415 555 3435"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "611030",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF",
+  "hsCode": "95030010",
+  "commodityDescription": "TOYS - STUFFED ANIMALS",
   "containers": [
     {
       "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "GG1234",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE M, L, XL",
+      "marksAndNumbers": "SUNRISE-01",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 PACKAGES OF STUFFED ANIMALS (BEARS, RABBITS)",
       "grossWeight": 12000.0,
-      "measurement": 28.0
+      "measurement": 25.0
     },
     {
       "containerNumber": "CMAU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "GG5678",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS - SIZE S, M, L",
-      "grossWeight": 11500.0,
-      "measurement": 26.5
+      "marksAndNumbers": "SUNRISE-02",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 PACKAGES OF STUFFED ANIMALS (DOGS, CATS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE-03",
+      "numberOfPackages": 500,
+      "cargoDescription": "500 PACKAGES OF STUFFED ANIMALS (PENGUINS, ELEPHANTS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40'HQ CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 23500.0,
-    "totalMeasurement": 54.5
+    "totalContainers": "THREE (20FR) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "20FR",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20241018-001",
-    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC20241015001"
     },
     "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
+      "CO-1234567890",
+      " fumigation certificate"
     ],
     "originalBLDistribution": {
-      "name": "CHINA BEST IMPORT & EXPORT CO., LTD",
-      "address": "ROOM 1001, NO. 1888, HONGQIAO ROAD, SHANGHAI 200336, CHINA",
-      "telephone": "86-21-66666666",
-      "fax": "86-21-66666667"
+      "name": "SUNRISE GLOBAL LOGISTICS LTD.",
+      "address": "22ND FLOOR, CHINA WORLD TOWER, NO.1 JIANGUOMEN INNER STREET, BEIJING, CHINA"
     },
     "originalInvoiceDistribution": {
-      "name": "GOLDEN GATE LOGISTICS INC.",
-      "address": "12345 MAIN STREET, SUITE 200, LOS ANGELES, CA 90012, USA",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213"
+      "name": "WEST COAST SHIPPING INC.",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "OCT. 15. 2024",
+    "additionalRemarks": "GOODS ARE PACKED IN STRONG CARTONS SUITABLE FOR SEA TRANSPORTATION."
   }
 }

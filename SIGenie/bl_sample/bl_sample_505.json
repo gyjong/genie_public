@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20240912103022",
+  "bookingReference": "APPLE20240912143521",
   "voyageDetails": {
-    "vesselName": "MSC ALEXANDRA",
-    "voyageNumber": "2435E",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024042",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "SINGAPORE",
-    "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "SINGAPORE"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,73 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA TRADING BV",
-      "address": "BEZUIDENHOUTSEWEG 123, 2595 AR THE HAGUE, NETHERLANDS",
-      "telephone": "+31 70 365 8792",
-      "email": "INFO@DELTATRADING.NL"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65 6789 0123",
+      "email": "INFO@ASIAPACIFIC.SG"
     },
     "consignee": {
-      "name": "ASIA PACIFIC PTE LTD",
-      "address": "123 ALEXANDRA ROAD, SINGAPORE 118526",
-      "taxId": "201203855D",
-      "president": "MR. TAN KAI WEI",
-      "telephone": "+65 6221 5678",
-      "fax": "+65 6221 5679"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. HANS SCHMIDT",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
     },
     "notifyParty": {
-      "name": "DELTA TRADING BV",
-      "address": "BEZUIDENHOUTSEWEG 123, 2595 AR THE HAGUE, NETHERLANDS",
-      "telephone": "+31 70 365 8792",
-      "email": "INFO@DELTATRADING.NL"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "FRANKFURTER ALLEE 10, 60329 FRANKFURT, GERMANY",
+      "telephone": "+49 69 1234 5678",
+      "fax": "+49 69 1234 5679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "72124000",
-  "commodityDescription": "STAINLESS STEEL SHEETS",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
       "marksAndNumbers": "AS PER ATTACHED RIDER",
       "numberOfPackages": 50,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE STAINLESS STEEL SHEETS",
-      "grossWeight": 15000.0,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
       "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 O/T X1) CONTAINER ONLY",
+    "totalContainers": "ONE (20' DRY) CONTAINER",
     "totalPackages": 50,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 15000.0,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 12000.0,
     "totalMeasurement": 25.0
   },
   "outOfGaugeDimensions": {
     "length": "In-Gauge",
     "width": "In-Gauge",
     "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "additionalInfo": "Standard Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC20240912123456"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": "COO-1234567",
     "originalBLDistribution": {
-      "name": "DBS BANK LTD",
-      "address": "12 ANNA SALKELA STREET, SINGAPORE 059925",
-      "telephone": "+65 6222 2222",
-      "fax": "+65 6222 2223"
+      "name": "BANK OF AMERICA",
+      "address": "100 BROADWAY, NEW YORK, NY 10005",
+      "telephone": "+1 212 555 5555",
+      "fax": "+1 212 555 5556"
     },
     "originalInvoiceDistribution": {
-      "name": "DELTA TRADING BV",
-      "address": "BEZUIDENHOUTSEWEG 123, 2595 AR THE HAGUE, NETHERLANDS",
-      "telephone": "+31 70 365 8792",
-      "email": "INFO@DELTATRADING.NL"
+      "name": "EUROTECH GMBH",
+      "address": "HAMBURGER STRASSE 5, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "CLEAN ON BOARD"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

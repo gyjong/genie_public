@@ -1,0 +1,110 @@
+{
+  "bookingReference": "APPLE20240912102345",
+  "voyageDetails": {
+    "vesselName": "MSC CHIARA",
+    "voyageNumber": "2438E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Anson Centre, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM GMBH",
+      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
+      "country": "NETHERLANDS",
+      "email": "orders@eurochem.nl",
+      "telephone": "+31 181 385 700"
+    },
+    "notifyParty": {
+      "name": "EUROCHEM GMBH",
+      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
+      "country": "NETHERLANDS",
+      "email": "orders@eurochem.nl",
+      "telephone": "+31 181 385 700"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "28039000",
+  "commodityDescription": "UREA FERTILIZER",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROCHEM 123",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROCHEM 456",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EUROCHEM 789",
+      "numberOfPackages": 1000,
+      "packageType": "BAGS",
+      "cargoDescription": "50KG BAGS OF UREA FERTILIZER",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "28039000",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "EUROCHEM GMBH",
+      "address": "Industrieweg 10, 3141 NL MAASSLUIS",
+      "telephone": "+31 181 385 700"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #05-01, Anson Centre, SINGAPORE 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
+    },
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "7 Days Free Time at Destination"
+  }
+}

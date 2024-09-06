@@ -1,19 +1,19 @@
 {
-  "bookingReference": "APPLE20241026143011",
+  "bookingReference": "APPLE20241026143211",
   "voyageDetails": {
-    "vesselName": "MSC ELSA",
-    "voyageNumber": "2445W",
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
@@ -23,72 +23,87 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "onBehalfOf": null,
-      "address": "ROOM 1008, NO.258 YONGJIANG ROAD, SHANGHAI 200050, CHINA",
-      "telephone": "+86-21-6319-2888",
-      "fax": "+86-21-6319-3888"
+      "name": "SHANGHAI TRADING CO., LTD.",
+      "address": "NO. 1234, HUAYUAN ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
     },
     "consignee": {
-      "name": "DE GROOT IMPORT BV",
-      "address": "HAVENSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "EUROCHEM BV",
+      "address": "SPUISTRAAT 123, 3012 VB ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4123456"
     },
     "notifyParty": {
-      "name": "SUNRISE LOGISTICS BV",
-      "address": "PO BOX 1234, 3000 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROCHEM BV",
+      "address": "SPUISTRAAT 123, 3012 VB ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 10 4123456"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854370",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "hsCode": "29033100",
+  "commodityDescription": "ETHYLENE GLYCOL",
   "containers": [
     {
-      "containerNumber": "TCLU9876543",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD & COUNT, WEIGHT, & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 12500.0,
-      "measurement": 20.0,
-      "additionalInfo": "CARGO IS FRAGILE, HANDLE WITH CARE"
+      "marksAndNumbers": "EUROCHEM123",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROCHEM456",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EUROCHEM789",
+      "numberOfPackages": 1000,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYLENE GLYCOL 20 MT 200KG DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 20.0
-  },
-  "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "29033100",
+    "freeTimeAtDestination": "14 DAYS",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CN1234567890"
-    ],
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "SHANGHAI SUNRISE IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1008, NO.258 YONGJIANG ROAD, SHANGHAI 200050, CHINA",
-      "telephone": "+86-21-6319-2888",
-      "fax": "+86-21-6319-3888"
+      "name": "EUROCHEM BV",
+      "address": "SPUISTRAAT 123, 3012 VB ROTTERDAM",
+      "telephone": "+31 10 4123456"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE LOGISTICS BV",
-      "address": "PO BOX 1234, 3000 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROCHEM BV",
+      "address": "SPUISTRAAT 123, 3012 VB ROTTERDAM",
+      "telephone": "+31 10 4123456"
     },
-    "onboardDate": "OCT. 29. 2024",
-    "additionalRemarks": "SHIPMENT CONTAINS VALUABLE ELECTRONIC EQUIPMENT."
+    "onboardDate": "OCT. 26. 2024",
+    "additionalRemarks": "14 DAYS FREE TIME AT DESTINATION"
   }
 }

@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015134521",
+  "bookingReference": "APPLE20241026134510",
   "voyageDetails": {
-    "vesselName": "MAERSK ALDEBARAN",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "244W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,85 +17,81 @@
     "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SINGAPORE TRADING COMPANY PTE LTD",
+      "name": "SUNRISE TRADING PTE LTD",
       "onBehalfOf": "",
-      "address": "10 Anson Road #22-01 International Plaza Singapore 079903",
-      "telephone": "+65-6225-1234",
-      "fax": "+65-6225-5678"
+      "address": "123 Anson Road #12-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "HANSA IMPORTS GMBH",
-      "address": "Speicherstadt 1, 20457 Hamburg, Germany",
+      "name": "GERMAN IMPORTS GMBH",
+      "address": "Am Hafen 10, 20457 Hamburg, Germany",
       "companyNumber": "HRB 123456"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING GMBH",
-      "address": "Am Hafen 3, 20457 Hamburg, Germany"
+      "name": "SUNRISE LOGISTICS GmbH",
+      "address": "Speicherstra\u00dfe 1, 20359 Hamburg, Germany"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "392690",
+  "commodityDescription": "PLASTIC SHEETS",
   "containers": [
     {
-      "containerNumber": "SEGU7895632",
-      "sealNumber": "123456",
-      "marksAndNumbers": "STC231015",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "containerNumber": "GLDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 500 BAGS OF PLASTIC SHEETS",
       "grossWeight": 12500.0,
       "measurement": 25.0,
-      "additionalInfo": "Fragile, Handle with Care"
-    },
-    {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "STC231015",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "Fragile, Handle with Care"
+      "additionalInfo": "CONTAINER CLEAN AND DRY."
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
+    "totalContainers": "ONE (20GP) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BAGS",
     "containerType": "20GP",
-    "totalGrossWeight": 25000.0,
-    "totalMeasurement": 50.0
+    "totalGrossWeight": 12500.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {},
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "Cert123456",
-      "Cert789012"
+      "Cert1234567",
+      "Cert8901234"
     ],
     "originalBLDistribution": {
-      "name": "SINGAPORE TRADING COMPANY PTE LTD",
-      "address": "10 Anson Road #22-01 International Plaza Singapore 079903",
-      "telephone": "+65-6225-1234",
-      "fax": "+65-6225-5678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road #12-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "SINGAPORE TRADING COMPANY PTE LTD",
-      "address": "10 Anson Road #22-01 International Plaza Singapore 079903",
-      "telephone": "+65-6225-1234",
-      "fax": "+65-6225-5678"
+      "name": "SUNRISE TRADING PTE LTD",
+      "address": "123 Anson Road #12-01, Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Shipment Value: USD 100,000"
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Cargo Value: USD 25,000"
   }
 }

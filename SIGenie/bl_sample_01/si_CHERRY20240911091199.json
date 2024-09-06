@@ -1,0 +1,110 @@
+{
+    "bookingReference": "CHERRY20240911091199",
+    "voyageDetails": {
+      "vesselName": "ARONIA 5",
+      "voyageNumber": "2024038",
+      "bound": "E"
+    },
+    "routeDetails": {
+      "placeOfReceipt": "BUSAN, KOREA",
+      "portOfLoading": "BUSAN, KOREA",
+      "portOfDischarge": "VALENCIA, SPAIN",
+      "placeOfDelivery": "VALENCIA, SPAIN",
+      "finalDestination": ""
+    },
+    "paymentDetails": {
+      "freightPaymentTerms": "Prepaid",
+      "freightPayableAt": "BUSAN, KOREA"
+    },
+    "documentationDetails": {
+      "blType": "SURRENDER",
+      "numberOfOriginalBLs": 0,
+      "numberOfCopies": 0
+    },
+    "partyDetails": {
+      "shipper": {
+        "name": "S AND C CORPORATION CO., LTD.",
+        "address": "NO. 1304, A, 25, BEOBWON-RO 11-GIL, SONGPA-GU, SEOUL, 05836",
+        "country": "REP OF KOREA",
+        "additionalInfo": "(MUNJEONG-DONG, H BUSINESS PARK)"
+      },
+      "consignee": {
+        "name": "PROCHEMA GMBH",
+        "address": "TWIN TOWERS A02, WIENERBERGSTRASSE 11, 1100-VIENNA",
+        "country": "AUSTRIA",
+        "email": "BURCU.GRUBHOFER@PROCHEMA.COM, INFO@PROCHEMA.COM",
+        "telephone": "+43 1 60560"
+      },
+      "notifyParty": {
+        "name": "PROCHEMA GMBH",
+        "address": "TWIN TOWERS A02, WIENERBERGSTRASSE 11, 1100-VIENNA",
+        "country": "AUSTRIA",
+        "email": "BURCU.GRUBHOFER@PROCHEMA.COM, INFO@PROCHEMA.COM",
+        "telephone": "+43 1 60560"
+      }
+    },
+    "shippingTerm": "CY / CY",
+    "hsCode": "392051",
+    "commodityDescription": "PURIFIED ISOPHTHALIC ACID (PIA)",
+    "containers": [
+      {
+        "containerNumber": "CRLU3016645",
+        "sealNumber": "173227",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 40,
+        "packageType": "BAGS",
+        "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 25 KG BAGS, PALLETIZED",
+        "grossWeight": 20063.000,
+        "measurement": 25.000
+      },
+      {
+        "containerNumber": "CRLU2122194",
+        "sealNumber": "171416",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 20,
+        "packageType": "BAGS",
+        "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 500KGS ANTI-STATIC BAGS",
+        "grossWeight": 20063.000,
+        "measurement": 25.000
+      },
+      {
+        "containerNumber": "CRLU2918995",
+        "sealNumber": "173204",
+        "marksAndNumbers": "NO MARK",
+        "numberOfPackages": 800,
+        "packageType": "BAGS",
+        "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PURIFIED ISOPHTHALIC ACID (PIA) 20MT 1000KGS ANTI-STATIC BAGS",
+        "grossWeight": 20063.000,
+        "measurement": 25.000
+      }
+    ],
+    "totalShipment": {
+      "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+      "totalPackages": 860,
+      "packageType": "BAGS",
+      "totalGrossWeight": 60189.000,
+      "totalMeasurement": 75.000
+    },
+    "additionalInformation": {
+      "purchaseOrderNumber": "136492ICP-1",
+      "hsCode": "291739",
+      "freeTimeAtDestination": "14 DAYS",
+      "lcDetails": {
+        "lcNumber": "00001010333789"
+      },
+      "certificateDetails": "411272408759X",
+      "originalBLDistribution": {
+        "name": "HAN GLOBAL CO., LTD.",
+        "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+        "telephone": "+82-2-3700-2110"
+      },
+      "originalInvoiceDistribution": {
+        "name": "HAN GLOBAL CO., LTD.",
+        "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+        "telephone": "03600061234",
+        "fax": "81-3-6000-0001"
+      },
+      "onboardDate": "SEPT. 13. 2024",
+      "additionalRemarks": "14 Days Free Time at Destination\nATTACHED RIDER"
+    }
+  }

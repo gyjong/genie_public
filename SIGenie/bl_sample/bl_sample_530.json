@@ -1,97 +1,107 @@
 {
-  "bookingReference": "APPLE20240912102512",
+  "bookingReference": "APPLE20240912103245",
   "voyageDetails": {
-    "vesselName": "MSC ELYSIA",
-    "voyageNumber": "2430E",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "24093",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
     "portOfDischarge": "SINGAPORE",
     "placeOfDelivery": "SINGAPORE",
-    "finalDestination": ""
+    "finalDestination": "DUISBURG, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "SEA WAYBILL",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "MARKT 123, 3011 AA ROTTERDAM, NETHERLANDS"
+      "name": "SHANGHAI GLOBAL TRADING CO., LTD.",
+      "address": "NO. 1234, HUANGPU ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(HONGKOU DISTRICT)",
+      "telephone": "+86 21 5432 1234",
+      "email": "SALES@SGT.COM.CN"
     },
     "consignee": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "EUROTECH GMBH",
+      "address": "INDUSTRIEPARK 3, 47877 WILLICH, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 2462 123456"
     },
     "notifyParty": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1111",
-      "fax": "+65 6222 2222"
+      "name": "ABC LOGISTICS GMBH",
+      "address": "SCHL\u00d6SSERSTRASSE 10, 40215 D\u00dcSSELDORF, GERMANY",
+      "country": "GERMANY",
+      "email": "OPERATIONS@ABCLOGISTICS.DE",
+      "telephone": "+49 211 567890"
     }
   },
-  "shippingTerm": "CFR",
+  "shippingTerm": "CIF",
   "hsCode": "84798990",
-  "commodityDescription": "MACHINERY FOR FOOD PROCESSING",
+  "commodityDescription": "MACHINERY FOR FOOD PROCESSING - MIXERS AND GRINDERS",
   "containers": [
     {
-      "containerNumber": "CMAU9876543",
+      "containerNumber": "MSCU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GS1234",
-      "numberOfPackages": 10,
-      "cargoDescription": "MACHINERY FOR FOOD PROCESSING, PACKAGED IN WOODEN CRATES",
-      "grossWeight": 12000.0,
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS OF FOOD PROCESSING MACHINERY, INCLUDING MIXERS AND GRINDERS. SHIPPER'S LOAD, COUNT & WEIGHT.",
+      "grossWeight": 18000.0,
       "measurement": 25.5
     },
     {
-      "containerNumber": "CMAU1111222",
+      "containerNumber": "MSCU7890123",
       "sealNumber": "654321",
-      "marksAndNumbers": "GS5678",
-      "numberOfPackages": 8,
-      "cargoDescription": "MACHINERY FOR FOOD PROCESSING, PACKAGED IN STEEL CAGES",
-      "grossWeight": 8000.0,
-      "measurement": 20.0
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS OF FOOD PROCESSING MACHINERY, INCLUDING MIXERS AND GRINDERS. SHIPPER'S LOAD, COUNT & WEIGHT.",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 18,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 20000.0,
-    "totalMeasurement": 45.5
+    "totalContainers": "TWO (20FT X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 51.0
   },
   "outOfGaugeDimensions": {
     "length": 0,
     "width": 0,
     "height": 0,
+    "overWidth": 0,
     "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC2024100101"
+      "lcNumber": "1234567890"
     },
     "certificateDetails": [
-      "CO-1234567890"
+      "CN1234567890",
+      "CO1234567890"
     ],
     "originalBLDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. PTE LTD",
-      "address": "10 Anson Road #28-01 International Plaza, Singapore 079903"
+      "name": "ABC FREIGHT FORWARDERS",
+      "address": "SCHL\u00d6SSERSTRASSE 5, 40215 D\u00dcSSELDORF, GERMANY",
+      "telephone": "+49 211 567891"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL SHIPPING SOLUTIONS BV",
-      "address": "MARKT 123, 3011 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROTECH GMBH",
+      "address": "INDUSTRIEPARK 3, 47877 WILLICH, GERMANY",
+      "telephone": "+49 2462 123456"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "ALL CARGO PACKED AND SECURED FOR SAFE TRANSPORTATION"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "GOODS PACKED IN STANDARD CARTONS. VALUE: USD50,000"
   }
 }

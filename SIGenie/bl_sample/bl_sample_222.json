@@ -1,15 +1,15 @@
 {
-  "bookingReference": "APPLE20241015123456",
+  "bookingReference": "APPLE20241016143021",
   "voyageDetails": {
-    "vesselName": "EVER GREEN",
-    "voyageNumber": "2024103",
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2423W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
@@ -17,81 +17,79 @@
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
       "name": "ASIA PACIFIC TRADING CO.",
-      "onBehalfOf": "SUNRISE INDUSTRIES LTD",
-      "address": "101 BUKIT BATOK STREET 11, #05-125, SINGAPORE 650101",
-      "telephone": "+65-6567-8901",
-      "fax": "+65-6567-8902"
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "consignee": {
-      "name": "EURO TRADE BV",
-      "address": "DE KOOPVAARDIJ 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "name": "EUROMARKETS BV",
+      "address": "Westblaak 10, 3012 KN Rotterdam, Netherlands",
       "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS NV",
-      "address": "WILLEM ADRIAENSTRAAT 15, 2000 ANTWERPEN, BELGIUM"
+      "name": "GLOBAL LOGISTICS LTD.",
+      "address": "2nd Floor, 123 High Street, London WC1A 1AA, UK"
     }
   },
-  "shippingTerm": "CIF",
+  "shippingTerm": "CIF ROTTERDAM",
   "hsCode": "85444210",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "commodityDescription": "MOBILE PHONE ACCESSORIES",
   "containers": [
     {
-      "containerNumber": "CMAU9987654",
-      "sealNumber": "1234567",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE - HANDLE WITH CARE"
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "EM20241016",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SEALED AND SAID TO CONTAIN: MOBILE PHONE ACCESSORIES",
+      "grossWeight": 3500.0,
+      "measurement": 15.0,
+      "additionalInfo": "FRAGILE. HANDLE WITH CARE."
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20FT DRY) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "BOXES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20' DRY",
+    "totalGrossWeight": 3500.0,
+    "totalMeasurement": 15.0
   },
   "reeferSettings": {
-    "containerNumber": null,
-    "temperature": null,
-    "minTemperature": null,
-    "maxTemperature": null,
-    "ventilation": null,
-    "humidity": null
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "4112720070179X",
-      "4112720070180X"
+      "CN20241016A",
+      "COO20241016B"
     ],
     "originalBLDistribution": {
-      "name": "SUNRISE INDUSTRIES LTD",
-      "address": "123 MAIN STREET, LONDON EC1A 1AX, UNITED KINGDOM",
-      "telephone": "+44-20-7123-4567",
-      "fax": "+44-20-7123-4568"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6222-1234",
+      "fax": "+65-6222-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "101 BUKIT BATOK STREET 11, #05-125, SINGAPORE 650101",
-      "telephone": "+65-6567-8901",
-      "fax": "+65-6567-8902"
+      "name": "EUROMARKETS BV",
+      "address": "Westblaak 10, 3012 KN Rotterdam, Netherlands"
     },
-    "onboardDate": "OCT. 20. 2024",
+    "onboardDate": "OCT. 25. 2024",
     "additionalRemarks": "Insurance: USD100,000"
   }
 }

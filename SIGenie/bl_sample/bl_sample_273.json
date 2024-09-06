@@ -1,96 +1,110 @@
 {
-  "bookingReference": "APPLE20241015143023",
+  "bookingReference": "APPLE20240915123456",
   "voyageDetails": {
-    "vesselName": "MSC GENEVA",
-    "voyageNumber": "2440W",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2431E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "NINGBO, CHINA"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "1234 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "ZHONGSHAN GLOBAL TRADING CO., LTD.",
+      "address": "NO. 588, HUANGPU ROAD, ZHONGSHAN, GUANGDONG, 528403",
+      "country": "CHINA",
+      "additionalInfo": "(ZHUJIANG DISTRICT)"
     },
     "consignee": {
-      "name": "DUTCH IMPORTS BV",
-      "address": "100 CANAL STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
-      "telephone": "+31-10-2222-1234",
-      "fax": "+31-10-2222-5678"
+      "name": "EUROCHEM BV",
+      "address": "ZUIDERPARK 43, 2624 LV, DELFT",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 15 257 2100"
     },
     "notifyParty": {
-      "name": "DUTCH CUSTOMS BROKERS",
-      "address": "50 MARKT SQUARE, ROTTERDAM, 3012 NL, NETHERLANDS",
-      "telephone": "+31-10-3333-1234",
-      "fax": "+31-10-3333-5678"
+      "name": "EUROCHEM BV",
+      "address": "ZUIDERPARK 43, 2624 LV, DELFT",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCHEM.NL",
+      "telephone": "+31 15 257 2100"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "8544.42",
-  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "shippingTerm": "CFR",
+  "hsCode": "39073000",
+  "commodityDescription": "POLYPROPYLENE RESIN (PP)",
   "containers": [
     {
-      "containerNumber": "TCLU6789012",
+      "containerNumber": "GTLU9673214",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 100,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
+      "marksAndNumbers": "PP-123",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN (PP) 25MT 50KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "SEGU3357890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "PP-456",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN (PP) 25MT 50KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "PP-789",
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN (PP) 25MT 50KG BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
-    "totalPackages": 100,
-    "packageType": "CARTONS",
-    "totalGrossWeight": 12500.0,
-    "totalMeasurement": 25.5
-  },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "1234567890",
-    "salesOrderNumber": "9876543210",
+    "purchaseOrderNumber": "123456ICP-2",
+    "hsCode": "39073000",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "00001010333789"
     },
-    "certificateDetails": "12345678901234567890",
+    "certificateDetails": "411272408759X",
     "originalBLDistribution": {
-      "name": "DUTCH IMPORTS BV",
-      "address": "100 CANAL STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
-      "telephone": "+31-10-2222-1234",
-      "fax": "+31-10-2222-5678"
+      "name": "CHINA SHIPPING AGENCY CO. LTD.",
+      "address": "123, HUAYUAN ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 6336 7890"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "1234 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "CHINA SHIPPING AGENCY CO. LTD.",
+      "address": "123, HUAYUAN ROAD, SHANGHAI, 200001",
+      "telephone": "+86 21 6336 7890",
+      "fax": "+86 21 6336 7891"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "GOODS PACKED IN ACCORDANCE WITH CUSTOMER SPECIFICATIONS"
+    "onboardDate": "SEPT. 15. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
   }
 }

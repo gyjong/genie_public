@@ -1,107 +1,99 @@
 {
-  "bookingReference": "ORANGE20240912101502",
+  "bookingReference": "APPLE202410161254100",
   "voyageDetails": {
-    "vesselName": "MARINA STAR 07",
-    "voyageNumber": "2024042",
-    "bound": "E"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2442E",
+    "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE, SINGAPORE",
-    "portOfLoading": "SINGAPORE, SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK",
     "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
+    "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO.",
-      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
-      "telephone": "+65 6789 0123",
-      "email": "info@asiatrading.com.sg"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
     },
     "consignee": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL853212345B01",
-      "president": "MR. JAN VAN DER LINDEN",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "name": "EUROTRANS LOGISTICS BV",
+      "address": "KLOKKENSTRAAT 12, 3011 XE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679",
+      "email": "INFO@EUROTRANS.NL",
+      "contactPerson": "JAN VAN DER KOOI"
     },
     "notifyParty": {
-      "name": "EURO STEEL IMPORT BV",
-      "address": "KEULENSTRAAT 12, 3012 AA ROTTERDAM, NETHERLANDS",
-      "taxId": "NL853212345B01",
-      "president": "MR. JAN VAN DER LINDEN",
-      "telephone": "+31 10 456 7890",
-      "fax": "+31 10 456 7891"
+      "sameAsConsignee": false,
+      "name": "AMSTERDAM TRADING CO.",
+      "address": "SINGEL 234, 1012 VV AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 12345679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "72072010",
-  "commodityDescription": "STEEL BARS, HOT ROLLED",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "TCLU3456789",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 20,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS STEEL BARS, HOT ROLLED",
-      "grossWeight": 22500.0,
-      "measurement": 28.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GEARBOX COMPONENTS",
+      "grossWeight": 12500.0,
+      "measurement": 18.0
     },
     {
-      "containerNumber": "TCLU7890123",
-      "sealNumber": "456789",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 25,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM, NETHERLANDS STEEL BARS, HOT ROLLED",
-      "grossWeight": 23000.0,
-      "measurement": 30.0
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HYDRAULIC PUMPS & VALVES",
+      "grossWeight": 13000.0,
+      "measurement": 19.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 O/T X1) CONTAINERS ONLY",
-    "totalPackages": 45,
-    "packageType": "BUNDLES",
-    "containerType": "20 O/TX1",
-    "totalGrossWeight": 45500.0,
-    "totalMeasurement": 58.0
-  },
-  "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in O/T Container"
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 25500.0,
+    "totalMeasurement": 37.5
   },
   "additionalInformation": {
+    "invoiceNumber": "INV-2024-10-16-001",
+    "documentNumber": "CN20241016001",
     "lcDetails": {
-      "lcNumber": "0200201033739"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": "1050020070132",
+    "certificateDetails": [
+      "COO20241016001"
+    ],
     "originalBLDistribution": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "101 NORTH BRIDGE ROAD, #12-01 HIGH STREET CENTRE, SINGAPORE 179094",
-      "telephone": "65 6337 1234",
-      "fax": "65 6337 1235"
+      "name": "EUROTRANS LOGISTICS BV",
+      "address": "KLOKKENSTRAAT 12, 3011 XE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2345678",
+      "fax": "+31 10 2345679"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL LOGISTICS LTD",
-      "address": "101 NORTH BRIDGE ROAD, #12-01 HIGH STREET CENTRE, SINGAPORE 179094",
-      "telephone": "65 6337 1234",
-      "fax": "65 6337 1235"
+      "name": "CHINA IMPORT & EXPORT CO. LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 12345679"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "CLEAN ON BOARD"
+    "onboardDate": "OCT. 27. 2024"
   }
 }

@@ -1,90 +1,89 @@
 {
-  "bookingReference": "ORANGE20241026123456",
+  "bookingReference": "APPLE20241026143205",
   "voyageDetails": {
-    "vesselName": "CMA CGM RHONE",
-    "voyageNumber": "2435W",
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "244W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI KAIYU IMPORT & EXPORT CO., LTD.",
+      "name": "GLOBAL TRADING CO. PTE LTD",
       "onBehalfOf": "",
-      "address": "ROOM 1001, NO.1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-5678",
-      "fax": "+86-21-6327-5679"
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "consignee": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
-      "companyNumber": "HRB 123456"
+      "name": "EURO IMPORTS BV",
+      "address": "Europaplein 12, 3012 AA Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "EINSTRASSE 1, 60325 FRANKFURT, GERMANY"
+      "name": "TRANSGLOBAL LOGISTICS",
+      "address": "123 Main Street, Rotterdam, Netherlands"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854370",
-  "commodityDescription": "ELECTRIC MOTORS",
+  "hsCode": "87032300",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "SEGU4512345",
       "sealNumber": "1234567",
-      "marksAndNumbers": "EM123",
-      "numberOfPackages": 50,
-      "packageType": "CARTONS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "CONTAINER TEMPERATURE TO BE MAINTAINED BETWEEN +5\u00b0C AND +25\u00b0C."
+      "marksAndNumbers": "GTL123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 750.0,
+      "measurement": 2.5,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HC) CONTAINER ONLY",
-    "totalPackages": 50,
-    "packageType": "CARTONS",
-    "containerType": "40HC",
-    "totalGrossWeight": 12000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "20DR",
+    "totalGrossWeight": 750.0,
+    "totalMeasurement": 2.5
   },
   "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000234567890"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "CN20241026001",
-      "CN20241026002"
+      "COO-1234567890"
     ],
     "originalBLDistribution": {
-      "name": "EUROTRADE GMBH",
-      "address": "FRANKFURTER STRASSE 50, 60311 FRANKFURT, GERMANY",
-      "telephone": "+49-69-12345678",
-      "fax": "+49-69-12345679"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI KAIYU IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1001, NO.1888, SHENNAN ROAD, SHANGHAI 200001, CHINA",
-      "telephone": "+86-21-6327-5678",
-      "fax": "+86-21-6327-5679"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "10 Anson Road #28-01 International Plaza Singapore 079903",
+      "telephone": "+65 6222 1234",
+      "fax": "+65 6222 5678"
     },
-    "onboardDate": "OCT. 31. 2024",
-    "additionalRemarks": "Cargo insured for USD 100,000."
+    "onboardDate": "OCT. 27. 2024",
+    "additionalRemarks": "Motorcycles packed in crates. Value: USD15,000"
   }
 }

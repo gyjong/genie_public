@@ -1,99 +1,89 @@
 {
-  "bookingReference": "APPLE202410161234567",
+  "bookingReference": "APPLE20240920131542",
   "voyageDetails": {
-    "vesselName": "MSC BEATRICE",
-    "voyageNumber": "2435W",
-    "bound": "W"
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2437E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
-    "numberOfCopies": 3
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "2345 LONGHUA ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "Zhejiang Meicheng Technology Co., Ltd.",
+      "address": "No. 666, Wenzhou Road, Yinzhou District, Ningbo, Zhejiang, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(Tel: +86 574 8668 6688)"
     },
     "consignee": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "telephone": "+1-213-555-9876",
-      "fax": "+1-213-555-4321",
-      "email": "INFO@SUNRISEIMPORTS.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "Global Trading BV",
+      "address": "De Laan 123, 3012 AB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@globaltrading.nl",
+      "telephone": "+31 10 456 7890"
     },
     "notifyParty": {
-      "name": "SUNRISE LOGISTICS INC.",
-      "address": "456 OCEAN AVENUE, SANTA MONICA, CA 90401",
-      "telephone": "+1-310-555-1212",
-      "fax": "+1-310-555-6789"
+      "name": "HANS Logistics",
+      "address": "Westersingel 10, 3011 AA Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "operations@hanslogistics.nl",
+      "telephone": "+31 10 345 6789"
     }
   },
-  "shippingTerm": "CFR",
+  "shippingTerm": "DAP",
   "hsCode": "8479899090",
-  "commodityDescription": "METAL WORKING MACHINERY",
+  "commodityDescription": "Hydraulic Presses for Metal Forming",
   "containers": [
     {
-      "containerNumber": "TCLU6753214",
-      "sealNumber": "123456",
-      "marksAndNumbers": "SUNRISE123",
-      "numberOfPackages": 10,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: LATHE MACHINE PARTS",
-      "grossWeight": 12500.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "TCLU9876543",
-      "sealNumber": "654321",
-      "marksAndNumbers": "SUNRISE789",
-      "numberOfPackages": 5,
-      "cargoDescription": "\"SHIPPER'S LOAD & COUNT\" SAID TO CONTAIN: MILLING MACHINE PARTS",
-      "grossWeight": 7000.0,
-      "measurement": 15.0
+      "containerNumber": "MSCU3859724",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "MH2345",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "1 Hydraulic Press, Model HP2000, Weight: 12,000 kg",
+      "grossWeight": 12000.0,
+      "measurement": 45.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 15,
-    "totalGrossWeight": 19500.0,
-    "totalMeasurement": 40.5
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 1,
+    "packageType": "UNIT",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 45.0
   },
   "additionalInformation": {
-    "invoiceNumber": "INV20241016001",
-    "documentNumber": "20001639822",
+    "purchaseOrderNumber": "GT20240915-001",
+    "hsCode": "8479899090",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "00001010339243"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
-    ],
+    "certificateDetails": "CE Certification No. ABC12345",
     "originalBLDistribution": {
-      "name": "SUNRISE IMPORTS INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90014",
-      "telephone": "+1-213-555-9876",
-      "fax": "+1-213-555-4321"
+      "name": "DHL Express",
+      "address": "123 Airport Blvd, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "CHINA GLOBAL TRADING CO. LTD",
-      "address": "2345 LONGHUA ROAD, SHANGHAI, 200000, CHINA",
-      "telephone": "+86-21-5555-1234",
-      "fax": "+86-21-5555-5678"
+      "name": "Global Trading BV",
+      "address": "De Laan 123, 3012 AB Rotterdam, Netherlands",
+      "telephone": "+31 10 456 7890"
     },
-    "onboardDate": "OCT. 25. 2024"
+    "onboardDate": "SEPT. 22. 2024",
+    "additionalRemarks": "Please contact consignee for delivery instructions."
   }
 }

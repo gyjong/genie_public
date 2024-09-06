@@ -1,20 +1,20 @@
 {
-  "bookingReference": "APPLE20241015102301",
+  "bookingReference": "APPLE20240915132547",
   "voyageDetails": {
-    "vesselName": "EVER GOLDEN",
-    "voyageNumber": "2024102",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2422E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": ""
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "SINGAPORE"
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
     "blType": "NEGOTIABLE",
@@ -23,78 +23,73 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "onBehalfOf": "",
-      "address": "2388 SHENNAN ROAD, SHANGHAI, 200062, CHINA",
-      "telephone": "+86-21-6278-5678",
-      "fax": "+86-21-6278-5679"
+      "name": "GLOBAL TRADING COMPANY BV",
+      "address": "KLOPPERSLAAN 123, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "email": "INFO@GLOBALTRADING.NL"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "BEUKELSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "companyNumber": "12345678"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "taxId": "GST000123456",
+      "president": "MR. TAN AH KEE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "4567 AMSTERDAMSEWEG, 1075 BV AMSTERDAM, NETHERLANDS"
+      "name": "GLOBAL LOGISTICS PTE LTD",
+      "address": "200 Tampines Road, #03-01, Singapore 528518",
+      "telephone": "+65 6789 5678",
+      "fax": "+65 6789 5679"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "854440",
-  "commodityDescription": "ELECTRICAL APPARATUS",
+  "hsCode": "87089900",
+  "commodityDescription": "MOTORCYCLES",
   "containers": [
     {
-      "containerNumber": "CMEU9587632",
-      "sealNumber": "987654",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL APPARATUS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE: HANDLE WITH CARE"
-    },
-    {
-      "containerNumber": "CMEU9587633",
-      "sealNumber": "432156",
-      "marksAndNumbers": "XYZ789",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL APPARATUS",
-      "grossWeight": 12000.0,
-      "measurement": 25.0,
-      "additionalInfo": "FRAGILE: HANDLE WITH CARE"
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "AS PER ATTACHED PACKING LIST",
+      "numberOfPackages": 5,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 5 MOTORCYCLES, CFR SINGAPORE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 50.0
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "UNITS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
   },
-  "reeferSettings": {},
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' DRY Container"
+  },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "000023456789"
+      "lcNumber": "00123456789"
     },
-    "certificateDetails": [
-      "4112720070179X"
-    ],
+    "certificateDetails": "COO/FORM A",
     "originalBLDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "BEUKELSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31-10-234-5678",
-      "fax": "+31-10-234-5679"
+      "name": "BANK OF AMERICA",
+      "address": "123 BROADWAY, NEW YORK, NY 10005, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI TRADING CO. LTD.",
-      "address": "2388 SHENNAN ROAD, SHANGHAI, 200062, CHINA",
-      "telephone": "+86-21-6278-5678",
-      "fax": "+86-21-6278-5679"
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "Value: USD100,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "NONE"
   }
 }

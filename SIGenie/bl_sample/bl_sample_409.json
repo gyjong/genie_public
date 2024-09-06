@@ -1,16 +1,16 @@
 {
-  "bookingReference": "STARFRUIT20241018133511",
+  "bookingReference": "APPLE20240912123456",
   "voyageDetails": {
-    "vesselName": "EVER GIVEN",
-    "voyageNumber": "2024052",
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2437E",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "COLLECT",
@@ -23,86 +23,85 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI YINGHONG TRADING CO., LTD.",
-      "onBehalfOf": "",
-      "address": "ROOM 1502, NO. 1888 SHENNAN ROAD, SHANGHAI 200060, CHINA",
-      "telephone": "+86-21-6293-0888",
-      "fax": "+86-21-6293-0999"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6222 8888",
+      "email": "info@asiatrading.com.sg"
     },
     "consignee": {
-      "name": "EURO IMPORT GMBH",
-      "address": "MARKTPLATZ 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "companyNumber": "HRB 765432"
+      "name": "EURO STEEL IMPORT BV",
+      "address": "Stationsweg 100, 3013 AL Rotterdam, Netherlands",
+      "taxId": "NL856578912B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     },
     "notifyParty": {
-      "name": "DHL GLOBAL FORWARDING",
-      "address": "FRANKFURTER STRASSE 12, 60314 FRANKFURT, GERMANY"
+      "name": "EURO STEEL IMPORT BV",
+      "address": "Stationsweg 100, 3013 AL Rotterdam, Netherlands",
+      "taxId": "NL856578912B01",
+      "president": "Mr. Pieter Van Der Meer",
+      "telephone": "+31 10 412 3456",
+      "fax": "+31 10 412 3457"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "854140",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT",
+  "hsCode": "72072090",
+  "commodityDescription": "STEEL BILLETS",
   "containers": [
     {
-      "containerNumber": "GLDU9918472",
+      "containerNumber": "CMAU9785632",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 7500.0,
-      "measurement": 20.0,
-      "additionalInfo": "THIS CONTAINER IS SUBJECT TO INSPECTION BY CUSTOMS AUTHORITIES."
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS STEEL BILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "CMAU7654321",
       "sealNumber": "654321",
-      "marksAndNumbers": "XYZ789",
-      "numberOfPackages": 60,
-      "packageType": "BOXES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION EQUIPMENT",
-      "grossWeight": 8200.0,
-      "measurement": 22.0,
-      "additionalInfo": ""
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS STEEL BILLETS",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20GP X2) CONTAINERS ONLY",
-    "totalPackages": 110,
-    "packageType": "BOXES",
-    "containerType": "20GP",
-    "totalGrossWeight": 15700.0,
-    "totalMeasurement": 42.0
+    "totalContainers": "TWO (20 O/T X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BUNDLES",
+    "containerType": "20 O/TX2",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000234567890"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112720070179X",
-      "4112720070180X"
-    ],
+    "certificateDetails": "1234567890",
     "originalBLDistribution": {
-      "name": "EURO IMPORT GMBH",
-      "address": "MARKTPLATZ 12, 60311 FRANKFURT AM MAIN, GERMANY",
-      "telephone": "+49-69-7591-2345",
-      "fax": "+49-69-7591-2346"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "10 Changi South Street 2, Singapore 486049",
+      "telephone": "+65 6787 7777",
+      "fax": "+65 6787 7778"
     },
     "originalInvoiceDistribution": {
-      "name": "SHANGHAI YINGHONG TRADING CO., LTD.",
-      "address": "ROOM 1502, NO. 1888 SHENNAN ROAD, SHANGHAI 200060, CHINA",
-      "telephone": "+86-21-6293-0888",
-      "fax": "+86-21-6293-0999"
+      "name": "DHL EXPRESS SINGAPORE",
+      "address": "10 Changi South Street 2, Singapore 486049",
+      "telephone": "+65 6787 7777",
+      "fax": "+65 6787 7778"
     },
-    "onboardDate": "OCT. 26. 2024",
-    "additionalRemarks": "Container Secured Properly, Value: EUR 50,000"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "GOODS ARE SHIPPER'S LOAD, COUNT AND WEIGHT"
   }
 }

@@ -1,42 +1,40 @@
 {
-  "bookingReference": "APPLE20240912101502",
+  "bookingReference": "APPLE20240912134521",
   "voyageDetails": {
-    "vesselName": "MARINE STAR 07",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL MERLION",
+    "voyageNumber": "24041",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
     "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "SEA WAYBILL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #15-01 Anson Centre, Singapore 079903"
     },
     "consignee": {
-      "name": "EUROLOGISTICS GMBH",
-      "address": "Speditionstrasse 10, 20097 Hamburg, Germany",
-      "telephone": "+49 40 3333 1234",
-      "fax": "+49 40 3333 5678"
+      "name": "EURO IMPORTS BV",
+      "address": "Keizersgracht 123, 1016 EV Amsterdam, Netherlands",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 8765432"
     },
     "notifyParty": {
-      "name": "GLOBAL FORWARDING SERVICES",
-      "address": "111 Kingsway, London WC2B 6DX, United Kingdom",
-      "telephone": "+44 20 7777 1234",
-      "fax": "+44 20 7777 5678"
+      "name": "BANK OF AMERICA",
+      "address": "100 Amsterdam Ave, New York, NY 10002, USA"
     }
   },
   "shippingTerm": "CIF",
@@ -44,31 +42,31 @@
   "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
   "containers": [
     {
-      "containerNumber": "CMAU1234567",
+      "containerNumber": "CMAU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 10,
-      "cargoDescription": "MACHINERY PARTS PACKAGED IN WOODEN CRATES",
+      "marksAndNumbers": "GT-2023-123",
+      "numberOfPackages": 50,
+      "cargoDescription": "TEXTILE MACHINE PARTS, PACKAGED IN WOODEN CRATES",
       "grossWeight": 12000.0,
-      "measurement": 35.0
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CMAU7654321",
-      "sealNumber": "654321",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 15,
-      "cargoDescription": "MACHINERY PARTS PACKAGED IN PALLETS",
-      "grossWeight": 15000.0,
-      "measurement": 40.0
+      "containerNumber": "CSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT-2023-456",
+      "numberOfPackages": 30,
+      "cargoDescription": "SPARE PARTS FOR TEXTILE MACHINES",
+      "grossWeight": 8000.0,
+      "measurement": 18.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT DRY) CONTAINERS ONLY",
-    "totalPackages": 25,
+    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 80,
     "packageType": "PACKAGES",
-    "containerType": "20FT DRY",
-    "totalGrossWeight": 27000.0,
-    "totalMeasurement": 75.0
+    "containerType": "20' DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 43.5
   },
   "outOfGaugeDimensions": {
     "length": 0,
@@ -78,21 +76,21 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "LC0001234567"
     },
     "certificateDetails": [
-      "COO123456",
-      " fumigation certificate"
+      "Certificate of Origin",
+      "Phytosanitary Certificate"
     ],
     "originalBLDistribution": {
-      "name": "EUROLOGISTICS GMBH",
-      "address": "Speditionstrasse 10, 20097 Hamburg, Germany"
+      "name": "EURO IMPORTS BV",
+      "address": "Keizersgracht 123, 1016 EV Amsterdam, Netherlands"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC TRADING CO. LTD.",
-      "address": "123 Anson Road, #12-01, Anson Centre, Singapore 079903"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "123 Anson Road, #15-01 Anson Centre, Singapore 079903"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "SHIPPER'S LOAD & COUNT"
+    "additionalRemarks": "SHIPPER'S LOAD, COUNT AND WEIGHT"
   }
 }

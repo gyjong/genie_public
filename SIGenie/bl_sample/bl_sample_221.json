@@ -1,107 +1,110 @@
 {
-  "bookingReference": "APPLE20240918143256",
+  "bookingReference": "APPLE20240918145232",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2431W",
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2433W",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SHANGHAI, CHINA",
-    "portOfLoading": "SHANGHAI, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ANTWERP, BELGIUM",
-    "finalDestination": "BRUSSELS, BELGIUM"
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "COPY",
-    "numberOfOriginalBLs": 0,
-    "numberOfCopies": 3
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI EVERBRIGHT IMPORT & EXPORT CO., LTD.",
-      "address": "ROOM 1201, NO.288 XINZHU ROAD, SHANGHAI, 200031",
+      "name": "CHINA INTERNATIONAL TEXTILE CO., LTD.",
+      "address": "228 HUANGPU ROAD, SHANGHAI, 200000",
       "country": "CHINA",
-      "additionalInfo": "(Pudong District)",
-      "telephone": "+86 21 6197 8688",
-      "email": "SALES@EVERBRIGHTIMPORT.COM"
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "EUROTECH NV",
-      "address": "KAAI 21, 2000 ANTWERP",
-      "country": "BELGIUM",
-      "email": "ORDERS@EUROTECH.BE",
-      "telephone": "+32 3 226 12 34"
+      "name": "EUROFASHION GMBH",
+      "address": "KEIZERSGRACHT 123, 1015 CZ AMSTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROFASHION.NL, INFO@EUROFASHION.NL",
+      "telephone": "+31 20 622 5500"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS NV",
-      "address": "VISSENSTRAAT 12, 2000 ANTWERP",
-      "country": "BELGIUM",
-      "email": "OPERATIONS@GLOBALLOGISTICS.BE",
-      "telephone": "+32 3 226 56 78"
+      "name": "EUROFASHION GMBH",
+      "address": "KEIZERSGRACHT 123, 1015 CZ AMSTERDAM",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROFASHION.NL",
+      "telephone": "+31 20 622 5500"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85015100",
-  "commodityDescription": "ELECTRONIC COMPONENTS - POWER SUPPLY MODULES",
+  "shippingTerm": "CFR",
+  "hsCode": "620462",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
   "containers": [
     {
-      "containerNumber": "UTLU9876543",
+      "containerNumber": "CMAU9876543",
       "sealNumber": "123456",
-      "marksAndNumbers": "ET-PSM01",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "50 BOXES POWER SUPPLY MODULES - MODEL ET-PSM01",
-      "grossWeight": 1250.0,
-      "measurement": 10.5
+      "marksAndNumbers": "EF2024-09",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 500 CARTONS MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
     },
     {
-      "containerNumber": "UTLU2345678",
-      "sealNumber": "654321",
-      "marksAndNumbers": "ET-PSM02",
-      "numberOfPackages": 50,
-      "packageType": "BOXES",
-      "cargoDescription": "50 BOXES POWER SUPPLY MODULES - MODEL ET-PSM02",
-      "grossWeight": 1250.0,
-      "measurement": 10.5
+      "containerNumber": "GRSU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "EF2024-09",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 500 CARTONS MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "EF2024-09",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 500 CARTONS MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 21.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overWidth": 0,
-    "overHeight": 0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 84.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO20240912",
+    "hsCode": "62046200",
+    "freeTimeAtDestination": "10 DAYS FREE TIME",
     "lcDetails": {
       "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "CN1234567890",
-      "CO1234567890"
-    ],
+    "certificateDetails": "CN20240918001",
     "originalBLDistribution": {
-      "name": "EUROTECH NV",
-      "address": "KAAI 21, 2000 ANTWERP",
-      "telephone": "+32 3 226 12 34"
+      "name": "EUROFASHION GMBH",
+      "address": "KEIZERSGRACHT 123, 1015 CZ AMSTERDAM",
+      "telephone": "+31 20 622 5500"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROTECH NV",
-      "address": "KAAI 21, 2000 ANTWERP",
-      "telephone": "+32 3 226 12 34"
+      "name": "CHINA INTERNATIONAL TEXTILE CO., LTD.",
+      "address": "228 HUANGPU ROAD, SHANGHAI, 200000",
+      "telephone": "+86 21 6326 8888",
+      "fax": "+86 21 6326 9999"
     },
-    "onboardDate": "SEPT. 20. 2024",
-    "additionalRemarks": "Value: USD 50,000.00\nInsurance Policy Number: INS1234567890"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION"
   }
 }

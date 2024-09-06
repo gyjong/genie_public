@@ -1,98 +1,90 @@
 {
-  "bookingReference": "APPLE202410121145200",
+  "bookingReference": "ORANGE20240912113011",
   "voyageDetails": {
-    "vesselName": "EVER CHAMPION",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024093",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "ZHONGSHAN SHANGYU IMPORT & EXPORT CO., LTD",
-      "address": "NO.10, LANE 1, SHANGYUAN ROAD, GUANGZHOU, CHINA, 510360",
-      "telephone": "+86-20-3666-2222",
-      "fax": "+86-20-3666-3333"
+      "name": "SUNRISE TRADING CO.",
+      "onBehalfOf": "ASIA PACIFIC IMPORTS LTD",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "consignee": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "1234 OCEAN AVE, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "562-555-1212",
-      "fax": "562-555-1313",
-      "email": "INFO@WCLINC.COM",
-      "contactPerson": "SUSAN LEE"
+      "name": "EUROFRESH LTD",
+      "address": "100 KERKSTRAAT, 3011 GR ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "RAMESE LOGISTICS CO., LTD",
-      "address": "ROOM 805, 10TH FL., A-DONG, GANGSEO HANGANG XI TOWER, 401, YANGCHEON-RO, GANGSEO-GU, SEOUL 07528, KOREA",
-      "telephone": "02-311-1113",
-      "fax": "02-311-1115"
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "200 MAASTRICHTSE WEG, 3063 NS ROTTERDAM, NETHERLANDS"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "611030",
-  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "shippingTerm": "CIF",
+  "hsCode": "080290",
+  "commodityDescription": "GRAPES",
   "containers": [
     {
-      "containerNumber": "CMAU7896543",
-      "sealNumber": "123456",
-      "marksAndNumbers": "XYZ123",
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "FRUIT123",
       "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS & SIZES",
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, SAID TO CONTAIN: GRAPES, VARIETY: RED GLOBE",
       "grossWeight": 12000.0,
-      "measurement": 25.5
-    },
-    {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "ABC456",
-      "numberOfPackages": 450,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS & SIZES",
-      "grossWeight": 11500.0,
-      "measurement": 24.0
+      "measurement": 20.0,
+      "additionalInfo": "TEMPERATURE: +5\u00b0C"
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HQ CONTAINERS",
-    "totalPackages": 950,
-    "totalGrossWeight": 23500.0,
-    "totalMeasurement": 49.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 20.0
   },
+  "reeferSettings": {},
   "additionalInformation": {
-    "invoiceNumber": "20241012001",
-    "documentNumber": "20241012002",
     "lcDetails": {
-      "lcNumber": "LC20241012003"
+      "lcNumber": "0000202040506"
     },
     "certificateDetails": [
-      "COO-20241012004"
+      "PHYTO-001234567",
+      "HEALTH-890123456"
     ],
     "originalBLDistribution": {
-      "name": "WEST COAST LOGISTICS INC.",
-      "address": "1234 OCEAN AVE, SUITE 200, LONG BEACH, CA 90802",
-      "telephone": "562-555-1212",
-      "fax": "562-555-1313"
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 ORCHARD ROAD, SINGAPORE 238888",
+      "telephone": "+65-6789-0123",
+      "fax": "+65-6789-0456"
     },
     "originalInvoiceDistribution": {
-      "name": "ZHONGSHAN SHANGYU IMPORT & EXPORT CO., LTD",
-      "address": "NO.10, LANE 1, SHANGYUAN ROAD, GUANGZHOU, CHINA, 510360",
-      "telephone": "+86-20-3666-2222",
-      "fax": "+86-20-3666-3333"
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "100 CENTRAL BOULEVARD, SINGAPORE 123456",
+      "telephone": "+65-6876-5432",
+      "fax": "+65-6876-5678"
     },
-    "onboardDate": "OCT. 15. 2024"
+    "onboardDate": "OCT. 06. 2024",
+    "additionalRemarks": "Fresh Grapes, Temperature: +5\u00b0C"
   }
 }

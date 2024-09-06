@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202409121143100",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2430W",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "2388 YAN'AN ROAD EAST, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS BV",
+      "address": "WEENA 250, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679",
+      "email": "INFO@EUROLOGISTICS.NL",
+      "contactPerson": "PETER VAN DER LEE"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORTS BV",
+      "address": "RIJKSWATERSTAAT 20, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-254-1234",
+      "fax": "+31-10-254-5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ROUTERS - MODEL X1000",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ROUTERS - MODEL X2000",
+      "grossWeight": 10000.0,
+      "measurement": 22.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 180,
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 47.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "1234567-2024",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI TRADING CO. LTD",
+      "address": "2388 YAN'AN ROAD EAST, SHANGHAI, 200001, CHINA",
+      "telephone": "+86-21-6327-8888",
+      "fax": "+86-21-6327-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO LOGISTICS BV",
+      "address": "WEENA 250, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
+    },
+    "onboardDate": "SEPT. 28. 2024"
+  }
+}

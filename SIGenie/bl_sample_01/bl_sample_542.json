@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241017103002",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "2448W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6225-1234",
+      "fax": "+65-6225-5678"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Museumplein 1, 1071 DJ Amsterdam, Netherlands",
+      "telephone": "+31-20-301-2345",
+      "fax": "+31-20-301-6789"
+    },
+    "notifyParty": {
+      "name": "EUROTECH LOGISTICS",
+      "address": "Hoofddorp, Netherlands",
+      "telephone": "+31-23-555-1234",
+      "fax": "+31-23-555-5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8542.37",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "GRSU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS (RESISTORS)",
+      "grossWeight": 1500.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 2.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "Museumplein 1, 1071 DJ Amsterdam, Netherlands",
+      "telephone": "+31-20-301-2345",
+      "fax": "+31-20-301-6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Singapore 079903",
+      "telephone": "+65-6225-1234",
+      "fax": "+65-6225-5678"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": ""
+  }
+}

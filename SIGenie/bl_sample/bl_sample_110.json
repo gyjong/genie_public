@@ -1,111 +1,107 @@
 {
-  "bookingReference": "ORANGE20240912123456",
+  "bookingReference": "PEACH20240912103512",
   "voyageDetails": {
-    "vesselName": "MSC SOFIA",
-    "voyageNumber": "2436ES",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024041",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
+    "freightPaymentTerms": "COLLECT",
     "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": " negotiable ",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI TRADING CO., LTD.",
-      "address": "NO. 238, SHANGHAI ROAD, SHANGHAI, 200000",
-      "country": "CHINA",
-      "additionalInfo": "(Pudong District)"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 ROBINSON ROAD, #15-01, SINGAPORE 068905",
+      "telephone": "+65 6536 7890",
+      "email": "INFO@ASIAPACIFIC.SG"
     },
     "consignee": {
-      "name": "EUROCHEM BV",
-      "address": "WEGELAAN 15, 3063 AL ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "INFO@EUROCHEM.NL",
-      "telephone": "+31 10 414 5000"
+      "name": "EURO STEEL IMPORTS BV",
+      "address": "VAN DER MADEWEG 10, 3011 BH ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012345",
+      "president": "MR. JAN VAN DER MARK",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "notifyParty": {
-      "name": "ABC IMPORT EXPORT",
-      "address": "DE KOEPLATZ 12, 3012 AA ROTTERDAM",
-      "country": "NETHERLANDS",
-      "email": "ORDERS@ABCIMPORTEXPORT.COM",
-      "telephone": "+31 10 777 8888"
+      "name": "EURO STEEL IMPORTS BV",
+      "address": "VAN DER MADEWEG 10, 3011 BH ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8556789012345",
+      "president": "MR. JAN VAN DER MARK",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "290331",
-  "commodityDescription": "ETHYLENE GLYCOL",
+  "shippingTerm": "CIF",
+  "hsCode": "72072000",
+  "commodityDescription": "SEMI-FINISHED IRON OR NON-ALLOY STEEL PRODUCTS",
   "containers": [
     {
-      "containerNumber": "TCLU1234567",
+      "containerNumber": "SUDU8765432",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 DRUMS, NET WEIGHT 100 KG EACH",
-      "grossWeight": 20200.0,
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS SEMI-FINISHED IRON OR NON-ALLOY STEEL PRODUCTS",
+      "grossWeight": 18500.0,
       "measurement": 25.0
     },
     {
-      "containerNumber": "TCLU8901234",
-      "sealNumber": "654321",
-      "marksAndNumbers": "DEF456",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 DRUMS, NET WEIGHT 100 KG EACH",
-      "grossWeight": 20200.0,
-      "measurement": 25.0
-    },
-    {
-      "containerNumber": "TCLU5678901",
-      "sealNumber": "246801",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 200,
-      "packageType": "DRUMS",
-      "cargoDescription": "20 MT ETHYLENE GLYCOL IN 200 DRUMS, NET WEIGHT 100 KG EACH",
-      "grossWeight": 20200.0,
-      "measurement": 25.0
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 45,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM, NETHERLANDS SEMI-FINISHED IRON OR NON-ALLOY STEEL PRODUCTS",
+      "grossWeight": 17200.0,
+      "measurement": 22.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
-    "totalPackages": 600,
-    "packageType": "DRUMS",
-    "totalGrossWeight": 60600.0,
-    "totalMeasurement": 75.0
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalPackages": 95,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 35700.0,
+    "totalMeasurement": 47.5
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456",
-    "hsCode": "2903310000",
-    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "123456789012345"
+      "lcNumber": "001234567890"
     },
-    "certificateDetails": "CN1234567890",
+    "certificateDetails": "123456789012",
     "originalBLDistribution": {
-      "name": "DHL EXPRESS",
-      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 123 4567"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "101 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999"
     },
     "originalInvoiceDistribution": {
-      "name": "EUROCHEM BV",
-      "address": "WEGELAAN 15, 3063 AL ROTTERDAM",
-      "country": "NETHERLANDS",
-      "telephone": "+31 10 414 5000",
-      "fax": "+31 10 414 5001"
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "101 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999"
     },
-    "onboardDate": "SEPT. 15. 2024",
-    "additionalRemarks": "10 DAYS FREE TIME AT DESTINATION. SHIPMENT MUST BE DELIVERED TO CONSIGNEE'S WAREHOUSE BY SEPT. 25, 2024."
+    "onboardDate": "SEPT. 29. 2024",
+    "additionalRemarks": "NO HAZARDOUS GOODS"
   }
 }

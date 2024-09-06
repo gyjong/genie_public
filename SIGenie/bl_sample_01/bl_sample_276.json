@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APRICOT20241015134521",
+  "voyageDetails": {
+    "vesselName": "CMA CGM TITAN",
+    "voyageNumber": "2448W",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI FUJIA IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "",
+      "address": "ROOM 1302, NO. 688, ZHONGSHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-63298765",
+      "fax": "+86-21-63298764"
+    },
+    "consignee": {
+      "name": "EUROTECH BV",
+      "address": "STATIONSPLEIN 10, 3013 AK ROTTERDAM, NETHERLANDS",
+      "companyNumber": "62537892"
+    },
+    "notifyParty": {
+      "name": "KUEHNE + NAGEL",
+      "address": "CENTRUMZUID 1, 1075 LV AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU3576218",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ET231015",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 50 CARTONS OF ELECTRONIC COMPONENTS",
+      "grossWeight": 1250.0,
+      "measurement": 5.5,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20FT) CONTAINER",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
+    "totalGrossWeight": 1250.0,
+    "totalMeasurement": 5.5
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0000123456"
+    },
+    "certificateDetails": [
+      "CN234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI FUJIA IMPORT & EXPORT CO., LTD.",
+      "address": "ROOM 1302, NO. 688, ZHONGSHAN ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-63298765",
+      "fax": "+86-21-63298764"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH BV",
+      "address": "STATIONSPLEIN 10, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4445555",
+      "fax": "+31-10-4445554"
+    },
+    "onboardDate": "OCT. 18. 2024",
+    "additionalRemarks": "Value: EUR 15,000"
+  }
+}

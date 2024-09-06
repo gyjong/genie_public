@@ -1,0 +1,110 @@
+{
+  "bookingReference": "ORANGE20240917123456",
+  "voyageDetails": {
+    "vesselName": "MSC ALESSANDRA",
+    "voyageNumber": "242039",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Anson Centre, SINGAPORE 079903",
+      "country": "SINGAPORE",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "EUROCHEM BV",
+      "address": "Zuidplein 150, 3013 AL ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@eurochem.nl",
+      "telephone": "+31 10 413 7500"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "Westblaak 36, 3012 KM ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "operations@globallogistics.nl",
+      "telephone": "+31 10 203 4567"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "ETHYL ACETATE",
+  "containers": [
+    {
+      "containerNumber": "TCLU3857296",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU6872543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU9765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APTC789",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ETHYL ACETATE, 200 DRUMS X 200 LITERS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 600,
+    "packageType": "DRUMS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "290331",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "EUROCHEM BV",
+      "address": "Zuidplein 150, 3013 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 413 7500"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 Anson Road, #12-01, Anson Centre, SINGAPORE 079903",
+      "telephone": "+65 6221 5678",
+      "fax": "+65 6221 5679"
+    },
+    "onboardDate": "SEPT. 19. 2024",
+    "additionalRemarks": "14 Days Free Time at Destination\nCargo Packed in New Drums\nShipper's Declaration for Dangerous Goods Not Required"
+  }
+}

@@ -1,97 +1,96 @@
 {
-  "bookingReference": "APPLE20241023124532",
+  "bookingReference": "APPLE20241015142302",
   "voyageDetails": {
-    "vesselName": "EVER CHAMPION",
-    "voyageNumber": "2024103",
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024098",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, USA",
-    "placeOfDelivery": "LOS ANGELES, USA",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "LOS ANGELES, USA"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
+    "blType": "Sea Waybill",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO.",
-      "onBehalfOf": "",
-      "address": "2588 ZHONGSHAN ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6329-1234",
-      "fax": "+86-21-6329-5678"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
     "consignee": {
-      "name": "SUNRISE TRADING INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "companyNumber": "123456789"
+      "name": "EURO TECH GMBH",
+      "address": "Siemensstrasse 5, 63065 Offenbach am Main, GERMANY",
+      "telephone": "+49-69-8700-1234",
+      "fax": "+49-69-8700-5678"
     },
     "notifyParty": {
-      "name": "GLOBAL LOGISTICS LTD.",
-      "address": "555 OCEAN AVENUE, SANTA MONICA, CA 90401, USA"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "870323",
-  "commodityDescription": "MOTORCYCLES",
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8542.31",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
   "containers": [
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "987654321",
-      "marksAndNumbers": "MOTORCYCLE 1",
-      "numberOfPackages": 2,
-      "packageType": "UNITS",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT, WEIGHT & SEAL SAID TO CONTAIN: MOTORCYCLES",
-      "grossWeight": 950.0,
-      "measurement": 15.5,
-      "additionalInfo": "CONTAINING 2 MOTORCYCLES"
+      "containerNumber": "CMAU9672315",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC-1234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, MARKED & NUMBERED AS SHOWN, SAID TO CONTAIN: ELECTRONIC COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40HQ) CONTAINER ONLY",
-    "totalPackages": 2,
-    "packageType": "UNITS",
-    "containerType": "40HQ",
-    "totalGrossWeight": 950.0,
-    "totalMeasurement": 15.5
+    "totalContainers": "ONE (20' DRY) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
   },
-  "reeferSettings": {
-    "containerNumber": "",
-    "temperature": "",
-    "minTemperature": "",
-    "maxTemperature": "",
-    "ventilation": "",
-    "humidity": ""
+  "dangerousGoods": {
+    "containerNumber": "CMAU9672315",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "8542.31",
+    "flashPoint": "N/A",
+    "additionalInfo": "BATTERY, WET, ELECTRIC VEHICLE.  Proper Shipping Name: BATTERY, WET, ELECTRIC VEHICLE."
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
     "lcDetails": {
-      "lcNumber": "0000202040501"
+      "lcNumber": "LC00012345678"
     },
-    "certificateDetails": [
-      "4112720070179X",
-      "4112720070180X"
-    ],
+    "certificateDetails": "SGS-20241015-001",
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO.",
-      "address": "2588 ZHONGSHAN ROAD, SHANGHAI, 200001, CHINA",
-      "telephone": "+86-21-6329-1234",
-      "fax": "+86-21-6329-5678"
+      "name": "EURO TECH GMBH",
+      "address": "Siemensstrasse 5, 63065 Offenbach am Main, GERMANY",
+      "telephone": "+49-69-8700-1234",
+      "fax": "+49-69-8700-5678"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING INC.",
-      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
-      "telephone": "1-213-555-1212",
-      "fax": "1-213-555-1213"
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "10 Anson Road, #28-01 International Plaza, SINGAPORE 079903",
+      "telephone": "+65-6227-8888",
+      "fax": "+65-6227-9999"
     },
-    "onboardDate": "OCT. 27. 2024",
-    "additionalRemarks": "Value: USD25,000"
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Batteries should be handled with care. Refer to MSDS for detailed handling instructions."
   }
 }

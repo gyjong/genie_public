@@ -1,109 +1,96 @@
 {
-  "bookingReference": "ORANGE202409251357300",
+  "bookingReference": "ORANGE20240912101502",
   "voyageDetails": {
-    "vesselName": "CMA CGM LIBRA",
-    "voyageNumber": "2024045",
-    "bound": "W"
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024042",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "ROOM 1202, NO.1588, XINGYE ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6258-8999",
-      "fax": "+86-21-6258-8998"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905"
     },
     "consignee": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "IMPORT@GFS.COM",
-      "contactPerson": "MARIA SMITH"
+      "name": "EURO GLOBAL TRADING GMBH",
+      "address": "Kaiserstrasse 23, 60311 Frankfurt am Main, Germany",
+      "telephone": "+49 69 79373200",
+      "fax": "+49 69 79373299"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING CO.",
-      "address": "4567 SUNRISE LANE, LOS ANGELES, CA 90020",
-      "telephone": "+1-310-555-2323",
-      "fax": "+1-310-555-2324",
-      "email": "INFO@SUNRISETRADING.COM"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "620920",
-  "commodityDescription": "WOMEN'S COTTON T-SHIRTS",
+  "hsCode": "85437080",
+  "commodityDescription": "ELECTRONIC COMPONENTS - PROCESSORS",
   "containers": [
     {
-      "containerNumber": "TCLU6871532",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
+      "marksAndNumbers": "APL123",
       "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOMEN'S COTTON T-SHIRTS (SIZE S)",
-      "grossWeight": 8000.0,
-      "measurement": 15.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - PROCESSORS (MODEL X250)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "TCLU6871533",
-      "sealNumber": "789012",
-      "marksAndNumbers": "DEF456",
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "APL456",
       "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOMEN'S COTTON T-SHIRTS (SIZE M)",
-      "grossWeight": 8000.0,
-      "measurement": 15.5
-    },
-    {
-      "containerNumber": "TCLU6871534",
-      "sealNumber": "345678",
-      "marksAndNumbers": "GHI789",
-      "numberOfPackages": 500,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: WOMEN'S COTTON T-SHIRTS (SIZE L)",
-      "grossWeight": 8000.0,
-      "measurement": 15.5
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRONIC COMPONENTS - PROCESSORS (MODEL X250)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "3 X 20DRY CONTAINERS",
-    "totalPackages": 1500,
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20FT",
     "totalGrossWeight": 24000.0,
-    "totalMeasurement": 46.5
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
   },
   "additionalInformation": {
-    "invoiceNumber": "20231025-001",
-    "documentNumber": "20231025-002",
     "lcDetails": {
-      "lcNumber": "LC1234567890"
+      "lcNumber": "0000201033739"
     },
     "certificateDetails": [
-      "COO-20231025-001"
+      "1000020070133X",
+      "1000020070134X"
     ],
     "originalBLDistribution": {
-      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
-      "address": "ROOM 1202, NO.1588, XINGYE ROAD, SHANGHAI 200080, CHINA",
-      "telephone": "+86-21-6258-8999",
-      "fax": "+86-21-6258-8998"
+      "name": "EURO GLOBAL TRADING GMBH",
+      "address": "Kaiserstrasse 23, 60311 Frankfurt am Main, Germany"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "1234 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015",
-      "telephone": "+1-213-555-1212",
-      "fax": "+1-213-555-1213",
-      "email": "IMPORT@GFS.COM"
+      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
+      "address": "123 ROBINSON ROAD, #15-01, ROBINSON TOWERS, SINGAPORE 068905"
     },
-    "onboardDate": "OCT. 28. 2024"
+    "onboardDate": "SEPT. 28. 2024",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT DESTINATION"
   }
 }

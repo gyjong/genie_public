@@ -1,96 +1,99 @@
 {
-  "bookingReference": "APPLE20240912143215",
+  "bookingReference": "APPLE20241026151245",
   "voyageDetails": {
-    "vesselName": "CMA CGM LIBRA",
-    "voyageNumber": "2024040",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024103",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "NEGOTIABLE",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+      "name": "SUNRISE TRADING CO. PTE. LTD.",
+      "onBehalfOf": "",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6225-5678",
+      "fax": "+65-6225-5679"
     },
     "consignee": {
-      "name": "EUROTECH IMPORT & EXPORT BV",
-      "address": "De Koog 10, 3011 ZH Rotterdam, Netherlands",
-      "telephone": "+31 10 477 2222",
-      "fax": "+31 10 477 2223"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "Postbus 123, 3000 AA Rotterdam, Netherlands",
+      "companyNumber": "12345678"
     },
     "notifyParty": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "Weesperplein 4, 1018 XA Amsterdam, Netherlands"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "84798990",
-  "commodityDescription": "MACHINERY PARTS FOR FOOD PROCESSING",
+  "shippingTerm": "CFR",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH OR DRIED CITRUS FRUIT",
   "containers": [
     {
-      "containerNumber": "MSCU3856721",
-      "sealNumber": "12345678",
-      "marksAndNumbers": "SUN123",
-      "numberOfPackages": 10,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH ORANGES",
+      "grossWeight": 15000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "87654321",
-      "marksAndNumbers": "SUN456",
-      "numberOfPackages": 5,
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINERY PARTS FOR FOOD PROCESSING",
-      "grossWeight": 6000.0,
-      "measurement": 25.0
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "4321567",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FRESH GRAPEFRUITS",
+      "grossWeight": 14500.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 15,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 18000.0,
-    "totalMeasurement": 60.0
+    "totalContainers": "TWO (20' DRY) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20DR",
+    "totalGrossWeight": 29500.0,
+    "totalMeasurement": 40.0
   },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
-  },
+  "reeferSettings": {},
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "0000201033739"
+      "lcNumber": "000023456789"
     },
     "certificateDetails": [
-      "1000020070133Y",
-      "1000020070134Z"
+      "PHYTO-1234567",
+      "CERTIFICATE OF ORIGIN-7890123"
     ],
     "originalBLDistribution": {
-      "name": "EUROTECH IMPORT & EXPORT BV",
-      "address": "De Koog 10, 3011 ZH Rotterdam, Netherlands"
+      "name": "SUNRISE TRADING CO. PTE. LTD.",
+      "address": "123 Anson Road, #15-01, Singapore 079903",
+      "telephone": "+65-6225-5678",
+      "fax": "+65-6225-5679"
     },
     "originalInvoiceDistribution": {
-      "name": "SUNRISE TRADING PTE LTD",
-      "address": "10 Anson Road, #22-01 International Plaza, Singapore 079903"
+      "name": "EUROFRESH IMPORT BV",
+      "address": "Postbus 123, 3000 AA Rotterdam, Netherlands"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "OCT. 30. 2024",
+    "additionalRemarks": "FRUIT QUALITY INSPECTED BEFORE LOADING, SHIPPED IN GOOD CONDITION"
   }
 }

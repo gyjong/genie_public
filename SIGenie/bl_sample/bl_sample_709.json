@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241017114532",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024421",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-6327-8910",
+      "fax": "+86-21-6327-8911"
+    },
+    "consignee": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "KEIZERSGRACHT 356, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-5678"
+    },
+    "notifyParty": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "KEIZERSGRACHT 356, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-5678"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "8544.42",
+  "commodityDescription": "PRINTING MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "SEGU5467213",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRINTING MACHINE PARTS",
+      "grossWeight": 7560.25,
+      "measurement": 25.45
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC) CONTAINER ONLY",
+    "totalPackages": 15,
+    "packageType": "BOXES",
+    "totalGrossWeight": 7560.25,
+    "totalMeasurement": 25.45
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231027-001",
+    "salesOrderNumber": "20231027-002",
+    "lcDetails": {
+      "lcNumber": "LC-1234567890"
+    },
+    "certificateDetails": "CN-20231027-003",
+    "originalBLDistribution": {
+      "name": "AMSTERDAM TRADING BV",
+      "address": "KEIZERSGRACHT 356, 1016 GJ AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-624-1234",
+      "fax": "+31-20-624-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHANGHAI IMPORT & EXPORT CO.",
+      "address": "123 HUANGPU ROAD, SHANGHAI 200000, CHINA",
+      "telephone": "+86-21-6327-8910",
+      "fax": "+86-21-6327-8911"
+    },
+    "onboardDate": "OCT. 25. 2024",
+    "additionalRemarks": "SHIPMENT IN GOOD ORDER AND CONDITION"
+  }
+}

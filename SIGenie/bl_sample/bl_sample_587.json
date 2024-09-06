@@ -1,0 +1,96 @@
+{
+  "bookingReference": "APPLE20241015103002",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024092",
+    "bound": "E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "333 HONGQIAO RD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6329-1111",
+      "fax": "+86-21-6329-2222"
+    },
+    "consignee": {
+      "name": "EUROSTAR IMPORTS BV",
+      "address": "KLOPPENBURGSTRAAT 123, 3011 XT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    },
+    "notifyParty": {
+      "name": "EUROSTAR LOGISTICS",
+      "address": "KLOPPENBURGSTRAAT 123, 3011 XT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8479.89",
+  "commodityDescription": "MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. SAID TO CONTAIN: 5 CRATES OF MACHINERY PARTS",
+      "grossWeight": 1500.0,
+      "measurement": 1.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20'X1) CONTAINER ONLY",
+    "totalPackages": 5,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1500.0,
+    "totalMeasurement": 1.8
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789",
+    "salesOrderNumber": "987654321",
+    "lcDetails": {
+      "lcNumber": "00002023123456"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "EUROSTAR IMPORTS BV",
+      "address": "KLOPPENBURGSTRAAT 123, 3011 XT ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "333 HONGQIAO RD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86-21-6329-1111",
+      "fax": "+86-21-6329-2222"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "GOODS PACKED AND SECURED IN CONTAINER"
+  }
+}

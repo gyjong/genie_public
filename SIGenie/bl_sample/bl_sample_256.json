@@ -1,97 +1,106 @@
 {
-  "bookingReference": "APPLE20240912124510",
+  "bookingReference": "APPLE20240918141234",
   "voyageDetails": {
-    "vesselName": "COSCO ASIA 05",
-    "voyageNumber": "2024042",
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2432W",
     "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "COLLECT",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
   },
   "documentationDetails": {
-    "blType": "NEGOTIABLE",
-    "numberOfOriginalBLs": 3,
-    "numberOfCopies": 0
+    "blType": "COPY",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
   },
   "partyDetails": {
     "shipper": {
-      "name": "Zhejiang Jinlong Machinery Co., Ltd.",
-      "address": "No. 333, Xingfu Road, Ningbo, Zhejiang, China",
-      "telephone": "+86 574 8765 4321",
-      "email": "sales@jinlongmachinery.com"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD",
+      "address": "2358 ZHONGSHAN ROAD, SHANGHAI, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Xuhui District)",
+      "telephone": "+86 21 6278 1234",
+      "email": "sales@shanghaiimport.com"
     },
     "consignee": {
-      "name": "EuroSteel BV",
-      "address": "Industrieweg 12, 3131 AA Vlaardingen, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "Mr. Pieter Van Der Meer",
-      "telephone": "+31 15 750 1234",
-      "fax": "+31 15 750 1235"
+      "name": "GERMAN AUTOMOTIVE GMBH",
+      "address": "WALDH\u00d6FENER STRASSE 125, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@GERMANAUTOMOTIVE.DE",
+      "telephone": "+49 40 3567890"
     },
     "notifyParty": {
-      "name": "EuroSteel BV",
-      "address": "Industrieweg 12, 3131 AA Vlaardingen, Netherlands",
-      "taxId": "NL851234567B01",
-      "president": "Mr. Pieter Van Der Meer",
-      "telephone": "+31 15 750 1234",
-      "fax": "+31 15 750 1235"
+      "name": "GERMAN AUTOMOTIVE GMBH",
+      "address": "WALDH\u00d6FENER STRASSE 125, 20457 HAMBURG",
+      "country": "GERMANY",
+      "email": "ORDERS@GERMANAUTOMOTIVE.DE",
+      "telephone": "+49 40 3567890"
     }
   },
   "shippingTerm": "CIF",
-  "hsCode": "73021000",
-  "commodityDescription": "STEEL BARS",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS: ENGINES, TRANSMISSION, WHEELS",
   "containers": [
     {
-      "containerNumber": "MSCU7765432",
+      "containerNumber": "CGLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "AS PER ATTACHED RIDER",
-      "numberOfPackages": 200,
-      "packageType": "BUNDLES",
-      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS STEEL BARS",
-      "grossWeight": 22000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "GERMANAUTO-001",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MOTORCYCLE PARTS - ENGINES, TRANSMISSION, WHEELS (20 PCS ENGINES, 15 PCS TRANSMISSION, 15 PCS WHEELS)",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CGLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GERMANAUTO-002",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. SAID TO CONTAIN: MOTORCYCLE PARTS - ENGINES, TRANSMISSION, WHEELS (20 PCS ENGINES, 15 PCS TRANSMISSION, 15 PCS WHEELS)",
+      "grossWeight": 15000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (20 DRY X1) CONTAINER ONLY",
-    "totalPackages": 200,
-    "packageType": "BUNDLES",
-    "containerType": "20 DRY X1",
-    "totalGrossWeight": 22000.0,
-    "totalMeasurement": 25.0
+    "totalContainers": "TWO (20FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 51.0
   },
   "outOfGaugeDimensions": {
-    "length": "In-Gauge",
-    "width": "In-Gauge",
-    "height": "In-Gauge",
-    "additionalInfo": "In-gauge in DRY Container"
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "001234567890"
+      "lcNumber": "LC23456789012"
     },
-    "certificateDetails": "1234567890",
+    "certificateDetails": [
+      "CN20240918001"
+    ],
     "originalBLDistribution": {
-      "name": "DHL Global Forwarding",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 200 1000",
-      "fax": "+31 10 200 1001"
+      "name": "DHL EXPRESS",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 35678901"
     },
     "originalInvoiceDistribution": {
-      "name": "DHL Global Forwarding",
-      "address": "123 Main Street, Rotterdam, Netherlands",
-      "telephone": "+31 10 200 1000",
-      "fax": "+31 10 200 1001"
+      "name": "DHL EXPRESS",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 35678901"
     },
-    "onboardDate": "SEPT. 29. 2024",
-    "additionalRemarks": "Cargo stowed in good order and condition"
+    "onboardDate": "SEPT. 20. 2024",
+    "additionalRemarks": "FREIGHT PREPAID TO DESTINATION\nPACKING LIST ATTACHED"
   }
 }

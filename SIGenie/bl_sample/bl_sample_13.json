@@ -1,99 +1,99 @@
 {
-  "bookingReference": "APPLE202410151045300",
+  "bookingReference": "APPLE202410121345600",
   "voyageDetails": {
-    "vesselName": "MSC SHIRLEY",
-    "voyageNumber": "2435E",
-    "bound": "W"
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2438E",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE, SINGAPORE",
-    "portOfLoading": "SINGAPORE, SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI",
+    "finalDestination": "LOS ANGELES, CA, U.S.A"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
     "numberOfOriginalBLs": 2,
-    "numberOfCopies": 0
+    "numberOfCopies": 2
   },
   "partyDetails": {
     "shipper": {
-      "name": "SEA DRAGON LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #20-02 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "EUROFRESH IMPORT & EXPORT BV",
+      "address": "HAVENSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "consignee": {
-      "name": "EUROSTAR IMPORTS GMBH",
-      "address": "Hanauer Landstra\u00dfe 120, 60314 Frankfurt am Main, Germany",
-      "telephone": "+49 69 12345678",
-      "fax": "+49 69 98765432",
-      "email": "imports@eurostar.de",
-      "contactPerson": "ANNA SCHMIDT"
+      "name": "SUNRISE FRUIT DISTRIBUTORS INC.",
+      "address": "1234 SUNRISE AVE, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 1235",
+      "email": "ORDERS@SUNRISEFRUIT.COM",
+      "contactPerson": "JANE SMITH"
     },
     "notifyParty": {
-      "name": "GERMAN LOGISTICS GMBH",
-      "address": "Industriestra\u00dfe 10, 60598 Frankfurt, Germany",
-      "telephone": "+49 69 78901234",
-      "fax": "+49 69 78905678"
+      "name": "EUROFRESH IMPORT & EXPORT BV",
+      "address": "HAVENSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "73269090",
-  "commodityDescription": "STAINLESS STEEL PIPES AND TUBES",
+  "shippingTerm": "CIF LOS ANGELES",
+  "hsCode": "080550",
+  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS",
   "containers": [
     {
-      "containerNumber": "CMAU7892345",
+      "containerNumber": "FCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "SEA-DRAGON-123",
-      "numberOfPackages": 100,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STAINLESS STEEL PIPES - 2 INCH DIAMETER",
-      "grossWeight": 15000.0,
-      "measurement": 25.0
+      "marksAndNumbers": "EUROFRESH123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GOLDEN DELICIOUS APPLES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "MSCU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "SEA-DRAGON-456",
-      "numberOfPackages": 80,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STAINLESS STEEL TUBES - 1.5 INCH DIAMETER",
-      "grossWeight": 12000.0,
-      "measurement": 20.0
+      "containerNumber": "FCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EUROFRESH456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: GOLDEN DELICIOUS APPLES",
+      "grossWeight": 21500.0,
+      "measurement": 29.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 20DRY CONTAINERS",
-    "totalPackages": 180,
-    "totalGrossWeight": 27000.0,
-    "totalMeasurement": 45.0
+    "totalContainers": "2 X 40FT CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 59.5
   },
   "additionalInformation": {
-    "invoiceNumber": "SD20241015001",
-    "documentNumber": "20241015002",
+    "invoiceNumber": "1234567890",
+    "documentNumber": "202410121345600",
     "lcDetails": {
-      "lcNumber": "LC20241015003"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COC-20241015-001",
-      " fumigation certificate - 20241015-002"
+      "PHYTO-123456",
+      "COO-789012"
     ],
     "originalBLDistribution": {
-      "name": "EUROSTAR IMPORTS GMBH",
-      "address": "Hanauer Landstra\u00dfe 120, 60314 Frankfurt am Main, Germany",
-      "telephone": "+49 69 12345678",
-      "fax": "+49 69 98765432"
+      "name": "EUROFRESH IMPORT & EXPORT BV",
+      "address": "HAVENSTRAAT 123, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "originalInvoiceDistribution": {
-      "name": "SEA DRAGON LOGISTICS PTE LTD",
-      "address": "10 Anson Road, #20-02 International Plaza, Singapore 079903",
-      "telephone": "+65 6222 1234",
-      "fax": "+65 6222 5678"
+      "name": "SUNRISE FRUIT DISTRIBUTORS INC.",
+      "address": "1234 SUNRISE AVE, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 213 555 1234",
+      "fax": "+1 213 555 1235"
     },
-    "onboardDate": "OCT. 27. 2024"
+    "onboardDate": "OCT. 25. 2024"
   }
 }

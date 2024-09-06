@@ -1,97 +1,99 @@
 {
-  "bookingReference": "APPLE20240912123456",
+  "bookingReference": "APPLE202410189123400",
   "voyageDetails": {
-    "vesselName": "MSC IRINA",
+    "vesselName": "CMA CGM ZHENG HE",
     "voyageNumber": "2428E",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "MASTER",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "DELTA SHIPPING BV",
-      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROFRESH PRODUCE BV",
+      "address": "WESTERSTRAAT 125, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "consignee": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "125 BROAD STREET, SUITE 200, NEW YORK, NY 10004, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "FRUIT EXPRESS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@FRUITEEXPRESS.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "DELTA SHIPPING BV",
-      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS",
-      "telephone": "+31 10 555 6789",
-      "fax": "+31 10 555 6790"
+      "sameAsConsignee": false,
+      "name": "GREEN LOGISTICS INC.",
+      "address": "5678 OCEAN AVENUE, LOS ANGELES, CA 90016"
     }
   },
   "shippingTerm": "CFR",
-  "hsCode": "87112000",
-  "commodityDescription": "MOTORCYCLES, 50CC TO 250CC",
+  "hsCode": "080510",
+  "commodityDescription": "FRESH APPLES - GOLDEN DELICIOUS VARIETY",
   "containers": [
     {
-      "containerNumber": "CMAU8765432",
+      "containerNumber": "GICL1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "DELTA-1",
-      "numberOfPackages": 10,
-      "cargoDescription": "MOTORCYCLES, 50CC TO 250CC, BRAND: DELTA SPEEDSTER",
-      "grossWeight": 8000.0,
-      "measurement": 35.0
+      "marksAndNumbers": "FRUIT123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FRESH GOLDEN DELICIOUS APPLES",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
     },
     {
-      "containerNumber": "CMAU1234567",
-      "sealNumber": "789012",
-      "marksAndNumbers": "DELTA-2",
-      "numberOfPackages": 10,
-      "cargoDescription": "MOTORCYCLES, 50CC TO 250CC, BRAND: DELTA SPEEDSTER",
-      "grossWeight": 8000.0,
-      "measurement": 35.0
+      "containerNumber": "GICL7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "FRUIT456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FRESH GOLDEN DELICIOUS APPLES",
+      "grossWeight": 21500.0,
+      "measurement": 29.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
-    "totalPackages": 20,
-    "packageType": "PACKAGES",
-    "containerType": "20FT",
-    "totalGrossWeight": 16000.0,
-    "totalMeasurement": 70.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 59.5
   },
   "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
     "lcDetails": {
-      "lcNumber": "LC20240912123"
+      "lcNumber": "LC1234567890"
     },
     "certificateDetails": [
-      "COO-US20240912"
+      "PHYTO-1234567",
+      "HEALTH-7890123"
     ],
     "originalBLDistribution": {
-      "name": "DELTA SHIPPING BV",
-      "address": "BEETHOVENSTRAAT 123, 3012 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROFRESH PRODUCE BV",
+      "address": "WESTERSTRAAT 125, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
     },
     "originalInvoiceDistribution": {
-      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
-      "address": "125 BROAD STREET, SUITE 200, NEW YORK, NY 10004, USA"
+      "name": "FRUIT EXPRESS INC.",
+      "address": "1234 MAIN STREET, LOS ANGELES, CA 90015",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213",
+      "email": "IMPORT@FRUITEEXPRESS.COM"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "GOODS ARE PACKED IN WOODEN CRATES. "
+    "onboardDate": "OCT. 25. 2024"
   }
 }

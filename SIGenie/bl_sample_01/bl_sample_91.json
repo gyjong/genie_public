@@ -1,0 +1,106 @@
+{
+  "bookingReference": "APPLE20241015143012",
+  "voyageDetails": {
+    "vesselName": "EVER CHAMPION",
+    "voyageNumber": "2024092",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YINGQI IMPORT & EXPORT CO., LTD.",
+      "onBehalfOf": "ZHEJIANG HUAYU GROUP CO., LTD",
+      "address": "25F, SHANGHAI WORLD TRADE CENTER, NO. 289, SOUTH HUANGPU ROAD, SHANGHAI, 200080, CHINA",
+      "telephone": "+86-21-6327-0001",
+      "fax": "+86-21-6327-1000"
+    },
+    "consignee": {
+      "name": "EUROFOOD TRADING BV",
+      "address": "KEULENSTRAAT 11, 3012 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "82127543"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING",
+      "address": "WEENA 282, 3012 CM ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "200990",
+  "commodityDescription": "FRUIT JUICES",
+  "containers": [
+    {
+      "containerNumber": "SUDU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "2024-APPLE-101",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 500 CARTONS OF APPLE JUICE, NET WEIGHT 20KG PER CARTON.",
+      "grossWeight": 10000.0,
+      "measurement": 15.0,
+      "additionalInfo": "TEMPERATURE CONTROL REQUIRED: +5\u00b0C TO +10\u00b0C"
+    },
+    {
+      "containerNumber": "SUDU7896544",
+      "sealNumber": "789012",
+      "marksAndNumbers": "2024-APPLE-102",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. 500 CARTONS OF APPLE JUICE, NET WEIGHT 20KG PER CARTON.",
+      "grossWeight": 10000.0,
+      "measurement": 15.0,
+      "additionalInfo": "TEMPERATURE CONTROL REQUIRED: +5\u00b0C TO +10\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20GP) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "20GP",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "reeferSettings": {
+    "containerNumber": "SUDU7896543",
+    "temperature": "+7.0\u00b0C",
+    "minTemperature": "+5.0\u00b0C",
+    "maxTemperature": "+10.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "70% ~ 80%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN-20241015-12345",
+      "CN-20241015-67890"
+    ],
+    "originalBLDistribution": {
+      "name": "SHANGHAI YINGQI IMPORT & EXPORT CO., LTD.",
+      "address": "25F, SHANGHAI WORLD TRADE CENTER, NO. 289, SOUTH HUANGPU ROAD, SHANGHAI, 200080, CHINA",
+      "telephone": "+86-21-6327-0001",
+      "fax": "+86-21-6327-1000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROFOOD TRADING BV",
+      "address": "KEULENSTRAAT 11, 3012 AA ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "OCT. 20. 2024",
+    "additionalRemarks": "Shipment subject to inspection by customs authorities."
+  }
+}

@@ -1,100 +1,100 @@
 {
-  "bookingReference": "APPLE202409151315300",
+  "bookingReference": "APPLE20240918125432",
   "voyageDetails": {
-    "vesselName": "MSC TASIA",
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
     "voyageNumber": "2432E",
-    "bound": "W"
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "NINGBO, CHINA",
-    "portOfLoading": "NINGBO, CHINA",
-    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
-    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
-    "finalDestination": ""
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN",
+    "finalDestination": "FRANKFURT, GERMANY"
   },
   "paymentDetails": {
     "freightPaymentTerms": "Collect",
-    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
-    "blType": "ORIGINAL",
-    "numberOfOriginalBLs": 2,
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "CHINA GLOBAL TRADING CO., LTD",
-      "address": "ROOM 201, NO. 888, HONGQI ROAD, NINGBO, 315040, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "fax": "+86 574 8765 4322"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "1234 SHEN NAN ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
     },
     "consignee": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "12345 SUNRISE AVE, SUITE 200, LOS ANGELES, CA 90067",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213",
-      "email": "IMPORT@WCI.COM",
-      "contactPerson": "JOHN SMITH"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 69 79034567"
     },
     "notifyParty": {
-      "sameAsConsignee": false,
-      "name": "ABC LOGISTICS INC.",
-      "address": "56789 OCEANVIEW DR, LONG BEACH, CA 90802",
-      "telephone": "+1 562 555 2323",
-      "fax": "+1 562 555 2324"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT",
+      "country": "GERMANY",
+      "email": "ORDERS@EUROTECHGMBH.DE",
+      "telephone": "+49 69 79034567"
     }
   },
-  "shippingTerm": "CFR",
-  "hsCode": "621120",
-  "commodityDescription": "LADIES' 100% COTTON T-SHIRTS",
+  "shippingTerm": "CIF",
+  "hsCode": "854239",
+  "commodityDescription": "ELECTRICAL CIRCUIT BOARDS",
   "containers": [
     {
-      "containerNumber": "CMLU1234567",
+      "containerNumber": "CMAU8567321",
       "sealNumber": "123456",
-      "marksAndNumbers": "ABC123",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' 100% COTTON T-SHIRTS (ASSORTED COLORS & SIZES)",
-      "grossWeight": 12000.0,
-      "measurement": 25.5
+      "marksAndNumbers": "ET-2024-09-18",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS ELECTRICAL CIRCUIT BOARDS AS PER INVOICE NO. ET20240918",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     },
     {
-      "containerNumber": "CMLU9876543",
-      "sealNumber": "765432",
-      "marksAndNumbers": "XYZ456",
-      "numberOfPackages": 1000,
-      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LADIES' 100% COTTON T-SHIRTS (ASSORTED COLORS & SIZES)",
-      "grossWeight": 11800.0,
-      "measurement": 24.8
+      "containerNumber": "CMAU7891234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ET-2024-09-18",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "50 CARTONS ELECTRICAL CIRCUIT BOARDS AS PER INVOICE NO. ET20240918",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "2 X 40HC CONTAINERS",
-    "totalPackages": 2000,
-    "totalGrossWeight": 23800.0,
-    "totalMeasurement": 50.3
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
   },
   "additionalInformation": {
-    "invoiceNumber": "20240915-001",
-    "documentNumber": "20240915-BL-002",
+    "purchaseOrderNumber": "PO12345678",
+    "hsCode": "854239",
+    "freeTimeAtDestination": "7 DAYS",
     "lcDetails": {
-      "lcNumber": "123456789012345678"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "4112724080177X",
-      "4112724080178X"
-    ],
+    "certificateDetails": "123456789012345",
     "originalBLDistribution": {
-      "name": "CHINA GLOBAL TRADING CO., LTD",
-      "address": "ROOM 201, NO. 888, HONGQI ROAD, NINGBO, 315040, CHINA",
-      "telephone": "+86 574 8765 4321",
-      "fax": "+86 574 8765 4322"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT",
+      "telephone": "+49 69 79034567"
     },
     "originalInvoiceDistribution": {
-      "name": "WEST COAST IMPORTERS INC.",
-      "address": "12345 SUNRISE AVE, SUITE 200, LOS ANGELES, CA 90067",
-      "telephone": "+1 310 555 1212",
-      "fax": "+1 310 555 1213"
+      "name": "EUROTECH GMBH",
+      "address": "FRANKFURTER STRASSE 50, 60329 FRANKFURT",
+      "telephone": "+49 69 79034567",
+      "fax": "+49 69 79034568"
     },
-    "onboardDate": "SEPT. 20. 2024"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "7 DAYS FREE TIME AT DESTINATION\nGOODS ARE PACKED IN STRONG CARTONS\nSHIPPER'S SEAL AND MARKS ON EACH CARTON"
   }
 }

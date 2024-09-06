@@ -1,0 +1,98 @@
+{
+  "bookingReference": "APPLE202410121145100",
+  "voyageDetails": {
+    "vesselName": "MSC LUCIA",
+    "voyageNumber": "2445E",
+    "bound": "W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LOS ANGELES, CA, U.S.A",
+    "placeOfDelivery": "LOS ANGELES, CA, U.S.A",
+    "finalDestination": ""
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZHANGJIagang FENGHUA IMPORT & EXPORT CO., LTD.",
+      "address": "23F, BUILDING A, NO. 1188, SHENZHONG ROAD, JIANGSU PROVINCE, CHINA",
+      "telephone": "+86-512-56881112",
+      "fax": "+86-512-56881113"
+    },
+    "consignee": {
+      "name": "WEST COAST LOGISTICS INC.",
+      "address": "12345 PACIFIC AVENUE, LONG BEACH, CA 90802",
+      "telephone": "+1-562-555-1212",
+      "fax": "+1-562-555-1213",
+      "email": "INFO@WESTCOASTLOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1010 MARKET STREET, SAN FRANCISCO, CA 94103",
+      "telephone": "+1-415-555-3434",
+      "fax": "+1-415-555-3435"
+    }
+  },
+  "shippingTerm": "CFR LOS ANGELES",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU3391547",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZJF123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 12000.0,
+      "measurement": 25.618
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ZJF456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 11800.0,
+      "measurement": 24.571
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40HQ CONTAINERS",
+    "totalPackages": 2000,
+    "totalGrossWeight": 23800.0,
+    "totalMeasurement": 50.189
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241012-001",
+    "documentNumber": "20241012-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN-20241012-001"
+    ],
+    "originalBLDistribution": {
+      "name": "ZHANGJIagang FENGHUA IMPORT & EXPORT CO., LTD.",
+      "address": "23F, BUILDING A, NO. 1188, SHENZHONG ROAD, JIANGSU PROVINCE, CHINA",
+      "telephone": "+86-512-56881112",
+      "fax": "+86-512-56881113"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "1010 MARKET STREET, SAN FRANCISCO, CA 94103",
+      "telephone": "+1-415-555-3434",
+      "fax": "+1-415-555-3435"
+    },
+    "onboardDate": "OCT. 20. 2024"
+  }
+}

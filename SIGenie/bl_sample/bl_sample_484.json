@@ -1,96 +1,99 @@
 {
-  "bookingReference": "APPLE20241015134523",
+  "bookingReference": "APPLE202409181133200",
   "voyageDetails": {
-    "vesselName": "MSC ALESSANDRA",
-    "voyageNumber": "2445W",
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2438E",
     "bound": "W"
   },
   "routeDetails": {
     "placeOfReceipt": "SINGAPORE",
     "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
-    "placeOfDelivery": "ROTTERDAM, NETHERLANDS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO",
     "finalDestination": ""
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LONG BEACH, CA, U.S.A"
   },
   "documentationDetails": {
-    "blType": "Negotiable",
-    "numberOfOriginalBLs": 3,
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 2,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL TRADING CO. PTE LTD",
-      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
-      "telephone": "+65-6222-1234",
-      "fax": "+65-6222-5678"
+      "name": "SHANGHAI GLOBAL LOGISTICS LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
     },
     "consignee": {
-      "name": "EURO IMPORTS BV",
-      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
-      "telephone": "+31-20-624-5678",
-      "fax": "+31-20-624-1234"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "5555 OCEAN AVENUE, LONG BEACH, CA 90802",
+      "telephone": "+1 562 123 4567",
+      "fax": "+1 562 123 8901",
+      "email": "IMPORT@WCI.COM",
+      "contactPerson": "JOHN SMITH"
     },
     "notifyParty": {
-      "name": "EUROBANK N.V.",
-      "address": "Gustav Mahlerlaan 10, 1081 LR Amsterdam, Netherlands",
-      "telephone": "+31-20-555-1234",
-      "fax": "+31-20-555-5678"
+      "name": "ABC BANK",
+      "address": "1111 BANK STREET, LONG BEACH, CA 90803",
+      "telephone": "+1 562 987 6543",
+      "fax": "+1 562 987 5432"
     }
   },
-  "shippingTerm": "CIF ROTTERDAM",
-  "hsCode": "8703.23",
-  "commodityDescription": "MOTORCYCLES, PARTS AND ACCESSORIES",
+  "shippingTerm": "CIF LONG BEACH",
+  "hsCode": "8479899090",
+  "commodityDescription": "MACHINERY PARTS FOR AUTOMOBILE ASSEMBLY",
   "containers": [
     {
-      "containerNumber": "SUDU9876543",
+      "containerNumber": "GRSU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "MC20241015",
-      "numberOfPackages": 5,
-      "packageType": "CRATES",
-      "cargoDescription": "MOTORCYCLES & SPARE PARTS AS PER PACKING LIST",
-      "grossWeight": 2500.0,
-      "measurement": 25.0
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: AUTOMOBILE ENGINE COMPONENTS",
+      "grossWeight": 12000.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "TCLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: AUTOMOBILE TRANSMISSION PARTS",
+      "grossWeight": 9000.0,
+      "measurement": 13.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "ONE (40'HQ) CONTAINER",
-    "totalPackages": 5,
-    "packageType": "CRATES",
-    "totalGrossWeight": 2500.0,
-    "totalMeasurement": 25.0
-  },
-  "dangerousGoods": {
-    "containerNumber": "",
-    "unClass": "",
-    "unCode": "",
-    "hsCode": "",
-    "flashPoint": "",
-    "additionalInfo": ""
+    "totalContainers": "2 X 40FT DRY CONTAINERS",
+    "totalPackages": 25,
+    "totalGrossWeight": 21000.0,
+    "totalMeasurement": 28.5
   },
   "additionalInformation": {
-    "purchaseOrderNumber": "PO123456789",
-    "salesOrderNumber": "SO987654321",
+    "invoiceNumber": "INV20240918-001",
+    "documentNumber": "20001639822",
     "lcDetails": {
-      "lcNumber": "LC20241015001"
+      "lcNumber": "00001010339243"
     },
-    "certificateDetails": "Certificate of Origin: 20241015002",
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
     "originalBLDistribution": {
-      "name": "EUROBANK N.V.",
-      "address": "Gustav Mahlerlaan 10, 1081 LR Amsterdam, Netherlands",
-      "telephone": "+31-20-555-1234",
-      "fax": "+31-20-555-5678"
+      "name": "SHANGHAI GLOBAL LOGISTICS LTD.",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
     },
     "originalInvoiceDistribution": {
-      "name": "EURO IMPORTS BV",
-      "address": "Weesperstraat 100, 1018 VN Amsterdam, Netherlands",
-      "telephone": "+31-20-624-5678",
-      "fax": "+31-20-624-1234"
+      "name": "WEST COAST IMPORTERS INC.",
+      "address": "5555 OCEAN AVENUE, LONG BEACH, CA 90802",
+      "telephone": "+1 562 123 4567",
+      "fax": "+1 562 123 8901"
     },
-    "onboardDate": "OCT. 20. 2024",
-    "additionalRemarks": "SHIPMENT MUST BE DISCHARGED DIRECTLY INTO THE CONSIGNEE'S WAREHOUSE"
+    "onboardDate": "SEPT. 28. 2024"
   }
 }

@@ -1,83 +1,74 @@
 {
-  "bookingReference": "APPLE20240912101523",
+  "bookingReference": "APPLE20240912102345",
   "voyageDetails": {
-    "vesselName": "CMA CGM LEO",
-    "voyageNumber": "2024040",
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024042",
     "bound": "W"
   },
   "routeDetails": {
-    "placeOfReceipt": "ROTTERDAM, NETHERLANDS",
-    "portOfLoading": "ROTTERDAM, NETHERLANDS",
-    "portOfDischarge": "NEW YORK, USA",
-    "placeOfDelivery": "NEW YORK, USA",
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM",
     "finalDestination": ""
   },
   "paymentDetails": {
     "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+    "freightPayableAt": "SINGAPORE"
   },
   "documentationDetails": {
-    "blType": "MASTER",
+    "blType": "ORIGINAL",
     "numberOfOriginalBLs": 3,
     "numberOfCopies": 0
   },
   "partyDetails": {
     "shipper": {
-      "name": "GLOBAL FORWARDING SOLUTIONS BV",
-      "address": "BEETHOVENSTRAAT 25, 3015 AA ROTTERDAM, NETHERLANDS"
+      "name": "GLOBAL TRADING CO. PTE LTD",
+      "address": "101 ROBINSON ROAD, #12-01, ROBINSON 100, SINGAPORE 068902"
     },
     "consignee": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "EUROLOGISTICS BV",
+      "address": "WESTVLIETweg 17, 3130 BE, BRECHT, BELGIUM",
+      "telephone": "+32 16 31 55 55",
+      "fax": "+32 16 31 55 66"
     },
     "notifyParty": {
-      "name": "GLOBAL TRADING CO.",
-      "address": "555 BROADWAY, NEW YORK, NY 10012, USA",
-      "telephone": "+1 212 555 2323",
-      "fax": "+1 212 555 2324"
+      "name": "EUROLOGISTICS BV",
+      "address": "WESTVLIETweg 17, 3130 BE, BRECHT, BELGIUM",
+      "telephone": "+32 16 31 55 55",
+      "fax": "+32 16 31 55 66"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "87032300",
-  "commodityDescription": "MOTORCYCLES WITH SIDE CARS",
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS",
   "containers": [
     {
-      "containerNumber": "MSCU9876543",
+      "containerNumber": "TCLU1234567",
       "sealNumber": "123456",
-      "marksAndNumbers": "GFS123",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: ADVENTURE)",
-      "grossWeight": 800.0,
+      "marksAndNumbers": "GLT123",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS TELECOMMUNICATION ROUTERS, BRAND: CISCO",
+      "grossWeight": 2500.0,
       "measurement": 15.0
     },
     {
-      "containerNumber": "MSCU1122334",
-      "sealNumber": "654321",
-      "marksAndNumbers": "GFS456",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: EXPLORER)",
-      "grossWeight": 800.0,
-      "measurement": 15.0
-    },
-    {
-      "containerNumber": "MSCU5566778",
-      "sealNumber": "987654",
-      "marksAndNumbers": "GFS789",
-      "numberOfPackages": 2,
-      "cargoDescription": "2 MOTORCYCLES WITH SIDE CARS (MODEL: SCOUT)",
-      "grossWeight": 800.0,
+      "containerNumber": "TCLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GLT456",
+      "numberOfPackages": 50,
+      "cargoDescription": "50 PCS TELECOMMUNICATION ROUTERS, BRAND: CISCO",
+      "grossWeight": 2500.0,
       "measurement": 15.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "THREE (20FT) CONTAINERS ONLY",
-    "totalPackages": 6,
+    "totalContainers": "TWO (20FT) CONTAINERS ONLY",
+    "totalPackages": 100,
     "packageType": "PACKAGES",
     "containerType": "20FT",
-    "totalGrossWeight": 2400.0,
-    "totalMeasurement": 45.0
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 30.0
   },
   "outOfGaugeDimensions": {
     "length": 0,
@@ -87,23 +78,21 @@
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "LC123456789"
+      "lcNumber": "0000345678901"
     },
     "certificateDetails": [
-      "COO-123456789",
-      " fumigation certificate-987654321"
+      "1234567890123X",
+      "4567890123456X"
     ],
     "originalBLDistribution": {
-      "name": "GLOBAL FORWARDING SOLUTIONS BV",
-      "address": "BEETHOVENSTRAAT 25, 3015 AA ROTTERDAM, NETHERLANDS"
+      "name": "EUROLOGISTICS BV",
+      "address": "WESTVLIETweg 17, 3130 BE, BRECHT, BELGIUM"
     },
     "originalInvoiceDistribution": {
-      "name": "AMERICAN LOGISTICS INC.",
-      "address": "123 WALL STREET, NEW YORK, NY 10005, USA",
-      "telephone": "+1 212 555 1212",
-      "fax": "+1 212 555 1213"
+      "name": "EUROLOGISTICS BV",
+      "address": "WESTVLIETweg 17, 3130 BE, BRECHT, BELGIUM"
     },
     "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "MOTORCYCLES ARE PACKED IN CRATES AND SECURED FOR SAFE TRANSPORTATION."
+    "additionalRemarks": "GOODS ARE PACKED ON PALLETS"
   }
 }

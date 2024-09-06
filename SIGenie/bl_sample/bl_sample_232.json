@@ -1,20 +1,20 @@
 {
-  "bookingReference": "BERRY20240912143215",
+  "bookingReference": "APPLE20240918124532",
   "voyageDetails": {
-    "vesselName": "MSC ZOE 03",
-    "voyageNumber": "2024042",
-    "bound": "W"
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "224W",
+    "bound": "E"
   },
   "routeDetails": {
-    "placeOfReceipt": "SINGAPORE",
-    "portOfLoading": "SINGAPORE",
-    "portOfDischarge": "HAMBURG, GERMANY",
-    "placeOfDelivery": "HAMBURG, GERMANY",
-    "finalDestination": "FRANKFURT, GERMANY"
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER",
+    "finalDestination": "AMSTERDAM, NETHERLANDS"
   },
   "paymentDetails": {
-    "freightPaymentTerms": "PREPAID",
-    "freightPayableAt": "SINGAPORE"
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
   },
   "documentationDetails": {
     "blType": "ORIGINAL",
@@ -23,76 +23,87 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "101 MIDDLE ROAD, #08-01, SINGAPORE 188966"
+      "name": "SHANGHAI IMPORT & EXPORT CO. LTD.",
+      "address": "ROOM 501, NO. 1888, HONGQIAO ROAD, SHANGHAI, 200336",
+      "country": "CHINA",
+      "additionalInfo": "(MINHANG DISTRICT)"
     },
     "consignee": {
-      "name": "EUROFREIGHT GMBH",
-      "address": "REGENHARDTSTRASSE 12, 20457 HAMBURG, GERMANY",
-      "telephone": "+49 40 36364500",
-      "fax": "+49 40 36364599"
+      "name": "DELTA TRADING BV",
+      "address": "WEENA 345, 3012 CV ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "INFO@DELTATRADING.NL",
+      "telephone": "+31 10 412 3456"
     },
     "notifyParty": {
-      "name": "EUROFREIGHT GMBH",
-      "address": "REGENHARDTSTRASSE 12, 20457 HAMBURG, GERMANY",
-      "telephone": "+49 40 36364500",
-      "fax": "+49 40 36364599"
+      "name": "FIRST LOGISTICS BV",
+      "address": "DIJKZICHT 10, 3011 AX ROTTERDAM",
+      "country": "NETHERLANDS",
+      "email": "OPERATIONS@FIRSTLOGISTICS.NL",
+      "telephone": "+31 10 777 6667"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "85437080",
-  "commodityDescription": "TELECOMMUNICATION EQUIPMENT - ROUTERS AND SWITCHES",
+  "shippingTerm": "CFR",
+  "hsCode": "390720",
+  "commodityDescription": "POLYPROPYLENE RESIN",
   "containers": [
     {
-      "containerNumber": "GLDU8765432",
+      "containerNumber": "MSCU9675321",
       "sealNumber": "123456",
       "marksAndNumbers": "ABC123",
-      "numberOfPackages": 50,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. ROUTERS AND SWITCHES. (H.S. CODE: 85437080)",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "numberOfPackages": 500,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN 25MT BAGS",
+      "grossWeight": 25000.0,
+      "measurement": 20.0
     },
     {
-      "containerNumber": "APHU1122334",
-      "sealNumber": "654321",
-      "marksAndNumbers": "XYZ789",
-      "numberOfPackages": 50,
-      "cargoDescription": "SHIPPER'S LOAD & COUNT. ROUTERS AND SWITCHES. (H.S. CODE: 85437080)",
-      "grossWeight": 12000.0,
-      "measurement": 35.0
+      "containerNumber": "MSCU3872410",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 400,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN 20MT BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSCU6543210",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DEF789",
+      "numberOfPackages": 600,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POLYPROPYLENE RESIN 30MT BAGS",
+      "grossWeight": 30000.0,
+      "measurement": 20.0
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (20' DRY) CONTAINERS ONLY",
-    "totalPackages": 100,
-    "packageType": "PACKAGES",
-    "containerType": "20DRY",
-    "totalGrossWeight": 24000.0,
-    "totalMeasurement": 70.0
-  },
-  "outOfGaugeDimensions": {
-    "length": 0,
-    "width": 0,
-    "height": 0,
-    "overHeight": 0
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BAGS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 60.0
   },
   "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "3907209000",
+    "freeTimeAtDestination": "10 DAYS",
     "lcDetails": {
-      "lcNumber": "0000301043748"
+      "lcNumber": "LC1234567890"
     },
-    "certificateDetails": [
-      "1000030080141X",
-      "1000030080142X"
-    ],
+    "certificateDetails": "CN20240918001",
     "originalBLDistribution": {
-      "name": "EUROFREIGHT GMBH",
-      "address": "REGENHARDTSTRASSE 12, 20457 HAMBURG, GERMANY"
+      "name": "DELTA TRADING BV",
+      "address": "WEENA 345, 3012 CV ROTTERDAM",
+      "telephone": "+31 10 412 3456"
     },
     "originalInvoiceDistribution": {
-      "name": "ASIA PACIFIC LOGISTICS PTE LTD",
-      "address": "101 MIDDLE ROAD, #08-01, SINGAPORE 188966"
+      "name": "DELTA TRADING BV",
+      "address": "WEENA 345, 3012 CV ROTTERDAM",
+      "telephone": "+31 10 412 3456"
     },
-    "onboardDate": "SEPT. 28. 2024",
-    "additionalRemarks": "NONE"
+    "onboardDate": "SEPT. 18. 2024",
+    "additionalRemarks": "10 Days Free Time at Destination"
   }
 }
