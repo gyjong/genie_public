@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410229737",
+  "customerName": "CUSTOMER 5287",
+  "shipperName": "SHIPPER 4584",
+  "invoiceReceiver": "INVOICE RECEIVER 4819",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024421E"
+  },
+  "cargoDetails": {
+    "hsCode": "148268",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 31",
+    "commodity": "SAMPLE COMMODITY 74"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-30 23:57",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 23:57",
+    "estimatedArrivalAtDischargePort": "2024-11-24 23:57"
+  },
+  "emptyContainerPickupLocation": "TANGER, JAPAN",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

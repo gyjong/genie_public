@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202411078661",
+  "customerName": "CUSTOMER 7175",
+  "shipperName": "SHIPPER 7143",
+  "invoiceReceiver": "INVOICE RECEIVER 2961",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024618E"
+  },
+  "cargoDetails": {
+    "hsCode": "814952",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 26",
+    "commodity": "SAMPLE COMMODITY 32"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-18 01:26",
+    "estimatedDepartureFromLoadingPort": "2024-10-27 01:26",
+    "estimatedArrivalAtDischargePort": "2024-11-26 01:26"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

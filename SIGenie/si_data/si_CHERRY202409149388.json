@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202409149388",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024652E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1860",
+      "address": "UL. NOWA 123, GDANSK, POLAND",
+      "telephone": "+48 58 666 7777",
+      "fax": "+48 58 666 7778"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2860",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 44 44 55 55",
+      "fax": "+33 1 44 44 55 56",
+      "email": "CUSTOMER2860@EXAMPLE.COM",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6095",
+      "address": "25 BOULEVARD DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 33 33 44 44",
+      "fax": "+33 1 33 33 44 45",
+      "email": "INVOICERECEIVER6095@EXAMPLE.COM"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "935451",
+  "commodityDescription": "SAMPLE COMMODITY 3",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 3",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 3",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 3",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 3",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 40 HIGH CUBE",
+    "totalPackages": 400,
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20240914938823",
+    "documentNumber": "DOC20240914938823",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2860",
+      "address": "12 RUE DE LA PAIX, PARIS, FRANCE",
+      "telephone": "+33 1 44 44 55 55",
+      "fax": "+33 1 44 44 55 56"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6095",
+      "address": "25 BOULEVARD DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 33 33 44 44",
+      "fax": "+33 1 33 33 44 45"
+    },
+    "onboardDate": "2024-09-10 03:50",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

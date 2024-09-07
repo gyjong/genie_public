@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202409216649",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024637W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9843",
+      "address": "123 RUE DE LA MER, PARIS, 75001, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "(TOUR MONTPARNASSE)",
+      "telephone": "+33 1 45 67 89 01",
+      "email": "SHIPPING@SHIPPER9843.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4237",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@CUSTOMER4237.DE",
+      "telephone": "+49 40 123 45 67"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9893",
+      "address": "REICHENBACHSTRASSE 5, 60325 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "RECEIVING@INVOICERECEIVER9893.COM",
+      "telephone": "+49 69 789 01 23"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "559285",
+  "commodityDescription": "SAMPLE COMMODITY 22 - TEXTILE FIBERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK 123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 22 - TEXTILE FIBERS (50 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK 456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 22 - TEXTILE FIBERS (50 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER MARK 789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 22 - TEXTILE FIBERS (50 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) 40 DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 76.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00012345678"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-10 04:35",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

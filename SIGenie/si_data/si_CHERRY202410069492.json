@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410069492",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024470E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2222",
+      "address": "123 Main Street, Anytown, SPAIN",
+      "telephone": "+34 123 456 7890",
+      "fax": "+34 123 456 7891"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8273",
+      "address": "456 Elm Street, Anycity, CHINA",
+      "telephone": "+86 123 456 7892",
+      "fax": "+86 123 456 7893",
+      "email": "customer8273@email.com",
+      "contactPerson": "Jane Doe"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 1304",
+      "address": "789 Oak Street, Anytown, CHINA",
+      "telephone": "+86 123 456 7894",
+      "fax": "+86 123 456 7895"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "401143",
+  "commodityDescription": "SAMPLE COMMODITY 32",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 32",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 45 HIGH CUBE OPEN TOP CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241006-001",
+    "documentNumber": "20241006-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8273",
+      "address": "456 Elm Street, Anycity, CHINA",
+      "telephone": "+86 123 456 7892",
+      "fax": "+86 123 456 7893"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1304",
+      "address": "789 Oak Street, Anytown, CHINA",
+      "telephone": "+86 123 456 7894",
+      "fax": "+86 123 456 7895"
+    },
+    "onboardDate": "2024-09-24 02:37",
+    "additionalRemarks": "No special instructions"
+  }
+}

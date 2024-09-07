@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202409223752",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024969W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5227",
+      "address": "123 MAIN STREET, TANGIER, MOROCCO",
+      "country": "MOROCCO",
+      "additionalInfo": "(BUSINESS DISTRICT)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5355",
+      "address": "456 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER5355@EXAMPLE.COM",
+      "telephone": "+86 574 88888888"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2032",
+      "address": "789 BEIJING AVENUE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "RECEIVER2032@EXAMPLE.COM",
+      "telephone": "+86 21 99999999"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "654707",
+  "commodityDescription": "SAMPLE COMMODITY 54",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 54 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 54 - PALLETIZED",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 200,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 54 - PACKAGED IN BAGS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 150,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 54 - PACKAGED IN BOXES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 80,
+      "packageType": "DRUMS",
+      "cargoDescription": "SAMPLE COMMODITY 54 - PACKAGED IN DRUMS",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (45 HIGH CUBE FLAT RACK X5) CONTAINERS ONLY",
+    "totalPackages": 580,
+    "packageType": "VARIOUS",
+    "totalGrossWeight": 65000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "654707",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5355",
+      "address": "456 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 88888888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 5355",
+      "address": "456 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 88888888",
+      "fax": "+86 574 88888889"
+    },
+    "onboardDate": "2024-09-30 02:39",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

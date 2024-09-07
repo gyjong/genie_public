@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410205306",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024334W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7638",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5555",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE",
+      "telephone": "+33-2-3546-7890",
+      "fax": "+33-2-3546-7891"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7333",
+      "address": "789 NOTIFY STREET, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "340792",
+  "commodityDescription": "SAMPLE COMMODITY 65",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 40,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 30,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 8000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY) CONTAINERS",
+    "totalPackages": 120,
+    "packageType": "CARTONS / PALLETS / BAGS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5555",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE",
+      "telephone": "+33-2-3546-7890",
+      "fax": "+33-2-3546-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7333",
+      "address": "789 NOTIFY STREET, PARIS, FRANCE",
+      "telephone": "+33-1-4567-8901",
+      "fax": "+33-1-4567-8902"
+    },
+    "onboardDate": "2024-09-14 05:26",
+    "additionalRemarks": "No special instructions"
+  }
+}

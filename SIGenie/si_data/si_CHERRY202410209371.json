@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410209371",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024758W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1022",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7594",
+      "address": "456 HAMBURG STREET, HAMBURG, GERMANY, 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5105",
+      "address": "789 BERLIN STREET, BERLIN, GERMANY, 10000",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-98765432"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "973837",
+  "commodityDescription": "SAMPLE COMMODITY 42",
+  "containers": [
+    {
+      "containerNumber": "CRLU7894561",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7894562",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7894563",
+      "sealNumber": "111111",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7894564",
+      "sealNumber": "222222",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20' DRY) CONTAINERS",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 100.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERT123456",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7594",
+      "address": "456 HAMBURG STREET, HAMBURG, GERMANY, 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5105",
+      "address": "789 BERLIN STREET, BERLIN, GERMANY, 10000",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-98765432"
+    },
+    "onboardDate": "2024-09-24 02:19",
+    "additionalRemarks": "No special instructions"
+  }
+}

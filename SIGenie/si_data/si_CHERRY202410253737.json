@@ -1,0 +1,138 @@
+{
+  "bookingReference": "CHERRY202410253737",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425EWB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY CO.",
+      "onBehalfOf": "GLOBAL TRADING LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "EUROCYCLE IMPORT BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "10 LONDON STREET, LONDON EC1A 4AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870332",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "APM123",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0,
+      "additionalInfo": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "APM124",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0,
+      "additionalInfo": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "APM125",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0,
+      "additionalInfo": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "APM126",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0,
+      "additionalInfo": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "APM127",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MOTORCYCLES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0,
+      "additionalInfo": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 120000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROCYCLE IMPORT BV",
+      "address": "KEULENSTRAAT 12, 3012 AL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2000000",
+      "fax": "+31-10-2000001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "10 LONDON STREET, LONDON EC1A 4AA, UNITED KINGDOM",
+      "telephone": "+44-20-76666666",
+      "fax": "+44-20-76666667"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

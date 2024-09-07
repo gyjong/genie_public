@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409194746",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024625E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7649",
+      "onBehalfOf": "CUSTOMER 7037",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 555 12 12",
+      "fax": "+48 58 555 12 13"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 1234",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY, 60329",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "FORWARDER 9999",
+      "address": "789 SHIPPING LANE, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "101701",
+  "commodityDescription": "SAMPLE COMMODITY 56",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 56, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 56",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CARGO PROTECTED AGAINST MOISTURE"
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "SHIPPER MARK 2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 56, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 56",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CARGO PROTECTED AGAINST MOISTURE"
+    },
+    {
+      "containerNumber": "CMAU987654321",
+      "sealNumber": "147852369",
+      "marksAndNumbers": "SHIPPER MARK 3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 56, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 56",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CARGO PROTECTED AGAINST MOISTURE"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE OPEN TOP) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC OPEN TOP",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7037",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 555 12 12",
+      "fax": "+48 58 555 12 13"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9978",
+      "address": "456 FRANKFURTER STRASSE, FRANKFURT, GERMANY, 60329"
+    },
+    "onboardDate": "2024-10-07 04:45",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409125809",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024247E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3479",
+      "address": "123 MAIN STREET, PARIS, FRANCE"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3920",
+      "address": "456 BROADWAY, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1111",
+      "fax": "+212 5 2222 9999"
+    },
+    "notifyParty": {
+      "name": "SHIPPER 3479",
+      "address": "789 AVENUE DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 4444 5555",
+      "fax": "+33 1 4444 6666"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "342564",
+  "commodityDescription": "SAMPLE COMMODITY 51 - INDUSTRIAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "APLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL EQUIPMENT AS DETAILED IN COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "APLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL EQUIPMENT AS DETAILED IN COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "APLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL EQUIPMENT AS DETAILED IN COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "APLU3216789",
+      "sealNumber": "321678",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL EQUIPMENT AS DETAILED IN COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 200.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7078",
+      "address": "123 MAIN STREET, PARIS, FRANCE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3920",
+      "address": "456 BROADWAY, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 1111",
+      "fax": "+212 5 2222 9999"
+    },
+    "onboardDate": "2024-10-05 22:00",
+    "additionalRemarks": "No special instructions"
+  }
+}

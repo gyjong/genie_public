@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410211914",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024566W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4652",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPMENT@SHIPPER4652.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9383",
+      "address": "12 RUE DE PARIS, LE HAVRE, 76600",
+      "country": "FRANCE",
+      "email": "INFO@CUSTOMER9383.FR",
+      "telephone": "+33 2 35 12 34 56"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7373",
+      "address": "56 RUE DE LA LIBERTE, PARIS, 75000",
+      "country": "FRANCE",
+      "email": "INVOICE@RECEIVER7373.COM",
+      "telephone": "+33 1 45 67 89 01"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "557525",
+  "commodityDescription": "SAMPLE COMMODITY 14",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 14",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 14",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 14",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 14",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4) X 45 HIGH CUBE CONTAINERS",
+    "totalPackages": 400,
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 120.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-04 23:20",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

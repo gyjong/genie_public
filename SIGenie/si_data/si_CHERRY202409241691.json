@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409241691",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024167E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1522",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "additionalInfo": "(BUSINESS DISTRICT)",
+      "telephone": "+60 3 2222 3333",
+      "email": "SHIPPER1522@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8924 PTE LTD",
+      "address": "456 ORCHARD ROAD, SINGAPORE 238888",
+      "country": "SINGAPORE",
+      "email": "CUSTOMER8924@EXAMPLE.COM",
+      "telephone": "+65 6777 8888"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8952",
+      "address": "789 BOAT QUAY, SINGAPORE 049876",
+      "country": "SINGAPORE",
+      "email": "RECEIVER8952@EXAMPLE.COM",
+      "telephone": "+65 6888 9999"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "571064",
+  "commodityDescription": "SAMPLE COMMODITY 56",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "12345678",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 56 AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1 X 40 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-12 00:41",
+    "additionalRemarks": "No special instructions"
+  }
+}

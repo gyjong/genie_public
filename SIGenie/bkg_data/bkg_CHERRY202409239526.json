@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409239526",
+  "customerName": "CUSTOMER 2945",
+  "shipperName": "SHIPPER 9107",
+  "invoiceReceiver": "INVOICE RECEIVER 7827",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024635E"
+  },
+  "cargoDetails": {
+    "hsCode": "566577",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 92",
+    "commodity": "SAMPLE COMMODITY 83"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-09 03:40",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 03:40",
+    "estimatedArrivalAtDischargePort": "2024-11-19 03:40"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, KOREA",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

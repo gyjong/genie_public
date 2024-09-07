@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409097544",
+  "customerName": "CUSTOMER 9483",
+  "shipperName": "SHIPPER 2516",
+  "invoiceReceiver": "INVOICE RECEIVER 5992",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024395E"
+  },
+  "cargoDetails": {
+    "hsCode": "719666",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 79",
+    "commodity": "SAMPLE COMMODITY 56"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "FLAT RACK",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 01:20",
+    "estimatedDepartureFromLoadingPort": "2024-10-11 01:20",
+    "estimatedArrivalAtDischargePort": "2024-12-05 01:20"
+  },
+  "emptyContainerPickupLocation": "NINGBO, JAPAN",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions"
+}

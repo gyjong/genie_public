@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202409125245",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024229E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5400",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-87654321"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7689",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 4568",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE",
+      "telephone": "+65-67890125",
+      "fax": "+65-67890126"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "224072",
+  "commodityDescription": "SAMPLE COMMODITY 76",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 76, PACKED IN CARTONS",
+      "grossWeight": 5000,
+      "measurement": 10
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 76, PACKED ON PALLETS",
+      "grossWeight": 6000,
+      "measurement": 12
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 76, PACKED IN BAGS",
+      "grossWeight": 7000,
+      "measurement": 15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 45,
+    "packageType": "CARTONS, PALLETS, BAGS",
+    "totalGrossWeight": 18000,
+    "totalMeasurement": 37
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4568",
+      "address": "789 NORTH BRIDGE ROAD, SINGAPORE",
+      "telephone": "+65-67890125",
+      "fax": "+65-67890126"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7689",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65-67890123",
+      "fax": "+65-67890124"
+    },
+    "onboardDate": "2024-10-02 23:22",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

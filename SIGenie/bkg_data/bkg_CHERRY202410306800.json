@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410306800",
+  "customerName": "CUSTOMER 5572",
+  "shipperName": "SHIPPER 6030",
+  "invoiceReceiver": "INVOICE RECEIVER 3596",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024361W"
+  },
+  "cargoDetails": {
+    "hsCode": "347275",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 12",
+    "commodity": "SAMPLE COMMODITY 4"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-16 23:01",
+    "estimatedDepartureFromLoadingPort": "2024-10-29 23:01",
+    "estimatedArrivalAtDischargePort": "2024-11-17 23:01"
+  },
+  "emptyContainerPickupLocation": "NINGBO, VIETNAM",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

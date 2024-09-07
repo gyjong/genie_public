@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410252393",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024498W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6222",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "( Pudong District)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3334",
+      "address": "456 ABC LANE, KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "customer3334@example.com",
+      "telephone": "+60 3 1234 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3691",
+      "address": "789 DEF ROAD, KUALA LUMPUR, MALAYSIA",
+      "country": "MALAYSIA",
+      "email": "invoicereceiver3691@example.com",
+      "telephone": "+60 3 9876 5432"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "134619",
+  "commodityDescription": "SAMPLE COMMODITY 30",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU11223344",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU55667788",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 200,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 30000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU88990011",
+      "sealNumber": "332211",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 150,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 25000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU22334455",
+      "sealNumber": "778899",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 50,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (45 HIGH CUBE FLAT RACK X5) CONTAINERS ONLY",
+    "totalPackages": 550,
+    "packageType": "MIXED",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 115.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "134619",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3334",
+      "address": "456 ABC LANE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3691",
+      "address": "789 DEF ROAD, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 9876 5432",
+      "fax": "+60 3 9876 5431"
+    },
+    "onboardDate": "2024-09-22 05:39",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

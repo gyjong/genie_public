@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410035034",
+  "customerName": "CUSTOMER 9318",
+  "shipperName": "SHIPPER 2470",
+  "invoiceReceiver": "INVOICE RECEIVER 1304",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024347E"
+  },
+  "cargoDetails": {
+    "hsCode": "834178",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 64",
+    "commodity": "SAMPLE COMMODITY 26"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 04:01",
+    "estimatedDepartureFromLoadingPort": "2024-10-26 04:01",
+    "estimatedArrivalAtDischargePort": "2024-11-12 04:01"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

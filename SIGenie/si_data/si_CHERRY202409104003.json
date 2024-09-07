@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202409104003",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024526E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1666",
+      "address": "Calle Mayor, 123, 29001 M\u00e1laga, Spain",
+      "telephone": "+34 952 123 456",
+      "fax": "+34 952 789 012"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4981",
+      "address": "123 Marina Boulevard, Singapore 018985",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8048",
+      "address": "456 Orchard Road, Singapore 238886",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "277008",
+  "commodityDescription": "SAMPLE COMMODITY 42",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876545",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876546",
+      "sealNumber": "432198",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 42",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 DRY) CONTAINERS",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO678901",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "CERT00123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4981",
+      "address": "123 Marina Boulevard, Singapore 018985",
+      "telephone": "+65 6543 2100",
+      "fax": "+65 6543 2101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8048",
+      "address": "456 Orchard Road, Singapore 238886",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "onboardDate": "2024-10-05 02:53",
+    "additionalRemarks": "No special instructions"
+  }
+}

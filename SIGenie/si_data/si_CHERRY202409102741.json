@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409102741",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024961W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8624",
+      "address": "HAMBURGER STRASSE 56, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 37486592",
+      "email": "SALES@EUROTECH.DE"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903",
+      "taxId": "200212345A",
+      "president": "MR. TAN CHENG LIM",
+      "telephone": "+65 6221 8555",
+      "fax": "+65 6221 8666"
+    },
+    "notifyParty": {
+      "name": "EUROTECH ASIA PACIFIC",
+      "address": "123 Marina Boulevard, #35-01 Marina Bay Financial Centre Tower 3, Singapore 018985",
+      "telephone": "+65 6888 9999",
+      "fax": "+65 6888 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8541400000",
+  "commodityDescription": "COMPUTER KEYBOARDS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3456789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR SINGAPORE COMPUTER KEYBOARDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0002345678"
+    },
+    "certificateDetails": "CO, COO",
+    "originalBLDistribution": {
+      "name": "SINGAPORE LOGISTICS CO. LTD",
+      "address": "123 Anson Road, #10-01 Anson Centre, Singapore 079903",
+      "telephone": "+65 6333 8888",
+      "fax": "+65 6333 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH ASIA PACIFIC",
+      "address": "123 Marina Boulevard, #35-01 Marina Bay Financial Centre Tower 3, Singapore 018985",
+      "telephone": "+65 6888 9999",
+      "fax": "+65 6888 8888"
+    },
+    "onboardDate": "2024-09-12 04:12",
+    "additionalRemarks": "No special instructions"
+  }
+}

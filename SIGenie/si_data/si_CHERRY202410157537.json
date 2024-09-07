@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410157537",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024587E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "TANGER, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2562",
+      "address": "123 MAIN STREET, BERLIN, GERMANY"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3333",
+      "address": "456 ABC AVENUE, RABAT, MOROCCO",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3183",
+      "address": "789 DEF LANE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 3333 4444",
+      "fax": "+212 5 3333 5555"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "671657",
+  "commodityDescription": "SAMPLE COMMODITY 76",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 76 (H.S. CODE: 671657)",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 15,
+      "cargoDescription": "SAMPLE COMMODITY 76 (H.S. CODE: 671657)",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 27000.0,
+    "totalMeasurement": 65.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3333",
+      "address": "456 ABC AVENUE, RABAT, MOROCCO"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3183",
+      "address": "789 DEF LANE, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 3333 4444",
+      "fax": "+212 5 3333 5555"
+    },
+    "onboardDate": "2024-09-13 04:47",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

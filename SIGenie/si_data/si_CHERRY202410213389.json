@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410213389",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "333 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(SUITE 201)"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS CO. LTD",
+      "address": "KLEINE WATERSTRAAT 12, 3011 PA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALLOGISTICS.NL",
+      "telephone": "+31 10 411 2345"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "333 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "email": "SALES@ABCTRADING.COM",
+      "telephone": "+86 21 6328 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMER",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "POWER TRANSFORMER, WEIGHT 15000KG, DIMENSIONS 3.5M X 2.5M X 2.5M",
+      "grossWeight": 15000.0,
+      "measurement": 21.875
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 1,
+      "packageType": "LOOSE",
+      "cargoDescription": "POWER TRANSFORMER, WEIGHT 15000KG, DIMENSIONS 3.5M X 2.5M X 2.5M",
+      "grossWeight": 15000.0,
+      "measurement": 21.875
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "LOOSE",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 43.75
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "85444210",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ATTACHED",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS CO. LTD",
+      "address": "KLEINE WATERSTRAAT 12, 3011 PA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 411 2345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "333 HUANGPU ROAD, SHANGHAI, 200000, CHINA",
+      "telephone": "+86 21 6328 5678"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "SPECIAL INSTRUCTIONS FOR HANDLING: FRAGILE, THIS WAY UP"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

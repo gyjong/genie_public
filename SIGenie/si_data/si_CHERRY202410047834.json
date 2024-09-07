@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410047834",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024316E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8407",
+      "address": "123 SHIPPER STREET, HAMBURG, GERMANY"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5294",
+      "address": "456 CONSIGNEE AVENUE, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 6666"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5830",
+      "address": "789 NOTIFY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1111 2222",
+      "fax": "+86 574 1111 3333"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "141659",
+  "commodityDescription": "SAMPLE COMMODITY 64",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 64 AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 64 AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 64 AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40HC) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 99.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT789012"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5294",
+      "address": "456 CONSIGNEE AVENUE, NINGBO, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5830",
+      "address": "789 NOTIFY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1111 2222",
+      "fax": "+86 574 1111 3333"
+    },
+    "onboardDate": "2024-09-23 01:18",
+    "additionalRemarks": "No special instructions"
+  }
+}

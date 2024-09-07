@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409082713",
+  "customerName": "CUSTOMER 8415",
+  "shipperName": "SHIPPER 2079",
+  "invoiceReceiver": "INVOICE RECEIVER 9732",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024497W"
+  },
+  "cargoDetails": {
+    "hsCode": "428931",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 24",
+    "commodity": "SAMPLE COMMODITY 84"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-13 03:26",
+    "estimatedDepartureFromLoadingPort": "2024-10-26 03:26",
+    "estimatedArrivalAtDischargePort": "2024-11-27 03:26"
+  },
+  "emptyContainerPickupLocation": "TANGER, CHINA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

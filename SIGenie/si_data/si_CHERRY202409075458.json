@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409075458",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024930E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8195",
+      "address": "NO. 338, XINCHENG ROAD, JIANGGAN DISTRICT, HANGZHOU, ZHEJIANG, CHINA",
+      "telephone": "+86 571 8789 6543",
+      "email": "SALES@DONGHUATRADING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT LLC",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "taxId": "9876543210",
+      "president": "MR. DAVID SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT LLC",
+      "address": "123 MAIN STREET, SUITE 200, LOS ANGELES, CA 90015, USA",
+      "taxId": "9876543210",
+      "president": "MR. DAVID SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854140",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "TCLU1570198",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA ELECTRIC MOTORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 DRY) CONTAINER ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "020020103374"
+    },
+    "certificateDetails": "20231011001",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZHEJIANG DONGHUA IMPORT & EXPORT CO., LTD",
+      "address": "NO. 338, XINCHENG ROAD, JIANGGAN DISTRICT, HANGZHOU, ZHEJIANG, CHINA"
+    },
+    "onboardDate": "2024-09-11 21:28",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

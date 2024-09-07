@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409216649",
+  "customerName": "CUSTOMER 4237",
+  "shipperName": "SHIPPER 9843",
+  "invoiceReceiver": "INVOICE RECEIVER 9893",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024637W"
+  },
+  "cargoDetails": {
+    "hsCode": "559285",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 54",
+    "commodity": "SAMPLE COMMODITY 22"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-10 04:35",
+    "estimatedDepartureFromLoadingPort": "2024-10-24 04:35",
+    "estimatedArrivalAtDischargePort": "2024-12-01 04:35"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions"
+}

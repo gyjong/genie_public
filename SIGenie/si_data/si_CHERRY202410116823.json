@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410116823",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024945W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6218",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4170",
+      "address": "456 CONSIGNEE AVENUE, KLANG 43210, MALAYSIA",
+      "telephone": "+60 3 7890 1234",
+      "fax": "+60 3 7890 4321"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4191",
+      "address": "789 NOTIFY STREET, SINGAPORE 543210",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 7654"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "961998",
+  "commodityDescription": "SAMPLE COMMODITY 92",
+  "containers": [
+    {
+      "containerNumber": "CBLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 5,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AS SHOWN. SAID TO CONTAIN: SAMPLE COMMODITY 92",
+      "grossWeight": 12500.5,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CBLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AS SHOWN. SAID TO CONTAIN: SAMPLE COMMODITY 92",
+      "grossWeight": 15000.25,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE FLAT RACK) CONTAINERS ONLY",
+    "totalPackages": 15,
+    "packageType": "BOXES AND CRATES",
+    "totalGrossWeight": 27500.75,
+    "totalMeasurement": 75.5
+  },
+  "dangerousGoods": {
+    "containerNumber": "CBLU1234567",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "961998",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Proper Shipping Name: Corrosive Solid, N.O.S."
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC123456789012"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4170",
+      "address": "456 CONSIGNEE AVENUE, KLANG 43210, MALAYSIA",
+      "telephone": "+60 3 7890 1234",
+      "fax": "+60 3 7890 4321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4191",
+      "address": "789 NOTIFY STREET, SINGAPORE 543210",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 7654"
+    },
+    "onboardDate": "2024-10-05 01:22",
+    "additionalRemarks": "No special instructions"
+  }
+}

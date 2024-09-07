@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410029574",
+  "customerName": "CUSTOMER 7356",
+  "shipperName": "SHIPPER 1704",
+  "invoiceReceiver": "INVOICE RECEIVER 1701",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024336W"
+  },
+  "cargoDetails": {
+    "hsCode": "776021",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 17",
+    "commodity": "SAMPLE COMMODITY 53"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-07 00:06",
+    "estimatedDepartureFromLoadingPort": "2024-10-09 00:06",
+    "estimatedArrivalAtDischargePort": "2024-11-15 00:06"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "FOB",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410232136",
+  "customerName": "KONGSBERG MARITIME AS",
+  "shipperName": "KONGSBERG MARITIME AS",
+  "invoiceReceiver": "KONGSBERG MARITIME GMBH",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "cargoDetails": {
+    "hsCode": "853669",
+    "chapterDescription": "Electrical machinery and equipment and parts thereof; sound recording and reproducing apparatus and equipment and parts thereof; television image and sound recording and reproducing apparatus and equipment and parts thereof; other electrical equipment and parts thereof.",
+    "commodity": "MARINE RADAR SYSTEM"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-05 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-06 09:00",
+    "estimatedArrivalAtDischargePort": "2024-11-28 06:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CY/CY",
+  "remarks": "Requires pre-cooling. Sensitive to vibration"
+}

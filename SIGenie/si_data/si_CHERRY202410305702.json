@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410305702",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024531W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6455",
+      "address": "123 MAIN STREET, PARIS, FRANCE"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1986",
+      "address": "456 BROADWAY, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 87654321"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3745",
+      "address": "789 AVENUE, BEIJING, CHINA",
+      "telephone": "+86 10 98765432",
+      "fax": "+86 10 12345678"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "368903",
+  "commodityDescription": "SAMPLE COMMODITY 28",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 28 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 28 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "543210",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 28 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 28 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "40DRY",
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 240.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1986",
+      "address": "456 BROADWAY, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3745",
+      "address": "789 AVENUE, BEIJING, CHINA",
+      "telephone": "+86 10 98765432",
+      "fax": "+86 10 12345678"
+    },
+    "onboardDate": "2024-10-06 05:41",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

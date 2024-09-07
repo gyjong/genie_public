@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409132425",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024418W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5644",
+      "onBehalfOf": "CUSTOMER 9794 GROUP",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 6701 SDN. BHD.",
+      "address": "456 ABC ROAD, KUALA LUMPUR, MALAYSIA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 9794 LOGISTICS LTD.",
+      "address": "789 DEF AVENUE, SINGAPORE"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "649127",
+  "commodityDescription": "SAMPLE COMMODITY 28",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 28",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "REEFER SETTINGS REQUIRED: +5\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (45 HIGH CUBE) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "45RHX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 20.0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908626",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "60% ~ 70%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033749"
+    },
+    "certificateDetails": [
+      "4112720070179X",
+      "4112720070180X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9794 GROUP",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6701 SDN. BHD.",
+      "address": "456 ABC ROAD, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-1234-5678",
+      "fax": "+60-3-1234-5679"
+    },
+    "onboardDate": "2024-10-04 03:57",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

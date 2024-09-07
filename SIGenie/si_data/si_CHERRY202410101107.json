@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410101107",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410EAW1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "LE HAVRE, FRANCE",
+    "placeOfDelivery": "LE HAVRE, FRANCE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT LTD",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "EURO PACK LTD",
+      "address": "14 RUE DE LA RepubLIQUE, 76000 ROUEN, FRANCE",
+      "country": "FRANCE",
+      "email": "INFO@EUROPACKLTD.COM",
+      "telephone": "+33 2 35 76 54 32"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT LTD",
+      "address": "123 SUNRISE AVENUE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "IMPORT@SUNRISEIMPORTLTD.COM",
+      "telephone": "+86 21 6327 8910"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY FOR PACKAGING",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 8,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY PARTS",
+      "grossWeight": 9500.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 18,
+    "packageType": "CRATES",
+    "totalGrossWeight": 19500.0,
+    "totalMeasurement": 58.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO PACK LTD",
+      "address": "14 RUE DE LA RepubLIQUE, 76000 ROUEN, FRANCE",
+      "telephone": "+33 2 35 76 54 32"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Two 20' dry containers, machinery for packaging, Value: USD 150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

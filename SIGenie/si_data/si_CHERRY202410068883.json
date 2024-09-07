@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410068883",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024834E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4606",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "email": "SHIPPER4606@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9593",
+      "address": "456 CONSIGNEE AVENUE, SINGAPORE",
+      "taxId": "SG123456789A",
+      "president": "MR. JOHN DOE",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4115",
+      "address": "789 NOTIFY STREET, SINGAPORE",
+      "taxId": "SG987654321B",
+      "president": "MS. JANE SMITH",
+      "telephone": "+65 61234567",
+      "fax": "+65 61234568"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "803883",
+  "commodityDescription": "SAMPLE COMMODITY 95",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, SINGAPORE SAMPLE COMMODITY 95",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HIGH CUBE OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE OPEN TOP",
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' HIGH CUBE OPEN TOP Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9593",
+      "address": "456 CONSIGNEE AVENUE, SINGAPORE",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4115",
+      "address": "789 NOTIFY STREET, SINGAPORE",
+      "telephone": "+65 61234567",
+      "fax": "+65 61234568"
+    },
+    "onboardDate": "2024-09-28 23:51",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

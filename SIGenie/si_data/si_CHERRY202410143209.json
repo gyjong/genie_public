@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410143209",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024167E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1852",
+      "address": "123 MAIN STREET, BERLIN, GERMANY"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5237",
+      "address": "456 BROADWAY STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 6789"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2014",
+      "address": "789 FIFTH AVENUE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 6767"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "757826",
+  "commodityDescription": "SAMPLE COMMODITY 55",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 55 - PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 55 - PACKED IN PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 55 - PACKED IN CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SAMPLE MARKINGS 4",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 55 - PACKED IN BAGS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS 5",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 55 - PACKED IN DRUMS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (45HC X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "45HCX5",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT-123456",
+      "CERT-789012"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5237",
+      "address": "456 BROADWAY STREET, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2014",
+      "address": "789 FIFTH AVENUE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 6767"
+    },
+    "onboardDate": "2024-09-24 03:12",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202411033290",
+  "customerName": "CUSTOMER 6434",
+  "shipperName": "SHIPPER 9713",
+  "invoiceReceiver": "INVOICE RECEIVER 3858",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024728E"
+  },
+  "cargoDetails": {
+    "hsCode": "701719",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 54",
+    "commodity": "SAMPLE COMMODITY 65"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-15 22:57",
+    "estimatedDepartureFromLoadingPort": "2024-11-04 22:57",
+    "estimatedArrivalAtDischargePort": "2024-11-19 22:57"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, KOREA",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

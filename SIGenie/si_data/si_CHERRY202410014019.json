@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410014019",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024970E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "TANGER, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5860",
+      "address": "MARIENSTRASSE 12, 20354 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "additionalInfo": "(CITY CENTER)",
+      "telephone": "+49 40 34567890",
+      "email": "SHIPPER5860@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2138",
+      "address": "BOULEVARD MOHAMED V, 40000 TANGER, MOROCCO",
+      "country": "MOROCCO",
+      "email": "CUSTOMER2138@EXAMPLE.COM",
+      "telephone": "+212 539 123456"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9007",
+      "address": "AVENUE EL KARAMA, 40000 TANGER, MOROCCO",
+      "country": "MOROCCO",
+      "email": "INVOICEREceiver9007@EXAMPLE.COM",
+      "telephone": "+212 539 789012"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "687557",
+  "commodityDescription": "SAMPLE COMMODITY 12",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SAMPLE COMMODITY 12, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 12",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SAMPLE COMMODITY 12, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 12",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SAMPLE COMMODITY 12, SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 12",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (45 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 90.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-08 01:56",
+    "additionalRemarks": "No special instructions"
+  }
+}

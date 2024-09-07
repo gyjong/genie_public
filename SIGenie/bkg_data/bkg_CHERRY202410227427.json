@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410227427",
+  "customerName": "CUSTOMER 6279",
+  "shipperName": "SHIPPER 5126",
+  "invoiceReceiver": "INVOICE RECEIVER 5225",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024813E"
+  },
+  "cargoDetails": {
+    "hsCode": "435393",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 26",
+    "commodity": "SAMPLE COMMODITY 61"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "FLAT RACK",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-18 22:35",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 22:35",
+    "estimatedArrivalAtDischargePort": "2024-12-06 22:35"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, CHINA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

@@ -1,0 +1,139 @@
+{
+  "bookingReference": "CHERRY202410213686",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024681E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4371",
+      "onBehalfOf": "CUSTOMER 4747",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2555",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "companyNumber": "1234567890123"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 4747",
+      "address": "987 MAIN STREET, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "763437",
+  "commodityDescription": "SAMPLE COMMODITY 75",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 75",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 75",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 75",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 75",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "892088",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 75",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CONTAINER WEIGHT: 2500KG"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40HQ",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4747",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2555",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 987 6543"
+    },
+    "onboardDate": "2024-10-01 23:33",
+    "additionalRemarks": "No special instructions"
+  }
+}

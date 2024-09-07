@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410216643",
+  "customerName": "CUSTOMER 3771",
+  "shipperName": "SHIPPER 5723",
+  "invoiceReceiver": "INVOICE RECEIVER 2773",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024628E"
+  },
+  "cargoDetails": {
+    "hsCode": "266076",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 70",
+    "commodity": "SAMPLE COMMODITY 96"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-17 01:54",
+    "estimatedDepartureFromLoadingPort": "2024-11-01 01:54",
+    "estimatedArrivalAtDischargePort": "2024-11-18 01:54"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, JAPAN",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions"
+}

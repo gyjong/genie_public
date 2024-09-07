@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411051829",
+  "customerName": "CUSTOMER 9282",
+  "shipperName": "SHIPPER 8310",
+  "invoiceReceiver": "INVOICE RECEIVER 2024",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024524E"
+  },
+  "cargoDetails": {
+    "hsCode": "438023",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 68",
+    "commodity": "SAMPLE COMMODITY 2"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-10 00:10",
+    "estimatedDepartureFromLoadingPort": "2024-10-21 00:10",
+    "estimatedArrivalAtDischargePort": "2024-11-17 00:10"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, JAPAN",
+  "shippingTerm": "FOB",
+  "remarks": "No special instructions"
+}

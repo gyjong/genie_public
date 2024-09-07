@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409074766",
+  "customerName": "CUSTOMER 4532",
+  "shipperName": "SHIPPER 8179",
+  "invoiceReceiver": "INVOICE RECEIVER 2149",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024340W"
+  },
+  "cargoDetails": {
+    "hsCode": "882792",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 28",
+    "commodity": "SAMPLE COMMODITY 86"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-19 21:17",
+    "estimatedDepartureFromLoadingPort": "2024-10-10 21:17",
+    "estimatedArrivalAtDischargePort": "2024-12-05 21:17"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, JAPAN",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions"
+}

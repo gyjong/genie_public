@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409114499",
+  "customerName": "CUSTOMER 9045",
+  "shipperName": "SHIPPER 2899",
+  "invoiceReceiver": "INVOICE RECEIVER 7207",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024766E"
+  },
+  "cargoDetails": {
+    "hsCode": "629558",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 28",
+    "commodity": "SAMPLE COMMODITY 20"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-25 23:18",
+    "estimatedDepartureFromLoadingPort": "2024-11-02 23:18",
+    "estimatedArrivalAtDischargePort": "2024-11-26 23:18"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, JAPAN",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

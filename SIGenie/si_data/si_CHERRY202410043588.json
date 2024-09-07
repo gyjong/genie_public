@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410043588",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024623W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9679",
+      "onBehalfOf": "CUSTOMER 7636",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 8320",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7636",
+      "address": "789 CUSTOMER ROAD, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "169432",
+  "commodityDescription": "SAMPLE COMMODITY 56",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS 123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. TEMPERATURE CONTROLLED. ",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": "REEFER CONTAINER. SET TEMPERATURE TO +5\u00b0C"
+    },
+    {
+      "containerNumber": "CRLU9987655",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKINGS 456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. TEMPERATURE CONTROLLED.",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": "REEFER CONTAINER. SET TEMPERATURE TO +5\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) REEFER CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40'HCRF",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9987654",
+    "temperature": "+5.0\u00b0C",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "60% ~ 70%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7636",
+      "address": "789 CUSTOMER ROAD, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8320",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "onboardDate": "2024-10-03 05:46",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

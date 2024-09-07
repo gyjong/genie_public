@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409205358",
+  "customerName": "CUSTOMER 3980",
+  "shipperName": "SHIPPER 3918",
+  "invoiceReceiver": "INVOICE RECEIVER 9899",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024826W"
+  },
+  "cargoDetails": {
+    "hsCode": "666052",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 9",
+    "commodity": "SAMPLE COMMODITY 26"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 02:25",
+    "estimatedDepartureFromLoadingPort": "2024-11-04 02:25",
+    "estimatedArrivalAtDischargePort": "2024-11-24 02:25"
+  },
+  "emptyContainerPickupLocation": "NINGBO, KOREA",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

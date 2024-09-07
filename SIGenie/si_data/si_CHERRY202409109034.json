@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409109034",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024180E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LONG BEACH, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6259",
+      "address": "DE RUN 125, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 462 7777",
+      "fax": "+31 10 462 7778"
+    },
+    "consignee": {
+      "name": "PACIFIC COAST FREIGHT FORWARDERS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
+      "telephone": "+1 562 555 1212",
+      "fax": "+1 562 555 1213",
+      "email": "INFO@PCFF.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL LOGISTICS SOLUTIONS INC.",
+      "address": "1500 BROADWAY, NEW YORK, NY 10036",
+      "telephone": "+1 212 555 2323",
+      "fax": "+1 212 555 2324"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLES WITH ENGINES OVER 250CC",
+  "containers": [
+    {
+      "containerNumber": "MSCU2637789",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "MTR-1234",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 MOTORCYCLE",
+      "grossWeight": 250.0,
+      "measurement": 6.0
+    },
+    {
+      "containerNumber": "MSCU2637790",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "MTR-1235",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 MOTORCYCLE",
+      "grossWeight": 250.0,
+      "measurement": 6.0
+    },
+    {
+      "containerNumber": "MSCU2637791",
+      "sealNumber": "1111111111",
+      "marksAndNumbers": "MTR-1236",
+      "numberOfPackages": 5,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: 1 MOTORCYCLE",
+      "grossWeight": 250.0,
+      "measurement": 6.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 15,
+    "totalGrossWeight": 750.0,
+    "totalMeasurement": 18.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240911-001",
+    "documentNumber": "20240911-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTRADE LOGISTICS BV",
+      "address": "DE RUN 125, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 462 7777",
+      "fax": "+31 10 462 7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "PACIFIC COAST FREIGHT FORWARDERS INC.",
+      "address": "123 MAIN STREET, SUITE 200, LONG BEACH, CA 90802",
+      "telephone": "+1 562 555 1212",
+      "fax": "+1 562 555 1213"
+    },
+    "onboardDate": "2024-09-13 02:24",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

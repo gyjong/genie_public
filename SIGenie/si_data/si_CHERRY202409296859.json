@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409296859",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024376E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8924",
+      "address": "123 MAIN STREET, ANYTOWN, MALAYSIA",
+      "telephone": "+60-3-1234-5678",
+      "fax": "+60-3-1234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4649",
+      "address": "456 BROADWAY, PARIS, FRANCE",
+      "telephone": "+33-1-1234-5678",
+      "fax": "+33-1-1234-5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8371",
+      "address": "789 CHAMPS-ELYSEES, PARIS, FRANCE",
+      "telephone": "+33-1-1234-5678",
+      "fax": "+33-1-1234-5679"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "207364",
+  "commodityDescription": "SAMPLE COMMODITY 11",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 10000,
+      "measurement": 20
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HIGH CUBE) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 10000,
+    "totalMeasurement": 20
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {},
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4649",
+      "address": "456 BROADWAY, PARIS, FRANCE",
+      "telephone": "+33-1-1234-5678",
+      "fax": "+33-1-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8371",
+      "address": "789 CHAMPS-ELYSEES, PARIS, FRANCE",
+      "telephone": "+33-1-1234-5678",
+      "fax": "+33-1-1234-5679"
+    },
+    "onboardDate": "2024-10-03 04:23",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410271362",
+  "customerName": "CUSTOMER 9255",
+  "shipperName": "SHIPPER 1837",
+  "invoiceReceiver": "INVOICE RECEIVER 9170",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024195E"
+  },
+  "cargoDetails": {
+    "hsCode": "313222",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 83",
+    "commodity": "SAMPLE COMMODITY 24"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-04 04:56",
+    "estimatedDepartureFromLoadingPort": "2024-10-11 04:56",
+    "estimatedArrivalAtDischargePort": "2024-11-20 04:56"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, JAPAN",
+  "shippingTerm": "FOB",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

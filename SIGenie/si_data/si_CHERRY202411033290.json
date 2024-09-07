@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202411033290",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024728E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9713",
+      "onBehalfOf": "CUSTOMER 6434",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2222-3333",
+      "fax": "+60-3-2222-4444"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3858",
+      "address": "456 ABC STREET, SHENZHEN, CHINA",
+      "companyNumber": "1234567890123"
+    },
+    "notifyParty": {
+      "name": "LOGISTICS COORDINATOR LTD.",
+      "address": "789 DEF AVENUE, HONG KONG"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "701719",
+  "commodityDescription": "SAMPLE COMMODITY 65",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "FRAGILE, HANDLE WITH CARE"
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 120,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 65",
+      "grossWeight": 16500.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 370,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 49500.0,
+    "totalMeasurement": 83.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6434",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-3-2222-3333",
+      "fax": "+60-3-2222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3858",
+      "address": "456 ABC STREET, SHENZHEN, CHINA"
+    },
+    "onboardDate": "2024-09-15 22:57",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

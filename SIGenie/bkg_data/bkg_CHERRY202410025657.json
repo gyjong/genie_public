@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410025657",
+  "customerName": "CUSTOMER 5655",
+  "shipperName": "SHIPPER 3339",
+  "invoiceReceiver": "INVOICE RECEIVER 4987",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024976W"
+  },
+  "cargoDetails": {
+    "hsCode": "397306",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 64",
+    "commodity": "SAMPLE COMMODITY 7"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "FLAT RACK",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-17 22:15",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 22:15",
+    "estimatedArrivalAtDischargePort": "2024-12-04 22:15"
+  },
+  "emptyContainerPickupLocation": "NINGBO, JAPAN",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions"
+}

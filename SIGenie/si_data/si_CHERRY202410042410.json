@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410042410",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024483E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8946",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9843 SARL",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 89",
+      "fax": "+33 1 23 45 67 90"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5497",
+      "address": "789 BOULEVARD DE LA MADELEINE, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 88",
+      "fax": "+33 1 23 45 67 99"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "138925",
+  "commodityDescription": "SAMPLE COMMODITY 27 - PACKAGED IN CARTONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 27 - 100 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 27 - 100 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 27 - 100 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 27 - 100 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 34.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 27 - 100 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 34.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE OPEN TOP",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 170.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033738"
+    },
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
+    "originalBLDistribution": {
+      "name": "SHIPPER 8946 LTD.",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 9843 SARL",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 89",
+      "fax": "+33 1 23 45 67 90"
+    },
+    "onboardDate": "2024-09-16 03:22",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

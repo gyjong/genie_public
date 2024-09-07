@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410165579",
+  "customerName": "CUSTOMER 7853",
+  "shipperName": "SHIPPER 2549",
+  "invoiceReceiver": "INVOICE RECEIVER 6360",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024717E"
+  },
+  "cargoDetails": {
+    "hsCode": "393948",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 100",
+    "commodity": "SAMPLE COMMODITY 92"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-14 03:31",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 03:31",
+    "estimatedArrivalAtDischargePort": "2024-12-06 03:31"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

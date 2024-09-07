@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410184936",
+  "customerName": "CUSTOMER 9489",
+  "shipperName": "SHIPPER 6082",
+  "invoiceReceiver": "INVOICE RECEIVER 2416",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024324E"
+  },
+  "cargoDetails": {
+    "hsCode": "220624",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 41",
+    "commodity": "SAMPLE COMMODITY 73"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-15 22:29",
+    "estimatedDepartureFromLoadingPort": "2024-10-28 22:29",
+    "estimatedArrivalAtDischargePort": "2024-11-23 22:29"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

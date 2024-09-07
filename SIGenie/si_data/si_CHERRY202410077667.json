@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410077667",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024118W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "TANGER"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1573",
+      "address": "123 MAIN STREET, TANGER, MOROCCO",
+      "telephone": "+212 522 123456",
+      "fax": "+212 522 987654"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4107",
+      "address": "456 ALGERIA STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789012",
+      "fax": "+34 956 345678",
+      "email": "IMPORT@CUSTOMER4107.COM",
+      "contactPerson": "JUAN PEREZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "929241",
+  "commodityDescription": "SAMPLE COMMODITY 29",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410077667-01",
+    "documentNumber": "202410077667-DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTO-00123456",
+      "COO-202410077667"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4107",
+      "address": "456 ALGERIA STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789012",
+      "fax": "+34 956 345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8810",
+      "address": "123 INVOICE STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123456",
+      "fax": "+34 956 987654"
+    },
+    "onboardDate": "2024-09-20 01:08",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

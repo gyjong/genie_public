@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410094887",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024996W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2134",
+      "address": "123 MAIN STREET, SINGAPORE, SINGAPORE"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1485",
+      "address": "456 ABC AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60 123456789",
+      "fax": "+60 987654321"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1427",
+      "address": "789 DEF LANE, SINGAPORE, SINGAPORE",
+      "telephone": "+65 987654321",
+      "fax": "+65 123456789"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "500161",
+  "commodityDescription": "SAMPLE COMMODITY 30",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 30 (H.S. CODE 500161)",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 15,
+      "cargoDescription": "SAMPLE COMMODITY 30 (H.S. CODE 500161)",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 20,
+      "cargoDescription": "SAMPLE COMMODITY 30 (H.S. CODE 500161)",
+      "grossWeight": 21000.0,
+      "measurement": 45.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "321098",
+      "marksAndNumbers": "JKL321",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 30 (H.S. CODE 500161)",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "987654",
+      "marksAndNumbers": "MNO987",
+      "numberOfPackages": 15,
+      "cargoDescription": "SAMPLE COMMODITY 30 (H.S. CODE 500161)",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 70,
+    "packageType": "PACKAGES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 87000.0,
+    "totalMeasurement": 195.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1427",
+      "address": "789 DEF LANE, SINGAPORE, SINGAPORE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1485",
+      "address": "456 ABC AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60 123456789",
+      "fax": "+60 987654321"
+    },
+    "onboardDate": "2024-10-08 06:09",
+    "additionalRemarks": "Value: USD834,165, This side up"
+  }
+}

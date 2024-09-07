@@ -1,0 +1,143 @@
+{
+  "bookingReference": "CHERRY202410103807",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024237W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8807",
+      "address": "123 MAIN STREET, ANYTOWN, MOROCCO",
+      "telephone": "+212 522 456 7890",
+      "email": "SHIPPER8807@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5806",
+      "address": "456 ABC STREET, GDANSK, POLAND",
+      "taxId": "PL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+48 500 123 456",
+      "fax": "+48 58 123 4567"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8981",
+      "address": "789 DEF STREET, GDANSK, POLAND",
+      "taxId": "PL9876543210",
+      "president": "MS. JANE SMITH",
+      "telephone": "+48 600 123 456",
+      "fax": "+48 58 123 4567"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "122827",
+  "commodityDescription": "SAMPLE COMMODITY 2",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 2",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 2",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 2",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU4321657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 2",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1657890",
+      "sealNumber": "165789",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 2",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 DRY) CONTAINER",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5806",
+      "address": "456 ABC STREET, GDANSK, POLAND",
+      "telephone": "+48 500 123 456",
+      "fax": "+48 58 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8981",
+      "address": "789 DEF STREET, GDANSK, POLAND",
+      "telephone": "+48 600 123 456",
+      "fax": "+48 58 123 4567"
+    },
+    "onboardDate": "2024-09-10 22:07",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

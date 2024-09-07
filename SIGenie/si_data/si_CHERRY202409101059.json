@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409101059",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024946W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9007",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+    },
+    "consignee": {
+      "name": "DUTCH TRADING CO.",
+      "address": "De Rotterdam, 33rd Floor,  Westblaak 1, 3012 BH Rotterdam, Netherlands",
+      "telephone": "+31 10 789 0123",
+      "fax": "+31 10 789 0124"
+    },
+    "notifyParty": {
+      "name": "DUTCH TRADING CO.",
+      "address": "De Rotterdam, 33rd Floor,  Westblaak 1, 3012 BH Rotterdam, Netherlands",
+      "telephone": "+31 10 789 0123",
+      "fax": "+31 10 789 0124"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINERY PARTS FOR PACKAGING LINE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARKS",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS FOR PACKAGING LINE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARKS",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS FOR PACKAGING LINE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARKS",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS FOR PACKAGING LINE - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PACKAGES",
+    "containerType": "40DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 105.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241015123456"
+    },
+    "certificateDetails": [
+      "CO1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DUTCH TRADING CO.",
+      "address": "De Rotterdam, 33rd Floor,  Westblaak 1, 3012 BH Rotterdam, Netherlands",
+      "telephone": "+31 10 789 0123",
+      "fax": "+31 10 789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE LOGISTICS PTE LTD",
+      "address": "10 Anson Road, #28-01 International Plaza, Singapore 079903"
+    },
+    "onboardDate": "2024-09-28 00:56",
+    "additionalRemarks": "No special instructions"
+  }
+}

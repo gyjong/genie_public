@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409082713",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024497W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2079",
+      "onBehalfOf": "GLOBAL BEAUTY SOLUTIONS LTD.",
+      "address": "UNIT 502, 5/F, BUILDING A, NO.222 HONGKOU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "consignee": {
+      "name": "EURO COSMETICS GMBH",
+      "address": "SCHILLINGSTRASSE 12, 20097 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SERVICES BV",
+      "address": "VRIJENBURGSTRAAT 35, 3012 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "33049900",
+  "commodityDescription": "COSMETIC PREPARATIONS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GBS-2024-09-12",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETIC PREPARATIONS",
+      "grossWeight": 9500.0,
+      "measurement": 15.0,
+      "additionalInfo": "TEMPERATURE CONTROL REQUIRED: 15-20\u00b0C."
+    },
+    {
+      "containerNumber": "MSCU9976544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GBS-2024-09-12",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETIC PREPARATIONS",
+      "grossWeight": 9500.0,
+      "measurement": 15.0,
+      "additionalInfo": "TEMPERATURE CONTROL REQUIRED: 15-20\u00b0C."
+    },
+    {
+      "containerNumber": "MSCU9976545",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GBS-2024-09-12",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COSMETIC PREPARATIONS",
+      "grossWeight": 9500.0,
+      "measurement": 15.0,
+      "additionalInfo": "TEMPERATURE CONTROL REQUIRED: 15-20\u00b0C."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 28500.0,
+    "totalMeasurement": 45.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20240912123456"
+    },
+    "certificateDetails": [
+      "CN2024091201",
+      "CN2024091202"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS CO., LTD.",
+      "address": "UNIT 502, 5/F, BUILDING A, NO.222 HONGKOU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6288-1234",
+      "fax": "+86-21-6288-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL BEAUTY SOLUTIONS LTD.",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-8901"
+    },
+    "onboardDate": "2024-09-13 03:26",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

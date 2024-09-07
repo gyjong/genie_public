@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202411068821",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024899E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1720",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "email": "SHIPPER1720@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 8025",
+      "address": "456 ABC AVENUE, YANTIAN, CHINA",
+      "taxId": "91321200765109788X",
+      "president": "MR. LIU JIANSHENG",
+      "telephone": "+86 754 123 4567",
+      "fax": "+86 754 123 4568"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7382",
+      "address": "789 DEF LANE, SINGAPORE, KOREA",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "548249",
+  "commodityDescription": "SAMPLE COMMODITY 17",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 17",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 15.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7382",
+      "address": "789 DEF LANE, SINGAPORE, KOREA",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7382",
+      "address": "789 DEF LANE, SINGAPORE, KOREA",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-09-08 23:08",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

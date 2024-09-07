@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410136510",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024625E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "TANGER"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8672",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "additionalInfo": "ATTN: JOHN DOE"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9744",
+      "address": "456 BOULEVARD STREET, CASABLANCA, MOROCCO",
+      "country": "MOROCCO",
+      "email": "CUSTOMER9744@EXAMPLE.COM",
+      "telephone": "+212 5 2222 2222"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7568",
+      "address": "789 AVENUE STREET, RABAT, MOROCCO",
+      "country": "MOROCCO",
+      "email": "INVOICERE7568@EXAMPLE.COM",
+      "telephone": "+212 6 1111 1111"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "341169",
+  "commodityDescription": "SAMPLE COMMODITY 43",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 43 AS PER PURCHASE ORDER 12345",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 43 AS PER PURCHASE ORDER 12345",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 150,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 43 AS PER PURCHASE ORDER 12345",
+      "grossWeight": 30000.0,
+      "measurement": 37.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 43 AS PER PURCHASE ORDER 12345",
+      "grossWeight": 10000.0,
+      "measurement": 12.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20'DV X4) CONTAINERS ONLY",
+    "totalPackages": 350,
+    "packageType": "BOXES",
+    "totalGrossWeight": 70000.0,
+    "totalMeasurement": 87.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345",
+    "hsCode": "341169",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "123456789012345",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9744",
+      "address": "456 BOULEVARD STREET, CASABLANCA, MOROCCO",
+      "telephone": "+212 5 2222 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7568",
+      "address": "789 AVENUE STREET, RABAT, MOROCCO",
+      "telephone": "+212 6 1111 1111",
+      "fax": "+212 5 1111 1111"
+    },
+    "onboardDate": "2024-09-30 21:45",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

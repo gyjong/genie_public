@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410271830",
+  "customerName": "CUSTOMER 4084",
+  "shipperName": "SHIPPER 1148",
+  "invoiceReceiver": "INVOICE RECEIVER 8456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024548W"
+  },
+  "cargoDetails": {
+    "hsCode": "226623",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 15",
+    "commodity": "SAMPLE COMMODITY 30"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-26 01:49",
+    "estimatedDepartureFromLoadingPort": "2024-10-09 01:49",
+    "estimatedArrivalAtDischargePort": "2024-12-02 01:49"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,120 @@
+{
+  "bookingReference": "CHERRY202410238312",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024243E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5008",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5044",
+      "address": "456 BOULEVARD STREET, PARIS, FRANCE 75000",
+      "telephone": "+33-1-123-4567",
+      "fax": "+33-1-123-4568"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5219",
+      "address": "789 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "telephone": "+33-2-123-4567",
+      "fax": "+33-2-123-4568"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "133466",
+  "commodityDescription": "SAMPLE COMMODITY 91",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : SAMPLE COMMODITY 91",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : SAMPLE COMMODITY 91",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : SAMPLE COMMODITY 91",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 45,
+    "packageType": "CARTONS, PALLETS & BOXES",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 90.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU9876543",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "133466",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5044",
+      "address": "456 BOULEVARD STREET, PARIS, FRANCE 75000",
+      "telephone": "+33-1-123-4567",
+      "fax": "+33-1-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5219",
+      "address": "789 RUE DE LA PAIX, LE HAVRE, FRANCE 76600",
+      "telephone": "+33-2-123-4567",
+      "fax": "+33-2-123-4568"
+    },
+    "onboardDate": "2024-09-17 02:05",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

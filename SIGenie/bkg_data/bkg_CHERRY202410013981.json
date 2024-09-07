@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410013981",
+  "customerName": "CUSTOMER 5075",
+  "shipperName": "SHIPPER 5218",
+  "invoiceReceiver": "INVOICE RECEIVER 2719",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024576W"
+  },
+  "cargoDetails": {
+    "hsCode": "856564",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 43",
+    "commodity": "SAMPLE COMMODITY 75"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-28 05:15",
+    "estimatedDepartureFromLoadingPort": "2024-11-05 05:15",
+    "estimatedArrivalAtDischargePort": "2024-11-15 05:15"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, JAPAN",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410214297",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024462W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9350",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 7412",
+      "address": "456 ALAMEDA STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7777 88",
+      "fax": "+34 956 7777 99",
+      "email": "IMPORT@CONSIGNEE7412.COM",
+      "contactPerson": "MARIA FERNANDEZ"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "NOTIFY PARTY 2389",
+      "address": "789 BROADWAY STREET, MADRID, SPAIN",
+      "telephone": "+34 91 8888 9999",
+      "fax": "+34 91 8888 0000"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "323948",
+  "commodityDescription": "SAMPLE COMMODITY 33",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 33",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 33",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 90,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 33",
+      "grossWeight": 11000.0,
+      "measurement": 22.5
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 70,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 33",
+      "grossWeight": 9000.0,
+      "measurement": 17.5
+    },
+    {
+      "containerNumber": "CRLU6543217",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 85,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 33",
+      "grossWeight": 10500.0,
+      "measurement": 21.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20 DRY",
+    "totalPackages": 425,
+    "totalGrossWeight": 52500.0,
+    "totalMeasurement": 106.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241021-001",
+    "documentNumber": "20241021-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567",
+      "CERT8765432"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5375",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8168",
+      "address": "456 ALAMEDA STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 7777 88",
+      "fax": "+34 956 7777 99"
+    },
+    "onboardDate": "2024-09-29 04:14",
+    "additionalRemarks": "No special instructions"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202409272610",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024985E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8699",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(BUSINESS DISTRICT)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4377",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "country": "USA",
+      "email": "CUSTOMER4377@EXAMPLE.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6274",
+      "address": "789 PARK AVENUE, LONDON, UK",
+      "country": "UK",
+      "email": "RECEIVER6274@EXAMPLE.COM",
+      "telephone": "+44 20 7555 6789"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "827408",
+  "commodityDescription": "SAMPLE COMMODITY 15",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 15",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (45' HIGH CUBE OPEN TOP) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "827408",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4377",
+      "address": "456 BROADWAY, NEW YORK, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6274",
+      "address": "789 PARK AVENUE, LONDON, UK",
+      "telephone": "+44 20 7555 6789",
+      "fax": "+44 20 7555 6790"
+    },
+    "onboardDate": "2024-10-04 05:32",
+    "additionalRemarks": "No special instructions"
+  }
+}

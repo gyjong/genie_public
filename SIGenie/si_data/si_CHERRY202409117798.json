@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202409117798",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024804E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6555",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1857",
+      "address": "456 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2050",
+      "address": "789 BEACH ROAD, SINGAPORE",
+      "telephone": "+65 6789 0125",
+      "fax": "+65 6789 0126"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "937674",
+  "commodityDescription": "SAMPLE COMMODITY 49",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 49",
+      "grossWeight": 15000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 12,
+      "cargoDescription": "SAMPLE COMMODITY 49",
+      "grossWeight": 16000.0,
+      "measurement": 52.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 8,
+      "cargoDescription": "SAMPLE COMMODITY 49",
+      "grossWeight": 14000.0,
+      "measurement": 48.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 49",
+      "grossWeight": 15000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "165432",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 12,
+      "cargoDescription": "SAMPLE COMMODITY 49",
+      "grossWeight": 16000.0,
+      "measurement": 52.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE OPEN TOP) CONTAINERS ONLY",
+    "totalPackages": 52,
+    "packageType": "PACKAGES",
+    "containerType": "40HIGHCBOXOPENTOP",
+    "totalGrossWeight": 76000.0,
+    "totalMeasurement": 252.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT654321"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1857",
+      "address": "456 ORCHARD ROAD, SINGAPORE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2050",
+      "address": "789 BEACH ROAD, SINGAPORE",
+      "telephone": "+65 6789 0125",
+      "fax": "+65 6789 0126"
+    },
+    "onboardDate": "2024-09-28 01:12",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

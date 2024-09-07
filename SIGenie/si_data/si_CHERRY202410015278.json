@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410015278",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243WEC1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "MAXIM GLOBAL LOGISTICS LTD",
+      "address": "1234 XINGFU ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998"
+    },
+    "consignee": {
+      "name": "MAXIM GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332",
+      "email": "INFO@MAXIMGLOBAL.NL",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "MAX123",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS - SPARE GEARS",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "MAX456",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS - SHAFTS AND BEARINGS",
+      "grossWeight": 8000.0,
+      "measurement": 16.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "213456",
+      "marksAndNumbers": "MAX789",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS - CONTROL PANEL AND SENSORS",
+      "grossWeight": 7200.0,
+      "measurement": 14.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 37,
+    "totalGrossWeight": 22700.0,
+    "totalMeasurement": 45.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20241001-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20241001-003",
+      "CN20241001-004"
+    ],
+    "originalBLDistribution": {
+      "name": "MAXIM GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MAXIM GLOBAL LOGISTICS LTD.",
+      "address": "1234 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 3332"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED, VALUE: USD35,000"
+  }
+}

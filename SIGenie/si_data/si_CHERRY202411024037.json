@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411024037",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024835E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1272",
+      "address": "123 Main Street, Rotterdam, Netherlands"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 4567",
+      "address": "456 Ocean Avenue, Tanger, Morocco",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7098",
+      "address": "789 Elm Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 5555 6666",
+      "fax": "+31 10 5555 7777"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "684860",
+  "commodityDescription": "SAMPLE COMMODITY 88",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "cargoDescription": "SAMPLE COMMODITY 88 - PACKED IN CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "cargoDescription": "SAMPLE COMMODITY 88 - PACKED IN PALLETS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 50,
+      "cargoDescription": "SAMPLE COMMODITY 88 - PACKED IN BAGS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3691245",
+      "sealNumber": "135790",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 50,
+      "cargoDescription": "SAMPLE COMMODITY 88 - PACKED IN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4803691",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 50,
+      "cargoDescription": "SAMPLE COMMODITY 88 - PACKED IN BOXES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7098",
+      "address": "789 Elm Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9215",
+      "address": "123 Main Street, Tanger, Morocco",
+      "telephone": "+212 5 2222 3333",
+      "fax": "+212 5 2222 4444"
+    },
+    "onboardDate": "2024-09-19 03:59",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

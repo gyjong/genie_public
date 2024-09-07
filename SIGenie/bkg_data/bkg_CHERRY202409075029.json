@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409075029",
+  "customerName": "CUSTOMER 4633",
+  "shipperName": "SHIPPER 2310",
+  "invoiceReceiver": "INVOICE RECEIVER 7093",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024683W"
+  },
+  "cargoDetails": {
+    "hsCode": "468471",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 76",
+    "commodity": "SAMPLE COMMODITY 81"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-29 21:29",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 21:29",
+    "estimatedArrivalAtDischargePort": "2024-11-29 21:29"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, KOREA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

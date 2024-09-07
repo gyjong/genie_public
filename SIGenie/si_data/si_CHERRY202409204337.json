@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202409204337",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024630W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9248",
+      "address": "123 MAIN STREET, SHENZHEN, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9101",
+      "address": "456 ABC AVENUE, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "fax": "+60 3 9876 5432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2597",
+      "address": "789 DEF LANE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6456 7890"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "775273",
+  "commodityDescription": "SAMPLE COMMODITY 29 - HEAVY MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9776123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU8954321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "214365",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (45'HC X5) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "45'HCX5",
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 300.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 12192,
+    "width": 2438,
+    "height": 2698,
+    "overHeight": 198
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9101",
+      "address": "456 ABC AVENUE, KUALA LUMPUR, MALAYSIA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2597",
+      "address": "789 DEF LANE, SINGAPORE"
+    },
+    "onboardDate": "2024-09-17 22:44",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410157537",
+  "customerName": "CUSTOMER 3333",
+  "shipperName": "SHIPPER 2562",
+  "invoiceReceiver": "INVOICE RECEIVER 3183",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024587E"
+  },
+  "cargoDetails": {
+    "hsCode": "671657",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 76",
+    "commodity": "SAMPLE COMMODITY 76"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "FLAT RACK",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-13 04:47",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 04:47",
+    "estimatedArrivalAtDischargePort": "2024-12-04 04:47"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, VIETNAM",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions"
+}

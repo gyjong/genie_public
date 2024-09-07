@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409301836",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024675E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6341",
+      "address": "UNIT 1201, 12/F, TOWER 2, SHANGHAI CENTRE, 1376 NANJING WEST ROAD, SHANGHAI 200040, CHINA",
+      "telephone": "+86-21-6278-3321",
+      "fax": "+86-21-6278-3322"
+    },
+    "consignee": {
+      "name": "EUROFREIGHT BV",
+      "address": "WEGSCHEIDENSEWEG 12, 3133 BN VlISSINGEN, NETHERLANDS",
+      "telephone": "+31-118-465-100",
+      "fax": "+31-118-465-101",
+      "email": "IMPORT@EUROFREIGHT.NL",
+      "contactPerson": "MARCEL VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "UNIT 1201, 12/F, TOWER 2, SHANGHAI CENTRE, 1376 NANJING WEST ROAD, SHANGHAI 200040, CHINA",
+      "telephone": "+86-21-6278-3321",
+      "fax": "+86-21-6278-3322"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "732258",
+  "commodityDescription": "STEEL PIPES FOR CONSTRUCTION",
+  "containers": [
+    {
+      "containerNumber": "MSCU3748532",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL PIPES FOR CONSTRUCTION",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 40 DRY CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241002-001",
+    "documentNumber": "20241002-002",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROFREIGHT BV",
+      "address": "WEGSCHEIDENSEWEG 12, 3133 BN VlISSINGEN, NETHERLANDS",
+      "telephone": "+31-118-465-100",
+      "fax": "+31-118-465-101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD.",
+      "address": "UNIT 1201, 12/F, TOWER 2, SHANGHAI CENTRE, 1376 NANJING WEST ROAD, SHANGHAI 200040, CHINA",
+      "telephone": "+86-21-6278-3321",
+      "fax": "+86-21-6278-3322"
+    },
+    "onboardDate": "2024-10-07 03:05",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

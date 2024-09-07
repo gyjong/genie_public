@@ -1,0 +1,141 @@
+{
+  "bookingReference": "CHERRY202409205358",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024826W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3918",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3980",
+      "address": "456 CONSIGNEE AVENUE, HAMBURG 234567",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9899",
+      "address": "789 NOTIFY STREET, HAMBURG 234567",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "666052",
+  "commodityDescription": "SAMPLE COMMODITY 26",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 26",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 26",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 150,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 26",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "654789",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 200,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 26",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678912",
+      "sealNumber": "987123",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 26",
+      "grossWeight": 2500.0,
+      "measurement": 5.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 550,
+    "packageType": "MIXED PACKAGES",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 75.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3980",
+      "address": "456 CONSIGNEE AVENUE, HAMBURG 234567",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHIPPER 3918",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "onboardDate": "2024-10-05 02:25",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

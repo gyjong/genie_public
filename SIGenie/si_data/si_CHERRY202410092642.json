@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202410092642",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024568E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1127",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "additionalInfo": "(INDUSTRIAL ZONE)",
+      "telephone": "+34 956 789 123",
+      "email": "SHIPPING@SHIPPER1127.ES"
+    },
+    "consignee": {
+      "name": "NINGBO IMPORT & EXPORT CO. LTD.",
+      "address": "456 NINGBO ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "email": "IMPORT@NINGBOIMPORT.CN",
+      "telephone": "+86 574 890 1234"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7264",
+      "address": "789 MAIN STREET, LONDON, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "CUSTOMER7264@EXAMPLE.COM",
+      "telephone": "+44 20 7890 1234"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "257034",
+  "commodityDescription": "SAMPLE COMMODITY 77",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 77",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 77",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 77",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "369852",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 77",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU1357924",
+      "sealNumber": "481596",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 77",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 45 HIGH CUBE FLAT RACK CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 110315.0,
+    "totalMeasurement": 175.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 13716,
+    "width": 2438,
+    "height": 2698,
+    "overWidth": 100,
+    "overHeight": 500
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-27 03:16",
+    "additionalRemarks": "No special instructions"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410229737",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024421E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4584",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8623-4567",
+      "fax": "+86-574-8623-4568"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5287 BV.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4819 CO.",
+      "address": "789 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS 1011 AA",
+      "telephone": "+31-20-678-9012",
+      "fax": "+31-20-678-9013"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "148268",
+  "commodityDescription": "SAMPLE COMMODITY 74",
+  "containers": [
+    {
+      "containerNumber": "HCRU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 74",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "HCRU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 80,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 74",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 180,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 45.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO987654321",
+    "salesOrderNumber": "SO123456789",
+    "lcDetails": {
+      "lcNumber": "LC20241022001"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5287 BV.",
+      "address": "456 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-234-5678",
+      "fax": "+31-10-234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4819 CO.",
+      "address": "789 AMSTERDAM AVENUE, AMSTERDAM, NETHERLANDS 1011 AA",
+      "telephone": "+31-20-678-9012",
+      "fax": "+31-20-678-9013"
+    },
+    "onboardDate": "2024-09-30 23:57",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

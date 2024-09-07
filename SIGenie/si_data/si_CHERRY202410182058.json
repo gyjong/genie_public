@@ -1,0 +1,87 @@
+{
+  "bookingReference": "CHERRY202410182058",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024375E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2049",
+      "onBehalfOf": "CUSTOMER 3723",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7582",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE, 75001",
+      "companyNumber": "FR12345678901"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3723",
+      "address": "123456 ABC STREET, LONDON, UK, WC1A 1AA"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "505661",
+  "commodityDescription": "SAMPLE COMMODITY 68",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND MEASUREMENT AS DECLARED",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": "CARGO PACKED IN STANDARD EXPORT PACKING"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' HC) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 30.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345"
+    ],
+    "originalBLDistribution": {
+      "name": "SHIPPER 2049",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3723",
+      "address": "123456 ABC STREET, LONDON, UK, WC1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568"
+    },
+    "onboardDate": "2024-09-28 23:13",
+    "additionalRemarks": "No special instructions"
+  }
+}

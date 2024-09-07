@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409076101",
+  "customerName": "CUSTOMER 6201",
+  "shipperName": "SHIPPER 3555",
+  "invoiceReceiver": "INVOICE RECEIVER 1679",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024175W"
+  },
+  "cargoDetails": {
+    "hsCode": "183546",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 21",
+    "commodity": "SAMPLE COMMODITY 31"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 21:18",
+    "estimatedDepartureFromLoadingPort": "2024-11-03 21:18",
+    "estimatedArrivalAtDischargePort": "2024-11-26 21:18"
+  },
+  "emptyContainerPickupLocation": "TANGER, JAPAN",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions"
+}

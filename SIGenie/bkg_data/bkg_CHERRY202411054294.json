@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411054294",
+  "customerName": "CUSTOMER 5930",
+  "shipperName": "SHIPPER 9588",
+  "invoiceReceiver": "INVOICE RECEIVER 1992",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024443W"
+  },
+  "cargoDetails": {
+    "hsCode": "645715",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 25",
+    "commodity": "SAMPLE COMMODITY 48"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "OPEN TOP",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-25 23:24",
+    "estimatedDepartureFromLoadingPort": "2024-11-04 23:24",
+    "estimatedArrivalAtDischargePort": "2024-11-20 23:24"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, CHINA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions"
+}

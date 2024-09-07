@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410255908",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024753W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6611",
+      "address": "123 MAIN STREET, CITY, COUNTRY",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5489",
+      "address": "456 BROADWAY, CITY, COUNTRY",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6542"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5461",
+      "address": "789 OAK AVENUE, CITY, COUNTRY",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "175267",
+  "commodityDescription": "SAMPLE COMMODITY 64",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 5,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 7500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS 4",
+      "numberOfPackages": 10,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 6000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 DRY) CONTAINERS",
+    "totalPackages": 40,
+    "packageType": "MIXED",
+    "totalGrossWeight": 40500.0,
+    "totalMeasurement": 80.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT12345678",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5489",
+      "address": "456 BROADWAY, CITY, COUNTRY",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6542"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5461",
+      "address": "789 OAK AVENUE, CITY, COUNTRY",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    },
+    "onboardDate": "2024-09-22 00:52",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

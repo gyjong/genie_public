@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409139839",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409EWLN1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "DE KOEPLAAN 123, 3061 LA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 10 201 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "DE KOEPLAAN 123, 3061 LA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 10 201 5678"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL IMPORT EXPORT LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY SPARE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO.",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY COMPONENTS",
+      "grossWeight": 11500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY)",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "CN20241025001",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "DE KOEPLAAN 123, 3061 LA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT LTD",
+      "address": "DE KOEPLAAN 123, 3061 LA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 5678"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Two 20' Dry Containers, Packaging Machinery, Value: USD 150,000"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410252393",
+  "customerName": "CUSTOMER 3334",
+  "shipperName": "SHIPPER 6222",
+  "invoiceReceiver": "INVOICE RECEIVER 3691",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024498W"
+  },
+  "cargoDetails": {
+    "hsCode": "134619",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 32",
+    "commodity": "SAMPLE COMMODITY 30"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "FLAT RACK",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-22 05:39",
+    "estimatedDepartureFromLoadingPort": "2024-10-20 05:39",
+    "estimatedArrivalAtDischargePort": "2024-11-23 05:39"
+  },
+  "emptyContainerPickupLocation": "NINGBO, JAPAN",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions"
+}

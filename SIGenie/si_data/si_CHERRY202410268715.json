@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410268715",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024554E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9018",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "email": "SHIPPER9018@EMAIL.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8258",
+      "address": "456 CUSTOMER AVENUE, YANTIAN, CHINA",
+      "taxId": "12345678901234",
+      "president": "MR. JOHN CUSTOMER",
+      "telephone": "+86 755 89012345",
+      "fax": "+86 755 89012346"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9324",
+      "address": "789 RECEIVER LANE, YANTIAN, CHINA",
+      "taxId": "56789012345678",
+      "president": "MS. JANE RECEIVER",
+      "telephone": "+86 755 90123456",
+      "fax": "+86 755 90123457"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "176876",
+  "commodityDescription": "SAMPLE COMMODITY 68",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 68",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMLU6789012",
+      "sealNumber": "67890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 68",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "CARTONS & PALLETS",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 35.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE12345",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8258",
+      "address": "456 CUSTOMER AVENUE, YANTIAN, CHINA",
+      "telephone": "+86 755 89012345",
+      "fax": "+86 755 89012346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9324",
+      "address": "789 RECEIVER LANE, YANTIAN, CHINA",
+      "telephone": "+86 755 90123456",
+      "fax": "+86 755 90123457"
+    },
+    "onboardDate": "2024-09-15 02:10",
+    "additionalRemarks": "No special instructions"
+  }
+}

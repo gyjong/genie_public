@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202409188259",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024357W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8697",
+      "onBehalfOf": "CUSTOMER 2995",
+      "address": "123 Main Street, Anytown, USA",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 4092",
+      "address": "456 Oak Avenue, Somecity, Malaysia",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 2995",
+      "address": "789 Pine Lane, Anytown, USA"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "130342",
+  "commodityDescription": "SAMPLE COMMODITY 22",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 22",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER NEEDS TO BE PRE-COOLING BEFORE LOADING"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC) CONTAINER",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "40'HC OPEN TOP",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2995",
+      "address": "789 Pine Lane, Anytown, USA",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4092",
+      "address": "456 Oak Avenue, Somecity, Malaysia"
+    },
+    "onboardDate": "2024-09-30 02:29",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410134681",
+  "customerName": "CUSTOMER 6220",
+  "shipperName": "SHIPPER 3881",
+  "invoiceReceiver": "INVOICE RECEIVER 3387",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024639E"
+  },
+  "cargoDetails": {
+    "hsCode": "475054",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 37",
+    "commodity": "SAMPLE COMMODITY 41"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "FLAT RACK",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 05:07",
+    "estimatedDepartureFromLoadingPort": "2024-10-18 05:07",
+    "estimatedArrivalAtDischargePort": "2024-11-28 05:07"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

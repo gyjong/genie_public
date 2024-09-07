@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409185073",
+  "customerName": "CUSTOMER 6322",
+  "shipperName": "SHIPPER 7074",
+  "invoiceReceiver": "INVOICE RECEIVER 8273",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024361W"
+  },
+  "cargoDetails": {
+    "hsCode": "101791",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 4",
+    "commodity": "SAMPLE COMMODITY 29"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "FLAT RACK",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-08 04:29",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 04:29",
+    "estimatedArrivalAtDischargePort": "2024-12-02 04:29"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, KOREA",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions"
+}

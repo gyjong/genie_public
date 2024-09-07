@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410188655",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024960W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "NINGBO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2117",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 3685",
+      "address": "456 CONSIGNEE ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432",
+      "email": "consignee@example.com",
+      "contactPerson": "LI WEI"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "CUSTOMER 9679",
+      "address": "789 CUSTOMER AVENUE, BEIJING, CHINA",
+      "telephone": "+86-10-12345678",
+      "fax": "+86-10-98765432"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "189777",
+  "commodityDescription": "SAMPLE COMMODITY 18",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 18",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 18",
+      "grossWeight": 16000.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 90,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 18",
+      "grossWeight": 14000.0,
+      "measurement": 24.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 110,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 18",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 40 HIGH CUBE REEFER CONTAINERS",
+    "totalPackages": 420,
+    "totalGrossWeight": 60500.0,
+    "totalMeasurement": 100.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202410188655",
+    "documentNumber": "DOC202410188655",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345678",
+      "CERT98765432"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9679",
+      "address": "789 CUSTOMER AVENUE, BEIJING, CHINA",
+      "telephone": "+86-10-12345678",
+      "fax": "+86-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SHIPPER 2117",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "onboardDate": "2024-10-06 06:12",
+    "additionalRemarks": "Value: USD762,217, 14 Days Free Time at Destination"
+  }
+}

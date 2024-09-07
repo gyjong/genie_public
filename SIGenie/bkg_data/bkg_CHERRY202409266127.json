@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409266127",
+  "customerName": "CUSTOMER 1212",
+  "shipperName": "SHIPPER 4982",
+  "invoiceReceiver": "INVOICE RECEIVER 3486",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024923E"
+  },
+  "cargoDetails": {
+    "hsCode": "785507",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 62",
+    "commodity": "SAMPLE COMMODITY 44"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-29 21:33",
+    "estimatedDepartureFromLoadingPort": "2024-10-12 21:33",
+    "estimatedArrivalAtDischargePort": "2024-11-27 21:33"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, JAPAN",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions"
+}

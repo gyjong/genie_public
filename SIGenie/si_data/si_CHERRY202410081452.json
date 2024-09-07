@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410081452",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024222E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5186",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 123 456",
+      "email": "SHIPPER5186@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6061",
+      "address": "456 RUE DE LA MER, LE HAVRE, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6966",
+      "address": "789 BOULEVARD DES VOILES, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 98 76 54",
+      "fax": "+33 2 35 98 76 53"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "424581",
+  "commodityDescription": "SAMPLE COMMODITY 91",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500067",
+      "sealNumber": "894100",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LE HAVRE, FRANCE SAMPLE COMMODITY 91",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LE HAVRE, FRANCE SAMPLE COMMODITY 91",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1500069",
+      "sealNumber": "894102",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LE HAVRE, FRANCE SAMPLE COMMODITY 91",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 45,
+    "packageType": "BUNDLES",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 59676.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-09-20 00:12",
+    "additionalRemarks": "No special instructions"
+  }
+}

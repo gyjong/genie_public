@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410161684",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024295W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5475",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2162",
+      "address": "456 FRANKFURT STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-87654321"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7859",
+      "address": "789 BERLIN STREET, HAMBURG, GERMANY 22000",
+      "telephone": "+49-40-98765432",
+      "fax": "+49-40-12345678"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "808248",
+  "commodityDescription": "SAMPLE COMMODITY 68",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: SAMPLE COMMODITY 68",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: SAMPLE COMMODITY 68",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 33000.0,
+    "totalMeasurement": 55.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO2024101601",
+    "salesOrderNumber": "SO2024101602",
+    "lcDetails": {
+      "lcNumber": "LC2024101603"
+    },
+    "certificateDetails": "CERT2024101604",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2162",
+      "address": "456 FRANKFURT STREET, HAMBURG, GERMANY 20000",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7859",
+      "address": "789 BERLIN STREET, HAMBURG, GERMANY 22000",
+      "telephone": "+49-40-98765432",
+      "fax": "+49-40-12345678"
+    },
+    "onboardDate": "2024-09-30 01:05",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

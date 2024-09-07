@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409194746",
+  "customerName": "CUSTOMER 7037",
+  "shipperName": "SHIPPER 7649",
+  "invoiceReceiver": "INVOICE RECEIVER 9978",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024625E"
+  },
+  "cargoDetails": {
+    "hsCode": "101701",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 42",
+    "commodity": "SAMPLE COMMODITY 56"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-07 04:45",
+    "estimatedDepartureFromLoadingPort": "2024-10-10 04:45",
+    "estimatedArrivalAtDischargePort": "2024-11-17 04:45"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, JAPAN",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

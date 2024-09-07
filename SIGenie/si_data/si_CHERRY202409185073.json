@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409185073",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024361W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7074",
+      "onBehalfOf": "",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-9876-5432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6322",
+      "address": "456 CONSIGNEE AVE, GDANSK, POLAND",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8273",
+      "address": "789 NOTIFY ST, GDANSK, POLAND"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "101791",
+  "commodityDescription": "SAMPLE COMMODITY 29",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 29",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "reeferSettings": {
+    "containerNumber": "",
+    "temperature": "",
+    "minTemperature": "",
+    "maxTemperature": "",
+    "ventilation": "",
+    "humidity": ""
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [
+      ""
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6322",
+      "address": "456 CONSIGNEE AVE, GDANSK, POLAND",
+      "telephone": "+48-58-123-4567",
+      "fax": "+48-58-987-6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8273",
+      "address": "789 NOTIFY ST, GDANSK, POLAND"
+    },
+    "onboardDate": "2024-10-08 04:29",
+    "additionalRemarks": "No special instructions"
+  }
+}

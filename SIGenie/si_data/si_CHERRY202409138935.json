@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202409138935",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024638W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3508",
+      "address": "123 MAIN STREET, TANGER, MOROCCO",
+      "telephone": "+212-5-2222-1111",
+      "fax": "+212-5-2222-2222"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1304",
+      "address": "456 ABC AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60-3-3333-1111",
+      "fax": "+60-3-3333-2222"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9857",
+      "address": "789 XYZ ROAD, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-1-4444-1111",
+      "fax": "+60-1-4444-2222"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "807312",
+  "commodityDescription": "SAMPLE COMMODITY 97",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GROSS WEIGHT AS INDICATED.",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "67890",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 80,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GROSS WEIGHT AS INDICATED.",
+      "grossWeight": 9000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "24680",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 60,
+      "packageType": "BAGS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GROSS WEIGHT AS INDICATED.",
+      "grossWeight": 6000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "98765",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GROSS WEIGHT AS INDICATED.",
+      "grossWeight": 4000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 280,
+    "packageType": "CARTONS, PALLETS, BAGS, BOXES",
+    "totalGrossWeight": 31000.0,
+    "totalMeasurement": 57.0
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1304",
+      "address": "456 ABC AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60-3-3333-1111",
+      "fax": "+60-3-3333-2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9857",
+      "address": "789 XYZ ROAD, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60-1-4444-1111",
+      "fax": "+60-1-4444-2222"
+    },
+    "onboardDate": "2024-09-10 05:17",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

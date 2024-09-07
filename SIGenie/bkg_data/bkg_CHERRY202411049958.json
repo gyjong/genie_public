@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202411049958",
+  "customerName": "CUSTOMER 1814",
+  "shipperName": "SHIPPER 9721",
+  "invoiceReceiver": "INVOICE RECEIVER 1578",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024258W"
+  },
+  "cargoDetails": {
+    "hsCode": "976406",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 27",
+    "commodity": "SAMPLE COMMODITY 72"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "FLAT RACK",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-03 23:16",
+    "estimatedDepartureFromLoadingPort": "2024-10-31 23:16",
+    "estimatedArrivalAtDischargePort": "2024-11-23 23:16"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, CHINA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

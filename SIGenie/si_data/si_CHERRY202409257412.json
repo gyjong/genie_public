@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202409257412",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024245E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8869",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN 11111",
+      "telephone": "+34 123 456 7890",
+      "fax": "+34 123 456 7891"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1920",
+      "address": "456 ABC LANE, SINGAPORE 12345",
+      "telephone": "+65 987 654 3210",
+      "fax": "+65 987 654 3211",
+      "email": "CUSTOMER1920@EXAMPLE.COM",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "920935",
+  "commodityDescription": "SAMPLE COMMODITY 63",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 63",
+      "grossWeight": 12000.0,
+      "measurement": 10.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 63",
+      "grossWeight": 13000.0,
+      "measurement": 12.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 63",
+      "grossWeight": 11500.0,
+      "measurement": 9.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "432109",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 13,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 63",
+      "grossWeight": 12500.0,
+      "measurement": 11.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 20 DRY",
+    "totalPackages": 50,
+    "totalGrossWeight": 49000.0,
+    "totalMeasurement": 42.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV202409257412001",
+    "documentNumber": "DOC202409257412001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1920",
+      "address": "456 ABC LANE, SINGAPORE 12345",
+      "telephone": "+65 987 654 3210",
+      "fax": "+65 987 654 3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 1920",
+      "address": "456 ABC LANE, SINGAPORE 12345",
+      "telephone": "+65 987 654 3210",
+      "fax": "+65 987 654 3211"
+    },
+    "onboardDate": "2024-09-10 23:53",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

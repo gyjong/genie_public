@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409179668",
+  "customerName": "CUSTOMER 9724",
+  "shipperName": "SHIPPER 6328",
+  "invoiceReceiver": "INVOICE RECEIVER 5834",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024427E"
+  },
+  "cargoDetails": {
+    "hsCode": "316696",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 28",
+    "commodity": "SAMPLE COMMODITY 10"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-04 03:06",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 03:06",
+    "estimatedArrivalAtDischargePort": "2024-11-16 03:06"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, JAPAN",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions"
+}

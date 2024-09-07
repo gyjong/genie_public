@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409112506",
+  "customerName": "CUSTOMER 6848",
+  "shipperName": "SHIPPER 7924",
+  "invoiceReceiver": "INVOICE RECEIVER 2480",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024419W"
+  },
+  "cargoDetails": {
+    "hsCode": "675115",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 50",
+    "commodity": "SAMPLE COMMODITY 59"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-29 00:14",
+    "estimatedDepartureFromLoadingPort": "2024-11-04 00:14",
+    "estimatedArrivalAtDischargePort": "2024-11-24 00:14"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

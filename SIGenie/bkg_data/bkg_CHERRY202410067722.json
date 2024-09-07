@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410067722",
+  "customerName": "CUSTOMER 1199",
+  "shipperName": "SHIPPER 6664",
+  "invoiceReceiver": "INVOICE RECEIVER 8932",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024284E"
+  },
+  "cargoDetails": {
+    "hsCode": "267820",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 29",
+    "commodity": "SAMPLE COMMODITY 44"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-27 03:33",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 03:33",
+    "estimatedArrivalAtDischargePort": "2024-12-03 03:33"
+  },
+  "emptyContainerPickupLocation": "TANGER, KOREA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions"
+}

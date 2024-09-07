@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202411061028",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024457E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4709",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60 3 2222 3333",
+      "fax": "+60 3 2222 4444"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7133",
+      "address": "456 ABC ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777",
+      "email": "IMPORT@CUSTOMER7133.COM",
+      "contactPerson": "LI WEI"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1274",
+      "address": "789 DEF LANE, HONG KONG",
+      "telephone": "+852 1111 2222",
+      "fax": "+852 1111 3333"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "899689",
+  "commodityDescription": "SAMPLE COMMODITY 4",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 4",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 40 DRY FLAT RACK",
+    "totalPackages": 15,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7133",
+      "address": "456 ABC ROAD, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1274",
+      "address": "789 DEF LANE, HONG KONG"
+    },
+    "onboardDate": "2024-09-14 22:46",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

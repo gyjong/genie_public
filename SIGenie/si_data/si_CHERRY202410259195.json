@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410259195",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024198E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6432",
+      "address": "UL. NOWA 123, 80-123 GDANSK, POLAND",
+      "country": "POLAND",
+      "additionalInfo": "ATTN: MR. JAN KOWALSKI",
+      "telephone": "+48 58 666 7777",
+      "email": "JAN.KOWALSKI@SHIPPER6432.PL"
+    },
+    "consignee": {
+      "name": "IMPORTING CO. LTD.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "email": "INFO@IMPORTING.COM.CN",
+      "telephone": "+86 21 5555 6666"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 7323",
+      "address": "123 MAIN STREET, LONDON, WC1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@CUSTOMER7323.COM, ORDERS@CUSTOMER7323.COM",
+      "telephone": "+44 20 7777 8888"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "917909",
+  "commodityDescription": "SAMPLE COMMODITY 48",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 48 AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (1) X 40' DRY CONTAINER",
+    "totalPackages": 10,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "INVOICE RECEIVER 9652",
+      "address": "1234 LONDON ROAD, LONDON, EC1A 1AA",
+      "telephone": "+44 20 7777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7323",
+      "address": "123 MAIN STREET, LONDON, WC1A 1AA",
+      "telephone": "+44 20 7777 8888"
+    },
+    "onboardDate": "2024-09-11 23:31",
+    "additionalRemarks": "No special instructions"
+  }
+}

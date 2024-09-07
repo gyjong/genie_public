@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410012221",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024392W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5469",
+      "address": "123 MAIN STREET, PARIS, 75001, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "ATTN: SHIPPING DEPT."
+    },
+    "consignee": {
+      "name": "CUSTOMER 2950",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "country": "SINGAPORE",
+      "email": "CUSTOMER2950@EXAMPLE.COM",
+      "telephone": "+65 6789 0123"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5781",
+      "address": "456 FINANCIAL STREET, SINGAPORE 069248",
+      "country": "SINGAPORE",
+      "email": "INVOICE5781@EXAMPLE.COM",
+      "telephone": "+65 6123 4567"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "190659",
+  "commodityDescription": "SAMPLE COMMODITY 92",
+  "containers": [
+    {
+      "containerNumber": "CMAU7273549",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 92 AS PER PURCHASE ORDER 123456789",
+      "grossWeight": 18000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 92, LOT NUMBER 12345",
+      "grossWeight": 16000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 120,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 92, SHIPPED UNDER INVOICE NUMBER 987654321",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU4321098",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 60,
+      "packageType": "DRUMS",
+      "cargoDescription": "SAMPLE COMMODITY 92, PACKAGED IN UN-CERTIFIED DRUMS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU6543210",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 40,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 92, PACKAGED IN 25KG BAGS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20'DV X5) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "VARIOUS",
+    "totalGrossWeight": 76000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456789",
+    "hsCode": "190659",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": "1234567890ABC",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2950",
+      "address": "100 ORCHARD ROAD, SINGAPORE 238840",
+      "telephone": "+65 6789 0123"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5781",
+      "address": "456 FINANCIAL STREET, SINGAPORE 069248",
+      "telephone": "+65 6123 4567",
+      "fax": "+65 6123 4568"
+    },
+    "onboardDate": "2024-10-06 02:21",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

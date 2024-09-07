@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410068883",
+  "customerName": "CUSTOMER 9593",
+  "shipperName": "SHIPPER 4606",
+  "invoiceReceiver": "INVOICE RECEIVER 4115",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024834E"
+  },
+  "cargoDetails": {
+    "hsCode": "803883",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 60",
+    "commodity": "SAMPLE COMMODITY 95"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-28 23:51",
+    "estimatedDepartureFromLoadingPort": "2024-10-13 23:51",
+    "estimatedArrivalAtDischargePort": "2024-11-23 23:51"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

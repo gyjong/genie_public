@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410255231",
+  "customerName": "CUSTOMER 8041",
+  "shipperName": "SHIPPER 6087",
+  "invoiceReceiver": "INVOICE RECEIVER 3347",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024334E"
+  },
+  "cargoDetails": {
+    "hsCode": "840931",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 99",
+    "commodity": "SAMPLE COMMODITY 90"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "OPEN TOP",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-17 01:42",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 01:42",
+    "estimatedArrivalAtDischargePort": "2024-11-11 01:42"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

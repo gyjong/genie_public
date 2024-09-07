@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410317042",
+  "customerName": "CUSTOMER 7227",
+  "shipperName": "SHIPPER 3892",
+  "invoiceReceiver": "INVOICE RECEIVER 1559",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024349W"
+  },
+  "cargoDetails": {
+    "hsCode": "637170",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 23",
+    "commodity": "SAMPLE COMMODITY 23"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-24 04:07",
+    "estimatedDepartureFromLoadingPort": "2024-10-09 04:07",
+    "estimatedArrivalAtDischargePort": "2024-12-04 04:07"
+  },
+  "emptyContainerPickupLocation": "TANGER, VIETNAM",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410107820",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024536W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4327",
+      "address": "123 MAIN STREET, SINGAPORE 123456"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8281",
+      "address": "456 ALGEICIRAS STREET, ALGECIRAS 12345",
+      "telephone": "+34 123 456 7890",
+      "fax": "+34 123 456 7891"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5659",
+      "address": "789 INVOICE RECEIVER STREET, ALGECIRAS 12345",
+      "telephone": "+34 123 456 7892",
+      "fax": "+34 123 456 7893"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "814194",
+  "commodityDescription": "SAMPLE COMMODITY 32",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 32 IN 10 PACKAGES",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 12,
+      "cargoDescription": "SAMPLE COMMODITY 32 IN 12 PACKAGES",
+      "grossWeight": 16000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 15,
+      "cargoDescription": "SAMPLE COMMODITY 32 IN 15 PACKAGES",
+      "grossWeight": 17000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 18,
+      "cargoDescription": "SAMPLE COMMODITY 32 IN 18 PACKAGES",
+      "grossWeight": 18000.0,
+      "measurement": 38.0
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "369124",
+      "marksAndNumbers": "SAMPLE MARKING 5",
+      "numberOfPackages": 20,
+      "cargoDescription": "SAMPLE COMMODITY 32 IN 20 PACKAGES",
+      "grossWeight": 19000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE REEFER) CONTAINERS ONLY",
+    "totalPackages": 75,
+    "packageType": "PACKAGES",
+    "containerType": "40HC REEFER",
+    "totalGrossWeight": 85000.0,
+    "totalMeasurement": 175.0
+  },
+  "outOfGaugeDimensions": {
+    "length": null,
+    "width": null,
+    "height": null,
+    "overHeight": null
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "123456789012X",
+      "987654321012X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8281",
+      "address": "456 ALGEICIRAS STREET, ALGECIRAS 12345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5659",
+      "address": "789 INVOICE RECEIVER STREET, ALGECIRAS 12345",
+      "telephone": "+34 123 456 7892",
+      "fax": "+34 123 456 7893"
+    },
+    "onboardDate": "2024-09-13 04:49",
+    "additionalRemarks": "No special instructions"
+  }
+}

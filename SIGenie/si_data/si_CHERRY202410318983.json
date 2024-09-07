@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410318983",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024561W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2705",
+      "address": "123 SHIPPER STREET, SINGAPORE",
+      "country": "SINGAPORE",
+      "additionalInfo": "",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPER2705@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 4567",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE",
+      "country": "FRANCE",
+      "email": "CONSIGNEE4567@EXAMPLE.COM",
+      "telephone": "+33 2 35 00 00 00"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 6561",
+      "address": "789 CUSTOMER ROAD, SINGAPORE",
+      "country": "SINGAPORE",
+      "email": "CUSTOMER6561@EXAMPLE.COM",
+      "telephone": "+65 1234 5678"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "723182",
+  "commodityDescription": "SAMPLE COMMODITY 94",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 94, PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 94, PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45' HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 70.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT123456",
+      "CERT789012"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-07 01:07",
+    "additionalRemarks": "No special instructions"
+  }
+}

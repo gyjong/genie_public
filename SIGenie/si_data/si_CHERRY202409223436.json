@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202409223436",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024294E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "TANGER"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4284",
+      "onBehalfOf": "CUSTOMER 8526",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "telephone": "+48 58 333 4444",
+      "fax": "+48 58 333 5555"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 7671",
+      "address": "456 BROADWAY STREET, TANGER, MOROCCO",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 8526",
+      "address": "987 ORCHARD ROAD, SINGAPORE"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "439297",
+  "commodityDescription": "SAMPLE COMMODITY 95",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 95",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: +5\u00b0C"
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 95",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: +5\u00b0C"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 95",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: +5\u00b0C"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE REEFER) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "40'HCRF",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00b0C",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8526",
+      "address": "987 ORCHARD ROAD, SINGAPORE",
+      "telephone": "+65 6777 8888",
+      "fax": "+65 6777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7671",
+      "address": "456 BROADWAY STREET, TANGER, MOROCCO",
+      "telephone": "+212 522 444 555",
+      "fax": "+212 522 444 666"
+    },
+    "onboardDate": "2024-10-04 04:18",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

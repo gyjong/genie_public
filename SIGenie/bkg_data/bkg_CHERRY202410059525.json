@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410059525",
+  "customerName": "CUSTOMER 3772",
+  "shipperName": "SHIPPER 7893",
+  "invoiceReceiver": "INVOICE RECEIVER 2958",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024572W"
+  },
+  "cargoDetails": {
+    "hsCode": "302060",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 83",
+    "commodity": "SAMPLE COMMODITY 4"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-27 23:27",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 23:27",
+    "estimatedArrivalAtDischargePort": "2024-11-28 23:27"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410254900",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024613W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3204",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "telephone": "+65 1234 5678",
+      "fax": "+65 9876 5432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8011",
+      "address": "456 CUSTOMER AVENUE, HAMBURG 20000",
+      "telephone": "+49 1111 2222",
+      "fax": "+49 3333 4444",
+      "email": "customer8011@example.com",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 2373",
+      "address": "789 INVOICE RECEIVER STREET, HAMBURG 22222",
+      "telephone": "+49 5555 6666",
+      "fax": "+49 7777 8888"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "693592",
+  "commodityDescription": "SAMPLE COMMODITY 24",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 31,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 24",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 36,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 24",
+      "grossWeight": 18643.0,
+      "measurement": 20.071
+    },
+    {
+      "containerNumber": "CRLU2712351",
+      "sealNumber": "170990",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 34,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 24",
+      "grossWeight": 19194.0,
+      "measurement": 19.449
+    },
+    {
+      "containerNumber": "CRLU2148985",
+      "sealNumber": "170759",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 32,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 24",
+      "grossWeight": 17673.0,
+      "measurement": 19.04
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 40 DRY OPEN TOP CONTAINERS",
+    "totalPackages": 133,
+    "totalGrossWeight": 74631.0,
+    "totalMeasurement": 79.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8011",
+      "address": "456 CUSTOMER AVENUE, HAMBURG 20000",
+      "telephone": "+49 1111 2222",
+      "fax": "+49 3333 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2373",
+      "address": "789 INVOICE RECEIVER STREET, HAMBURG 22222",
+      "telephone": "+49 5555 6666",
+      "fax": "+49 7777 8888"
+    },
+    "onboardDate": "2024-09-30 05:30",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

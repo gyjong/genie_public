@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410306800",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024361W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "YANTIAN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6030",
+      "address": "123 SHIPPER STREET, SHIPPER CITY, SHIPPER COUNTRY",
+      "telephone": "+86 123 456 7890",
+      "fax": "+86 123 456 7891"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5572",
+      "address": "456 CONSIGNEE AVENUE, CONSIGNEE CITY, CONSIGNEE COUNTRY",
+      "telephone": "+34 987 654 3210",
+      "fax": "+34 987 654 3211",
+      "email": "CUSTOMER5572@EXAMPLE.COM",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 3596",
+      "address": "789 INVOICE RECEIVER STREET, INVOICE RECEIVER CITY, INVOICE RECEIVER COUNTRY",
+      "telephone": "+34 567 890 1234",
+      "fax": "+34 567 890 1235"
+    }
+  },
+  "shippingTerm": "CIP",
+  "hsCode": "347275",
+  "commodityDescription": "SAMPLE COMMODITY 4",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 4",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 4",
+      "grossWeight": 14500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 4",
+      "grossWeight": 15500.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SAMPLE MARKINGS 4",
+      "numberOfPackages": 40,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 4",
+      "grossWeight": 14000.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 45 HIGH CUBE OPEN TOP CONTAINERS",
+    "totalPackages": 190,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410306800-1",
+    "documentNumber": "202410306800-2",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT-1234567890",
+      "CERT-9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5572",
+      "address": "456 CONSIGNEE AVENUE, CONSIGNEE CITY, CONSIGNEE COUNTRY",
+      "telephone": "+34 987 654 3210",
+      "fax": "+34 987 654 3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3596",
+      "address": "789 INVOICE RECEIVER STREET, INVOICE RECEIVER CITY, INVOICE RECEIVER COUNTRY",
+      "telephone": "+34 567 890 1234",
+      "fax": "+34 567 890 1235"
+    },
+    "onboardDate": "2024-09-16 23:01",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

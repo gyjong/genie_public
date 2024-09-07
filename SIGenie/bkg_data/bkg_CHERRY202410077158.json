@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410077158",
+  "customerName": "CUSTOMER 8648",
+  "shipperName": "SHIPPER 4949",
+  "invoiceReceiver": "INVOICE RECEIVER 7456",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024138E"
+  },
+  "cargoDetails": {
+    "hsCode": "638672",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 95",
+    "commodity": "SAMPLE COMMODITY 53"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-13 01:30",
+    "estimatedDepartureFromLoadingPort": "2024-10-17 01:30",
+    "estimatedArrivalAtDischargePort": "2024-11-09 01:30"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, JAPAN",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

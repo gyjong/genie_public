@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202411079093",
+  "customerName": "CUSTOMER 7891",
+  "shipperName": "SHIPPER 9096",
+  "invoiceReceiver": "INVOICE RECEIVER 4694",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024441E"
+  },
+  "cargoDetails": {
+    "hsCode": "100863",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 97",
+    "commodity": "SAMPLE COMMODITY 26"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-23 02:34",
+    "estimatedDepartureFromLoadingPort": "2024-11-01 02:34",
+    "estimatedArrivalAtDischargePort": "2024-12-03 02:34"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

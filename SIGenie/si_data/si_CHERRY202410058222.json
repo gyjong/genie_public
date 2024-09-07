@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410058222",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024149W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5012",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "SHIPPER5012@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5607",
+      "address": "456 CONSIGNEE AVENUE, PARIS, FRANCE",
+      "taxId": "FR12345678901",
+      "president": "MR. JEAN DUPONT",
+      "telephone": "+33 1 9876 5432",
+      "fax": "+33 1 9876 5431"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4267",
+      "address": "789 NOTIFY STREET, LYON, FRANCE",
+      "taxId": "FR98765432101",
+      "president": "MS. MARIE MARTIN",
+      "telephone": "+33 4 1234 5678",
+      "fax": "+33 4 1234 5677"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "104469",
+  "commodityDescription": "SAMPLE COMMODITY 94",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 94",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1500069",
+      "sealNumber": "894102",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 94",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1500070",
+      "sealNumber": "894103",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 94",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 20 DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033739"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5607",
+      "address": "456 CONSIGNEE AVENUE, PARIS, FRANCE",
+      "telephone": "+33 1 9876 5432",
+      "fax": "+33 1 9876 5431"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4267",
+      "address": "789 NOTIFY STREET, LYON, FRANCE",
+      "telephone": "+33 4 1234 5678",
+      "fax": "+33 4 1234 5677"
+    },
+    "onboardDate": "2024-09-17 22:48",
+    "additionalRemarks": "No special instructions"
+  }
+}

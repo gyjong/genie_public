@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202411022713",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024492E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9209",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "additionalInfo": "(ROTTERDAM BUSINESS PARK)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7035",
+      "address": "456 ABC AVENUE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER7035@EXAMPLE.COM",
+      "telephone": "+86 21 12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9102",
+      "address": "789 DEF LANE, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "RECEIVER9102@EXAMPLE.COM",
+      "telephone": "+86 21 98765432"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "498981",
+  "commodityDescription": "SAMPLE COMMODITY 35",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 35 - PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 35 - ON PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER'S MARK & NUMBER",
+      "numberOfPackages": 200,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 35 - PACKAGED IN BAGS",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 350,
+    "packageType": "CARTONS, PALLETS, BAGS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "498981",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7035",
+      "address": "456 ABC AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9102",
+      "address": "789 DEF LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 98765432",
+      "fax": "+86 21 11111111"
+    },
+    "onboardDate": "2024-09-11 05:05",
+    "additionalRemarks": "No special instructions"
+  }
+}

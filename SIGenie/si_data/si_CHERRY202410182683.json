@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410182683",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024764W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7864",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9669",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE",
+      "telephone": "+33-1-12345678",
+      "fax": "+33-1-98765432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4718",
+      "address": "789 BOULEVARD DE LA MADELEINE, PARIS, FRANCE",
+      "telephone": "+33-1-45678901",
+      "fax": "+33-1-23456789"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "224279",
+  "commodityDescription": "SAMPLE COMMODITY 68",
+  "containers": [
+    {
+      "containerNumber": "CRLU987654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 68",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU234567890",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 40,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 68",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 HIGH CUBE) REEFER CONTAINER",
+    "totalPackages": 90,
+    "packageType": "CARTONS & PALLETS",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 45.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU987654321",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "224279",
+    "flashPoint": "NOT APPLICABLE",
+    "additionalInfo": "REQUIRES TEMPERATURE CONTROL"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE NUMBER 123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9669",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE",
+      "telephone": "+33-1-12345678",
+      "fax": "+33-1-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4718",
+      "address": "789 BOULEVARD DE LA MADELEINE, PARIS, FRANCE",
+      "telephone": "+33-1-45678901",
+      "fax": "+33-1-23456789"
+    },
+    "onboardDate": "2024-09-22 22:05",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

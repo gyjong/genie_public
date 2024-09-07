@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410135332",
+  "customerName": "CUSTOMER 6655",
+  "shipperName": "SHIPPER 2021",
+  "invoiceReceiver": "INVOICE RECEIVER 6044",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024702E"
+  },
+  "cargoDetails": {
+    "hsCode": "542861",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 4",
+    "commodity": "SAMPLE COMMODITY 61"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-11 22:01",
+    "estimatedDepartureFromLoadingPort": "2024-10-29 22:01",
+    "estimatedArrivalAtDischargePort": "2024-11-28 22:01"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, VIETNAM",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

@@ -1,0 +1,140 @@
+{
+  "bookingReference": "CHERRY202409231716",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024366W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1888",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2735",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 7876",
+      "address": "789 NOTIFY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-23456789"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "723074",
+  "commodityDescription": "SAMPLE COMMODITY 100",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 100 AS PER PURCHASE ORDER",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 100 AS PER PURCHASE ORDER",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 100 AS PER PURCHASE ORDER",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU4321654",
+      "sealNumber": "543216",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 100 AS PER PURCHASE ORDER",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU5432167",
+      "sealNumber": "165432",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 100 AS PER PURCHASE ORDER",
+      "grossWeight": 15000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 100.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2735",
+      "address": "456 CONSIGNEE AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7876",
+      "address": "789 NOTIFY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-45678901",
+      "fax": "+31-10-23456789"
+    },
+    "onboardDate": "2024-10-02 03:18",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

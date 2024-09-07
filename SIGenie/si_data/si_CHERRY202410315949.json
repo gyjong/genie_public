@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410315949",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024529E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BILL OF LADING",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7073",
+      "address": "123 MAIN STREET, PORT KLANG, MALAYSIA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9829",
+      "address": "456 BROADWAY, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4284",
+      "address": "789 AVENUE DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "757495",
+  "commodityDescription": "SAMPLE COMMODITY 13",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 13 - PACKAGED IN WOODEN CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 13 - PACKAGED IN WOODEN CRATES",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "40DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 136.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "PHYTOSANITARY CERTIFICATE",
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9829",
+      "address": "456 BROADWAY, LE HAVRE, FRANCE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4284",
+      "address": "789 AVENUE DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "onboardDate": "2024-09-25 02:14",
+    "additionalRemarks": "No special instructions"
+  }
+}

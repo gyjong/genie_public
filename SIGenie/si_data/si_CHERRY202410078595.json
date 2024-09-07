@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410078595",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024689E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7527",
+      "onBehalfOf": "CUSTOMER 1529",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 4048",
+      "address": "456 BEIJING ROAD, BEIJING, CHINA, 100000",
+      "companyNumber": "12345678901234"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 1529",
+      "address": "789 GUANGZHOU AVENUE, GUANGZHOU, CHINA, 510000"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "311686",
+  "commodityDescription": "SAMPLE COMMODITY 62",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 62",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 62",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 62",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 62",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 DRY X4) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "40DRY",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 100.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1529",
+      "address": "789 GUANGZHOU AVENUE, GUANGZHOU, CHINA, 510000",
+      "telephone": "+86-20-1234-5678",
+      "fax": "+86-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4048",
+      "address": "456 BEIJING ROAD, BEIJING, CHINA, 100000",
+      "telephone": "+86-10-1234-5678",
+      "fax": "+86-10-1234-5679"
+    },
+    "onboardDate": "2024-09-10 21:49",
+    "additionalRemarks": "No special instructions"
+  }
+}

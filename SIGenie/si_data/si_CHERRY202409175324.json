@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409175324",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024282E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2632",
+      "address": "123 RUE DE LA MER, PARIS 75001, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "(BUSINESS DISTRICT)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6263",
+      "address": "456 SHENZHEN ROAD, SHENZHEN, GUANGDONG 518000, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER6263@EMAIL.COM",
+      "telephone": "+86 755 12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3402",
+      "address": "789 HONG KONG ROAD, HONG KONG, CHINA",
+      "country": "CHINA",
+      "email": "INVOICEREceiver3402@EMAIL.COM",
+      "telephone": "+852 12345678"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "467686",
+  "commodityDescription": "SAMPLE COMMODITY 12",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 12, PACKAGED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 80,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 12, PALLETIZED",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 50,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 12, PACKAGED IN BAGS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (45 HIGH CUBE REEFERS) CONTAINERS ONLY",
+    "totalPackages": 230,
+    "packageType": "CARTONS, PALLETS, BAGS",
+    "totalGrossWeight": 53000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "467686",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6263",
+      "address": "456 SHENZHEN ROAD, SHENZHEN, GUANGDONG 518000, CHINA",
+      "telephone": "+86 755 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3402",
+      "address": "789 HONG KONG ROAD, HONG KONG, CHINA",
+      "telephone": "+852 12345678"
+    },
+    "onboardDate": "2024-09-28 00:00",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

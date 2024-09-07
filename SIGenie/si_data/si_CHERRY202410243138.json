@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410243138",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024480W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1243",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@SHIPPER1243.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9708",
+      "address": "NO. 5678, BEIJING ROAD, BEIJING, 100000",
+      "country": "CHINA",
+      "email": "INFO@CUSTOMER9708.COM, ORDERS@CUSTOMER9708.COM",
+      "telephone": "+86 10 8888 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1048",
+      "address": "NO. 9101, GUANGZHOU ROAD, GUANGZHOU, 510000",
+      "country": "CHINA",
+      "email": "BILLING@INVOICEREceiver1048.COM",
+      "telephone": "+86 20 7777 1234"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "870029",
+  "commodityDescription": "SAMPLE COMMODITY 80 - HEAVY MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS (W.2500MM H.2000MM)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS (W.2500MM H.2000MM)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS (W.2500MM H.2000MM)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: HEAVY MACHINERY PARTS (W.2500MM H.2000MM)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4) 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 40,
+    "totalGrossWeight": 88000.0,
+    "totalMeasurement": 120.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-29 23:35",
+    "additionalRemarks": "No special instructions"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409287032",
+  "customerName": "CUSTOMER 6587",
+  "shipperName": "SHIPPER 8422",
+  "invoiceReceiver": "INVOICE RECEIVER 5783",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024467W"
+  },
+  "cargoDetails": {
+    "hsCode": "301731",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 85",
+    "commodity": "SAMPLE COMMODITY 6"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-11 04:51",
+    "estimatedDepartureFromLoadingPort": "2024-10-20 04:51",
+    "estimatedArrivalAtDischargePort": "2024-11-28 04:51"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions"
+}

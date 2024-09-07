@@ -175,7 +175,7 @@ def display_bl_form(doc):
 
 
 def generate_container_rows(containers, doc):
-    table_html = """
+    table_html = f"""
     <table class="bl-table">
         <tr>
             <th>MARKS AND NUMBERS</th>
@@ -185,11 +185,11 @@ def generate_container_rows(containers, doc):
             <th>MEASUREMENT (CBM)</th>
         </tr>
         <tr>
-            <td>{}</td>
-            <td>{} {}</td>
-            <td>{}</td>
-            <td>{}</td>
-            <td>{}</td>
+            <td>{containers[0]['marksAndNumbers']}</td>
+            <td>{doc['totalShipment']['totalPackages']} {containers[0]['packageType']}</td>
+            <td>{doc['commodityDescription']}</td>
+            <td>{doc['totalShipment']['totalGrossWeight']}</td>
+            <td>{doc['totalShipment']['totalMeasurement']}</td>
         </tr>
     </table>
     <h3>CONTAINER INFORMATION</h3>
@@ -202,31 +202,19 @@ def generate_container_rows(containers, doc):
             <th>Gross Weight (KG)</th>
             <th>Measurement (CBM)</th>
         </tr>
-    """.format(
-        containers[0]['marksAndNumbers'],
-        doc['totalShipment']['totalPackages'],
-        containers[0]['packageType'],
-        doc['commodityDescription'],
-        doc['totalShipment']['totalGrossWeight'],
-        doc['totalShipment']['totalMeasurement']
-    )
+    """
     
     for container in containers:
-        try:
-            formatted_weight = f"{container['grossWeight']:.3f}"
-            formatted_measurement = f"{container['measurement']:.4f}"
-            table_html += f"""
-            <tr>
-                <td>{container.get('containerNumber', '')}</td>
-                <td>{container.get('sealNumber', '')}</td>
-                <td>{container.get('numberOfPackages', 0)} {container.get('packageType', '')}</td>
-                <td>{container.get('cargoDescription', '')}</td>
-                <td>{formatted_weight}</td>
-                <td>{formatted_measurement}</td>
-            </tr>
-            """
-        except KeyError as e:
-            print(f"Error generating container row: {e}")
+        table_html += f"""
+        <tr>
+            <td>{container.get('containerNumber', '')}</td>
+            <td>{container.get('sealNumber', '')}</td>
+            <td>{container.get('numberOfPackages', '')} {container.get('packageType', '')}</td>
+            <td>SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: {container.get('cargoDescription', '')}</td>
+            <td>{container.get('grossWeight', ''):.3f}</td>
+            <td>{container.get('measurement', ''):.4f}</td>
+        </tr>
+        """
     table_html += "</table>"
     return table_html
 

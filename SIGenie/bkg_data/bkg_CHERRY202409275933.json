@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409275933",
+  "customerName": "CUSTOMER 8951",
+  "shipperName": "SHIPPER 6360",
+  "invoiceReceiver": "INVOICE RECEIVER 7798",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024269E"
+  },
+  "cargoDetails": {
+    "hsCode": "963005",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 89",
+    "commodity": "SAMPLE COMMODITY 90"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "FLAT RACK",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-24 00:37",
+    "estimatedDepartureFromLoadingPort": "2024-10-24 00:37",
+    "estimatedArrivalAtDischargePort": "2024-12-05 00:37"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions"
+}

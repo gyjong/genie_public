@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409175170",
+  "customerName": "SUNRISE TRADING CO. LTD",
+  "shipperName": "BLUE SKY MANUFACTURING CO.",
+  "invoiceReceiver": "SUNRISE TRADING CO. LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2438EUS"
+  },
+  "cargoDetails": {
+    "hsCode": "870899",
+    "chapterDescription": "PARTS & ACCESSORIES OF MOTOR VEHICLES",
+    "commodity": "CAR BRAKE PADS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-20 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-21 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-25 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "10 Days Free Time at Destination"
+}

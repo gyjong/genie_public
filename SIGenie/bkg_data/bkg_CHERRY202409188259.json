@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409188259",
+  "customerName": "CUSTOMER 2995",
+  "shipperName": "SHIPPER 8697",
+  "invoiceReceiver": "INVOICE RECEIVER 4092",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024357W"
+  },
+  "cargoDetails": {
+    "hsCode": "130342",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 19",
+    "commodity": "SAMPLE COMMODITY 22"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "OPEN TOP",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-30 02:29",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 02:29",
+    "estimatedArrivalAtDischargePort": "2024-11-25 02:29"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, VIETNAM",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

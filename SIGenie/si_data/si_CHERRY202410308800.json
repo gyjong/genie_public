@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410308800",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024808W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4109",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "ATTN: MR. JOHN SMITH",
+      "telephone": "+65 6789 0123",
+      "email": "SHIPPER@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7124",
+      "address": "456 CUSTOMER AVENUE, HAMBURG 20000",
+      "country": "GERMANY",
+      "email": "CUSTOMER@EXAMPLE.COM",
+      "telephone": "+49 40 1234 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1495",
+      "address": "789 RECEIVER STREET, HAMBURG 22000",
+      "country": "GERMANY",
+      "email": "RECEIVER@EXAMPLE.COM, INVOICE@EXAMPLE.COM",
+      "telephone": "+49 40 9876 5432"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "806940",
+  "commodityDescription": "SAMPLE COMMODITY 93",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 93, HS CODE 806940",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 93, HS CODE 806940",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 93, HS CODE 806940",
+      "grossWeight": 16000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) 40 HIGH CUBE REEFER CONTAINERS",
+    "totalPackages": 45,
+    "totalGrossWeight": 56000.0,
+    "totalMeasurement": 75.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7124",
+      "address": "456 CUSTOMER AVENUE, HAMBURG 20000",
+      "telephone": "+49 40 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1495",
+      "address": "789 RECEIVER STREET, HAMBURG 22000",
+      "telephone": "+49 40 9876 5432"
+    },
+    "onboardDate": "2024-10-06 00:44",
+    "additionalRemarks": "No special instructions"
+  }
+}

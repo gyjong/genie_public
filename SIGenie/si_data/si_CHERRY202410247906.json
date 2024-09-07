@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410247906",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3331",
+      "address": "123 MAIN STREET, ANYTOWN, USA 12345",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8658",
+      "address": "456 BROADWAY, NEW YORK, USA 10001",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 9448",
+      "address": "789 PARK AVENUE, CHICAGO, USA 60601",
+      "telephone": "+1-312-555-1234",
+      "fax": "+1-312-555-1235"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "135639",
+  "commodityDescription": "SAMPLE COMMODITY 35",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, MARKED & NUMBERED AS PER SHIPPING MARKS & NUMBERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5432109",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT, MARKED & NUMBERED AS PER SHIPPING MARKS & NUMBERS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "dangerousGoods": {},
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8658",
+      "address": "456 BROADWAY, NEW YORK, USA 10001",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 9448",
+      "address": "789 PARK AVENUE, CHICAGO, USA 60601",
+      "telephone": "+1-312-555-1234",
+      "fax": "+1-312-555-1235"
+    },
+    "onboardDate": "2024-09-14 22:42",
+    "additionalRemarks": "No special instructions"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202409164992",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024298E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1945",
+      "onBehalfOf": "CUSTOMER 9663",
+      "address": "123 Main Street, Anytown, Poland",
+      "telephone": "+48 123 456 789",
+      "fax": "+48 123 456 780"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 5678",
+      "address": "456 Rue de la Paix, Paris, France",
+      "companyNumber": "FR123456789"
+    },
+    "notifyParty": {
+      "name": "NOTIFY PARTY 9876",
+      "address": "789 Avenue Champs-\u00c9lys\u00e9es, Paris, France"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "208542",
+  "commodityDescription": "SAMPLE COMMODITY 96",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 96",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 96",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 96",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 96",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IN GOOD CONDITION"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (45 HIGH CUBE FLAT RACK) CONTAINERS",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "45HC FR",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 100.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9663",
+      "address": "123 Main Street, Anytown, Poland"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 4812",
+      "address": "456 Rue de la Paix, Paris, France"
+    },
+    "onboardDate": "2024-09-30 03:46",
+    "additionalRemarks": "No special instructions"
+  }
+}

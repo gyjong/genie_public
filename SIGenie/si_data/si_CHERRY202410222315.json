@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410222315",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024178E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1437",
+      "address": "123 MAIN STREET, BERLIN, GERMANY, 12345",
+      "telephone": "+49 30 12345678",
+      "email": "SHIPPER1437@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "RECEIVER CHINA CO., LTD",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "taxId": "91310000789012345X",
+      "president": "MR. LI WEI",
+      "telephone": "+86 21 56789012",
+      "fax": "+86 21 56789013"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 3595",
+      "address": "123 LONDON ROAD, LONDON, UNITED KINGDOM, W1A 1AA",
+      "telephone": "+44 20 76543210",
+      "fax": "+44 20 76543211"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "873683",
+  "commodityDescription": "SAMPLE COMMODITY 19",
+  "containers": [
+    {
+      "containerNumber": "CMAU5478963",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 19",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5478964",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 19",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5478965",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 19",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5478966",
+      "sealNumber": "901234",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 19",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40 HIGH CUBE",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 100.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40' High Cube Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3595",
+      "address": "123 LONDON ROAD, LONDON, UNITED KINGDOM, W1A 1AA",
+      "telephone": "+44 20 76543210",
+      "fax": "+44 20 76543211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3595",
+      "address": "123 LONDON ROAD, LONDON, UNITED KINGDOM, W1A 1AA",
+      "telephone": "+44 20 76543210",
+      "fax": "+44 20 76543211"
+    },
+    "onboardDate": "2024-09-09 21:39",
+    "additionalRemarks": "No special instructions"
+  }
+}

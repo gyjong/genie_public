@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409094536",
+  "customerName": "CUSTOMER 8879",
+  "shipperName": "SHIPPER 9841",
+  "invoiceReceiver": "INVOICE RECEIVER 2024",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024441E"
+  },
+  "cargoDetails": {
+    "hsCode": "419414",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 53",
+    "commodity": "SAMPLE COMMODITY 46"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "OPEN TOP",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-18 22:17",
+    "estimatedDepartureFromLoadingPort": "2024-10-11 22:17",
+    "estimatedArrivalAtDischargePort": "2024-12-03 22:17"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, VIETNAM",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions"
+}

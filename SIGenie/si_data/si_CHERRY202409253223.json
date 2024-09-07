@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202409253223",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024746W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9065",
+      "address": "123 RUE DE LA PAIX, 76000 ROUEN, FRANCE",
+      "country": "FRANCE",
+      "additionalInfo": "(BUSINESS DISTRICT)",
+      "telephone": "+33 2 35 12 34 56",
+      "email": "SHIPPING@SHIPPER9065.FR"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5278 GMBH",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "ORDERS@CUSTOMER5278.DE",
+      "telephone": "+49 69 12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 4108",
+      "address": "POSTFACH 123, 10117 BERLIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INVOICE@RECEIVER4108.DE",
+      "telephone": "+49 30 123456789"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "403108",
+  "commodityDescription": "SAMPLE COMMODITY 36",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK 123",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 36 - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER MARK 456",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 36 - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SHIPPER MARK 789",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 36 - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SHIPPER MARK 101",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 36 - PACKED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4 x 20' DRY) CONTAINERS ONLY",
+    "totalPackages": 80,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-08 02:00",
+    "additionalRemarks": "No special instructions"
+  }
+}

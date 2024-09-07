@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410308194",
+  "customerName": "CUSTOMER 9774",
+  "shipperName": "SHIPPER 8940",
+  "invoiceReceiver": "INVOICE RECEIVER 5925",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024459W"
+  },
+  "cargoDetails": {
+    "hsCode": "657960",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 70",
+    "commodity": "SAMPLE COMMODITY 70"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "REEFER CONTAINER",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-24 05:21",
+    "estimatedDepartureFromLoadingPort": "2024-10-24 05:21",
+    "estimatedArrivalAtDischargePort": "2024-11-23 05:21"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

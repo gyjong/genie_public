@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410199414",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024304E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8227",
+      "address": "123 MAIN STREET, ALGECIRAS, SPAIN"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3848",
+      "address": "456 BOULEVARD SAINT-GERMAIN, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 89",
+      "fax": "+33 1 23 45 67 90"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6401",
+      "address": "789 AVENUE DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 80",
+      "fax": "+33 1 23 45 67 91"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "207044",
+  "commodityDescription": "SAMPLE COMMODITY 82 - ART SUPPLIES",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 50,
+      "cargoDescription": "PAINT TUBES, BRUSHES, CANVASES",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "cargoDescription": "PAINT TUBES, BRUSHES, CANVASES",
+      "grossWeight": 2500.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "45' HIGH CUBE",
+    "totalGrossWeight": 5000.0,
+    "totalMeasurement": 30.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345",
+      "CERT67890"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3848",
+      "address": "456 BOULEVARD SAINT-GERMAIN, PARIS, FRANCE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6401",
+      "address": "789 AVENUE DES CHAMPS-\u00c9LYS\u00c9ES, PARIS, FRANCE",
+      "telephone": "+33 1 23 45 67 80",
+      "fax": "+33 1 23 45 67 91"
+    },
+    "onboardDate": "2024-09-30 00:27",
+    "additionalRemarks": "No special instructions"
+  }
+}

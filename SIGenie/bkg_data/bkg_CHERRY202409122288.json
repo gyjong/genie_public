@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409122288",
+  "customerName": "CUSTOMER 1940",
+  "shipperName": "SHIPPER 5497",
+  "invoiceReceiver": "INVOICE RECEIVER 6877",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024984W"
+  },
+  "cargoDetails": {
+    "hsCode": "324363",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 75",
+    "commodity": "SAMPLE COMMODITY 19"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-11 01:44",
+    "estimatedDepartureFromLoadingPort": "2024-10-19 01:44",
+    "estimatedArrivalAtDischargePort": "2024-11-22 01:44"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions"
+}

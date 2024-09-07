@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410068895",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024743W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5852",
+      "address": "123 SHIPPER STREET, LE HAVRE, FRANCE",
+      "telephone": "+33 235 123456",
+      "fax": "+33 235 678901"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9592",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 7654321",
+      "fax": "+31 10 9876543",
+      "email": "CUSTOMER9592@EXAMPLE.COM",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1821",
+      "address": "789 NOTIFY PARTY LANE, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "158667",
+  "commodityDescription": "SAMPLE COMMODITY 12",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS 1",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 12 - PACKAGED IN CARTONS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKINGS 2",
+      "numberOfPackages": 120,
+      "cargoDescription": "SAMPLE COMMODITY 12 - PALLETIZED",
+      "grossWeight": 16000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SAMPLE MARKINGS 3",
+      "numberOfPackages": 80,
+      "cargoDescription": "SAMPLE COMMODITY 12 - BAGS",
+      "grossWeight": 14000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SAMPLE MARKINGS 4",
+      "numberOfPackages": 110,
+      "cargoDescription": "SAMPLE COMMODITY 12 - BOXES",
+      "grossWeight": 15500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 40 DRY CONTAINERS",
+    "totalPackages": 410,
+    "totalGrossWeight": 60500.0,
+    "totalMeasurement": 101.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241006889520",
+    "documentNumber": "20241006889520 DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567890",
+      "CERT9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9592",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1821",
+      "address": "789 NOTIFY PARTY LANE, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-09-25 04:43",
+    "additionalRemarks": "No special instructions"
+  }
+}

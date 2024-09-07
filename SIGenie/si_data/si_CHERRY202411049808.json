@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411049808",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2024749E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4525",
+      "address": "123 MAIN STREET, ANYTOWN, COUNTRYCODE 12345",
+      "telephone": "+1234567890",
+      "fax": "+1234567891"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5948",
+      "address": "456 OAK AVENUE, SOME CITY, COUNTRYCODE 67890",
+      "telephone": "+9876543210",
+      "fax": "+9876543211",
+      "email": "customer5948@example.com",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3497",
+      "address": "789 PINE LANE, OTHER TOWN, COUNTRYCODE 13579",
+      "telephone": "+2345678901",
+      "fax": "+2345678902",
+      "email": "invoice3497@example.com"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "847089",
+  "commodityDescription": "SAMPLE COMMODITY 60",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 31,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 60",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 36,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 60",
+      "grossWeight": 18643.0,
+      "measurement": 20.071
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY",
+    "totalPackages": 67,
+    "totalGrossWeight": 37764.0,
+    "totalMeasurement": 40.689
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5948",
+      "address": "456 OAK AVENUE, SOME CITY, COUNTRYCODE 67890",
+      "telephone": "+9876543210",
+      "fax": "+9876543211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3497",
+      "address": "789 PINE LANE, OTHER TOWN, COUNTRYCODE 13579",
+      "telephone": "+2345678901",
+      "fax": "+2345678902"
+    },
+    "onboardDate": "2024-09-22 02:55",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

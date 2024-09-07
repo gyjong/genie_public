@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410056975",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024557W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4930",
+      "address": "123 Main Street, Anytown, Country",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 1686",
+      "address": "456 Oak Avenue, Somecity, Country",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6542"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 2443",
+      "address": "789 Pine Lane, Othertown, Country",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "805686",
+  "commodityDescription": "SAMPLE COMMODITY 37",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 37",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 37",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS AND PALLETS",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 45.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2443",
+      "address": "789 Pine Lane, Othertown, Country",
+      "telephone": "+1-555-567-8901",
+      "fax": "+1-555-567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1686",
+      "address": "456 Oak Avenue, Somecity, Country",
+      "telephone": "+1-555-987-6543",
+      "fax": "+1-555-987-6542"
+    },
+    "onboardDate": "2024-09-19 01:40",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

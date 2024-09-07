@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409257412",
+  "customerName": "CUSTOMER 1920",
+  "shipperName": "SHIPPER 8869",
+  "invoiceReceiver": "INVOICE RECEIVER 3974",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024245E"
+  },
+  "cargoDetails": {
+    "hsCode": "920935",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 67",
+    "commodity": "SAMPLE COMMODITY 63"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "FLAT RACK",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-10 23:53",
+    "estimatedDepartureFromLoadingPort": "2024-10-15 23:53",
+    "estimatedArrivalAtDischargePort": "2024-11-20 23:53"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

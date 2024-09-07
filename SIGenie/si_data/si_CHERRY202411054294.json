@@ -1,0 +1,86 @@
+{
+  "bookingReference": "CHERRY202411054294",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024443W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9588",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 5930",
+      "address": "456 CONSIGNEE AVENUE, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 3333 1234",
+      "fax": "+60 3 3333 5678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1992",
+      "address": "789 NOTIFY STREET, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 3333 9876",
+      "fax": "+60 3 3333 4321"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "645715",
+  "commodityDescription": "SAMPLE COMMODITY 48",
+  "containers": [
+    {
+      "containerNumber": "TCLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "cargoDescription": "SAMPLE COMMODITY 48 (H.S. CODE 645715)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20 DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20DRY",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5930",
+      "address": "456 CONSIGNEE AVENUE, PORT KLANG, MALAYSIA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1992",
+      "address": "789 NOTIFY STREET, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 3333 9876",
+      "fax": "+60 3 3333 4321"
+    },
+    "onboardDate": "2024-09-25 23:24",
+    "additionalRemarks": "No special instructions"
+  }
+}

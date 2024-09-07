@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410106030",
+  "customerName": "CUSTOMER 4857",
+  "shipperName": "SHIPPER 4721",
+  "invoiceReceiver": "INVOICE RECEIVER 8126",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024616E"
+  },
+  "cargoDetails": {
+    "hsCode": "922962",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 48",
+    "commodity": "SAMPLE COMMODITY 8"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 23:38",
+    "estimatedDepartureFromLoadingPort": "2024-10-31 23:38",
+    "estimatedArrivalAtDischargePort": "2024-11-28 23:38"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, KOREA",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

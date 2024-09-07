@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409126853",
+  "customerName": "CUSTOMER 9997",
+  "shipperName": "SHIPPER 2531",
+  "invoiceReceiver": "INVOICE RECEIVER 5041",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024431E"
+  },
+  "cargoDetails": {
+    "hsCode": "982596",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 21",
+    "commodity": "SAMPLE COMMODITY 93"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "FLAT RACK",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-16 04:31",
+    "estimatedDepartureFromLoadingPort": "2024-10-19 04:31",
+    "estimatedArrivalAtDischargePort": "2024-11-17 04:31"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, JAPAN",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions"
+}

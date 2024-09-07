@@ -1,0 +1,121 @@
+{
+  "bookingReference": "CHERRY202410134681",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024639E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "GDANSK, POLAND"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 3881",
+      "address": "UL. POLSKA 123, GDANSK, POLAND, 80-123",
+      "telephone": "+48 58 123 45 67",
+      "fax": "+48 58 123 45 68"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6220",
+      "address": "12 RUE DE PARIS, 76000 LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57",
+      "email": "IMPORT@CUSTOMER6220.COM",
+      "contactPerson": "PIERRE DUPONT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "475054",
+  "commodityDescription": "SAMPLE COMMODITY 41",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 41",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 41",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 41",
+      "grossWeight": 18000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU4321654",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 41",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "4 X 40 DRY",
+    "totalPackages": 400,
+    "totalGrossWeight": 80000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241013-001",
+    "documentNumber": "20241013-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6220",
+      "address": "12 RUE DE PARIS, 76000 LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 6220",
+      "address": "12 RUE DE PARIS, 76000 LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "onboardDate": "2024-10-02 05:07",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

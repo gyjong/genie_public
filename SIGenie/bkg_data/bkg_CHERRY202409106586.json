@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409106586",
+  "customerName": "CUSTOMER 2007",
+  "shipperName": "SHIPPER 3158",
+  "invoiceReceiver": "INVOICE RECEIVER 8991",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024316W"
+  },
+  "cargoDetails": {
+    "hsCode": "203216",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 53",
+    "commodity": "SAMPLE COMMODITY 73"
+  },
+  "containerDetails": {
+    "size": "45 HIGH CUBE",
+    "type": "FLAT RACK",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-28 02:43",
+    "estimatedDepartureFromLoadingPort": "2024-10-29 02:43",
+    "estimatedArrivalAtDischargePort": "2024-11-28 02:43"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, CHINA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

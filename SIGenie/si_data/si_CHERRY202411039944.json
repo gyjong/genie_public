@@ -1,0 +1,144 @@
+{
+  "bookingReference": "CHERRY202411039944",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024843W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "ALGECIRAS",
+    "placeOfDelivery": "ALGECIRAS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7784",
+      "onBehalfOf": "CUSTOMER 5732",
+      "address": "123 SHIPPER STREET, YANTIAN, CHINA",
+      "telephone": "+86-755-12345678",
+      "fax": "+86-755-98765432"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2989",
+      "address": "456 CONSIGNEE STREET, ALGECIRAS, SPAIN",
+      "companyNumber": "ES123456789"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 5732",
+      "address": "789 CUSTOMER STREET, MADRID, SPAIN"
+    }
+  },
+  "shippingTerm": "FOB",
+  "hsCode": "394103",
+  "commodityDescription": "SAMPLE COMMODITY 51",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 51",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: TEMPERATURE +5\u00b0C, VENTILATION CLOSED"
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 51",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: TEMPERATURE +5\u00b0C, VENTILATION CLOSED"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 51",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: TEMPERATURE +5\u00b0C, VENTILATION CLOSED"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 51",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: TEMPERATURE +5\u00b0C, VENTILATION CLOSED"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 51",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "REEFER SETTINGS: TEMPERATURE +5\u00b0C, VENTILATION CLOSED"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 DRY X5) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "BOXES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00b0C",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 5732",
+      "address": "789 CUSTOMER STREET, MADRID, SPAIN",
+      "telephone": "+34-91-12345678",
+      "fax": "+34-91-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2989",
+      "address": "456 CONSIGNEE STREET, ALGECIRAS, SPAIN"
+    },
+    "onboardDate": "2024-10-06 21:36",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

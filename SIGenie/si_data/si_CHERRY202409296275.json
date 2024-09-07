@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409296275",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024143E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7103",
+      "address": "123 MAIN STREET, HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2963",
+      "address": "456 ABC AVENUE, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-22223333",
+      "fax": "+212-5-11112222"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2452",
+      "address": "789 DEF LANE, RABAT, MOROCCO",
+      "telephone": "+212-6-33334444",
+      "fax": "+212-6-55556666"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "460643",
+  "commodityDescription": "SAMPLE COMMODITY 25",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 25",
+      "grossWeight": 12000,
+      "measurement": 20
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40' DRY) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 12000,
+    "totalMeasurement": 20
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU9876543",
+    "unClass": "9",
+    "unCode": "3077",
+    "hsCode": "460643",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "Requires special handling"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT123456789",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2963",
+      "address": "456 ABC AVENUE, CASABLANCA, MOROCCO",
+      "telephone": "+212-5-22223333",
+      "fax": "+212-5-11112222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2452",
+      "address": "789 DEF LANE, RABAT, MOROCCO",
+      "telephone": "+212-6-33334444",
+      "fax": "+212-6-55556666"
+    },
+    "onboardDate": "2024-10-05 21:35",
+    "additionalRemarks": "No special instructions"
+  }
+}

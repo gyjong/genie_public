@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202410227427",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024813E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5126",
+      "address": "123 MAIN STREET, ANYTOWN, USA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6279",
+      "address": "456 OAK AVENUE, SOMEVILLE, CHINA",
+      "telephone": "+86 123 456 7890",
+      "fax": "+86 123 456 7891"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 5225",
+      "address": "789 PINE LANE, BEIJING, CHINA",
+      "telephone": "+86 987 654 3210",
+      "fax": "+86 987 654 3211"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "435393",
+  "commodityDescription": "SAMPLE COMMODITY 61",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 61 AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40HC) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE123",
+      "CERTIFICATE456"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6279",
+      "address": "456 OAK AVENUE, SOMEVILLE, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 5225",
+      "address": "789 PINE LANE, BEIJING, CHINA",
+      "telephone": "+86 987 654 3210",
+      "fax": "+86 987 654 3211"
+    },
+    "onboardDate": "2024-09-18 22:35",
+    "additionalRemarks": "No special instructions"
+  }
+}

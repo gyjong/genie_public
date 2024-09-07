@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410067722",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024284E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER BILL OF LADING",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6664",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1199",
+      "address": "456 BROADWAY STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8932",
+      "address": "789 AVENUE ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 9999 1111",
+      "fax": "+86 574 9999 2222"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "267820",
+  "commodityDescription": "SAMPLE COMMODITY 44",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 44 PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 44 PACKED IN CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE OPEN TOP) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE OPEN TOP",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 120.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1199",
+      "address": "456 BROADWAY STREET, NINGBO, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8932",
+      "address": "789 AVENUE ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 9999 1111",
+      "fax": "+86 574 9999 2222"
+    },
+    "onboardDate": "2024-09-27 03:33",
+    "additionalRemarks": "No special instructions"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409243468",
+  "customerName": "CUSTOMER 7635",
+  "shipperName": "SHIPPER 2010",
+  "invoiceReceiver": "INVOICE RECEIVER 3696",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024916W"
+  },
+  "cargoDetails": {
+    "hsCode": "332703",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 87",
+    "commodity": "SAMPLE COMMODITY 42"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-24 05:03",
+    "estimatedDepartureFromLoadingPort": "2024-11-01 05:03",
+    "estimatedArrivalAtDischargePort": "2024-11-19 05:03"
+  },
+  "emptyContainerPickupLocation": "TANGER, VIETNAM",
+  "shippingTerm": "FOB",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409183073",
+  "customerName": "CUSTOMER 5512",
+  "shipperName": "SHIPPER 3612",
+  "invoiceReceiver": "INVOICE RECEIVER 6938",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024303W"
+  },
+  "cargoDetails": {
+    "hsCode": "355864",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 77",
+    "commodity": "SAMPLE COMMODITY 33"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "FLAT RACK",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "TANGER",
+    "portOfLoading": "TANGER",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-03 00:05",
+    "estimatedDepartureFromLoadingPort": "2024-10-24 00:05",
+    "estimatedArrivalAtDischargePort": "2024-12-04 00:05"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

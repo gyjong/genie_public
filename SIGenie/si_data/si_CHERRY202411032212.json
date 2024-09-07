@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202411032212",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024840E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "GDANSK"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6282",
+      "address": "123 MAIN STREET, GDANSK, POLAND",
+      "country": "POLAND",
+      "additionalInfo": "ATTN: SHIPPING DEPARTMENT"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8692",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER8692@EXAMPLE.COM",
+      "telephone": "+86 21 12345678"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2034",
+      "address": "789 INVOICE STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "INVOICERECEIVER2034@EXAMPLE.COM",
+      "telephone": "+86 21 98765432"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "728459",
+  "commodityDescription": "SAMPLE COMMODITY 11",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 11 PACKAGED IN BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 11 PACKAGED IN BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 11 PACKAGED IN BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4321654",
+      "sealNumber": "543216",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SAMPLE COMMODITY 11 PACKAGED IN BOXES",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 DRY X 4) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "BOXES",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "728459",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8692",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2034",
+      "address": "789 INVOICE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 98765432"
+    },
+    "onboardDate": "2024-09-23 03:20",
+    "additionalRemarks": "No special instructions"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

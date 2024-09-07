@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202411015082",
+  "customerName": "CUSTOMER 8363",
+  "shipperName": "SHIPPER 5248",
+  "invoiceReceiver": "INVOICE RECEIVER 5196",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024485W"
+  },
+  "cargoDetails": {
+    "hsCode": "603482",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 35",
+    "commodity": "SAMPLE COMMODITY 82"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-01 00:02",
+    "estimatedDepartureFromLoadingPort": "2024-10-17 00:02",
+    "estimatedArrivalAtDischargePort": "2024-11-09 00:02"
+  },
+  "emptyContainerPickupLocation": "TANGER, CHINA",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

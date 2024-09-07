@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409072244",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024581E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5029",
+      "address": "NO. 188, SHANXI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "INFO@CHINAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH TRADING BV",
+      "address": "WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS",
+      "taxId": "NL856321452B01",
+      "president": "MR. JAN VAN DER WIEL",
+      "telephone": "+31 20 624 3500",
+      "fax": "+31 20 624 3501"
+    },
+    "notifyParty": {
+      "name": "EUROTECH TRADING BV",
+      "address": "WATERLOO PLAZA, 121-123 WATERLOOPLEIN, 1011 PG AMSTERDAM, NETHERLANDS",
+      "taxId": "NL856321452B01",
+      "president": "MR. JAN VAN DER WIEL",
+      "telephone": "+31 20 624 3500",
+      "fax": "+31 20 624 3501"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "8541400000",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "TCLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "TCLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS POWER TRANSFORMERS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 O/T X2) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "CRATES",
+    "containerType": "20 O/TX2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 60.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "BANK OF CHINA NINGBO BRANCH",
+      "address": "NO. 123 HAIYAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BANK OF CHINA NINGBO BRANCH",
+      "address": "NO. 123 HAIYAN ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8666 7890",
+      "fax": "+86 574 8666 7891"
+    },
+    "onboardDate": "2024-09-14 21:26",
+    "additionalRemarks": "No special instructions"
+  }
+}

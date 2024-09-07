@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409188986",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2024259E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6730",
+      "address": "123 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7555 1234",
+      "email": "INFO@GLOBALTRADINGLTD.COM"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "456 ORCHARD ROAD, SINGAPORE 238888",
+      "taxId": "GST123456789A",
+      "president": "MR. LEE KIM HONG",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS PTE LTD",
+      "address": "456 ORCHARD ROAD, SINGAPORE 238888",
+      "taxId": "GST123456789A",
+      "president": "MR. LEE KIM HONG",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "95043010",
+  "commodityDescription": "VIDEO GAME CONSOLES",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: DAP SINGAPORE VIDEO GAME CONSOLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40 O/T X1) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40 O/TX1",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-09-15 05:34",
+    "additionalRemarks": "No special instructions"
+  }
+}

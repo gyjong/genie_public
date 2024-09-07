@@ -1,0 +1,85 @@
+{
+  "bookingReference": "CHERRY202410271830",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024548W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1148",
+      "address": "123 SHIPPER STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4084",
+      "address": "456 CONSIGNEE AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432",
+      "email": "customer4084@email.com",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "226623",
+  "commodityDescription": "SAMPLE COMMODITY 30",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 30",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 40 HIGH CUBE",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027183045-INV",
+    "documentNumber": "20241027183045-DOC",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE12345"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4084",
+      "address": "456 CONSIGNEE AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 8456",
+      "address": "123 INVOICE RECEIVER STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "onboardDate": "2024-09-26 01:49",
+    "additionalRemarks": "No special instructions"
+  }
+}

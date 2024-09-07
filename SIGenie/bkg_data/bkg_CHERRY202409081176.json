@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409081176",
+  "customerName": "CUSTOMER 3694",
+  "shipperName": "SHIPPER 9996",
+  "invoiceReceiver": "INVOICE RECEIVER 9062",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024345W"
+  },
+  "cargoDetails": {
+    "hsCode": "407077",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 58",
+    "commodity": "SAMPLE COMMODITY 45"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-21 23:10",
+    "estimatedDepartureFromLoadingPort": "2024-10-13 23:10",
+    "estimatedArrivalAtDischargePort": "2024-11-13 23:10"
+  },
+  "emptyContainerPickupLocation": "NINGBO, VIETNAM",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions"
+}

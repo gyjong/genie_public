@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410291070",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024946E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2855",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPER2855@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3655",
+      "address": "456 CUSTOMER AVENUE, LE HAVRE, FRANCE",
+      "taxId": "FR1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 12 34 57"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3470",
+      "address": "789 RECEIVER STREET, PARIS, FRANCE",
+      "taxId": "FR9876543210",
+      "president": "MS. JANE SMITH",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "775001",
+  "commodityDescription": "SAMPLE COMMODITY 36",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 36",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 36",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "2345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 36",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "9012345",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CPT, LE HAVRE, FRANCE SAMPLE COMMODITY 36",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4) 40 HIGH CUBE CONTAINER",
+    "totalPackages": 400,
+    "packageType": "CARTONS",
+    "containerType": "40 HIGH CUBE",
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 120.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 40'HC Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-10-05 00:25",
+    "additionalRemarks": "No special instructions"
+  }
+}

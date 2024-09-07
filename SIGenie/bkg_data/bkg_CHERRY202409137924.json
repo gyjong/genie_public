@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409137924",
+  "customerName": "CUSTOMER 5521",
+  "shipperName": "SHIPPER 8691",
+  "invoiceReceiver": "INVOICE RECEIVER 6757",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024672E"
+  },
+  "cargoDetails": {
+    "hsCode": "339311",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 86",
+    "commodity": "SAMPLE COMMODITY 35"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "FLAT RACK",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-28 22:11",
+    "estimatedDepartureFromLoadingPort": "2024-10-20 22:11",
+    "estimatedArrivalAtDischargePort": "2024-11-12 22:11"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

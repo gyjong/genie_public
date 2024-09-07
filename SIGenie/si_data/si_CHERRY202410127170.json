@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410127170",
+  "voyageDetails": {
+    "vesselName": "CMA CGM EOURES",
+    "voyageNumber": "2024919E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "HAMBURG",
+    "portOfLoading": "HAMBURG",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 6990",
+      "address": "123 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49 30 12345678",
+      "fax": "+49 30 98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7755",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE 75001",
+      "telephone": "+33 1 12345678",
+      "fax": "+33 1 98765432",
+      "email": "IMPORT@CUSTOMER7755.COM",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "724726",
+  "commodityDescription": "SAMPLE COMMODITY 26",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 26",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 40 DRY FLAT RACK",
+    "totalPackages": 100,
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410127170-01",
+    "documentNumber": "202410127170-02",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7755",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE 75001",
+      "telephone": "+33 1 12345678",
+      "fax": "+33 1 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 7755",
+      "address": "456 RUE DE PARIS, PARIS, FRANCE 75001",
+      "telephone": "+33 1 12345678",
+      "fax": "+33 1 98765432"
+    },
+    "onboardDate": "2024-10-02 04:09",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

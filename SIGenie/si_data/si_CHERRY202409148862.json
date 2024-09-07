@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202409148862",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024322E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SINGAPORE",
+    "placeOfDelivery": "SINGAPORE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9276",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 2439",
+      "address": "456 CUSTOMER AVE, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 0124"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3368",
+      "address": "789 RECEIVER ROAD, SINGAPORE",
+      "telephone": "+65 6789 0125",
+      "fax": "+65 6789 0126"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "701749",
+  "commodityDescription": "SAMPLE COMMODITY 50",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 10,
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 50",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (45'HC) CONTAINER ONLY",
+    "totalPackages": 10,
+    "packageType": "CARTONS",
+    "containerType": "45'HCREEFER",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 35.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT12345"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 2439",
+      "address": "456 CUSTOMER AVE, SINGAPORE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3368",
+      "address": "789 RECEIVER ROAD, SINGAPORE",
+      "telephone": "+65 6789 0125",
+      "fax": "+65 6789 0126"
+    },
+    "onboardDate": "2024-09-20 22:10",
+    "additionalRemarks": "No special instructions"
+  }
+}

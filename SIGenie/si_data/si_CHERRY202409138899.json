@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409138899",
+  "voyageDetails": {
+    "vesselName": "APL SINGAPURA",
+    "voyageNumber": "2024492E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 1179",
+      "address": "123 SHIPPER STREET, PORT KLANG, MALAYSIA",
+      "telephone": "+60 3 1234 5678",
+      "email": "shipper1179@example.com"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 7777",
+      "address": "456 CONSIGNEE ROAD, YANTIAN, CHINA",
+      "taxId": "91321200765109788X",
+      "president": "MR. LIU JIANSHENG",
+      "telephone": "+86 755 1234 5678",
+      "fax": "+86 755 9876 5432"
+    },
+    "notifyParty": {
+      "name": "NOTIFY PARTY 8888",
+      "address": "789 NOTIFY STREET, YANTIAN, CHINA",
+      "telephone": "+86 755 1234 5678",
+      "fax": "+86 755 9876 5432"
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "672713",
+  "commodityDescription": "SAMPLE COMMODITY 85",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 85",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1500069",
+      "sealNumber": "894102",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, YANTIAN, CHINA SAMPLE COMMODITY 85",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (45 HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "BUNDLES",
+    "containerType": "45 HIGH CUBE X2",
+    "totalGrossWeight": 39784.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in 45 HIGH CUBE Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6274",
+      "address": "123 CUSTOMER STREET, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2229",
+      "address": "456 INVOICE RECEIVER ROAD, SINGAPORE",
+      "telephone": "+65 6789 0123",
+      "fax": "+65 6789 4567"
+    },
+    "onboardDate": "2024-09-16 03:28",
+    "additionalRemarks": "No special instructions"
+  }
+}

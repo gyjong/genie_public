@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410209371",
+  "customerName": "CUSTOMER 7594",
+  "shipperName": "SHIPPER 1022",
+  "invoiceReceiver": "INVOICE RECEIVER 5105",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024758W"
+  },
+  "cargoDetails": {
+    "hsCode": "973837",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 98",
+    "commodity": "SAMPLE COMMODITY 42"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-24 02:19",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 02:19",
+    "estimatedArrivalAtDischargePort": "2024-12-02 02:19"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, CHINA",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410094887",
+  "customerName": "CUSTOMER 1427",
+  "shipperName": "SHIPPER 2134",
+  "invoiceReceiver": "INVOICE RECEIVER 1485",
+  "voyageDetails": {
+    "vesselName": "APL TEMASEK",
+    "voyageNumber": "2024996W"
+  },
+  "cargoDetails": {
+    "hsCode": "500161",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 11",
+    "commodity": "SAMPLE COMMODITY 30"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "REEFER CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "PORT KLANG",
+    "placeOfDelivery": "PORT KLANG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-08 06:09",
+    "estimatedDepartureFromLoadingPort": "2024-11-07 06:09",
+    "estimatedArrivalAtDischargePort": "2024-12-03 06:09"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "DAP",
+  "remarks": "Value: USD834,165, This side up",
+  "transportationTerm": "CY/CY"
+}

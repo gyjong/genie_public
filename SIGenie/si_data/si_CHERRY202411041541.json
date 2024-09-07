@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202411041541",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024446E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7061",
+      "address": "123 MAIN STREET, PARIS, FRANCE, 75001",
+      "country": "FRANCE",
+      "additionalInfo": "(BUSINESS DISTRICT)",
+      "telephone": "+33 1 40 40 40 40",
+      "email": "SHIPPER7061@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 7935",
+      "address": "456 BROADWAY STREET, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "email": "CUSTOMER7935@EXAMPLE.COM",
+      "telephone": "+86 21 55 55 55 55"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 8076",
+      "address": "789 AVENUE DE L'OPERA, PARIS, FRANCE, 75009",
+      "country": "FRANCE",
+      "email": "RECEIVER8076@EXAMPLE.COM",
+      "telephone": "+33 1 30 30 30 30"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "782690",
+  "commodityDescription": "SAMPLE COMMODITY 64 - IRON SHEETS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "IRON SHEETS, BUNDLED AND SECURED",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "IRON SHEETS, BUNDLED AND SECURED",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SAMPLE MARKING 3",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "IRON SHEETS, BUNDLED AND SECURED",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU1357911",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SAMPLE MARKING 4",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "IRON SHEETS, BUNDLED AND SECURED",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (4) 40 DRY CONTAINERS",
+    "totalPackages": 400,
+    "totalGrossWeight": 88252.0,
+    "totalMeasurement": 140.4
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-27 00:31",
+    "additionalRemarks": "No special instructions"
+  }
+}

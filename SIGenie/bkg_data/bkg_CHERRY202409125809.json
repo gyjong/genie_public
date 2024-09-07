@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202409125809",
+  "customerName": "CUSTOMER 7078",
+  "shipperName": "SHIPPER 3479",
+  "invoiceReceiver": "INVOICE RECEIVER 3920",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024247E"
+  },
+  "cargoDetails": {
+    "hsCode": "342564",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 31",
+    "commodity": "SAMPLE COMMODITY 51"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "FLAT RACK",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 22:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-28 22:00",
+    "estimatedArrivalAtDischargePort": "2024-12-03 22:00"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, KOREA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

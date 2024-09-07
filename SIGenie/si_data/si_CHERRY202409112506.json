@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409112506",
+  "voyageDetails": {
+    "vesselName": "APL RAFFLES",
+    "voyageNumber": "2024419W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7924",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "CUSTOMER 6848",
+      "address": "456 RUE DE PARIS, LE HAVRE, FRANCE",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 78 90 12"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 2480",
+      "address": "789 BOULEVARD DE LA CROIX, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "675115",
+  "commodityDescription": "SAMPLE COMMODITY 59",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "SAMPLE COMMODITY 59 AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (45'HC) CONTAINER ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "45'HC",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERT1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 6848",
+      "address": "456 RUE DE PARIS, LE HAVRE, FRANCE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2480",
+      "address": "789 BOULEVARD DE LA CROIX, PARIS, FRANCE",
+      "telephone": "+33 1 45 67 89 01",
+      "fax": "+33 1 45 67 89 02"
+    },
+    "onboardDate": "2024-09-29 00:14",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

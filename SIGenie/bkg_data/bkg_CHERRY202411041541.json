@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411041541",
+  "customerName": "CUSTOMER 7935",
+  "shipperName": "SHIPPER 7061",
+  "invoiceReceiver": "INVOICE RECEIVER 8076",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024446E"
+  },
+  "cargoDetails": {
+    "hsCode": "782690",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 17",
+    "commodity": "SAMPLE COMMODITY 64"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 4
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-27 00:31",
+    "estimatedDepartureFromLoadingPort": "2024-10-13 00:31",
+    "estimatedArrivalAtDischargePort": "2024-11-30 00:31"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "CIF",
+  "remarks": "No special instructions"
+}

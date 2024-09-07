@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410117252",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024591E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "GDANSK",
+    "portOfLoading": "GDANSK",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LE HAVRE, FRANCE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2414",
+      "address": "UL. WARSZAWSKA 123, 80-200 GDANSK, POLAND",
+      "country": "POLAND",
+      "telephone": "+48 58 333 4444",
+      "email": "SHIPPING@SHIPPER2414.PL"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9678",
+      "address": "12 RUE DE LA PAIX, 75000 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 44 55 66 77",
+      "email": "ORDERS@CUSTOMER9678.FR"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1482",
+      "address": "10 PLACE DE L'OPERA, 75009 PARIS, FRANCE",
+      "country": "FRANCE",
+      "telephone": "+33 1 88 99 00 11",
+      "email": "INVOICING@RECEIVER1482.FR"
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "494134",
+  "commodityDescription": "SAMPLE COMMODITY 18 -  WOODEN FURNITURE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GD20241011",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN FURNITURE COMPONENTS (CHAIR LEGS, TABLE TOPS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GD20241011",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN FURNITURE COMPONENTS (CHAIR BACKS, TABLE LEGS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "112233",
+      "marksAndNumbers": "GD20241011",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN FURNITURE COMPONENTS (TABLE SURFACES, SHELVES)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "223344",
+      "marksAndNumbers": "GD20241011",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN FURNITURE COMPONENTS (DRAWER FRONTS, DOOR PANELS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "334455",
+      "marksAndNumbers": "GD20241011",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN FURNITURE COMPONENTS (CABINET DOORS, DRAWER BOTTOMS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 40' HIGH CUBE OPEN TOP CONTAINERS",
+    "totalPackages": 50,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.5
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-30 04:53",
+    "additionalRemarks": "No special instructions"
+  }
+}

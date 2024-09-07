@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410116649",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024349E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "TANGER, MOROCCO"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4342",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPMENT@SHIPPER4342.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9363",
+      "address": "456 MARKET STREET, CASABLANCA, MOROCCO, 20000",
+      "country": "MOROCCO",
+      "email": "ORDERS@CUSTOMER9363.COM",
+      "telephone": "+212 522 9999 8888"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6302",
+      "address": "789 OCEAN DRIVE, RABAT, MOROCCO, 10000",
+      "country": "MOROCCO",
+      "email": "INVOICE@RECEIVER6302.COM, ACCOUNTS@RECEIVER6302.COM",
+      "telephone": "+212 536 7777 6666"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "595810",
+  "commodityDescription": "SAMPLE COMMODITY 70 - TEXTILE FABRICS",
+  "containers": [
+    {
+      "containerNumber": "CRLU12345678",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SHIPPER MARK 123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE FABRICS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (40'HC FR) CONTAINER ONLY",
+    "totalPackages": 50,
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 25.0
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-02 02:16",
+    "additionalRemarks": "No special instructions"
+  }
+}

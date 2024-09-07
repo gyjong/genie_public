@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410241784",
+  "customerName": "CUSTOMER 5523",
+  "shipperName": "SHIPPER 4881",
+  "invoiceReceiver": "INVOICE RECEIVER 2139",
+  "voyageDetails": {
+    "vesselName": "APL MERLION",
+    "voyageNumber": "2024256E"
+  },
+  "cargoDetails": {
+    "hsCode": "961656",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 77",
+    "commodity": "SAMPLE COMMODITY 27"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ALGECIRAS",
+    "portOfLoading": "ALGECIRAS",
+    "portOfDischarge": "TANGER",
+    "placeOfDelivery": "TANGER"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-13 00:39",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 00:39",
+    "estimatedArrivalAtDischargePort": "2024-11-08 00:39"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, KOREA",
+  "shippingTerm": "EXW",
+  "remarks": "No special instructions"
+}

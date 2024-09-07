@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411054640",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2024373W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 8605",
+      "onBehalfOf": "CUSTOMER 7350",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "consignee": {
+      "name": "CONSIGNEE 9876",
+      "address": "456 CANAL STREET, AMSTERDAM, 1012 AB, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "FORWARDER 1234",
+      "address": "789 BROADWAY STREET, ROTTERDAM, 3011 AB, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "146874",
+  "commodityDescription": "SAMPLE COMMODITY 57",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 57",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD ORDER."
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 57",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD ORDER."
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "543216789",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 57",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "CONTAINER IS CLEAN AND IN GOOD ORDER."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINER(S)",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "reeferSettings": {},
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": [
+      "4112720070177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 7350",
+      "address": "123 MAIN STREET, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 7614",
+      "address": "456 CANAL STREET, AMSTERDAM, 1012 AB, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "onboardDate": "2024-09-12 00:50",
+    "additionalRemarks": "No special instructions"
+  }
+}

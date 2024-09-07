@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202409124610",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024903E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5783",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 876 5432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4952",
+      "address": "456 ABC AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 876 5432",
+      "email": "CUSTOMER4952@EXAMPLE.COM",
+      "contactPerson": "JOHN DOE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "INVOICE RECEIVER 6640",
+      "address": "789 DEF LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 987 6543",
+      "fax": "+86 21 432 1098"
+    }
+  },
+  "shippingTerm": "DDP",
+  "hsCode": "472825",
+  "commodityDescription": "SAMPLE COMMODITY 86, SHIPPED IN REEFERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER MARK",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 86",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 45 HIGH CUBE REEFER CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 25.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240912461020-INV01",
+    "documentNumber": "20240912461020-DOC01",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4952",
+      "address": "456 ABC AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 4952",
+      "address": "456 ABC AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 123 4567",
+      "fax": "+86 21 876 5432"
+    },
+    "onboardDate": "2024-09-16 00:42",
+    "additionalRemarks": "No special instructions"
+  }
+}

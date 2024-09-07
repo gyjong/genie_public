@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411036477",
+  "customerName": "CUSTOMER 6170",
+  "shipperName": "SHIPPER 9056",
+  "invoiceReceiver": "INVOICE RECEIVER 9206",
+  "voyageDetails": {
+    "vesselName": "APL VANDA",
+    "voyageNumber": "2024619W"
+  },
+  "cargoDetails": {
+    "hsCode": "289523",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 54",
+    "commodity": "SAMPLE COMMODITY 20"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE",
+    "type": "GENERAL PURPOSE",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-16 22:31",
+    "estimatedDepartureFromLoadingPort": "2024-10-17 22:31",
+    "estimatedArrivalAtDischargePort": "2024-11-07 22:31"
+  },
+  "emptyContainerPickupLocation": "YANTIAN, CHINA",
+  "shippingTerm": "DDP",
+  "remarks": "No special instructions"
+}

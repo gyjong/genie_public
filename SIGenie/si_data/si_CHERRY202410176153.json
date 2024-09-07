@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410176153",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GRACE BAY",
+    "voyageNumber": "2024912E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "ROTTERDAM",
+    "portOfLoading": "ROTTERDAM",
+    "portOfDischarge": "YANTIAN",
+    "placeOfDelivery": "YANTIAN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "YANTIAN, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 5212",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "additionalInfo": "(BUSINESS DISTRICT)",
+      "telephone": "+31 10 200 1234",
+      "email": "SHIPPER5212@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9605",
+      "address": "456 BROADWAY, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "email": "CUSTOMER9605@EXAMPLE.COM",
+      "telephone": "+86 21 500 1234"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1789",
+      "address": "789 AVENUE, SHENZHEN, CHINA",
+      "country": "CHINA",
+      "email": "RECEIVER1789@EXAMPLE.COM, INVOICE@EXAMPLE.COM",
+      "telephone": "+86 755 300 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "829053",
+  "commodityDescription": "SAMPLE COMMODITY 82 - FROZEN FOOD ITEMS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 82 - FROZEN FOOD ITEMS",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 82 - FROZEN FOOD ITEMS",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2x45' HC) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "outOfGaugeDimensions": {
+    "length": 0,
+    "width": 0,
+    "height": 0,
+    "overWidth": 0,
+    "overHeight": 0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-10 01:33",
+    "additionalRemarks": "No special instructions"
+  }
+}

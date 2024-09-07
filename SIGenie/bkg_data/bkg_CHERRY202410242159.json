@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410242159",
+  "customerName": "CUSTOMER 8973",
+  "shipperName": "SHIPPER 8021",
+  "invoiceReceiver": "INVOICE RECEIVER 8660",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024163W"
+  },
+  "cargoDetails": {
+    "hsCode": "642641",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 92",
+    "commodity": "SAMPLE COMMODITY 45"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "GDANSK",
+    "placeOfDelivery": "GDANSK"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-20 05:09",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 05:09",
+    "estimatedArrivalAtDischargePort": "2024-11-17 05:09"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, VIETNAM",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions"
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411034638",
+  "customerName": "CUSTOMER 1847",
+  "shipperName": "SHIPPER 9749",
+  "invoiceReceiver": "INVOICE RECEIVER 4419",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024787W"
+  },
+  "cargoDetails": {
+    "hsCode": "778890",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 68",
+    "commodity": "SAMPLE COMMODITY 21"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "OPEN TOP",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI",
+    "portOfLoading": "SHANGHAI",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-14 04:10",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 04:10",
+    "estimatedArrivalAtDischargePort": "2024-11-11 04:10"
+  },
+  "emptyContainerPickupLocation": "TANGER, CHINA",
+  "shippingTerm": "CIP",
+  "remarks": "No special instructions"
+}

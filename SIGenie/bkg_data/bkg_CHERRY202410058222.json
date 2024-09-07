@@ -1,0 +1,35 @@
+{
+  "bookingReference": "CHERRY202410058222",
+  "customerName": "CUSTOMER 5607",
+  "shipperName": "SHIPPER 5012",
+  "invoiceReceiver": "INVOICE RECEIVER 4267",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024149W"
+  },
+  "cargoDetails": {
+    "hsCode": "104469",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 59",
+    "commodity": "SAMPLE COMMODITY 94"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "OPEN TOP",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-17 22:48",
+    "estimatedDepartureFromLoadingPort": "2024-11-06 22:48",
+    "estimatedArrivalAtDischargePort": "2024-11-18 22:48"
+  },
+  "emptyContainerPickupLocation": "LE HAVRE, CHINA",
+  "shippingTerm": "CPT",
+  "remarks": "No special instructions",
+  "transportationTerm": "CY/CY"
+}

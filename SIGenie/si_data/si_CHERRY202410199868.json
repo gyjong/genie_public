@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410199868",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ROQUEVAIRE",
+    "voyageNumber": "2024308E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "PORT KLANG"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9697",
+      "address": "123 MAIN STREET, KUALA LUMPUR, MALAYSIA",
+      "telephone": "+60322427777",
+      "fax": "+60322428888"
+    },
+    "consignee": {
+      "name": "INVOICE RECEIVER 2265",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+862112345678",
+      "fax": "+862112345679"
+    },
+    "notifyParty": {
+      "name": "CUSTOMER 4568",
+      "address": "789 BEIJING STREET, BEIJING, CHINA",
+      "telephone": "+861098765432",
+      "fax": "+861098765433"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "145430",
+  "commodityDescription": "SAMPLE COMMODITY 15",
+  "containers": [
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 15",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING",
+      "numberOfPackages": 15,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 15",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 20,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 15",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "CUSTOMER MARK",
+      "numberOfPackages": 10,
+      "packageType": "DRUMS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 15",
+      "grossWeight": 5000.0,
+      "measurement": 10.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 55,
+    "packageType": "MIXED PACKAGES",
+    "totalGrossWeight": 42000.0,
+    "totalMeasurement": 85.0
+  },
+  "dangerousGoods": {
+    "containerNumber": "",
+    "unClass": "",
+    "unCode": "",
+    "hsCode": "",
+    "flashPoint": "",
+    "additionalInfo": ""
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO202410199868",
+    "salesOrderNumber": "SO202410199868",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4568",
+      "address": "789 BEIJING STREET, BEIJING, CHINA",
+      "telephone": "+861098765432",
+      "fax": "+861098765433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 2265",
+      "address": "456 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+862112345678",
+      "fax": "+862112345679"
+    },
+    "onboardDate": "2024-09-14 23:40",
+    "additionalRemarks": "No special instructions"
+  }
+}

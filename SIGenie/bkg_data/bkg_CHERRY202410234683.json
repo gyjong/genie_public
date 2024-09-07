@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410234683",
+  "customerName": "CUSTOMER 1495",
+  "shipperName": "SHIPPER 4647",
+  "invoiceReceiver": "INVOICE RECEIVER 2375",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BENJAMIN FRANKLIN",
+    "voyageNumber": "2024283W"
+  },
+  "cargoDetails": {
+    "hsCode": "690083",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 42",
+    "commodity": "SAMPLE COMMODITY 48"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-01 00:29",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 00:29",
+    "estimatedArrivalAtDischargePort": "2024-11-27 00:29"
+  },
+  "emptyContainerPickupLocation": "SINGAPORE, VIETNAM",
+  "shippingTerm": "FCA",
+  "remarks": "No special instructions"
+}

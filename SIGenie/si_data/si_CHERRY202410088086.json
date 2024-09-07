@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410088086",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024378W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "LE HAVRE",
+    "placeOfDelivery": "LE HAVRE"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7675",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA 315000",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "consignee": {
+      "name": "CUSTOMER 3911",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 98 76 54",
+      "email": "IMPORT@CUSTOMER3911.COM",
+      "contactPerson": "JEAN DUPONT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "EXW",
+  "hsCode": "194904",
+  "commodityDescription": "SAMPLE COMMODITY 22",
+  "containers": [
+    {
+      "containerNumber": "CRLU8567923",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKINGS 123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 22",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8567924",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKINGS 456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 22",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20 DRY",
+    "totalPackages": 200,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241008-001",
+    "documentNumber": "20241008-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 3911",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 98 76 54"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 3911",
+      "address": "456 CONSIGNEE AVENUE, LE HAVRE, FRANCE 76600",
+      "telephone": "+33 2 35 12 34 56",
+      "fax": "+33 2 35 98 76 54"
+    },
+    "onboardDate": "2024-09-13 03:44",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

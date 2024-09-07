@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409274410",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024161W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "YANTIAN",
+    "portOfLoading": "YANTIAN",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 9168",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-1234-5679"
+    },
+    "consignee": {
+      "name": "CUSTOMER 4506",
+      "address": "456 ABC STREET, NINGBO, CHINA",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-1234-5679"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 1676",
+      "address": "789 DEF STREET, BEIJING, CHINA",
+      "telephone": "+86-10-1234-5678",
+      "fax": "+86-10-1234-5679"
+    }
+  },
+  "shippingTerm": "CPT",
+  "hsCode": "331672",
+  "commodityDescription": "SAMPLE COMMODITY 20",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SAMPLE MARKING 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 20",
+      "grossWeight": 15000,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SAMPLE MARKING 2",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SAMPLE COMMODITY 20",
+      "grossWeight": 7500,
+      "measurement": 12.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS AND PALLETS",
+    "totalGrossWeight": 22500,
+    "totalMeasurement": 38.25
+  },
+  "dangerousGoods": {
+    "containerNumber": "CMAU7654321",
+    "unClass": "9",
+    "unCode": "3264",
+    "hsCode": "331672",
+    "flashPoint": "Not Applicable",
+    "additionalInfo": "None"
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 4506",
+      "address": "456 ABC STREET, NINGBO, CHINA",
+      "telephone": "+86-574-1234-5678",
+      "fax": "+86-574-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 1676",
+      "address": "789 DEF STREET, BEIJING, CHINA",
+      "telephone": "+86-10-1234-5678",
+      "fax": "+86-10-1234-5679"
+    },
+    "onboardDate": "2024-10-02 22:51",
+    "additionalRemarks": "No special instructions"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

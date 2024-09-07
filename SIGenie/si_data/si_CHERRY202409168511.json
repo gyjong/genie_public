@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202409168511",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024193W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "LE HAVRE",
+    "portOfLoading": "LE HAVRE",
+    "portOfDischarge": "HAMBURG",
+    "placeOfDelivery": "HAMBURG"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 4488",
+      "address": "123 MAIN STREET, ANYTOWN, FRANCE",
+      "telephone": "+33 1 23 45 67 89",
+      "fax": "+33 1 23 45 67 90"
+    },
+    "consignee": {
+      "name": "CUSTOMER 1973",
+      "address": "456 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213",
+      "email": "INFO@CUSTOMER1973.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "449713",
+  "commodityDescription": "SAMPLE COMMODITY 50",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 31,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SAMPLE COMMODITY 50",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "1 X 20DRY CONTAINER",
+    "totalPackages": 31,
+    "totalGrossWeight": 19121.0,
+    "totalMeasurement": 20.618
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "CUSTOMER 1973",
+      "address": "456 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CUSTOMER 1973",
+      "address": "456 BROADWAY, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-09-22 21:56",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

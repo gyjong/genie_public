@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409077881",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024263E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "SHANGHAI",
+    "placeOfDelivery": "SHANGHAI"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "LOS ANGELES, CA, U.S.A"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 2,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7111",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012AB",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 1234568"
+    },
+    "consignee": {
+      "name": "PACIFIC IMPORTERS INC.",
+      "address": "555 OCEAN AVE, LOS ANGELES, CA 90210",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213",
+      "email": "IMPORT@PACIFICIMPORTERS.COM",
+      "contactPerson": "JANE SMITH"
+    },
+    "notifyParty": {
+      "name": "JOHN BROWN",
+      "address": "123 OCEAN VIEW DRIVE, SANTA MONICA, CA 90401",
+      "telephone": "+1 310 555 2323",
+      "fax": "+1 310 555 2324",
+      "email": "JOHN.BROWN@GMAIL.COM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "392690",
+  "commodityDescription": "POLYPROPYLENE RESIN",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: POLYPROPYLENE RESIN PELLETS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: POLYPROPYLENE RESIN PELLETS",
+      "grossWeight": 19500.0,
+      "measurement": 24.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 95,
+    "totalGrossWeight": 39500.0,
+    "totalMeasurement": 49.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20241005-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "WORLDWIDE TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012AB",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 1234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "WORLDWIDE TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012AB",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 1234568"
+    },
+    "onboardDate": "2024-09-24 21:20",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

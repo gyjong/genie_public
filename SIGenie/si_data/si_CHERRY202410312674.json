@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410312674",
+  "voyageDetails": {
+    "vesselName": "APL CHANGI",
+    "voyageNumber": "2024929W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 7070",
+      "address": "123 SHIPPER STREET, SINGAPORE 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SHIPPER DISTRICT)"
+    },
+    "consignee": {
+      "name": "CUSTOMER 9077",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM 3011AA",
+      "country": "NETHERLANDS",
+      "email": "CUSTOMER9077@EXAMPLE.COM",
+      "telephone": "+31 10 1234567"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 6229",
+      "address": "789 INVOICE RECEIVER LANE, SINGAPORE 654321",
+      "country": "SINGAPORE",
+      "email": "RECEIVER6229@EXAMPLE.COM",
+      "telephone": "+65 67890123"
+    }
+  },
+  "shippingTerm": "DAP",
+  "hsCode": "723662",
+  "commodityDescription": "SAMPLE COMMODITY 2",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SAMPLE COMMODITY 2 - 100 CARTONS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "SAMPLE COMMODITY 2 - 50 PALLETS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 200,
+      "packageType": "BAGS",
+      "cargoDescription": "SAMPLE COMMODITY 2 - 200 BAGS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "456789",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 150,
+      "packageType": "DRUMS",
+      "cargoDescription": "SAMPLE COMMODITY 2 - 150 DRUMS",
+      "grossWeight": 12000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40 HIGH CUBE X4) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "VARIOUS",
+    "totalGrossWeight": 57000.0,
+    "totalMeasurement": 97.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "723662",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890123",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 9077",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM 3011AA",
+      "telephone": "+31 10 1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 6229",
+      "address": "789 INVOICE RECEIVER LANE, SINGAPORE 654321",
+      "telephone": "+65 67890123",
+      "fax": "+65 67890124"
+    },
+    "onboardDate": "2024-09-10 01:28",
+    "additionalRemarks": "No special instructions"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

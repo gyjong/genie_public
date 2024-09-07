@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409235636",
+  "customerName": "CUSTOMER 9534",
+  "shipperName": "SHIPPER 6064",
+  "invoiceReceiver": "INVOICE RECEIVER 9037",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2024370E"
+  },
+  "cargoDetails": {
+    "hsCode": "806984",
+    "chapterDescription": "SAMPLE CHAPTER DESCRIPTION 96",
+    "commodity": "SAMPLE COMMODITY 20"
+  },
+  "containerDetails": {
+    "size": "40 DRY",
+    "type": "GENERAL PURPOSE",
+    "quantity": 1
+  },
+  "routeDetails": {
+    "placeOfReceipt": "PORT KLANG",
+    "portOfLoading": "PORT KLANG",
+    "portOfDischarge": "NINGBO",
+    "placeOfDelivery": "NINGBO"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-02 00:58",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 00:58",
+    "estimatedArrivalAtDischargePort": "2024-11-27 00:58"
+  },
+  "emptyContainerPickupLocation": "SHANGHAI, CHINA",
+  "shippingTerm": "DAP",
+  "remarks": "No special instructions"
+}

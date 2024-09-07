@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410074528",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2024206W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO",
+    "portOfLoading": "NINGBO",
+    "portOfDischarge": "ROTTERDAM",
+    "placeOfDelivery": "ROTTERDAM"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHIPPER 2263",
+      "address": "123 SHIPPER STREET, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "email": "SHIPPER2263@EMAIL.COM"
+    },
+    "consignee": {
+      "name": "CUSTOMER 8108",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "notifyParty": {
+      "name": "INVOICE RECEIVER 3071",
+      "address": "789 NOTIFY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 321 0987"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "705085",
+  "commodityDescription": "SAMPLE COMMODITY 46",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SAMPLE COMMODITY 46",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SAMPLE COMMODITY 46",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY X 2) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X2",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 40.0
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in DRY Container"
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "CUSTOMER 8108",
+      "address": "456 CONSIGNEE AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 987 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "INVOICE RECEIVER 3071",
+      "address": "789 NOTIFY STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 321 0987"
+    },
+    "onboardDate": "2024-09-19 04:27",
+    "additionalRemarks": "No special instructions"
+  }
+}
