@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409197279",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "243EWE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA AUTOMOTIVE COMPONENTS CO.",
+      "onBehalfOf": "",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8887"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "123 LONDON ROAD, LONDON, UK, EC1A 4DD",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "123 LONDON ROAD, LONDON, UK, EC1A 4DD"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87089990",
+  "commodityDescription": "CAR BRAKE PADS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA-2345",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "CAR BRAKE PADS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 6000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DELTA-7890",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "CAR BRAKE PADS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 6000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 12000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "123 LONDON ROAD, LONDON, UK, EC1A 4DD",
+      "telephone": "+44-20-7777-7777",
+      "fax": "+44-20-7777-7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA AUTOMOTIVE COMPONENTS CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8887"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED. SHIPMENT CONTAINS HAZARDOUS MATERIALS (CLASS 9)."
+  },
+  "dangerousGoods": {
+    "shippingName": "Miscellaneous dangerous goods",
+    "unNumber": "UN3077",
+    "class": "9",
+    "packingGroup": "II or III",
+    "properShippingName": "Environmentally hazardous substance, solid n.o.s.",
+    "subsidiaryRisks": [],
+    "hazardIdentificationNumber": "99",
+    "netQuantity": "To be determined based on the specific shipment",
+    "grossQuantity": "To be determined based on the specific shipment",
+    "packagingType": "To be determined based on the specific hazardous material and its compatibility",
+    "containerType": "To be determined based on the mode of transport and size of shipment",
+    "emergencyProcedures": "Refer to the Safety Data Sheet (SDS) for specific emergency procedures. In case of spills, leaks or fires, contact emergency services immediately and provide them with the SDS.",
+    "specialHandlingInstructions": "DOOR DELIVERY REQUIRED. Handle with care. Avoid contact with skin, eyes and clothing. Do not eat, drink or smoke when handling this material. Ensure adequate ventilation. Use appropriate personal protective equipment (PPE) such as gloves, safety glasses and a respirator.",
+    "regulatoryInformation": "Comply with all applicable regulations for the transportation of hazardous materials, including the International Maritime Dangerous Goods (IMDG) Code, IATA Dangerous Goods Regulations, and local regulations."
+  }
+}

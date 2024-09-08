@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409277054",
+  "customerName": "ALPHA IMPORT & EXPORT LTD.",
+  "shipperName": "BETA MANUFACTURING CO.",
+  "invoiceReceiver": "ALPHA IMPORT & EXPORT LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE FIBRES, NON-ELECTRIC, OTHER",
+    "commodity": "TEXTILE LOOM PARTS"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-03 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-05 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-07 16:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "10 Days Free Time at Destination, Container Lashing Required"
+}

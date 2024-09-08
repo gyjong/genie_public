@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409171329",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W54E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD.",
+      "address": "288 CHANGAN ROAD, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "902300",
+  "commodityDescription": "OPTICAL LABORATORY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "OPT123",
+      "numberOfPackages": 10,
+      "cargoDescription": "OPTICAL LABORATORY EQUIPMENT - FRAGILE",
+      "grossWeight": 15000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "OPT456",
+      "numberOfPackages": 12,
+      "cargoDescription": "OPTICAL LABORATORY EQUIPMENT - FRAGILE",
+      "grossWeight": 14500.0,
+      "measurement": 48.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "3456789",
+      "marksAndNumbers": "OPT789",
+      "numberOfPackages": 8,
+      "cargoDescription": "OPTICAL LABORATORY EQUIPMENT - FRAGILE",
+      "grossWeight": 13000.0,
+      "measurement": 45.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 42500.0,
+    "totalMeasurement": 143.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-09-20 10:00",
+    "additionalRemarks": "FRAGILE CARGO, REQUIRES TEMPERATURE CONTROL (15-25\u00b0C)"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410139397",
+  "customerName": "ABC Logistics Ltd.",
+  "shipperName": "XYZ Manufacturing Co.",
+  "invoiceReceiver": "ABC Logistics Ltd.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EWN"
+  },
+  "cargoDetails": {
+    "hsCode": "85444210",
+    "chapterDescription": "Electrical transformers, static converters (for example, rectifiers) and inductors",
+    "commodity": "Transformers for power distribution"
+  },
+  "containerDetails": {
+    "size": "40' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-20 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-21 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-05 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Shipper's Load & Count. Fumigation Certificate required."
+}

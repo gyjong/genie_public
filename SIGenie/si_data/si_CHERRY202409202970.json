@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409202970",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2429W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC HARDWARE INC",
+      "address": "2888 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "2nd FLOOR, 123 MAIN STREET, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "2nd FLOOR, 123 MAIN STREET, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "73269090",
+  "commodityDescription": "STEEL PIPES & FITTINGS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC HARDWARE INC",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ASIA PACIFIC HARDWARE INC",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ASIA PACIFIC HARDWARE INC",
+      "numberOfPackages": 100,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "2nd FLOOR, 123 MAIN STREET, LONDON, UK EC1A 1BX",
+      "telephone": "+44-20-7777-8888",
+      "fax": "+44-20-7777-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC HARDWARE INC",
+      "address": "2888 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-10-03 12:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT, B/L: ORIGINAL"
+  }
+}

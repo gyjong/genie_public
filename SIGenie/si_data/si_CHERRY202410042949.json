@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410042949",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-99999999"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "100 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "100 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "950300",
+  "commodityDescription": "PLUSH TOYS",
+  "containers": [
+    {
+      "containerNumber": "CBLU9978235",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLBL-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CBLU9978236",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLBL-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CIQ-2024-1004"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "100 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "100 EUROPA STREET, ROTTERDAM, NETHERLANDS 3011AA"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3334",
+    "properShippingName": "Aviation Regulated Solid, n.o.s.",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "specialProvisions": [
+      "A117"
+    ],
+    "technicalName": null,
+    "netQuantity": null,
+    "grossQuantity": null,
+    "packaging": null,
+    "stowageCategory": "C"
+  }
+}

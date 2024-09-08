@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410139273",
+  "customerName": "SUNRISE TRADING CO.",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "SUNRISE TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023ZHE"
+  },
+  "cargoDetails": {
+    "hsCode": "847989",
+    "chapterDescription": "Machines for cleaning, filling, closing, sealing or labelling packs and bottles",
+    "commodity": "PACKAGING EQUIPMENT"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-22 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CY/CY",
+  "remarks": "3 x 20 DRY Containers. Packaging equipment for beverages. Weight: 18 tons per container."
+}

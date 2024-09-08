@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410304230",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UK",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UK",
+      "taxId": "GB123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRIC TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY ELECTRIC TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY ELECTRIC TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY ELECTRIC TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CUBE X3",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UK",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UK",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED, B/L: ORIGINAL"
+  }
+}

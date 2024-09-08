@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202411052409",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "238 JINLING ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "WESTERSTRAAT 15, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAGLOBALTRADING.NL",
+      "telephone": "+31 10 203 2500"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "WESTERSTRAAT 15, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAGLOBALTRADING.NL",
+      "telephone": "+31 10 203 2500"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9318763",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT AND WEIGHT.  SOTW & SEAL SAID TO CONTAIN: 20 ELECTRIC MOTORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7789123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT AND WEIGHT. SOTW & SEAL SAID TO CONTAIN: 20 ELECTRIC MOTORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2233445",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT AND WEIGHT. SOTW & SEAL SAID TO CONTAIN: 20 ELECTRIC MOTORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "332211",
+      "marksAndNumbers": "BETA111",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT AND WEIGHT. SOTW & SEAL SAID TO CONTAIN: 20 ELECTRIC MOTORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU8899001",
+      "sealNumber": "776655",
+      "marksAndNumbers": "BETA222",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT AND WEIGHT. SOTW & SEAL SAID TO CONTAIN: 20 ELECTRIC MOTORS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "CRATES",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "WESTERSTRAAT 15, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 2500"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "WESTERSTRAAT 15, 3011 LJ ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 203 2500"
+    },
+    "onboardDate": "2024-11-08 15:00",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

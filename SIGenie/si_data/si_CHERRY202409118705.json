@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409118705",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435ASW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING LTD",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 MADRID STREET, ALICANTE, SPAIN 03001",
+      "companyNumber": "ESB12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 MADRID STREET, ALICANTE, SPAIN 03001"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS FOR INDUSTRIAL APPLICATIONS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 MADRID STREET, ALICANTE, SPAIN 03001",
+      "telephone": "+34-965-123-4567",
+      "fax": "+34-965-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP",
+      "address": "456 MADRID STREET, ALICANTE, SPAIN 03001"
+    },
+    "onboardDate": "2024-09-15 16:00",
+    "additionalRemarks": "Free Time Allowed: 7 Days at Port of Discharge"
+  }
+}

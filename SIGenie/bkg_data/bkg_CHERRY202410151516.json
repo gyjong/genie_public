@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410151516",
+  "customerName": "ABC Trading Co.",
+  "shipperName": "XYZ Manufacturing Inc.",
+  "invoiceReceiver": "ABC Trading Co.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24210E"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR MANUFACTURING OR PROCESSING FOOD, BEVERAGE OR TOBACCO, PARTS AND ACCESSORIES THEREOF",
+    "commodity": "Automatic Biscuit Making Machine"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-22 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Please ensure the containers are properly sealed and secured."
+}

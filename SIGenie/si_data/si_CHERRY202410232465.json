@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410232465",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHNO IMPORT EXPORT LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, HANGZHOU, 310000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZHEJIANG PROVINCE)",
+      "telephone": "+86 571 8765 4321",
+      "email": "SALES@TECHNOIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "KEIZERSGRACHT 123, 1016 GW AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALSOLUTIONSINC.COM",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "KEIZERSGRACHT 123, 1016 GW AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@GLOBALSOLUTIONSINC.COM",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "Digital Circuit Boards and Integrated Circuits",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - CIRCUIT BOARDS AND INTEGRATED CIRCUITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - CIRCUIT BOARDS AND INTEGRATED CIRCUITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - CIRCUIT BOARDS AND INTEGRATED CIRCUITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - CIRCUIT BOARDS AND INTEGRATED CIRCUITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU2345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - CIRCUIT BOARDS AND INTEGRATED CIRCUITS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5x40 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241023001"
+    },
+    "certificateDetails": [
+      "COO",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "KEIZERSGRACHT 123, 1016 GW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "KEIZERSGRACHT 123, 1016 GW AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Requires pre-cooling, Value: USD150,000"
+  }
+}

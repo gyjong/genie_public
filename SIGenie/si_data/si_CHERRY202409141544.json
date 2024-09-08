@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409141544",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2436W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS GMBH",
+      "address": "HAMBURGER STRASSE 10, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568",
+      "email": "INFO@SUNRISEIMPORT.DE",
+      "contactPerson": "PETER SCHMIDT"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9123456",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 20,
+      "cargoDescription": "TEXTILE SPINNING MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 18500.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU11223344",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 22,
+      "cargoDescription": "TEXTILE SPINNING MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 19000.0,
+      "measurement": 67.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 42,
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 133.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "2024-09-14-01",
+    "documentNumber": "20240914-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-20240914-001"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-09-20 12:00",
+    "additionalRemarks": "Please ensure container doors are sealed with tamper-proof seals."
+  }
+}

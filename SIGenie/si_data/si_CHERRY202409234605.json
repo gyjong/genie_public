@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409234605",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Trading Co.",
+      "address": "No. 123 Zhejiang Road, Ningbo, Zhejiang, China 315000",
+      "country": "CHINA",
+      "additionalInfo": "(Zhejiang Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "Sunrise Logistics Inc.",
+      "address": "1245 Van der Waalsweg, Rotterdam, 3011 BG, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@sunriselogistics.nl",
+      "telephone": "+31 10 200 3000"
+    },
+    "notifyParty": {
+      "name": "Sunrise Trading Co.",
+      "address": "No. 123 Zhejiang Road, Ningbo, Zhejiang, China 315000",
+      "country": "CHINA",
+      "email": "info@sunrisetrading.com",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "611030",
+  "commodityDescription": "T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: T-SHIRTS 20MT 50PCS/CARTON",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: T-SHIRTS 20MT 50PCS/CARTON",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: T-SHIRTS 20MT 50PCS/CARTON",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "611030",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "Sunrise Logistics Inc.",
+      "address": "1245 Van der Waalsweg, Rotterdam, 3011 BG, Netherlands",
+      "telephone": "+31 10 200 3000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunrise Trading Co.",
+      "address": "No. 123 Zhejiang Road, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "D/G, Class: 6, UN No: 1169"
+  }
+}

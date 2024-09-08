@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409104327",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF Manufacturing Inc.",
+      "onBehalfOf": "",
+      "address": "123 Main Street, Shanghai, China",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-9876-5432"
+    },
+    "consignee": {
+      "name": "DEF Manufacturing GmbH",
+      "address": "456 Industriestrasse, Hamburg, Germany",
+      "companyNumber": "HRB 12345"
+    },
+    "notifyParty": {
+      "name": "GHI Logistics",
+      "address": "789 Hafenstrasse, Hamburg, Germany"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "Power Transformers",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC Trading Company",
+      "address": "123 Main Street, Shanghai, China",
+      "telephone": "+86-21-1234-5678",
+      "fax": "+86-21-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF Manufacturing GmbH",
+      "address": "456 Industriestrasse, Hamburg, Germany"
+    },
+    "onboardDate": "2024-09-14 10:00",
+    "additionalRemarks": "Demurrage charges apply after 3 free days at destination."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410194836",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 1111",
+      "fax": "+31 10 2222 2222",
+      "email": "IMPORT@ZENITHGLOBAL.NL",
+      "contactPerson": "ANNA VAN DER LEE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "IGBT MODULES FOR POWER ELECTRONICS APPLICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZGL-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "IGBT MODULES - FRAGILE ELECTRONIC COMPONENTS",
+      "grossWeight": 25000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ZGL-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "IGBT MODULES - FRAGILE ELECTRONIC COMPONENTS",
+      "grossWeight": 24500.0,
+      "measurement": 64.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ZGL-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "IGBT MODULES - FRAGILE ELECTRONIC COMPONENTS",
+      "grossWeight": 24800.0,
+      "measurement": 64.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 74300.0,
+    "totalMeasurement": 194.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241019-001",
+    "documentNumber": "20241019-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 1111",
+      "fax": "+31 10 2222 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "1234 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 2222 1111",
+      "fax": "+31 10 2222 2222"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED FOR FRAGILE ELECTRONIC COMPONENTS"
+  }
+}

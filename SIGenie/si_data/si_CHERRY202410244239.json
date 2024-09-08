@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410244239",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E-7"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8666 1234",
+      "email": "SUNRISE@SUNRISETRADING.CN"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "WEGELAAN 10, 3065 AE ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORTS.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "WEGELAAN 10, 3065 AE ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORTS.NL",
+      "telephone": "+31 10 456 7890"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854442",
+  "commodityDescription": "LCD Monitors",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE LCD 1-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD MONITORS - MODEL: SUNRISE-27 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE LCD 4-6",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD MONITORS - MODEL: SUNRISE-27 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE LCD 7-9",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "LCD MONITORS - MODEL: SUNRISE-27 - MADE IN CHINA",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 40'HC) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "totalGrossWeight": 72000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, 315000, CHINA",
+      "telephone": "+86 574 8666 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "NO. 123, CHANGJIANG ROAD, NINGBO, 315000, CHINA",
+      "telephone": "+86 574 8666 1234"
+    },
+    "onboardDate": "2024-10-29 12:00",
+    "additionalRemarks": "Special instructions for handling fragile cargo required."
+  }
+}

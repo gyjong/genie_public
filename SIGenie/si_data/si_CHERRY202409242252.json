@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409242252",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWG"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "onBehalfOf": null,
+      "address": "NO. 123 INDUSTRY PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "consignee": {
+      "name": "SEA DRAGON LOGISTICS LTD",
+      "address": "MARKTPLAATS 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "10TH FLOOR, SUNRISE BUILDING, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SR-2024-10",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SR-2024-10",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SR-2024-10",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE ENGINE PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SEA DRAGON LOGISTICS LTD",
+      "address": "MARKTPLAATS 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "address": "NO. 123 INDUSTRY PARK ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO. PLEASE HANDLE WITH CARE."
+  }
+}

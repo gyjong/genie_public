@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410026537",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZGH23A"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "onBehalfOf": "",
+      "address": "258 FUJIAN ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "258 FUJIAN ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA"
+    }
+  },
+  "shippingTerm": "DPU",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241002345"
+    },
+    "certificateDetails": [
+      "CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "258 FUJIAN ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "FRANKFURTER STRASSE 12, 60311 FRANKFURT, GERMANY"
+    },
+    "onboardDate": "2024-10-10 12:00",
+    "additionalRemarks": "KINDLY ARRANGE FOR TRUCKING FROM HAMBURG TO FRANKFURT."
+  }
+}

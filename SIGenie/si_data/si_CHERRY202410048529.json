@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410048529",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2447EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF Manufacturing Inc.",
+      "address": "123 Industrial Ave, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999",
+      "email": "info@defmanufacturing.com"
+    },
+    "consignee": {
+      "name": "GHI Logistics Ltd.",
+      "address": "101 Trade Center, Rotterdam, Netherlands",
+      "taxId": "NL851234567B01",
+      "president": "Mr. Jan Pieterse",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co.",
+      "address": "456 Business Plaza, Shanghai, China",
+      "taxId": "CN12345678901234",
+      "president": "Ms. Li Wei",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "METAL FORMING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS METAL FORMING MACHINES",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS METAL FORMING MACHINES",
+      "grossWeight": 16000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) 40' HIGH CONTAINER",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH DRY",
+    "totalGrossWeight": 31000.0,
+    "totalMeasurement": 62.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN20241004001",
+    "originalBLDistribution": {
+      "name": "GHI Logistics Ltd.",
+      "address": "101 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Business Plaza, Shanghai, China",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 6667"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "D/G, Class: 3, UN No: 1950"
+  }
+}

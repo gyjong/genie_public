@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202409258997",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORTS LTD",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-9999"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL CABLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ASIA IMPORTS LTD",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ASIA IMPORTS LTD",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "5678901234",
+      "marksAndNumbers": "ASIA IMPORTS LTD",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "2345678901",
+      "marksAndNumbers": "ASIA IMPORTS LTD",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8901234",
+      "sealNumber": "8901234567",
+      "marksAndNumbers": "ASIA IMPORTS LTD",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "BOXES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORTS LTD",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-9999"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "5 x 20 DRY containers,  Value: USD150,000"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410287055",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8686 5555",
+      "email": "SHIPPING@BETAMFG.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ AVENIDA ESPA\u00d1A, 25, 11300 CADIZ",
+      "country": "SPAIN",
+      "email": "IMPORT@ALPHAIMPORT.ES",
+      "telephone": "+34 956 77 88 99"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ AVENIDA ESPA\u00d1A, 25, 11300 CADIZ",
+      "country": "SPAIN",
+      "email": "IMPORT@ALPHAIMPORT.ES",
+      "telephone": "+34 956 77 88 99"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40 HIGH CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ AVENIDA ESPA\u00d1A, 25, 11300 CADIZ",
+      "telephone": "+34 956 77 88 99"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ AVENIDA ESPA\u00d1A, 25, 11300 CADIZ",
+      "telephone": "+34 956 77 88 99"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Pre-shipment inspection required. 7 Days Free Time at Destination."
+  }
+}

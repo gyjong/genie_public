@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410262663",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "No. 123, Industrial Zone, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4444444",
+      "fax": "+31-10-44444445"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4444444",
+      "fax": "+31-10-44444445"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "GLASS FIBRE INSULATION BOARDS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GLASS FIBRE INSULATION BOARDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, GLASS FIBRE INSULATION BOARDS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN123456789",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4444444",
+      "fax": "+31-10-44444445"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "Oude Haven 123, 3011 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4444444",
+      "fax": "+31-10-44444445"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Cargo requires proper ventilation. Please ensure container is equipped with adequate ventilation."
+  }
+}

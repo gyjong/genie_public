@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411034697",
+  "customerName": "GLOBAL TRADING CO.",
+  "shipperName": "GLOBAL TRADING CO.",
+  "invoiceReceiver": "GLOBAL TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAWST"
+  },
+  "cargoDetails": {
+    "hsCode": "847130",
+    "chapterDescription": "Automatic data processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+    "commodity": "COMPUTERS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-12 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-13 08:00",
+    "estimatedArrivalAtDischargePort": "2024-12-05 12:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CY/CY",
+  "remarks": "Value: USD150,000"
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410262343",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "UNIT 5, 123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "country": "UNITED KINGDOM",
+      "additionalInfo": "(SUITE 502)",
+      "telephone": "+44 20 7123 4567",
+      "email": "INFO@SUNRISEIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "UNIT 5, 123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@SUNRISEIMPORTS.COM",
+      "telephone": "+44 20 7123 4567"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "UNIT 5, 123 HIGH STREET, LONDON, UK, W1A 1AA",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@SUNRISEIMPORTS.COM",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "PACKAGING MACHINERY FOR BEVERAGE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SUNRISE20241026",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY FOR BEVERAGE INDUSTRY. SHIPPER'S LOAD, COUNT & WEIGHT. SOTW & SEAL SAID TO CONTAIN: 2 X 20' DRY CONTAINERS. PACKAGING MACHINERY. VALUE: USD 40,000",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SUNRISE20241026",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PACKAGING MACHINERY FOR BEVERAGE INDUSTRY. SHIPPER'S LOAD, COUNT & WEIGHT. SOTW & SEAL SAID TO CONTAIN: 2 X 20' DRY CONTAINERS. PACKAGING MACHINERY. VALUE: USD 40,000",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "2 x 20' DRY Containers. Packaging machinery for beverage industry. Value: USD 40,000"
+  }
+}

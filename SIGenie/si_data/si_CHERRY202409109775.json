@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202409109775",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435ESW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING CO., LTD",
+      "address": "123 INDUSTRY PARK, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 987 6543"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 987 6543"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "MSKU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "CIRCUIT BREAKERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSKU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 50,
+      "cargoDescription": "CIRCUIT BREAKERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40FR) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "40FR",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO12345"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS LTD",
+      "address": "124 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-09-15 12:00",
+    "additionalRemarks": "Cargo requires special handling due to fragility."
+  }
+}

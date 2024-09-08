@@ -1,0 +1,139 @@
+{
+  "bookingReference": "CHERRY202409191549",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435WSEA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Trading Company",
+      "address": "123 Trade Street, Shanghai, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Industrial Avenue, Rotterdam, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "notifyParty": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Industrial Avenue, Rotterdam, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "903281",
+  "commodityDescription": "Industrial Control Systems",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : INDUSTRIAL CONTROL SYSTEMS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU11223344",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : INDUSTRIAL CONTROL SYSTEMS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU55667788",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : INDUSTRIAL CONTROL SYSTEMS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU22446688",
+      "sealNumber": "332211",
+      "marksAndNumbers": "JKL123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : INDUSTRIAL CONTROL SYSTEMS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU77889900",
+      "sealNumber": "554433",
+      "marksAndNumbers": "MNO456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : INDUSTRIAL CONTROL SYSTEMS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE CONTAINER ONLY)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 340.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Industrial Avenue, Rotterdam, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Industrial Avenue, Rotterdam, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "onboardDate": "2024-09-22 14:00",
+    "additionalRemarks": "Hazardous Cargo: Class 9. Packing: Palletized. Value: USD 150,000"
+  },
+  "dangerousGoods": {
+    "shipping_name": "Miscellaneous dangerous substances and articles",
+    "un_number": "3077",
+    "hazard_class": 9,
+    "packing_group": "III",
+    "packing_instructions": "P650",
+    "emergency_response_guide": "171",
+    "proper_shipping_name": "Environmentally hazardous substance, solid, n.o.s.",
+    "description": "The cargo consists of miscellaneous dangerous substances and articles classified as Class 9. It is packed on pallets and has a declared value of USD 150,000.",
+    "additional_information": [
+      "The specific nature of the hazardous materials within Class 9 is not disclosed in the provided remarks."
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409255432",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS & EXPORTS INC",
+      "onBehalfOf": "",
+      "address": "123 MAIN STREET, ANYTOWN, USA 12345",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN 28001",
+      "companyNumber": "B12345678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN 28001"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TEXTILE LOOM 1",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM MACHINERY",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TEXTILE LOOM 2",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM MACHINERY",
+      "grossWeight": 12500.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "456 AVENIDA PRINCIPAL, MADRID, SPAIN 28001",
+      "telephone": "+34-91-123-4567",
+      "fax": "+34-91-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS & EXPORTS INC",
+      "address": "123 MAIN STREET, ANYTOWN, USA 12345",
+      "telephone": "+1-555-123-4567",
+      "fax": "+1-555-123-4568"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411065672",
+  "customerName": "GLOBAL TRADING CO.",
+  "shipperName": "GLOBAL TRADING CO.",
+  "invoiceReceiver": "GLOBAL TRADING INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "847989",
+    "chapterDescription": "Machinery for working metal; machinery for working wood, cork, bone, hard rubber, plastics, or similar hard materials; machinery for making paper pulp, paper or paperboard; machinery for making textiles, yarn or thread; machinery for making carpets or rugs; machinery for working food, beverages or tobacco; machinery for working stone, glass, ceramics or rubber; machinery for other industrial purposes",
+    "commodity": "MACHINERY PARTS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-15 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-16 08:00",
+    "estimatedArrivalAtDischargePort": "2024-12-05 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CY/CY",
+  "remarks": "D/G, Class: 9, UN No: 3077"
+}

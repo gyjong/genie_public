@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409274882",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24092722"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING LTD.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(ZHAOBEI DISTRICT)"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 DZ",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORT.COM",
+      "telephone": "+31 20 666 1234"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 DZ",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORT.COM",
+      "telephone": "+31 20 666 1234"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU3016645",
+      "sealNumber": "173227",
+      "marksAndNumbers": "XYZ12345",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM PARTS AS PER PACKING LIST",
+      "grossWeight": 20063.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2122194",
+      "sealNumber": "171416",
+      "marksAndNumbers": "XYZ12346",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM PARTS AS PER PACKING LIST",
+      "grossWeight": 20063.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 40126.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "136492ICP-1",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "10 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-03 10:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

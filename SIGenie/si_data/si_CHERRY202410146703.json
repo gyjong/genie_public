@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410146703",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24045E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "10 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 DZ",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "10 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 DZ"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940170",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "SEGU9562318",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "STACKABLE OFFICE CHAIRS, SHIPPED ON PALLETS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562319",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA124",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "STACKABLE OFFICE CHAIRS, SHIPPED ON PALLETS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562320",
+      "sealNumber": "135790",
+      "marksAndNumbers": "ALPHA125",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "STACKABLE OFFICE CHAIRS, SHIPPED ON PALLETS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562321",
+      "sealNumber": "246801",
+      "marksAndNumbers": "ALPHA126",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "STACKABLE OFFICE CHAIRS, SHIPPED ON PALLETS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "SEGU9562322",
+      "sealNumber": "357912",
+      "marksAndNumbers": "ALPHA127",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "STACKABLE OFFICE CHAIRS, SHIPPED ON PALLETS",
+      "grossWeight": 8000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40DR",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD.",
+      "address": "10 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 DZ",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234 INDUSTRY STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "onboardDate": "2024-10-16 14:00",
+    "additionalRemarks": "Stackable chairs, Value: USD 50,000"
+  }
+}

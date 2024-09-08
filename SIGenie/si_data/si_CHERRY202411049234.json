@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411049234",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "2345 SHANGHAI ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6234-5678",
+      "fax": "+86-21-6234-5679"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS GMBH",
+      "address": "DAMMSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, LONDON WC1A 1AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847989",
+  "commodityDescription": "LATHE MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APII-LATHE-001",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. LATHE MACHINE PARTS AS PER PACKING LIST.",
+      "grossWeight": 12500.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987655",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APII-LATHE-002",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT. LATHE MACHINE PARTS AS PER PACKING LIST.",
+      "grossWeight": 12500.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00012345"
+    },
+    "certificateDetails": [
+      "CO-00123456"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS GMBH",
+      "address": "DAMMSTRASSE 15, 20355 HAMBURG, GERMANY",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 MAIN STREET, LONDON WC1A 1AA, UNITED KINGDOM"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "Dangerous Goods: Class 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": {
+      "class": "9",
+      "unNumber": "3334",
+      "properShippingName": "Aviation Regulated Liquid, N.O.S.",
+      "packingGroup": "II",
+      "subsidiaryRisk": null,
+      "hazards": [
+        "Flammable",
+        "Toxic"
+      ],
+      "flashPoint": "45\u00b0C",
+      "boilingPoint": "120\u00b0C",
+      "specificGravity": "0.95",
+      "packaging": {
+        "type": "UN approved drums",
+        "material": "Steel"
+      },
+      "quantity": "1000 kg"
+    },
+    "shipper": {
+      "name": "Acme Chemicals Inc.",
+      "address": "123 Main Street, Anytown, USA"
+    },
+    "consignee": {
+      "name": "Beta Laboratories Ltd.",
+      "address": "456 Elm Street, Othertown, Canada"
+    },
+    "emergencyContact": {
+      "name": "John Smith",
+      "phone": "+1 555 123 4567"
+    }
+  }
+}

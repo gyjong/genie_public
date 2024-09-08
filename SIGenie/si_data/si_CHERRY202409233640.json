@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202409233640",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC IMPORT EXPORT CO. LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 9876543"
+    },
+    "consignee": {
+      "name": "EURO AUTO PARTS BV",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543",
+      "email": "INFO@EUROAUTOPARTS.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87169090",
+  "commodityDescription": "CAR ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "ABC12345",
+      "numberOfPackages": 50,
+      "cargoDescription": "CAR ENGINE PARTS - PISTONS, CYLINDER HEADS, CAMSHAFT",
+      "grossWeight": 12000.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "ABC12346",
+      "numberOfPackages": 45,
+      "cargoDescription": "CAR ENGINE PARTS - CONNECTING RODS, CRANKSHAFT, OIL PUMPS",
+      "grossWeight": 11500.0,
+      "measurement": 20.071
+    },
+    {
+      "containerNumber": "CRLU2712351",
+      "sealNumber": "170990",
+      "marksAndNumbers": "ABC12347",
+      "numberOfPackages": 55,
+      "cargoDescription": "CAR ENGINE PARTS - VALVE TRAIN COMPONENTS, TIMING BELTS, SPARK PLUGS",
+      "grossWeight": 12500.0,
+      "measurement": 19.449
+    },
+    {
+      "containerNumber": "CRLU2148985",
+      "sealNumber": "170759",
+      "marksAndNumbers": "ABC12348",
+      "numberOfPackages": 48,
+      "cargoDescription": "CAR ENGINE PARTS - INTAKE MANIFOLD, EXHAUST MANIFOLD, FUEL INJECTORS",
+      "grossWeight": 11000.0,
+      "measurement": 19.04
+    },
+    {
+      "containerNumber": "CRLU2164841",
+      "sealNumber": "170635",
+      "marksAndNumbers": "ABC12349",
+      "numberOfPackages": 52,
+      "cargoDescription": "CAR ENGINE PARTS - COOLING SYSTEM COMPONENTS, OIL FILTER, AIR FILTER",
+      "grossWeight": 11800.0,
+      "measurement": 18.747
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 60800.0,
+    "totalMeasurement": 97.925
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "EURO AUTO PARTS BV",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT CO. LTD.",
+      "address": "123 MAIN STREET, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 9876543"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "CONTAINER NEEDS REFRIGERATION, TEMPERATURE SET AT 5 DEGREES CELSIUS"
+  }
+}

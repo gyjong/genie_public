@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202411048097",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423NWH"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Global Logistics",
+      "address": "No. 1234, Jinling Road, Shanghai, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "Zenith Global Logistics",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@zenithlogistics.nl",
+      "telephone": "+31 10 202 5555"
+    },
+    "notifyParty": {
+      "name": "Zenith Global Logistics",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@zenithlogistics.nl",
+      "telephone": "+31 10 202 5555"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940160",
+  "commodityDescription": "Office Chairs",
+  "containers": [
+    {
+      "containerNumber": "CMAU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZG-20241104",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZG-20241104",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ZG-20241104",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "OFFICE CHAIRS, PACKED IN INDIVIDUAL CARTONS, PROTECTED WITH BUBBLE WRAP AND FOAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ZG20241104-001",
+    "hsCode": "940160",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "Zenith Global Logistics",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "telephone": "+31 10 202 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zenith Global Logistics",
+      "address": "No. 5678, Maasboulevard, Rotterdam, 3072JA, NETHERLANDS",
+      "telephone": "+31 10 202 5555"
+    },
+    "onboardDate": "2024-11-09 12:00",
+    "additionalRemarks": "Special handling required: Fragile cargo."
+  }
+}

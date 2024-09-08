@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410139397",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Original Bill of Lading",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Co.",
+      "address": "123 Industrial Blvd, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "ABC Logistics Ltd.",
+      "address": "456 Hafenstrasse, Hamburg, Germany 20457",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics Ltd.",
+      "address": "456 Hafenstrasse, Hamburg, Germany 20457",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "Transformers for power distribution",
+  "containers": [
+    {
+      "containerNumber": "CCLU2992659",
+      "sealNumber": "706716",
+      "marksAndNumbers": "XYZ-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : TRANSFORMERS FOR POWER DISTRIBUTION",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CCLU2992660",
+      "sealNumber": "706717",
+      "marksAndNumbers": "XYZ-456",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : TRANSFORMERS FOR POWER DISTRIBUTION",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER)",
+    "totalPackages": 20,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC20241013-001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC Logistics Ltd.",
+      "address": "456 Hafenstrasse, Hamburg, Germany 20457",
+      "telephone": "+49-40-1234-5678",
+      "fax": "+49-40-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ Manufacturing Co.",
+      "address": "123 Industrial Blvd, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Shipper's Load & Count. Fumigation Certificate required."
+  }
+}

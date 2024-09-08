@@ -1,0 +1,89 @@
+{
+  "bookingReference": "CHERRY202409265511",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS LTD",
+      "address": "123 TECH PARK WAY, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 777 1234",
+      "fax": "+31 20 777 5678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 777 1234",
+      "fax": "+31 20 777 5678"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854231",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CGMU9765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MICROPROCESSORS - MODEL MP1000 - SHIPPED IN MASTER CARTONS",
+      "grossWeight": 22000.0,
+      "measurement": 56.0
+    },
+    {
+      "containerNumber": "CGMU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MICROPROCESSORS - MODEL MP2000 - SHIPPED IN MASTER CARTONS",
+      "grossWeight": 22000.0,
+      "measurement": 56.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 112.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT INC.",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-09-28 10:00",
+    "additionalRemarks": "14 Days Free Time at Destination, Delivery Order Required"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410294816",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424WEN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "ROOM 201, 2F, NO. 1388 YISHAN ROAD, SHANGHAI, CHINA, 200233",
+      "telephone": "+86 21 6433 5555",
+      "email": "shanghai.logistics@dhl.com"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "COOLHAVEN 123, 3062 CE ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "COOLHAVEN 123, 3062 CE ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "94016000",
+  "commodityDescription": "METAL CHAIRS FOR OFFICE USE",
+  "containers": [
+    {
+      "containerNumber": "SEGU4567890",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL SHANGHAI TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DHL SHANGHAI TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "DHL SHANGHAI TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DHL SHANGHAI TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "DHL SHANGHAI TO ROTTERDAM",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000",
+      "grossWeight": 9000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 250,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "2023102912345"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "COOLHAVEN 123, 3062 CE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "COOLHAVEN 123, 3062 CE ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1010",
+      "fax": "+31 10 202 1011"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "METAL CHAIRS, PACKED IN CARTONS. VALUE: USD25,000"
+  }
+}

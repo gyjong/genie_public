@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202409156369",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W19E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "234 MAIN STREET, ROTTERDAM, 3011 GL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORTEXPORT.NL",
+      "telephone": "+31 10 202 2020"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "234 MAIN STREET, ROTTERDAM, 3011 GL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORTEXPORT.NL",
+      "telephone": "+31 10 202 2020"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940160",
+  "commodityDescription": "GARDEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "GARDEN CHAIRS, SHIPPER'S LOAD AND COUNT, 5 PALLETS PER CONTAINER",
+      "grossWeight": 22000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "GARDEN CHAIRS, SHIPPER'S LOAD AND COUNT, 5 PALLETS PER CONTAINER",
+      "grossWeight": 22000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "GARDEN CHAIRS, SHIPPER'S LOAD AND COUNT, 5 PALLETS PER CONTAINER",
+      "grossWeight": 22000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU1357911",
+      "sealNumber": "911123",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "GARDEN CHAIRS, SHIPPER'S LOAD AND COUNT, 5 PALLETS PER CONTAINER",
+      "grossWeight": 22000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "131415",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "PALLETS",
+      "cargoDescription": "GARDEN CHAIRS, SHIPPER'S LOAD AND COUNT, 5 PALLETS PER CONTAINER",
+      "grossWeight": 22000.0,
+      "measurement": 66.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 330.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "C1234567890",
+      "C9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "234 MAIN STREET, ROTTERDAM, 3011 GL, NETHERLANDS",
+      "telephone": "+31 10 202 2020"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD.",
+      "address": "234 MAIN STREET, ROTTERDAM, 3011 GL, NETHERLANDS",
+      "telephone": "+31 10 202 2020"
+    },
+    "onboardDate": "2024-09-18 14:00",
+    "additionalRemarks": "GARDEN CHAIRS, 5 PALLETS PER CONTAINER, VALUE: USD150,000"
+  }
+}

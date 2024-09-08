@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410028074",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243WEM"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI METAL WORKS CO.",
+      "address": "NO. 1234, HONGQIAO ROAD, SHANGHAI, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIANG DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROASIA LOGISTICS LTD",
+      "address": "ALTENDORFER STR. 2, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROASIALOGISTICS.DE, ORDERPROCESSING@EUROASIALOGISTICS.DE",
+      "telephone": "+49 40 3010 9999"
+    },
+    "notifyParty": {
+      "name": "EUROASIA LOGISTICS LTD",
+      "address": "ALTENDORFER STR. 2, 20457 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROASIALOGISTICS.DE, ORDERPROCESSING@EUROASIALOGISTICS.DE",
+      "telephone": "+49 40 3010 9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "73269090",
+  "commodityDescription": "IRON STEEL PIPE FITTINGS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EUROASIA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON STEEL PIPE FITTINGS, 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "EUROASIA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON STEEL PIPE FITTINGS, 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "EUROASIA-2024-10",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: IRON STEEL PIPE FITTINGS, 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ICP-1",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "EUROASIA LOGISTICS LTD",
+      "address": "ALTENDORFER STR. 2, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3010 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROASIA LOGISTICS LTD",
+      "address": "ALTENDORFER STR. 2, 20457 HAMBURG, GERMANY",
+      "telephone": "+49 40 3010 9999"
+    },
+    "onboardDate": "2024-10-08 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING - FRAGILE CARGO"
+  }
+}

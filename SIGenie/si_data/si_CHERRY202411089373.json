@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411089373",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2423W-E01"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT EXPORT LTD.",
+      "address": "388 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR PEOPLE'S SQUARE)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 MAIN STREET, SUITE 400, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "email": "INFO@GLOBALTRADINGSOLUTIONS.COM",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS20241108",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS20241108",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

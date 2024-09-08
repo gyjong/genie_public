@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410048162",
+  "customerName": "GLOBAL IMPORT & EXPORT LTD",
+  "shipperName": "SUNRISE MANUFACTURING CO.",
+  "invoiceReceiver": "GLOBAL IMPORT & EXPORT LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2421EWN"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE FIBRES, OTHER THAN MACHINERY FOR SPINNING, WEAVING OR KNITTING.",
+    "commodity": "TEXTILE MACHINERY PARTS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-15 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-08 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "Cargo requires special handling due to fragility."
+}

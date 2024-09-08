@@ -1,0 +1,192 @@
+{
+  "bookingReference": "CHERRY202411012697",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "243W112"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "123 Innovation Street, Shanghai, China",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "import@alphaie.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "import@alphaie.nl",
+      "contactPerson": "Jane Doe"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "Microprocessors",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ALPHA789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "801357",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU5793124",
+      "sealNumber": "124680",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU3698521",
+      "sealNumber": "214369",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU8521436",
+      "sealNumber": "698521",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU1436985",
+      "sealNumber": "852143",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU2143698",
+      "sealNumber": "985214",
+      "marksAndNumbers": "ALPHA789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU9852143",
+      "sealNumber": "369852",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: Microprocessors",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "10 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 200000.0,
+    "totalMeasurement": 500.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241101-001",
+    "documentNumber": "20241101-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "456 Commerce Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Temperature controlled shipment required. Value: USD 500,000"
+  },
+  "reeferSettings": {
+    "temperature": {
+      "setpoint": -20,
+      "tolerance": 2
+    },
+    "ventilation": {
+      "mode": "Passive",
+      "rate": "Closed"
+    },
+    "humidity": {
+      "setpoint": 70,
+      "tolerance": 5
+    },
+    "precooling": true,
+    "monitoring": {
+      "frequency": "Continuous",
+      "alarms": [
+        "Temperature Deviation",
+        "Humidity Deviation"
+      ]
+    },
+    "cargo_description": "High Value Pharmaceuticals"
+  }
+}

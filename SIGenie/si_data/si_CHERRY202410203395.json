@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410203395",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W23"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@GLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADINGINC.COM",
+      "telephone": "+31 10 222 2222"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "1234 SKYLINE BOULEVARD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "SHIPPING@GLOBALTRADING.COM",
+      "telephone": "+86 21 5555 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT7890",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3077"
+  }
+}

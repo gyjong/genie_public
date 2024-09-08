@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410178748",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2443S"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DONGFENG MOTOR CORPORATION",
+      "address": "NO. 158, HUANGPU ROAD, WUHAN, Hubei, 430070",
+      "country": "CHINA",
+      "additionalInfo": "(HONGSHAN DISTRICT)"
+    },
+    "consignee": {
+      "name": "DONGFENG MOTOR CORPORATION",
+      "address": "NO. 123, JAN VAN EYCKstraat, 3000 LOEVEN, LEUVEN",
+      "country": "BELGIUM",
+      "email": "info@dongfeng.be",
+      "telephone": "+32 16 20 50 00"
+    },
+    "notifyParty": {
+      "name": "DONGFENG MOTOR CORPORATION",
+      "address": "NO. 123, JAN VAN EYCKstraat, 3000 LOEVEN, LEUVEN",
+      "country": "BELGIUM",
+      "email": "info@dongfeng.be",
+      "telephone": "+32 16 20 50 00"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87032310",
+  "commodityDescription": "PASSENGER VEHICLES",
+  "containers": [
+    {
+      "containerNumber": "DFSU2314567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "DFMC-20241017",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE PASSENGER VEHICLE, PACKED ON WHEELS",
+      "grossWeight": 1800.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "DFSU9876543",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "DFMC-20241017",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE PASSENGER VEHICLE, PACKED ON WHEELS",
+      "grossWeight": 1850.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "DFSU1112223",
+      "sealNumber": "1112223334",
+      "marksAndNumbers": "DFMC-20241017",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE PASSENGER VEHICLE, PACKED ON WHEELS",
+      "grossWeight": 1900.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "DFSU4445556",
+      "sealNumber": "4445556667",
+      "marksAndNumbers": "DFMC-20241017",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE PASSENGER VEHICLE, PACKED ON WHEELS",
+      "grossWeight": 1800.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "DFSU7778889",
+      "sealNumber": "7778889990",
+      "marksAndNumbers": "DFMC-20241017",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE PASSENGER VEHICLE, PACKED ON WHEELS",
+      "grossWeight": 1850.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 5,
+    "packageType": "UNIT",
+    "totalGrossWeight": 9200.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "87032310",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-24 12:00",
+    "additionalRemarks": "VEHICLES ARE PACKED ON WHEELS. VALUE: USD 150,000"
+  }
+}

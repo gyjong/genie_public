@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409181202",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, HUAJIANG ROAD, YONGNING DISTRICT, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SUNRISE@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE JAPAN LTD.",
+      "address": "1-5-10 SHINJUKU, TOKYO, 160-0022",
+      "country": "JAPAN",
+      "email": "INFO@SUNRISEJAPAN.CO.JP",
+      "telephone": "+81 3 5369 1234"
+    },
+    "notifyParty": {
+      "name": "SUNRISE JAPAN LTD.",
+      "address": "1-5-10 SHINJUKU, TOKYO, 160-0022",
+      "country": "JAPAN",
+      "email": "INFO@SUNRISEJAPAN.CO.JP",
+      "telephone": "+81 3 5369 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SUNRISE 1/2",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS (W.2600MM H.2500MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "SUNRISE 2/2",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS (W.2600MM H.2500MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40'HC) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "dangerousGoodsDescription": "Corrosive solid, acidic, n.o.s.",
+    "unNumber": "3264",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "properShippingName": "Corrosive solid, acidic, n.o.s.",
+    "technicalName": null,
+    "netWeight": null,
+    "grossWeight": null,
+    "quantity": null,
+    "packaging": null,
+    "emergencyResponseGuideNumber": "172"
+  }
+}

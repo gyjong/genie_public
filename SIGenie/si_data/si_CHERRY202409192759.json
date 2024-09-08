@@ -1,0 +1,166 @@
+{
+  "bookingReference": "CHERRY202409192759",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24242E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREENWAY LOGISTICS LTD",
+      "address": "Room 1001, Shanghai Tower, 500 Pudong Avenue, Shanghai, 200120, China",
+      "telephone": "+86 21 5878 9000",
+      "fax": "+86 21 5878 9001"
+    },
+    "consignee": {
+      "name": "GREENWAY LOGISTICS LTD",
+      "address": "123 De Rotterdam, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31 10 202 5000",
+      "fax": "+31 10 202 5001",
+      "email": "info@greenwaylogistics.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017000",
+  "commodityDescription": "CAR SEATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GWL123",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GWL124",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "GWL125",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 18200.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GWL126",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 17800.0,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GWL127",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 17900.0,
+      "measurement": 24.9
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "GWL128",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 18100.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GWL129",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 17700.0,
+      "measurement": 24.7
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GWL130",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 18300.0,
+      "measurement": 25.3
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "GWL131",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 17600.0,
+      "measurement": 24.6
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GWL132",
+      "numberOfPackages": 100,
+      "cargoDescription": "CAR SEATS - AS PER INVOICE",
+      "grossWeight": 18400.0,
+      "measurement": 25.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "10 X 20 DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 178400.0,
+    "totalMeasurement": 249.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GWL20241001",
+    "documentNumber": "20241001001",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GREENWAY LOGISTICS LTD",
+      "address": "Room 1001, Shanghai Tower, 500 Pudong Avenue, Shanghai, 200120, China",
+      "telephone": "+86 21 5878 9000",
+      "fax": "+86 21 5878 9001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREENWAY LOGISTICS LTD",
+      "address": "123 De Rotterdam, 3013 AL Rotterdam, Netherlands",
+      "telephone": "+31 10 202 5000",
+      "fax": "+31 10 202 5001",
+      "email": "info@greenwaylogistics.nl",
+      "contactPerson": "John Smith"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "CAR SEATS,  VALUE: USD50,000"
+  }
+}

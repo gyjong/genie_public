@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409091131",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "ROOM 1501, SUNRISE TOWER, 123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8678 9012",
+      "email": "SUNRISE@SUNRISETRADE.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE AMERICA INC.",
+      "address": "255 SUNRISE BOULEVARD, LOS ANGELES, CA 90015, USA",
+      "taxId": "123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS USA",
+      "address": "100 MAIN STREET, LOS ANGELES, CA 90014, USA",
+      "telephone": "+1 310 555 8989",
+      "fax": "+1 310 555 8990"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "12345",
+      "marksAndNumbers": "SUNRISE TRADING CO. NINGBO",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "67890",
+      "marksAndNumbers": "SUNRISE TRADING CO. NINGBO",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 O/T X2) CONTAINER ONLY",
+    "totalPackages": 40,
+    "packageType": "CARTONS",
+    "containerType": "40 O/TX2",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033740"
+    },
+    "certificateDetails": "1050020070132",
+    "originalBLDistribution": {
+      "name": "SUNRISE LOGISTICS USA",
+      "address": "100 MAIN STREET, LOS ANGELES, CA 90014, USA",
+      "telephone": "+1 310 555 8989",
+      "fax": "+1 310 555 8990"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE AMERICA INC.",
+      "address": "255 SUNRISE BOULEVARD, LOS ANGELES, CA 90015, USA",
+      "telephone": "+1 213 555 1212",
+      "fax": "+1 213 555 1213"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "Dangerous Goods: Class 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": {
+      "class": "9",
+      "classDescription": "Miscellaneous dangerous substances and articles",
+      "unNumber": "3334",
+      "properShippingName": "Aviolation Regulated Solid, N.O.S.",
+      "packingGroup": "II",
+      "subsidiaryRisks": [],
+      "hazards": [
+        "May cause irritation to skin, eyes and respiratory system"
+      ],
+      "storageCategory": "Incompatible with strong oxidizing agents, acids, bases"
+    }
+  }
+}

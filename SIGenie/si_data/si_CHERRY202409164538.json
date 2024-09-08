@@ -1,0 +1,130 @@
+{
+  "bookingReference": "CHERRY202409164538",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2445WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Trading Company Ltd.",
+      "onBehalfOf": "",
+      "address": "123 Trade Street, Shanghai, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Factory Lane, Rotterdam, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics BV",
+      "address": "901 Logistics Avenue, Rotterdam, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940160",
+  "commodityDescription": "Office Chairs",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU4321098",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC101",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "098765",
+      "marksAndNumbers": "ABC112",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HQ) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40HQ",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "Certificate of Origin"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Manufacturing Inc.",
+      "address": "456 Factory Lane, Rotterdam, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ Trading Company Ltd.",
+      "address": "123 Trade Street, Shanghai, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "onboardDate": "2024-09-20 15:00",
+    "additionalRemarks": "Value: USD 50,000"
+  }
+}

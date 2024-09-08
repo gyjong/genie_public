@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409258146",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435WEE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC TRADING CO., LTD. (NINGBO)",
+      "address": "NO. 1234, XINHU ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO., LTD.",
+      "address": "DE BRIJN STRAAT 15, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GFS.NL",
+      "telephone": "+31 10 411 6000"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "UNIT 1203, NO. 258, YINCHENG ROAD, SHANGHAI, CHINA 200120",
+      "country": "CHINA",
+      "email": "INFO@GFS-SHANGHAI.COM",
+      "telephone": "+86 21 6333 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL PACKAGING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU8563124",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES, SEALED AT FACTORY",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7894562",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 40,
+      "packageType": "BOXES",
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES, SEALED AT FACTORY",
+      "grossWeight": 16500.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "4567890",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 30,
+      "packageType": "BOXES",
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES, SEALED AT FACTORY",
+      "grossWeight": 15000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER)",
+    "totalPackages": 120,
+    "packageType": "BOXES",
+    "totalGrossWeight": 49500.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GFS20241025",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO., LTD.",
+      "address": "DE BRIJN STRAAT 15, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 411 6000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "UNIT 1203, NO. 258, YINCHENG ROAD, SHANGHAI, CHINA 200120",
+      "telephone": "+86 21 6333 8888"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "CONTAINERS ARE TO BE SEALED AT FACTORY. VALUE: USD 50,000"
+  }
+}

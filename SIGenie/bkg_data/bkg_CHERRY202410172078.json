@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410172078",
+  "customerName": "ALPHA GLOBAL LOGISTICS LTD",
+  "shipperName": "BETA IMPORT EXPORT INC",
+  "invoiceReceiver": "ALPHA GLOBAL LOGISTICS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410W37"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE YARNS, THREADS AND FABRICS",
+    "commodity": "TEXTILE SPINNING MACHINERY"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-20 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-21 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-14 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Please ensure proper documentation for customs clearance."
+}

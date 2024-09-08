@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411082096",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "620462",
+  "commodityDescription": "CLOTHING",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S TROUSERS",
+      "grossWeight": 1500.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 45,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: GIRLS' TROUSERS",
+      "grossWeight": 1350.0,
+      "measurement": 2.25
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 55,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MIXED WOMEN'S AND GIRLS' TROUSERS",
+      "grossWeight": 1600.0,
+      "measurement": 2.75
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 4450.0,
+    "totalMeasurement": 7.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "CN2345678901",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "3 x 20 DRY containers, Item: CLOTHING"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202411064908",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2410W3L"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA INDUSTRIES LTD",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "Calle Mayor 10, 29001 Malaga, Spain",
+      "telephone": "+34 952 60 70 80",
+      "fax": "+34 952 60 70 81"
+    },
+    "notifyParty": {
+      "name": "DELTA TRADING CO.",
+      "address": "Calle Mayor 10, 29001 Malaga, Spain",
+      "telephone": "+34 952 60 70 80",
+      "fax": "+34 952 60 70 81"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "CERAMIC CAPACITORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8675231",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "CERAMIC CAPACITORS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 100,
+      "cargoDescription": "CERAMIC CAPACITORS AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "1234567890",
+      "9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "Calle Mayor 10, 29001 Malaga, Spain"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "Calle Mayor 10, 29001 Malaga, Spain"
+    },
+    "onboardDate": "2024-11-08 15:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  }
+}

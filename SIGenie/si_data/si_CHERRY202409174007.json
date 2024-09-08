@@ -1,0 +1,142 @@
+{
+  "bookingReference": "CHERRY202409174007",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240923124"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "23/F, Shanghai World Financial Center, 100 Century Ave, Pudong, Shanghai, China",
+      "telephone": "+86 21 6887 8888",
+      "email": "info@dhl.com"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "Torenlaan 15, 3072 LZ Rotterdam, Netherlands",
+      "taxId": "NL813069213B01",
+      "president": "Mr. Peter Van der Meer",
+      "telephone": "+31 10 208 5000",
+      "fax": "+31 10 208 5001"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "Torenlaan 15, 3072 LZ Rotterdam, Netherlands",
+      "taxId": "NL813069213B01",
+      "president": "Mr. Peter Van der Meer",
+      "telephone": "+31 10 208 5000",
+      "fax": "+31 10 208 5001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "90211000",
+  "commodityDescription": "MEDICAL IMAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHLGF SHANGHAI AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL IMAGING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DHLGF SHANGHAI AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL IMAGING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DHLGF SHANGHAI AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL IMAGING EQUIPMENT",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 45,
+    "packageType": "BOXES",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "DHLGF20241001"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "Torenlaan 15, 3072 LZ Rotterdam, Netherlands",
+      "telephone": "+31 10 208 5000",
+      "fax": "+31 10 208 5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "Torenlaan 15, 3072 LZ Rotterdam, Netherlands",
+      "telephone": "+31 10 208 5000",
+      "fax": "+31 10 208 5001"
+    },
+    "onboardDate": "2024-09-20 12:00",
+    "additionalRemarks": "REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT. VALUE: USD250,000"
+  },
+  "reeferSettings": {
+    "reeferSettings": {
+      "temperatureSetPoint": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "temperatureTolerance": {
+        "upperLimit": 4,
+        "lowerLimit": 0
+      },
+      "humiditySetPoint": {
+        "value": 70,
+        "unit": "Percent"
+      },
+      "humidityTolerance": {
+        "upperLimit": 75,
+        "lowerLimit": 65
+      },
+      "ventilation": "Minimum",
+      "co2Monitoring": true,
+      "alarmThresholds": {
+        "temperature": {
+          "high": 5,
+          "low": 1
+        },
+        "humidity": {
+          "high": 80,
+          "low": 60
+        }
+      },
+      "notes": "Maintain a controlled environment to preserve the integrity of the high-value cargo."
+    }
+  }
+}

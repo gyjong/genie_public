@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409187870",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243WSEA15"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "UNIT 1008, 10/F, SHANGHAI TOWER, 500 HENAN ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 6328 9876",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CO.UK, ACCOUNTS@GLOBALFREIGHTSOLUTIONS.CO.UK",
+      "telephone": "+44 20 7636 8800"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.CO.UK, ACCOUNTS@GLOBALFREIGHTSOLUTIONS.CO.UK",
+      "telephone": "+44 20 7636 8800"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC FILLING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC-1234",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC FILLING MACHINE (W.2400MM H.2000MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC-1235",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC FILLING MACHINE (W.2400MM H.2000MM)",
+      "grossWeight": 12000.0,
+      "measurement": 25.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "telephone": "+44 20 7636 8800"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "155 GREAT PORTLAND STREET, LONDON, W1W 5LQ, UNITED KINGDOM",
+      "telephone": "+44 20 7636 8800"
+    },
+    "onboardDate": "2024-09-22 15:00",
+    "additionalRemarks": "Delivery Order to be issued upon arrival of vessel at Rotterdam"
+  }
+}

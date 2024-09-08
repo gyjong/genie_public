@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411036216",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2435W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "address": "No. 123, Jianhua Road, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "5th Floor, St. James House, 119-123 St. James Street, London SW1A 1EF, United Kingdom",
+      "telephone": "+44-20-7930-1234",
+      "fax": "+44-20-7930-5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "5th Floor, St. James House, 119-123 St. James Street, London SW1A 1EF, United Kingdom",
+      "telephone": "+44-20-7930-1234",
+      "fax": "+44-20-7930-5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRONIC COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9658327",
+      "sealNumber": "754321",
+      "marksAndNumbers": "APIM-231103",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU6543219",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APIM-231103",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APIM-231103",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRONIC COMPONENTS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "Certificate of Origin issued by Chamber of Commerce, Ningbo",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "5th Floor, St. James House, 119-123 St. James Street, London SW1A 1EF, United Kingdom",
+      "telephone": "+44-20-7930-1234",
+      "fax": "+44-20-7930-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "5th Floor, St. James House, 119-123 St. James Street, London SW1A 1EF, United Kingdom",
+      "telephone": "+44-20-7930-1234",
+      "fax": "+44-20-7930-5678"
+    },
+    "onboardDate": "2024-11-10 12:00",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

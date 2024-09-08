@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411064794",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2449E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "23/F, SUNRISE TOWER, 128 XINJIN ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "DE KOEIEN 12, 3011 AB ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 486 1234",
+      "fax": "+31 10 486 5678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "23/F, SUNRISE TOWER, 128 XINJIN ROAD, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854140",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9778563",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 50,
+      "cargoDescription": "CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 50,
+      "cargoDescription": "CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 50,
+      "cargoDescription": "CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 GENERAL CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "PACKAGES",
+    "containerType": "40GP",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 204.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241106-001"
+    },
+    "certificateDetails": [
+      "COO-20241106-001"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "DE KOEIEN 12, 3011 AB ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "23/F, SUNRISE TOWER, 128 XINJIN ROAD, NINGBO, CHINA"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "REQUIRES TEMPERATURE CONTROLLED HANDLING"
+  },
+  "reeferSettings": {
+    "reeferMode": "Temperature Control",
+    "setpoint": {
+      "temperature": {
+        "value": 2,
+        "unit": "Celsius"
+      },
+      "tolerance": {
+        "upper": 0.5,
+        "lower": 0.5,
+        "unit": "Celsius"
+      }
+    },
+    "ventilation": {
+      "mode": "Automatic",
+      "rate": "Medium"
+    },
+    "humidity": {
+      "control": "On",
+      "setpoint": {
+        "value": 85,
+        "unit": "%"
+      }
+    },
+    "alarms": {
+      "highTemperature": "On",
+      "lowTemperature": "On"
+    },
+    "monitoring": {
+      "interval": 15,
+      "unit": "Minutes"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409093347",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHEH1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ ELECTRONICS LTD",
+      "address": "123 ELECTRONICS STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "ABC GLOBAL TRADING CO. LTD",
+      "address": "456 TRADE STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679",
+      "email": "IMPORT@ABCGLOBAL.NL",
+      "contactPerson": "PETER SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85423110",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240911-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "000010103393"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC GLOBAL TRADING CO. LTD",
+      "address": "456 TRADE STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC GLOBAL TRADING CO. LTD",
+      "address": "456 TRADE STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "onboardDate": "2024-09-15 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL (15-25 DEGREES CELSIUS) "
+  }
+}

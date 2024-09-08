@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411074518",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 BROADWAY STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1 212 555 1212",
+      "email": "SHIPPING@APTRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "Stationsweg 100, 3013 AL ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8123456789B01",
+      "president": "MR. JAN VAN DER SMITH",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "1500 PENNSYLVANIA AVE NW, WASHINGTON, DC 20500, USA",
+      "telephone": "+1 202 555 8888",
+      "fax": "+1 202 555 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU4775360",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CONTAINER",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CONTAINER DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L/C00012345"
+    },
+    "certificateDetails": "CO, FORM E",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "1500 PENNSYLVANIA AVE NW, WASHINGTON, DC 20500, USA",
+      "telephone": "+1 202 555 8888",
+      "fax": "+1 202 555 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "1500 PENNSYLVANIA AVE NW, WASHINGTON, DC 20500, USA",
+      "telephone": "+1 202 555 8888",
+      "fax": "+1 202 555 9999"
+    },
+    "onboardDate": "2024-11-15 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3077"
+  }
+}

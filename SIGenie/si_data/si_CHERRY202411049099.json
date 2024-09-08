@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411049099",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HANSUNG ENTERPRISE CO., LTD",
+      "address": "123-456 ABC STREET, NINGBO, CHINA",
+      "telephone": "+86-574-12345678",
+      "fax": "+86-574-98765432"
+    },
+    "consignee": {
+      "name": "DAEWOO LOGISTICS CO., LTD",
+      "address": "789-012 DEF AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432",
+      "email": "IMPORT@DAEWOO.NL",
+      "contactPerson": "PETER VAN DER LEEUW"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "HS84798990",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "HS84798990",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINE PARTS",
+      "grossWeight": 11500.0,
+      "measurement": 20.071
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 25,
+    "totalGrossWeight": 23500.0,
+    "totalMeasurement": 40.689
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "DAEWOO LOGISTICS CO., LTD",
+      "address": "789-012 DEF AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DAEWOO LOGISTICS CO., LTD",
+      "address": "789-012 DEF AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT ROTTERDAM, DOOR DELIVERY AVAILABLE"
+  }
+}

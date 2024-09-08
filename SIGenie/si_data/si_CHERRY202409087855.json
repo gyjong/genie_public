@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202409087855",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2409EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2588 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EURO AUTO PARTS GMBH",
+      "address": "HEIDELBERGSTRASSE 12, 20354 HAMBURG",
+      "country": "GERMANY",
+      "email": "INFO@EUROAUTOPARTS.DE",
+      "telephone": "+49 40 361380"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1EF, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@GFS.LTD.UK",
+      "telephone": "+44 20 7930 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "87089910",
+  "commodityDescription": "AUTOMOTIVE BRAKE PADS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3759123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EURO AUTO 1",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE BRAKE PADS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU8867234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EURO AUTO 2",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE BRAKE PADS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "MSCU5543345",
+      "sealNumber": "987654",
+      "marksAndNumbers": "EURO AUTO 3",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE BRAKE PADS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456ICP-1",
+    "hsCode": "87089910",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-09-15 14:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED, TEMPERATURE CONTROLLED CONTAINER REQUESTED"
+  },
+  "reeferSettings": {
+    "temperatureSetpoint": {
+      "value": 2,
+      "unit": "Celsius"
+    },
+    "temperatureRange": {
+      "lowerLimit": 0,
+      "upperLimit": 4,
+      "unit": "Celsius"
+    },
+    "humiditySetpoint": {
+      "value": 90,
+      "unit": "%"
+    },
+    "humidityRange": {
+      "lowerLimit": 85,
+      "upperLimit": 95,
+      "unit": "%"
+    },
+    "ventilationSettings": {
+      "mode": "Passive",
+      "rate": 0
+    },
+    "preCooling": true,
+    "monitoringFrequency": "Continuous"
+  }
+}

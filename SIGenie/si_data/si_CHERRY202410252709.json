@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410252709",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435WEX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA ENGINEERING LTD.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@BETAENGINEERING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN DOE",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "METALWORKING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU8123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "METALWORKING MACHINES AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "METALWORKING MACHINES AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "METALWORKING MACHINES AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 15,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 9876 5432",
+      "fax": "+31 20 9876 5431"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "Cargo requires temperature control between 15-25 degrees Celsius"
+  }
+}

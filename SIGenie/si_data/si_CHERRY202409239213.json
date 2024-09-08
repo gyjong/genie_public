@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409239213",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2449EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI MEIXIN IMPORT & EXPORT CO., LTD",
+      "address": "2333 LONGWU ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-6268-1234",
+      "fax": "+86-21-6268-5678"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "UNIT 1201, 12F, ZHONGBANG PLAZA, NO. 1888, SHENNAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5236-1234",
+      "fax": "+86-21-5236-5678"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "UNIT 1201, 12F, ZHONGBANG PLAZA, NO. 1888, SHENNAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5236-1234",
+      "fax": "+86-21-5236-5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "8543709000",
+  "commodityDescription": "ELECTRIC MOTOR",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL GF NINGBO",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTOR SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTOR",
+      "grossWeight": 10000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DHL GF NINGBO",
+      "numberOfPackages": 12,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTOR SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTOR",
+      "grossWeight": 11000,
+      "measurement": 26
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 22,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 21000,
+    "totalMeasurement": 51
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "UNIT 1201, 12F, ZHONGBANG PLAZA, NO. 1888, SHENNAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5236-1234",
+      "fax": "+86-21-5236-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "UNIT 1201, 12F, ZHONGBANG PLAZA, NO. 1888, SHENNAN ROAD EAST, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-5236-1234",
+      "fax": "+86-21-5236-5678"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "DOOR-TO-DOOR SERVICE REQUESTED"
+  }
+}

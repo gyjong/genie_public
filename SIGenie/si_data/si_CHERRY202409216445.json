@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409216445",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO.,LTD.",
+      "address": "5678 DUTCH STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 8765432"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "9012 ABC AVENUE, SHANGHAI, CHINA",
+      "telephone": "+86 21 55556666",
+      "fax": "+86 21 77778888"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL PACKAGING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC-123",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES - PACKAGING: WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC-124",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES - PACKAGING: WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5678903",
+      "sealNumber": "987654",
+      "marksAndNumbers": "APTC-125",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES - PACKAGING: WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5678904",
+      "sealNumber": "321654",
+      "marksAndNumbers": "APTC-126",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES - PACKAGING: WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5678905",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APTC-127",
+      "numberOfPackages": 10,
+      "cargoDescription": "INDUSTRIAL PACKAGING MACHINES - PACKAGING: WOODEN CRATES",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO.,LTD.",
+      "address": "5678 DUTCH STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "9012 ABC AVENUE, SHANGHAI, CHINA"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "PACKAGING: WOODEN CRATES, VALUE: USD50,000"
+  }
+}

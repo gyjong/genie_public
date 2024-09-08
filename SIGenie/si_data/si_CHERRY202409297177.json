@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409297177",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHECMA2"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 FACTORY LANE, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPMENT@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567890123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL8567890123456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TEXTILE LOOM PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TEXTILE LOOM PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3334"
+    },
+    "onboardDate": "2024-10-05 10:00",
+    "additionalRemarks": "Free time allowed at destination: 7 days."
+  }
+}

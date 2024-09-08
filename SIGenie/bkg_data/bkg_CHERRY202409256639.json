@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409256639",
+  "customerName": "SUNRISE TRADING CO.",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "SUNRISE TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410W2EN"
+  },
+  "cargoDetails": {
+    "hsCode": "620342",
+    "chapterDescription": "Men's or boys' trousers, bib and brace overalls, breeches and shorts",
+    "commodity": "MEN'S COTTON SHORTS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-29 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-22 09:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "5 x 20 DRY Containers, Commodity: MEN'S COTTON SHORTS"
+}

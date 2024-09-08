@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202409105892",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 TRADE CENTER STREET, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "5678 COMMERCE STREET, NEW YORK, USA 10001",
+      "telephone": "+1-212-888-9999",
+      "fax": "+1-212-888-9998"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "950300",
+  "commodityDescription": "PLUSH TOYS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL IMPORTS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLOBAL IMPORTS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "GLOBAL IMPORTS - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY CONTAINER ONLY)",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 75
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241022-001",
+    "salesOrderNumber": "20241022-002",
+    "lcDetails": {},
+    "certificateDetails": "CN20241022003",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "5678 COMMERCE STREET, NEW YORK, USA 10001",
+      "telephone": "+1-212-888-9999",
+      "fax": "+1-212-888-9998"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3077"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3077",
+    "properShippingName": "ENVIRONMENTALLY HAZARDOUS SUBSTANCE, SOLID, N.O.S.",
+    "class": "9",
+    "packingGroup": "III",
+    "subsidiaryRisk": null,
+    "hazards": [
+      "Environmental Hazard"
+    ],
+    "storageCategory": "Environmentally Hazardous Substance",
+    "emergencyProcedures": "In case of spill, isolate area and prevent entry. Collect spilled material using absorbent material. Dispose of contaminated material according to local regulations. Contact emergency services if necessary."
+  }
+}

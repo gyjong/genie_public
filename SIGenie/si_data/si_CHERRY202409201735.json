@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409201735",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2424EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SIEMENS ENERGY GLOBAL GMBH & CO. KG",
+      "onBehalfOf": "",
+      "address": "OTTO-HAHN-STRASSE 3, 80539 MUNICH, GERMANY",
+      "telephone": "+49 89 636-30000",
+      "fax": "+49 89 636-30001"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 325, NO-3191 H\u00d8YSNES, NORWAY",
+      "companyNumber": "979465712"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 325, NO-3191 H\u00d8YSNES, NORWAY"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "85366990",
+  "commodityDescription": "SWITCHGEAR PANELS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SIEMENS-23456",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SWITCHGEAR PANELS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR PANELS",
+      "grossWeight": 12000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SIEMENS-23457",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SWITCHGEAR PANELS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR PANELS",
+      "grossWeight": 12000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40HC X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PALLETS",
+    "containerType": "40HC",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 325, NO-3191 H\u00d8YSNES, NORWAY",
+      "telephone": "+47 33 03 20 00",
+      "fax": "+47 33 03 20 01"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "P.O. BOX 325, NO-3191 H\u00d8YSNES, NORWAY",
+      "telephone": "+47 33 03 20 00",
+      "fax": "+47 33 03 20 01"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "SWITCHGEAR PANELS REQUIRE TEMPERATURE CONTROLLED TRANSPORTATION"
+  },
+  "reeferSettings": {
+    "temperature_mode": "constant",
+    "setpoint": 20,
+    "tolerance": 2,
+    "unit": "celsius",
+    "ventilation": "minimal",
+    "humidity_control": "not required",
+    "pre_cooling_required": true,
+    "notes": "Switchgear panels are sensitive to temperature fluctuations. Maintain a constant temperature of 20\u00b0C with a tolerance of +/-2\u00b0C. Ventilation should be minimal to prevent condensation. Pre-cooling the reefer unit is essential before loading the panels."
+  }
+}

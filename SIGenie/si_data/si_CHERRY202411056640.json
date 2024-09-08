@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202411056640",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "23 HONGQIAO ROAD, SHANGHAI, CHINA 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "DE RUN 123, 3011NL ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTS.NL",
+      "telephone": "+31 10 201 5555"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "DE RUN 123, 3011NL ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTS.NL",
+      "telephone": "+31 10 201 5555"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "METAL CUTTING LATHE",
+  "containers": [
+    {
+      "containerNumber": "CRLU8976543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI20241105",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "METAL CUTTING LATHE - 1 UNIT",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GI20241105",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "METAL CUTTING LATHE - 1 UNIT",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'DV X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241105",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "DE RUN 123, 3011NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "DE RUN 123, 3011NL ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 5555"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "2 x 40ft Standard Dry Containers, Weight: 20 tonnes each, Value: USD 50,000"
+  }
+}

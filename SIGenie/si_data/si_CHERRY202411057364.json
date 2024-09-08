@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202411057364",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E12W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "333 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 6234 5678",
+      "email": "shipping@asiatrading.com"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "email": "info@globalfreight.es",
+      "telephone": "+34 91 567 8901"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN, 28001",
+      "country": "SPAIN",
+      "email": "info@globalfreight.es",
+      "telephone": "+34 91 567 8901"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE PROCESSING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ASPT123",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE PROCESSING MACHINES AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ASPT456",
+      "numberOfPackages": 12,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE PROCESSING MACHINES AS PER INVOICE",
+      "grossWeight": 21500.0,
+      "measurement": 34.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40'HC) CONTAINERS ONLY",
+    "totalPackages": 22,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 69.9
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 567 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "123 MAIN STREET, MADRID, SPAIN, 28001",
+      "telephone": "+34 91 567 8901"
+    },
+    "onboardDate": "2024-11-07 16:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

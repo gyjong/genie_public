@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202409124768",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2429WE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Ltd.",
+      "onBehalfOf": "",
+      "address": "123 Industrial Street, Shanghai, China",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Avenue, Rotterdam, Netherlands",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics",
+      "address": "789 Logistics Lane, Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "Optical fibre cables for telecommunications",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Optical fibre cables, carefully packed in cartons.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Optical fibre cables, carefully packed in cartons.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Optical fibre cables, carefully packed in cartons.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC101",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Optical fibre cables, carefully packed in cartons.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1011123",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "Optical fibre cables, carefully packed in cartons.",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-5555-1234",
+      "fax": "+31-10-5555-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Avenue, Rotterdam, Netherlands",
+      "telephone": "+31-10-5555-1234",
+      "fax": "+31-10-5555-5678"
+    },
+    "onboardDate": "2024-09-18 10:00",
+    "additionalRemarks": "Special handling required: Fragile cargo"
+  }
+}

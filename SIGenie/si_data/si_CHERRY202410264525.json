@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202410264525",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2445W1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA PRECISION MACHINERY CO. LTD",
+      "address": "NO. 123, ZHONGYUAN ROAD, JIANGNING DISTRICT, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86 574 8620 5150",
+      "fax": "+86 574 8620 5151"
+    },
+    "consignee": {
+      "name": "ALPHA INTERNATIONAL IMPORT & EXPORT LTD",
+      "address": "WEESTHAVEN 12, 3011 Rotterdam, Netherlands",
+      "telephone": "+31 10 477 7777",
+      "fax": "+31 10 477 7778",
+      "email": "IMPORT@ALPHAIMPORT.NL",
+      "contactPerson": "JAN VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "846620",
+  "commodityDescription": "LASER CUTTING MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA-123",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LASER CUTTING MACHINE PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "BETA-456",
+      "numberOfPackages": 25,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LASER CUTTING MACHINE PARTS",
+      "grossWeight": 11500.0,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "BETA-789",
+      "numberOfPackages": 22,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: LASER CUTTING MACHINE PARTS",
+      "grossWeight": 11800.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 67,
+    "totalGrossWeight": 35300.0,
+    "totalMeasurement": 75.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "AI20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA INTERNATIONAL IMPORT & EXPORT LTD",
+      "address": "WEESTHAVEN 12, 3011 Rotterdam, Netherlands",
+      "telephone": "+31 10 477 7777",
+      "fax": "+31 10 477 7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA INTERNATIONAL IMPORT & EXPORT LTD",
+      "address": "WEESTHAVEN 12, 3011 Rotterdam, Netherlands",
+      "telephone": "+31 10 477 7777",
+      "fax": "+31 10 477 7778"
+    },
+    "onboardDate": "2024-10-28 10:00",
+    "additionalRemarks": "TO BE DELIVERED WITHIN 24 HOURS OF DISCHARGE"
+  }
+}

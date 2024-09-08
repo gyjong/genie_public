@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410017708",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2409E087"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "2345 SHENZHEN ROAD, SHENZHEN, CHINA, 518000",
+      "country": "CHINA",
+      "additionalInfo": "(SHENZHEN FREE TRADE ZONE)",
+      "telephone": "+86 755 26543210",
+      "email": "INFO@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHATRADING.COM, INQUIRIES@ALPHATRADING.COM",
+      "telephone": "+31 20 6789012"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHATRADING.COM, INQUIRIES@ALPHATRADING.COM",
+      "telephone": "+31 20 6789012"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "903180",
+  "commodityDescription": "NETWORK SWITCHING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHING EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SWITCHING EQUIPMENT",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHING EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SWITCHING EQUIPMENT",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "Pre-carriage by truck to Ningbo Port. 14 Days Free Time at Destination."
+  }
+}

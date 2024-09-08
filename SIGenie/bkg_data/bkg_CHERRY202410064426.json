@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410064426",
+  "customerName": "APPLE GLOBAL LOGISTICS LTD",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "APPLE GLOBAL LOGISTICS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24245EA"
+  },
+  "cargoDetails": {
+    "hsCode": "94034000",
+    "chapterDescription": "FURNITURE",
+    "commodity": "WOODEN DINING TABLES"
+  },
+  "containerDetails": {
+    "size": "20 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-15 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-04 15:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "WOODEN DINING TABLES, DIMENSION(LxWxH;mm): 2,000x1,000x750, VALUE: USD15,000"
+}

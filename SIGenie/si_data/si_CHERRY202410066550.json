@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410066550",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409EASW12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENTERPRISES LTD",
+      "address": "288 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654320"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "FRIEDRICH-EBERT-STRASSE 12, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-37777777",
+      "fax": "+49-40-37777778"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "325 PARK AVENUE, NEW YORK, NY 10022, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CMLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMLU5678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMLU5678903",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC20241006001"
+    },
+    "certificateDetails": "20241006-CERT-001",
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTION GMBH",
+      "address": "FRIEDRICH-EBERT-STRASSE 12, 20354 HAMBURG, GERMANY",
+      "telephone": "+49-40-37777777",
+      "fax": "+49-40-37777778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "325 PARK AVENUE, NEW YORK, NY 10022, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Dangerous Goods: Class 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "dangerous_goods": {
+      "description": "Aviation Regulated Solid, N.O.S.",
+      "class": 9,
+      "un_number": "3334",
+      "packing_group": "II",
+      "proper_shipping_name": "Aviation Regulated Solid, N.O.S.",
+      "subsidiary_risk": null,
+      "flash_point": null,
+      "technical_name": null,
+      "net_weight": null,
+      "gross_weight": null,
+      "packaging": null,
+      "emergency_response": "In case of fire, use dry chemical powder. Do not use water.",
+      "storage_conditions": "Store in a cool, dry, well-ventilated area away from incompatible materials.",
+      "handling_instructions": "Handle with care. Avoid contact with skin and eyes. Wear appropriate personal protective equipment.",
+      "regulatory_information": {
+        "iata": "9.2.1",
+        "imo": null
+      },
+      "additional_information": "This material may be harmful if swallowed or inhaled. First aid: In case of contact with skin, wash immediately with soap and water. In case of inhalation, move to fresh air. Seek medical attention if necessary."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410319060",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "333 YONGJIA ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5876 8901",
+      "email": "SHIPPING@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING INC.",
+      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "country": "UNITED STATES",
+      "email": "RECEIVING@SUNRISEGLOBAL.COM",
+      "telephone": "+1 212 555 1234"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "333 YONGJIA ROAD, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5876 8901",
+      "email": "SHIPPING@SUNRISEGLOBAL.COM"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "870323",
+  "commodityDescription": "MOTOR VEHICLES FOR THE TRANSPORT OF GOODS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "ONE TRUCK, BRAND: FAW, MODEL: FAW J6L, YEAR: 2024",
+      "grossWeight": 12000.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "ONE TRUCK, BRAND: FAW, MODEL: FAW J6L, YEAR: 2024",
+      "grossWeight": 12000.0,
+      "measurement": 28.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 57.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": [
+      "CN1234567890",
+      "CN9876543210"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING LTD",
+      "address": "333 YONGJIA ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 5876 8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING INC.",
+      "address": "555 FIFTH AVENUE, NEW YORK, NY 10017, USA",
+      "telephone": "+1 212 555 1234"
+    },
+    "onboardDate": "2024-11-06 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3333"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409115295",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240922W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "228 HUAYUAN ROAD, JIANGNING DISTRICT, NANJING, CHINA",
+      "telephone": "+86-25-8563-1234",
+      "fax": "+86-25-8563-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1AA, UNITED KINGDOM",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1AA, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84186990",
+  "commodityDescription": "PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO. - NINGBO",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY",
+      "grossWeight": 8500.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO. - NINGBO",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PACKAGING MACHINERY",
+      "grossWeight": 8500.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 10,
+    "packageType": "CRATES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 17000.0,
+    "totalMeasurement": 48.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO-12345678",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1AA, UNITED KINGDOM",
+      "telephone": "+44-20-7987-6543",
+      "fax": "+44-20-7987-1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "123 ST. JAMES STREET, LONDON SW1A 1AA, UNITED KINGDOM",
+      "telephone": "+44-20-7987-6543",
+      "fax": "+44-20-7987-1234"
+    },
+    "onboardDate": "2024-09-18 14:00",
+    "additionalRemarks": "DOOR-TO-DOOR DELIVERY REQUIRED. SHIPMENT CONTAINS FRAGILE ITEMS. HANDLE WITH CARE."
+  }
+}

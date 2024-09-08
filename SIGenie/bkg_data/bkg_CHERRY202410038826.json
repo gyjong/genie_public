@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410038826",
+  "customerName": "GLOBAL SHIPPING SOLUTIONS LTD",
+  "shipperName": "ASIA PACIFIC TRADING CO.",
+  "invoiceReceiver": "GLOBAL SHIPPING SOLUTIONS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EWS"
+  },
+  "cargoDetails": {
+    "hsCode": "94039010",
+    "chapterDescription": "OTHER",
+    "commodity": "WOODEN FURNITURE AND KITCHEN CABINETS"
+  },
+  "containerDetails": {
+    "size": "20 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-10 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-11 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-05 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "FCL SHIPMENT, WOODEN PACKAGING REQUIRED, VALUE: USD 50,000"
+}

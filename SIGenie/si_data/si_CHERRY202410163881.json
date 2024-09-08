@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410163881",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTERS",
+      "onBehalfOf": null,
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "HONG KONG TRADING CO. LTD",
+      "address": "15/F, CENTRAL BUILDING, CENTRAL, HONG KONG",
+      "companyNumber": "1234567"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "2ND FLOOR, OFFICE TOWER, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "950300",
+  "commodityDescription": "PLUSH TOYS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "HKT-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "FRAGILE CARGO. STACKING INSTRUCTIONS REQUIRED"
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "HKT-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "FRAGILE CARGO. STACKING INSTRUCTIONS REQUIRED"
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "HKT-789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLUSH TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0,
+      "additionalInfo": "FRAGILE CARGO. STACKING INSTRUCTIONS REQUIRED"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "HONG KONG TRADING CO. LTD",
+      "address": "15/F, CENTRAL BUILDING, CENTRAL, HONG KONG",
+      "telephone": "+852-12345678",
+      "fax": "+852-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTERS",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "onboardDate": "2024-10-23 14:00",
+    "additionalRemarks": "Fragile Cargo, Stacking Instructions Required"
+  }
+}

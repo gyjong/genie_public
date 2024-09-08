@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411071081",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445WQB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "No. 123, Industrial Park, Ningbo, Zhejiang, 315000, CHINA",
+      "telephone": "+86-574-8888-0001",
+      "fax": "+86-574-8888-1000"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124, Keizersgracht, 1016 EA Amsterdam, Netherlands",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124, Keizersgracht, 1016 EA Amsterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940160",
+  "commodityDescription": "FURNITURE SEATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FURNITURE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile cargo. Requires careful handling."
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "ALPHA124",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FURNITURE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile cargo. Requires careful handling."
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "ALPHA125",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FURNITURE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile cargo. Requires careful handling."
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "ALPHA126",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FURNITURE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile cargo. Requires careful handling."
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "ALPHA127",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FURNITURE SEATS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "Fragile cargo. Requires careful handling."
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "124, Keizersgracht, 1016 EA Amsterdam, Netherlands",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "No. 123, Industrial Park, Ningbo, Zhejiang, 315000, CHINA",
+      "telephone": "+86-574-8888-0001",
+      "fax": "+86-574-8888-1000"
+    },
+    "onboardDate": "2024-11-10 10:00",
+    "additionalRemarks": "Fragile cargo. Requires careful handling."
+  }
+}

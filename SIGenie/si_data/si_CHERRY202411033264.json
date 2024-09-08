@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411033264",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24301ES"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 1234568"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "1545 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568",
+      "email": "IMPORT@GLOBALLOGISTICS.NL",
+      "contactPerson": "JAN VAN DER HOEK"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "870899",
+  "commodityDescription": "CAR ENGINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CAR ENGINE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 19.5
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CAR ENGINE PARTS",
+      "grossWeight": 17500.0,
+      "measurement": 18.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CONTAINER",
+    "totalPackages": 95,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 38.3
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241103-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS LTD",
+      "address": "1545 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 1234568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 1234567",
+      "fax": "+86 574 1234568"
+    },
+    "onboardDate": "2024-11-08 12:00",
+    "additionalRemarks": "Special handling required for fragile cargo."
+  }
+}

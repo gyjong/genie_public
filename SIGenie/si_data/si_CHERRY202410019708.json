@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410019708",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2436E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL CHEMICALS INC",
+      "address": "123 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "info@globalchemicals.cn"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "country": "NETHERLANDS",
+      "email": "info@asiapacificimports.nl",
+      "telephone": "+31 10 222 2222"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "country": "NETHERLANDS",
+      "email": "info@asiapacificimports.nl",
+      "telephone": "+31 10 222 2222"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "290519",
+  "commodityDescription": "SODIUM BENZOATE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM BENZOATE AS PER ORDER NUMBER 12345",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHIPPER'S MARK",
+      "numberOfPackages": 20,
+      "packageType": "BAGS",
+      "cargoDescription": "SODIUM BENZOATE AS PER ORDER NUMBER 12345",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN-2024-10-01-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "telephone": "+31 10 222 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "25 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011 GD",
+      "telephone": "+31 10 222 2222"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

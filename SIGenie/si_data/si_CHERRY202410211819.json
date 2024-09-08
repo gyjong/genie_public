@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410211819",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W34"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "333 NINGBO ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "OPTICAL SOLUTIONS BV",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@OPTICALSOLUTIONS.NL",
+      "telephone": "+31 10 412 6666"
+    },
+    "notifyParty": {
+      "name": "OPTICAL SOLUTIONS BV",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@OPTICALSOLUTIONS.NL",
+      "telephone": "+31 10 412 6666"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903300",
+  "commodityDescription": "OPTICAL LENSES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9758231",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OSBV-1",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "OPTICAL LENSES, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7891234",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OSBV-2",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "OPTICAL LENSES, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "987654",
+      "marksAndNumbers": "OSBV-3",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "OPTICAL LENSES, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "432109",
+      "marksAndNumbers": "OSBV-4",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "OPTICAL LENSES, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "098765",
+      "marksAndNumbers": "OSBV-5",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "OPTICAL LENSES, PACKAGED IN INDIVIDUAL BOXES, PALLETIZED",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 5000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "903300",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "333 NINGBO ROAD, NINGBO, ZHEJIANG 315000, CHINA",
+      "telephone": "+86 574 8888 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "OPTICAL SOLUTIONS BV",
+      "address": "DIJKZICHT 25, 3016 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 6666",
+      "fax": "+31 10 412 6667"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "5 x 20' DRY CONTAINERS, Item: OPTICAL LENSES, Value: USD150,000"
+  }
+}

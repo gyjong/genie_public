@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409235214",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410WEST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE IMPORTS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "UNITED STATES",
+      "additionalInfo": "(SUITE 500)",
+      "telephone": "+1 212 555 1212",
+      "email": "SHIPPING@WORLDWIDEIMPORTS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "621143",
+  "commodityDescription": "Men's Cotton T-Shirts",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT-456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GT-789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 76.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 CANAL STREET, AMSTERDAM, 1012 DE, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Special handling required for garments."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202410046819",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24043E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Manufacturing Co., Ltd.",
+      "onBehalfOf": "",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "Global Trading Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "Global Trading Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "903281",
+  "commodityDescription": "NETWORKING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "NETWORKING EQPT - SUNRISE MFG",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORKING EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "DOOR SEAL REQUIRED"
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "NETWORKING EQPT - SUNRISE MFG",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORKING EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "DOOR SEAL REQUIRED"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "NETWORKING EQPT - SUNRISE MFG",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORKING EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "DOOR SEAL REQUIRED"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "2468013579",
+      "marksAndNumbers": "NETWORKING EQPT - SUNRISE MFG",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORKING EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "DOOR SEAL REQUIRED"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "0135792468",
+      "marksAndNumbers": "NETWORKING EQPT - SUNRISE MFG",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORKING EQUIPMENT - SHIPPERS LOAD AND COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": "DOOR SEAL REQUIRED"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Global Trading Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunrise Manufacturing Co., Ltd.",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "onboardDate": "2024-10-06 16:00",
+    "additionalRemarks": "DOOR SEAL REQUIRED, Value: USD150,000"
+  }
+}

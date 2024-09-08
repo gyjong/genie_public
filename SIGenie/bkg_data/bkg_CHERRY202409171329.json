@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409171329",
+  "customerName": "GLOBAL TRADING INC.",
+  "shipperName": "ASIA PACIFIC INDUSTRIES LTD.",
+  "invoiceReceiver": "GLOBAL TRADING INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W54E"
+  },
+  "cargoDetails": {
+    "hsCode": "902300",
+    "chapterDescription": "INSTRUMENTS AND APPARATUS USED IN OPTICAL OR PHOTOGRAPHIC LABORATORIES",
+    "commodity": "OPTICAL LABORATORY EQUIPMENT"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-20 10:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-21 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-22 16:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "FRAGILE CARGO, REQUIRES TEMPERATURE CONTROL (15-25\u00b0C)"
+}

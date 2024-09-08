@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410181401",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "123 XINHU ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "125 PRINCES STREET, ROTTERDAM, NETHERLANDS 3011CB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTS.NL",
+      "telephone": "+31 10 411 8888"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10006, USA",
+      "country": "USA",
+      "email": "OPERATIONS@GSSINC.COM",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854140",
+  "commodityDescription": "SWITCHGEAR",
+  "containers": [
+    {
+      "containerNumber": "CRLU9998887",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSS1234",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR 100 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU9998888",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSS1235",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SWITCHGEAR - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: SWITCHGEAR 100 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "854140",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS INC.",
+      "address": "150 BROADWAY, NEW YORK, NY 10006, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "125 PRINCES STREET, ROTTERDAM, NETHERLANDS 3011CB",
+      "telephone": "+31 10 411 8888"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
+  }
+}

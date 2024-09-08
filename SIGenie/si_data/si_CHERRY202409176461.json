@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409176461",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING CO., LTD",
+      "address": "1234 INDUSTRIAL PARK, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "1010 HARBOR STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "notifyParty": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "1010 HARBOR STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "CERAMIC CAPACITORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "CERAMIC CAPACITORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "CERAMIC CAPACITORS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 5.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO9876543",
+    "lcDetails": {},
+    "certificateDetails": "CN20241002001",
+    "originalBLDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "1010 HARBOR STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "1010 HARBOR STREET, ROTTERDAM, NETHERLANDS 3011 AB",
+      "telephone": "+31-10-222-3333",
+      "fax": "+31-10-222-4444"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING: FRAGILE."
+  }
+}

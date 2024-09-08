@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410033705",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410WAA01"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "address": "No. 123, Huaxing Road, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 Europaboulevard, Rotterdam, 3075AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@gts.nl",
+      "telephone": "+31 10 200 5000"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 Europaboulevard, Rotterdam, 3075AA, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@gts.nl",
+      "telephone": "+31 10 200 5000"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "SWITCHGEAR PANELS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GTS202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SWITCHGEAR PANELS - AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'DV X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTS20241003",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 Europaboulevard, Rotterdam, 3075AA, NETHERLANDS",
+      "telephone": "+31 10 200 5000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 Europaboulevard, Rotterdam, 3075AA, NETHERLANDS",
+      "telephone": "+31 10 200 5000"
+    },
+    "onboardDate": "2024-10-07 12:00",
+    "additionalRemarks": "CONTAINER SEAL REQUIRED"
+  }
+}

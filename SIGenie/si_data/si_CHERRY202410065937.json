@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410065937",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24041W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL SHIPPING SOLUTIONS (NINGBO)",
+      "address": "123 Haiyan Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8866 7788",
+      "email": "shipping@globalsolutions.com.cn"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS CO.,LTD.",
+      "address": "100 Europaboulevard, 3075 AA Rotterdam, Netherlands",
+      "taxId": "NL811234567B01",
+      "president": "Mr. Jan Van Der Meer",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS CO.,LTD.",
+      "address": "100 Europaboulevard, 3075 AA Rotterdam, Netherlands",
+      "taxId": "NL811234567B01",
+      "president": "Mr. Jan Van Der Meer",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87169090",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9735110",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSS NINGBO 1/5",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9735111",
+      "sealNumber": "123457",
+      "marksAndNumbers": "GSS NINGBO 2/5",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9735112",
+      "sealNumber": "123458",
+      "marksAndNumbers": "GSS NINGBO 3/5",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9735113",
+      "sealNumber": "123459",
+      "marksAndNumbers": "GSS NINGBO 4/5",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9735114",
+      "sealNumber": "123460",
+      "marksAndNumbers": "GSS NINGBO 5/5",
+      "numberOfPackages": 50,
+      "packageType": "PALLETS",
+      "cargoDescription": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 250,
+    "packageType": "PALLETS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "230912GSSNINGBO"
+    },
+    "certificateDetails": "CN231006-001",
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS (NINGBO)",
+      "address": "123 Haiyan Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8866 7788",
+      "fax": "+86 574 8866 7789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS CO.,LTD.",
+      "address": "100 Europaboulevard, 3075 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 5556"
+    },
+    "onboardDate": "2024-10-12 12:00",
+    "additionalRemarks": "MOTORCYCLES, PACKAGED ON PALLETS, VALUE: USD50,000"
+  }
+}

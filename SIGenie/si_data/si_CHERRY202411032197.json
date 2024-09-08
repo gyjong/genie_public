@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411032197",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854370",
+  "commodityDescription": "THREE-PHASE ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SUNRISE 123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: THREE-PHASE ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SUNRISE 124",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: THREE-PHASE ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "SUNRISE 125",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: THREE-PHASE ELECTRIC MOTORS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT CO.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "123 SHANGHAI STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-11-10 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: PROTECT FROM MOISTURE"
+  }
+}

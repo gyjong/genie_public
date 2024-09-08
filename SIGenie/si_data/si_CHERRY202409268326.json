@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202409268326",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W24"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 GLOBAL STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "FOODTECH SOLUTIONS BV",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHAN VAN DER LEE",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "notifyParty": {
+      "name": "FOODTECH SOLUTIONS BV",
+      "address": "124 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHAN VAN DER LEE",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "FOOD PROCESSING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGLU1234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: FOOD PROCESSING MACHINE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 15,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 GLOBAL STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "123 GLOBAL STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "fax": "+86 574 98765432"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED"
+  }
+}

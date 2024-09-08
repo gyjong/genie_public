@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410151516",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24210E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "Automatic Biscuit Making Machine",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "Automatic Biscuit Making Machine Parts",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 10,
+      "cargoDescription": "Automatic Biscuit Making Machine Parts",
+      "grossWeight": 8000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40HC) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "40HC",
+    "totalGrossWeight": 16000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Commercial Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Please ensure the containers are properly sealed and secured."
+  }
+}

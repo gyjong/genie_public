@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409232393",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240927ZHE1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADE SOLUTIONS LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADE SOLUTIONS LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87112090",
+  "commodityDescription": "ELECTRIC BICYCLES - MODEL EB500",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "EB500 - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC BICYCLES - MODEL EB500",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "EB500 - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC BICYCLES - MODEL EB500",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "EB500 - NINGBO",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC BICYCLES - MODEL EB500",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADE SOLUTIONS LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADE SOLUTIONS LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "onboardDate": "2024-09-28 10:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

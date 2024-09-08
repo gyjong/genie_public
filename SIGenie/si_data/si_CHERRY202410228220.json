@@ -1,0 +1,86 @@
+{
+  "bookingReference": "CHERRY202410228220",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241022-01"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIAL CO. LTD",
+      "address": "No. 888, Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "Avenida Diagonal 477, 08014 Barcelona, Spain",
+      "telephone": "+34 93 444 11 11",
+      "fax": "+34 93 444 11 12"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "Avenida Diagonal 477, 08014 Barcelona, Spain",
+      "telephone": "+34 93 444 11 11",
+      "fax": "+34 93 444 11 12"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE 1/2",
+      "numberOfPackages": 50,
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE 2/2",
+      "numberOfPackages": 50,
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 66.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 132.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "GTSS20241022001"
+    },
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "Avenida Diagonal 477, 08014 Barcelona, Spain"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "Avenida Diagonal 477, 08014 Barcelona, Spain"
+    },
+    "onboardDate": "2024-10-24 10:00",
+    "additionalRemarks": "Free time: 7 days at destination. Shipper owned container."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409198180",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 123, HONGQI ROAD, YINZHOU DISTRICT, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "MARKTSTRAAT 123, 3011 CD ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "MARKTSTRAAT 123, 3011 CD ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 456 7890"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-20241026",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES' TROUSERS 2000 PCS. PACKED IN CARTONS.",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE-20241026",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LADIES' TROUSERS 2000 PCS. PACKED IN CARTONS.",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241026-SUNRISE-NL",
+    "freeTimeAtDestination": "14 DAYS",
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "DANGEROUS GOODS: Class: 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": {
+      "description": "Corrosive solid, acidic, n.o.s.",
+      "class": 9,
+      "UNNumber": "3264",
+      "packingGroup": "II",
+      "properShippingName": "Corrosive solid, acidic, n.o.s.",
+      "technicalName": "Not specified",
+      "hazards": [
+        "Corrosive"
+      ],
+      "stowageCategory": "C"
+    }
+  }
+}

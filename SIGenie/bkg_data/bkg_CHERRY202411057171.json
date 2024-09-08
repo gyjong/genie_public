@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202411057171",
+  "customerName": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+  "shipperName": "ABC IMPORT & EXPORT CO.",
+  "invoiceReceiver": "ABC IMPORT & EXPORT CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424E"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE FIBRES, OTHER THAN SPINNING, TWISTING OR WINDING MACHINES",
+    "commodity": "TEXTILE PROCESSING MACHINE"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-12 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-13 18:00",
+    "estimatedArrivalAtDischargePort": "2024-12-04 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "SPECIAL INSTRUCTIONS: PLEASE ENSURE CARGO IS PROPERLY SECURED."
+}

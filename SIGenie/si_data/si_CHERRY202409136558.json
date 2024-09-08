@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202409136558",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "EUROCONNECT BV",
+      "address": "ZUIDHOEK 100, 3072 ME ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROCONNECT.NL",
+      "telephone": "+31 10 4123456"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "email": "SHIPPING@SUNRISETRADE.COM",
+      "telephone": "+86 21 55556666"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC CABLE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC CABLE - 20 TONNES - 20' DRY CONTAINER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC CABLE - 20 TONNES - 20' DRY CONTAINER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "214365",
+      "marksAndNumbers": "SUNRISE-3",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC CABLE - 20 TONNES - 20' DRY CONTAINER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "789101",
+      "marksAndNumbers": "SUNRISE-4",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC CABLE - 20 TONNES - 20' DRY CONTAINER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-5",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRONIC CABLE - 20 TONNES - 20' DRY CONTAINER",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 55556666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROCONNECT BV",
+      "address": "ZUIDHOEK 100, 3072 ME ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 4123456"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "5 x 20 DRY Containers, Weight: 20 tons per container, Value: USD 100,000"
+  }
+}

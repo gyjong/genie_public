@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410211466",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2434E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "1234 GLOBAL TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "email": "info@betaglobal.com"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "870899",
+  "commodityDescription": "AUTO PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA IMPORT & EXPORT LTD",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTO PARTS, SHIPPED AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA IMPORT & EXPORT LTD",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "AUTO PARTS, SHIPPED AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444"
+    },
+    "onboardDate": "2024-10-24 15:00",
+    "additionalRemarks": "Free time at destination: 7 days. Demurrage charges apply thereafter."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410267080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2420EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@ABCINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRIC WIRE, COPPER, 1.5 MM2",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC WIRE, COPPER, 1.5 MM2 - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC WIRE, COPPER, 1.5 MM2 - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "100 LONDON ROAD, LONDON, UNITED KINGDOM",
+      "telephone": "+44 20 7654 3210",
+      "fax": "+44 20 7654 3211"
+    },
+    "onboardDate": "2024-10-30 12:00",
+    "additionalRemarks": "CONTAINERS TO BE SEALED BY SHIPPER. B/L TO BE ISSUED IN ORIGINAL SET."
+  }
+}
