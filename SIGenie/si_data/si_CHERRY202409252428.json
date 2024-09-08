@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202409252428",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679",
+      "email": "IMPORT@GLOBALTRADING.DE",
+      "contactPerson": "PETER MEYER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "LOGISTICS SERVICES GMBH",
+      "address": "9012 HAMBURG ROAD, HAMBURG, GERMANY",
+      "telephone": "+49 40 9876 5432",
+      "fax": "+49 40 9876 5433"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "902300",
+  "commodityDescription": "MICROSCOPE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLO234567",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROSCOPE LENSES AND PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLO234568",
+      "numberOfPackages": 80,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: MICROSCOPE STANDS AND ACCESSORIES",
+      "grossWeight": 10000.0,
+      "measurement": 22.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40' HIGH CONTAINER",
+    "totalPackages": 180,
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 47.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20240925-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "5678 FRANKFURTER STRASSE, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LTD",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "fax": "+86 574 8888 7777"
+    },
+    "onboardDate": "2024-09-27 10:00",
+    "additionalRemarks": "Pre-cooling required for reefer containers"
+  },
+  "reeferSettings": {
+    "containerType": "Reefer",
+    "preCoolingRequired": true,
+    "setpoint": {
+      "temperature": -1.0,
+      "unit": "Celsius"
+    },
+    "ventilation": {
+      "mode": "Controlled Atmosphere",
+      "rate": 20
+    },
+    "humidity": {
+      "setpoint": 85.0,
+      "unit": "Percentage"
+    },
+    "monitoring": {
+      "frequency": "Continuous",
+      "alerts": [
+        "Temperature Deviation",
+        "Humidity Deviation",
+        "Door Ajar"
+      ]
+    }
+  }
+}

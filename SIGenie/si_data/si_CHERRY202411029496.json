@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202411029496",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2437EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN EARTH LOGISTICS LTD",
+      "onBehalfOf": "",
+      "address": "UNIT 103, 3/F, CHEUNG SHA WAN PLAZA, 833 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG",
+      "telephone": "+852 2365 8912",
+      "fax": "+852 2365 8913"
+    },
+    "consignee": {
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GREEN EARTH LOGISTICS LTD",
+      "address": "UNIT 103, 3/F, CHEUNG SHA WAN PLAZA, 833 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "CIRCULAR KNITTING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CGLU9987654",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "GEM1234",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCULAR KNITTING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGLU9987655",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "GEM5678",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCULAR KNITTING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINER(S)",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 48.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DEUTSCHE MASCHINEN GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREEN EARTH LOGISTICS LTD",
+      "address": "UNIT 103, 3/F, CHEUNG SHA WAN PLAZA, 833 CHEUNG SHA WAN ROAD, KOWLOON, HONG KONG"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED FOR HEAVY MACHINERY"
+  }
+}

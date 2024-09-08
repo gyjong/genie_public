@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409159053",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2430E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT INC.",
+      "onBehalfOf": "",
+      "address": "235 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6253-1234",
+      "fax": "+86-21-6253-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "LATHE MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "LATHE MACHINE",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "LATHE MACHINE - PROTECTED FROM MOISTURE",
+      "grossWeight": 7000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "LATHE MACHINE",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "LATHE MACHINE - PROTECTED FROM MOISTURE",
+      "grossWeight": 7000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY) CONTAINERS",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 14000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-123-4567",
+      "fax": "+31-10-123-8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORT EXPORT INC.",
+      "address": "235 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6253-1234",
+      "fax": "+86-21-6253-5678"
+    },
+    "onboardDate": "2024-10-20 14:00",
+    "additionalRemarks": "Cargo needs to be protected from moisture."
+  }
+}

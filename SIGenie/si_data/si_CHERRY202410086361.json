@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410086361",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2427EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "1234, SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123, AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011BT",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223",
+      "email": "IMPORT@ALPHAIMPORT.NL",
+      "contactPerson": "PETER SMITH"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123, AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011BT",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223",
+      "email": "IMPORT@ALPHAIMPORT.NL",
+      "contactPerson": "PETER SMITH"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "Electronic Capacitors",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ELECTRONIC CAPACITORS",
+      "grossWeight": 18000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ELECTRONIC CAPACITORS",
+      "grossWeight": 18500.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ELECTRONIC CAPACITORS",
+      "grossWeight": 18200.0,
+      "measurement": 65.5
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "432165",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ELECTRONIC CAPACITORS",
+      "grossWeight": 18300.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ALPHA202410",
+      "numberOfPackages": 1000,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT & SEAL\" SAID TO CONTAIN: ELECTRONIC CAPACITORS",
+      "grossWeight": 18100.0,
+      "measurement": 65.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 5000,
+    "totalGrossWeight": 90100.0,
+    "totalMeasurement": 327.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241008-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123, AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011BT",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "123, AMSTERDAM STREET, ROTTERDAM, NETHERLANDS, 3011BT",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

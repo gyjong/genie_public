@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409168028",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E12"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "123 XINGFU ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT EXPORT CO.",
+      "address": "25 HAMBURGSTRASSE, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@BLUESKYIMPORT.DE",
+      "telephone": "+49 40 12345678"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT EXPORT CO.",
+      "address": "25 HAMBURGSTRASSE, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@BLUESKYIMPORT.DE",
+      "telephone": "+49 40 12345678"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BLUE SKY - ORDER #12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "BLUE SKY - ORDER #12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "BLUE SKY - ORDER #12345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC)",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "hsCode": "611030",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT CO.",
+      "address": "25 HAMBURGSTRASSE, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT CO.",
+      "address": "25 HAMBURGSTRASSE, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678"
+    },
+    "onboardDate": "2024-09-28 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING - FRAGILE GOODS"
+  }
+}

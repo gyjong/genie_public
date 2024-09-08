@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409101565",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHAE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ANTWERP, BELGIUM"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Manufacturing",
+      "onBehalfOf": "",
+      "address": "123 Innovation Avenue, Shanghai, CHINA",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1213"
+    },
+    "consignee": {
+      "name": "Blue Sky Trading Co.",
+      "address": "456 Market Street, Antwerp, BELGIUM",
+      "companyNumber": "BE0477333415"
+    },
+    "notifyParty": {
+      "name": "Zenith Logistics",
+      "address": "789 Logistics Lane, Shanghai, CHINA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854231",
+  "commodityDescription": "Microprocessor Chips",
+  "containers": [
+    {
+      "containerNumber": "MSCU9675432",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ZEN123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU5789210",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ZEN456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "MSCU1236789",
+      "sealNumber": "4321098",
+      "marksAndNumbers": "ZEN789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINER(S)",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "40HC",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO"
+    ],
+    "originalBLDistribution": {
+      "name": "Blue Sky Trading Co.",
+      "address": "456 Market Street, Antwerp, BELGIUM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zenith Manufacturing",
+      "address": "123 Innovation Avenue, Shanghai, CHINA"
+    },
+    "onboardDate": "2024-09-18 12:00",
+    "additionalRemarks": "Please ensure containers are adequately secured for transit."
+  }
+}

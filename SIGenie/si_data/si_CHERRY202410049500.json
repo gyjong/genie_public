@@ -1,0 +1,82 @@
+{
+  "bookingReference": "CHERRY202410049500",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EWW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 HONGQIAO ROAD, SHANGHAI, CHINA 200031",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "345 WATERLOO ROAD, LONDON, SE1 8LP, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@GSS.COM, INFO@GSS.COM",
+      "telephone": "+44 207 936 5555"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "345 WATERLOO ROAD, LONDON, SE1 8LP, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@GSS.COM, INFO@GSS.COM",
+      "telephone": "+44 207 936 5555"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC PACKAGING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU3851786",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GSS1234",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "AUTOMATIC PACKAGING MACHINE (1 UNIT), WEIGHT: 9 TONNES",
+      "grossWeight": 9000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GSS5678",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "AUTOMATIC PACKAGING MACHINE (1 UNIT), WEIGHT: 9 TONNES",
+      "grossWeight": 9000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "totalGrossWeight": 18000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GSS20241004-001",
+    "freeTimeAtDestination": "7 DAYS",
+    "onboardDate": "2024-10-10 12:00",
+    "additionalRemarks": "DOOR SEAL REQUIRED, CARGO WEIGHT: 18 TONNES"
+  }
+}

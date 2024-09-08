@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409255341",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "IMPORTS@GLOBALIMPORTS.ES",
+      "telephone": "+34 956 789 012"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, ALGECIRAS, SPAIN",
+      "country": "SPAIN",
+      "email": "IMPORTS@GLOBALIMPORTS.ES",
+      "telephone": "+34 956 789 012"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "LATHE MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU2765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GI202410",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "LATHE MACHINE PARTS - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GI202410",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "LATHE MACHINE PARTS - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GI20241025",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789 012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "AVENIDA DE LA ESPA\u00d1A, 123, ALGECIRAS, SPAIN",
+      "telephone": "+34 956 789 012"
+    },
+    "onboardDate": "2024-10-02 16:00",
+    "additionalRemarks": "14 Days Free Time at Destination, Demurrage Charges Apply After Free Time"
+  }
+}

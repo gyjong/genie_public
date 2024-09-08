@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409082771",
+  "customerName": "GLOBAL LOGISTICS CO. LTD.",
+  "shipperName": "ASIA PACIFIC TRADING INC.",
+  "invoiceReceiver": "ASIA PACIFIC TRADING INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2435E"
+  },
+  "cargoDetails": {
+    "hsCode": "95069900",
+    "chapterDescription": "OTHER",
+    "commodity": "TOYS - PLUSH ANIMALS"
+  },
+  "containerDetails": {
+    "size": "20' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-15 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-16 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-05 07:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "TOYS PACKAGED IN INDIVIDUAL BOXES, TOTAL VALUE: USD 25,000"
+}

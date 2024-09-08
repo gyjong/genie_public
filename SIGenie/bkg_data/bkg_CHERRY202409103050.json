@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409103050",
+  "customerName": "KONG & LI LOGISTICS CO., LTD",
+  "shipperName": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD",
+  "invoiceReceiver": "KONG & LI LOGISTICS CO., LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWL"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE YARNS",
+    "commodity": "TEXTILE YARN PROCESSING MACHINERY"
+  },
+  "containerDetails": {
+    "size": "40 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-18 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-19 23:00",
+    "estimatedArrivalAtDischargePort": "2024-10-06 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "CONTAINERS MUST BE SEALED WITH HIGH SECURITY SEAL"
+}

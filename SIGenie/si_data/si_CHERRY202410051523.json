@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410051523",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "123 TRADE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "email": "INFO@ABCINTERNATIONAL.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "101 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "101 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRICAL WIRES",
+  "containers": [
+    {
+      "containerNumber": "SEGU4876321",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ABC TRADING CO. - NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "SEGU4876322",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "ABC TRADING CO. - NINGBO",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRICAL WIRES AS PER INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "101 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "101 WAREHOUSE LANE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "onboardDate": "2024-10-12 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED: 15-25 DEGREES CELSIUS"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409103050",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI SHENXI IMPORT & EXPORT CO., LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)",
+      "telephone": "+86 21 6288 1234",
+      "email": "SHIPPING@SHENXIIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "KONG & LI LOGISTICS CO., LTD",
+      "address": "BOERHAVESTRAAT 123, 3131 XK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KONGANDLI.NL",
+      "telephone": "+31 10 204 5678"
+    },
+    "notifyParty": {
+      "name": "KONG & LI LOGISTICS CO., LTD",
+      "address": "BOERHAVESTRAAT 123, 3131 XK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KONGANDLI.NL",
+      "telephone": "+31 10 204 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE YARN PROCESSING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 4,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE YARN PROCESSING MACHINERY (W.2400MM H.2400MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "MSCU7890123",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 4,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE YARN PROCESSING MACHINERY (W.2400MM H.2400MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 8,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-09-18 14:00",
+    "additionalRemarks": "CONTAINERS MUST BE SEALED WITH HIGH SECURITY SEAL"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410182195",
+  "customerName": "DONGWON LOGISTICS CO., LTD",
+  "shipperName": "SAMSUNG ELECTRO-MECHANICS CO., LTD",
+  "invoiceReceiver": "DONGWON LOGISTICS CO., LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "cargoDetails": {
+    "hsCode": "85444210",
+    "chapterDescription": "Capacitors, fixed or variable, linear or non-linear",
+    "commodity": "Ceramic Capacitor"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "HIGH CUBE",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-24 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 15:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "DOOR TO DOOR DELIVERY REQUIRED, B/L ISSUED IN ORIGINAL SET"
+}

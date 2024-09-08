@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409242745",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING (JAPAN) INC.",
+      "address": "1-1-1 TOKYO TOWER, MINATO-KU, TOKYO, 105-0001, JAPAN",
+      "telephone": "+81-3-5555-5555",
+      "fax": "+81-3-5555-5556"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING (JAPAN) INC.",
+      "address": "1-1-1 TOKYO TOWER, MINATO-KU, TOKYO, 105-0001, JAPAN",
+      "telephone": "+81-3-5555-5555",
+      "fax": "+81-3-5555-5556"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE1",
+      "numberOfPackages": 20,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 25000,
+      "measurement": 60
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE2",
+      "numberOfPackages": 20,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 25000,
+      "measurement": 60
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 50000,
+    "totalMeasurement": 120
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231027001",
+    "salesOrderNumber": "20231027002",
+    "lcDetails": {
+      "lcNumber": "LC20231027SUNRISE"
+    },
+    "certificateDetails": "20231027CERT001",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING (JAPAN) INC.",
+      "address": "1-1-1 TOKYO TOWER, MINATO-KU, TOKYO, 105-0001, JAPAN",
+      "telephone": "+81-3-5555-5555",
+      "fax": "+81-3-5555-5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3333"
+  }
+}

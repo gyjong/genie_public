@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202410154043",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "255 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6543-2100",
+      "fax": "+86-21-6543-2101"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "FRANKFURTER STRASSE 50, 20095 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTERS USA INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "CABLE HARNESSES",
+  "containers": [
+    {
+      "containerNumber": "CGMU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GP123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CABLE HARNESSES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CGMU9876544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GP124",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CABLE HARNESSES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "C-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTERS LTD",
+      "address": "FRANKFURTER STRASSE 50, 20095 HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "DANGEROUS GOODS: Class 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "dangerousGoodsDescription": "Corrosive solid, acidic, n.o.s.",
+    "unNumber": "3264",
+    "dangerousGoodsClass": "9",
+    "packingGroup": "II",
+    "properShippingName": "Corrosive solid, acidic, n.o.s.",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "technicalName": null,
+    "hazards": [
+      "Corrosive"
+    ],
+    "precautions": [
+      "Handle with care.",
+      "Wear appropriate protective gear.",
+      "Store in a well-ventilated area.",
+      "Keep away from incompatible materials.",
+      "In case of spillage, follow emergency procedures."
+    ],
+    "emergencyContact": "+1-555-555-5555"
+  }
+}

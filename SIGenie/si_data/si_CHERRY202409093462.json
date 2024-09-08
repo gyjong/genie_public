@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202409093462",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHEGHE01W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zhejiang Changlong Machinery Co., Ltd",
+      "address": "No. 333, Changlong Road, Yuyao City, Zhejiang Province, China",
+      "telephone": "+86 574 66668888",
+      "fax": "+86 574 66669999"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 12345678",
+      "email": "info@asiapacificlogistics.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84663090",
+  "commodityDescription": "METAL LATHE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU3845769",
+      "sealNumber": "123456",
+      "marksAndNumbers": "CLM-20240911",
+      "numberOfPackages": 150,
+      "cargoDescription": "METAL LATHE PARTS - AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 26.4
+    },
+    {
+      "containerNumber": "MSCU7854632",
+      "sealNumber": "789012",
+      "marksAndNumbers": "CLM-20240911",
+      "numberOfPackages": 150,
+      "cargoDescription": "METAL LATHE PARTS - AS PER PACKING LIST",
+      "grossWeight": 17500.0,
+      "measurement": 25.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 52.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240911-CLM-001",
+    "documentNumber": "20240911-MSCLUCIA-ROT",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "COO-20240911-CLM"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234567",
+      "fax": "+31 10 12345678"
+    },
+    "onboardDate": "2024-09-15 12:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBER: XYZ123456"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202409082771",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2435E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING INC.",
+      "address": "32nd Floor, Shanghai Tower, 501 Pudong Nan Lu, Shanghai, 200120, CHINA",
+      "telephone": "+86-21-5876-8901",
+      "fax": "+86-21-5876-8902"
+    },
+    "consignee": {
+      "name": "EURO TRADE GMBH",
+      "address": "Speicherstadt 12, 20457 Hamburg, GERMANY",
+      "telephone": "+49-40-311-9000",
+      "fax": "+49-40-311-9001",
+      "email": "IMPORT@EUROTRADE.DE",
+      "contactPerson": "ANNA SCHMIDT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ASIA PACIFIC TRADING INC.",
+      "address": "1234 Main Street, Suite 500, Hong Kong",
+      "telephone": "+852-2567-8901",
+      "fax": "+852-2567-8902"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "95069900",
+  "commodityDescription": "TOYS - PLUSH ANIMALS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9867543",
+      "sealNumber": "170923",
+      "marksAndNumbers": "GP20240912",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLUSH ANIMALS - Assorted Designs",
+      "grossWeight": 10500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "170924",
+      "marksAndNumbers": "GP20240912",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLUSH ANIMALS - Assorted Designs",
+      "grossWeight": 10450.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "170925",
+      "marksAndNumbers": "GP20240912",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLUSH ANIMALS - Assorted Designs",
+      "grossWeight": 10400.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "170926",
+      "marksAndNumbers": "GP20240912",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLUSH ANIMALS - Assorted Designs",
+      "grossWeight": 10550.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CMAU4321098",
+      "sealNumber": "170927",
+      "marksAndNumbers": "GP20240912",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PLUSH ANIMALS - Assorted Designs",
+      "grossWeight": 10400.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 600,
+    "totalGrossWeight": 52700.0,
+    "totalMeasurement": 140.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240912-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "0000101033925"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING INC.",
+      "address": "1234 Main Street, Suite 500, Hong Kong",
+      "telephone": "+852-2567-8901",
+      "fax": "+852-2567-8902"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING INC.",
+      "address": "1234 Main Street, Suite 500, Hong Kong",
+      "telephone": "+852-2567-8901",
+      "fax": "+852-2567-8902"
+    },
+    "onboardDate": "2024-09-15 14:00",
+    "additionalRemarks": "TOYS PACKAGED IN INDIVIDUAL BOXES, TOTAL VALUE: USD 25,000"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409141490",
+  "customerName": "ABC IMPORT EXPORT INC.",
+  "shipperName": "DEF MANUFACTURING CO. LTD.",
+  "invoiceReceiver": "ABC IMPORT EXPORT INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240923W"
+  },
+  "cargoDetails": {
+    "hsCode": "940160",
+    "chapterDescription": "SEATS OF ALL KINDS, WHETHER OR NOT WITH ARM-RESTS, BACK-RESTS, OR FOOT-RESTS",
+    "commodity": "OFFICE CHAIRS"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-17 10:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-18 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-22 16:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "CARGO REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT, VALUE: USD50,000"
+}

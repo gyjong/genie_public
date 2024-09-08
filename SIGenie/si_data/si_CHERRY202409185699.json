@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202409185699",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2436EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-1235"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "456 BROADWAY AVE, NEW YORK, NY 10003, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679",
+      "email": "IMPORT@SUNRISEIMPORTS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2026038",
+      "sealNumber": "170768",
+      "marksAndNumbers": "SUNRISE2436EAW1",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: HP LAPTOP MODELS X15 AND X25",
+      "grossWeight": 19121.0,
+      "measurement": 20.618
+    },
+    {
+      "containerNumber": "CRLU2030543",
+      "sealNumber": "170658",
+      "marksAndNumbers": "SUNRISE2436EAW2",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DELL DESKTOP MODELS D120 AND D230",
+      "grossWeight": 18643.0,
+      "measurement": 20.071
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 200,
+    "totalGrossWeight": 37764.0,
+    "totalMeasurement": 40.689
+  },
+  "additionalInformation": {
+    "invoiceNumber": "3669224-06",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "456 BROADWAY AVE, NEW YORK, NY 10003, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LLC",
+      "address": "456 BROADWAY AVE, NEW YORK, NY 10003, USA",
+      "telephone": "+1-212-555-5678",
+      "fax": "+1-212-555-5679"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Value: USD200,000"
+  }
+}

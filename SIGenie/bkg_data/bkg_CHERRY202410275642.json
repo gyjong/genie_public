@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410275642",
+  "customerName": "ALPHA IMPORT EXPORT INC.",
+  "shipperName": "BETA MANUFACTURING CO., LTD",
+  "invoiceReceiver": "ALPHA IMPORT EXPORT INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE YARNS, OTHER THAN SPINNING, TWISTING OR DOUBLING MACHINES",
+    "commodity": "TEXTILE YARN PROCESSING MACHINERY"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-29 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-30 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-27 12:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "21 Days Free Time at Destination, Fumigation Certificate Required"
+}

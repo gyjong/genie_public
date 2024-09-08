@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409285292",
+  "customerName": "DANSKE LOGISTICS",
+  "shipperName": "GLOBAL EXPORTERS INC.",
+  "invoiceReceiver": "DANSKE LOGISTICS LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2429EWN"
+  },
+  "cargoDetails": {
+    "hsCode": "85437090",
+    "chapterDescription": "ELECTRICAL MACHINERY",
+    "commodity": "ELECTRIC MOTORS AND PUMPS"
+  },
+  "containerDetails": {
+    "size": "20 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-06 15:00",
+    "estimatedArrivalAtDischargePort": "2024-10-22 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "SPECIAL HANDLING REQUIRED: FRAGILE"
+}

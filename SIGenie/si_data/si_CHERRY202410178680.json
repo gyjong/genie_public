@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410178680",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023CGA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@GLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "email": "ORDERS@ACMEIMPORT.NL"
+    },
+    "notifyParty": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 2222 3333",
+      "email": "ORDERS@ACMEIMPORT.NL"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "95030010",
+  "commodityDescription": "PLASTIC CONSTRUCTION TOYS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TOY123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CONSTRUCTION TOYS - ASSORTED COLORS AND DESIGNS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "789012",
+      "marksAndNumbers": "TOY456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CONSTRUCTION TOYS - ASSORTED COLORS AND DESIGNS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "TOY789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CONSTRUCTION TOYS - ASSORTED COLORS AND DESIGNS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "567890",
+      "marksAndNumbers": "TOY135",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CONSTRUCTION TOYS - ASSORTED COLORS AND DESIGNS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3691247",
+      "sealNumber": "901234",
+      "marksAndNumbers": "TOY246",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "PLASTIC CONSTRUCTION TOYS - ASSORTED COLORS AND DESIGNS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ACME IMPORT & EXPORT LTD.",
+      "address": "456 IMPORT LANE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31 10 2222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 1234"
+    },
+    "onboardDate": "2024-10-24 12:00",
+    "additionalRemarks": "TOYS FOR CHRISTMAS SEASON, PACKING LIST PROVIDED."
+  }
+}

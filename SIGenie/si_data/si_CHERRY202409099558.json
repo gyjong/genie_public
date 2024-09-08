@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202409099558",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243E24"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "23RD FLOOR, NEW BUND TIMES SQUARE, 399 WEST HAIYANG ROAD,PUDONG, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING CO., LTD.",
+      "address": "HANOVERSTRASSE 28, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "23RD FLOOR, NEW BUND TIMES SQUARE, 399 WEST HAIYANG ROAD,PUDONG, SHANGHAI, CHINA"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "63079090",
+  "commodityDescription": "BED LINEN SET",
+  "containers": [
+    {
+      "containerNumber": "MSKU8574362",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL123",
+      "numberOfPackages": 100,
+      "cargoDescription": "BED LINEN SETS - AS PER PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU7629418",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DHL456",
+      "numberOfPackages": 100,
+      "cargoDescription": "BED LINEN SETS - AS PER PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU1193527",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DHL789",
+      "numberOfPackages": 100,
+      "cargoDescription": "BED LINEN SETS - AS PER PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU3265798",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DHL101",
+      "numberOfPackages": 100,
+      "cargoDescription": "BED LINEN SETS - AS PER PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "MSKU5527846",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DHL135",
+      "numberOfPackages": 100,
+      "cargoDescription": "BED LINEN SETS - AS PER PACKING LIST",
+      "grossWeight": 1200.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 6000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "000020103374"
+    },
+    "certificateDetails": [
+      "1000020070131X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "23RD FLOOR, NEW BUND TIMES SQUARE, 399 WEST HAIYANG ROAD,PUDONG, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING CO., LTD.",
+      "address": "HANOVERSTRASSE 28, 20354 HAMBURG, GERMANY",
+      "telephone": "+49 40 3333 4444",
+      "fax": "+49 40 3333 5555"
+    },
+    "onboardDate": "2024-09-18 14:00",
+    "additionalRemarks": "CARGO MUST BE PACKED IN PROTECTIVE PACKAGING."
+  }
+}

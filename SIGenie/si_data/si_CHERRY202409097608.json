@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202409097608",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "243W112E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Ltd.",
+      "address": "123 Industrial Zone, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 1111",
+      "fax": "+86 574 8888 2222"
+    },
+    "consignee": {
+      "name": "ABC Trading Corp.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 1234 5679",
+      "email": "info@abctrading.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics BV",
+      "address": "789 Logistics Park, Rotterdam, Netherlands",
+      "telephone": "+31 10 9876 5432",
+      "fax": "+31 10 9876 5433",
+      "email": "logistics@abclogistics.nl"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLES (MODEL: RX-250)",
+  "containers": [
+    {
+      "containerNumber": "MSCU3785694",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC20240911",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLES (MODEL: RX-250)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC20240911",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLES (MODEL: RX-250)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ABC20240911",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLES (MODEL: RX-250)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8901234",
+      "sealNumber": "567890",
+      "marksAndNumbers": "ABC20240911",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLES (MODEL: RX-250)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU5678901",
+      "sealNumber": "901234",
+      "marksAndNumbers": "ABC20240911",
+      "numberOfPackages": 100,
+      "cargoDescription": "MOTORCYCLES (MODEL: RX-250)",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40' DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "ABC20240911-001",
+    "documentNumber": "20240911-ABC-001",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "C-20240911-001",
+      "CO-20240911-002"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Trading Corp.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Corp.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-09-18 10:00",
+    "additionalRemarks": "CY-CY, Value: USD 50,000"
+  }
+}

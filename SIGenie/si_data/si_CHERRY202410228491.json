@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202410228491",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2433E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENTERPRISES",
+      "address": "228 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-7777"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "DE POEL 23, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1313"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "PAPER MILL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EURO IMPORTS LTD. ROTTERDAM",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PAPER MILL EQUIPMENT",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "EURO IMPORTS LTD. ROTTERDAM",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PAPER MILL EQUIPMENT",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 55.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-10-22-001",
+    "salesOrderNumber": "SO-2024-10-22-002",
+    "lcDetails": {
+      "lcNumber": "LC-2024-10-22-003"
+    },
+    "certificateDetails": "CN20241022004",
+    "originalBLDistribution": {
+      "name": "EURO IMPORTS LTD.",
+      "address": "DE POEL 23, 3011 AC ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-412-3456",
+      "fax": "+31-10-412-3457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1313"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "DANGEROUS GOODS: Class 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "dangerousGoods": true,
+    "unNumber": "3334",
+    "properShippingName": "Aviation Regulated Solid - Oxidizing",
+    "class": "9",
+    "packingGroup": "II",
+    "subsidiaryRisk": null,
+    "flashPoint": null,
+    "technicalName": null,
+    "hazards": [
+      "Oxidizing agent"
+    ],
+    "emergencyProcedures": "In case of fire, use dry chemical powder, carbon dioxide, or water spray. Avoid contact with combustible materials. Wear appropriate personal protective equipment.",
+    "storageInstructions": "Store in a cool, dry, well-ventilated area. Keep away from incompatible materials such as reducing agents and flammable substances."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410016883",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD,NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SUNRISE@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "EUROTEXTILE IMPORT GMBH",
+      "address": "INDUSTRIEPARK ROTTERDAM, UNIT 5, ROTTERDAM, 3012 AG",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTEXTILE.NL",
+      "telephone": "+31 10 2345678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD,NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "email": "SUNRISE@SUNRISEGLOBAL.COM",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES - RING SPINNERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TEXTILE 1/3",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES - RING SPINNERS (W.2400MM H.1800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE TEXTILE 2/3",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES - RING SPINNERS (W.2400MM H.1800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE TEXTILE 3/3",
+      "numberOfPackages": 10,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES - RING SPINNERS (W.2400MM H.1800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3 X 40'HC) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 96.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000123456789"
+    },
+    "certificateDetails": [
+      "CN224567890"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "SHIPPER'S LOAD, STOW AND COUNT. PLEASE ENSURE ALL SAFETY PROCEDURES ARE FOLLOWED DURING LOADING."
+  }
+}

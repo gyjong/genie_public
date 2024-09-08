@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410162885",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "242023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC LTD.",
+      "onBehalfOf": "",
+      "address": "238 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-5555",
+      "fax": "+86-21-6328-6666"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "250 ARUBA ST., AMSTERDAM, 1082 NL NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS BV",
+      "address": "325 KEizersGRAcht, AMSTERDAM, 1016 EV NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903281",
+  "commodityDescription": "OPTICAL FIBER CABLES",
+  "containers": [
+    {
+      "containerNumber": "CMLU9987654",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GP123",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OPTICAL FIBER CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU7777666",
+      "sealNumber": "6665554443",
+      "marksAndNumbers": "GP456",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OPTICAL FIBER CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "250 ARUBA ST., AMSTERDAM, 1082 NL NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LTD.",
+      "address": "238 HUAIHAI ROAD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6328-5555",
+      "fax": "+86-21-6328-6666"
+    },
+    "onboardDate": "2024-10-20 15:00",
+    "additionalRemarks": "Free Time 7 Days at Destination. Dangerous Cargo. "
+  }
+}

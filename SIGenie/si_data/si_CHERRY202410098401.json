@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202410098401",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2447W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HONG KONG SHANGHAI TRADING CO.",
+      "address": "22/F, CHINA RESOURCES BUILDING, 26 HARCOURT ROAD, CENTRAL, HONG KONG",
+      "telephone": "+852-2525-1234",
+      "fax": "+852-2525-5678"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-8901"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-8901"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 12000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 12,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 13000,
+      "measurement": 38
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY) CONTAINERS ONLY",
+    "totalPackages": 22,
+    "packageType": "PACKAGES",
+    "totalGrossWeight": 25000,
+    "totalMeasurement": 73
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231009-001",
+    "salesOrderNumber": "20231009-002",
+    "lcDetails": {},
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-8901"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HONG KONG SHANGHAI TRADING CO.",
+      "address": "22/F, CHINA RESOURCES BUILDING, 26 HARCOURT ROAD, CENTRAL, HONG KONG",
+      "telephone": "+852-2525-1234",
+      "fax": "+852-2525-5678"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT. ALL CARGO MUST BE PROPERLY PACKED AND SECURED FOR SAFE TRANSPORTATION."
+  }
+}

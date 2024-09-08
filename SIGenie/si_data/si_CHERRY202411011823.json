@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411011823",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS & EXPORTS LTD.",
+      "address": "123 Prosperity Lane, Shanghai, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "456 Trade Center Blvd, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "456 Trade Center Blvd, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "85444210",
+  "commodityDescription": "Fiber Optic Transceivers",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : FIBER OPTIC TRANCEIVERS",
+      "grossWeight": 1800.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : FIBER OPTIC TRANCEIVERS",
+      "grossWeight": 1750.0,
+      "measurement": 2.4
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 3550.0,
+    "totalMeasurement": 4.9
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231101001",
+    "salesOrderNumber": "20231101002",
+    "lcDetails": {
+      "lcNumber": "LC20231101003"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "456 Trade Center Blvd, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORTS & EXPORTS LTD.",
+      "address": "123 Prosperity Lane, Shanghai, 200000, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-11-07 12:00",
+    "additionalRemarks": "Special handling required - Fragile cargo"
+  }
+}

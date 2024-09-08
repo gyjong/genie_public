@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410011868",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EWQ"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORT.NL",
+      "telephone": "+31 20 666 1234"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORT.NL",
+      "telephone": "+31 20 666 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS, 3-PHASE, 15KW, MODEL XYZ-15, PACKED IN WOODEN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS, 3-PHASE, 15KW, MODEL XYZ-15, PACKED IN WOODEN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS, 3-PHASE, 15KW, MODEL XYZ-15, PACKED IN WOODEN CRATES",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY CONTAINER X3)",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241001-ABCDE",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE",
+      "telephone": "+31 20 666 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, 1012 DE",
+      "telephone": "+31 20 666 1234"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO, Value: USD150,000"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410221910",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2448E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 3
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "1234 SUNRISE STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870332",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR-2024-1022",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SR-2024-1022",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SR-2024-1022",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS AS PER INVOICE",
+      "grossWeight": 12500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 37500.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241022",
+    "salesOrderNumber": "SO20241022",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31-10-222-2222",
+      "fax": "+31-10-222-2223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "1234 SUNRISE STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Value: USD 30,000.  Special Handling Required: Fragile."
+  }
+}

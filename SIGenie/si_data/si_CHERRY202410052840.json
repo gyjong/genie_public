@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202410052840",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "243W2C"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENTERPRISES",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 12345678",
+      "email": "INFO@SUNRISEENTERPRISES.COM"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL857641234",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL857641234",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE ENTERPRISES",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE ENTERPRISES",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE ENTERPRISES",
+      "numberOfPackages": 1500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CONTAINER) CONTAINER ONLY",
+    "totalPackages": 4500,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CONTAINER",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "CN20241005001",
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT ROTTERDAM"
+  }
+}

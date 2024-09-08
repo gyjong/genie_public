@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410275642",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO., LTD",
+      "address": "NO. 1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAIMPORT.NL",
+      "telephone": "+31 20 123 4567"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAIMPORT.NL",
+      "telephone": "+31 20 123 4567"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE YARN PROCESSING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE YARN PROCESSING MACHINERY, AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE YARN PROCESSING MACHINERY, AS PER PACKING LIST",
+      "grossWeight": 17500.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "12345ABCDE",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "21 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "FUMIGATION CERTIFICATE REQUIRED",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 123 4567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 123 4567"
+    },
+    "onboardDate": "2024-10-29 14:00",
+    "additionalRemarks": "21 Days Free Time at Destination, Fumigation Certificate Required"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "bookingReference": "CHERRY202410015643",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EWH2"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "2345 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 7777"
+    },
+    "consignee": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679",
+      "email": "IMPORT@ZENITHIMPORTS.NL",
+      "contactPerson": "JAN VAN DER HOEK"
+    },
+    "notifyParty": {
+      "name": "ZENITH IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9024735",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ZEN20241001",
+      "numberOfPackages": 12,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 58.0
+    },
+    {
+      "containerNumber": "CRLU9024736",
+      "sealNumber": "1234568",
+      "marksAndNumbers": "ZEN20241002",
+      "numberOfPackages": 14,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 21500.0,
+      "measurement": 57.5
+    },
+    {
+      "containerNumber": "CRLU9024737",
+      "sealNumber": "1234569",
+      "marksAndNumbers": "ZEN20241003",
+      "numberOfPackages": 16,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 22500.0,
+      "measurement": 58.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 42,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 174.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "0000101033925"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234 5678",
+      "fax": "+31 20 1234 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH IMPORTS INC.",
+      "address": "456 BROADWAY, NEW YORK, NY 10003, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3333"
+  },
+  "dangerousGoods": {
+    "dangerous_goods": {
+      "proper_shipping_name": "Dangerous Goods in Machinery",
+      "un_number": "3333",
+      "class": "9",
+      "class_description": "Miscellaneous dangerous substances and articles",
+      "packing_group": "II",
+      "sub_risk": null,
+      "flash_point": null,
+      "marine_pollutant": false,
+      "technical_name": null,
+      "hazard_identification_number": "99",
+      "emergency_response_guide": "171"
+    },
+    "cargo_description": "Machinery containing dangerous goods"
+  }
+}

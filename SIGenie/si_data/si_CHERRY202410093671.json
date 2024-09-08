@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410093671",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD.",
+      "address": "No. 123, Xinhua Road, Ningbo, Zhejiang Province, China",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "De Laan 123, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "De Laan 123, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "846630",
+  "commodityDescription": "MACHINE TOOL ACCESSORIES",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINE TOOL ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINE TOOL ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINE TOOL ACCESSORIES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 45,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 7.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTC20241009",
+    "salesOrderNumber": "20241009-001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20241009001",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "De Laan 123, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "De Laan 123, 3012 AA Rotterdam, Netherlands",
+      "telephone": "+31-10-4567890",
+      "fax": "+31-10-4567891"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Value: USD150,000. Requires special handling for fragile components."
+  }
+}
