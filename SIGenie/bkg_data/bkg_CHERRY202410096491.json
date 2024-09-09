@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410096491",
+  "customerName": "GLOBAL TRADING COMPANY LTD.",
+  "shipperName": "ASIA PACIFIC IMPORTS",
+  "invoiceReceiver": "GLOBAL TRADING COMPANY LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHEG"
+  },
+  "cargoDetails": {
+    "hsCode": "87164000",
+    "chapterDescription": "TRACTOrs",
+    "commodity": "AGRICULTURAL TRACTORS"
+  },
+  "containerDetails": {
+    "size": "20' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-17 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-18 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-05 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "TRACTORS TO BE SECURED ON PALLETS, VALUE: USD 250,000"
+}

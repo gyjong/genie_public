@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411027975",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "333 HUAYU ROAD, JIANGNING DISTRICT, NINGBO 315011, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "NINGBO FREE TRADE ZONE",
+      "telephone": "+86 574 8668 1234",
+      "email": "INFO@SUNRISEGLOBAL.COM"
+    },
+    "consignee": {
+      "name": "EURO TEXTILE MACHINERY BV",
+      "address": "DIJKZICHT 50, 3016 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROTEXTILE.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "333 HUAYU ROAD, JIANGNING DISTRICT, NINGBO 315011, CHINA",
+      "country": "CHINA",
+      "email": "INFO@SUNRISEGLOBAL.COM",
+      "telephone": "+86 574 8668 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TEXTILE LOOM SPARES",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TEXTILE LOOM SPARES",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE LOOM SPARE PARTS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "originalBLDistribution": {
+      "name": "EURO TEXTILE MACHINERY BV",
+      "address": "DIJKZICHT 50, 3016 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TEXTILE MACHINERY BV",
+      "address": "DIJKZICHT 50, 3016 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890"
+    },
+    "onboardDate": "2024-11-08 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

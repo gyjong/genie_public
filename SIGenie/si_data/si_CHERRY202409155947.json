@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409155947",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "240923E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012",
+      "email": "IMPORT@APLLTD.COM",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "903021",
+  "commodityDescription": "OPTICAL FIBER CABLE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OPT-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL FIBER CABLE",
+      "grossWeight": 20000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "OPT-456",
+      "numberOfPackages": 120,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL FIBER CABLE",
+      "grossWeight": 21000.0,
+      "measurement": 22.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "OPT-789",
+      "numberOfPackages": 110,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL FIBER CABLE",
+      "grossWeight": 20500.0,
+      "measurement": 21.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 330,
+    "totalGrossWeight": 61500.0,
+    "totalMeasurement": 63.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20240915-001",
+    "documentNumber": "20240915-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN20240915001",
+      "CN20240915002"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "101 EUROPA STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "onboardDate": "2024-09-28 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

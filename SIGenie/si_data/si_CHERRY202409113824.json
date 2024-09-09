@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409113824",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2424W24"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "222 HONGQIAO ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING JAPAN INC.",
+      "address": "1-2-3 SHINJUKU, TOKYO, 160-0022, JAPAN",
+      "country": "JAPAN",
+      "email": "INFO@SUNRISETRADING.JP",
+      "telephone": "+81 3 5555 1212"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "222 HONGQIAO ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "email": "OPERATIONS@SUNRISETRADING.CN",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRICAL WIRE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9762315",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL WIRE, 25KG PER CARTON",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9762316",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL WIRE, 25KG PER CARTON",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 25000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241015",
+    "hsCode": "85444210",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "25F TOKYO SANKEI BUILDING, 1-7-2, OTEMACHI, CHIYODA-KU, TKY 100-0004, JAPAN",
+      "telephone": "03600061234",
+      "fax": "81-3-6000-0001"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3077"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

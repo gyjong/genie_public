@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410312500",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO OFFICE)"
+    },
+    "consignee": {
+      "name": "EUROTECH ENGINEERING BV",
+      "address": "BEEMSTERSTRAAT 10, 1976 BE IJMUIDEN, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 255 553333"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "email": "SHIPPING@SUNRISETRADE.COM",
+      "telephone": "+86 21 63212345"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "PACKAGING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU9516783",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "PACKAGING MACHINERY AS PER INVOICE",
+      "grossWeight": 8000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "PACKAGING MACHINERY AS PER INVOICE",
+      "grossWeight": 7500.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE TRADING CO.",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "PACKAGING MACHINERY AS PER INVOICE",
+      "grossWeight": 7000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 3,
+    "packageType": "UNIT",
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 91.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CN20241031",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "328 HUANGPU ROAD, SHANGHAI, 200001, CHINA",
+      "telephone": "+86 21 63212345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH ENGINEERING BV",
+      "address": "BEEMSTERSTRAAT 10, 1976 BE IJMUIDEN, NETHERLANDS",
+      "telephone": "+31 255 553333"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Standard Dry Container, Item: PACKAGING MACHINERY"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

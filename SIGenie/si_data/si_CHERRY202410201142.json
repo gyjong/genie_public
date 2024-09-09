@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410201142",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EWR"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "BEZUIDENHOUTSEWEG 61, 2596 AR THE HAGUE, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@APLOGISTICS.NL",
+      "telephone": "+31 70 365 1234"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "BEZUIDENHOUTSEWEG 61, 2596 AR THE HAGUE, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@APLOGISTICS.NL",
+      "telephone": "+31 70 365 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-CHAIRS-1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING CHAIRS ASSEMBLED IN CARTONS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-CHAIRS-2",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING CHAIRS ASSEMBLED IN CARTONS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT-CHAIRS-3",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING CHAIRS ASSEMBLED IN CARTONS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "940360",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890123456",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "BEZUIDENHOUTSEWEG 61, 2596 AR THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 365 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS INC.",
+      "address": "BEZUIDENHOUTSEWEG 61, 2596 AR THE HAGUE, NETHERLANDS",
+      "telephone": "+31 70 365 1234"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "CUSTOMS CLEARANCE REQUIRED AT DESTINATION"
+  }
+}

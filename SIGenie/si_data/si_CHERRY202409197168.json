@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409197168",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Ave, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999",
+      "email": "info@xyzmanufacturing.com"
+    },
+    "consignee": {
+      "name": "DEF Logistics Ltd.",
+      "address": "456 Port Blvd, Rotterdam, Netherlands",
+      "taxId": "NL857632145B01",
+      "president": "Mr. John Doe",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co.",
+      "address": "789 Main St, Shanghai, China",
+      "telephone": "+86 21 6666 7777",
+      "fax": "+86 21 6666 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "Electrical Cables",
+  "containers": [
+    {
+      "containerNumber": "CMAU7865123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRICAL CABLES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7865124",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ124",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRICAL CABLES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7865125",
+      "sealNumber": "111111",
+      "marksAndNumbers": "XYZ125",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "ELECTRICAL CABLES - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINER(S)",
+    "totalPackages": 300,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456789"
+    },
+    "certificateDetails": "CN123456789",
+    "originalBLDistribution": {
+      "name": "DEF Logistics Ltd.",
+      "address": "456 Port Blvd, Rotterdam, Netherlands",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "789 Main St, Shanghai, China",
+      "telephone": "+86 21 6666 7777",
+      "fax": "+86 21 6666 8888"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Special handling required: Fragile cargo."
+  }
+}

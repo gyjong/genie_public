@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410244032",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423WECN7"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY LTD.",
+      "onBehalfOf": "",
+      "address": "2345 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "846630",
+  "commodityDescription": "METALWORKING TOOLING",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METALWORKING TOOLING",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METALWORKING TOOLING",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METALWORKING TOOLING",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU4321657",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ASIA101",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: METALWORKING TOOLING",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FOUR (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-98765432"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "VALUE: USD 150,000. SPECIAL HANDLING REQUIRED: FRAGILE."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

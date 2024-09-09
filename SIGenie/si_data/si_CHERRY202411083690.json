@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411083690",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424E099"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO., LTD.",
+      "address": "NO. 1234 SHENZHEN ROAD, SHENZHEN, GUANGDONG, 518000",
+      "country": "CHINA",
+      "additionalInfo": "(FUYONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "TOYOTA TRADING CO., LTD.",
+      "address": "2-1-1, TOYOTA-CHO, TOYOTA-SHI, AICHI 471-8570, JAPAN",
+      "country": "JAPAN",
+      "email": "IMPORT@TOYOTA.COM, LOGISTICS@TOYOTA.COM",
+      "telephone": "+81-565-28-3121"
+    },
+    "notifyParty": {
+      "name": "TOYOTA TRADING CO., LTD.",
+      "address": "2-1-1, TOYOTA-CHO, TOYOTA-SHI, AICHI 471-8570, JAPAN",
+      "country": "JAPAN",
+      "email": "IMPORT@TOYOTA.COM, LOGISTICS@TOYOTA.COM",
+      "telephone": "+81-565-28-3121"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CGMU9932654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SR1234",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS - 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU9517823",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SR1235",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS - 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU9184567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SR1236",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS - 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU9342178",
+      "sealNumber": "321654",
+      "marksAndNumbers": "SR1237",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS - 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU9675432",
+      "sealNumber": "543216",
+      "marksAndNumbers": "SR1238",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MICROPROCESSORS - 500 BOXES",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456ICP-1",
+    "hsCode": "854239",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "TOYOTA TRADING CO., LTD.",
+      "address": "2-1-1, TOYOTA-CHO, TOYOTA-SHI, AICHI 471-8570, JAPAN",
+      "telephone": "+81-565-28-3121"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TOYOTA TRADING CO., LTD.",
+      "address": "2-1-1, TOYOTA-CHO, TOYOTA-SHI, AICHI 471-8570, JAPAN",
+      "telephone": "+81-565-28-3121",
+      "fax": "+81-565-28-3122"
+    },
+    "onboardDate": "2024-11-13 15:00",
+    "additionalRemarks": "Free Time at Destination: 7 Days"
+  }
+}

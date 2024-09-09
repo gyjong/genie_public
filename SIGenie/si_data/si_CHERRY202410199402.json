@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410199402",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC",
+      "address": "1234 INDUSTRIAL PARKWAY, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1213"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ CALLE REAL, 123, MADRID, SPAIN",
+      "telephone": "+34 91 111 1111",
+      "fax": "+34 91 111 1112",
+      "email": "IMPORT@ALPHAIMPORT.COM",
+      "contactPerson": "MARIA GARCIA"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DELTA LOGISTICS LTD",
+      "address": "C/ PORTAL, 56, BARCELONA, SPAIN",
+      "telephone": "+34 93 222 2222",
+      "fax": "+34 93 222 2223"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 15,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE SPINNING MACHINE PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE SPINNING MACHINE COMPONENTS",
+      "grossWeight": 17500.0,
+      "measurement": 34.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 35,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 69.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241019-001",
+    "documentNumber": "20241019-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-SPAIN-20241019"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ CALLE REAL, 123, MADRID, SPAIN",
+      "telephone": "+34 91 111 1111",
+      "fax": "+34 91 111 1112"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT EXPORT LTD",
+      "address": "C/ CALLE REAL, 123, MADRID, SPAIN",
+      "telephone": "+34 91 111 1111",
+      "fax": "+34 91 111 1112"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "Free time 7 days at destination port."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

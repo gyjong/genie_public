@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409109495",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243E25"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "NO. 1234, HUANAN ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL FORWARDING SOLUTIONS (SINGAPORE)",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@GFS-SINGAPORE.COM, SALES@GFS-SINGAPORE.COM",
+      "telephone": "+65 6221 8888"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FORWARDING SOLUTIONS (SINGAPORE)",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@GFS-SINGAPORE.COM, SALES@GFS-SINGAPORE.COM",
+      "telephone": "+65 6221 8888"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017100",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS-2024-10",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GFS-2024-11",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GFS-2024-12",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS AS PER INVOICE",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY CONTAINER X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GFS-2024-1009",
+    "hsCode": "94017100",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0012345678"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "GLOBAL FORWARDING SOLUTIONS (SINGAPORE)",
+      "address": "10 Anson Road, #25-01 International Plaza, Singapore 079903",
+      "telephone": "+65 6221 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO. LTD.",
+      "address": "NO. 1234, HUANAN ROAD, NINGBO, 315000",
+      "telephone": "+86 574 88888888"
+    },
+    "onboardDate": "2024-09-20 14:00",
+    "additionalRemarks": "CARGO SHOULD BE SECURED PROPERLY. VALUE: USD 50,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

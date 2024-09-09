@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410172090",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2420EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "333 CHANGAN ROAD, SHANGHAI, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "CONTACT PERSON: MR. LI WEI"
+    },
+    "consignee": {
+      "name": "GOLDEN STAR LOGISTICS LTD",
+      "address": "222 ANNA STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GOLDENSTARLOGISTICS.NL",
+      "telephone": "+31 10 202 1000"
+    },
+    "notifyParty": {
+      "name": "GOLDEN STAR LOGISTICS LTD",
+      "address": "222 ANNA STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GOLDENSTARLOGISTICS.NL",
+      "telephone": "+31 10 202 1000"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9367123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) POWER TRANSFORMER - WEIGHT 20,000 KG",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1111456",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) POWER TRANSFORMER - WEIGHT 20,000 KG",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "85444210",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GOLDEN STAR LOGISTICS LTD",
+      "address": "222 ANNA STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "telephone": "+31 10 202 1000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN STAR LOGISTICS LTD",
+      "address": "222 ANNA STREET, ROTTERDAM, 3012 AB, NETHERLANDS",
+      "telephone": "+31 10 202 1000"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES SPECIAL HANDLING: FRAGILE. B/L: TO BE ISSUED"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

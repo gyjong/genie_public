@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409247946",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2425EWK"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING COMPANY",
+      "address": "123 Huangpu Road, Ningbo, Zhejiang, China 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654321"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 Zuidas, Amsterdam, Netherlands 1071 GX",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 Zuidas, Amsterdam, Netherlands 1071 GX",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "Power Transformers",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 20000,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 20000,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 20000,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 HIGH CUBE) CONTAINERS",
+    "totalPackages": 30,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "9070825",
+    "salesOrderNumber": "2083281",
+    "lcDetails": {
+      "lcNumber": "00002010339242"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 Zuidas, Amsterdam, Netherlands 1071 GX",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 Zuidas, Amsterdam, Netherlands 1071 GX",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Please ensure container doors are sealed properly."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

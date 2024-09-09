@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202409297870",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2435EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Manufacturing Ltd.",
+      "address": "2345 Industrial Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999",
+      "email": "info@sunrisemanufacturing.com"
+    },
+    "consignee": {
+      "name": "Global Traders Inc.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31 20 123 4567",
+      "email": "info@globaltraders.nl"
+    },
+    "notifyParty": {
+      "name": "Global Traders Inc.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31 20 123 4567",
+      "email": "info@globaltraders.nl"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS, AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS, AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS, AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS, AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5793218",
+      "sealNumber": "579321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS, AS PER COMMERCIAL INVOICE AND PACKING LIST",
+      "grossWeight": 10000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20 DRY CONTAINER",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31 20 123 4567",
+      "fax": "+31 20 123 4568"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Special handling required: Fragile goods. Value: USD150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

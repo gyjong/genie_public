@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409192197",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHE23"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ENTERPRISES CO., LTD",
+      "address": "No. 888, Binjiang Avenue, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)",
+      "telephone": "+86 574 8888 9999",
+      "email": "sales@sunriseenterprises.com"
+    },
+    "consignee": {
+      "name": "KANGAROO LOGISTICS LTD",
+      "address": "HafenCity, Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "hamburg@kangaroologistics.de",
+      "telephone": "+49 40 3333 4444"
+    },
+    "notifyParty": {
+      "name": "KANGAROO LOGISTICS LTD",
+      "address": "HafenCity, Hamburg, Germany",
+      "country": "GERMANY",
+      "email": "hamburg@kangaroologistics.de",
+      "telephone": "+49 40 3333 4444"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "903281",
+  "commodityDescription": "OPTICAL MICROSCOPES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "OPT-123",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "OPTICAL MICROSCOPES - MODEL A123",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "OPT-456",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "OPTICAL MICROSCOPES - MODEL B789",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) X 40' HIGH CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO_1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "KANGAROO LOGISTICS LTD",
+      "address": "HafenCity, Hamburg, Germany",
+      "telephone": "+49 40 3333 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE ENTERPRISES CO., LTD",
+      "address": "No. 888, Binjiang Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999"
+    },
+    "onboardDate": "2024-09-22 14:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  }
+}

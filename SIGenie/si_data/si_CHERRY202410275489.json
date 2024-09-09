@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410275489",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2428EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "country": "USA",
+      "additionalInfo": "ATTN: SHIPPING DEPARTMENT",
+      "telephone": "+1 212 555 1212",
+      "email": "SHIPPING@GLOBALIMPORTSINC.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, 3011NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 222 3333"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, 3011NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 222 3333"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS AS PER PACKING LIST",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, 3011NL, NETHERLANDS",
+      "telephone": "+31 10 222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, 3011NL, NETHERLANDS",
+      "telephone": "+31 10 222 3333"
+    },
+    "onboardDate": "2024-10-30 14:00",
+    "additionalRemarks": "Free Time: 5 Days at Destination Port"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

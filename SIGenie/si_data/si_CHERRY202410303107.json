@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410303107",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING LTD",
+      "address": "123 FACTORY LANE, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234 5678",
+      "email": "INFO@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 OFFICE STREET, TOKYO, JAPAN",
+      "taxId": "1234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+81 3 1234 5678",
+      "fax": "+81 3 9876 5432"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT CO. JAPAN BRANCH",
+      "address": "123 OFFICE STREET, TOKYO, JAPAN",
+      "taxId": "9876543210",
+      "president": "MR. JANE DOE",
+      "telephone": "+81 3 9876 5432",
+      "fax": "+81 3 1234 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "BOXES",
+    "containerType": "40 HIGH CUBE DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 OFFICE STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 1234 5678",
+      "fax": "+81 3 9876 5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT CO.",
+      "address": "123 OFFICE STREET, TOKYO, JAPAN",
+      "telephone": "+81 3 1234 5678",
+      "fax": "+81 3 9876 5432"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3166"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

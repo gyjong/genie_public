@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411032374",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424EWLHA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@ASIA-PACIFIC.NL",
+      "telephone": "+31 20 345 6789"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "IMPORT@ASIA-PACIFIC.NL",
+      "telephone": "+31 20 345 6789"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854231",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASPL2345",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN SEMICONDUCTORS, PALLETIZED",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU87654321",
+      "sealNumber": "87654321",
+      "marksAndNumbers": "ASPL2346",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN SEMICONDUCTORS, PALLETIZED",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "854231",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 345 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "145 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 345 6789",
+      "fax": "+31 20 345 6790"
+    },
+    "onboardDate": "2024-11-07 12:00",
+    "additionalRemarks": "Standard dry containers, Value: USD 50,000"
+  }
+}

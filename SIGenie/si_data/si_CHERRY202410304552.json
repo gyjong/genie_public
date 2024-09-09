@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202410304552",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHSG123"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL WIRE",
+  "containers": [
+    {
+      "containerNumber": "CCMU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE 1",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL WIRE - 2.5MM\u00b2",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CCMU87654321",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "SUNRISE 2",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRICAL WIRE - 4.0MM\u00b2",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC2024102712345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "456 DUTCH BOULEVARD, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Pre-cooling required, Class: 9, UN No: 3166"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

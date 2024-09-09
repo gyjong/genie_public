@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202411057754",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI BAOSHENG METAL CO., LTD",
+      "address": "NO. 1888, SHENYANG ROAD, BAOSHAN DISTRICT, SHANGHAI, CHINA",
+      "telephone": "+86-21-56789012",
+      "fax": "+86-21-56789013"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM) BV",
+      "address": "STATIONSPLEIN 4, 3013 AK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-2055000",
+      "fax": "+31-10-2055001",
+      "email": "IMPORT@DHL.NL",
+      "contactPerson": "JAN VAN DER HELM"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI) CO., LTD",
+      "address": "ROOM 1201, NO.1588, XINZHEN ROAD, CHANGNING DISTRICT, SHANGHAI, CHINA",
+      "telephone": "+86-21-62798000",
+      "fax": "+86-21-62798001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "72091100",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BSM231105",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 24000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "BSM231105",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: STEEL PLATES",
+      "grossWeight": 23500.0,
+      "measurement": 29.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40DRY CONTAINERS",
+    "totalPackages": 100,
+    "totalGrossWeight": 47500.0,
+    "totalMeasurement": 59.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "BSM-20241105-001",
+    "documentNumber": "20241105-0001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI) CO., LTD",
+      "address": "ROOM 1201, NO.1588, XINZHEN ROAD, CHANGNING DISTRICT, SHANGHAI, CHINA",
+      "telephone": "+86-21-62798000",
+      "fax": "+86-21-62798001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI) CO., LTD",
+      "address": "ROOM 1201, NO.1588, XINZHEN ROAD, CHANGNING DISTRICT, SHANGHAI, CHINA",
+      "telephone": "+86-21-62798000",
+      "fax": "+86-21-62798001"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED AT ROTTERDAM"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410265754",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24047E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PRECISION MACHINERY CO.",
+      "onBehalfOf": "",
+      "address": "No. 1234, Xingye Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "Unit 10, Portside Business Park, Rotterdam, Netherlands",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "Unit 10, Portside Business Park, Rotterdam, Netherlands"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "845960",
+  "commodityDescription": "CNC MILLING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CNC MILLING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CNC MILLING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ASIA789",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CNC MILLING MACHINES",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "Unit 10, Portside Business Park, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "Unit 10, Portside Business Park, Rotterdam, Netherlands",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "Machinery packaged in wooden crates. Value: USD 150,000"
+  }
+}

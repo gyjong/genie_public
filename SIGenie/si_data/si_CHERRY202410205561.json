@@ -1,0 +1,145 @@
+{
+  "bookingReference": "CHERRY202410205561",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409Z34E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "MARINE LOGISTICS SOLUTIONS LTD.",
+      "address": "328 NORTH BRIDGE ROAD, #03-01,  SINGAPORE 179079",
+      "country": "SINGAPORE",
+      "additionalInfo": "(SINGAPORE)"
+    },
+    "consignee": {
+      "name": "WIND ENERGY GMBH",
+      "address": "DEHNSTRASSE 21, 20355 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@WINDENERGYGMBH.DE",
+      "telephone": "+49 40 3097333"
+    },
+    "notifyParty": {
+      "name": "MARINE LOGISTICS SOLUTIONS LTD.",
+      "address": "328 NORTH BRIDGE ROAD, #03-01,  SINGAPORE 179079",
+      "country": "SINGAPORE",
+      "email": "OPERATIONS@MARINELOGISTICS.COM",
+      "telephone": "+65 6536 8888"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "WIND TURBINE GENERATOR",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "WTEG001",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "WTEG002",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "WTEG003",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "WTEG004",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU5132648",
+      "sealNumber": "513264",
+      "marksAndNumbers": "WTEG005",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU8796542",
+      "sealNumber": "879654",
+      "marksAndNumbers": "WTEG006",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "SIX (20' DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 6,
+    "packageType": "UNIT",
+    "totalGrossWeight": 150000.0,
+    "totalMeasurement": 240.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241015",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN",
+    "originalBLDistribution": {
+      "name": "WIND ENERGY GMBH",
+      "address": "DEHNSTRASSE 21, 20355 HAMBURG, GERMANY",
+      "telephone": "+49 40 3097333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MARINE LOGISTICS SOLUTIONS LTD.",
+      "address": "328 NORTH BRIDGE ROAD, #03-01,  SINGAPORE 179079",
+      "telephone": "+65 6536 8888"
+    },
+    "onboardDate": "2024-10-24 14:00",
+    "additionalRemarks": "WIND TURBINE GENERATOR, WEIGHT: 25,000KG PER CONTAINER, VALUE: USD300,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

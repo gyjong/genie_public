@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410172569",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "241024E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING INC.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@ABCMFG.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "125 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 622 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "125 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 622 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION CABLES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION CABLES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION CABLES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "ABC234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION CABLES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC678",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TELECOMMUNICATION CABLES - FRAGILE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 40' HIGH CUBE CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "125 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 622 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "125 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DE",
+      "telephone": "+31 20 622 1234"
+    },
+    "onboardDate": "2024-10-20 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED - FRAGILE CARGO. Value: USD 150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

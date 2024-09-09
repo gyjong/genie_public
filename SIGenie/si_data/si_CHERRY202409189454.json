@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409189454",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-6329-8765",
+      "fax": "+86-21-6329-8766"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "companyNumber": "HRB 123456"
+    },
+    "notifyParty": {
+      "name": "EURO LOGISTICS GMBH",
+      "address": "LANDSTRASSE 56, 20359 HAMBURG, GERMANY"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "APTC-2024-10-01",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "APTC-2024-10-02",
+      "numberOfPackages": 2,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE DRY) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "CRATES",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LLC",
+      "address": "FRANKFURTER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-12345678",
+      "fax": "+49-40-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-6329-8765",
+      "fax": "+86-21-6329-8766"
+    },
+    "onboardDate": "2024-09-24 12:00",
+    "additionalRemarks": "Please ensure proper lashing of the transformers inside the containers."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410293601",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410E24"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA IMPORT EXPORT LTD",
+      "address": "123 Huangpu Road, Ningbo, Zhejiang, China, 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 Damrak, 1012 ZL Amsterdam, Netherlands",
+      "telephone": "+31-20-6245678",
+      "fax": "+31-20-6245679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 Damrak, 1012 ZL Amsterdam, Netherlands",
+      "telephone": "+31-20-6245678",
+      "fax": "+31-20-6245679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-20241029",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT-20241029",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "213456",
+      "marksAndNumbers": "GT-20241029",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU2468013",
+      "sealNumber": "567890",
+      "marksAndNumbers": "GT-20241029",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU5432109",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GT-20241029",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ITEM : WOODEN CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-20241025",
+    "salesOrderNumber": "SO-20241026",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin issued",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 Damrak, 1012 ZL Amsterdam, Netherlands",
+      "telephone": "+31-20-6245678",
+      "fax": "+31-20-6245679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORT EXPORT LTD",
+      "address": "123 Huangpu Road, Ningbo, Zhejiang, China, 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Five 20ft dry containers, containing wooden chairs. Value: USD25,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

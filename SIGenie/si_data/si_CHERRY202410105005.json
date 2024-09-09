@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410105005",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2420EAW3"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE CHEMICALS LTD.",
+      "address": "222 HUANGPU ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6321-1234",
+      "fax": "+86-21-6321-5678"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "CALLE GRAN VIA 5, 28013 MADRID, SPAIN",
+      "telephone": "+34-91-576-0123",
+      "fax": "+34-91-576-4321",
+      "email": "IMPORT@DELTATRADING.ES",
+      "contactPerson": "JUAN GARCIA"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "SUNRISE LOGISTICS",
+      "address": "123 CHANG'AN ROAD, SHANGHAI, CHINA 200002",
+      "telephone": "+86-21-3456-7890",
+      "fax": "+86-21-3456-1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "290513",
+  "commodityDescription": "PHOSPHORIC ACID",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 200,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PHOSPHORIC ACID",
+      "grossWeight": 24000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 200,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: PHOSPHORIC ACID",
+      "grossWeight": 24000.0,
+      "measurement": 28.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 400,
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 56.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "202410105005-01",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC202410105005"
+    },
+    "certificateDetails": [
+      "202410105005-C1",
+      "202410105005-C2"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "CALLE GRAN VIA 5, 28013 MADRID, SPAIN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "CALLE GRAN VIA 5, 28013 MADRID, SPAIN"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  }
+}

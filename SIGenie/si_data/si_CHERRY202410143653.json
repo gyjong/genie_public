@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202410143653",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "address": "2345 HONGQI ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "fax": "+86 21 5555 7777"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "IMPORT@GLOBALTRADING.NL",
+      "contactPerson": "ANNA VAN DER SLOOT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "61091000",
+  "commodityDescription": "Knitted Cotton Fabric Rolls",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL2310",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GLOBAL2310",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GLOBAL2310",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "GLOBAL2310",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CRLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GLOBAL2310",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED COTTON FABRIC ROLLS",
+      "grossWeight": 12000.0,
+      "measurement": 18.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 92.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241014-001",
+    "documentNumber": "20241014001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "1234 AMSTERDAMSE STRAAT, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "onboardDate": "2024-10-21 12:00",
+    "additionalRemarks": "FRAGILE CARGO, HANDLE WITH CARE. Value: USD 50,000"
+  }
+}

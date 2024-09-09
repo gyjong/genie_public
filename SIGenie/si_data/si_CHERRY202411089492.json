@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411089492",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24242E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ MANUFACTURING LTD.",
+      "address": "NO. 1234, SHENNAN ROAD, NINGBO, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SALES@XYZMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCINTERNATIONAL.NL, ORDERS@ABCINTERNATIONAL.NL",
+      "telephone": "+31 20 6666 1234"
+    },
+    "notifyParty": {
+      "name": "ABC INTERNATIONAL TRADING CO.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCINTERNATIONAL.NL, ORDERS@ABCINTERNATIONAL.NL",
+      "telephone": "+31 20 6666 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854239",
+  "commodityDescription": "MICROPROCESSORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "MICROPROCESSORS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40' HC) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "411252403578X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-11-15 15:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

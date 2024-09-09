@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409236530",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunbeam Industries Ltd.",
+      "address": "No. 123, Xinhua Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "Global Trading Co.",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679",
+      "email": "info@globaltrading.nl",
+      "contactPerson": "Peter van Dijk"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "Sunbeam Industries Ltd.",
+      "address": "No. 123, Xinhua Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "Packaging Machinery",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SB202410",
+      "numberOfPackages": 15,
+      "cargoDescription": "Packaging Machinery - Model A123",
+      "grossWeight": 6500.0,
+      "measurement": 18.5
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SB202410",
+      "numberOfPackages": 15,
+      "cargoDescription": "Packaging Machinery - Model B456",
+      "grossWeight": 6200.0,
+      "measurement": 18.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 20DRY CONTAINERS",
+    "totalPackages": 30,
+    "totalGrossWeight": 12700.0,
+    "totalMeasurement": 36.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "LC20241025ABC"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Global Trading Co.",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31-10-12345678",
+      "fax": "+31-10-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunbeam Industries Ltd.",
+      "address": "No. 123, Xinhua Road, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Packaging Machinery for textile industry. Value: USD 150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

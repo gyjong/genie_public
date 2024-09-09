@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410162570",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2442E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA GLOBAL TRADING CO.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "email": "INFO@BETAGLOBaltrading.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "124 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999"
+    },
+    "notifyParty": {
+      "name": "GAMMA SHIPPING SERVICES INC.",
+      "address": "125 WALL STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854239",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CFR, ROTTERDAM SEMICONDUCTOR CHIPS",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO1234567890",
+    "originalBLDistribution": {
+      "name": "GAMMA SHIPPING SERVICES INC.",
+      "address": "125 WALL STREET, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1313"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "124 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 9999"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Value: USD150,000. Sensitive electronic components, handle with care."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

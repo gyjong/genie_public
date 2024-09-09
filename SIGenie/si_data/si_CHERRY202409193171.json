@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409193171",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHEH1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA INDUSTRIAL SUPPLIES LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAGLOBAL.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING CO.",
+      "address": "222 AMSTERDAM STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHAGLOBAL.NL",
+      "telephone": "+31 10 456 7890"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "POWER TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "POWER TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 25000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "UNITS",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO, HANDLING INSTRUCTIONS REQUIRED"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

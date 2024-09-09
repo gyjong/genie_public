@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409108841",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Co.",
+      "address": "123 Industrial Avenue, Ningbo, China"
+    },
+    "consignee": {
+      "name": "ABC Global Trading",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "ABC Global Trading",
+      "address": "456 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847989",
+  "commodityDescription": "Textile Spinning Machines",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 10,
+      "cargoDescription": "Textile Spinning Machines - Parts",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 15,
+      "cargoDescription": "Textile Spinning Machines - Assembly",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "MSCU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "XYZ789",
+      "numberOfPackages": 5,
+      "cargoDescription": "Textile Spinning Machines - Control Unit",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 88.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Global Trading",
+      "address": "456 Trade Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Global Trading",
+      "address": "456 Trade Street, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-09-18 12:00",
+    "additionalRemarks": "Please ensure containers are properly secured for transit."
+  }
+}

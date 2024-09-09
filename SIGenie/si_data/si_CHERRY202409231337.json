@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409231337",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "240925C"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Park, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Center, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847989",
+  "commodityDescription": "MACHINERY FOR PACKAGING BOTTLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 5,
+      "cargoDescription": "PACKAGING MACHINERY - AS PER INVOICE",
+      "grossWeight": 7000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 5,
+      "cargoDescription": "PACKAGING MACHINERY - AS PER INVOICE",
+      "grossWeight": 7000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 10,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 14000.0,
+    "totalMeasurement": 66.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Center, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "2 x 20 DRY containers, Machinery for packaging bottles, Value: USD30,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "bookingReference": "CHERRY202409202795",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24324W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH INDUSTRIES CO., LTD.",
+      "address": "No. 123, Xinhua Road, Ningbo, Zhejiang, China, 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998"
+    },
+    "consignee": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "123 Main Street, Suite 200, Rotterdam, Netherlands, 3012 AB",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "info@deltaglobaltrading.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "940160",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZENITH-1",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIRS - CARGO NEEDS SPECIAL HANDLING: FRAGILE",
+      "grossWeight": 12000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ZENITH-2",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIRS - CARGO NEEDS SPECIAL HANDLING: FRAGILE",
+      "grossWeight": 12100.0,
+      "measurement": 27.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ZENITH-3",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIRS - CARGO NEEDS SPECIAL HANDLING: FRAGILE",
+      "grossWeight": 12200.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ZENITH-4",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIRS - CARGO NEEDS SPECIAL HANDLING: FRAGILE",
+      "grossWeight": 12150.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "543210",
+      "marksAndNumbers": "ZENITH-5",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOODEN CHAIRS - CARGO NEEDS SPECIAL HANDLING: FRAGILE",
+      "grossWeight": 12050.0,
+      "measurement": 27.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40' HIGH CUBE DRY CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 60500.0,
+    "totalMeasurement": 140.8
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241005-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "0000101033925"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "123 Main Street, Suite 200, Rotterdam, Netherlands, 3012 AB",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA GLOBAL TRADING LLC",
+      "address": "123 Main Street, Suite 200, Rotterdam, Netherlands, 3012 AB",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "CARGO NEEDS SPECIAL HANDLING: FRAGILE. Value: USD50,000"
+  }
+}

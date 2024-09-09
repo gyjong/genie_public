@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410152554",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24041EB"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "123 CANARY WHARF, LONDON E14 9EQ, UNITED KINGDOM",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "123 CANARY WHARF, LONDON E14 9EQ, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA123",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 18500.0,
+      "measurement": 50.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9987655",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA124",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 18500.0,
+      "measurement": 50.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ZENITH LOGISTICS LTD",
+      "address": "123 CANARY WHARF, LONDON E14 9EQ, UNITED KINGDOM",
+      "telephone": "+44-20-7946-1234",
+      "fax": "+44-20-7946-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Pre-slinging required. B/L to be issued to consignee"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

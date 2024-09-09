@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202411046954",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W117"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MACHINERY LTD.",
+      "address": "238 Huashan Road, Shanghai, China",
+      "telephone": "+86-21-6238-9999",
+      "fax": "+86-21-6238-8888"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "842139",
+  "commodityDescription": "INDUSTRIAL PUMPS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APM12345",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PUMPS ARE NEW AND PACKAGED IN INDIVIDUAL CRATES.",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU6789012",
+      "sealNumber": "678901",
+      "marksAndNumbers": "APM67890",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PUMPS ARE NEW AND PACKAGED IN INDIVIDUAL CRATES.",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU3456789",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APM34567",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "PUMPS ARE NEW AND PACKAGED IN INDIVIDUAL CRATES.",
+      "grossWeight": 12000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER) CONTAINERS",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 75
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTS20241104",
+    "salesOrderNumber": "APM20241104",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN-20241104-001",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "123 Main Street, Amsterdam, Netherlands",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "onboardDate": "2024-11-06 10:00",
+    "additionalRemarks": "PUMPS ARE NEW AND PACKAGED IN INDIVIDUAL CRATES. VALUE: USD150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

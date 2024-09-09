@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202409105877",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2437EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA, 315000",
+      "telephone": "+86-574-86865432",
+      "fax": "+86-574-86865433"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 WALL STREET, NEW YORK, USA, 10005"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "MACHINE PARTS",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINE PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 60.0,
+      "additionalInfo": "D/G, Class: 3, UN No: 1950"
+    },
+    {
+      "containerNumber": "MSCU8765432",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MACHINE PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 60.0,
+      "additionalInfo": "D/G, Class: 3, UN No: 1950"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 20,
+    "packageType": "PALLETS",
+    "containerType": "40HC",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": ""
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "123 CANAL STREET, ROTTERDAM, NETHERLANDS, 3011AB",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-8765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 WALL STREET, NEW YORK, USA, 10005"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "D/G, Class: 3, UN No: 1950"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

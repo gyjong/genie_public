@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410049056",
+  "customerName": "GLOBAL IMPORTS INC",
+  "shipperName": "ASIA PACIFIC TRADING CO. LTD",
+  "invoiceReceiver": "GLOBAL IMPORTS INC",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "ELECTRICAL TRANSFORMERS, STATIC CONVERTERS (FOR EXAMPLE, RECTIFIERS)",
+    "commodity": "POWER TRANSFORMERS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-08 10:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-09 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-05 06:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CY/CY",
+  "remarks": "10 Days Free Time at Destination"
+}

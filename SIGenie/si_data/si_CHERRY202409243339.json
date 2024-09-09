@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202409243339",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2439E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA SHIPPING CO. LTD.",
+      "address": "NO. 123, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPING@CHINAShipping.COM.CN"
+    },
+    "consignee": {
+      "name": "EUROTEX IMPORT BV",
+      "address": "BEUKELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTEXIMPORT.NL, ORDERS@EUROTEXIMPORT.NL",
+      "telephone": "+31 10 444 5555"
+    },
+    "notifyParty": {
+      "name": "EUROTEX IMPORT BV",
+      "address": "BEUKELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTEXIMPORT.NL, ORDERS@EUROTEXIMPORT.NL",
+      "telephone": "+31 10 444 5555"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "EUROTEX123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "EUROTEX456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU5566778",
+      "sealNumber": "1357924680",
+      "marksAndNumbers": "EUROTEX789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU2244669",
+      "sealNumber": "2468013579",
+      "marksAndNumbers": "EUROTEX101",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CMAU3388990",
+      "sealNumber": "3579246801",
+      "marksAndNumbers": "EUROTEX112",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20' DRY CONTAINER(S)",
+    "totalPackages": 250,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 127.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTEX IMPORT BV",
+      "address": "BEUKELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTEX IMPORT BV",
+      "address": "BEUKELAAN 123, 3010 ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 5555"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "FRAGILE HANDLING REQUIRED"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410122132",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Blvd, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8623 4567",
+      "email": "shipping@xyzmanufacturing.cn"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 Sakura Street, Tokyo, Japan",
+      "taxId": "123-4567-8901",
+      "president": "Mr. Kenzo Tanaka",
+      "telephone": "+81 3 5555 1234",
+      "fax": "+81 3 5555 5678"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co. (Japan)",
+      "address": "456 Sakura Street, Tokyo, Japan",
+      "taxId": "123-4567-8901",
+      "president": "Mr. Kenzo Tanaka",
+      "telephone": "+81 3 5555 1234",
+      "fax": "+81 3 5555 5678"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "85444210",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500067",
+      "sealNumber": "894100",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS TRANSFORMERS",
+      "grossWeight": 19892.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE X2",
+    "totalGrossWeight": 39784.0,
+    "totalMeasurement": 40.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "Requires pre-cooling. Class: 9, UN No: 3334"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

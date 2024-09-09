@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410257304",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS INC",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC BOTTLE LABELING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CCLU2576893",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLT-123",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC BOTTLE LABELING MACHINE",
+      "grossWeight": 1800.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CCLU2576894",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLT-456",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC BOTTLE LABELING MACHINE",
+      "grossWeight": 1800.0,
+      "measurement": 2.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER)",
+    "totalPackages": 2,
+    "packageType": "CRATES",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 5.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241025-001",
+    "salesOrderNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "00002010339242"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "10 DOWNING STREET, LONDON SW1A 2AA, UNITED KINGDOM",
+      "telephone": "+44-20-7930-5000",
+      "fax": "+44-20-7930-5001"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Containers require pre-trip inspection."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202409195824",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA STEEL CORPORATION",
+      "address": "123 STEEL STREET, BEIJING, CHINA",
+      "telephone": "+86 10 1234 5678",
+      "fax": "+86 10 9876 5432"
+    },
+    "consignee": {
+      "name": "GOLDEN GATE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 1212",
+      "fax": "+1 415 555 1213",
+      "email": "IMPORT@GOLDENGATELOGISTICS.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72083700",
+  "commodityDescription": "STEEL PLATES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "CMA1234567",
+      "marksAndNumbers": "CHINA STEEL CORP",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA1234567\"",
+      "grossWeight": 25000.0,
+      "measurement": 67.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "CMA9876543",
+      "marksAndNumbers": "CHINA STEEL CORP",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA9876543\"",
+      "grossWeight": 24500.0,
+      "measurement": 66.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 49500.0,
+    "totalMeasurement": 133.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20241001-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN-20241001"
+    ],
+    "originalBLDistribution": {
+      "name": "GOLDEN GATE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 1212",
+      "fax": "+1 415 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GOLDEN GATE LOGISTICS INC.",
+      "address": "123 MAIN STREET, SAN FRANCISCO, CA 94105, USA",
+      "telephone": "+1 415 555 1212",
+      "fax": "+1 415 555 1213"
+    },
+    "onboardDate": "2024-10-02 12:00",
+    "additionalRemarks": "SHIPPER'S LOAD AND COUNT. CONTAINER SEAL: CMA1234567"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202409174442",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2432EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing",
+      "address": "123 Industrial Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 5678 9012",
+      "email": "shipping@xyzmanufacturing.com"
+    },
+    "consignee": {
+      "name": "DEF Imports Inc.",
+      "address": "456 Trade Street, Hamburg, Germany",
+      "taxId": "DE123456789",
+      "president": "Mr. John Smith",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Company",
+      "address": "789 Commerce Avenue, Shanghai, China",
+      "telephone": "+86 21 9876 5432",
+      "email": "logistics@abctrading.com"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847989",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY TEXTILE MACHINERY PARTS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, HAMBURG, GERMANY TEXTILE MACHINERY PARTS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40'HC X2",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO, FORM A",
+    "originalBLDistribution": {
+      "name": "ABC Trading Company",
+      "address": "789 Commerce Avenue, Shanghai, China",
+      "telephone": "+86 21 9876 5432",
+      "fax": "+86 21 9876 5433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DEF Imports Inc.",
+      "address": "456 Trade Street, Hamburg, Germany",
+      "telephone": "+49 40 1234 5678",
+      "fax": "+49 40 1234 5679"
+    },
+    "onboardDate": "2024-10-22 14:00",
+    "additionalRemarks": "Dangerous Goods: Class 9, UN No: 3335"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7708794",
+    "unClass": "2",
+    "unCode": "No: 3335",
+    "hsCode": "9565.72.32",
+    "flashPoint": "97\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "bookingReference": "CHERRY202409184710",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86 574 123 4567",
+      "email": "INFO@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "456 MOONLIGHT AVENUE, HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. JOHN DOE",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "456 MOONLIGHT AVENUE, HAMBURG, GERMANY",
+      "taxId": "DE123456789",
+      "president": "MR. JOHN DOE",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "620462",
+  "commodityDescription": "LADIES' JEANS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' JEANS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE TRADING LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' JEANS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE TRADING LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' JEANS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SUNRISE TRADING LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' JEANS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5137029",
+      "sealNumber": "513702",
+      "marksAndNumbers": "SUNRISE TRADING LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES' JEANS - AS PER COMMERCIAL INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY X5) CONTAINERS",
+    "totalPackages": 5000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE UPON REQUEST",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "456 MOONLIGHT AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING LTD",
+      "address": "456 MOONLIGHT AVENUE, HAMBURG, GERMANY",
+      "telephone": "+49 40 123 4567",
+      "fax": "+49 40 123 4568"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "5 x 20' Dry Containers, Item: Ladies' Jeans"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410031156",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "consignee": {
+      "name": "WESTERNS LOGISTICS INC.",
+      "address": "12 MAIN STREET, BERLIN, GERMANY 10117",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "90261000",
+  "commodityDescription": "ELECTRIC GUITARS & AMPLIFIERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC GUITARS & AMPLIFIERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 6000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU8901234",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC GUITARS & AMPLIFIERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 6000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "234567",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC GUITARS & AMPLIFIERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 6000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "890123",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC GUITARS & AMPLIFIERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 6000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9012345",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GT-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC GUITARS & AMPLIFIERS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 6000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "WESTERNS LOGISTICS INC.",
+      "address": "12 MAIN STREET, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87654321",
+      "fax": "+86-574-87654322"
+    },
+    "onboardDate": "2024-10-10 12:00",
+    "additionalRemarks": "FRAGILE CARGO. PACKING: INDIVIDUAL BOXES. VALUE: USD 50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

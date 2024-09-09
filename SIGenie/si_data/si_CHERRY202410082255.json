@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410082255",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Exports Inc.",
+      "address": "123 Export Street, Ningbo, China"
+    },
+    "consignee": {
+      "name": "Oceanview Logistics Inc.",
+      "address": "456 Import Avenue, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "notifyParty": {
+      "name": "Global Trading Co. Ltd.",
+      "address": "789 Trade Center, Amsterdam, Netherlands",
+      "telephone": "+31 20 300 9876",
+      "fax": "+31 20 300 5432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "Agricultural Machinery",
+  "containers": [
+    {
+      "containerNumber": "CRLU7637427",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1",
+      "numberOfPackages": 10,
+      "cargoDescription": "MACHINERY PARTS FOR AGRICULTURAL USE",
+      "grossWeight": 18000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU0713993",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2",
+      "numberOfPackages": 12,
+      "cargoDescription": "MACHINERY PARTS FOR AGRICULTURAL USE",
+      "grossWeight": 19000.0,
+      "measurement": 62.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 22,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC REEFER",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 122.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "PHYTO-20241008"
+    ],
+    "originalBLDistribution": {
+      "name": "Global Trading Co. Ltd.",
+      "address": "789 Trade Center, Amsterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Oceanview Logistics Inc.",
+      "address": "456 Import Avenue, Rotterdam, Netherlands",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 5678"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Requires special handling - temperature controlled, -18 degrees Celsius"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

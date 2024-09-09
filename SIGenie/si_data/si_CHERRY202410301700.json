@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410301700",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Original",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA GLOBAL SHIPPING LTD",
+      "address": "235 HONGQIAO RD, SHANGHAI 200001, CHINA",
+      "telephone": "+86-21-6336-8652",
+      "fax": "+86-21-6336-8653"
+    },
+    "consignee": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "WESTVLIET 221, 3016 BR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 6500",
+      "fax": "+31 10 414 6599"
+    },
+    "notifyParty": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "WESTVLIET 221, 3016 BR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 6500",
+      "fax": "+31 10 414 6599"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "90330000",
+  "commodityDescription": "SURVEYING TELESCOPE & RANGEFINDER",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ASIA GLOBAL 20241030",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURVEYING TELESCOPE & RANGEFINDER - SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN AS PER PACKING LIST",
+      "grossWeight": 2500,
+      "measurement": 15
+    },
+    {
+      "containerNumber": "CMAU7896544",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ASIA GLOBAL 20241030",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURVEYING TELESCOPE & RANGEFINDER - SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN AS PER PACKING LIST",
+      "grossWeight": 2500,
+      "measurement": 15
+    },
+    {
+      "containerNumber": "CMAU7896545",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ASIA GLOBAL 20241030",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "SURVEYING TELESCOPE & RANGEFINDER - SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN AS PER PACKING LIST",
+      "grossWeight": 2500,
+      "measurement": 15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY CONTAINER) ",
+    "totalPackages": 30,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 7500,
+    "totalMeasurement": 45
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO-2024-10-25",
+    "salesOrderNumber": "SO-2024-10-26",
+    "lcDetails": {
+      "lcNumber": "LC20241027"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "WESTVLIET 221, 3016 BR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 6500",
+      "fax": "+31 10 414 6599"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "WESTVLIET 221, 3016 BR ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 6500",
+      "fax": "+31 10 414 6599"
+    },
+    "onboardDate": "2024-10-31 14:00",
+    "additionalRemarks": "TEMPERATURE CONTROL REQUIRED, VALUE: USD 50,000"
+  }
+}

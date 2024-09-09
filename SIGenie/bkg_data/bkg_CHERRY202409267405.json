@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409267405",
+  "customerName": "SUNRISE GLOBAL TRADING CO.",
+  "shipperName": "SUNRISE GLOBAL TRADING CO.",
+  "invoiceReceiver": "SUNRISE GLOBAL TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "cargoDetails": {
+    "hsCode": "620462",
+    "chapterDescription": "Women's or girls' trousers, breeches, etc., of cotton, knitted or crocheted",
+    "commodity": "WOMEN'S TROUSERS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-22 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-07 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Standard Dry Container, Item: WOMEN'S TROUSERS, Value: USD30,000"
+}

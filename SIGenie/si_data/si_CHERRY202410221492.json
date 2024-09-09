@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410221492",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241022C17"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD",
+      "address": "23 Fuhua Road, Shanghai, China",
+      "telephone": "+86 21 5487 6543",
+      "email": "info@asiapacificimports.com"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "email": "orders@globaltradingcorp.nl"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "email": "orders@globaltradingcorp.nl"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLO241022",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS AS PER PACKING LIST",
+      "grossWeight": 18500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLO241022",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS AS PER PACKING LIST",
+      "grossWeight": 18500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CONTAINER DRY",
+    "totalGrossWeight": 37000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": "CN2024102201",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6790"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORPORATION",
+      "address": "123 Trade Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 245 6789",
+      "fax": "+31 10 245 6790"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Please ensure proper lashing and securing of cargo during transit."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

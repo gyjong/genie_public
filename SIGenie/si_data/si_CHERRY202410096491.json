@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202410096491",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHEG"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "address": "234 SHANGHAI ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "NINGBO BRANCH OFFICE",
+      "telephone": "+86 574 8623 4567",
+      "email": "ASIA.PACIFIC.IMPORTS@EXAMPLE.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87164000",
+  "commodityDescription": "AGRICULTURAL TRACTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AP-123",
+      "numberOfPackages": 5,
+      "packageType": "TRACTORS ON PALLETS",
+      "cargoDescription": "FIVE (5) AGRICULTURAL TRACTORS SECURED ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "AP-456",
+      "numberOfPackages": 5,
+      "packageType": "TRACTORS ON PALLETS",
+      "cargoDescription": "FIVE (5) AGRICULTURAL TRACTORS SECURED ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AP-789",
+      "numberOfPackages": 5,
+      "packageType": "TRACTORS ON PALLETS",
+      "cargoDescription": "FIVE (5) AGRICULTURAL TRACTORS SECURED ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AP-345",
+      "numberOfPackages": 5,
+      "packageType": "TRACTORS ON PALLETS",
+      "cargoDescription": "FIVE (5) AGRICULTURAL TRACTORS SECURED ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU5790213",
+      "sealNumber": "678901",
+      "marksAndNumbers": "AP-678",
+      "numberOfPackages": 5,
+      "packageType": "TRACTORS ON PALLETS",
+      "cargoDescription": "FIVE (5) AGRICULTURAL TRACTORS SECURED ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 20' DRY CONTAINERS",
+    "totalPackages": 25,
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31 20 624 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY LTD.",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "2024-10-17 12:00",
+    "additionalRemarks": "TRACTORS TO BE SECURED ON PALLETS, VALUE: USD 250,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

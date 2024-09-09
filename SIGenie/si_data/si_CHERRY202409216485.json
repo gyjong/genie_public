@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409216485",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440W1EA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "2345 SUNRISE BLVD, LOS ANGELES, CA 90012, USA",
+      "country": "UNITED STATES",
+      "additionalInfo": "(SUITE 300)",
+      "telephone": "+1 323 555 1212",
+      "email": "INFO@GTSINC.COM"
+    },
+    "consignee": {
+      "name": "EUROTEXTILE BV",
+      "address": "DE KOEIENWEG 23, 3061 AM ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@EUROTEXTILE.NL",
+      "telephone": "+31 10 456 7890"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "2345 SUNRISE BLVD, LOS ANGELES, CA 90012, USA",
+      "country": "UNITED STATES",
+      "additionalInfo": "(ATTN: IMPORT DEPARTMENT)",
+      "telephone": "+1 323 555 1212",
+      "email": "IMPORT@GTSINC.COM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY SPARES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "GTS123456",
+      "marksAndNumbers": "GTS-1234",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY SPARES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "GTS789012",
+      "marksAndNumbers": "GTS-7890",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY SPARES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "GTS456789",
+      "marksAndNumbers": "GTS-4567",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY SPARES (AS PER PACKING LIST)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 30,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 105.3
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L00001234567"
+    },
+    "certificateDetails": [
+      "COO-US-001234"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS INC.",
+      "address": "2345 SUNRISE BLVD, LOS ANGELES, CA 90012, USA",
+      "telephone": "+1 323 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTEXTILE BV",
+      "address": "DE KOEIENWEG 23, 3061 AM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 456 7890"
+    },
+    "onboardDate": "2024-10-01 12:00",
+    "additionalRemarks": "Please ensure all documentation is submitted by October 1st."
+  }
+}

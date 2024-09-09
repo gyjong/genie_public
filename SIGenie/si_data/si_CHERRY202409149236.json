@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409149236",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2409ZHEH21"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING COMPANY",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "567 HAMBURG STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SUNRISEIMPORT.DE",
+      "telephone": "+49 40 1234567"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "567 HAMBURG STREET, HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SUNRISEIMPORT.DE",
+      "telephone": "+49 40 1234567"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY FOR WEAVING COTTON FABRIC",
+  "containers": [
+    {
+      "containerNumber": "CMAU8751236",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY FOR WEAVING COTTON FABRIC - 1 SET",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU6543210",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GT456",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY FOR WEAVING COTTON FABRIC - 1 SET",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20' DRY X2) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20231027-001",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "567 HAMBURG STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING COMPANY",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 1234567"
+    },
+    "onboardDate": "2024-09-20 12:00",
+    "additionalRemarks": "2 x 20 DRY containers. Machinery for weaving cotton fabric. Value: USD 150,000"
+  }
+}

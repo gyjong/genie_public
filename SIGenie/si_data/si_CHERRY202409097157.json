@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202409097157",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2436WEX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SEOUL, KOREA",
+    "portOfLoading": "BUSAN, KOREA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "BUSAN, KOREA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DAEWOONG INDUSTRIES CO., LTD",
+      "address": "234, CHEONGGYECHEON-RO, JONGNO-GU, SEOUL, 03184, SOUTH KOREA",
+      "country": "REP OF KOREA",
+      "additionalInfo": "(DAEWOONG HEADQUARTERS)"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "AARTSELAAN 15, 3013 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECH.NL",
+      "telephone": "+31 10 414 5678"
+    },
+    "notifyParty": {
+      "name": "HANJIN LOGISTICS CO., LTD",
+      "address": "100, SEOUL TOWER, 150 SEOCHONG-RO, JUNG-GU, SEOUL, 04630, SOUTH KOREA",
+      "country": "REP OF KOREA",
+      "email": "HJLOGISTICS@HANJIN.COM",
+      "telephone": "+82 2 3700 2110"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854231",
+  "commodityDescription": "CIRCUIT BREAKER",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DW-CB123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DW-CB456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7788990",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DW-CB789",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "BOXES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "DW20241027",
+    "hsCode": "854231",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "HANJIN LOGISTICS CO., LTD",
+      "address": "100, SEOUL TOWER, 150 SEOCHONG-RO, JUNG-GU, SEOUL, 04630, SOUTH KOREA",
+      "telephone": "+82 2 3700 2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH IMPORT & EXPORT BV",
+      "address": "AARTSELAAN 15, 3013 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678"
+    },
+    "onboardDate": "2024-09-21 14:00",
+    "additionalRemarks": "Please ensure proper documentation for customs clearance."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

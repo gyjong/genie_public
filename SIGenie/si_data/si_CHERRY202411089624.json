@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411089624",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411E1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940360",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU5678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING CHAIRS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN DINING CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "salesOrderNumber": "SO67890",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CERT1234567890",
+    "originalBLDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "5678 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-4444-5678",
+      "fax": "+31-10-4444-1234"
+    },
+    "onboardDate": "2024-11-12 14:00",
+    "additionalRemarks": "Delivery to be made within 48 hours of vessel arrival."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

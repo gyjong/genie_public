@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409284258",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING INC.",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "GAMMA LOGISTICS LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL851234567890",
+      "president": "MR. JAN VAN DER HOEK",
+      "telephone": "+31 20 6666 7890",
+      "fax": "+31 20 6666 7891"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "789 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES",
+      "grossWeight": 18000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CGLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES",
+      "grossWeight": 17000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40' HIGH CONTAINER)",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CONTAINER",
+    "totalGrossWeight": 35000.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "789 MAIN STREET, LONDON, UK",
+      "telephone": "+44 20 7777 1234",
+      "fax": "+44 20 7777 1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA LOGISTICS LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6666 7890",
+      "fax": "+31 20 6666 7891"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED - FRAGILE GOODS"
+  }
+}

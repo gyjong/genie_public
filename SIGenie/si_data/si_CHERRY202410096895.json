@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202410096895",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "328 HUANGLONG ROAD, YONGJIANG, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "info@asiapacifictrading.cn"
+    },
+    "consignee": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL855678901",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "notifyParty": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL855678901",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "901890",
+  "commodityDescription": "MEDICAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS MEDICAL EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CN202410096895",
+    "originalBLDistribution": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL SOLUTIONS INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "MEDICAL EQUIPMENT, FRAGILE, REQUIRES TEMPERATURE CONTROL (15-25 DEGREES CELSIUS)"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409292694",
+  "customerName": "ALPHA IMPORT EXPORT CO.",
+  "shipperName": "BETA TRADING LLC",
+  "invoiceReceiver": "GAMMA CORPORATION",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "Electrical transformers, static converters (for example, rectifiers) and inductors",
+    "commodity": "TRANSFORMERS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "REEFER",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-26 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-27 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CFR",
+  "remarks": "Maintain temperature at -18 degrees Celsius. Sensitive electronic components, handle with care."
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409253145",
+  "customerName": "ASIA IMPORT & EXPORT LTD",
+  "shipperName": "SUNRISE GLOBAL TRADING",
+  "invoiceReceiver": "ASIA IMPORT & EXPORT LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "cargoDetails": {
+    "hsCode": "620462",
+    "chapterDescription": "Women's or girls' trousers, breeches and shorts of cotton",
+    "commodity": "WOMEN'S COTTON TROUSERS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-28 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-29 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-18 09:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Three 20' Dry Containers. Shipment contains women's cotton trousers. Value: USD30,000"
+}

@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409292694",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING LLC",
+      "address": "123 Main Street, Shanghai, China",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
+    },
+    "consignee": {
+      "name": "GAMMA CORPORATION",
+      "address": "456 Goethestrasse, Frankfurt, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432",
+      "email": "info@gammacorp.de",
+      "contactPerson": "Klaus Muller"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "789 Franklin Avenue, New York, NY 10001, USA",
+      "telephone": "+1 212 1234567",
+      "fax": "+1 212 9876543"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GM1234",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GM5678",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TRANSFORMERS",
+      "grossWeight": 17500.0,
+      "measurement": 29.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 59.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT EXPORT CO.",
+      "address": "789 Franklin Avenue, New York, NY 10001, USA",
+      "telephone": "+1 212 1234567",
+      "fax": "+1 212 9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GAMMA CORPORATION",
+      "address": "456 Goethestrasse, Frankfurt, Germany",
+      "telephone": "+49 69 12345678",
+      "fax": "+49 69 98765432"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Maintain temperature at -18 degrees Celsius. Sensitive electronic components, handle with care."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "bookingReference": "CHERRY202410171520",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "24102E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "No. 1234, Huaihai Road, Shanghai, China, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "info@sunriseimports.nl",
+      "telephone": "+31 10 245 6789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "info@sunriseimports.nl",
+      "telephone": "+31 10 245 6789"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854239",
+  "commodityDescription": "SEMICONDUCTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTORS, PACKED IN INDIVIDUAL BOXES, TEMPERATURE SENSITIVE, HANDLE WITH CARE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTORS, PACKED IN INDIVIDUAL BOXES, TEMPERATURE SENSITIVE, HANDLE WITH CARE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SEMICONDUCTORS, PACKED IN INDIVIDUAL BOXES, TEMPERATURE SENSITIVE, HANDLE WITH CARE",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "BOXES",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456ICP-1",
+    "hsCode": "854239",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA",
+      "telephone": "+31 10 245 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 Main Street, Rotterdam, Netherlands, 3000 AA",
+      "telephone": "+31 10 245 6789"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Temperature sensitive, Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

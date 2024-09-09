@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410122468",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "NO. 123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-0001",
+      "fax": "+86-574-8888-1000"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "AUTOMATIC PACKAGING MACHINE",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC PACKAGING MACHINE",
+      "grossWeight": 8000.0,
+      "measurement": 30.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: AUTOMATIC PACKAGING MACHINE",
+      "grossWeight": 7500.0,
+      "measurement": 28.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 2,
+    "packageType": "UNIT",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 15500.0,
+    "totalMeasurement": 58.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "CONTAINER NEEDS REFRIGERATION"
+  }
+}

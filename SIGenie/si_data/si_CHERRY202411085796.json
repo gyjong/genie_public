@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202411085796",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-8888-8888",
+      "fax": "+86-574-8888-8889"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "90211000",
+  "commodityDescription": "MEDICAL DIAGNOSTIC EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DIAGNOSTIC EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL DIAGNOSTIC EQUIPMENT",
+      "grossWeight": 4829.0,
+      "measurement": 12.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DIAGNOSTIC EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL DIAGNOSTIC EQUIPMENT",
+      "grossWeight": 4829.0,
+      "measurement": 12.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DIAGNOSTIC EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL DIAGNOSTIC EQUIPMENT",
+      "grossWeight": 4829.0,
+      "measurement": 12.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "892086",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DIAGNOSTIC EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL DIAGNOSTIC EQUIPMENT",
+      "grossWeight": 4829.0,
+      "measurement": 12.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "892087",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL DIAGNOSTIC EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN MEDICAL DIAGNOSTIC EQUIPMENT",
+      "grossWeight": 4829.0,
+      "measurement": 12.0,
+      "additionalInfo": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 24145.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410094483",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424E1"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "EVERGREEN SHIPPING CO., LTD.",
+      "address": "NO. 25, SEC. 1, ZHONGLIANG RD., TAIWAN, ROC",
+      "country": "TAIWAN",
+      "additionalInfo": "(HEAD OFFICE)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "address": "2525 Van Ness Avenue, Suite 200, San Francisco, CA 94108, USA",
+      "country": "UNITED STATES",
+      "email": "info@asiapacificshipping.com",
+      "telephone": "+1-415-555-1212"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "address": "2525 Van Ness Avenue, Suite 200, San Francisco, CA 94108, USA",
+      "country": "UNITED STATES",
+      "email": "info@asiapacificshipping.com",
+      "telephone": "+1-415-555-1212"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84833000",
+  "commodityDescription": "MOTOR GEARS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASPL-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR GEARS FOR INDUSTRIAL MACHINERY - PACKED IN CARTONS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ASPL-202410",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTOR GEARS FOR INDUSTRIAL MACHINERY - PACKED IN CARTONS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER X2)",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ASPL20241009",
+    "hsCode": "84833000",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "address": "2525 Van Ness Avenue, Suite 200, San Francisco, CA 94108, USA",
+      "telephone": "+1-415-555-1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC SHIPPING LTD",
+      "address": "2525 Van Ness Avenue, Suite 200, San Francisco, CA 94108, USA",
+      "telephone": "+1-415-555-1212"
+    },
+    "onboardDate": "2024-10-17 12:00",
+    "additionalRemarks": "CARGO NEEDS SPECIAL HANDLING. PLEASE PROVIDE ADEQUATE LIFTING EQUIPMENT."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409104901",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E1W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "LOS ANGELES, USA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 6666",
+      "email": "INFO@BETATRADING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
+      "taxId": "12-3456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
+      "taxId": "12-3456789",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870899",
+  "commodityDescription": "AUTO PARTS - BRAKE PADS",
+  "containers": [
+    {
+      "containerNumber": "TCLU7865432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA AUTO PARTS - BRAKE PADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "TCLU7865433",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, LOS ANGELES, USA AUTO PARTS - BRAKE PADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40' HIGH CUBE) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "5678 SUNRISE BOULEVARD, LOS ANGELES, USA",
+      "telephone": "+1 310 555 1212",
+      "fax": "+1 310 555 1213"
+    },
+    "onboardDate": "2024-09-15 10:00",
+    "additionalRemarks": "Pre-shipment inspection required. Contact agent for details."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

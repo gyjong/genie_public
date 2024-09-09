@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409112707",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 SKYLINE BLVD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-5678"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "940161",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING CHAIRS, PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN DINING CHAIRS, PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20240910123",
+    "salesOrderNumber": "SR20240910456",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20240911001",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31-20-6666-1234",
+      "fax": "+31-20-6666-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS INC.",
+      "address": "123 SKYLINE BLVD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-09-20 12:00",
+    "additionalRemarks": "Please ensure chairs are properly packed and secured for transit."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

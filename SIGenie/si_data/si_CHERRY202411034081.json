@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411034081",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Shanghai Steel Corporation",
+      "address": "No. 123 Pudong Avenue, Shanghai, 200123, CHINA",
+      "telephone": "+86-21-6328-9876",
+      "fax": "+86-21-6328-9875"
+    },
+    "consignee": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-200-1234",
+      "fax": "+31-10-200-1235"
+    },
+    "notifyParty": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-200-1234",
+      "fax": "+31-10-200-1235"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "72083700",
+  "commodityDescription": "Hot Rolled Steel Coils",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SHANGHAI STEEL CORP",
+      "numberOfPackages": 50,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. HOT ROLLED STEEL COILS. B/L TO BE ISSUED IN ORIGINAL SET OF 3.",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SHANGHAI STEEL CORP",
+      "numberOfPackages": 50,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. HOT ROLLED STEEL COILS. B/L TO BE ISSUED IN ORIGINAL SET OF 3.",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SHANGHAI STEEL CORP",
+      "numberOfPackages": 50,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD & COUNT. HOT ROLLED STEEL COILS. B/L TO BE ISSUED IN ORIGINAL SET OF 3.",
+      "grossWeight": 25000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "packageType": "COILS",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GLS20241103",
+    "salesOrderNumber": "SSC20241103",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-200-1234",
+      "fax": "+31-10-200-1235"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Rotterdam, 3000 AA, NETHERLANDS",
+      "telephone": "+31-10-200-1234",
+      "fax": "+31-10-200-1235"
+    },
+    "onboardDate": "2024-11-10 12:00",
+    "additionalRemarks": "Shipper's Load & Count. B/L to be issued in Original Set of 3."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

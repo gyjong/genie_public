@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202409144725",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DONGFENG MOTOR CORPORATION (NINGBO)",
+      "address": "No. 1 Dongfeng Road, Ningbo Economic & Technological Development Zone, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8811 1111",
+      "fax": "+86 574 8811 1112"
+    },
+    "consignee": {
+      "name": "DONGFENG MOTOR CORPORATION LTD.",
+      "address": "Europaboulevard 22, 3100 Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001",
+      "email": "info@dongfengmotor.nl",
+      "contactPerson": "Mr. Pieter Jansen"
+    },
+    "notifyParty": {
+      "name": "DONGFENG MOTOR CORPORATION",
+      "address": "1234 Motor Way, Shanghai, China"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87032310",
+  "commodityDescription": "Passenger Vehicles",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DFMC-20240914",
+      "numberOfPackages": 1,
+      "cargoDescription": "Passenger Vehicle, Model: E300",
+      "grossWeight": 2000.0,
+      "measurement": 2.5
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DFMC-20240914",
+      "numberOfPackages": 1,
+      "cargoDescription": "Passenger Vehicle, Model: E350",
+      "grossWeight": 2100.0,
+      "measurement": 2.6
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DFMC-20240914",
+      "numberOfPackages": 1,
+      "cargoDescription": "Passenger Vehicle, Model: E400",
+      "grossWeight": 2200.0,
+      "measurement": 2.7
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "DFMC-20240914",
+      "numberOfPackages": 1,
+      "cargoDescription": "Passenger Vehicle, Model: E450",
+      "grossWeight": 2300.0,
+      "measurement": 2.8
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "DFMC-20240914",
+      "numberOfPackages": 1,
+      "cargoDescription": "Passenger Vehicle, Model: E500",
+      "grossWeight": 2400.0,
+      "measurement": 2.9
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40' HQ DRY CONTAINERS",
+    "totalPackages": 5,
+    "totalGrossWeight": 10000.0,
+    "totalMeasurement": 13.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "DFMC20240914-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DONGFENG MOTOR CORPORATION LTD.",
+      "address": "Europaboulevard 22, 3100 Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DONGFENG MOTOR CORPORATION LTD.",
+      "address": "Europaboulevard 22, 3100 Rotterdam, Netherlands",
+      "telephone": "+31 10 414 5000",
+      "fax": "+31 10 414 5001"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "Vehicles are packed in individual crates for protection. Value: USD 250,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

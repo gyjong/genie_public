@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411034480",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "323 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "NINGBO BRANCH OFFICE",
+      "telephone": "+86 574 8821 1234",
+      "email": "INFO@ASIAPACIFICTRADING.CN"
+    },
+    "consignee": {
+      "name": "GREENLAND IMPORTS LTD",
+      "address": "255 GREEN STREET, ROTTERDAM, NETHERLANDS, 3011 GA",
+      "country": "NETHERLANDS",
+      "email": "IMPORTS@GREENLANDIMPORTS.NL",
+      "telephone": "+31 10 245 6789"
+    },
+    "notifyParty": {
+      "name": "GREENLAND IMPORTS LTD",
+      "address": "255 GREEN STREET, ROTTERDAM, NETHERLANDS, 3011 GA",
+      "country": "NETHERLANDS",
+      "email": "IMPORTS@GREENLANDIMPORTS.NL",
+      "telephone": "+31 10 245 6789"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GR123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GR456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GR789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "GR101",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 35.5
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "901234",
+      "marksAndNumbers": "GR202",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 50 CARTONS OF TEXTILE SPINNING MACHINES",
+      "grossWeight": 22000.0,
+      "measurement": 35.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 177.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "GREENLAND IMPORTS LTD",
+      "address": "255 GREEN STREET, ROTTERDAM, NETHERLANDS, 3011 GA",
+      "telephone": "+31 10 245 6789"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GREENLAND IMPORTS LTD",
+      "address": "255 GREEN STREET, ROTTERDAM, NETHERLANDS, 3011 GA",
+      "telephone": "+31 10 245 6789"
+    },
+    "onboardDate": "2024-11-06 14:00",
+    "additionalRemarks": "Pre-shipment inspection required. 14 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

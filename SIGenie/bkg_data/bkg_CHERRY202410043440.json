@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410043440",
+  "customerName": "ALPHA IMPORT EXPORT LTD.",
+  "shipperName": "BETA MANUFACTURING CO.",
+  "invoiceReceiver": "ALPHA IMPORT EXPORT LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "242023E"
+  },
+  "cargoDetails": {
+    "hsCode": "902300",
+    "chapterDescription": "INSTRUMENTS AND APPLIANCES USED IN MEDICAL, SURGICAL, DENTAL OR VETERINARY SCIENCES, INCLUDING THOSE USED IN LABORATORY EXPERIMENTS",
+    "commodity": "MEDICAL DIAGNOSTIC EQUIPMENT"
+  },
+  "containerDetails": {
+    "size": "40' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-06 15:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-07 10:00",
+    "estimatedArrivalAtDischargePort": "2024-11-02 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "Cargo weight: 20,000 kg, Value: USD 50,000"
+}

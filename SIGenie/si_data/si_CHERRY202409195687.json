@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202409195687",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2432EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT LTD",
+      "address": "UNIT 102, 3/F, TOWER 2, NO. 1188 SHANGHAI ROAD, SHANGHAI, 200080, CHINA",
+      "telephone": "+86-21-6345-6789",
+      "fax": "+86-21-6345-6790"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORT EXPORT LTD",
+      "address": "C.O. DE GROOT PLAATS 10, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679",
+      "email": "IMPORT@SUNRISEIMPORT.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "SWITCHGEAR",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 11800.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: SWITCHGEAR",
+      "grossWeight": 12200.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 36500.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241025-001",
+    "documentNumber": "20241025-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT EXPORT LTD",
+      "address": "C.O. DE GROOT PLAATS 10, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT EXPORT LTD",
+      "address": "C.O. DE GROOT PLAATS 10, 3011 XK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-204-5678",
+      "fax": "+31-10-204-5679"
+    },
+    "onboardDate": "2024-10-26 12:00",
+    "additionalRemarks": "Shipper owned container"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

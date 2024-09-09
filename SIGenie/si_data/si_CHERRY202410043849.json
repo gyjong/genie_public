@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410043849",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 0,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GOLDEN DRAGON TRADING CO.",
+      "address": "235 SHENYANG ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
+    },
+    "notifyParty": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "903281",
+  "commodityDescription": "DIGITAL FLOW METERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "DIGITAL FLOW METERS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "cargoDescription": "DIGITAL FLOW METERS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "PACKAGES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-07 15:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

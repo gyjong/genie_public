@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410263717",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2431W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "KAIROS LOGISTICS INC.",
+      "address": "WITTE DE WITHSTRAAT 55, 3012 BM ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KAIRLOG.NL, ORDERS@KAIRLOG.NL",
+      "telephone": "+31 10 470 2200"
+    },
+    "notifyParty": {
+      "name": "KAIROS SHIPPING CO. LTD",
+      "address": "321, YONG-SAN STREET, SEOUL, SOUTH KOREA",
+      "country": "SOUTH KOREA",
+      "email": "INFO@KAIRSHIP.KR",
+      "telephone": "+82 2 3456 7890"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9857632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KAIROS2024",
+      "numberOfPackages": 20,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS - 20PCS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU3456789",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KAIROS2024",
+      "numberOfPackages": 20,
+      "packageType": "CASES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TRANSFORMERS - 20PCS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 40,
+    "packageType": "CASES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "KAIR20241026",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "20241026-CERT-001",
+    "originalBLDistribution": {
+      "name": "KAIROS SHIPPING CO. LTD",
+      "address": "321, YONG-SAN STREET, SEOUL, SOUTH KOREA",
+      "telephone": "+82 2 3456 7890"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KAIROS LOGISTICS INC.",
+      "address": "WITTE DE WITHSTRAAT 55, 3012 BM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 470 2200"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3334"
+  }
+}

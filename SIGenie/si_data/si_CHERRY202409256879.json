@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409256879",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423WST"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 123, HONGQIAO ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "EUROCYCLE IMPORT BV",
+      "address": "WEGELAAN 10, 3011 NL ROTTERDAM, NETHERLANDS",
+      "taxId": "NL856789012",
+      "president": "MR. JAN VAN DER ZEE",
+      "telephone": "+31 10 456 7890",
+      "fax": "+31 10 456 7891"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 123, HONGQIAO ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@SUNRISETRADING.COM"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "870323",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500067",
+      "sealNumber": "894100",
+      "marksAndNumbers": "SUNRISE TRADING CO. ORDER NUMBER 123456",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, PACKED IN CARTONS ON PALLETS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "SUNRISE TRADING CO. ORDER NUMBER 123456",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, PACKED IN CARTONS ON PALLETS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1500069",
+      "sealNumber": "894102",
+      "marksAndNumbers": "SUNRISE TRADING CO. ORDER NUMBER 123456",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "MOTORCYCLE PARTS, PACKED IN CARTONS ON PALLETS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 450,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY X3",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-4001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CH GOLBAL LOGISTICS CO., LTD",
+      "address": "ROOM NO.1101, YEONGDEUNGPO BANDO IVY VALLEY, 166, YEONGSIN-RO, YEONGDEUNGPO-GU, SEOUL, REPUBLIC OF KOREA, 07251",
+      "telephone": "82-2-700-4000",
+      "fax": "82-2-700-401"
+    },
+    "onboardDate": "2024-10-27 12:00",
+    "additionalRemarks": "Motor cycle parts, packed in cartons on pallets. Value: EUR 25,000"
+  }
+}

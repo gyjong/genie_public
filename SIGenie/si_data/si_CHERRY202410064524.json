@@ -1,0 +1,174 @@
+{
+  "bookingReference": "CHERRY202410064524",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO. LTD.",
+      "address": "123 SUNRISE ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 1212",
+      "fax": "+86 21 5555 1313"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "145 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011GD",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444",
+      "email": "IMPORT@GFS.NL",
+      "contactPerson": "ANNA VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94017100",
+  "commodityDescription": "OFFICE CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS1234",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GFS5678",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12100.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321098",
+      "marksAndNumbers": "GFS9012",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12050.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GFS3456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12020.0,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "543210",
+      "marksAndNumbers": "GFS7890",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12080.0,
+      "measurement": 25.3
+    },
+    {
+      "containerNumber": "CRLU2109876",
+      "sealNumber": "109876",
+      "marksAndNumbers": "GFS1112",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12010.0,
+      "measurement": 24.7
+    },
+    {
+      "containerNumber": "CRLU6543210",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GFS2223",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12060.0,
+      "measurement": 25.1
+    },
+    {
+      "containerNumber": "CRLU3210987",
+      "sealNumber": "321098",
+      "marksAndNumbers": "GFS3334",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12030.0,
+      "measurement": 24.9
+    },
+    {
+      "containerNumber": "CRLU0987654",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GFS4445",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12070.0,
+      "measurement": 25.4
+    },
+    {
+      "containerNumber": "CRLU5432109",
+      "sealNumber": "543210",
+      "marksAndNumbers": "GFS5556",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OFFICE CHAIRS",
+      "grossWeight": 12040.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "10 X 20 DRY CONTAINERS",
+    "totalPackages": 1000,
+    "totalGrossWeight": 120470.0,
+    "totalMeasurement": 250.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GFS20241006-001",
+    "documentNumber": "20241006001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "145 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011GD",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+      "address": "145 MAIN STREET, ROTTERDAM, NETHERLANDS, 3011GD",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 4444"
+    },
+    "onboardDate": "2024-10-12 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE, VALUE: USD50,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409253145",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "ASIA IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 876 5432"
+    },
+    "notifyParty": {
+      "name": "ASIA IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 123 4567",
+      "fax": "+31 10 876 5432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S COTTON TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS123",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOMEN'S COTTON TROUSERS - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "AS456",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOMEN'S COTTON TROUSERS - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS789",
+      "numberOfPackages": 100,
+      "cargoDescription": "WOMEN'S COTTON TROUSERS - SHIPMENT NO. 20241025",
+      "grossWeight": 1200.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 3600.0,
+    "totalMeasurement": 90.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO12345678"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA IMPORT & EXPORT LTD",
+      "address": "456 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "Three 20' Dry Containers. Shipment contains women's cotton trousers. Value: USD30,000"
+  }
+}

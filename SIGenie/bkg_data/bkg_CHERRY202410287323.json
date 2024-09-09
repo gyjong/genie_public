@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410287323",
+  "customerName": "DHL GLOBAL FORWARDING (SHANGHAI)",
+  "shipperName": "DHL GLOBAL FORWARDING (SHANGHAI)",
+  "invoiceReceiver": "DHL GLOBAL FORWARDING (SINGAPORE)",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424E"
+  },
+  "cargoDetails": {
+    "hsCode": "87089990",
+    "chapterDescription": "VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING-STOCK, AND PARTS AND ACCESSORIES THEREOF",
+    "commodity": "MOTORCYCLES"
+  },
+  "containerDetails": {
+    "size": "20 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-05 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-06 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-22 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "MOTORCYCLES, PACKED ON PALLETS. VALUE: USD50,000"
+}

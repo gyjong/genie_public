@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409259978",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH GLOBAL TRADING",
+      "address": "ROOM 501, NO. 188 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6338 5678",
+      "email": "INFO@ZENITHGLOBALTRADING.COM"
+    },
+    "consignee": {
+      "name": "DEUTSCHE MODE GMBH",
+      "address": "BERLINER STRASSE 45, 10117 BERLIN, GERMANY",
+      "taxId": "DE123456789",
+      "telephone": "+49 30 2345 6789",
+      "fax": "+49 30 2345 6780"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL TRADING",
+      "address": "ROOM 501, NO. 188 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6338 5678",
+      "email": "INFO@ZENITHGLOBALTRADING.COM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZENITH GLOBAL TRADING - ORDER #20241001",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ZENITH GLOBAL TRADING - ORDER #20241001",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, AS PER COMMERCIAL INVOICE",
+      "grossWeight": 18000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINER",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC20241001"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY CHAMBER OF COMMERCE SHANGHAI",
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL TRADING",
+      "address": "ROOM 501, NO. 188 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6338 5678",
+      "fax": "+86 21 6338 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING",
+      "address": "ROOM 501, NO. 188 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86 21 6338 5678",
+      "fax": "+86 21 6338 5679"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Please ensure proper customs documentation for import into the EU."
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

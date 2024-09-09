@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411025770",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL CHEM INDUSTRIES LTD.",
+      "address": "NO. 333, SHANGHAI ROAD, JIANGNING DISTRICT, NANJING, 211100, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NANJING CHEMICAL INDUSTRIAL ZONE)",
+      "telephone": "+86 25 8476 1234",
+      "email": "SALES@GLOBALCHEM.COM.CN"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "CALLE ALFONSO XII, 56, 28014 MADRID, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ASIAPACIFICTRADING.ES, ORDERS@ASIAPACIFICTRADING.ES",
+      "telephone": "+34 91 547 6543"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "CALLE ALFONSO XII, 56, 28014 MADRID, SPAIN",
+      "country": "SPAIN",
+      "email": "INFO@ASIAPACIFICTRADING.ES, ORDERS@ASIAPACIFICTRADING.ES",
+      "telephone": "+34 91 547 6543"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "290331",
+  "commodityDescription": "DIETHYL ETHER",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GC-001",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "DIETHYL ETHER IN 200 LITRE STEEL DRUMS. SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 200 LITRE STEEL DRUMS OF DIETHYL ETHER. HAZARDOUS MATERIAL. UN1163.",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GC-002",
+      "numberOfPackages": 100,
+      "packageType": "DRUMS",
+      "cargoDescription": "DIETHYL ETHER IN 200 LITRE STEEL DRUMS. SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: 200 LITRE STEEL DRUMS OF DIETHYL ETHER. HAZARDOUS MATERIAL. UN1163.",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40FT) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "L1234567890"
+    },
+    "certificateDetails": [
+      "CN23456789012"
+    ],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "CALLE ALFONSO XII, 56, 28014 MADRID, SPAIN",
+      "telephone": "+34 91 547 6543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "CALLE ALFONSO XII, 56, 28014 MADRID, SPAIN",
+      "telephone": "+34 91 547 6543"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410142297",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Avenue, Shanghai, CHINA",
+      "telephone": "+86 21 5555 1234",
+      "email": "shipping@xyzmanufacturing.com"
+    },
+    "consignee": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Street, Rotterdam, NETHERLANDS",
+      "taxId": "NL853612345",
+      "president": "Mr. John Doe",
+      "telephone": "+31 10 4444 5678",
+      "fax": "+31 10 4444 9876"
+    },
+    "notifyParty": {
+      "name": "ABC Logistics Ltd.",
+      "address": "789 Logistics Lane, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 3333 2222",
+      "fax": "+31 10 3333 8888"
+    }
+  },
+  "shippingTerm": "CIF ROTTERDAM",
+  "hsCode": "870899",
+  "commodityDescription": "Automotive Brake Pads",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC TRDG CO. ORDER #12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIF ROTTERDAM - AUTOMOTIVE BRAKE PADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC TRDG CO. ORDER #12345",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIF ROTTERDAM - AUTOMOTIVE BRAKE PADS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": " fumigation certificate attached",
+    "originalBLDistribution": {
+      "name": "ABC Logistics Ltd.",
+      "address": "789 Logistics Lane, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 3333 2222",
+      "fax": "+31 10 3333 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co.",
+      "address": "456 Trade Street, Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 4444 5678",
+      "fax": "+31 10 4444 9876"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Pre-carriage required from shipper warehouse to port of loading. Fumigation certificate required."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "bookingReference": "CHERRY202410273734",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2423EAS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GREEN TECH INDUSTRIES INC",
+      "address": "No. 888, Huaihai Road, Shanghai, China",
+      "telephone": "+86-21-6351-2345",
+      "fax": "+86-21-6351-2346"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "Frankfurter Allee 12, 10365 Berlin, Germany",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780",
+      "email": "info@asiatrading.de",
+      "contactPerson": "Klaus Mueller"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "Power Distribution Transformers",
+  "containers": [
+    {
+      "containerNumber": "CGXU7389451",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "GT-123",
+      "numberOfPackages": 10,
+      "cargoDescription": "POWER DISTRIBUTION TRANSFORMER - MODEL PD1000",
+      "grossWeight": 18500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGXU7389452",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "GT-124",
+      "numberOfPackages": 10,
+      "cargoDescription": "POWER DISTRIBUTION TRANSFORMER - MODEL PD1000",
+      "grossWeight": 18700.0,
+      "measurement": 25.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 50.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-001",
+    "documentNumber": "20241027-002",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "Frankfurter Allee 12, 10365 Berlin, Germany",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING LTD",
+      "address": "Frankfurter Allee 12, 10365 Berlin, Germany",
+      "telephone": "+49-30-2345-6789",
+      "fax": "+49-30-2345-6780"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "Special handling required for heavy cargo"
+  }
+}

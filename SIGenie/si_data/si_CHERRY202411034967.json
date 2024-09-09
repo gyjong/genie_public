@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202411034967",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO., LTD",
+      "onBehalfOf": "",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "4567 FRANKFURTER STRASSE, BERLIN, GERMANY 10117",
+      "companyNumber": "DE123456789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "4567 FRANKFURTER STRASSE, BERLIN, GERMANY 10117"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "55131100",
+  "commodityDescription": "Cotton Yarn",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTX12345",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON YARN",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTX67890",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON YARN",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 1000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 48.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "4567 FRANKFURTER STRASSE, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD",
+      "address": "4567 FRANKFURTER STRASSE, BERLIN, GERMANY 10117",
+      "telephone": "+49-30-12345678",
+      "fax": "+49-30-87654321"
+    },
+    "onboardDate": "2024-11-08 12:00",
+    "additionalRemarks": "Shipper's Load & Count.  B/L: Negotiable"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

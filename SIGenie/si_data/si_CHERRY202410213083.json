@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202410213083",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24102E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "onBehalfOf": "",
+      "address": "235 CHANGJIANG ROAD, YONGKANG, ZHEJIANG, CHINA, 325000",
+      "telephone": "+86-579-87654321",
+      "fax": "+86-579-87654322"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 ALBANY STREET, LONDON, UNITED KINGDOM, EC1Y 8RE",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 ALBANY STREET, LONDON, UNITED KINGDOM, EC1Y 8RE"
+    }
+  },
+  "shippingTerm": "DPU",
+  "hsCode": "854442",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE 1/2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "8901234",
+      "marksAndNumbers": "SUNRISE 2/2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIRCUIT BREAKERS AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 36.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINERS",
+    "totalPackages": 100,
+    "packageType": "CARTONS",
+    "containerType": "40HC DRY",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 72.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 ALBANY STREET, LONDON, UNITED KINGDOM, EC1Y 8RE"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 ALBANY STREET, LONDON, UNITED KINGDOM, EC1Y 8RE"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED - FRAGILE CARGO"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

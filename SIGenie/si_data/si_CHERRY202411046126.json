@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202411046126",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94039000",
+  "commodityDescription": "WOODEN FURNITURE - CHAIRS AND TABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS & TABLES PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 3000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS & TABLES PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 3000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS & TABLES PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 3000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "234567",
+      "marksAndNumbers": "SUNRISE901",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS & TABLES PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 3000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "SUNRISE247",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS & TABLES PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 3000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY) CONTAINERS",
+    "totalPackages": 2500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 15000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "salesOrderNumber": "SO789012",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "C1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD.",
+      "address": "456 GLOBAL AVENUE, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE STREET, NINGBO, CHINA",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "onboardDate": "2024-11-08 12:00",
+    "additionalRemarks": "CARGO PACKED IN INDIVIDUAL CARTONS. WEIGHT: 15,000 KG, VALUE: USD50,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

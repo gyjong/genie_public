@@ -1,0 +1,109 @@
+{
+  "bookingReference": "CHERRY202411018676",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "123 INDUSTRIAL ZONE, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "email": "sales@asiapacificindustries.com"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL851234567B01",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CGMU5678901",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS INDUSTRIAL ELECTRIC MOTORS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5678902",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS INDUSTRIAL ELECTRIC MOTORS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CGMU5678903",
+      "sealNumber": "987654",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS INDUSTRIAL ELECTRIC MOTORS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40 DRY CONTAINER) CONTAINERS",
+    "totalPackages": 150,
+    "packageType": "CRATES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD.",
+      "address": "101 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 7777 8888",
+      "fax": "+31 20 7777 9999"
+    },
+    "onboardDate": "2024-11-05 10:00",
+    "additionalRemarks": "VALUE: USD50,000. SPECIAL HANDLING REQUIRED: FRAGILE."
+  }
+}

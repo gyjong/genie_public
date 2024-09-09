@@ -1,0 +1,131 @@
+{
+  "bookingReference": "CHERRY202410146643",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24047EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD.",
+      "address": "NO. 88, SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-86655667",
+      "fax": "+86-574-86655668"
+    },
+    "consignee": {
+      "name": "DELTA TRADING CO.",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346",
+      "email": "IMPORT@DELTATRADING.DE",
+      "contactPerson": "FRANZ SCHMIDT"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "DELTA LOGISTICS GMBH",
+      "address": "SPITALERSTRASSE 12, 20099 HAMBURG, GERMANY",
+      "telephone": "+49-40-22621234",
+      "fax": "+49-40-22621235"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5767832",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+      "grossWeight": 20000.0,
+      "measurement": 65.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+      "grossWeight": 20500.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU2345678",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+      "grossWeight": 20200.0,
+      "measurement": 65.5
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SUNRISE-101",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+      "grossWeight": 20100.0,
+      "measurement": 65.2
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE-112",
+      "numberOfPackages": 100,
+      "cargoDescription": "ELECTRONIC COMPONENTS - CAPACITORS",
+      "grossWeight": 20300.0,
+      "measurement": 65.7
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 100100.0,
+    "totalMeasurement": 327.2
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241014-001",
+    "documentNumber": "20241014-002",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DELTA TRADING CO.",
+      "address": "HAMBURGER STRASSE 25, 20095 HAMBURG, GERMANY",
+      "telephone": "+49-40-37312345",
+      "fax": "+49-40-37312346"
+    },
+    "onboardDate": "2024-10-16 14:00",
+    "additionalRemarks": "Value: USD150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

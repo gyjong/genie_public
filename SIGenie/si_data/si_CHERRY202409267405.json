@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409267405",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "EUROSTYLE FASHION LTD.",
+      "address": "124 CANAL STREET, ROTTERDAM, NETHERLANDS 3011AA",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL LOGISTICS LTD.",
+      "address": "125 HARBOR STREET, SHANGHAI, CHINA 200000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "620462",
+  "commodityDescription": "WOMEN'S TROUSERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S TROUSERS",
+      "grossWeight": 7500.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S TROUSERS",
+      "grossWeight": 7500.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU98765432",
+      "sealNumber": "9012345678",
+      "marksAndNumbers": "SUNRISE2024",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOMEN'S TROUSERS",
+      "grossWeight": 7500.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 22500.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "Standard Dry Container, Item: WOMEN'S TROUSERS, Value: USD30,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}
