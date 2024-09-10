@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409239229",
+  "customerName": "SAMSUNG ELECTRONICS CO., LTD",
+  "shipperName": "FOXCONN TECHNOLOGY CO., LTD",
+  "invoiceReceiver": "SAMSUNG ELECTRONICS CO., LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2422E"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "Printed circuits for the automatic switching of electric circuits",
+    "commodity": "Printed Circuit Boards"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-01 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-02 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-26 06:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CY/CY",
+  "remarks": "10 Days Free Time at Destination"
+}

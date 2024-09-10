@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411035906",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2434W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Trading Co.",
+      "address": "235 Hai Phong Rd, District 1, Ho Chi Minh City, Vietnam",
+      "country": "VIETNAM",
+      "additionalInfo": "Tel: +84 28 3822 5555"
+    },
+    "consignee": {
+      "name": "Global Tech Solutions BV",
+      "address": "Beukenlaan 12, 3065 VB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@globaltechsolutions.nl",
+      "telephone": "+31 10 777 5555"
+    },
+    "notifyParty": {
+      "name": "Zenith Trading Co.",
+      "address": "235 Hai Phong Rd, District 1, Ho Chi Minh City, Vietnam",
+      "country": "VIETNAM",
+      "email": "logistics@zenithtrading.com",
+      "telephone": "+84 28 3822 5555"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZT-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTERS - MODEL A123 - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ZT-456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "COMPUTERS - MODEL B789 - SHIPPER'S LOAD AND COUNT",
+      "grossWeight": 10000.0,
+      "measurement": 15.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20 DRY)",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 30.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "847130",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00012345"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ATTACHED",
+    "originalBLDistribution": {
+      "name": "Global Bank",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zenith Trading Co.",
+      "address": "235 Hai Phong Rd, District 1, Ho Chi Minh City, Vietnam",
+      "telephone": "+84 28 3822 5555",
+      "fax": "+84 28 3822 5556"
+    },
+    "onboardDate": "2024-11-06 12:00",
+    "additionalRemarks": "Value: USD150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

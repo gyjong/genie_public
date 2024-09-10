@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202409268035",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA MOTOR CORPORATION (NINGBO)",
+      "address": "NO. 1234, BEIWEI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "TOYOTA MOTOR EUROPE NV",
+      "address": "BOULEVARD DE LA PLAINE 11, 1000 BRUSSELS, BELGIUM",
+      "country": "BELGIUM",
+      "email": "TOYOTA.EUROPE@TOYOTA.COM",
+      "telephone": "+32 2 277 90 00"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "WESTERFJEET 151, 3016 DK ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "DHL.ROTT.INFO@DHL.COM",
+      "telephone": "+31 10 208 66 66"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87032310",
+  "commodityDescription": "AUTOMOBILES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TOYOTA-2024-10-CN",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) AUTOMOBILE, TOYOTA COROLLA, VIN: JT12345678901234",
+      "grossWeight": 1500.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TOYOTA-2024-10-CN",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) AUTOMOBILE, TOYOTA RAV4, VIN: JT12345678901234",
+      "grossWeight": 1600.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TOYOTA-2024-10-CN",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) AUTOMOBILE, TOYOTA HILUX, VIN: JT12345678901234",
+      "grossWeight": 1700.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU4321098",
+      "sealNumber": "321098",
+      "marksAndNumbers": "TOYOTA-2024-10-CN",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) AUTOMOBILE, TOYOTA CAMRY, VIN: JT12345678901234",
+      "grossWeight": 1550.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "876543",
+      "marksAndNumbers": "TOYOTA-2024-10-CN",
+      "numberOfPackages": 1,
+      "packageType": "UNIT",
+      "cargoDescription": "ONE (1) AUTOMOBILE, TOYOTA LAND CRUISER, VIN: JT12345678901234",
+      "grossWeight": 1800.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE CONTAINER)",
+    "totalPackages": 5,
+    "packageType": "UNIT",
+    "totalGrossWeight": 7650.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "hsCode": "87032310",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345678"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ROTTERDAM)",
+      "address": "WESTERFJEET 151, 3016 DK ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 208 66 66"
+    },
+    "originalInvoiceDistribution": {
+      "name": "TOYOTA MOTOR CORPORATION (NINGBO)",
+      "address": "NO. 1234, BEIWEI ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "telephone": "+86 574 8888 8888"
+    },
+    "onboardDate": "2024-10-03 14:00",
+    "additionalRemarks": "AUTOMOBILES, VALUE: USD 150,000"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "bookingReference": "CHERRY202409286210",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2441E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "onBehalfOf": "",
+      "address": "123 TRADE CENTER STREET, NINGBO, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "EURO TOYS LTD",
+      "address": "100 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 TRADE CENTER STREET, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "950300",
+  "commodityDescription": "PLASTIC TOYS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT-20241025-01",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": "GOODS PACKED IN 5 X 40 DRY CONTAINERS"
+    },
+    {
+      "containerNumber": "CMLU1234568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "GT-20241025-02",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU1234569",
+      "sealNumber": "123458",
+      "marksAndNumbers": "GT-20241025-03",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU1234570",
+      "sealNumber": "123459",
+      "marksAndNumbers": "GT-20241025-04",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU1234571",
+      "sealNumber": "123460",
+      "marksAndNumbers": "GT-20241025-05",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC TOYS",
+      "grossWeight": 12000.0,
+      "measurement": 20.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY X5) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 TRADE CENTER STREET, NINGBO, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO TOYS LTD",
+      "address": "100 CANAL STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "5 x 20 DRY Containers, Commodity: Plastic Toys, Value: USD30,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

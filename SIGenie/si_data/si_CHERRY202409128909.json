@@ -1,0 +1,100 @@
+{
+  "bookingReference": "CHERRY202409128909",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC MANUFACTURING INC.",
+      "address": "NO. 1234, SHENYANG ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@ABCMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "OVERHOEK 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "OVERHOEK 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@SUNRISETRADING.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "CIRCUIT BREAKERS",
+  "containers": [
+    {
+      "containerNumber": "CGBU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIRCUIT BREAKERS AS PER INVOICE NO. 20240912001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CGBU2345678",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CIRCUIT BREAKERS AS PER INVOICE NO. 20240912001",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 X 40'HC) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "OVERHOEK 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "OVERHOEK 12, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "additionalRemarks": "GOODS ARE FRAGILE, HANDLE WITH CARE",
+    "onboardDate": "2024-09-20 14:00"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

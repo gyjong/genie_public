@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409161373",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA EXPORT CO.",
+      "address": "NO. 1234, CHANGJIANG ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 9999",
+      "email": "SHIPPING@BETAEXPORT.COM"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORTS.NL",
+      "telephone": "+31 20 777 8888"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@ALPHAIMPORTS.NL",
+      "telephone": "+31 20 777 8888"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "NETWORK SWITCHES",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA234",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES (MODEL: NS-1000)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "NETWORK SWITCHES (MODEL: NS-1000)",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CONTAINER",
+    "totalPackages": 200,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31 20 777 8888"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORTS LTD",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "telephone": "+31 20 777 8888"
+    },
+    "onboardDate": "2024-09-20 10:00",
+    "additionalRemarks": "21 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

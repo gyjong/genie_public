@@ -1,8 +1,8 @@
 {
   "bookingReference": "CHERRY202410017708",
   "voyageDetails": {
-    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
-    "voyageNumber": "2409E087"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424W123"
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
@@ -21,78 +21,91 @@
   },
   "partyDetails": {
     "shipper": {
-      "name": "BETA MANUFACTURING INC.",
-      "address": "2345 SHENZHEN ROAD, SHENZHEN, CHINA, 518000",
+      "name": "ASIA PACIFIC MERCHANDISE LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
       "country": "CHINA",
-      "additionalInfo": "(SHENZHEN FREE TRADE ZONE)",
-      "telephone": "+86 755 26543210",
-      "email": "INFO@BETAMANUFACTURING.COM"
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SHIPPING@APM LTD.COM"
     },
     "consignee": {
-      "name": "ALPHA TRADING CO.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB",
       "country": "NETHERLANDS",
-      "email": "ORDERS@ALPHATRADING.COM, INQUIRIES@ALPHATRADING.COM",
-      "telephone": "+31 20 6789012"
+      "email": "ORDERS@GLOBALTRADING.NL",
+      "telephone": "+31 10 555 1234"
     },
     "notifyParty": {
-      "name": "ALPHA TRADING CO.",
-      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB",
       "country": "NETHERLANDS",
-      "email": "ORDERS@ALPHATRADING.COM, INQUIRIES@ALPHATRADING.COM",
-      "telephone": "+31 20 6789012"
+      "email": "ORDERS@GLOBALTRADING.NL",
+      "telephone": "+31 10 555 1234"
     }
   },
-  "shippingTerm": "CIF",
-  "hsCode": "903180",
-  "commodityDescription": "NETWORK SWITCHING EQUIPMENT",
+  "shippingTerm": "CFR",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
   "containers": [
     {
       "containerNumber": "CRLU1234567",
       "sealNumber": "1234567",
-      "marksAndNumbers": "ALPHA202410",
-      "numberOfPackages": 100,
+      "marksAndNumbers": "APM123",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "NETWORK SWITCHING EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SWITCHING EQUIPMENT",
-      "grossWeight": 22063.0,
-      "measurement": 35.1
+      "cargoDescription": "COMPUTERS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  50 PCS OF COMPUTERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.5
     },
     {
       "containerNumber": "CRLU7890123",
       "sealNumber": "7890123",
-      "marksAndNumbers": "ALPHA202410",
-      "numberOfPackages": 100,
+      "marksAndNumbers": "APM456",
+      "numberOfPackages": 50,
       "packageType": "CARTONS",
-      "cargoDescription": "NETWORK SWITCHING EQUIPMENT - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: NETWORK SWITCHING EQUIPMENT",
-      "grossWeight": 22063.0,
-      "measurement": 35.1
+      "cargoDescription": "COMPUTERS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  50 PCS OF COMPUTERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "4567890",
+      "marksAndNumbers": "APM789",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "COMPUTERS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN:  50 PCS OF COMPUTERS",
+      "grossWeight": 10000.0,
+      "measurement": 25.5
     }
   ],
   "totalShipment": {
-    "totalContainers": "TWO (2 x 40 HIGH CUBE CONTAINER) CONTAINERS ONLY",
-    "totalPackages": 200,
-    "totalGrossWeight": 44126.0,
-    "totalMeasurement": 70.2
+    "totalContainers": "THREE (3 X 20' DRY) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 76.5
   },
   "additionalInformation": {
     "lcDetails": {
-      "lcNumber": "123456789012345678"
+      "lcNumber": "00001010334237"
     },
-    "certificateDetails": [
-      "411252403578X",
-      "411252403579X"
-    ],
+    "certificateDetails": [],
     "originalBLDistribution": {
-      "name": "HAN GLOBAL CO., LTD.",
-      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
-      "telephone": "+82-2-3700-2110"
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB",
+      "telephone": "+31 10 555 1234"
     },
     "originalInvoiceDistribution": {
-      "name": "HAN GLOBAL CO., LTD.",
-      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
-      "telephone": "+82-2-3700-2110"
+      "name": "GLOBAL TRADING INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, 3011 AB",
+      "telephone": "+31 10 555 1234"
     },
-    "onboardDate": "2024-10-05 15:00",
-    "additionalRemarks": "Pre-carriage by truck to Ningbo Port. 14 Days Free Time at Destination."
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Value: USD 150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
   }
 }

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202409107027",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SINOCHEM GROUP CO., LTD",
+      "address": "NO. 153, EAST 3RD RING ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6163-5000",
+      "fax": "+86-21-6163-5001"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "KARLSGATE 2, 3004 DR\u00d8BAK, NORWAY",
+      "telephone": "+47-63-87-10-00",
+      "fax": "+47-63-87-10-01"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "KARLSGATE 2, 3004 DR\u00d8BAK, NORWAY",
+      "telephone": "+47-63-87-10-00",
+      "fax": "+47-63-87-10-01"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "841869",
+  "commodityDescription": "OFFSHORE CRANE",
+  "containers": [
+    {
+      "containerNumber": "MSCU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KONGSBERG",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) OFFSHORE CRANE",
+      "grossWeight": 50000,
+      "measurement": 40
+    },
+    {
+      "containerNumber": "MSCU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KONGSBERG",
+      "numberOfPackages": 1,
+      "packageType": "PIECE",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ONE (1) OFFSHORE CRANE",
+      "grossWeight": 50000,
+      "measurement": 40
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CONTAINER",
+    "totalPackages": 2,
+    "packageType": "PIECE",
+    "totalGrossWeight": 100000,
+    "totalMeasurement": 80
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO2024091101",
+    "salesOrderNumber": "SO2024091102",
+    "lcDetails": {
+      "lcNumber": "LC2024091103"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "KARLSGATE 2, 3004 DR\u00d8BAK, NORWAY",
+      "telephone": "+47-63-87-10-00",
+      "fax": "+47-63-87-10-01"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SINOCHEM GROUP CO., LTD",
+      "address": "NO. 153, EAST 3RD RING ROAD, SHANGHAI 200021, CHINA",
+      "telephone": "+86-21-6163-5000",
+      "fax": "+86-21-6163-5001"
+    },
+    "onboardDate": "2024-09-15 14:00",
+    "additionalRemarks": "Free Time: 7 Days at Port of Discharge"
+  }
+}

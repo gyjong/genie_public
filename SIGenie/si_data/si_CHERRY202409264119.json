@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202409264119",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES CO.",
+      "address": "328 YINZHONG ROAD, SHANGHAI, CHINA 200000",
+      "telephone": "+86 21 6387 5678",
+      "fax": "+86 21 6387 5679"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001",
+      "email": "INFO@GLOBALTRADINGLTD.COM",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "FCA",
+  "hsCode": "854442",
+  "commodityDescription": "CERAMIC CAPACITORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5768123",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APCO123",
+      "numberOfPackages": 500,
+      "cargoDescription": "CERAMIC CAPACITORS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APCO456",
+      "numberOfPackages": 500,
+      "cargoDescription": "CERAMIC CAPACITORS",
+      "grossWeight": 12500.0,
+      "measurement": 26.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 1000,
+    "totalGrossWeight": 24500.0,
+    "totalMeasurement": 51.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT20241003001",
+    "documentNumber": "20241003002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "COO-20241003-001"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31 10 200 3000",
+      "fax": "+31 10 200 3001"
+    },
+    "onboardDate": "2024-10-03 14:00",
+    "additionalRemarks": "Free Time: 7 Days at Destination. Demurrage Charges Apply After Free Time"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

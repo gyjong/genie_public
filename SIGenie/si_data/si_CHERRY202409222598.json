@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202409222598",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24203E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES INC.",
+      "address": "NO. 1234, JINGDONG ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "COSMOS TRADING CO.",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678",
+      "email": "IMPORT@COSMOSTRADING.NL",
+      "contactPerson": "PETER VAN DER LEE"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "COSMOS LOGISTICS BV",
+      "address": "SINGEL 456, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-7654321",
+      "fax": "+31-20-76543210"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "COSMOS123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE LOOM PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "COSMOS456",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE LOOM PARTS",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 95,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 49.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240922-001",
+    "documentNumber": "20240922-002",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": [
+      "CN240922-001"
+    ],
+    "originalBLDistribution": {
+      "name": "COSMOS TRADING CO.",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "COSMOS TRADING CO.",
+      "address": "SINGEL 123, 1012 AB AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678"
+    },
+    "onboardDate": "2024-09-25 16:00",
+    "additionalRemarks": "Demurrage charges apply after 7 days of free time at destination."
+  }
+}

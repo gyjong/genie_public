@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202411068943",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Trading Co.",
+      "address": "No. 123 Huaihai Road, Shanghai, 200000, China",
+      "telephone": "+86-21-6328-1234",
+      "fax": "+86-21-6328-5678"
+    },
+    "consignee": {
+      "name": "Sunrise Trading Co.",
+      "address": "Hermannstra\u00dfe 12, 20095 Hamburg, Germany",
+      "telephone": "+49-40-378-1234",
+      "fax": "+49-40-378-5678"
+    },
+    "notifyParty": {
+      "name": "Sunrise Trading Co.",
+      "address": "Hermannstra\u00dfe 12, 20095 Hamburg, Germany",
+      "telephone": "+49-40-378-1234",
+      "fax": "+49-40-378-5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870899",
+  "commodityDescription": "CAR PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CAR PARTS AS PER INVOICE",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 15,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CAR PARTS AS PER INVOICE",
+      "grossWeight": 13000,
+      "measurement": 35
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 12,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, WEIGHT AND SEAL SAID TO CONTAIN: CAR PARTS AS PER INVOICE",
+      "grossWeight": 11500,
+      "measurement": 28
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 37,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36500,
+    "totalMeasurement": 93
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "salesOrderNumber": "SO87654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "Sunrise Trading Co.",
+      "address": "Hermannstra\u00dfe 12, 20095 Hamburg, Germany",
+      "telephone": "+49-40-378-1234",
+      "fax": "+49-40-378-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Sunrise Trading Co.",
+      "address": "Hermannstra\u00dfe 12, 20095 Hamburg, Germany",
+      "telephone": "+49-40-378-1234",
+      "fax": "+49-40-378-5678"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Hazardous cargo: Class 9, UN 3077. Value: USD35,000"
+  }
+}

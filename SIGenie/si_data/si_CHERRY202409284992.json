@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409284992",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Zenith Manufacturing Inc.",
+      "address": "No. 888, Huaxing Road, Ningbo, Zhejiang 315000, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "Zenith International Trading",
+      "address": "Westersingel 36, 3014 AA Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@zenithtrading.nl",
+      "telephone": "+31 10 411 2345"
+    },
+    "notifyParty": {
+      "name": "Global Trading Co. Ltd",
+      "address": "123 High Street, London, WC1A 1AA, United Kingdom",
+      "country": "UNITED KINGDOM",
+      "email": "info@globaltrading.co.uk",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL WIRE",
+  "containers": [
+    {
+      "containerNumber": "CMAU9654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ZT1234",
+      "numberOfPackages": 500,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL WIRE, 200 METERS PER COIL",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ZT5678",
+      "numberOfPackages": 450,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL WIRE, 250 METERS PER COIL",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "ZT9012",
+      "numberOfPackages": 550,
+      "packageType": "COILS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRICAL WIRE, 200 METERS PER COIL",
+      "grossWeight": 21000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "COILS",
+    "totalGrossWeight": 59000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ZT20241027",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "Zenith International Trading",
+      "address": "Westersingel 36, 3014 AA Rotterdam, Netherlands",
+      "telephone": "+31 10 411 2345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Zenith Manufacturing Inc.",
+      "address": "No. 888, Huaxing Road, Ningbo, Zhejiang 315000, China",
+      "telephone": "+86 574 8888 8888",
+      "fax": "+86 574 8888 8889"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3334"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410098771",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2426EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "address": "No. 123 Textile Street, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "consignee": {
+      "name": "DELTA INTERNATIONAL TRADING LTD",
+      "address": "Calle Mayor 100, 28013 Madrid, Spain",
+      "telephone": "+34-91-555-5555",
+      "fax": "+34-91-555-5556"
+    },
+    "notifyParty": {
+      "name": "DELTA INTERNATIONAL TRADING LTD",
+      "address": "Calle Mayor 100, 28013 Madrid, Spain",
+      "telephone": "+34-91-555-5555",
+      "fax": "+34-91-555-5556"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "551219",
+  "commodityDescription": "Cotton Fabric",
+  "containers": [
+    {
+      "containerNumber": "CCLU2992659",
+      "sealNumber": "706716",
+      "marksAndNumbers": "APTC-20241009",
+      "numberOfPackages": 1000,
+      "packageType": "Bales",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 25000,
+      "measurement": 6.8
+    },
+    {
+      "containerNumber": "CCLU2992660",
+      "sealNumber": "706717",
+      "marksAndNumbers": "APTC-20241009",
+      "numberOfPackages": 1000,
+      "packageType": "Bales",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 25000,
+      "measurement": 6.8
+    },
+    {
+      "containerNumber": "CCLU2992661",
+      "sealNumber": "706718",
+      "marksAndNumbers": "APTC-20241009",
+      "numberOfPackages": 1000,
+      "packageType": "Bales",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 25000,
+      "measurement": 6.8
+    },
+    {
+      "containerNumber": "CCLU2992662",
+      "sealNumber": "706719",
+      "marksAndNumbers": "APTC-20241009",
+      "numberOfPackages": 1000,
+      "packageType": "Bales",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 25000,
+      "measurement": 6.8
+    },
+    {
+      "containerNumber": "CCLU2992663",
+      "sealNumber": "706720",
+      "marksAndNumbers": "APTC-20241009",
+      "numberOfPackages": 1000,
+      "packageType": "Bales",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COTTON FABRIC",
+      "grossWeight": 25000,
+      "measurement": 6.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CONTAINER) CONTAINERS",
+    "totalPackages": 5000,
+    "packageType": "Bales",
+    "totalGrossWeight": 125000,
+    "totalMeasurement": 34
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "20241009-PO001",
+    "salesOrderNumber": "20241009-SO001",
+    "lcDetails": {
+      "lcNumber": "LC-20241009-001"
+    },
+    "certificateDetails": "CN-20241009-001",
+    "originalBLDistribution": {
+      "name": "DELTA INTERNATIONAL TRADING LTD",
+      "address": "Calle Mayor 100, 28013 Madrid, Spain",
+      "telephone": "+34-91-555-5555",
+      "fax": "+34-91-555-5556"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TEXTILES CO.",
+      "address": "No. 123 Textile Street, Ningbo, Zhejiang, China",
+      "telephone": "+86-574-8888-1111",
+      "fax": "+86-574-8888-2222"
+    },
+    "onboardDate": "2024-10-16 14:00",
+    "additionalRemarks": "14 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

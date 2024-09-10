@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202409306160",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Collect",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF GLOBAL TRADING CO.",
+      "address": "328 Huangpu Road, Shanghai, 200001, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5386 1234",
+      "email": "shipping@defglobaltrading.com"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "Oosterdoksstraat 12, 1011 DK Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcimporte.nl",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "Oosterdoksstraat 12, 1011 DK Amsterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcimporte.nl",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85444210",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7891234",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GHI789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 105.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN1234567"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "Oosterdoksstraat 12, 1011 DK Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "Oosterdoksstraat 12, 1011 DK Amsterdam, Netherlands",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "SPECIAL INSTRUCTIONS: CONTAINER NEEDS TO BE SEALED WITH A HIGH-SECURITY SEAL."
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "bookingReference": "CHERRY202410229519",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24204E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS & EXPORTS",
+      "onBehalfOf": "",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC IMPORTS & EXPORTS INC.",
+      "address": "123 WALL STREET, NEW YORK, USA 10005"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "94016000",
+  "commodityDescription": "OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASPI-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987655",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASPI-124",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987656",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ASPI-125",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "ASPI-126",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9987658",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASPI-127",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: OFFICE CHAIRS WITH FABRIC UPHOLSTERY",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC IMPORTS & EXPORTS",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC IMPORTS & EXPORTS INC.",
+      "address": "123 WALL STREET, NEW YORK, USA 10005"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "VALUE: USD30,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

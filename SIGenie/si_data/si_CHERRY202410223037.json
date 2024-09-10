@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410223037",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2445EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Apex Manufacturing Ltd.",
+      "address": "No. 1234, Huayuan Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Yinzhou District)",
+      "telephone": "+86 574 8888 1234",
+      "email": "shipping@apexmanufacturing.com"
+    },
+    "consignee": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "country": "USA",
+      "email": "info@globalsolutions.com",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "country": "USA",
+      "email": "info@globalsolutions.com",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "Textile Processing Machinery",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APEX123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY FOR WORKING TEXTILE YARNS, FABRICS OR MADE-UP TEXTILE ARTICLES - PACKAGED IN WOODEN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "APEX123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY FOR WORKING TEXTILE YARNS, FABRICS OR MADE-UP TEXTILE ARTICLES - PACKAGED IN WOODEN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APEX123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MACHINERY FOR WORKING TEXTILE YARNS, FABRICS OR MADE-UP TEXTILE ARTICLES - PACKAGED IN WOODEN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 150,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [
+      "12345678901234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Logistics Solutions Inc.",
+      "address": "123 Main Street, Suite 400, New York, NY 10001, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Containers equipped with moisture absorbers. Value: USD150,000"
+  }
+}

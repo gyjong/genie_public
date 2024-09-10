@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410273291",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "NO. 123 INDUSTRY PARK ROAD, NINGBO, ZHEJIANG PROVINCE, CHINA 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888889"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AA",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679",
+      "email": "IMPORT@ALPHA.NL",
+      "contactPerson": "PETER VAN DER MARK"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AA",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRIC TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CGXU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC TRANSFORMERS",
+      "grossWeight": 22000.0,
+      "measurement": 32.0
+    },
+    {
+      "containerNumber": "CGXU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 98,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC TRANSFORMERS",
+      "grossWeight": 21500.0,
+      "measurement": 31.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE DRY CONTAINER",
+    "totalPackages": 198,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 63.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241027-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "1234567890123456"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AA",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 AA",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-12345679"
+    },
+    "onboardDate": "2024-10-30 10:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

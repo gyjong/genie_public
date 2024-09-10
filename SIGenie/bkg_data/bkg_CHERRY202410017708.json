@@ -1,21 +1,21 @@
 {
   "bookingReference": "CHERRY202410017708",
-  "customerName": "ALPHA TRADING CO.",
-  "shipperName": "BETA MANUFACTURING INC.",
-  "invoiceReceiver": "ALPHA TRADING CO.",
+  "customerName": "GLOBAL TRADING INC.",
+  "shipperName": "ASIA PACIFIC MERCHANDISE LTD.",
+  "invoiceReceiver": "GLOBAL TRADING INC.",
   "voyageDetails": {
-    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
-    "voyageNumber": "2409E087"
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424W123"
   },
   "cargoDetails": {
-    "hsCode": "903180",
-    "chapterDescription": "OTHER ELECTRICAL APPARATUS FOR LINE TELEPHONY OR LINE TELEGRAPHY, INCLUDING APPARATUS FOR LINE TELEPHONY OR LINE TELEGRAPHY OPERATING ON AN OPTICAL FIBRE BASIS",
-    "commodity": "NETWORK SWITCHING EQUIPMENT"
+    "hsCode": "847130",
+    "chapterDescription": "Automatic data processing machines and units thereof; magnetic or optical readers, machines for transcribing data onto data media in coded form and machines for processing such data, not elsewhere specified or included",
+    "commodity": "COMPUTERS"
   },
   "containerDetails": {
-    "size": "40 HIGH CUBE CONTAINER",
-    "type": "DRY",
-    "quantity": 2
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
   },
   "routeDetails": {
     "placeOfReceipt": "NINGBO, CHINA",
@@ -24,11 +24,11 @@
     "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
   },
   "scheduleDetails": {
-    "estimatedArrivalAtLoadingPort": "2024-10-05 15:00",
-    "estimatedDepartureFromLoadingPort": "2024-10-06 22:00",
-    "estimatedArrivalAtDischargePort": "2024-11-06 10:00"
+    "estimatedArrivalAtLoadingPort": "2024-10-15 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-16 08:00",
+    "estimatedArrivalAtDischargePort": "2024-10-28 10:00"
   },
   "emptyContainerPickupLocation": "NINGBO, CHINA",
-  "shippingTerm": "CIF",
-  "remarks": "Pre-carriage by truck to Ningbo Port. 14 Days Free Time at Destination."
+  "shippingTerm": "CFR",
+  "remarks": "Value: USD 150,000"
 }

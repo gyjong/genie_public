@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410093738",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipping@zenithlogistics.cn"
+    },
+    "consignee": {
+      "name": "EUROTECH INDUSTRIES BV",
+      "address": "Einsteinstraat 10, 3062 MB Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@eurotechindustries.nl",
+      "telephone": "+31 10 201 5000"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "email": "shipping@zenithlogistics.cn",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "854370",
+  "commodityDescription": "Industrial Electric Pump Motors",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "ZENITH241009",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC PUMP MOTORS AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "ZENITH241009",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC PUMP MOTORS AS PER PACKING LIST",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CONTAINER",
+    "totalPackages": 20,
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CN/ZHU1234567",
+      "CN/ZHU7890123"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH INDUSTRIES BV",
+      "address": "Einsteinstraat 10, 3062 MB Rotterdam, Netherlands",
+      "telephone": "+31 10 201 5000"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Maintain temperature between 5-10 degrees Celsius."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

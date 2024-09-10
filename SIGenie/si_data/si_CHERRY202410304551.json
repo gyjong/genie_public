@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410304551",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC INDUSTRIES LTD",
+      "onBehalfOf": "",
+      "address": "222 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "telephone": "+86-574-8612-3456",
+      "fax": "+86-574-8612-3457"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "C/ MAYOR, 123, 11001, CADIZ, SPAIN",
+      "companyNumber": "B12345678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "C/ MAYOR, 123, 11001, CADIZ, SPAIN"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "940330",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "SUNRISE CHAIRS",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "SUNRISE CHAIRS",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: WOODEN CHAIRS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC) CONTAINER ONLY",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "containerType": "40HC DRY",
+    "totalGrossWeight": 20000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "FSC-123456"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "C/ MAYOR, 123, 11001, CADIZ, SPAIN",
+      "telephone": "+34-956-123-456",
+      "fax": "+34-956-123-457"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "C/ MAYOR, 123, 11001, CADIZ, SPAIN"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "15 Days Free Time at Destination"
+  }
+}

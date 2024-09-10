@@ -1,0 +1,126 @@
+{
+  "bookingReference": "CHERRY202410231013",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "22nd Floor, Shanghai Tower, 500 Pudong Nan Road, Shanghai, 200120, CHINA",
+      "telephone": "+86-21-6327-2000",
+      "fax": "+86-21-6327-2001"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO.,LTD.",
+      "address": "Amsteldijk 45, 1079 HA Amsterdam, Netherlands",
+      "telephone": "+31 20 662 1234",
+      "fax": "+31 20 662 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "22nd Floor, Shanghai Tower, 500 Pudong Nan Road, Shanghai, 200120, CHINA",
+      "telephone": "+86-21-6327-2000",
+      "fax": "+86-21-6327-2001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "95030010",
+  "commodityDescription": "PLASTIC BUILDING BLOCKS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GFS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC BUILDING BLOCKS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU11223344",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GFS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC BUILDING BLOCKS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU55667788",
+      "sealNumber": "987654",
+      "marksAndNumbers": "GFS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC BUILDING BLOCKS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU88990011",
+      "sealNumber": "321654",
+      "marksAndNumbers": "GFS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC BUILDING BLOCKS",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU22334455",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GFS20241023",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PLASTIC BUILDING BLOCKS",
+      "grossWeight": 12000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER)",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 60000,
+    "totalMeasurement": 125
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241023-01",
+    "salesOrderNumber": "SO20241023-01",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CN20241023001",
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS (SHANGHAI)",
+      "address": "22nd Floor, Shanghai Tower, 500 Pudong Nan Road, Shanghai, 200120, CHINA",
+      "telephone": "+86-21-6327-2000",
+      "fax": "+86-21-6327-2001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS CO.,LTD.",
+      "address": "Amsteldijk 45, 1079 HA Amsterdam, Netherlands",
+      "telephone": "+31 20 662 1234",
+      "fax": "+31 20 662 5678"
+    },
+    "onboardDate": "2024-10-27 12:00",
+    "additionalRemarks": "CONTAINERS SEALED AND READY FOR SHIPMENT. VALUE: USD50,000"
+  }
+}

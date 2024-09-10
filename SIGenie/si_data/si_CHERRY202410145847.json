@@ -1,0 +1,175 @@
+{
+  "bookingReference": "CHERRY202410145847",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Co. Ltd.",
+      "address": "No. 123, Xingye Road, Ningbo, Zhejiang, 315000, China",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "email": "shipping@xyzmanufacturing.com"
+    },
+    "consignee": {
+      "name": "ABC International Logistics",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcinternationallogistics.nl",
+      "telephone": "+31 10 222 3333"
+    },
+    "notifyParty": {
+      "name": "ABC International Logistics",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcinternationallogistics.nl",
+      "telephone": "+31 10 222 3333"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "94017000",
+  "commodityDescription": "Automotive Seats",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ-123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ-456",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ-789",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU2468013",
+      "sealNumber": "135791",
+      "marksAndNumbers": "XYZ-246",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU3691248",
+      "sealNumber": "246801",
+      "marksAndNumbers": "XYZ-369",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU5823614",
+      "sealNumber": "369124",
+      "marksAndNumbers": "XYZ-582",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7045826",
+      "sealNumber": "456789",
+      "marksAndNumbers": "XYZ-704",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8267048",
+      "sealNumber": "567890",
+      "marksAndNumbers": "XYZ-826",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9480267",
+      "sealNumber": "678901",
+      "marksAndNumbers": "XYZ-948",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU0692481",
+      "sealNumber": "789012",
+      "marksAndNumbers": "XYZ-069",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "Automotive Seats packed in individual boxes",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TEN (10 X 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 200000.0,
+    "totalMeasurement": 250.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC International Logistics",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "telephone": "+31 10 222 3333"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC International Logistics",
+      "address": "123 Main Street, Rotterdam, 3000 AA, Netherlands",
+      "telephone": "+31 10 222 3333"
+    },
+    "onboardDate": "2024-10-20 12:00",
+    "additionalRemarks": "Seats packed in individual boxes, value: USD 50,000"
+  }
+}

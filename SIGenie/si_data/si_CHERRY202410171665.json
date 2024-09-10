@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410171665",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2429EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 258, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "DE BRIJNSTRAAT 123, 3011 AX ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ZENITHGLOBAL.NL",
+      "telephone": "+31 10 477 77 77"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 258, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "email": "SUNRISE@TRADINGCO.CN",
+      "telephone": "+86 574 8888 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE LOOM SPARE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS - 20 BOXES PER CONTAINER, NET WEIGHT 15 TONNES EACH",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876544",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "TEXTILE LOOM SPARE PARTS - 20 BOXES PER CONTAINER, NET WEIGHT 15 TONNES EACH",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY HIGH CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "123456ICP-1",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "00001010333789",
+      "bankName": "BANK OF CHINA"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS",
+      "address": "DE BRIJNSTRAAT 123, 3011 AX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 477 77 77"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 258, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "telephone": "+86 574 8888 9999"
+    },
+    "onboardDate": "2024-10-24 12:00",
+    "additionalRemarks": "Cargo requires careful handling, please ensure proper stowage."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

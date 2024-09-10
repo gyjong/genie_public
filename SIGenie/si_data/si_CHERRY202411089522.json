@@ -1,0 +1,88 @@
+{
+  "bookingReference": "CHERRY202411089522",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI YUANZHONG IMPORT & EXPORT CO., LTD",
+      "address": "NO.333, SHENYANG ROAD, BAOSHAN DISTRICT, SHANGHAI, CHINA"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) BV",
+      "address": "P.O. BOX 7575, 3007 GJ ROTTERDAM, NETHERLANDS"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "12F, EAST TOWER, SHANGHAI IFC, 8 CENTENNIAL AVE, SHANGHAI, CHINA",
+      "telephone": "+86 21 6279 6666",
+      "fax": "+86 21 6279 6688"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7637427",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 10,
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 55.0
+    },
+    {
+      "containerNumber": "CMAU0713993",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "cargoDescription": "TEXTILE MACHINERY PARTS AS PER INVOICE",
+      "grossWeight": 15000.0,
+      "measurement": 55.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' DRY CONTAINER)",
+    "totalPackages": 20,
+    "packageType": "PACKAGES",
+    "containerType": "40' DRY",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 110.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033738"
+    },
+    "certificateDetails": [
+      "1000020070131X",
+      "1000020070132X"
+    ],
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (CHINA) CO., LTD",
+      "address": "12F, EAST TOWER, SHANGHAI IFC, 8 CENTENNIAL AVE, SHANGHAI, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (NETHERLANDS) BV",
+      "address": "P.O. BOX 7575, 3007 GJ ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-11-15 14:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROLLED ENVIRONMENT (15-20 DEGREES CELSIUS)"
+  }
+}

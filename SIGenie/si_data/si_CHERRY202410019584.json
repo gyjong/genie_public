@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202410019584",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2436W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": " negotiable",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "23 FENGYING ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8765 4321",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321000B01",
+      "president": "MR. PETER VAN DER MARK",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL854321000B01",
+      "president": "MR. PETER VAN DER MARK",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94033000",
+  "commodityDescription": "WOODEN DINING CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1500067",
+      "sealNumber": "894100",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN DINING CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500068",
+      "sealNumber": "894101",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN DINING CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500069",
+      "sealNumber": "894102",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN DINING CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500070",
+      "sealNumber": "894103",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN DINING CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU1500071",
+      "sealNumber": "894104",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 150,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS WOODEN DINING CHAIRS",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY) CONTAINERS",
+    "totalPackages": 750,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 75000.0,
+    "totalMeasurement": 150.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0200201033738"
+    },
+    "certificateDetails": "1050020070131",
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD.",
+      "address": "123 EUROPA STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 204 5678",
+      "fax": "+31 10 204 5679"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE ITEMS.  VALUE: USD 15,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

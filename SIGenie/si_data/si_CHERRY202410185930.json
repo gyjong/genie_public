@@ -1,0 +1,99 @@
+{
+  "bookingReference": "CHERRY202410185930",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 21 5555 1234",
+      "fax": "+86 21 5555 5678"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL LOGISTICS LTD",
+      "address": "123 ABC AVENUE, ROTTERDAM, NETHERLANDS, 3000 AA",
+      "telephone": "+31 10 1234 5678",
+      "fax": "+31 10 9876 5432",
+      "email": "IMPORT@ZENITHGLOBAL.NL",
+      "contactPerson": "JAN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL ELECTRIC MOTORS - MODEL A123",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: INDUSTRIAL ELECTRIC MOTORS - MODEL B789",
+      "grossWeight": 20500.0,
+      "measurement": 48.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 40500.0,
+    "totalMeasurement": 98.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241018-001",
+    "documentNumber": "20241018-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL LOGISTICS LTD",
+      "address": "123 ABC AVENUE, ROTTERDAM, NETHERLANDS, 3000 AA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORT EXPORT CO.",
+      "address": "1234 MAIN STREET, SHANGHAI, CHINA, 200000"
+    },
+    "onboardDate": "2024-10-22 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED - FRAGILE CARGO"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

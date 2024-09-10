@@ -1,0 +1,94 @@
+{
+  "bookingReference": "CHERRY202411074149",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2440E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "Strandveien 52, 3190 Vestby, NORWAY",
+      "telephone": "+47 69 11 11 11",
+      "fax": "+47 69 11 11 22"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "Nieuwe Haven 10, 3011 GP Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "Strandveien 52, 3190 Vestby, NORWAY",
+      "telephone": "+47 69 11 11 11",
+      "fax": "+47 69 11 11 22"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "85437090",
+  "commodityDescription": "AUTOMATION SYSTEM FOR SHIP BRIDGE",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KONGSBERG 1/1",
+      "numberOfPackages": 1,
+      "packageType": "CRATES",
+      "cargoDescription": "AUTOMATION SYSTEM FOR SHIP BRIDGE - 1 CRATE",
+      "grossWeight": 1200.0,
+      "measurement": 1.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "ONE (20' DRY CONTAINER)",
+    "totalPackages": 1,
+    "packageType": "CRATES",
+    "totalGrossWeight": 1200.0,
+    "totalMeasurement": 1.5
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin",
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "Strandveien 52, 3190 Vestby, NORWAY",
+      "telephone": "+47 69 11 11 11",
+      "fax": "+47 69 11 11 22"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "Nieuwe Haven 10, 3011 GP Rotterdam, NETHERLANDS",
+      "telephone": "+31 10 200 1000",
+      "fax": "+31 10 200 1001"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: TEMPERATURE CONTROLLED"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

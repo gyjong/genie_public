@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202411021869",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2410EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI MEIZHI IMPORT & EXPORT CO. LTD",
+      "address": "2388 SHENNAN ROAD, SHANGHAI, CHINA 200001",
+      "telephone": "+86-21-6325-8965",
+      "fax": "+86-21-6325-8966"
+    },
+    "consignee": {
+      "name": "KONE CORPORATION",
+      "address": "P.O. BOX 100, FIN-00100 HELSINKI, FINLAND",
+      "telephone": "+358-20-778-1000",
+      "fax": "+358-20-778-1001"
+    },
+    "notifyParty": {
+      "name": "KONE CORPORATION",
+      "address": "P.O. BOX 100, FIN-00100 HELSINKI, FINLAND",
+      "telephone": "+358-20-778-1000",
+      "fax": "+358-20-778-1001"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84283010",
+  "commodityDescription": "ELEVATOR COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CSEQ1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KONE-NL123",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELEVATOR PARTS AS PER PACKING LIST",
+      "grossWeight": 20000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CSEQ7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KONE-NL124",
+      "numberOfPackages": 8,
+      "packageType": "PALLETS",
+      "cargoDescription": "ELEVATOR COMPONENTS AS PER PACKING LIST",
+      "grossWeight": 18000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 18,
+    "packageType": "CRATES & PALLETS",
+    "totalGrossWeight": 38000,
+    "totalMeasurement": 55
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "salesOrderNumber": "SO987654321",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "Certificate of Origin",
+    "originalBLDistribution": {
+      "name": "KONE CORPORATION",
+      "address": "P.O. BOX 100, FIN-00100 HELSINKI, FINLAND",
+      "telephone": "+358-20-778-1000",
+      "fax": "+358-20-778-1001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONE CORPORATION",
+      "address": "P.O. BOX 100, FIN-00100 HELSINKI, FINLAND",
+      "telephone": "+358-20-778-1000",
+      "fax": "+358-20-778-1001"
+    },
+    "onboardDate": "2024-11-08 12:00",
+    "additionalRemarks": "DOOR-TO-DOOR DELIVERY REQUIRED"
+  }
+}

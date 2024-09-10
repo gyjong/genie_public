@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410087195",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2446EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI BAODA INTERNATIONAL LOGISTICS CO., LTD",
+      "address": "NO. 1888, XINLE ROAD, SHANGHAI, 200021, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong New Area)"
+    },
+    "consignee": {
+      "name": "CHINA SHIPPING CO., LTD",
+      "address": "239 DE RUN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@CHINASHIPPING.NL",
+      "telephone": "+31 10 414 6000"
+    },
+    "notifyParty": {
+      "name": "CHINA SHIPPING CO., LTD",
+      "address": "239 DE RUN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@CHINASHIPPING.NL",
+      "telephone": "+31 10 414 6000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85414000",
+  "commodityDescription": "LED DRIVER CHIPS",
+  "containers": [
+    {
+      "containerNumber": "SEGU4247776",
+      "sealNumber": "123456",
+      "marksAndNumbers": "LED CHIP SHIPMENT",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED DRIVER CHIPS, PACKAGED IN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "SEGU3434556",
+      "sealNumber": "654321",
+      "marksAndNumbers": "LED CHIP SHIPMENT",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LED DRIVER CHIPS, PACKAGED IN BOXES",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "BOXES",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "CS202410087195",
+    "hsCode": "85414000",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC20241025-001"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "CHINA SHIPPING CO., LTD",
+      "address": "239 DE RUN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 414 6000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "CHINA SHIPPING CO., LTD",
+      "address": "239 DE RUN STREET, ROTTERDAM, 3011 NL, NETHERLANDS",
+      "telephone": "+31 10 414 6000",
+      "fax": "+31 10 414 6001"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "DOOR DELIVERY REQUIRED"
+  }
+}

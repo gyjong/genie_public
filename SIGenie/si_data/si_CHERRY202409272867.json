@@ -1,0 +1,117 @@
+{
+  "bookingReference": "CHERRY202409272867",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2428E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 MAIN STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
+    },
+    "consignee": {
+      "name": "ABC INTERNATIONAL LTD",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432",
+      "email": "IMPORT@ABCINTERNATIONAL.NL",
+      "contactPerson": "PETER VAN DER MEER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "ABC LOGISTICS BV",
+      "address": "789 CANAL STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 12345678",
+      "fax": "+31 10 98765432",
+      "email": "NOTIFICATIONS@ABCLOGISTICS.NL"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "902300",
+  "commodityDescription": "OPTICAL LABORATORY EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL LABORATORY EQUIPMENT",
+      "grossWeight": 15000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 95,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL LABORATORY EQUIPMENT",
+      "grossWeight": 14500.0,
+      "measurement": 28.5
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 105,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: OPTICAL LABORATORY EQUIPMENT",
+      "grossWeight": 15500.0,
+      "measurement": 31.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 99.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241001-001",
+    "documentNumber": "20001639821",
+    "lcDetails": {
+      "lcNumber": "00001010339242"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC INTERNATIONAL LTD",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC INTERNATIONAL LTD",
+      "address": "456 MARKET STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 12345678",
+      "fax": "+31 20 98765432"
+    },
+    "onboardDate": "2024-10-02 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410319375",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435SEAWE"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA IMPORTS INC.",
+      "onBehalfOf": "",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "consignee": {
+      "name": "GAMMA DISTRIBUTORS LLC",
+      "address": "456 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING CO. LTD",
+      "address": "789 BROADWAY, TOKYO, JAPAN"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "TELECOMMUNICATION CABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908625",
+      "sealNumber": "892083",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "892084",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "892085",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PALLETS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TELECOMMUNICATION CABLES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC X3) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PALLETS",
+    "containerType": "40HC",
+    "totalGrossWeight": 45000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033738"
+    },
+    "certificateDetails": [
+      "4112720070177X",
+      "4112720070178X"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING CO. LTD",
+      "address": "789 BROADWAY, TOKYO, JAPAN",
+      "telephone": "+81-3-1234-5678",
+      "fax": "+81-3-1234-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA IMPORTS INC.",
+      "address": "123 MAIN STREET, NEW YORK, NY 10001, USA",
+      "telephone": "+1-212-555-1212",
+      "fax": "+1-212-555-1213"
+    },
+    "onboardDate": "2024-11-05 15:00",
+    "additionalRemarks": "Dangerous goods. Class 9. UN No: 3334"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT7802278",
+    "unClass": "5",
+    "unCode": "No: 3334",
+    "hsCode": "7409.61.80",
+    "flashPoint": "-6\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

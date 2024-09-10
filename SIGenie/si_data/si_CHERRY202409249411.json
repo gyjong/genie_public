@@ -1,0 +1,111 @@
+{
+  "bookingReference": "CHERRY202409249411",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 58, HUA-FU STREET, NINGBO, ZHEJIANG, CHINA, 315040",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8765 4321",
+      "email": "SALES@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "EURO STYLE FURNITURE LTD.",
+      "address": "KRUISESTRAAT 125, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROSTYLEFURNITURE.NL",
+      "telephone": "+31 10 444 5555"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 58, HUA-FU STREET, NINGBO, ZHEJIANG, CHINA, 315040",
+      "country": "CHINA",
+      "email": "SALES@SUNRISETRADING.COM",
+      "telephone": "+86 574 8765 4321"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "940171",
+  "commodityDescription": "CHAIR SEATS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-2024-NL",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHAIR SEATS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-2024-NL",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHAIR SEATS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-2024-NL",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "CHAIR SEATS AS PER INVOICE",
+      "grossWeight": 12000.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY X3) CONTAINERS ONLY",
+    "totalPackages": 150,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 76.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 58, HUA-FU STREET, NINGBO, ZHEJIANG, CHINA, 315040",
+      "telephone": "+86 574 8765 4321"
+    },
+    "onboardDate": "2024-10-26 12:00",
+    "additionalRemarks": "Value: USD20,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

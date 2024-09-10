@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202411057577",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2411E9"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "238 HUANGPU ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(NEAR PEOPLE'S SQUARE)"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 20 624 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALIMPORTEXPORT.NL",
+      "telephone": "+31 20 624 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU9184562",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA22-ROT",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "ASIA22-ROT",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20'DV X2) CONTAINERS ONLY",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "totalGrossWeight": 22000.0,
+    "totalMeasurement": 45.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 624 1234"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Fragile cargo, Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

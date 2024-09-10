@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409292629",
+  "customerName": "GLOBAL SHIPPING SOLUTIONS LTD",
+  "shipperName": "ASIA PACIFIC TRADING CO.",
+  "invoiceReceiver": "EURO IMPORTS GMBH",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424ESW2"
+  },
+  "cargoDetails": {
+    "hsCode": "621120",
+    "chapterDescription": "Tracksuits, jogging suits and similar knitted garments, of cotton or of cotton mixed with other fibres",
+    "commodity": "KNITTED GARMENTS"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-26 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-27 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CFR",
+  "remarks": "D/G, Class: 9, UN No: 3334"
+}

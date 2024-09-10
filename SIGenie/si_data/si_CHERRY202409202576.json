@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202409202576",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424EUN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DANFOSS A/S",
+      "address": "DANFOSS DRIVE, GRIMSBY, ENGLAND DN31 2LL",
+      "telephone": "+44 1472 375000",
+      "fax": "+44 1472 375001"
+    },
+    "consignee": {
+      "name": "DANFOSS A/S",
+      "address": "DANFOSS DRIVE, GRIMSBY, ENGLAND DN31 2LL",
+      "telephone": "+44 1472 375000",
+      "fax": "+44 1472 375001",
+      "email": "info@danfoss.com",
+      "contactPerson": "ANNA SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84137010",
+  "commodityDescription": "CENTRIFUGAL PUMPS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DFP202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CENTRIFUGAL PUMPS",
+      "grossWeight": 9000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DFP202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CENTRIFUGAL PUMPS",
+      "grossWeight": 9500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DFP202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CENTRIFUGAL PUMPS",
+      "grossWeight": 9200.0,
+      "measurement": 15.2
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "DFP202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CENTRIFUGAL PUMPS",
+      "grossWeight": 9300.0,
+      "measurement": 15.3
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "DFP202410",
+      "numberOfPackages": 10,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: CENTRIFUGAL PUMPS",
+      "grossWeight": 9100.0,
+      "measurement": 15.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 50,
+    "totalGrossWeight": 45100.0,
+    "totalMeasurement": 75.1
+  },
+  "additionalInformation": {
+    "invoiceNumber": "DF20241027",
+    "documentNumber": "20241027001",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CO1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "DANFOSS A/S",
+      "address": "DANFOSS DRIVE, GRIMSBY, ENGLAND DN31 2LL",
+      "telephone": "+44 1472 375000",
+      "fax": "+44 1472 375001"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DANFOSS A/S",
+      "address": "DANFOSS DRIVE, GRIMSBY, ENGLAND DN31 2LL",
+      "telephone": "+44 1472 375000",
+      "fax": "+44 1472 375001"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "PUMPS PACKED IN WOODEN CRATES. VALUE: USD50,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

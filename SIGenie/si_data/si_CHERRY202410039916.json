@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410039916",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2437EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "WORLDWIDE IMPORTS INC.",
+      "address": "123 MAIN STREET, ANYTOWN, USA",
+      "country": "UNITED STATES",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@asiapacific.nl",
+      "telephone": "+31 10 200 1234"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "info@asiapacific.nl",
+      "telephone": "+31 10 200 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - 100 CRATES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ASIA PACIFIC TRADING CO.",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "TEXTILE SPINNING MACHINES - 100 CRATES",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CRATES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "APTC20241003",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 MARKET STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235"
+    },
+    "onboardDate": "2024-10-06 14:00",
+    "additionalRemarks": "Free time 7 days at destination. Container stuffing by shipper"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

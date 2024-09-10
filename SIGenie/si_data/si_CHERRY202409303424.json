@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409303424",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2437EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ABC Manufacturing Co.",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "XYZ Trading Ltd.",
+      "address": "124 Port Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 1212",
+      "fax": "+31 10 555 1213"
+    },
+    "notifyParty": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "456 Main Street, New York, USA"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "MOTOR VEHICLES FOR THE TRANSPORT OF GOODS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 2,
+      "cargoDescription": "TRUCKS",
+      "grossWeight": 24000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 2,
+      "cargoDescription": "TRUCKS",
+      "grossWeight": 24000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 4,
+    "packageType": "UNITS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 136.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "CN20241028123",
+      "CN20241028456"
+    ],
+    "originalBLDistribution": {
+      "name": "XYZ Trading Ltd.",
+      "address": "124 Port Street, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Shipping Solutions Inc.",
+      "address": "456 Main Street, New York, USA"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3333"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

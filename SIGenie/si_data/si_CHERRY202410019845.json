@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410019845",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243E-W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "NO. 123 SHANGHAI ROAD,NINGBO, CHINA 315000",
+      "telephone": "+86-574-88888888",
+      "fax": "+86-574-88888887"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU2992659",
+      "sealNumber": "706716",
+      "marksAndNumbers": "GI-123",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS ",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMLU2992660",
+      "sealNumber": "706717",
+      "marksAndNumbers": "GI-124",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS ",
+      "grossWeight": 12000,
+      "measurement": 30
+    },
+    {
+      "containerNumber": "CMLU2992661",
+      "sealNumber": "706718",
+      "marksAndNumbers": "GI-125",
+      "numberOfPackages": 5,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: POWER TRANSFORMERS ",
+      "grossWeight": 12000,
+      "measurement": 30
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 15,
+    "packageType": "CRATES",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 90
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "9070825",
+    "salesOrderNumber": "2083281",
+    "lcDetails": {
+      "lcNumber": "00002010339242"
+    },
+    "certificateDetails": "4112724080189",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORT EXPORT INC",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-2222222",
+      "fax": "+31-10-2222223"
+    },
+    "onboardDate": "2024-10-10 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

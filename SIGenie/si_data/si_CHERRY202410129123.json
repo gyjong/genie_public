@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410129123",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EUS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "onBehalfOf": "",
+      "address": "123 TECH PARK RD, SHANGHAI, CHINA 200123",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "100 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DD",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "100 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DD"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84713000",
+  "commodityDescription": "LAPTOP COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LAPTOP COMPUTERS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LAPTOP COMPUTERS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "ALPHA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: LAPTOP COMPUTERS",
+      "grossWeight": 12000.0,
+      "measurement": 24.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 300,
+    "packageType": "CARTONS",
+    "containerType": "40DR",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 72.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "100 CANAL STREET, AMSTERDAM, NETHERLANDS 1012 DD",
+      "telephone": "+31-20-123-4567",
+      "fax": "+31-20-123-4568"
+    },
+    "originalInvoiceDistribution": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "123 TECH PARK RD, SHANGHAI, CHINA 200123",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "onboardDate": "2024-10-18 14:00",
+    "additionalRemarks": "ALL CONTAINERS SEALED. B/L: NON-NEGOTIABLE."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

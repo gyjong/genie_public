@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410183760",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "241022W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HONGQIAO ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "DE KOEIENSTRAAT 11, 3011 GD ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@EUROTECHIMPORTS.NL",
+      "telephone": "+31 10 414 5678"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HONGQIAO ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "email": "ORDERS@SUNRISETRADING.COM",
+      "telephone": "+86 574 8866 5522"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL WIRES",
+  "containers": [
+    {
+      "containerNumber": "CMAU8675321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRICAL WIRES - 500 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRICAL WIRES - 500 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRICAL WIRES - 500 CARTONS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20'DV X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO12345",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "CO Issued",
+    "originalBLDistribution": {
+      "name": "EUROTECH IMPORTS BV",
+      "address": "DE KOEIENSTRAAT 11, 3011 GD ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 414 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HONGQIAO ROAD, NINGBO, ZHEJIANG, 315000",
+      "telephone": "+86 574 8866 5522"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Value: USD30,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

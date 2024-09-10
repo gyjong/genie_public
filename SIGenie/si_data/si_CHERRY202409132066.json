@@ -1,0 +1,135 @@
+{
+  "bookingReference": "CHERRY202409132066",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "2437EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE METAL WORKS CO., LTD.",
+      "onBehalfOf": "",
+      "address": "NO. 123 INDUSTRY STREET, NINGBO, ZHEJIANG, CHINA 315000",
+      "telephone": "+86-574-8888-1234",
+      "fax": "+86-574-8888-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM EC1A 1BB",
+      "companyNumber": "12345678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM EC1A 1BB"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "732690",
+  "commodityDescription": "STEEL PIPES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9908626",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-1234",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PIPES",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908627",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE-5678",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PIPES",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908628",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE-9012",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PIPES",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908629",
+      "sealNumber": "901234",
+      "marksAndNumbers": "SUNRISE-3456",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PIPES",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CRLU9908630",
+      "sealNumber": "567890",
+      "marksAndNumbers": "SUNRISE-7890",
+      "numberOfPackages": 100,
+      "packageType": "BUNDLES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PIPES",
+      "grossWeight": 22000.0,
+      "measurement": 35.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "BUNDLES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000101033739"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM EC1A 1BB",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-8910"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM EC1A 1BB",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-8910"
+    },
+    "onboardDate": "2024-09-18 10:00",
+    "additionalRemarks": "20' HIGH CUBE CONTAINER, LxWxH(mm): 5898x2438x2896, Value: USD150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

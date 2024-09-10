@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410179698",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWA"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "ROOM 501, NO.188, SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-87865432",
+      "fax": "+86-574-87865433"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678",
+      "email": "IMPORT@GLOBALIMPORTERS.NL",
+      "contactPerson": "JOHN SMITH"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE YARN PROCESSING MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CRLU2034567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOBAL IMPORTERS INC.",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE YARN PROCESSING MACHINERY",
+      "grossWeight": 18500.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU2034568",
+      "sealNumber": "123457",
+      "marksAndNumbers": "GLOBAL IMPORTERS INC.",
+      "numberOfPackages": 20,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE YARN PROCESSING MACHINERY",
+      "grossWeight": 18700.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CONTAINER",
+    "totalPackages": 40,
+    "totalGrossWeight": 37200.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241017-001",
+    "documentNumber": "20241017-002",
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTERS INC.",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-12345678"
+    },
+    "onboardDate": "2024-10-20 10:00",
+    "additionalRemarks": "Pre-carriage to be arranged by shipper"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "bookingReference": "CHERRY202410272832",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2424W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SHANGHAI, CHINA",
+    "portOfLoading": "SHANGHAI, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "SHANGHAI, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Seaway Bill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA EVERBRIGHT BANK CO., LTD. SHANGHAI BRANCH",
+      "address": "No. 88 Nanjing Rd (E), Shanghai 200001, CHINA",
+      "telephone": "+86-21-6327-6666",
+      "fax": "+86-21-6327-6667"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "125-129 E Coast Rd, #07-01, Singapore 428792",
+      "telephone": "+65-6275-9100",
+      "fax": "+65-6275-9101"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "125-129 E Coast Rd, #07-01, Singapore 428792",
+      "telephone": "+65-6275-9100",
+      "fax": "+65-6275-9101"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "90331000",
+  "commodityDescription": "BLUETOOTH SPEAKERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL GF-123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "BLUETOOTH SPEAKERS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BLUETOOTH SPEAKER MODELS X1 & X2",
+      "grossWeight": 2500,
+      "measurement": 15
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DHL GF-456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "BLUETOOTH SPEAKERS - SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: BLUETOOTH SPEAKER MODELS X1 & X2",
+      "grossWeight": 2500,
+      "measurement": 15
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 200,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 5000,
+    "totalMeasurement": 30
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "1234567890",
+    "salesOrderNumber": "9876543210",
+    "lcDetails": {
+      "lcNumber": "LC000123456"
+    },
+    "certificateDetails": "CN2345678901",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "125-129 E Coast Rd, #07-01, Singapore 428792",
+      "telephone": "+65-6275-9100",
+      "fax": "+65-6275-9101"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (ASIA PACIFIC) PTE LTD",
+      "address": "125-129 E Coast Rd, #07-01, Singapore 428792",
+      "telephone": "+65-6275-9100",
+      "fax": "+65-6275-9101"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "DOOR SEAL REQUIRED. CARGO MARKED FRAGILE"
+  }
+}

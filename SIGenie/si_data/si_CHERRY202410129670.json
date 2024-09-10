@@ -1,0 +1,113 @@
+{
+  "bookingReference": "CHERRY202410129670",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2443EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI QINGLONG IMPORT & EXPORT CO. LTD.",
+      "address": "NO. 1234, HUAYUAN ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(JING'AN DISTRICT)"
+    },
+    "consignee": {
+      "name": "KONG YONG TRADING CO. LTD.",
+      "address": "DE KOEPLAAN 13, 3011 CH ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KONGYONG.NL",
+      "telephone": "+31 10 444 2222"
+    },
+    "notifyParty": {
+      "name": "KONG YONG TRADING CO. LTD.",
+      "address": "DE KOEPLAAN 13, 3011 CH ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@KONGYONG.NL",
+      "telephone": "+31 10 444 2222"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "61103000",
+  "commodityDescription": "LADIES COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KYT202410",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES COTTON T-SHIRTS, Packed in Cartons,  Shipment as per Invoice No. KY20241012",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "KYT202410",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES COTTON T-SHIRTS, Packed in Cartons, Shipment as per Invoice No. KY20241012",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321456",
+      "marksAndNumbers": "KYT202410",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "LADIES COTTON T-SHIRTS, Packed in Cartons, Shipment as per Invoice No. KY20241012",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "KY20241012",
+    "hsCode": "61103000",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "KONG YONG TRADING CO. LTD.",
+      "address": "DE KOEPLAAN 13, 3011 CH ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 2222"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONG YONG TRADING CO. LTD.",
+      "address": "DE KOEPLAAN 13, 3011 CH ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 444 2222"
+    },
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBER: CHERRY202410129670"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

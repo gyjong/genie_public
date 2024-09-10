@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410309727",
+  "customerName": "GLOBAL TRADING SOLUTIONS LTD",
+  "shipperName": "ASIA PACIFIC IMPORTERS INC",
+  "invoiceReceiver": "GLOBAL TRADING SOLUTIONS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "940340",
+    "chapterDescription": "Other furniture and parts thereof",
+    "commodity": "WOODEN CHAIRS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-05 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-06 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-21 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "To be loaded in container(s) stowed on deck.  Value: USD30,000"
+}

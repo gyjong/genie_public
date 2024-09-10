@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410292266",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "24045E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 24, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 10 200 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 24, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 10 200 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE YARN SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CRLU8547321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT20241029",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY FOR TEXTILE YARN SPINNING - 1 OF 2",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CRLU7894562",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT20241029",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "MACHINERY FOR TEXTILE YARN SPINNING - 2 OF 2",
+      "grossWeight": 15000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "totalGrossWeight": 30000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20241029",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 24, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "DE BRIJNSTRAAT 24, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 200 1234",
+      "fax": "+31 10 200 1235"
+    },
+    "onboardDate": "2024-11-05 14:00",
+    "additionalRemarks": "Containers to be loaded on top of each other."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

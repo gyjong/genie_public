@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202410299145",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHE2024"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)",
+      "telephone": "+86 574 8888 1234",
+      "email": "SHIPPING@BETAMFG.CN"
+    },
+    "consignee": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "25th FLOOR, THE TOWER, 100 QUEEN STREET WEST, TORONTO, ONTARIO, M5H 2N2",
+      "country": "CANADA",
+      "email": "ORDERS@ALPHAGLOBAL.CA, SHIPPING@ALPHAGLOBAL.CA",
+      "telephone": "+1 416 555 1234"
+    },
+    "notifyParty": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "25th FLOOR, THE TOWER, 100 QUEEN STREET WEST, TORONTO, ONTARIO, M5H 2N2",
+      "country": "CANADA",
+      "email": "ORDERS@ALPHAGLOBAL.CA, SHIPPING@ALPHAGLOBAL.CA",
+      "telephone": "+1 416 555 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (W.1200MM H.1000MM L.800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (W.1200MM H.1000MM L.800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BETA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (W.1200MM H.1000MM L.800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1357911",
+      "sealNumber": "314159",
+      "marksAndNumbers": "BETA246",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (W.1200MM H.1000MM L.800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU2718283",
+      "sealNumber": "271828",
+      "marksAndNumbers": "BETA852",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL MACHINERY (W.1200MM H.1000MM L.800MM)",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 40' HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "25th FLOOR, THE TOWER, 100 QUEEN STREET WEST, TORONTO, ONTARIO, M5H 2N2",
+      "telephone": "+1 416 555 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA GLOBAL TRADING INC.",
+      "address": "25th FLOOR, THE TOWER, 100 QUEEN STREET WEST, TORONTO, ONTARIO, M5H 2N2",
+      "telephone": "+1 416 555 1234"
+    },
+    "onboardDate": "2024-10-31 10:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

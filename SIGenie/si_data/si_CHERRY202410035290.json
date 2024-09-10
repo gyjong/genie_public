@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202410035290",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2443E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, HUAHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "MEDITECH EUROPE BV",
+      "address": "WEENA 373, 3012CM ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "ORDERS@MEDITECH-EUROPE.NL",
+      "telephone": "+31 10 246 1234"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, HUAHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "email": "INFO@SUNRISETRADING.CN",
+      "telephone": "+86 574 8888 1234"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "902300",
+  "commodityDescription": "MEDICAL EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE 1",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL EQUIPMENT - BLOOD PRESSURE MONITORS",
+      "grossWeight": 10000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE 2",
+      "numberOfPackages": 80,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL EQUIPMENT - INFUSION PUMPS",
+      "grossWeight": 8000.0,
+      "measurement": 20.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE 3",
+      "numberOfPackages": 60,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEDICAL EQUIPMENT - ECG MACHINES",
+      "grossWeight": 6000.0,
+      "measurement": 20.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY X3) CONTAINERS ONLY",
+    "totalPackages": 240,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 24000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "902300",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "NO. 1234, HUAHAI ROAD, NINGBO, 315000",
+      "telephone": "+86 574 8888 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "MEDITECH EUROPE BV",
+      "address": "WEENA 373, 3012CM ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 246 1234"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Medical equipment shipment, Value: EUR150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

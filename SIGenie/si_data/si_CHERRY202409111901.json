@@ -1,0 +1,103 @@
+{
+  "bookingReference": "CHERRY202409111901",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ALGECIRAS, SPAIN"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "No. 1234, Huangpu Road, Ningbo, Zhejiang, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "Calle Mayor, 12, 28013 Madrid, SPAIN",
+      "country": "SPAIN",
+      "email": "info@alphaimport.es",
+      "telephone": "+34 91 555 55 55"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "Calle Mayor, 12, 28013 Madrid, SPAIN",
+      "country": "SPAIN",
+      "email": "info@alphaimport.es",
+      "telephone": "+34 91 555 55 55"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE SPINNING MACHINES",
+  "containers": [
+    {
+      "containerNumber": "CCLU2356789",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA123",
+      "numberOfPackages": 20,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES, SPARE PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CCLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA456",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE SPINNING MACHINES, TOOLS & ACCESSORIES",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 35,
+    "packageType": "CRATES",
+    "totalGrossWeight": 42000.0,
+    "totalMeasurement": 65.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "AI20240911-001",
+    "hsCode": "84798990",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC000123456789"
+    },
+    "certificateDetails": "Certificate of Origin issued by the Chamber of Commerce, Ningbo, China",
+    "originalBLDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "Calle Mayor, 12, 28013 Madrid, SPAIN",
+      "telephone": "+34 91 555 55 55"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "Calle Mayor, 12, 28013 Madrid, SPAIN",
+      "telephone": "+34 91 555 55 55"
+    },
+    "onboardDate": "2024-09-15 14:00",
+    "additionalRemarks": "Pre-shipment Inspection Required"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

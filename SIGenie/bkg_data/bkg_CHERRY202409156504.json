@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409156504",
+  "customerName": "ABC TRADING COMPANY",
+  "shipperName": "XYZ INTERNATIONAL LTD",
+  "invoiceReceiver": "ABC TRADING COMPANY",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2423ESW"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "Electrical Connectors, 2-pin type",
+    "commodity": "Electrical Connectors"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-09-20 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-09-21 10:00",
+    "estimatedArrivalAtDischargePort": "2024-10-18 06:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "7 Days Free Time at Destination"
+}

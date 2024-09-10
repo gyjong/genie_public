@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202409208457",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC ENTERPRISES CO., LTD",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6328-9123",
+      "fax": "+86-21-6328-9124"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1234 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-666-7777",
+      "fax": "+31-20-666-7778",
+      "email": "INFO@GLOBALTRADING.NL",
+      "contactPerson": "PETER VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9675231",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APEX123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.6
+    },
+    {
+      "containerNumber": "CRLU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GT1234",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 17500.0,
+      "measurement": 24.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 95,
+    "totalGrossWeight": 35500.0,
+    "totalMeasurement": 50.4
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20240920-001",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "00001010339243"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING INC.",
+      "address": "1234 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-666-7777",
+      "fax": "+31-20-666-7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC ENTERPRISES CO., LTD",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA",
+      "telephone": "+86-21-6328-9123",
+      "fax": "+86-21-6328-9124"
+    },
+    "onboardDate": "2024-09-25 14:00",
+    "additionalRemarks": "Pre-shipment inspection required"
+  }
+}

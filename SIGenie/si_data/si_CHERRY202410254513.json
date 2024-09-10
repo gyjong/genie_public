@@ -1,0 +1,125 @@
+{
+  "bookingReference": "CHERRY202410254513",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "241025WSA2"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING INC.",
+      "address": "1234 INDUSTRIAL AVE, SHANGHAI, CHINA 200000",
+      "country": "CHINA",
+      "additionalInfo": "(SOUTH DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "ALPHA TRADING CO. LTD",
+      "address": "15 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHATRADING.NL",
+      "telephone": "+31 10 222 1111"
+    },
+    "notifyParty": {
+      "name": "ALPHA TRADING CO. LTD",
+      "address": "15 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "country": "NETHERLANDS",
+      "email": "INFO@ALPHATRADING.NL",
+      "telephone": "+31 10 222 1111"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "940171",
+  "commodityDescription": "AUTOMOTIVE SEATS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA-20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE SEATS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA-20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE SEATS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "987654",
+      "marksAndNumbers": "BETA-20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE SEATS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1357911",
+      "sealNumber": "246813",
+      "marksAndNumbers": "BETA-20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE SEATS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU2468135",
+      "sealNumber": "789123",
+      "marksAndNumbers": "BETA-20241025",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "AUTOMOTIVE SEATS - SHIPPED AS IS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) 40' HIGH CUBE CONTAINER(S)",
+    "totalPackages": 500,
+    "totalGrossWeight": 110000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ALPHA TRADING CO. LTD",
+      "address": "15 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 222 1111"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ALPHA TRADING CO. LTD",
+      "address": "15 MAIN STREET, ROTTERDAM, NETHERLANDS 3000 AA",
+      "telephone": "+31 10 222 1111"
+    },
+    "onboardDate": "2024-10-27 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE CARGO"
+  }
+}

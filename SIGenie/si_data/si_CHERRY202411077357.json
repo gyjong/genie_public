@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202411077357",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410W11"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "325 SHANGHAI ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6321 5678",
+      "fax": "+86 21 6321 5679"
+    },
+    "consignee": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "452 BREDA STREET, ROTTERDAM, NETHERLANDS, 3011 AA",
+      "telephone": "+31 10 256 7890",
+      "fax": "+31 10 256 7891",
+      "email": "IMPORT@SUNRISEIMPORTS.NL",
+      "contactPerson": "ANNA VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "85444210",
+  "commodityDescription": "ELECTRICAL WIRE",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL WIRE",
+      "grossWeight": 18000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 52,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL WIRE",
+      "grossWeight": 17800.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 48,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL WIRE",
+      "grossWeight": 18200.0,
+      "measurement": 26.0
+    },
+    {
+      "containerNumber": "CRLU4321657",
+      "sealNumber": "432165",
+      "marksAndNumbers": "SUNRISE101",
+      "numberOfPackages": 51,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL WIRE",
+      "grossWeight": 17900.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "765432",
+      "marksAndNumbers": "SUNRISE112",
+      "numberOfPackages": 49,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL WIRE",
+      "grossWeight": 18100.0,
+      "measurement": 25.8
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 20DRY CONTAINERS",
+    "totalPackages": 250,
+    "totalGrossWeight": 90000.0,
+    "totalMeasurement": 127.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241107-001",
+    "documentNumber": "20241107-002",
+    "lcDetails": {
+      "lcNumber": "LC123456789"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "325 SHANGHAI ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6321 5678",
+      "fax": "+86 21 6321 5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "325 SHANGHAI ROAD, SHANGHAI, CHINA, 200001",
+      "telephone": "+86 21 6321 5678",
+      "fax": "+86 21 6321 5679"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "5 x 20' DRY containers, Electrical Wire, Value: USD 25,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

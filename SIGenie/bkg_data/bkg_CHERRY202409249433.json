@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409249433",
+  "customerName": "GLOBAL TRADING SOLUTIONS LTD",
+  "shipperName": "ASIA PACIFIC MACHINERY CO.",
+  "invoiceReceiver": "GLOBAL TRADING SOLUTIONS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2409WSEA"
+  },
+  "cargoDetails": {
+    "hsCode": "84137010",
+    "chapterDescription": "PUMPS FOR LIQUIDS; FILTERING OR PURIFYING APPARATUS FOR LIQUIDS",
+    "commodity": "WATER PUMP ASSEMBLY"
+  },
+  "containerDetails": {
+    "size": "40 FOOT STANDARD CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-03 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-04 19:00",
+    "estimatedArrivalAtDischargePort": "2024-10-24 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "SHIPMENT REQUIRES SPECIAL HANDLING: FRAGILE. B/L: TO BE ISSUED"
+}

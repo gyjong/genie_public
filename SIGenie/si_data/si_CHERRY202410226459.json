@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410226459",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W2E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO. LTD",
+      "address": "2588, ZHUJIANG ROAD, SHANGHAI, CHINA, 200011",
+      "telephone": "+86-21-5555-1212",
+      "fax": "+86-21-5555-1313"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "2345 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "2345 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLB20241022",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTERS",
+      "grossWeight": 18000.0,
+      "measurement": 6.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "GLB20241022",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: COMPUTERS",
+      "grossWeight": 18000.0,
+      "measurement": 6.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 12.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO20241022-001",
+    "salesOrderNumber": "SO20241022-002",
+    "lcDetails": {
+      "lcNumber": "LC20241022-003"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "2345 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "2345 AMSTERDAM AVE, ROTTERDAM, NETHERLANDS, 3011AA",
+      "telephone": "+31-10-256-7890",
+      "fax": "+31-10-256-7891"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "DANGEROUS GOODS, Class: 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT5524597",
+    "unClass": "2",
+    "unCode": "No: 3334",
+    "hsCode": "9591.14.76",
+    "flashPoint": "54\u00b0C",
+    "additionalInfo": "Handle with care"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

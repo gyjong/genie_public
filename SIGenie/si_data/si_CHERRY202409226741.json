@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202409226741",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2423EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES LTD",
+      "address": "2345 YONGFU ROAD, SHANGHAI, CHINA, 200080",
+      "telephone": "+86-21-6327-8901",
+      "fax": "+86-21-6327-8902"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "DEIJLSTRAAT 123, 3011 GX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679",
+      "email": "INFO@SUNRISETRADING.NL",
+      "contactPerson": "PETER VAN DER MEER"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 MAIN STREET, LONDON, UNITED KINGDOM, WC1A 1AA",
+      "telephone": "+44-20-7123-4567",
+      "fax": "+44-20-7123-4568",
+      "email": "INFO@GLOBALTRADINGCO.COM",
+      "contactPerson": "JOHN SMITH"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "847130",
+  "commodityDescription": "COMPUTERS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTERS",
+      "grossWeight": 22000.0,
+      "measurement": 28.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: COMPUTERS",
+      "grossWeight": 21500.0,
+      "measurement": 27.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 100,
+    "totalGrossWeight": 43500.0,
+    "totalMeasurement": 55.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "INV20241025",
+    "documentNumber": "20001639822",
+    "lcDetails": {
+      "lcNumber": "LC20241026001"
+    },
+    "certificateDetails": [
+      "4112724080177X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING INC.",
+      "address": "DEIJLSTRAAT 123, 3011 GX ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-414-5678",
+      "fax": "+31-10-414-5679"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE INDUSTRIES LTD",
+      "address": "2345 YONGFU ROAD, SHANGHAI, CHINA, 200080",
+      "telephone": "+86-21-6327-8901",
+      "fax": "+86-21-6327-8902"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Fragile goods, handle with care."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

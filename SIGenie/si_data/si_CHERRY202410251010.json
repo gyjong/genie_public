@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410251010",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "242EWW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "HAMBURG, GERMANY"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO BRANCH)",
+      "telephone": "+86 574 8654 3210",
+      "email": "SUNRISE@SUNRISETRADING.COM"
+    },
+    "consignee": {
+      "name": "GERMAN FASHION HOUSE GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@GERMANFASHIONHOUSE.DE",
+      "telephone": "+49 40 35678901"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "email": "SUNRISE@SUNRISETRADING.COM",
+      "telephone": "+86 574 8654 3210"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "611030",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "SUDU9876543",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "SUDU4321098",
+      "sealNumber": "7654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
+    },
+    {
+      "containerNumber": "SUDU1234567",
+      "sealNumber": "8765432",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "MEN'S COTTON T-SHIRTS, ASSORTED COLORS AND SIZES",
+      "grossWeight": 22000.0,
+      "measurement": 30.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 3000,
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 91.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC23456789012345"
+    },
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "2345 HUANGPU ROAD, SHANGHAI, CHINA, 200000",
+      "telephone": "+86 574 8654 3210"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GERMAN FASHION HOUSE GMBH",
+      "address": "HAMBURGER STRASSE 12, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 35678901"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "URGENT SHIPMENT, PLEASE PRIORITY LOADING"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

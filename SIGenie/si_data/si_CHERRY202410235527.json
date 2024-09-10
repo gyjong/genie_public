@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410235527",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "HONG KONG TRADING CO.",
+      "address": "123Canton Road, Kowloon, Hong Kong",
+      "telephone": "+852 2111 2222",
+      "fax": "+852 2111 3333"
+    },
+    "consignee": {
+      "name": "KONG ENTERPRISES LTD",
+      "address": "543 Prinsestraat, Rotterdam, Netherlands",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666",
+      "email": "info@kongenterprises.nl",
+      "contactPerson": "Mr. Peter Van Der Meer"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85444210",
+  "commodityDescription": "Digital Cameras",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "KH20241023",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "KH20241023",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "321654",
+      "marksAndNumbers": "KH20241023",
+      "numberOfPackages": 150,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: DIGITAL CAMERAS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' DRY CONTAINER",
+    "totalPackages": 450,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241023-001",
+    "documentNumber": "20241023-002",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "KONG ENTERPRISES LTD",
+      "address": "543 Prinsestraat, Rotterdam, Netherlands",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONG ENTERPRISES LTD",
+      "address": "543 Prinsestraat, Rotterdam, Netherlands",
+      "telephone": "+31 10 444 5555",
+      "fax": "+31 10 444 6666"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "Freight prepaid to destination."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

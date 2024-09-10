@@ -1,0 +1,129 @@
+{
+  "bookingReference": "CHERRY202410189415",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241022E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TECHTRONICS INTERNATIONAL INC.",
+      "address": "123 TECH STREET, SHANGHAI, CHINA",
+      "telephone": "+86 21 5555 6666",
+      "email": "INFO@TECHTRONICS.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "INDUSTRIAL ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TECHTRONICS-123456",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TECHTRONICS-654321",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU8901234",
+      "sealNumber": "987654",
+      "marksAndNumbers": "TECHTRONICS-987654",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "321098",
+      "marksAndNumbers": "TECHTRONICS-321098",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "456789",
+      "marksAndNumbers": "TECHTRONICS-456789",
+      "numberOfPackages": 50,
+      "packageType": "CRATES",
+      "cargoDescription": "INDUSTRIAL ELECTRIC MOTORS AS PER PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 40' HIGH CUBE DRY CONTAINER",
+    "totalPackages": 250,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE DRY CONTAINER",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 200.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "CN202410189415",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "124 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 9999"
+    },
+    "onboardDate": "2024-10-20 16:00",
+    "additionalRemarks": "SPECIAL INSTRUCTIONS: TEMPERATURE CONTROL REQUIRED. Value: USD150,000"
+  }
+}

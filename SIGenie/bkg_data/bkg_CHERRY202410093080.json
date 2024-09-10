@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410093080",
+  "customerName": "SUNRISE GLOBAL TRADING CO.",
+  "shipperName": "ASIA PACIFIC PRECISION ENGINEERING LTD.",
+  "invoiceReceiver": "SUNRISE GLOBAL TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHE01"
+  },
+  "cargoDetails": {
+    "hsCode": "84839090",
+    "chapterDescription": "MACHINERY PARTS, NOT CONTAINING ELECTRICAL COMPONENTS, WHETHER OR NOT OF IRON OR STEEL",
+    "commodity": "PRECISION MACHINED PARTS"
+  },
+  "containerDetails": {
+    "size": "40' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-16 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-17 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-06 12:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "TEMPERATURE SENSITIVE CARGO - REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+}

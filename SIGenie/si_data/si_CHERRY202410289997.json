@@ -1,0 +1,98 @@
+{
+  "bookingReference": "CHERRY202410289997",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2429EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "TOYOTA INDUSTRIES CORPORATION",
+      "address": "1, TOYOTA-CHO, TOYOTA-CITY, AICHI 471-8571, JAPAN",
+      "telephone": "+81-565-28-3511",
+      "fax": "+81-565-28-3515"
+    },
+    "consignee": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 269, NO-3191 H\u00f8YSNES, NORWAY",
+      "telephone": "+47 33 03 80 00",
+      "fax": "+47 33 03 80 99",
+      "email": "INFO@KONGSBERG.COM",
+      "contactPerson": "ERIK HANSSON"
+    },
+    "notifyParty": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 269, NO-3191 H\u00f8YSNES, NORWAY",
+      "telephone": "+47 33 03 80 00",
+      "fax": "+47 33 03 80 99"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "87089990",
+  "commodityDescription": "MOTOR VEHICLE BRAKE COMPONENTS",
+  "containers": [
+    {
+      "containerNumber": "CMAU8118356",
+      "sealNumber": "123456",
+      "marksAndNumbers": "TOYOTA-20241028",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: BRAKE CALIPERS & PADS",
+      "grossWeight": 23500.0,
+      "measurement": 66.0
+    },
+    {
+      "containerNumber": "CMAU7714523",
+      "sealNumber": "654321",
+      "marksAndNumbers": "TOYOTA-20241028",
+      "numberOfPackages": 48,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: BRAKE ROTORS & DISCS",
+      "grossWeight": 22800.0,
+      "measurement": 65.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "2 X 40 HIGH CUBE CONTAINERS",
+    "totalPackages": 98,
+    "totalGrossWeight": 46300.0,
+    "totalMeasurement": 131.5
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241028-TOYOTA-001",
+    "documentNumber": "20241028-CMA-002",
+    "lcDetails": {
+      "lcNumber": "KONGSBERG-LC-20241028"
+    },
+    "certificateDetails": [
+      "CO-20241028-TOYOTA",
+      "FORM-A-20241028-CMA"
+    ],
+    "originalBLDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 269, NO-3191 H\u00f8YSNES, NORWAY",
+      "telephone": "+47 33 03 80 00",
+      "fax": "+47 33 03 80 99"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KONGSBERG MARITIME AS",
+      "address": "PO BOX 269, NO-3191 H\u00f8YSNES, NORWAY",
+      "telephone": "+47 33 03 80 00",
+      "fax": "+47 33 03 80 99"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "CONTAINER NEEDS TO BE PRE-TRIP INSPECTED"
+  }
+}

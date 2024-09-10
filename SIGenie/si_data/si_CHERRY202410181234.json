@@ -1,0 +1,105 @@
+{
+  "bookingReference": "CHERRY202410181234",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24256E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF GLOBAL TRADING CO.",
+      "address": "123 SHAOXING ROAD, NINGBO, ZHEJIANG, CHINA, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORTEXPORT.NL, ORDERS@ABCIMPORTEXPORT.NL",
+      "telephone": "+31 20 6666666"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "country": "NETHERLANDS",
+      "email": "INFO@ABCIMPORTEXPORT.NL, ORDERS@ABCIMPORTEXPORT.NL",
+      "telephone": "+31 20 6666666"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "Industrial Air Compressors",
+  "containers": [
+    {
+      "containerNumber": "CMAU9765432",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL AIR COMPRESSORS (100 UNITS) AS PER INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 100,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: INDUSTRIAL AIR COMPRESSORS (100 UNITS) AS PER INVOICE AND PACKING LIST",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 200,
+    "packageType": "CRATES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ABC123456789",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "ABC BANK N.V.",
+      "address": "123 BANK STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 1234567"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT & EXPORT LTD",
+      "address": "123 CANAL STREET, AMSTERDAM, NETHERLANDS, 1012 DE",
+      "telephone": "+31 20 6666666",
+      "fax": "+31 20 6666667"
+    },
+    "onboardDate": "2024-10-21 15:00",
+    "additionalRemarks": "Insurance coverage required for the full value of the goods."
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

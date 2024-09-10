@@ -1,0 +1,107 @@
+{
+  "bookingReference": "CHERRY202410093080",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2410ZHE01"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SURRENDER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC PRECISION ENGINEERING LTD.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, ZHEJIANG PROVINCE, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "ATTN: MR. LI WEI"
+    },
+    "consignee": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "FRANKFURTER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SUNRISEGLOBAL.DE",
+      "telephone": "+49 40 30303030"
+    },
+    "notifyParty": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "FRANKFURTER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@SUNRISEGLOBAL.DE",
+      "telephone": "+49 40 30303030"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84839090",
+  "commodityDescription": "PRECISION MACHINED PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9123456",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 500,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRECISION MACHINED PARTS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 400,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRECISION MACHINED PARTS",
+      "grossWeight": 16000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 300,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: PRECISION MACHINED PARTS",
+      "grossWeight": 14000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY CONTAINER X3)",
+    "totalPackages": 1200,
+    "packageType": "BOXES",
+    "totalGrossWeight": 48000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "SGTC20241009",
+    "hsCode": "84839090",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "FRANKFURTER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 30303030"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE GLOBAL TRADING CO.",
+      "address": "FRANKFURTER STRASSE 55, 20095 HAMBURG, GERMANY",
+      "telephone": "+49 40 30303030"
+    },
+    "onboardDate": "2024-10-16 14:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO - REQUIRES REFRIGERATED STORAGE DURING TRANSIT"
+  }
+}

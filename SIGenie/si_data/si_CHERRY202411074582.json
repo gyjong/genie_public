@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411074582",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "321 HONGQI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-88765432",
+      "fax": "+86-574-88765433"
+    },
+    "consignee": {
+      "name": "A&B IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678",
+      "email": "IMPORT@ABIMPORT.NL",
+      "contactPerson": "JAN VAN DER MARK"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "854442",
+  "commodityDescription": "ELECTRICAL CABLES",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12000.0,
+      "measurement": 15.0
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12500.0,
+      "measurement": 15.5
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "345678",
+      "marksAndNumbers": "SUNRISE789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRICAL CABLES",
+      "grossWeight": 12200.0,
+      "measurement": 15.2
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 300,
+    "totalGrossWeight": 36700.0,
+    "totalMeasurement": 45.7
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241107-001",
+    "documentNumber": "20241107-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "4112724080177X",
+      "4112724080178X"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "321 HONGQI ROAD, NINGBO, CHINA",
+      "telephone": "+86-574-88765432",
+      "fax": "+86-574-88765433"
+    },
+    "originalInvoiceDistribution": {
+      "name": "A&B IMPORT EXPORT INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-1234567",
+      "fax": "+31-20-12345678",
+      "email": "IMPORT@ABIMPORT.NL",
+      "contactPerson": "JAN VAN DER MARK"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Value: USD30,000, Consignee: A&B IMPORT EXPORT INC, Notify Party: A&B IMPORT EXPORT INC"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

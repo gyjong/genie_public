@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410171665",
+  "customerName": "ZENITH GLOBAL LOGISTICS",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "ZENITH GLOBAL LOGISTICS",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2429EWS"
+  },
+  "cargoDetails": {
+    "hsCode": "84798990",
+    "chapterDescription": "MACHINERY FOR WORKING TEXTILE FIBRES; MACHINERY OR APPARATUS FOR MAKING PAPER OR PAPERBOARD; MACHINERY FOR MAKING OR FINISHING TEXTILES, OF OTHER MATERIALS.",
+    "commodity": "TEXTILE LOOM SPARE PARTS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-24 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-25 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-20 07:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Cargo requires careful handling, please ensure proper stowage."
+}

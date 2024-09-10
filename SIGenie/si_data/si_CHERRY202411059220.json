@@ -1,0 +1,136 @@
+{
+  "bookingReference": "CHERRY202411059220",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445ESW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "UNIT 302, 1234 TECH PARK, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "BLUE SKY IMPORT EXPORT LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYIMPORT.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "BLUE SKY IMPORT EXPORT LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@BLUESKYIMPORT.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "OPTICAL FIBER CABLES FOR TELECOMMUNICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BSI20241105",
+      "numberOfPackages": 500,
+      "packageType": "REELS",
+      "cargoDescription": "OPTICAL FIBER CABLES - CIF ROTTERDAM",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU87654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BSI20241105",
+      "numberOfPackages": 500,
+      "packageType": "REELS",
+      "cargoDescription": "OPTICAL FIBER CABLES - CIF ROTTERDAM",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU987654321",
+      "sealNumber": "214365",
+      "marksAndNumbers": "BSI20241105",
+      "numberOfPackages": 500,
+      "packageType": "REELS",
+      "cargoDescription": "OPTICAL FIBER CABLES - CIF ROTTERDAM",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU432109876",
+      "sealNumber": "765432",
+      "marksAndNumbers": "BSI20241105",
+      "numberOfPackages": 500,
+      "packageType": "REELS",
+      "cargoDescription": "OPTICAL FIBER CABLES - CIF ROTTERDAM",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU654321098",
+      "sealNumber": "876543",
+      "marksAndNumbers": "BSI20241105",
+      "numberOfPackages": 500,
+      "packageType": "REELS",
+      "cargoDescription": "OPTICAL FIBER CABLES - CIF ROTTERDAM",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 2500,
+    "packageType": "REELS",
+    "totalGrossWeight": 100000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "BSI20241105",
+    "hsCode": "854442",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "",
+    "originalBLDistribution": {
+      "name": "BLUE SKY IMPORT EXPORT LTD",
+      "address": "DE BRIJNSTRAAT 123, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TECH SOLUTIONS INC.",
+      "address": "UNIT 302, 1234 TECH PARK, SHANGHAI, CHINA",
+      "telephone": "+86 21 12345678",
+      "fax": "+86 21 98765432"
+    },
+    "onboardDate": "2024-11-08 10:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED: FRAGILE. Value: USD150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

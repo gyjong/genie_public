@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202409216874",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SHANGHAI METAL WORKS CO. LTD",
+      "address": "1234 SHANGHAI ROAD, SHANGHAI, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)"
+    },
+    "consignee": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@APLL.NL",
+      "telephone": "+31 10 201 2345"
+    },
+    "notifyParty": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@APLL.NL",
+      "telephone": "+31 10 201 2345"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "72099090",
+  "commodityDescription": "STEEL PLATE",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "APLL2345",
+      "numberOfPackages": 100,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATE 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU11112222",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "APLL2346",
+      "numberOfPackages": 100,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATE 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU33334444",
+      "sealNumber": "1098765432",
+      "marksAndNumbers": "APLL2347",
+      "numberOfPackages": 100,
+      "packageType": "PIECES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: STEEL PLATE 20 MT",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' HIGH CUBE X3) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PIECES",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "72099090",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": "12345678901234567890",
+    "originalBLDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 2345"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA PACIFIC LOGISTICS LTD",
+      "address": "123 MAIN STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 201 2345",
+      "fax": "+31 10 201 2346"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "CONTAINER SEAL NUMBER: 1234567890"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410124185",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445WEX"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "NEGOTIABLE",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Sunrise Industries Ltd.",
+      "address": "No. 123 Huanghai Road, Ningbo, Zhejiang, China",
+      "country": "CHINA",
+      "additionalInfo": "(Ningbo Free Trade Zone)"
+    },
+    "consignee": {
+      "name": "Oceanway Logistics Inc.",
+      "address": "124 Koningsweg, 3015 LZ Rotterdam, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@oceanwaylogistics.nl",
+      "telephone": "+31 10 246 5555"
+    },
+    "notifyParty": {
+      "name": "Global Trading Corp.",
+      "address": "1000 Park Avenue, New York, NY 10028, USA",
+      "country": "USA",
+      "email": "info@globaltradingcorp.com",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS (MODEL EM-2024) 50PCS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS (MODEL EM-2024) 50PCS",
+      "grossWeight": 20000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "packageType": "BOXES",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GTC20241012-001",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "411272408759X",
+    "originalBLDistribution": {
+      "name": "Oceanway Logistics Inc.",
+      "address": "124 Koningsweg, 3015 LZ Rotterdam, Netherlands",
+      "telephone": "+31 10 246 5555"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Trading Corp.",
+      "address": "1000 Park Avenue, New York, NY 10028, USA",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3264"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

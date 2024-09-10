@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202409206222",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EWT"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "BETA MANUFACTURING CO.",
+      "address": "NO. 123, CHANGJIANG ROAD, JIANGNING DISTRICT, NINGBO, 315012",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)",
+      "telephone": "+86 574 8625 1234",
+      "email": "SHIPPING@BETAMANUFACTURING.COM"
+    },
+    "consignee": {
+      "name": "GAMMA TRADING INC.",
+      "address": "123 MAIN STREET, AMSTERDAM, NETHERLANDS, 1012 AB",
+      "country": "NETHERLANDS",
+      "email": "INFO@GAMMATRADING.NL",
+      "telephone": "+31 20 6789 0123"
+    },
+    "notifyParty": {
+      "name": "ALPHA IMPORT & EXPORT LTD",
+      "address": "456 LONDON ROAD, LONDON, UK, SE1 6LG",
+      "country": "UNITED KINGDOM",
+      "email": "OPERATIONS@ALPHAIMPORTEXPORT.CO.UK",
+      "telephone": "+44 20 7654 3210"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "BETA-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTORCYCLE PARTS (ENGINE COMPONENTS, GEARBOXES, WHEELS)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "BETA-2024-10",
+      "numberOfPackages": 50,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTORCYCLE PARTS (ENGINE COMPONENTS, GEARBOXES, WHEELS)",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (20FR X2) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "00001010334237"
+    },
+    "certificateDetails": [
+      "411252403578X",
+      "411252403579X"
+    ],
+    "originalBLDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "originalInvoiceDistribution": {
+      "name": "HAN GLOBAL CO., LTD.",
+      "address": "SAEMUNAN-RO 58, JONGNO-GU, SEOUL 03184, SOUTH KOREA",
+      "telephone": "+82-2-3700-2110"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "Dangerous Goods, Class: 9, UN No: 3264"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CONT9889810",
+    "unClass": "2",
+    "unCode": "No: 3264",
+    "hsCode": "2596.80.86",
+    "flashPoint": "-5\u00b0C",
+    "additionalInfo": "Handle with care"
+  }
+}

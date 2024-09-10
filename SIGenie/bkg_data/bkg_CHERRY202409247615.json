@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409247615",
+  "customerName": "GLOBAL LOGISTICS INC.",
+  "shipperName": "ALPHA IMPORT EXPORT CO. LTD.",
+  "invoiceReceiver": "GLOBAL LOGISTICS INC.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2430E"
+  },
+  "cargoDetails": {
+    "hsCode": "854370",
+    "chapterDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES",
+    "commodity": "ELECTRIC MOTORS"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 15:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-06 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-07 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "CARGO REQUIRES TEMPERATURE CONTROL BETWEEN 15-25 DEGREES CELSIUS. VALUE: USD500,000"
+}

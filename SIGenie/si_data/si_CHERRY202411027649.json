@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202411027649",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410WBW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8888 9999",
+      "email": "INFO@ASIATRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "125 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "taxId": "NL851234567890",
+      "president": "MR. JOHN SMITH",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "127 NEW YORK AVE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM TRANSFORMERS",
+      "grossWeight": 20000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "654321",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 15,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF ROTTERDAM TRANSFORMERS",
+      "grossWeight": 22000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE CONTAINER) CONTAINER ONLY",
+    "totalPackages": 25,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE CONTAINER",
+    "totalGrossWeight": 42000.0,
+    "totalMeasurement": 70.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS LTD",
+      "address": "125 ROTTERDAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 777 8888",
+      "fax": "+31 10 777 8889"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "127 NEW YORK AVE, NEW YORK, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    },
+    "onboardDate": "2024-11-08 14:00",
+    "additionalRemarks": "TEMPERATURE SETPOINT: 10\u00b0C, PRE-COOLING REQUIRED"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

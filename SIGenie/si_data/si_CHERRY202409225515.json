@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202409225515",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243WSEA3"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORTS LTD",
+      "address": "NO. 1234, HENGSHAN ROAD, NINGBO, 315000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "OVERTOOM 123, 1054 HK AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 6666666"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "OVERTOOM 123, 1054 HK AMSTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@GLOBALTRADING.NL",
+      "telephone": "+31 20 6666666"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "950300",
+  "commodityDescription": "CHILDREN'S BOARD GAMES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9987654",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE-123",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BOARD GAMES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE-456",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BOARD GAMES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7788990",
+      "sealNumber": "987654",
+      "marksAndNumbers": "SUNRISE-789",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CHILDREN'S BOARD GAMES AS PER PACKING LIST",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40' DRY X3) CONTAINERS ONLY",
+    "totalPackages": 1500,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20241001",
+    "freeTimeAtDestination": "7 DAYS",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "OVERTOOM 123, 1054 HK AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6666666"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED - FRAGILE CARGO"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410211294",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24234Z"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ALGECIRAS, SPAIN",
+    "placeOfDelivery": "ALGECIRAS, SPAIN"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL ENTERPRISE INC.",
+      "address": "2345 SHANGHAI ROAD, NINGBO, CHINA",
+      "telephone": "+86 574 8876 5432",
+      "email": "INFO@GLOBALENTERPRISE.CN"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "C/ ESPA\u00d1A 123, ALGECIRAS, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. ANTONIO GARCIA",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "C/ ESPA\u00d1A 123, ALGECIRAS, SPAIN",
+      "taxId": "B12345678",
+      "president": "MR. ANTONIO GARCIA",
+      "telephone": "+34 956 7890 12",
+      "fax": "+34 956 7890 13"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "POWER TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "890123",
+      "marksAndNumbers": "SUNRISE TRADING CO. LTD",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "POWER TRANSFORMERS AS PER PACKING LIST",
+      "grossWeight": 22000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS",
+    "totalPackages": 20,
+    "packageType": "CRATES",
+    "containerType": "40' HIGH CUBE DRY",
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN ISSUED BY CHAMBER OF COMMERCE NINGBO",
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "C/ ESPA\u00d1A 123, ALGECIRAS, SPAIN"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO. LTD",
+      "address": "C/ ESPA\u00d1A 123, ALGECIRAS, SPAIN"
+    },
+    "onboardDate": "2024-10-23 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

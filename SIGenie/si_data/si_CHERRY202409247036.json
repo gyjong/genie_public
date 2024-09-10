@@ -1,0 +1,91 @@
+{
+  "bookingReference": "CHERRY202409247036",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE ELECTRONICS CO., LTD",
+      "address": "123 Anson Road, #10-01, Singapore 079903"
+    },
+    "consignee": {
+      "name": "SUNRISE ELECTRONICS CO., LTD",
+      "address": "123 Main Street, Amsterdam, Netherlands, 1012 AB"
+    },
+    "notifyParty": {
+      "name": "SUNRISE ELECTRONICS CO., LTD",
+      "address": "123 Main Street, Amsterdam, Netherlands, 1012 AB"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "85423910",
+  "commodityDescription": "MICROPROCESSOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MICROPROCESSOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "SUNRISE456",
+      "numberOfPackages": 1000,
+      "cargoDescription": "MICROPROCESSOR CHIPS",
+      "grossWeight": 20000.0,
+      "measurement": 50.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40 DRY) CONTAINERS ONLY",
+    "totalPackages": 2000,
+    "packageType": "CARTONS",
+    "containerType": "40DRY",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 100.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE ELECTRONICS CO., LTD",
+      "address": "123 Main Street, Amsterdam, Netherlands, 1012 AB"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE) PTE LTD",
+      "address": "123 Anson Road, #10-01, Singapore 079903"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "DOOR SEAL REQUIRED. SHIPMENT CONTAINS FRAGILE ELECTRONIC COMPONENTS. PLEASE HANDLE WITH CARE."
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410183760",
+  "customerName": "SUNRISE TRADING CO.",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "SUNRISE TRADING CO.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "241022W"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "Insulated wire, cable and other insulated electric conductors, whether or not fitted with connectors",
+    "commodity": "Electrical Wires"
+  },
+  "containerDetails": {
+    "size": "20 STANDARD",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-25 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-26 18:00",
+    "estimatedArrivalAtDischargePort": "2024-11-15 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CFR",
+  "remarks": "Value: USD30,000"
+}

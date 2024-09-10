@@ -1,0 +1,124 @@
+{
+  "bookingReference": "CHERRY202410012766",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24102E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "COSMETIC WORLD LTD",
+      "address": "23 YISHUN INDUSTRIAL STREET 1, #02-12  NEW TECH PARK, SINGAPORE 768076",
+      "country": "SINGAPORE",
+      "telephone": "+65 6756 9876",
+      "email": "SALES@COSMETICWORLD.COM.SG"
+    },
+    "consignee": {
+      "name": "COSMETIC WORLD LTD",
+      "address": "5952 VAN DER WAALSSTRAAT, 3015 BH ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 477 2345",
+      "email": "INFO@COSMETICWORLD.NL"
+    },
+    "notifyParty": {
+      "name": "COSMETIC WORLD LTD",
+      "address": "5952 VAN DER WAALSSTRAAT, 3015 BH ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "telephone": "+31 10 477 2345",
+      "email": "INFO@COSMETICWORLD.NL"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "330499",
+  "commodityDescription": "FACE CREAM",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "COSWORLD1",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "FACE CREAM (200 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "COSWORLD2",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "FACE CREAM (200 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "COSWORLD3",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "FACE CREAM (200 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU4567890",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "COSWORLD4",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "FACE CREAM (200 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "COSWORLD5",
+      "numberOfPackages": 200,
+      "packageType": "CARTONS",
+      "cargoDescription": "FACE CREAM (200 CARTONS)",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5 x 20 DRY) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012345"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "COSMETIC WORLD LTD",
+      "address": "23 YISHUN INDUSTRIAL STREET 1, #02-12  NEW TECH PARK, SINGAPORE 768076",
+      "telephone": "+65 6756 9876"
+    },
+    "originalInvoiceDistribution": {
+      "name": "COSMETIC WORLD LTD",
+      "address": "23 YISHUN INDUSTRIAL STREET 1, #02-12  NEW TECH PARK, SINGAPORE 768076",
+      "telephone": "+65 6756 9876"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "5 x 20 DRY containers carrying FACE CREAM. Value: USD 25,000"
+  }
+}

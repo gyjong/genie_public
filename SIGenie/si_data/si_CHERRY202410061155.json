@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410061155",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2425E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "FRANKFURT, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS & EXPORTS INC.",
+      "address": "NO. 1234 SHANGHAI ROAD, SHANGHAI, CHINA, 200000",
+      "country": "CHINA",
+      "additionalInfo": "(PUDONG DISTRICT)",
+      "telephone": "+86 21 5555 1234",
+      "email": "INFO@ASIAEXPORT.COM"
+    },
+    "consignee": {
+      "name": "EUROTECH DISTRIBUTORS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT AM MAIN, GERMANY",
+      "country": "GERMANY",
+      "email": "INFO@EUROTECH.DE",
+      "telephone": "+49 69 1234 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING COMPANY LTD",
+      "address": "123 TOWER STREET, LONDON EC1V 9FT, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALTRADING.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS FOR INDUSTRIAL APPLICATIONS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "1234567",
+      "marksAndNumbers": "EUROTECH 1",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS, MODEL: TR-2000, SAID TO CONTAIN: 50 TRANSFORMERS ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "7890123",
+      "marksAndNumbers": "EUROTECH 2",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "TRANSFORMERS, MODEL: TR-2000, SAID TO CONTAIN: 50 TRANSFORMERS ON PALLETS",
+      "grossWeight": 20000.0,
+      "measurement": 30.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 60.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC0001234567"
+    },
+    "certificateDetails": [
+      "CERTIFICATE OF ORIGIN",
+      "CERTIFICATE OF INSPECTION"
+    ],
+    "originalBLDistribution": {
+      "name": "EUROTECH DISTRIBUTORS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 1234 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EUROTECH DISTRIBUTORS GMBH",
+      "address": "FRANKFURTER STRASSE 15, 60329 FRANKFURT AM MAIN, GERMANY",
+      "telephone": "+49 69 1234 5678"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Special handling required: Fragile goods. D/G"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

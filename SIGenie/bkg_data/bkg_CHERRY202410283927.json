@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410283927",
+  "customerName": "SUNRISE IMPORTS LTD",
+  "shipperName": "SUNRISE IMPORTS LTD",
+  "invoiceReceiver": "SUNRISE IMPORTS LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24239EW"
+  },
+  "cargoDetails": {
+    "hsCode": "902300",
+    "chapterDescription": "Instruments and appliances used in medical, surgical, dental or veterinary sciences, including artificial teeth and dental laboratories",
+    "commodity": "MEDICAL INSTRUMENTS"
+  },
+  "containerDetails": {
+    "size": "20 DRY",
+    "type": "DRY CONTAINER",
+    "quantity": 3
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-11-05 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-11-06 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-22 15:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "Temperature sensitive cargo, handle with care."
+}

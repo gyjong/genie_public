@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202409292629",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2424ESW2"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 8888"
+    },
+    "consignee": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "ZELLSTRASSE 25, 20355 HAMBURG, GERMANY",
+      "telephone": "+49 40 12345 6789",
+      "fax": "+49 40 12345 6788",
+      "email": "IMPORT@EUROIMPORTS.DE",
+      "contactPerson": "PETER MEIER"
+    },
+    "notifyParty": {
+      "sameAsConsignee": false,
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "10-12 GROVE STREET, LONDON W1K 4PR, UNITED KINGDOM"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "621120",
+  "commodityDescription": "KNITTED GARMENTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "EURO2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED GARMENTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "765432",
+      "marksAndNumbers": "EURO2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED GARMENTS",
+      "grossWeight": 11800.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "321654",
+      "marksAndNumbers": "EURO2024",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: KNITTED GARMENTS",
+      "grossWeight": 12200.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 40' HIGH CUBE CONTAINER",
+    "totalPackages": 300,
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241026-001",
+    "documentNumber": "20241026-002",
+    "lcDetails": {
+      "lcNumber": "LC20241026-003"
+    },
+    "certificateDetails": [
+      "20241026-COO1",
+      "20241026-PHY1"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL SHIPPING SOLUTIONS LTD",
+      "address": "10-12 GROVE STREET, LONDON W1K 4PR, UNITED KINGDOM"
+    },
+    "originalInvoiceDistribution": {
+      "name": "EURO IMPORTS GMBH",
+      "address": "ZELLSTRASSE 25, 20355 HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-26 14:00",
+    "additionalRemarks": "D/G, Class: 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

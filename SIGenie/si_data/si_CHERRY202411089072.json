@@ -1,0 +1,110 @@
+{
+  "bookingReference": "CHERRY202411089072",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2410W13"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Co.",
+      "address": "123 Industrial Avenue, Ningbo, Zhejiang, China",
+      "telephone": "+86 574 8888 9999",
+      "fax": "+86 574 8888 9998"
+    },
+    "consignee": {
+      "name": "ABC Imports Inc.",
+      "address": "456 Commerce Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332",
+      "email": "info@abcimports.nl",
+      "contactPerson": "John Smith"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "FOOD PROCESSING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 50,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FOOD PROCESSING EQUIPMENT",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 45,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FOOD PROCESSING EQUIPMENT",
+      "grossWeight": 17500.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 55,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: FOOD PROCESSING EQUIPMENT",
+      "grossWeight": 18500.0,
+      "measurement": 25.5
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "3 X 20DRY CONTAINERS",
+    "totalPackages": 150,
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "20241108-001",
+    "documentNumber": "20241108-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "1234567890123",
+      "9876543210123"
+    ],
+    "originalBLDistribution": {
+      "name": "ABC Imports Inc.",
+      "address": "456 Commerce Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Imports Inc.",
+      "address": "456 Commerce Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 222 3333",
+      "fax": "+31 10 222 3332"
+    },
+    "onboardDate": "2024-11-15 14:00",
+    "additionalRemarks": "Three 20ft Standard Dry Containers containing Food Processing Equipment. Value: USD30,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

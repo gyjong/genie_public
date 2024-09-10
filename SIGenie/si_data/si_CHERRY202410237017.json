@@ -1,0 +1,166 @@
+{
+  "bookingReference": "CHERRY202410237017",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2435W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC SHIPPING LTD.",
+      "address": "23/F, CHINA WORLD TOWER, 1 JAVA ROAD, NORTH POINT, HONG KONG",
+      "country": "HONG KONG",
+      "additionalInfo": "",
+      "telephone": "+852 2956 7890",
+      "email": "SHIPMENTS@ASIA-PACIFICSHIPPING.COM"
+    },
+    "consignee": {
+      "name": "SEAWELL LOGISTICS CO.,LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "OPERATIONS@SEAWELLLOGISTICS.COM",
+      "telephone": "+32 3 213 5678"
+    },
+    "notifyParty": {
+      "name": "SEAWELL LOGISTICS CO.,LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "country": "BELGIUM",
+      "email": "OPERATIONS@SEAWELLLOGISTICS.COM",
+      "telephone": "+32 3 213 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "61103090",
+  "commodityDescription": "BED LINEN AND TOWELS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7778886",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112223",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU3334445",
+      "sealNumber": "1112223334",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5556667",
+      "sealNumber": "4445556667",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU7778889",
+      "sealNumber": "7778889990",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1112220",
+      "sealNumber": "0001112223",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU3334442",
+      "sealNumber": "2223334445",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5556664",
+      "sealNumber": "4445556668",
+      "marksAndNumbers": "SWL231023",
+      "numberOfPackages": 500,
+      "packageType": "CARTONS",
+      "cargoDescription": "BED LINEN AND TOWELS - SHIPPER'S LOAD, COUNT & WEIGHT",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "EIGHT (8 X 20 DRY)",
+    "totalPackages": 4000,
+    "totalGrossWeight": 96000.0,
+    "totalMeasurement": 200.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "SEAWELL LOGISTICS CO.,LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 213 5678"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SEAWELL LOGISTICS CO.,LTD.",
+      "address": "BEURSKAAI 100, 2000 ANTWERP, BELGIUM",
+      "telephone": "+32 3 213 5678"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED FOR FRAGILE ITEMS, VALUE: USD150,000"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

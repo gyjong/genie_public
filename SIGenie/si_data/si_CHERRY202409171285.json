@@ -1,0 +1,108 @@
+{
+  "bookingReference": "CHERRY202409171285",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "onBehalfOf": "",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "companyNumber": "1234567890"
+    },
+    "notifyParty": {
+      "name": "SUNRISE LOGISTICS BV",
+      "address": "125 MAIN STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "610910",
+  "commodityDescription": "MEN'S COTTON T-SHIRTS",
+  "containers": [
+    {
+      "containerNumber": "CMLU1234567",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "SUNRISE2345",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU8765432",
+      "sealNumber": "1020304050",
+      "marksAndNumbers": "SUNRISE6789",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "5432109876",
+      "marksAndNumbers": "SUNRISE0123",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: MEN'S COTTON T-SHIRTS",
+      "grossWeight": 12000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC) CONTAINERS",
+    "totalPackages": 3000,
+    "packageType": "CARTONS",
+    "containerType": "40'HC DRY",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 75.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "123456789012"
+    },
+    "certificateDetails": [
+      "COO-CN20241012"
+    ],
+    "originalBLDistribution": {
+      "name": "SUNRISE IMPORT & EXPORT LTD",
+      "address": "123 SUNRISE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-87654321"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "124 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31-20-12345678",
+      "fax": "+31-20-87654321"
+    },
+    "onboardDate": "2024-09-22 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROLLED CONTAINER"
+  }
+}

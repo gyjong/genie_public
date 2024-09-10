@@ -1,0 +1,90 @@
+{
+  "bookingReference": "CHERRY202410116139",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "244EWN"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE METALWORKS CO., LTD.",
+      "address": "NO. 1234, JIANGLING ROAD, NINGBO, ZHEJIANG, 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO ECONOMIC & TECHNOLOGICAL DEVELOPMENT ZONE)"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK, WC2E 9RZ",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALLOGISTICS.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS SOLUTIONS LTD",
+      "address": "123 MAIN STREET, LONDON, UK, WC2E 9RZ",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALLOGISTICS.CO.UK",
+      "telephone": "+44 20 7123 4567"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "73045100",
+  "commodityDescription": "Galvanized Steel Pipes",
+  "containers": [
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLS123",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "GALVANIZED STEEL PIPES - 2 INCH DIAMETER, 6 METERS LENGTH, AS PER INVOICE",
+      "grossWeight": 22000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLS124",
+      "numberOfPackages": 200,
+      "packageType": "BUNDLES",
+      "cargoDescription": "GALVANIZED STEEL PIPES - 2.5 INCH DIAMETER, 6 METERS LENGTH, AS PER INVOICE",
+      "grossWeight": 22500.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE X2) CONTAINERS ONLY",
+    "totalPackages": 400,
+    "packageType": "BUNDLES",
+    "totalGrossWeight": 44500.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456789",
+    "freeTimeAtDestination": "14 DAYS",
+    "onboardDate": "2024-10-18 12:00",
+    "additionalRemarks": "SHIPMENT REQUIRES TEMPERATURE CONTROL (15-25 DEGREES CELSIUS)"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "bookingReference": "CHERRY202411046292",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ALEXANDER VON HUMBOLDT",
+    "voyageNumber": "2445EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DEF Manufacturing",
+      "address": "123 Industrial Street, Ningbo, China",
+      "telephone": "+86 574 5678 9012",
+      "email": "shipping@defmanufacturing.cn"
+    },
+    "consignee": {
+      "name": "GHI Logistics Inc.",
+      "address": "124 Port Road, Rotterdam, Netherlands",
+      "taxId": "NL851234567",
+      "president": "Mr. John Smith",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 6667"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Avenue, London, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85437090",
+  "commodityDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DEF-20241104",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF-20241104",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "135790",
+      "marksAndNumbers": "DEF-20241104",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "DEF-20241104",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "369852",
+      "marksAndNumbers": "DEF-20241104",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "ELECTRIC MOTORS FOR INDUSTRIAL USE - CIF ROTTERDAM",
+      "grossWeight": 12000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) X 20 DRY CONTAINER",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN20241104001",
+    "originalBLDistribution": {
+      "name": "GHI Logistics Inc.",
+      "address": "124 Port Road, Rotterdam, Netherlands",
+      "telephone": "+31 10 555 6666",
+      "fax": "+31 10 555 6667"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Avenue, London, UK",
+      "telephone": "+44 20 7777 8888",
+      "fax": "+44 20 7777 8889"
+    },
+    "onboardDate": "2024-11-07 12:00",
+    "additionalRemarks": "GOODS PACKED IN WOODEN CRATES. VALUE: USD 50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

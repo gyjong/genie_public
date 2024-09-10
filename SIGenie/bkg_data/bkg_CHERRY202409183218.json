@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409183218",
+  "customerName": "ABC International Trading Co.",
+  "shipperName": "XYZ Manufacturing Ltd.",
+  "invoiceReceiver": "DEF Logistics Inc.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EW"
+  },
+  "cargoDetails": {
+    "hsCode": "854442",
+    "chapterDescription": "Electrical transformers, static converters (for example, rectifiers)",
+    "commodity": "TRANSFORMERS"
+  },
+  "containerDetails": {
+    "size": "40' HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-22 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-23 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-06 11:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CIF",
+  "remarks": "DANGEROUS GOODS: Class 9, UN No: 3334"
+}

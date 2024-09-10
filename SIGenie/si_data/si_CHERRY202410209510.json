@@ -1,0 +1,101 @@
+{
+  "bookingReference": "CHERRY202410209510",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "",
+      "telephone": "+86 574 8888 9999",
+      "email": "SALES@ASIAPACIFICTRADING.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "15 WATERLOO PLACE, LONDON SW1Y 4AR, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.LTD",
+      "telephone": "+44 20 7930 5000"
+    },
+    "notifyParty": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "15 WATERLOO PLACE, LONDON SW1Y 4AR, UNITED KINGDOM",
+      "country": "UNITED KINGDOM",
+      "email": "INFO@GLOBALFREIGHTSOLUTIONS.LTD",
+      "telephone": "+44 20 7930 5000"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "85437081",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APTC123",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS (W.2600MM H.2500MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "APTC456",
+      "numberOfPackages": 50,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS - SHIPPERS LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: ELECTRIC MOTORS (W.2600MM H.2500MM)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 100,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "15 WATERLOO PLACE, LONDON SW1Y 4AR, UNITED KINGDOM",
+      "telephone": "+44 20 7930 5000"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL FREIGHT SOLUTIONS LTD",
+      "address": "15 WATERLOO PLACE, LONDON SW1Y 4AR, UNITED KINGDOM",
+      "telephone": "+44 20 7930 5000"
+    },
+    "onboardDate": "2024-10-28 12:00",
+    "additionalRemarks": "Containers to be loaded on deck. B/L: Negotiable"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

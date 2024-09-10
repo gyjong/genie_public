@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202410237017",
+  "customerName": "SEAWELL LOGISTICS CO.,LTD.",
+  "shipperName": "ASIA PACIFIC SHIPPING LTD.",
+  "invoiceReceiver": "SEAWELL LOGISTICS CO.,LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2435W"
+  },
+  "cargoDetails": {
+    "hsCode": "61103090",
+    "chapterDescription": "OTHER MADE-UP TEXTILE ARTICLES",
+    "commodity": "BED LINEN AND TOWELS"
+  },
+  "containerDetails": {
+    "size": "20 DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 8
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-28 12:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-29 15:00",
+    "estimatedArrivalAtDischargePort": "2024-11-20 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "SPECIAL HANDLING REQUIRED FOR FRAGILE ITEMS, VALUE: USD150,000"
+}

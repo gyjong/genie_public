@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410268856",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24043W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURERS LTD.",
+      "address": "235, SHANGHAI ROAD, NINGBO, ZHEJIANG, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "22, DAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
+    },
+    "notifyParty": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "22, DAM STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 202 1234",
+      "fax": "+31 10 202 5678"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "871120",
+  "commodityDescription": "MOTORCYCLES",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GLOIMP2024",
+      "numberOfPackages": 10,
+      "cargoDescription": "MOTORCYCLES - CRATED",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "GLOIMP2024",
+      "numberOfPackages": 10,
+      "cargoDescription": "MOTORCYCLES - CRATED",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GLOIMP2024",
+      "numberOfPackages": 10,
+      "cargoDescription": "MOTORCYCLES - CRATED",
+      "grossWeight": 22000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (40'HC) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "PACKAGES",
+    "containerType": "40'HC",
+    "totalGrossWeight": 66000.0,
+    "totalMeasurement": 180.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "22, DAM STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL IMPORTS INC.",
+      "address": "22, DAM STREET, ROTTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-10-28 14:00",
+    "additionalRemarks": "MOTORCYCLES - CRATED, Value: USD150,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

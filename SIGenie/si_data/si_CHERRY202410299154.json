@@ -1,0 +1,116 @@
+{
+  "bookingReference": "CHERRY202410299154",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2420EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "CHINA PRECISION ENGINEERING CO.",
+      "address": "1234 SHANGHAI ROAD, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 8765432"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 8765432"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84669310",
+  "commodityDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 100,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY - SHIPPERS LOAD & COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU7890123",
+      "sealNumber": "456789",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 100,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY - SHIPPERS LOAD & COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU4567890",
+      "sealNumber": "135791",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 100,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY - SHIPPERS LOAD & COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9012345",
+      "sealNumber": "678901",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 100,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY - SHIPPERS LOAD & COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU6789012",
+      "sealNumber": "345678",
+      "marksAndNumbers": "GTS20241029",
+      "numberOfPackages": 100,
+      "cargoDescription": "MACHINERY PARTS FOR TEXTILE INDUSTRY - SHIPPERS LOAD & COUNT",
+      "grossWeight": 12000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20 DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 500,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 60000.0,
+    "totalMeasurement": 165.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-CN-20241029"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING SOLUTIONS LTD",
+      "address": "1234 CANAL STREET, AMSTERDAM, NETHERLANDS"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "DOOR-TO-DOOR DELIVERY REQUIRED. CONTACT IMPORTER BEFORE DELIVERY FOR CUSTOMS CLEARANCE."
+  }
+}

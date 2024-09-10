@@ -1,0 +1,95 @@
+{
+  "bookingReference": "CHERRY202410038684",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2420E92"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORTS LTD.",
+      "address": "123 SUNRISE ROAD, SHANGHAI, CHINA, 200001",
+      "country": "CHINA",
+      "additionalInfo": "(Pudong District)",
+      "telephone": "+86 21 5555 1234",
+      "email": "SHIPPING@ASIAIMPORT.CN"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "555 MAIN STREET, FRANKFURT, GERMANY, 60329",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADINGCORP.DE",
+      "telephone": "+49 69 9999 1234"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "555 MAIN STREET, FRANKFURT, GERMANY, 60329",
+      "country": "GERMANY",
+      "email": "INFO@GLOBALTRADINGCORP.DE",
+      "telephone": "+49 69 9999 1234"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CGLU1234567",
+      "sealNumber": "1234567890",
+      "marksAndNumbers": "TEXTILE PARTS",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CGLU7890123",
+      "sealNumber": "9876543210",
+      "marksAndNumbers": "TEXTILE PARTS",
+      "numberOfPackages": 20,
+      "packageType": "CARTONS",
+      "cargoDescription": "TEXTILE MACHINERY PARTS, SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: TEXTILE MACHINERY PARTS",
+      "grossWeight": 22000.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2 x 40' HIGH CONTAINER)",
+    "totalPackages": 40,
+    "totalGrossWeight": 44000.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "12345678901234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "555 MAIN STREET, FRANKFURT, GERMANY, 60329",
+      "telephone": "+49 69 9999 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CORP.",
+      "address": "555 MAIN STREET, FRANKFURT, GERMANY, 60329",
+      "telephone": "+49 69 9999 1234"
+    },
+    "onboardDate": "2024-10-06 14:00",
+    "additionalRemarks": "10 Days Free Time at Destination"
+  }
+}

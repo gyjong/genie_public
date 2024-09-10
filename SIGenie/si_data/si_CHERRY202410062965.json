@@ -1,0 +1,127 @@
+{
+  "bookingReference": "CHERRY202410062965",
+  "voyageDetails": {
+    "vesselName": "CMA CGM GEORG FORSTER",
+    "voyageNumber": "2427EWS"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Letter of Credit",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DELTA MANUFACTURING INC.",
+      "address": "NO. 1234 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "country": "CHINA",
+      "additionalInfo": "(NINGBO FREE TRADE ZONE)"
+    },
+    "consignee": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "DE BRIJNstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ASIAGLOBAL.NL",
+      "telephone": "+31 10 412 3456"
+    },
+    "notifyParty": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "DE BRIJNstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ASIAGLOBAL.NL",
+      "telephone": "+31 10 412 3456"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC GENERATORS",
+  "containers": [
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DELTA-1234",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC GENERATORS, MODEL: G3000, PACKAGED IN CRATES",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "DELTA-5678",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC GENERATORS, MODEL: G3000, PACKAGED IN CRATES",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "DELTA-9012",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC GENERATORS, MODEL: G3000, PACKAGED IN CRATES",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "901234",
+      "marksAndNumbers": "DELTA-5432",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC GENERATORS, MODEL: G3000, PACKAGED IN CRATES",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    },
+    {
+      "containerNumber": "CMAU2109876",
+      "sealNumber": "567890",
+      "marksAndNumbers": "DELTA-1098",
+      "numberOfPackages": 10,
+      "packageType": "CRATES",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SAID TO CONTAIN: ELECTRIC GENERATORS, MODEL: G3000, PACKAGED IN CRATES",
+      "grossWeight": 25000.0,
+      "measurement": 35.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (40' HIGH CUBE DRY CONTAINER) CONTAINERS ONLY",
+    "totalPackages": 50,
+    "packageType": "CRATES",
+    "totalGrossWeight": 125000.0,
+    "totalMeasurement": 175.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "AGTC20241006-001",
+    "hsCode": "854370",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC00123456789"
+    },
+    "certificateDetails": "CERTIFICATE OF ORIGIN AVAILABLE UPON REQUEST",
+    "originalBLDistribution": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "DE BRIJNstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ASIA GLOBAL TRADING CO.",
+      "address": "DE BRIJNstraat 10, 3011 AA ROTTERDAM, NETHERLANDS",
+      "telephone": "+31 10 412 3456"
+    },
+    "onboardDate": "2024-10-15 10:00",
+    "additionalRemarks": "Value: USD150,000"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202409247615",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2430E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ALPHA IMPORT EXPORT CO. LTD.",
+      "address": "NO. 1234, SHANGHAI ROAD, NINGBO, 315000",
+      "country": "CHINA",
+      "additionalInfo": "NINGBO FREE TRADE ZONE",
+      "telephone": "+86 574 8686 1234",
+      "email": "INFO@ALPHAIMPORTEXPORT.COM"
+    },
+    "consignee": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001",
+      "country": "UNITED STATES",
+      "email": "ORDERS@GLOBALLOGISTICSINC.COM",
+      "telephone": "+1 212 555 1212"
+    },
+    "notifyParty": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001",
+      "country": "UNITED STATES",
+      "email": "ORDERS@GLOBALLOGISTICSINC.COM",
+      "telephone": "+1 212 555 1212"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ALPHA123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES (MODEL: EM-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ALPHA456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES (MODEL: EM-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "234567",
+      "marksAndNumbers": "ALPHA789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES (MODEL: EM-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ALPHA101",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES (MODEL: EM-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU2345678",
+      "sealNumber": "432109",
+      "marksAndNumbers": "ALPHA111",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "ELECTRIC MOTORS FOR HOUSEHOLD APPLIANCES (MODEL: EM-2024)",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (5) x 40' HIGH CUBE DRY CONTAINERS",
+    "totalPackages": 500,
+    "totalGrossWeight": 110315.0,
+    "totalMeasurement": 175.5
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "COO-1234567890",
+      " fumigation certificate"
+    ],
+    "originalBLDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 1212"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL LOGISTICS INC.",
+      "address": "123 MAIN STREET, SUITE 500, NEW YORK, NY 10001",
+      "telephone": "+1 212 555 1212"
+    },
+    "onboardDate": "2024-10-05 15:00",
+    "additionalRemarks": "CARGO REQUIRES TEMPERATURE CONTROL BETWEEN 15-25 DEGREES CELSIUS. VALUE: USD500,000"
+  }
+}
