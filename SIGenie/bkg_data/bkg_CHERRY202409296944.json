@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409296944",
+  "customerName": "KAI ENTERPRISES LTD.",
+  "shipperName": "ASIA PACIFIC TECH CO.",
+  "invoiceReceiver": "KAI ENTERPRISES LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438W"
+  },
+  "cargoDetails": {
+    "hsCode": "854239",
+    "chapterDescription": "ELECTRONIC INTEGRATED CIRCUITS",
+    "commodity": "SEMICONDUCTOR CHIPS"
+  },
+  "containerDetails": {
+    "size": "40' DRY CONTAINER",
+    "type": "DRY",
+    "quantity": 6
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-06 08:00",
+    "estimatedArrivalAtDischargePort": "2024-10-27 16:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATION DURING TRANSIT"
+}

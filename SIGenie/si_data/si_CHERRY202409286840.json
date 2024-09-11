@@ -1,0 +1,119 @@
+{
+  "bookingReference": "CHERRY202409286840",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24224E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "CIF",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC MANUFACTURING INC.",
+      "address": "1234 INDUSTRIAL PARK STREET, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "100 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DZ",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-9876-5432",
+      "email": "IMPORT@GLOBALTRADING.NL",
+      "contactPerson": "ANNA VAN DER LINDEN"
+    },
+    "notifyParty": {
+      "sameAsConsignee": true
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854370",
+  "commodityDescription": "ELECTRIC MOTORS",
+  "containers": [
+    {
+      "containerNumber": "CRLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "APM-123",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL A123",
+      "grossWeight": 22000.0,
+      "measurement": 25.5
+    },
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "APM-456",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL B789",
+      "grossWeight": 21500.0,
+      "measurement": 24.8
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "345678",
+      "marksAndNumbers": "APM-789",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL C123",
+      "grossWeight": 22200.0,
+      "measurement": 25.2
+    },
+    {
+      "containerNumber": "CRLU4321098",
+      "sealNumber": "901234",
+      "marksAndNumbers": "APM-012",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL D456",
+      "grossWeight": 21800.0,
+      "measurement": 24.5
+    },
+    {
+      "containerNumber": "CRLU5678901",
+      "sealNumber": "567890",
+      "marksAndNumbers": "APM-345",
+      "numberOfPackages": 100,
+      "cargoDescription": "\"SHIPPER'S LOAD, COUNT, SOTW & SEAL\" SAID TO CONTAIN: ELECTRIC MOTORS - MODEL E789",
+      "grossWeight": 22100.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "5 X 40 HIGH CUBE CONTAINER",
+    "totalPackages": 500,
+    "totalGrossWeight": 109600.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "invoiceNumber": "GT-20241001-001",
+    "documentNumber": "20241001-002",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "100 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DZ",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-9876-5432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING LTD",
+      "address": "100 MAIN STREET, AMSTERDAM, NETHERLANDS 1012 DZ",
+      "telephone": "+31-20-1234-5678",
+      "fax": "+31-20-9876-5432"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "SPECIAL HANDLING REQUIRED, Value: USD150,000"
+  }
+}

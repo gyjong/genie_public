@@ -18,9 +18,6 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Streamlit 페이지 설정
-st.set_page_config(layout="wide")
-
 # CSS를 사용하여 폰트 적용
 st.markdown("""
     <style>
@@ -135,6 +132,50 @@ def main():
             st.subheader("Additional Information")
             additional_info = create_input_fields(selected_doc.get('additionalInformation', {}), 'additionalInformation.')
 
+        # Special Cargo 정보 추가 및 수정 가능하게 변경
+        st.write("---")
+        st.subheader("Special Cargo Information")
+
+        # Out of Gauge Dimensions
+        oog = selected_doc.get('outOfGaugeDimensions')
+        if oog:
+            st.write("Out of Gauge Dimensions:")
+            oog_updated = {}
+            for key in ['length', 'width', 'height', 'overWidth', 'overHeight']:
+                value = oog.get(key, '')
+                if value == 'In-Gauge':
+                    oog_updated[key] = st.text_input(f"{key.capitalize()} (mm)", value=value)
+                else:
+                    try:
+                        numeric_value = float(value) if value else 0
+                        oog_updated[key] = st.number_input(f"{key.capitalize()} (mm)", value=numeric_value)
+                    except ValueError:
+                        oog_updated[key] = st.text_input(f"{key.capitalize()} (mm)", value=value)
+
+        # Dangerous Goods
+        dg = selected_doc.get('dangerousGoods')
+        if dg:
+            st.write("Dangerous Goods:")
+            dg_updated = {}
+            dg_updated['containerNumber'] = st.text_input("Container Number (DG)", value=dg.get('containerNumber', ''))
+            dg_updated['unClass'] = st.text_input("UN Class", value=dg.get('unClass', ''))
+            dg_updated['unCode'] = st.text_input("UN Code", value=dg.get('unCode', ''))
+            dg_updated['hsCode'] = st.text_input("HS Code (DG)", value=dg.get('hsCode', ''))
+            dg_updated['flashPoint'] = st.text_input("Flash Point", value=dg.get('flashPoint', ''))
+            dg_updated['additionalInfo'] = st.text_area("Additional Info (DG)", value=dg.get('additionalInfo', ''))
+
+        # Reefer Settings
+        rs = selected_doc.get('reeferSettings')
+        if rs:
+            st.write("Reefer Settings:")
+            rs_updated = {}
+            rs_updated['containerNumber'] = st.text_input("Container Number (Reefer)", value=rs.get('containerNumber', ''))
+            rs_updated['temperature'] = st.text_input("Temperature", value=rs.get('temperature', ''))
+            rs_updated['minTemperature'] = st.text_input("Min Temperature", value=rs.get('minTemperature', ''))
+            rs_updated['maxTemperature'] = st.text_input("Max Temperature", value=rs.get('maxTemperature', ''))
+            rs_updated['ventilation'] = st.text_input("Ventilation", value=rs.get('ventilation', ''))
+            rs_updated['humidity'] = st.text_input("Humidity", value=rs.get('humidity', ''))
+
         if st.button("Update"):
             # 업데이트된 데이터 수집
             updated_data = {
@@ -148,11 +189,22 @@ def main():
                 'commodityDescription': commodity_description,
                 'containers': containers,
                 'totalShipment': total_shipment,
-                'additionalInformation': additional_info
+                'additionalInformation': additional_info,
             }
+            
+            # 특수화물 정보가 있을 경우에만 업데이트 데이터에 추가
+            if oog:
+                updated_data['outOfGaugeDimensions'] = oog_updated
+            if dg:
+                updated_data['dangerousGoods'] = dg_updated
+            if rs:
+                updated_data['reeferSettings'] = rs_updated
+
             # MongoDB 업데이트
             update_mongodb(selected_doc['_id'], updated_data)
             st.success("Document updated successfully!")
+
+    # Footer 제거
 
 if __name__ == "__main__":
     main()

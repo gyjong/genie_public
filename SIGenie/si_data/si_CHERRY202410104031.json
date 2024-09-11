@@ -1,0 +1,112 @@
+{
+  "bookingReference": "CHERRY202410104031",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2434E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "DHL GLOBAL FORWARDING (SHANGHAI)",
+      "address": "22nd Floor, Shanghai World Financial Center, 100 Century Avenue, Pudong, Shanghai, 200120, CHINA",
+      "telephone": "+86-21-6888-8888",
+      "fax": "+86-21-6888-8887"
+    },
+    "consignee": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE)",
+      "address": "12 Kallang Avenue, #06-01/02, Singapore 208716",
+      "telephone": "+65-6577-7777",
+      "fax": "+65-6577-7778"
+    },
+    "notifyParty": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE)",
+      "address": "12 Kallang Avenue, #06-01/02, Singapore 208716",
+      "telephone": "+65-6577-7777",
+      "fax": "+65-6577-7778"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "84798990",
+  "commodityDescription": "INDUSTRIAL PACKAGING EQUIPMENT",
+  "containers": [
+    {
+      "containerNumber": "CMAU2315768",
+      "sealNumber": "123456",
+      "marksAndNumbers": "DHL GF SHANG",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "INDUSTRIAL PACKAGING EQUIPMENT - SHIPMENT OF 3 X 20' DRY CONTAINERS",
+      "grossWeight": 18000.0,
+      "measurement": 36.0
+    },
+    {
+      "containerNumber": "CMAU7894562",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DHL GF SHANG",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "INDUSTRIAL PACKAGING EQUIPMENT - SHIPMENT OF 3 X 20' DRY CONTAINERS",
+      "grossWeight": 18000.0,
+      "measurement": 36.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "987654",
+      "marksAndNumbers": "DHL GF SHANG",
+      "numberOfPackages": 10,
+      "packageType": "CARTONS",
+      "cargoDescription": "INDUSTRIAL PACKAGING EQUIPMENT - SHIPMENT OF 3 X 20' DRY CONTAINERS",
+      "grossWeight": 18000.0,
+      "measurement": 36.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (3) X 20' DRY CONTAINER(S)",
+    "totalPackages": 30,
+    "packageType": "CARTONS",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 108.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567890",
+    "salesOrderNumber": "SO9876543210",
+    "lcDetails": {},
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE)",
+      "address": "12 Kallang Avenue, #06-01/02, Singapore 208716",
+      "telephone": "+65-6577-7777",
+      "fax": "+65-6577-7778"
+    },
+    "originalInvoiceDistribution": {
+      "name": "DHL GLOBAL FORWARDING (SINGAPORE)",
+      "address": "12 Kallang Avenue, #06-01/02, Singapore 208716",
+      "telephone": "+65-6577-7777",
+      "fax": "+65-6577-7778"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "DOOR TO DOOR DELIVERY REQUIRED. CARGO REQUIRES SPECIAL HANDLING - FRAGILE."
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

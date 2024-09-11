@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202410089077",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2445EWR"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "SINGAPORE",
+    "portOfLoading": "SINGAPORE",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "SINGAPORE"
+  },
+  "documentationDetails": {
+    "blType": "SEA WAYBILL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "123 Any Street, Singapore 123456",
+      "country": "SINGAPORE",
+      "additionalInfo": "Contact Person: John Doe"
+    },
+    "consignee": {
+      "name": "ABC IMPORTS & EXPORTS LTD.",
+      "address": "456 Main Street, Hamburg 20095, GERMANY",
+      "country": "GERMANY",
+      "email": "info@abcimports.de",
+      "telephone": "+49 40 12345678"
+    },
+    "notifyParty": {
+      "name": "DEF GLOBAL LOGISTICS INC.",
+      "address": "789 Logistics Way, Hamburg 22222, GERMANY",
+      "country": "GERMANY",
+      "email": "info@deflogistics.com",
+      "telephone": "+49 40 98765432"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CMAU5987632",
+      "sealNumber": "123456",
+      "marksAndNumbers": "XYZ123",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "ONE TRUCK",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "XYZ456",
+      "numberOfPackages": 1,
+      "packageType": "UNITS",
+      "cargoDescription": "ONE TRUCK",
+      "grossWeight": 18000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CONTAINER X2)",
+    "totalPackages": 2,
+    "packageType": "UNITS",
+    "totalGrossWeight": 36000.0,
+    "totalMeasurement": 80.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO123456",
+    "hsCode": "870323",
+    "freeTimeAtDestination": "14 DAYS",
+    "lcDetails": {
+      "lcNumber": "LC1234567890"
+    },
+    "certificateDetails": "PHYTO CERTIFICATE REQUIRED",
+    "originalBLDistribution": {
+      "name": "DEF GLOBAL LOGISTICS INC.",
+      "address": "789 Logistics Way, Hamburg 22222, GERMANY",
+      "telephone": "+49 40 98765432"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORTS & EXPORTS LTD.",
+      "address": "456 Main Street, Hamburg 20095, GERMANY",
+      "telephone": "+49 40 12345678"
+    },
+    "onboardDate": "2024-10-15 14:00",
+    "additionalRemarks": "Temperature setting: 5 degrees Celsius, Requires fumigation"
+  }
+}

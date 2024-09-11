@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409189125",
+  "customerName": "SUNRISE TRADING CO.",
+  "shipperName": "SUNRISE TRADING CO.",
+  "invoiceReceiver": "SUNRISE TRADING JAPAN LTD.",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "244EAW"
+  },
+  "cargoDetails": {
+    "hsCode": "847989",
+    "chapterDescription": "Machinery for working metal, except machinery of heading 8458, 8459, 8460, 8461, or 8462; parts and accessories thereof",
+    "commodity": "METALWORKING MACHINE PARTS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CONTAINER",
+    "type": "DRY",
+    "quantity": 2
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-25 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-26 08:00",
+    "estimatedArrivalAtDischargePort": "2024-11-16 10:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "transportationTerm": "CIF",
+  "remarks": "D/G, Class: 8, UN No: 3077"
+}

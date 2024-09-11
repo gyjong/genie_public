@@ -1,0 +1,128 @@
+{
+  "bookingReference": "CHERRY202411033121",
+  "voyageDetails": {
+    "vesselName": "CMA CGM BOUGAINVILLE",
+    "voyageNumber": "2409EWL"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "COLLECT",
+    "freightPayableAt": "ROTTERDAM, NETHERLANDS"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ GLOBAL TRADING",
+      "onBehalfOf": "",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT CO. LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "companyNumber": "123456789"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT CO. LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "94036090",
+  "commodityDescription": "WOODEN CHAIRS",
+  "containers": [
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU7654321",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU4321098",
+      "sealNumber": "432109",
+      "marksAndNumbers": "ABC101",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "876543",
+      "marksAndNumbers": "ABC111",
+      "numberOfPackages": 100,
+      "packageType": "CARTONS",
+      "cargoDescription": "WOODEN CHAIRS PACKED IN INDIVIDUAL CARTONS",
+      "grossWeight": 10000.0,
+      "measurement": 25.0,
+      "additionalInfo": ""
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "FIVE (20' DRY CONTAINER) CONTAINER ONLY",
+    "totalPackages": 500,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 50000.0,
+    "totalMeasurement": 125.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890123"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT CO. LTD.",
+      "address": "456 WAREHOUSE STREET, ROTTERDAM, NETHERLANDS",
+      "telephone": "+31-10-1234567",
+      "fax": "+31-10-9876543"
+    },
+    "originalInvoiceDistribution": {
+      "name": "XYZ GLOBAL TRADING",
+      "address": "123 TRADE STREET, SHANGHAI, CHINA",
+      "telephone": "+86-21-12345678",
+      "fax": "+86-21-98765432"
+    },
+    "onboardDate": "2024-11-05 12:00",
+    "additionalRemarks": "GOODS PACKED IN INDIVIDUAL CARTONS. VALUE: USD 25,000"
+  }
+}

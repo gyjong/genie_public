@@ -1,0 +1,146 @@
+{
+  "bookingReference": "CHERRY202409296944",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2438W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC TECH CO.",
+      "address": "123 TECH PARK BLVD, NINGBO, CHINA",
+      "telephone": "+86 574 8686 1234",
+      "email": "SHIPMENT@ASIAPACIFICTECH.COM"
+    },
+    "consignee": {
+      "name": "KAI ENTERPRISES LTD.",
+      "address": "124 CANAL ST, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL8523456789",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "notifyParty": {
+      "name": "KAI ENTERPRISES LTD.",
+      "address": "124 CANAL ST, AMSTERDAM, NETHERLANDS",
+      "taxId": "NL8523456789",
+      "president": "MR. PETER VAN DER LINDEN",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "854239",
+  "commodityDescription": "SEMICONDUCTOR CHIPS",
+  "containers": [
+    {
+      "containerNumber": "CMAU7856321",
+      "sealNumber": "123456",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "345678",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU2468013",
+      "sealNumber": "567890",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU5432109",
+      "sealNumber": "901234",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    },
+    {
+      "containerNumber": "CMAU8765432",
+      "sealNumber": "135790",
+      "marksAndNumbers": "AS PER ATTACHED RIDER",
+      "numberOfPackages": 1000,
+      "packageType": "BOXES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: CIF, ROTTERDAM, NETHERLANDS SEMICONDUCTOR CHIPS",
+      "grossWeight": 25000.0,
+      "measurement": 40.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "SIX (6 X 40 DRY) CONTAINERS",
+    "totalPackages": 6000,
+    "packageType": "BOXES",
+    "containerType": "40 DRY",
+    "totalGrossWeight": 150000.0,
+    "totalMeasurement": 240.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0123456789"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "KAI ENTERPRISES LTD.",
+      "address": "124 CANAL ST, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "originalInvoiceDistribution": {
+      "name": "KAI ENTERPRISES LTD.",
+      "address": "124 CANAL ST, AMSTERDAM, NETHERLANDS",
+      "telephone": "+31 20 6789012",
+      "fax": "+31 20 6789013"
+    },
+    "onboardDate": "2024-10-05 14:00",
+    "additionalRemarks": "TEMPERATURE SENSITIVE CARGO, REQUIRES REFRIGERATION DURING TRANSIT"
+  },
+  "outOfGaugeDimensions": {
+    "length": 5400,
+    "width": 2600,
+    "height": 2500,
+    "overWidth": 100,
+    "overHeight": 500
+  }
+}

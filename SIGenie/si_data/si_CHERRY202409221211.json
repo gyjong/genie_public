@@ -1,0 +1,97 @@
+{
+  "bookingReference": "CHERRY202409221211",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "243W74E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "ASIA PACIFIC IMPORT & EXPORT INC.",
+      "address": "233 XINHUANG ROAD, SHANGHAI, 200000, CHINA",
+      "country": "CHINA",
+      "additionalInfo": "(ZHANGJIANG DISTRICT)",
+      "telephone": "+86 21 6335 1234",
+      "email": "SALES@APIE.COM"
+    },
+    "consignee": {
+      "name": "ZENITH GLOBAL TRADING CO. LTD",
+      "address": "123 WATERLOO STREET, ROTTERDAM, 3012 BB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ZENITHGLOBAL.NL",
+      "telephone": "+31 10 206 1234"
+    },
+    "notifyParty": {
+      "name": "ZENITH GLOBAL TRADING CO. LTD",
+      "address": "123 WATERLOO STREET, ROTTERDAM, 3012 BB, NETHERLANDS",
+      "country": "NETHERLANDS",
+      "email": "INFO@ZENITHGLOBAL.NL",
+      "telephone": "+31 10 206 1234"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "84798990",
+  "commodityDescription": "TEXTILE MACHINERY PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT. TEXTILE MACHINERY PARTS AS PER PACKING LIST.",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    },
+    {
+      "containerNumber": "CRLU7890123",
+      "sealNumber": "NONE",
+      "marksAndNumbers": "NO MARK",
+      "numberOfPackages": 10,
+      "packageType": "PACKAGES",
+      "cargoDescription": "SHIPPER'S LOAD, COUNT & WEIGHT. TEXTILE MACHINERY PARTS AS PER PACKING LIST.",
+      "grossWeight": 22063.0,
+      "measurement": 35.1
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (2) x 40' HIGH CUBE CONTAINERS",
+    "totalPackages": 20,
+    "totalGrossWeight": 44126.0,
+    "totalMeasurement": 70.2
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [
+      "FUMIGATION CERTIFICATE"
+    ],
+    "originalBLDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO. LTD",
+      "address": "123 WATERLOO STREET, ROTTERDAM, 3012 BB, NETHERLANDS",
+      "telephone": "+31 10 206 1234"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ZENITH GLOBAL TRADING CO. LTD",
+      "address": "123 WATERLOO STREET, ROTTERDAM, 3012 BB, NETHERLANDS",
+      "telephone": "+31 10 206 1234"
+    },
+    "onboardDate": "2024-09-25 15:00",
+    "additionalRemarks": "Shipper's load & count. Fumigation certificate required."
+  }
+}

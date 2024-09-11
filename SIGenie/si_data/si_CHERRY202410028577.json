@@ -1,0 +1,104 @@
+{
+  "bookingReference": "CHERRY202410028577",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2435EW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE INDUSTRIES INC.",
+      "address": "2345 SUNRISE AVE, SHANGHAI, CHINA 200000",
+      "telephone": "+86-21-5555-1234",
+      "fax": "+86-21-5555-5678"
+    },
+    "consignee": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "1234 MAIN ST, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "notifyParty": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "1234 MAIN ST, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "870323",
+  "commodityDescription": "TRUCKS",
+  "containers": [
+    {
+      "containerNumber": "CRLU2992659",
+      "sealNumber": "706716",
+      "marksAndNumbers": "SUNRISE123",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: TWO TRUCKS FOR INDUSTRIAL USE",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    },
+    {
+      "containerNumber": "CRLU2992660",
+      "sealNumber": "706717",
+      "marksAndNumbers": "SUNRISE124",
+      "numberOfPackages": 2,
+      "packageType": "UNITS",
+      "cargoDescription": "SHIPPER'S LOAD AND COUNT, SEAL SAID TO CONTAIN: TWO TRUCKS FOR INDUSTRIAL USE",
+      "grossWeight": 20000.0,
+      "measurement": 60.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' STANDARD DRY CONTAINERS)",
+    "totalPackages": 4,
+    "packageType": "UNITS",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 120.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "GT20241002",
+    "salesOrderNumber": "SI20241002",
+    "lcDetails": {
+      "lcNumber": "LC20241002"
+    },
+    "certificateDetails": "CN20241002",
+    "originalBLDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "1234 MAIN ST, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "originalInvoiceDistribution": {
+      "name": "GLOBAL TRADING CO. LTD",
+      "address": "1234 MAIN ST, ROTTERDAM, NETHERLANDS 3000AA",
+      "telephone": "+31-10-1234-5678",
+      "fax": "+31-10-1234-9012"
+    },
+    "onboardDate": "2024-10-15 12:00",
+    "additionalRemarks": "Two 40' Standard Dry Containers. Trucks for industrial use."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "bookingReference": "CHERRY202410183659",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2423EAW"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "HAMBURG, GERMANY",
+    "placeOfDelivery": "HAMBURG, GERMANY"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+    },
+    "consignee": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "456 SUNRISE STREET, HAMBURG, GERMANY",
+      "telephone": "+49 40 12345678",
+      "fax": "+49 40 98765432"
+    },
+    "notifyParty": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "847160",
+  "commodityDescription": "COMPUTER HARDWARE",
+  "containers": [
+    {
+      "containerNumber": "CMAU7896543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "SRTC123",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER HARDWARE",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU1234567",
+      "sealNumber": "789012",
+      "marksAndNumbers": "SRTC456",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER HARDWARE",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    },
+    {
+      "containerNumber": "CMAU9876543",
+      "sealNumber": "246801",
+      "marksAndNumbers": "SRTC789",
+      "numberOfPackages": 100,
+      "cargoDescription": "COMPUTER HARDWARE",
+      "grossWeight": 18000.0,
+      "measurement": 33.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20 DRY) CONTAINERS ONLY",
+    "totalPackages": 300,
+    "packageType": "PACKAGES",
+    "containerType": "20 DRY",
+    "totalGrossWeight": 54000.0,
+    "totalMeasurement": 99.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "123 SUNRISE AVENUE, NINGBO, CHINA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "SUNRISE TRADING CO.",
+      "address": "456 SUNRISE STREET, HAMBURG, GERMANY"
+    },
+    "onboardDate": "2024-10-25 12:00",
+    "additionalRemarks": "Temperature Controlled, Value: USD300,000"
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bookingReference": "CHERRY202411089515",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "241023W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "Sea Waybill",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "GLOBAL TRADING CO.",
+      "address": "123 SHANGHAI ROAD, NINGBO, CHINA 315000",
+      "telephone": "+86-574-8888-9999",
+      "fax": "+86-574-8888-1111"
+    },
+    "consignee": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    }
+  },
+  "shippingTerm": "CFR",
+  "hsCode": "854442",
+  "commodityDescription": "TRANSFORMERS",
+  "containers": [
+    {
+      "containerNumber": "CMLU9876543",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "TRANSFORMERS AS DESCRIBED ON INVOICE",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU1122334",
+      "sealNumber": "654321",
+      "marksAndNumbers": "ABC456",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "TRANSFORMERS AS DESCRIBED ON INVOICE",
+      "grossWeight": 12000,
+      "measurement": 25
+    },
+    {
+      "containerNumber": "CMLU7788990",
+      "sealNumber": "987654",
+      "marksAndNumbers": "ABC789",
+      "numberOfPackages": 10,
+      "packageType": "BOXES",
+      "cargoDescription": "TRANSFORMERS AS DESCRIBED ON INVOICE",
+      "grossWeight": 12000,
+      "measurement": 25
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "THREE (20' DRY) CONTAINERS ONLY",
+    "totalPackages": 30,
+    "packageType": "BOXES",
+    "totalGrossWeight": 36000,
+    "totalMeasurement": 75
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "ABC20241108",
+    "salesOrderNumber": "123456789",
+    "lcDetails": {
+      "lcNumber": "ABC1234567890"
+    },
+    "certificateDetails": "CN20241108001",
+    "originalBLDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORT EXPORT LTD",
+      "address": "124 AMSTERDAM STREET, ROTTERDAM, NETHERLANDS 3011 AA",
+      "telephone": "+31-10-7777-8888",
+      "fax": "+31-10-7777-9999"
+    },
+    "onboardDate": "2024-11-15 12:00",
+    "additionalRemarks": "Value: USD30,000. Consignee to arrange customs clearance and inland transportation."
+  },
+  "reeferSettings": {
+    "containerNumber": "CRLU9908625",
+    "temperature": "+5.0\u00baC",
+    "minTemperature": "+2.0\u00b0C",
+    "maxTemperature": "+7.0\u00b0C",
+    "ventilation": "Closed",
+    "humidity": "50% ~ 60%"
+  }
+}

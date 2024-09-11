@@ -1,0 +1,34 @@
+{
+  "bookingReference": "CHERRY202409286840",
+  "customerName": "GLOBAL TRADING LTD",
+  "shipperName": "ASIA PACIFIC MANUFACTURING INC.",
+  "invoiceReceiver": "GLOBAL TRADING LTD",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "24224E"
+  },
+  "cargoDetails": {
+    "hsCode": "854370",
+    "chapterDescription": "ELECTRICAL MACHINES AND APPARATUS HAVING INDIVIDUAL FUNCTIONS, NOT SPECIFIED OR INCLUDED ELSEWHERE IN THIS CHAPTER, N.E.C. IN SET 8543",
+    "commodity": "ELECTRIC MOTORS"
+  },
+  "containerDetails": {
+    "size": "40 HIGH CUBE CONTAINER",
+    "type": "DRY",
+    "quantity": 5
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "scheduleDetails": {
+    "estimatedArrivalAtLoadingPort": "2024-10-05 14:00",
+    "estimatedDepartureFromLoadingPort": "2024-10-06 18:00",
+    "estimatedArrivalAtDischargePort": "2024-10-28 08:00"
+  },
+  "emptyContainerPickupLocation": "NINGBO, CHINA",
+  "shippingTerm": "CIF",
+  "remarks": "SPECIAL HANDLING REQUIRED, Value: USD150,000"
+}

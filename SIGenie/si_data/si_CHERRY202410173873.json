@@ -1,0 +1,106 @@
+{
+  "bookingReference": "CHERRY202410173873",
+  "voyageDetails": {
+    "vesselName": "CMA CGM VASCO DE GAMA",
+    "voyageNumber": "241023E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "Prepaid",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ TRADING CO.",
+      "address": "No. 123, Changjiang Road, Ningbo, Zhejiang, 315000, China",
+      "country": "CHINA",
+      "additionalInfo": ""
+    },
+    "consignee": {
+      "name": "ABC IMPORTS & EXPORTS INC.",
+      "address": "123 Main Street, Amsterdam, 1012 DE, Netherlands",
+      "country": "NETHERLANDS",
+      "email": "info@abcexports.nl",
+      "telephone": "+31 20 1234567"
+    },
+    "notifyParty": {
+      "name": "ABC IMPORTS & EXPORTS LTD",
+      "address": "1234 London Road, London, SW1A 1AA, United Kingdom",
+      "country": "UNITED KINGDOM",
+      "email": "info@abcimports.co.uk",
+      "telephone": "+44 20 76543210"
+    }
+  },
+  "shippingTerm": "CY / CY",
+  "hsCode": "870899",
+  "commodityDescription": "MOTORCYCLE PARTS",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "ABC123",
+      "numberOfPackages": 100,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTORCYCLE PARTS - PISTONS, CYLINDERS, AND HEAD GASKETS",
+      "grossWeight": 18000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "654321",
+      "marksAndNumbers": "DEF456",
+      "numberOfPackages": 80,
+      "packageType": "BOXES",
+      "cargoDescription": "MOTORCYCLE PARTS - CHAIN, SPROCKETS, AND BRAKE PADS",
+      "grossWeight": 16000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40'HC X2) CONTAINERS ONLY",
+    "totalPackages": 180,
+    "packageType": "BOXES",
+    "totalGrossWeight": 34000.0,
+    "totalMeasurement": 50.0
+  },
+  "additionalInformation": {
+    "purchaseOrderNumber": "PO1234567",
+    "hsCode": "870899",
+    "freeTimeAtDestination": "7 DAYS",
+    "lcDetails": {
+      "lcNumber": "1234567890"
+    },
+    "certificateDetails": "CN1234567890",
+    "originalBLDistribution": {
+      "name": "ABC IMPORTS & EXPORTS LTD",
+      "address": "1234 London Road, London, SW1A 1AA, United Kingdom",
+      "telephone": "+44 20 76543210"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC IMPORTS & EXPORTS INC.",
+      "address": "123 Main Street, Amsterdam, 1012 DE, Netherlands",
+      "telephone": "+31 20 1234567",
+      "fax": "+31 20 9876543"
+    },
+    "onboardDate": "2024-10-25 14:00",
+    "additionalRemarks": "Requires pre-cooling, Class: 9, UN No: 3334"
+  },
+  "dangerousGoods": {
+    "containerNumber": "CRLU2992659",
+    "unClass": "3",
+    "unCode": "1263",
+    "hsCode": "3208.90",
+    "flashPoint": "Below 250 \u00b0C",
+    "additionalInfo": "Attached MSDS"
+  }
+}

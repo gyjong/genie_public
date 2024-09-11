@@ -18,9 +18,6 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Streamlit 페이지 설정
-st.set_page_config(layout="wide")
-
 # CSS를 사용하여 폰트 적용
 st.markdown("""
     <style>
@@ -121,6 +118,8 @@ def main():
             # MongoDB 업데이트
             update_mongodb(selected_doc['_id'], updated_data)
             st.success("Document updated successfully!")
+
+    # Footer 제거
 
 if __name__ == "__main__":
     main()

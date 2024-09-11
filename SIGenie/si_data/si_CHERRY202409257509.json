@@ -1,0 +1,179 @@
+{
+  "bookingReference": "CHERRY202409257509",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432W"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "ORIGINAL",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 0
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "XYZ Manufacturing Inc.",
+      "address": "123 Industrial Blvd, Ningbo, China",
+      "telephone": "+86 574 8888 9999",
+      "email": "info@xyzmanufacturing.com"
+    },
+    "consignee": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Center Rd, Rotterdam, Netherlands",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "orders@abctrading.nl"
+    },
+    "notifyParty": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Center Rd, Rotterdam, Netherlands",
+      "telephone": "+31 10 2222 3333",
+      "fax": "+31 10 2222 4444",
+      "email": "orders@abctrading.nl"
+    }
+  },
+  "shippingTerm": "CIF",
+  "hsCode": "61103000",
+  "commodityDescription": "Cotton T-shirts",
+  "containers": [
+    {
+      "containerNumber": "CMAU5678901",
+      "sealNumber": "123456789",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678902",
+      "sealNumber": "987654321",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678903",
+      "sealNumber": "135792468",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678904",
+      "sealNumber": "246813579",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678905",
+      "sealNumber": "357924681",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678906",
+      "sealNumber": "468135792",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678907",
+      "sealNumber": "579246813",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678908",
+      "sealNumber": "681357924",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678909",
+      "sealNumber": "792468135",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    },
+    {
+      "containerNumber": "CMAU5678910",
+      "sealNumber": "813579246",
+      "marksAndNumbers": "ABC TRADING CO LTD",
+      "numberOfPackages": 1000,
+      "packageType": "CARTONS",
+      "cargoDescription": "Cotton T-shirts packed on pallets",
+      "grossWeight": 15000.0,
+      "measurement": 25.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TEN (10) X 20 DRY CONTAINER",
+    "totalPackages": 10000,
+    "packageType": "CARTONS",
+    "containerType": "20 DRY CONTAINER",
+    "totalGrossWeight": 150000.0,
+    "totalMeasurement": 250.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "ABC123456"
+    },
+    "certificateDetails": "1234567890",
+    "originalBLDistribution": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Center Rd, Rotterdam, Netherlands"
+    },
+    "originalInvoiceDistribution": {
+      "name": "ABC Trading Co. Ltd.",
+      "address": "456 Trade Center Rd, Rotterdam, Netherlands"
+    },
+    "onboardDate": "2024-10-05 12:00",
+    "additionalRemarks": "Cartons packed on pallets. Value: USD 50,000"
+  },
+  "outOfGaugeDimensions": {
+    "length": 11200,
+    "width": 2100,
+    "height": 2561,
+    "overHeight": 561
+  }
+}

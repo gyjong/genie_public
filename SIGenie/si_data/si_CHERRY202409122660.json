@@ -1,0 +1,93 @@
+{
+  "bookingReference": "CHERRY202409122660",
+  "voyageDetails": {
+    "vesselName": "CMA CGM ZHENG HE",
+    "voyageNumber": "2432E"
+  },
+  "routeDetails": {
+    "placeOfReceipt": "NINGBO, CHINA",
+    "portOfLoading": "NINGBO, CHINA",
+    "portOfDischarge": "ROTTERDAM, NETHERLANDS",
+    "placeOfDelivery": "ROTTERDAM, NETHERLANDS"
+  },
+  "paymentDetails": {
+    "freightPaymentTerms": "PREPAID",
+    "freightPayableAt": "NINGBO, CHINA"
+  },
+  "documentationDetails": {
+    "blType": "MASTER",
+    "numberOfOriginalBLs": 3,
+    "numberOfCopies": 2
+  },
+  "partyDetails": {
+    "shipper": {
+      "name": "Textile Solutions Ltd.",
+      "address": "238, Huating Road, Ningbo, Zhejiang, China"
+    },
+    "consignee": {
+      "name": "Global Imports LLC",
+      "address": "123 Main Street, Rotterdam, Netherlands",
+      "telephone": "+31 10 234 5678",
+      "fax": "+31 10 234 5679"
+    },
+    "notifyParty": {
+      "name": "Global Traders Inc.",
+      "address": "456 Elm Street, New York, USA",
+      "telephone": "+1 212 555 1212",
+      "fax": "+1 212 555 1213"
+    }
+  },
+  "shippingTerm": "CY/CY",
+  "hsCode": "551321",
+  "commodityDescription": "Cotton Fabric",
+  "containers": [
+    {
+      "containerNumber": "CRLU1234567",
+      "sealNumber": "123456",
+      "marksAndNumbers": "GT202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "COTTON FABRIC - 500 ROLLS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    },
+    {
+      "containerNumber": "CRLU8765432",
+      "sealNumber": "765432",
+      "marksAndNumbers": "GT202410",
+      "numberOfPackages": 500,
+      "cargoDescription": "COTTON FABRIC - 500 ROLLS",
+      "grossWeight": 20000.0,
+      "measurement": 68.0
+    }
+  ],
+  "totalShipment": {
+    "totalContainers": "TWO (40' HIGH CUBE) CONTAINERS ONLY",
+    "totalPackages": 1000,
+    "packageType": "ROLLS",
+    "containerType": "40'HC",
+    "totalGrossWeight": 40000.0,
+    "totalMeasurement": 136.0
+  },
+  "additionalInformation": {
+    "lcDetails": {
+      "lcNumber": "0000201033738"
+    },
+    "certificateDetails": [],
+    "originalBLDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "456 Elm Street, New York, USA"
+    },
+    "originalInvoiceDistribution": {
+      "name": "Global Traders Inc.",
+      "address": "456 Elm Street, New York, USA"
+    },
+    "onboardDate": "2024-10-20 14:00",
+    "additionalRemarks": "Pre-shipment inspection required"
+  },
+  "outOfGaugeDimensions": {
+    "length": "In-Gauge",
+    "width": "In-Gauge",
+    "height": "In-Gauge",
+    "additionalInfo": "In-gauge in O/T Container"
+  }
+}

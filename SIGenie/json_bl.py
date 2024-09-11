@@ -13,9 +13,6 @@ client = MongoClient(MONGO_URI)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-# Set page to wide mode
-st.set_page_config(layout="wide")
-
 # Custom CSS to style the BL form
 custom_css = """
 <style>
@@ -185,11 +182,11 @@ def generate_container_rows(containers, doc):
             <th>MEASUREMENT (CBM)</th>
         </tr>
         <tr>
-            <td>{containers[0]['marksAndNumbers']}</td>
-            <td>{doc['totalShipment']['totalPackages']} {containers[0]['packageType']}</td>
-            <td>{doc['commodityDescription']}</td>
-            <td>{doc['totalShipment']['totalGrossWeight']}</td>
-            <td>{doc['totalShipment']['totalMeasurement']}</td>
+            <td>{containers[0].get('marksAndNumbers', '')}</td>
+            <td>{doc['totalShipment']['totalPackages']} {containers[0].get('packageType', '')}</td>
+            <td>{doc.get('commodityDescription', '')}</td>
+            <td>{doc['totalShipment'].get('totalGrossWeight', '')}</td>
+            <td>{doc['totalShipment'].get('totalMeasurement', '')}</td>
         </tr>
     </table>
     <h3>CONTAINER INFORMATION</h3>
@@ -211,8 +208,8 @@ def generate_container_rows(containers, doc):
             <td>{container.get('sealNumber', '')}</td>
             <td>{container.get('numberOfPackages', '')} {container.get('packageType', '')}</td>
             <td>SHIPPER'S LOAD, COUNT & WEIGHT, SOTW & SEAL SAID TO CONTAIN: {container.get('cargoDescription', '')}</td>
-            <td>{container.get('grossWeight', ''):.3f}</td>
-            <td>{container.get('measurement', ''):.4f}</td>
+            <td>{container.get('grossWeight', '')}</td>
+            <td>{container.get('measurement', '')}</td>
         </tr>
         """
     table_html += "</table>"
@@ -246,6 +243,8 @@ def main():
         display_bl_form(selected_doc)
     else:
         st.warning("No document found for the selected booking reference.")
+
+    # Footer 제거
 
 if __name__ == "__main__":
     main()
