@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lora fine-tuning"
+version = "0.1.0"
+description = ""
+authors = ["Kwang Yong Jung <gyjong@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.4.0"
+mlx = "^0.17.1"
+mlx-lm = "^0.17.1"
+transformers = "^4.44.2"
+huggingface-hub = "^0.24.6"
+datasets = "^2.21.0"
+pypdf2 = "^3.0.1"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
