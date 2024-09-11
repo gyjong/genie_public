@@ -16,3 +16,7 @@ poetry.lock
 .bin
 /rag/db
 *.ipynb
+
+
+poetry.lock
+pyproject.toml
