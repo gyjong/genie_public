@@ -18,5 +18,10 @@ poetry.lock
 *.ipynb
 
 
-poetry.lock
-*.DS_Store
+# OS files
+.DS_Store
+Thumbs.db
+
+# Poetry lock file
+*.lock
+.DS_Store
