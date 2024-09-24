@@ -1,0 +1,8 @@
+*.DS_Store
+*.pdf
+*backup.*
+poetry.lock
+*.drawio
+
+
+
